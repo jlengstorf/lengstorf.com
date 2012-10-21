@@ -1,0 +1,40 @@
+<?php
+/**
+ * Functions and definitions for lengstorf.com
+ *
+ * Extends RotorWash where necessary to implement site-specific features.
+ *
+ * @package     WordPress
+ * @subpackage  lengstorf.com
+ * @since       1.0
+ * @see         http://github.com/copterlabs/rotorwash.git
+ */
+
+/**
+ * Initializes the theme
+ * 
+ * @return void
+ * @since  1.0
+ */
+function jl_init(  )
+{
+    add_action('wp_enqueue_scripts', 'jl_enqueue_scripts');
+}
+add_action('after_setup_theme', 'jl_init');
+
+/**
+ * Enqueues scripts for the theme
+ *
+ * @return void
+ * @since  1.0
+ */
+function jl_enqueue_scripts(  )
+{
+    wp_enqueue_script(
+        'init',
+        CHILD_TEMPLATE_URL . '/assets/scripts/init.js',
+        array('jquery'),
+        '1.0',
+        TRUE
+    );
+}
