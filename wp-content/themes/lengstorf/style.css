@@ -8,3 +8,324 @@ Template:       rotorwash
 Version:        1.0
 */
 
+html { background: #f3f3fa; }
+body { max-width: 1140px; margin: 0 auto; }
+h1,h2,h3,h4,h5,h6,p,ul { margin: 1.5em 0 .66em; padding: 0; }
+
+/*
+ * TYPOGRAPHY
+ *****************************************************************************/
+
+/*
+Fonts.com font-family rules:
+Bold:               font-family:'Proxima N W01 Bold';
+Bold Italic:        font-family:'Proxima N W01 Bold It';
+Cond Bold:          font-family:'Proxima N W15 Cd Smbd';
+Cond Bold Italic:   font-family:'ProximaNW15-CdSmbdIt';
+Condensed:          font-family:'Proxima N W01 Cd Reg';
+Condensed Italic:   font-family:'Proxima N W01 Cd Reg It';
+Regular:            font-family:'Proxima N W01 Reg';
+Italic:             font-family:'Proxima N W01 Reg It';
+*/
+
+@font-face {
+    font-family: 'goudy-bookletter-1911';
+    src: url('assets/fonts/goudy_bookletter_1911-webfont.eot');
+    src: url('assets/fonts/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/goudy_bookletter_1911-webfont.woff') format('woff'),
+         url('assets/fonts/goudy_bookletter_1911-webfont.ttf') format('truetype'),
+         url('assets/fonts/goudy_bookletter_1911-webfont.svg#goudy-bookletter-1911') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: #39393f;
+    font-family:'Proxima N W01 Reg';
+    font-size: 18px;
+    line-height: 1.34em;
+}
+
+h1,h2,h3,h4,h5,h6,strong,#site-tagline { color: #0e0e13; font-weight: normal; }
+h1,h2,#site-title { font-family: 'goudy-bookletter-1911'; }
+
+#site-title {
+    color: #0e0e13;
+    font-size: 6.5em;
+    line-height: 1em;
+    letter-spacing: .1em;
+    text-decoration: none;
+}
+
+h3,#site-tagline {
+    font-family:'Proxima N W15 Cd Smbd';
+    font-size: 1.33em;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+p { letter-spacing: .08em; }
+strong { font-family:'Proxima N W01 Bold'; font-weight: normal; }
+em { font-family:'Proxima N W01 Reg It'; font-style: normal; }
+strong em,em strong { font-family:'Proxima N W01 Bold It'; }
+
+/* Sprite */
+.sprite-me {
+    display: block;
+    background-image: url(assets/images/sprite.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+header { margin: 3.34em 0 0; padding: 1px; }
+
+#floating-head { float: left; width: 23%; z-index: 1; }
+#floating-head img { width: 100%; }
+
+#site-title {
+    position: relative;
+    float: left;
+    display: block;
+    margin: .09em 0 0;
+    z-index: 10;
+}
+
+#site-tagline { position: relative; float: left; display: block; margin: -.5em 0 0 5%; z-index: 10; }
+
+.home-blurb {
+    float: right;
+    margin: 2em 0 2em 2%;
+    padding: 0;
+    overflow: hidden;
+    width: 74%;
+}
+
+.home-blurb p { float: left; width: 63%; margin: 0 3% 0 0; }
+
+#portland-or { float: left; width: 34%; }
+#portland-or img { width: 100%; }
+
+#my-stuff {
+    clear: both;
+    margin: 3em 1.34em;
+    padding: 2.67em 0 1.34em;
+    border-top: 8px solid #0e0e13;
+    border-bottom: 8px solid #0e0e13;
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+#my-stuff li { float: left; margin: 0 1.5%; }
+#my-stuff h3 { text-align: left; margin: 0 0 .67em; }
+
+.copter-link { width: 20%; }
+.copter-link img { width: 100%; }
+
+.book-links { float: right; width: 51%; }
+.book-links a { width: 100%; }
+.book-links ul { margin: 0; padding: 0; overflow: hidden; }
+.book-links li { float: left; width: 30%; margin: 0 1.5%; list-style: none; }
+.book-links img { width: 100%; }
+.book-pfab { background-position: 0 -359px; }
+.book-ppaj { background-position: -158px -359px; }
+.book-rtwa { background-position: -316px -359px; }
+
+.random-art { width: 20%; }
+.random-art img { width: 100%; margin: 0; }
+
+#social-stuff { width: 90%; margin: 0 5%; overflow: hidden; }
+#social-stuff h3 { float: left; width: 25px; height: 25px; margin: .5em 0 0; }
+
+#twitter-icon { background-position: -451px -194px; }
+#twitter { float: left; width: 53%; margin: 0 7% 0 1.5%; list-style: none; }
+#twitter li { margin: 0 0 .67em; }
+
+#instagram-icon { background-position: -426px -194px; }
+#instagram { float: left; width: 31%; margin: 0 0 0 1.5%; }
+
+#instagram li {
+    list-style: none;
+    float: left;
+    width: 23%;
+    margin: 0 2% 2% 0;
+    padding: 0;
+}
+
+#instagram img { display: block; width: 100%; }
+
+#site-credits {
+    clear: both;
+    font-family:'Proxima N W01 Cd Reg';
+    margin: 3em 1.34em 2em;
+    padding: 3em 2em 0;
+    border-top: 8px solid #0e0e13;
+    overflow: hidden;
+}
+
+.footer-left { float: left; }
+.footer-right { float: right; }
+
+
+/*
+ * SMALL SCREENS
+ *****************************************************************************/
+
+@media screen and (max-width: 1139px)
+{
+
+    #site-title,#site-tagline { margin-left: .34em; }
+    #site-title { font-size: 4.95em; width: 70%; }
+    #site-tagline { margin-left: 3.67em; font-size: 1.125em; width: 40%; }
+
+    #floating-head { margin: 0; clear: none; }
+
+    #portland-or { margin-top: 1em; }
+
+}
+
+
+/*
+ * SMALLER SCREENS
+ *****************************************************************************/
+
+@media screen and (max-width: 959px)
+{
+
+    #site-title,#site-tagline { margin-left: 3%; }
+    #site-title { font-size: 4em; width: 75%; }
+    #site-tagline { margin: .5em 0 0 8%; font-size: 1.125em; width: 70%; }
+
+    #floating-head { float:right; width: 20%; margin: -2em 2% 0 0; clear: none; }
+
+    .home-blurb { float: none; margin: 0 auto; width: 96%; }
+    .home-blurb p { width: 60%; margin-right: 2%; }
+
+    #portland-or { width: 38%; }
+
+    #social-stuff h3 { margin-left: 6% }
+    #twitter,#instagram { float: none; width: 75%; margin: 0 auto 20px; }
+    #twitter li { margin-left: 0; }
+
+    #instagram li { width: 11.5%; margin-right: 1%; }
+
+    #site-credits { padding-top: 2em; }
+    .footer-left,.footer-right { float: none; text-align: center;}
+    .footer-left { margin-bottom: 1em; }
+
+}
+
+
+/*
+ * TABLETS
+ *****************************************************************************/
+
+@media screen and (max-width: 767px)
+{
+
+    #site-title { width: 65%; margin: 0 0 0 3%; font-size: 3em; }
+    #site-tagline { width: 63%; margin-left: 5%; }
+
+    #floating-head { width: 30%; margin: -2.5em 2% -5.5em 0;}
+
+    .home-blurb { width: 94%; }
+
+    #portland-or { margin-top: 6em; }
+
+    #my-stuff>li { float: none; display: block; margin: 0 10%; }
+
+    #my-stuff>li.copter-link,#my-stuff>li.random-art {
+        float: left;
+        width: 30%;
+        margin-bottom: 2em;
+    }
+
+    .book-links { clear: both; width: 85%; margin: 0 auto; }
+
+    #twitter { margin-bottom: 2em; }
+
+    #instagram li { width: 23%; margin-right: 2%; }
+
+}
+
+
+/*
+ * BIG MOBILE
+ *****************************************************************************/
+
+@media screen and (max-width: 639px)
+{
+
+    #site-title { width: 65%; margin-left: 5%; font-size: 3.8em; }
+    #site-tagline { width: 65%; margin: .75em 0 1.5em 5%; font-size: .95em; }
+
+    #floating-head { width: 28%; margin: -2em 2% -2em 0; }
+
+    .home-blurb { width: 90%; }
+    .home-blurb p { float: none; width: 100%; }
+
+    #portland-or {
+        float: none;
+        display: block;
+        width: 56%;
+        margin: 2em auto 0;
+    }
+
+    #my-stuff>li { float: none; display: block; margin: 0 10%; }
+
+    #my-stuff>li.copter-link,#my-stuff>li.random-art {
+        float: left;
+        width: 30%;
+        margin-bottom: 2em;
+    }
+
+    #my-stuff>li.book-links { clear: both; width: 90%; margin: 0 auto; }
+
+    #social-stuff h3 { margin-left: 4%; }
+    #twitter { margin-bottom: 2em; }
+
+}
+
+
+/*
+ * MEDIUM MOBILE
+ *****************************************************************************/
+
+@media screen and (max-width: 479px)
+{
+
+    header { position: relative; }
+    #site-title,#site-tagline { float: none; }
+    #site-title { width: 80%; margin: .8em auto 0; }
+    #site-tagline { width: 80%; margin: .75em auto 1em; text-align: center; }   
+
+    #floating-head { position: absolute; top: -1em; left: 10%; width: 80%; }
+    #floating-head img { width: 144px; margin-left: 50% }
+
+    .home-blurb { width: 80%; }
+
+    #portland-or { width: 100%; }
+
+    #my-stuff>li.copter-link,#my-stuff>li.random-art {
+        width: 40%;
+        margin: 0 5%; 
+    }
+
+    #social-stuff h3 { margin-left: 2%; }
+
+    .fb-like { display: block; margin: 1em 0 0; }
+
+}
+
+
+/*
+ * SMALL MOBILE
+ *****************************************************************************/
+
+@media screen and (max-width: 359px)
+{
+
+    
+
+}
