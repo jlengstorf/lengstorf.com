@@ -93,6 +93,18 @@ header { margin: 3.34em 0 0; padding: 1px; }
 
 #site-tagline { position: relative; float: left; display: block; margin: -.5em 0 0 5%; z-index: 10; }
 
+#social-links {
+    position: relative;
+    float: right;
+    margin: -.8em 3% 0 0;
+    z-index: 10;
+}
+
+#social-links li {
+    list-style: none;
+    display: inline;
+}
+
 .home-blurb {
     float: right;
     margin: 2em 0 2em 2%;
@@ -141,6 +153,7 @@ header { margin: 3.34em 0 0; padding: 1px; }
 #twitter-icon { background-position: -451px -194px; }
 #twitter { float: left; width: 53%; margin: 0 7% 0 1.5%; list-style: none; }
 #twitter li { margin: 0 0 .67em; }
+#twitter li.follow-me { font-size: 14px; text-align: right; }
 
 #instagram-icon { background-position: -426px -194px; }
 #instagram { float: left; width: 31%; margin: 0 0 0 1.5%; }
@@ -196,6 +209,11 @@ header { margin: 3.34em 0 0; padding: 1px; }
     #site-title,#site-tagline { margin-left: 3%; }
     #site-title { font-size: 4em; width: 75%; }
     #site-tagline { margin: .5em 0 0 8%; font-size: 1.125em; width: 70%; }
+    #social-links {
+        float: left;
+        width: 70%;
+        margin: .5em 0 0 8%;
+    }
 
     #floating-head { float:right; width: 20%; margin: -2em 2% 0 0; clear: none; }
 
@@ -226,6 +244,7 @@ header { margin: 3.34em 0 0; padding: 1px; }
 
     #site-title { width: 65%; margin: 0 0 0 3%; font-size: 3em; }
     #site-tagline { width: 63%; margin-left: 5%; }
+    #social-links { width: 48%; margin-left: 5%; text-align: center; }
 
     #floating-head { width: 30%; margin: -2.5em 2% -5.5em 0;}
 
@@ -258,7 +277,8 @@ header { margin: 3.34em 0 0; padding: 1px; }
 {
 
     #site-title { width: 65%; margin-left: 5%; font-size: 3.8em; }
-    #site-tagline { width: 65%; margin: .75em 0 1.5em 5%; font-size: .95em; }
+    #site-tagline { width: 65%; margin: .75em 0 0 5%; font-size: .95em; }
+    #social-links { width: 65%; margin-bottom: 1.5em; text-align: left; }
 
     #floating-head { width: 28%; margin: -2em 2% -2em 0; }
 
@@ -298,7 +318,13 @@ header { margin: 3.34em 0 0; padding: 1px; }
     header { position: relative; }
     #site-title,#site-tagline { float: none; }
     #site-title { width: 80%; margin: .8em auto 0; }
-    #site-tagline { width: 80%; margin: .75em auto 1em; text-align: center; }   
+    #site-tagline { width: 80%; margin: .75em auto 0; text-align: center; } 
+    #social-links {
+        float: none;
+        width: 80%;
+        margin: .5em auto 1em;
+        text-align: center;
+    }
 
     #floating-head { position: absolute; top: -1em; left: 10%; width: 80%; }
     #floating-head img { width: 144px; margin-left: 50% }

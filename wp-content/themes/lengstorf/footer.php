@@ -21,70 +21,12 @@ $href = !empty($opts['fb_page_url']) ? $opts['fb_page_url'] : get_site_url();
             <h3 id="twitter-icon" class="sprite-me">Jason on Twitter</h3>
 
             <ul id="twitter">
-                <li>
-                    I checked in at Barista on #Yelp http://t.co/GASeNEai
-                </li>
-                <li>
-                    Breaking the "don't sit on the same side of the booth" 
-                    rule so we can see the game. (@ Henry's 12th Street 
-                    Tavern) http://t.co/2lDOH4Ob
-                </li>
-                <li>
-                    I love Saturdays because BISCUITS. (@ Compote) on #Yelp 
-                    http://t.co/dHRVOQCM
-                </li>
+                <li class="loading">Loading latest Tweets&hellip;</li>
             </ul><!--/#twitter-->
 
             <h3 id="instagram-icon" class="sprite-me">Jason on Instagram</h3>
             <ul id="instagram">
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placekitten.com/75/75"
-                             alt="Temporary Image" />
-                    </a>
-                </li>
+                <li class="loading">Loading...</li>
             </ul><!--/#instagram-->
 
         </section><!--/.social-stuff-->
@@ -109,7 +51,7 @@ $href = !empty($opts['fb_page_url']) ? $opts['fb_page_url'] : get_site_url();
 
         <div class="footer-right">
             Links: 
-            <a href="http://www.copterlabs.com/"
+            <a href="http://www.copterlabs.com/?rel=jlcom"
                rel="me">Hire Me</a>
             | <a href="http://www.linkedin.com/in/jlengstorf"
                rel="me">LinkedIn</a>

@@ -30,11 +30,24 @@ add_action('after_setup_theme', 'jl_init');
  */
 function jl_enqueue_scripts(  )
 {
+    wp_register_script(
+        'colorbox',
+        CHILD_TEMPLATE_URL . '/assets/scripts/colorbox/jquery.colorbox.js',
+        array('jquery'),
+        '1.3.20.1',
+        TRUE
+    );
+
     wp_enqueue_script(
         'init',
         CHILD_TEMPLATE_URL . '/assets/scripts/init.js',
-        array('jquery'),
+        array('jquery', 'colorbox'),
         '1.0',
         TRUE
+    );
+
+    wp_enqueue_style(
+        'colorbox',
+        CHILD_TEMPLATE_URL . '/assets/scripts/colorbox/colorbox.css'
     );
 }
