@@ -19,7 +19,7 @@ $stylesheet_url = get_bloginfo('stylesheet_url') . '?'
 <head>
 
 <meta charset="<?php bloginfo('charset'); ?>" />
-<title><?php wp_title(''); ?></title>
+<title><?php wp_title('&rsaquo;', TRUE, 'right'); ?></title>
 
 <link type="text/css" rel="stylesheet" 
       href="http://fast.fonts.com/cssapi/c265c53b-e4e5-4941-9e4e-931e0009df73.css" />
