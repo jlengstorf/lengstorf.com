@@ -357,6 +357,7 @@ header { margin: 3.34em 0 0; padding: 1px; }
     #site-title { width: 92%; font-size: 3.5em; }
     .home-blurb { width: 90%; }
     #my-stuff,#site-credits { margin: 1em 1em 1.5em; padding: 2em 0 1em; }
+    #my-stuff h3 { font-size: 1.3em; }
     #twitter,#instagram { width: 80%; margin-left: 14%; }
 
 }
