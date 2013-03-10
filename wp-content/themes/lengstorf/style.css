@@ -69,6 +69,8 @@ strong { font-family:'Proxima N W01 Bold'; font-weight: normal; }
 em { font-family:'Proxima N W01 Reg It'; font-style: normal; }
 strong em,em strong { font-family:'Proxima N W01 Bold It'; }
 
+img { border: 0; }
+
 /* Sprite */
 .sprite-me {
     display: block;
