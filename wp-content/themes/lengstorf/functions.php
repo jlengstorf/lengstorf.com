@@ -40,7 +40,7 @@ function jl_enqueue_scripts(  )
 
     wp_enqueue_script(
         'init',
-        CHILD_TEMPLATE_URL . '/assets/scripts/init.js',
+        CHILD_TEMPLATE_URL . '/assets/scripts/init-ck.js',
         array('jquery', 'colorbox'),
         '1.0',
         TRUE
