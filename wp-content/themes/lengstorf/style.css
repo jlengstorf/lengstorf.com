@@ -147,7 +147,7 @@ header { margin: 3.34em 0 0; padding: 1px; }
 .book-rtwa { background-position: -316px -359px; }
 
 .random-art { width: 20%; }
-.random-art img { width: 100%; margin: 1em 0 0; }
+.random-art img { width: 100%; height: auto; margin: 1em 0 0; }
 .random-art .hide-me { display: none; }
 
 #social-stuff { width: 90%; margin: 0 5%; overflow: hidden; }
