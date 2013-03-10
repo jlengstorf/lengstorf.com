@@ -3,30 +3,6 @@
 get_header();
 
 $img_dir   = get_bloginfo('stylesheet_directory') . '/assets/images';
-$art_array = array(
-    array(
-        'src' => 'bunnicorn',
-        'alt' => 'Look! A bunnicorn!',
-    ),
-    array(
-        'src' => 'lindawendy',
-        'alt' => 'My mom and her pal Linda.',
-    ),
-    array(
-        'src' => 'narwhal',
-        'alt' => 'A narwhal who yearned for adventure.',
-    ),
-    array(
-        'src' => 'tortuga',
-        'alt' => 'Somehow turtles just seem grumpy.',
-    ),
-    array(
-        'src' => 'tyrone',
-        'alt' => 'His manner was a little... tyrannical.',
-    ),
-);
-
-$artwork = array_slice($art_array, mt_rand(0, count($art_array)-1), 1);
 
 if (have_posts()):
     while (have_posts()):
@@ -48,17 +24,16 @@ if (have_posts()):
                 <h3>I run <span title="Copter Labs">this</span></h3>
                 <p>
                     <a href="http://www.copterlabs.com?ref=jlcom">
-                        <img src="<?php echo $img_dir; ?>/copter-labs.png" 
+                        <img src="<?php echo $img_dir; ?>/copter-labs.jpg" 
                              alt="Copter Labs" />
                     </a>
                 </p>
             </li><!--/.copter-link-->
-            <li class="random-art">
+            <li class="random-art" id="dribbble">
                 <h3>I made this</h3>
                 <a href="http://dribbble.com/jlengstorf"
-                   rel="external">
-                    <img src="<?php echo $img_dir . '/art-' . $artwork[0]['src'] . '.jpg'; ?>" 
-                         alt="<?php echo $artwork[0]['alt']; ?>" />
+                   class="loading">
+                    Loading&hellip;
                 </a>
             </li><!--/.random-art-->
             <li class="book-links">

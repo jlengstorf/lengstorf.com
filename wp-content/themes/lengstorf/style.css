@@ -133,7 +133,7 @@ header { margin: 3.34em 0 0; padding: 1px; }
 #my-stuff h3 { text-align: left; margin: 0 0 .67em; }
 
 .copter-link { width: 20%; }
-.copter-link img { width: 100%; }
+.copter-link img { width: 100%; max-width: 200px; }
 
 .book-links { float: right; width: 51%; }
 .book-links a { width: 100%; }
@@ -145,7 +145,8 @@ header { margin: 3.34em 0 0; padding: 1px; }
 .book-rtwa { background-position: -316px -359px; }
 
 .random-art { width: 20%; }
-.random-art img { width: 100%; margin: 0; }
+.random-art img { width: 100%; margin: 1em 0 0; }
+.random-art .hide-me { display: none; }
 
 #social-stuff { width: 90%; margin: 0 5%; overflow: hidden; }
 #social-stuff h3 { float: left; width: 25px; height: 25px; margin: .5em 0 0; }

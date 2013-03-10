@@ -20,9 +20,13 @@ $href = !empty($opts['fb_page_url']) ? $opts['fb_page_url'] : get_site_url();
 
             <h3 id="twitter-icon" class="sprite-me">Jason on Twitter</h3>
 
-            <ul id="twitter">
+            <div id="twitter">
+                <a class="twitter-timeline" href="https://twitter.com/jlengstorf" data-widget-id="310591885175562240">Tweets by @jlengstorf</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div><!--/#twitter-->
+            <!-- <ul id="twitter">
                 <li class="loading">Loading latest Tweets&hellip;</li>
-            </ul><!--/#twitter-->
+            </ul> --><!--/#twitter-->
 
             <h3 id="instagram-icon" class="sprite-me">Jason on Instagram</h3>
             <ul id="instagram">
