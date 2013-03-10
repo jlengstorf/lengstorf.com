@@ -51,7 +51,7 @@ h1,h2,#site-title { font-family: 'goudy-bookletter-1911'; }
 
 #site-title {
     color: #0e0e13;
-    font-size: 6.5em;
+    font-size: 6.25em;
     line-height: 1em;
     letter-spacing: .1em;
     text-decoration: none;
@@ -189,7 +189,7 @@ header { margin: 3.34em 0 0; padding: 1px; }
 {
 
     #site-title,#site-tagline { margin-left: .34em; }
-    #site-title { font-size: 4.95em; width: 70%; }
+    #site-title { font-size: 4.85em; width: 70%; }
     #site-tagline { margin-left: 3.67em; font-size: 1.125em; width: 40%; }
 
     #floating-head { margin: 0; clear: none; }
@@ -217,8 +217,8 @@ header { margin: 3.34em 0 0; padding: 1px; }
 
     #floating-head { float:right; width: 20%; margin: -2em 2% 0 0; clear: none; }
 
-    .home-blurb { float: none; margin: 0 auto; width: 96%; }
-    .home-blurb p { width: 60%; margin-right: 2%; }
+    .home-blurb { float: none; clear: left; margin: 0 auto; width: 96%; }
+    .home-blurb p { width: 58%; margin: 0 2%; }
 
     #portland-or { width: 38%; }
 
@@ -352,6 +352,10 @@ header { margin: 3.34em 0 0; padding: 1px; }
 @media screen and (max-width: 359px)
 {
 
-    
+    #floating-head { width: 86%; }
+    #site-title { width: 92%; font-size: 3.5em; }
+    .home-blurb { width: 90%; }
+    #my-stuff,#site-credits { margin: 1em 1em 1.5em; padding: 2em 0 1em; }
+    #twitter,#instagram { width: 80%; margin-left: 14%; }
 
 }
