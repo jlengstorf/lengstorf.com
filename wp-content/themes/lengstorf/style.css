@@ -169,7 +169,7 @@ header { margin: 3.34em 0 0; padding: 1px; }
     padding: 0;
 }
 
-#instagram img { display: block; width: 100%; }
+#instagram img { display: block; width: 100%; height: auto; }
 
 #site-credits {
     clear: both;
