@@ -7,10 +7,9 @@ jQuery(function($){
         type: "GET",
         dataType: "jsonp",
         cache: false,
-        url: "https://api.twitter.com/1/statuses/user_timeline.json"
-            + "?include_entities=false&include_rts=false&screen_name=jlengstorf&count=3",
+        url: "https://api.twitter.com/1/statuses/user_timeline.json?include_entities=false&include_rts=false&screen_name=jlengstorf&count=3",
         success: function( response ) {
-            var length = typeof response!='undefined' ? response.length : 0,
+            var length = typeof response!=='undefined' ? response.length : 0,
                 twitter = $("#twitter");
 
             if (response.length>0) {
@@ -18,9 +17,7 @@ jQuery(function($){
 
                 for (var i=0; i<length; i++) {
                     $("#twitter").append(
-                        $("<li>" 
-                            + response[i].text.replace(/(http:[\S]*)/, '<a href="$1">$1</a>') 
-                            + "</li>")
+                        $("<li>" + response[i].text.replace(/(http:[\S]*)/, '<a href="$1">$1</a>') + "</li>")
                     );
                 }
             }
@@ -37,17 +34,18 @@ jQuery(function($){
         type: "GET",
         dataType: "jsonp",
         cache: false,
-        url: "https://api.instagram.com/v1/users/30794906/media/recent"
-            + "?access_token=30794906.1fb234f.8faa8c1dd437479a9ca8f9dda5b202b8",
+        url: "https://api.instagram.com/v1/users/30794906/media/recent?access_token=30794906.1fb234f.8faa8c1dd437479a9ca8f9dda5b202b8",
         success: function( response ) {
-            var length = typeof response.data!='undefined' ? response.data.length : 0,
+            var length = typeof response.data!=='undefined' ? response.data.length : 0,
                 instagram = $("#instagram");
 
             if (length>0) {
                 instagram.find('.loading').remove();
 
                 for (var i=0; i<length; i++) {
-                    if (i===8) break;
+                    if (i===8) {
+                        break;
+                    }
 
                     var photo = response.data[i];
 
@@ -55,9 +53,7 @@ jQuery(function($){
                         .attr({
                             href: photo.images.standard_resolution.url,
                             class: "photos",
-                            title: photo.caption.text 
-                                + ' <a href="' + photo.link + '" '
-                                + 'target="_blank">[view on Instagram]</a>'
+                            title: photo.caption.text + ' <a href="' + photo.link + '" '+ 'target="_blank">[view on Instagram]</a>'
                         })
                         .html(
                             $("<img />")
@@ -68,9 +64,13 @@ jQuery(function($){
                         .appendTo(instagram)
                         .wrap("<li></li>");
 
-                    $(".photos").colorbox({ rel: "instagram" });
+                    $(".photos").colorbox({
+                        maxWidth: '92%',
+                        maxHeight: '92%',
+                        rel: "instagram"
+                    });
                 }
-            } 
+            }
         }
     });
 
