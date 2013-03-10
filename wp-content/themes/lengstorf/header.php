@@ -30,8 +30,6 @@ $stylesheet_url = get_bloginfo('stylesheet_url') . '?'
       href="http://fast.fonts.com/cssapi/c265c53b-e4e5-4941-9e4e-931e0009df73.css" />
 <link rel="stylesheet" type="text/css" 
       href="<?php echo $stylesheet_url; ?>" />
-<link rel="pingback" 
-      href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <?php wp_head(); ?> 
 </head>
