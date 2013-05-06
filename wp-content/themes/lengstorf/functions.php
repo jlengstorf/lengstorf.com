@@ -49,7 +49,7 @@ function jl_enqueue_scripts(  )
         'init',
         CHILD_TEMPLATE_URL . '/assets/scripts/init-ck.js',
         array('jquery', 'colorbox', 'instagram'),
-        '1.0',
+        '1.1',
         TRUE
     );
 
