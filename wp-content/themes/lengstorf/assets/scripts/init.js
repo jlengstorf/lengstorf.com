@@ -57,47 +57,17 @@ jQuery(function($){
     });
 
     // Instagram
-    $.ajax({
-        type: "GET",
-        dataType: "jsonp",
-        cache: false,
-        url: "https://api.instagram.com/v1/users/30794906/media/recent?access_token=30794906.1fb234f.8faa8c1dd437479a9ca8f9dda5b202b8",
-        success: function( response ) {
-            var length    = typeof response.data!=='undefined' ? response.data.length : 0,
-                instagram = $("#instagram");
-
-            if (length>0) {
-                instagram.find('.loading').remove();
-
-                for (var i=0; i<length; i++) {
-                    if (i===12) {
-                        break;
-                    }
-
-                    var photo = response.data[i];
-
-                    $("<a>")
-                        .attr({
-                            href: photo.images.standard_resolution.url,
-                            class: "photos",
-                            title: photo.caption.text + ' <a href="' + photo.link + '" '+ 'target="_blank">[view on Instagram]</a>'
-                        })
-                        .html(
-                            $("<img />")
-                                .attr({
-                                    src: photo.images.thumbnail.url
-                                })
-                        )
-                        .appendTo(instagram)
-                        .wrap("<li></li>");
-
-                    $(".photos").colorbox({
-                        maxWidth: '92%',
-                        maxHeight: '92%',
-                        rel: "instagram"
-                    });
-                }
-            }
+    $("#instagram").recentInstagramUploads({
+        access_token: "30794906.1fb234f.8faa8c1dd437479a9ca8f9dda5b202b8",
+        ig_user_id:   "30794906",
+        photo_count: 16,
+        photo_class: 'photo',
+        callback: function() {
+            $(".photo").colorbox({
+                maxWidth: '92%',
+                maxHeight: '92%',
+                rel: 'instagram'
+            });
         }
     });
 

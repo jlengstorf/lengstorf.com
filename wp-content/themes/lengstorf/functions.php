@@ -37,11 +37,18 @@ function jl_enqueue_scripts(  )
         '1.3.20.1',
         TRUE
     );
+    wp_register_script(
+        'instagram',
+        CHILD_TEMPLATE_URL . '/assets/scripts/jquery.read-instagram.js',
+        array('jquery'),
+        '1.0.0',
+        TRUE
+    );
 
     wp_enqueue_script(
         'init',
         CHILD_TEMPLATE_URL . '/assets/scripts/init-ck.js',
-        array('jquery', 'colorbox'),
+        array('jquery', 'colorbox', 'instagram'),
         '1.0',
         TRUE
     );
