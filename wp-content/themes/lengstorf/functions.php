@@ -39,7 +39,7 @@ function jl_enqueue_scripts(  )
     );
     wp_register_script(
         'instagram',
-        CHILD_TEMPLATE_URL . '/assets/scripts/jquery.read-instagram.js',
+        CHILD_TEMPLATE_URL . '/assets/scripts/jquery.read-instagram-1.0.0.min.js',
         array('jquery'),
         '1.0.0',
         TRUE
