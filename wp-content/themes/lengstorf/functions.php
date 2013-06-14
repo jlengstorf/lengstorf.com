@@ -38,7 +38,7 @@ function jl_enqueue_scripts(  )
     // Registers theme-specific scripts
     wp_register_script(
         'jquery',
-        '//ajax.googleapis.com/ajax/libs/jquery/2/jquery.min.js',
+        '//code.jquery.com/jquery-1.10.0.min.js',
         NULL,
         FALSE,
         FALSE
