@@ -28,6 +28,82 @@ Regular:            font-family:'Proxima N W01 Reg';
 Italic:             font-family:'Proxima N W01 Reg It';
 */
 
+
+@import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=c265c53b-e4e5-4941-9e4e-931e0009df73");
+
+@font-face{
+    font-family:"Proxima N W01 Reg";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/2aff4f81-3e97-4a83-9e6c-45e33c024796.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/ab9cd062-380f-4b53-b1a7-c0bec7402235.svg#ab9cd062-380f-4b53-b1a7-c0bec7402235") format("svg");
+}
+
+@font-face{
+    font-family:"Proxima N W01 Reg It";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/bc15a635-a09b-40d1-a5c4-70310166177d.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/bc15a635-a09b-40d1-a5c4-70310166177d.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/9c69c878-2255-4027-8632-ed3635cddf45.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/b7eb3871-e910-4522-9982-effb425a2714.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/a0d89860-20e5-4bc0-b6c5-eae8ae0ebbbf.svg#a0d89860-20e5-4bc0-b6c5-eae8ae0ebbbf") format("svg");
+}
+
+@font-face{
+    font-family:"Proxima N W01 Bold";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/fbc6b03a-b3a1-427c-a884-053deca3a53c.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/fbc6b03a-b3a1-427c-a884-053deca3a53c.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/d999c07b-a049-4eb5-b8a6-4f36ae25e67e.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/4d4a75f5-d32a-4a09-8665-133afd39cc37.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/8152bc4e-d700-4c78-b6be-326893e6f53f.svg#8152bc4e-d700-4c78-b6be-326893e6f53f") format("svg");
+}
+
+@font-face{
+    font-family:"Proxima N W01 Bold It";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/cb0c3396-af1a-4c16-95aa-8085e21044c7.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/cb0c3396-af1a-4c16-95aa-8085e21044c7.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/46d5674a-f287-4240-b87a-f207aeb83064.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/9bd640b2-9a56-4391-b213-767ae9c30ef4.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/1500822b-1abc-4461-81dd-b48cfcf99020.svg#1500822b-1abc-4461-81dd-b48cfcf99020") format("svg");
+}
+
+@font-face{
+    font-family:"Proxima N W01 Cd Reg";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/9078f77e-dddf-495b-a468-f03b3b7aa12c.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/9078f77e-dddf-495b-a468-f03b3b7aa12c.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/8e5dbeb3-4068-4196-83a4-c86fe35c8b65.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/f6c936c3-3828-4625-babb-e900c2afe00d.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/87761033-3af1-450a-8cdd-2321b6a595f9.svg#87761033-3af1-450a-8cdd-2321b6a595f9") format("svg");
+}
+
+@font-face{
+    font-family:"Proxima N W01 Cd Reg It";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/d217cf32-8e58-40a1-ad64-11d92c8fff09.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/d217cf32-8e58-40a1-ad64-11d92c8fff09.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/9819712d-56a1-4b79-9367-2830adc7f7d8.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/1c6791bd-b878-4362-9737-ba1cb006cb1f.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/8d39fd5c-1931-46c8-91b7-bd926a93c043.svg#8d39fd5c-1931-46c8-91b7-bd926a93c043") format("svg");
+}
+
+@font-face{
+    font-family:"Proxima N W15 Cd Smbd";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/d98fcd0d-5b66-4059-8543-8b20d2df6c4e.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/d98fcd0d-5b66-4059-8543-8b20d2df6c4e.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/25fea31c-0cde-4457-b875-139b2f814d65.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/8304ee6d-ecc7-4c17-bc8d-86f956dd63ed.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/b08d6b72-1661-499a-be7b-a62094eab547.svg#b08d6b72-1661-499a-be7b-a62094eab547") format("svg");
+}
+
+@font-face{
+    font-family:"ProximaNW15-CdSmbdIt";
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/c0fe38a1-5c2c-4418-93b6-01e93a75c8dd.eot?#iefix");
+    src: url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/c0fe38a1-5c2c-4418-93b6-01e93a75c8dd.eot?#iefix") format("eot"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/4a4c9a1d-eed2-4452-82bb-1fe5524006c3.woff") format("woff"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/4c6c90a7-a7a3-417d-ae37-a0a20b4411f4.ttf") format("truetype"), 
+         url("https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/1b408e50-bdde-43b3-a462-9cdf121533a7.svg#1b408e50-bdde-43b3-a462-9cdf121533a7") format("svg");
+}
+
+
 @font-face {
     font-family: 'goudy-bookletter-1911';
     src: url('https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/goudy_bookletter_1911-webfont.eot');

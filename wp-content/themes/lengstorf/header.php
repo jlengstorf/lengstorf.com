@@ -25,10 +25,11 @@ $stylesheet_url = get_bloginfo('stylesheet_url') . '?'
 
 <title><?php wp_title('&rsaquo;', TRUE, 'right'); ?></title>
 
-<link type="text/css" rel="stylesheet" 
-      href="http://fast.fonts.com/cssapi/c265c53b-e4e5-4941-9e4e-931e0009df73.css" />
 <link rel="stylesheet" type="text/css" 
       href="https://s3-us-west-2.amazonaws.com/lengstorf.com/css/style.css.gz" />
+
+<link rel="shortcut icon" 
+      href="https://s3-us-west-2.amazonaws.com/lengstorf.com/img/favicon.ico" />
 
 <?php wp_head(); ?> 
 </head>
