@@ -30,11 +30,11 @@ Italic:             font-family:'Proxima N W01 Reg It';
 
 @font-face {
     font-family: 'goudy-bookletter-1911';
-    src: url('assets/fonts/goudy_bookletter_1911-webfont.eot');
-    src: url('assets/fonts/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
-         url('assets/fonts/goudy_bookletter_1911-webfont.woff') format('woff'),
-         url('assets/fonts/goudy_bookletter_1911-webfont.ttf') format('truetype'),
-         url('assets/fonts/goudy_bookletter_1911-webfont.svg#goudy-bookletter-1911') format('svg');
+    src: url('https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/goudy_bookletter_1911-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/goudy_bookletter_1911-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/goudy_bookletter_1911-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/lengstorf.com/fonts/goudy_bookletter_1911-webfont.svg#goudy-bookletter-1911') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -74,7 +74,7 @@ img { border: 0; }
 /* Sprite */
 .sprite-me {
     display: block;
-    background-image: url(assets/images/sprite.jpg);
+    background-image: url(https://s3-us-west-2.amazonaws.com/lengstorf.com/img/sprite.jpg);
     background-repeat: no-repeat;
     overflow: hidden;
     text-indent: -9999px;

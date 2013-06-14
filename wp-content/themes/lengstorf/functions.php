@@ -30,16 +30,17 @@ add_action('after_setup_theme', 'jl_init');
  */
 function jl_enqueue_scripts(  )
 {
+    $scripts = 'https://s3-us-west-2.amazonaws.com/lengstorf.com/js/';
     wp_register_script(
         'colorbox',
-        CHILD_TEMPLATE_URL . '/assets/scripts/colorbox/jquery.colorbox.js',
+        $scripts . 'colorbox/jquery.colorbox.js',
         array('jquery'),
         '1.3.20.1',
         TRUE
     );
     wp_register_script(
         'instagram',
-        CHILD_TEMPLATE_URL . '/assets/scripts/jquery.read-instagram-1.0.0.min.js',
+        $scripts . 'jquery.read-instagram-1.0.0.min.js',
         array('jquery'),
         '1.0.0',
         TRUE
@@ -47,7 +48,7 @@ function jl_enqueue_scripts(  )
 
     wp_enqueue_script(
         'init',
-        CHILD_TEMPLATE_URL . '/assets/scripts/init-ck.js',
+        $scripts . 'init-ck.js',
         array('jquery', 'colorbox', 'instagram'),
         '1.1',
         TRUE
@@ -55,6 +56,6 @@ function jl_enqueue_scripts(  )
 
     wp_enqueue_style(
         'colorbox',
-        CHILD_TEMPLATE_URL . '/assets/scripts/colorbox/colorbox.css'
+        $scripts . 'colorbox/colorbox.css'
     );
 }

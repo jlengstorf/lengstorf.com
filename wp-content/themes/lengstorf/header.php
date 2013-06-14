@@ -41,7 +41,7 @@ $stylesheet_url = get_bloginfo('stylesheet_url') . '?'
         <a href="<?php echo home_url('/'); ?>"
            id="floating-head" rel="home" 
            title="<?php bloginfo('name'); ?> &mdash; <?php bloginfo('description'); ?>">
-            <img src="<?php echo $theme_dir; ?>/assets/images/floating-head.png" 
+            <img src="https://s3-us-west-2.amazonaws.com/lengstorf.com/img/floating-head.png" 
                  alt="Jason Lengstorf" />
         </a><!--/#floating-head-->
 
