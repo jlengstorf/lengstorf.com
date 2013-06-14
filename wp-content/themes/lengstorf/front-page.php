@@ -2,7 +2,7 @@
 
 get_header();
 
-$img_dir   = get_bloginfo('stylesheet_directory') . '/assets/images';
+$img_dir   = 'https://s3-us-west-2.amazonaws.com/lengstorf.com/img';
 
 if (have_posts()):
     while (have_posts()):
