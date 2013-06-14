@@ -47,14 +47,14 @@ function jl_enqueue_scripts(  )
     $scripts = 'https://s3-us-west-2.amazonaws.com/lengstorf.com/js/';
     wp_register_script(
         'colorbox',
-        $scripts . 'colorbox/jquery.colorbox.js',
+        $scripts . 'colorbox/jquery.colorbox.js.gz',
         array('jquery'),
         '1.3.20.1',
         TRUE
     );
     wp_register_script(
         'instagram',
-        $scripts . 'jquery.read-instagram-1.0.0.min.js',
+        $scripts . 'jquery.read-instagram-1.0.0.min.js.gz',
         array('jquery'),
         '1.0.0',
         TRUE
@@ -62,7 +62,7 @@ function jl_enqueue_scripts(  )
 
     wp_enqueue_script(
         'init',
-        $scripts . 'init-ck.js',
+        $scripts . 'init.min.js.gz',
         array('jquery', 'colorbox', 'instagram'),
         '1.1',
         TRUE
@@ -70,6 +70,6 @@ function jl_enqueue_scripts(  )
 
     wp_enqueue_style(
         'colorbox',
-        $scripts . 'colorbox/colorbox.css'
+        $scripts . 'colorbox/colorbox.css.gz'
     );
 }
