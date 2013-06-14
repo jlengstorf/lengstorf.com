@@ -30,6 +30,20 @@ add_action('after_setup_theme', 'jl_init');
  */
 function jl_enqueue_scripts(  )
 {
+    // Removes unused scripts from RotorWash
+    wp_deregister_script('jquery');
+    wp_dequeue_script('hoverIntent');
+    wp_dequeue_script('dropdown');
+
+    // Registers theme-specific scripts
+    wp_register_script(
+        'jquery',
+        '//ajax.googleapis.com/ajax/libs/jquery/2/jquery.min.js',
+        NULL,
+        FALSE,
+        FALSE
+    );
+
     $scripts = 'https://s3-us-west-2.amazonaws.com/lengstorf.com/js/';
     wp_register_script(
         'colorbox',
