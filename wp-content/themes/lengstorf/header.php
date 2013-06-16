@@ -9,6 +9,9 @@
  * @since      1.0
  */
 
+header("Cache-Control: max-age=2592000, public");
+header("Expires: Mon, 01 Jan 2024 00:00:00 GMT");
+
 $theme_dir = get_bloginfo('stylesheet_directory');
 $stylesheet_url = get_bloginfo('stylesheet_url') . '?' 
                 . filemtime(get_stylesheet_directory() . '/style.css');
@@ -19,6 +22,7 @@ $stylesheet_url = get_bloginfo('stylesheet_url') . '?'
 <head>
 
 <meta charset="<?php bloginfo('charset'); ?>" />
+<meta http-equiv="Cache-Control" 
 
 <!-- Mobile stuffs -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
