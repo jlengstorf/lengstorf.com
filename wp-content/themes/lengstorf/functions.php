@@ -32,6 +32,7 @@ function jl_enqueue_scripts(  )
 {
     // Removes unused scripts from RotorWash
     wp_deregister_script('jquery');
+    wp_deregister_script('html5shiv');
     wp_dequeue_script('hoverIntent');
     wp_dequeue_script('dropdown');
 
