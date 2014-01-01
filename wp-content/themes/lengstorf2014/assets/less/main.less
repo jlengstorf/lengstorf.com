@@ -1,0 +1,52 @@
+/*! RotorWash v2.0 — A simple theme for fitness professionals by Copter Labs */
+
+/*
+ * DEPENDENCIES
+ *****************************************************************************/
+
+@import "variables.less";
+@import "../../../rotorwash2/assets/less/rotorstrap.less";
+
+
+/*
+ * SCREEN SIZE DETECTION FOR JS VIA CSS
+ * More info on how this works: http://adactio.com/journal/5429/
+ *****************************************************************************/
+body {
+    &:after {
+        content: 'desktop';
+        visibility: hidden;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 0px;
+        z-index: -1;
+        pointer-events: none;
+
+        @media (max-width: @screen-sm-max) {
+            content: 'tablet';
+        }
+
+        @media (max-width: 600px) {
+            content: 'mobile';
+        }
+    }
+}
+
+
+/*
+ * Responsive Stuff
+ ******************************************************/
+
+@xxs: ~'max-width: 377px';
+@xs:  ~'max-width: @{screen-xs-max}';
+@sm:  ~'max-width: @{screen-sm-max}';
+@md:  ~'max-width: @{screen-md-max}';
+
+
+/*
+ * CUSTOM THEME STYLES
+ *****************************************************************************/
+
+
