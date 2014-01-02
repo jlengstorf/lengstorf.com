@@ -27,6 +27,8 @@ function rwchild_setup_theme(  ) {
      *************************************************************************/
     add_action('wp_enqueue_scripts', 'rwchild_enqueue_assets');
 
+    register_nav_menu('footer', 'Footer Menu');
+
     /**
      * INCLUDES CUSTOM FIELDS (PRODUCTION ONLY)
      *************************************************************************/
@@ -103,4 +105,65 @@ function additional_theme_styles()
     // enqueing:
     wp_enqueue_style( 'screen'  );
     wp_enqueue_style( 'lte-ie8' );
+}
+
+function rw_continue_reading_link(  ) {
+    return ' <a href="'. get_permalink() . '" class="more-link">Continue reading &rarr;</a>';
+}
+
+function rw_excerpt_more( $more ) {
+    global $post;
+    return ' &hellip; ' . rw_continue_reading_link();
+}
+add_filter('excerpt_more', 'rw_excerpt_more');
+
+function shortcode_lead( $atts, $content ) {
+    $clean = strip_tags($content, '<strong><em><a>');
+    return '<p class="lead">' . $clean . '</p>';
+}
+add_shortcode('lead', 'shortcode_lead');
+
+function shortcode_pullquote( $atts, $content ) {
+    $clean = strip_tags($content, '<strong><em><a>');
+    $cleaner = copter_remove_crappy_markup($content);
+    return '<blockquote class="pullquote"><p>' . $cleaner . '</p></blockquote>';
+}
+add_shortcode('pullquote', 'shortcode_pullquote');
+
+
+/**
+ * Removes mismatched </p> and <p> tags from the beginning and end of a snippet.
+ * 
+ * @author Jason Lengstorf <jason@copterlabs.com>
+ */
+function copter_remove_crappy_markup( $string )
+{
+    $patterns = array(
+        '#^\s*</p>#',
+        '#<p>\s*$#'
+    );
+ 
+    return preg_replace($patterns, '', $string);
+}
+
+
+/**
+ * Adds footnote handling
+ */
+function copter_shortcode_footnote( $atts, $content=NULL )
+{
+    $count = ++Copter_Footnotes::$count;
+    Copter_Footnotes::$footnotes[$count] = $content;
+
+    return '<a href="#footnote-' . $count . '" '
+            . 'id="note-' . $count . '" ' 
+            . 'class="footnote">' 
+            . $count . '</a>';
+}
+add_shortcode('footnote', 'copter_shortcode_footnote');
+
+class Copter_Footnotes
+{
+    public static $count = 0;
+    public static $footnotes = array();
 }
