@@ -45,13 +45,15 @@ while (have_posts()):
             <p>Posted in <?php the_category(' '); ?></p>
             <?php the_tags('<ul class="list-unstyled"><li>', '</li><li>', '</li></ul>'); ?> 
         </div>
-        <article class="col-md-8 col-md-offset-2">
+        <article class="post col-md-8 col-md-offset-2">
             <?php the_content(); ?>
 
+<?php if (get_field('discussion_link')): ?>
             <p id="discussion">
                 <strong>Have something to add to the conversation?</strong>
-                Join the <a href="#">discussion about this post</a> on Facebook.
+                Join the <a href="<?php the_field('discussion_link'); ?>">discussion about this post</a> on Facebook.
             </p>
+<?php endif; ?>
         </article>
 
         <ul class="col-md-2 list-inline">

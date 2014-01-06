@@ -147,6 +147,8 @@ img {
     .img-responsive;
 }
 
+
+
 h1 {
     margin: 0 0 30px;
     font-family: 'Cyclone A', 'Cyclone B', impact, sans-serif;
@@ -263,34 +265,66 @@ blockquote {
     }
 }
 
-.post.preview {
-    padding-top: 30px;
+.post {
+    p>iframe {
+        max-width: 100%;
+        max-height: 65%;
 
-    h2,h3 {
-        margin-top: 0;
-        font-size: 45px;
-        line-height: 45px;
-        text-transform: uppercase;
+        @media (@sm) {
+            max-height: 50%;
+        }
 
-        a {
-            color: @gray-darker;
-            text-decoration: none;
+        @media (@xs) {
+            max-height: 35%;
         }
     }
 
-    h3 {
-        font-size: 40px;
-        line-height: 45px;
+    &.preview {
+        padding-top: 30px;
+
+        h2,h3 {
+            margin-top: 0;
+            font-size: 45px;
+            line-height: 45px;
+            text-transform: uppercase;
+
+            a {
+                color: @gray-darker;
+                text-decoration: none;
+            }
+        }
+
+        h3 {
+            font-size: 40px;
+            line-height: 45px;
+        }
+
+        .more-link {
+            display: block;
+            margin: 15px 0 0;
+            font-size: 18px;
+            text-align: right;
+        }
+
+        border-bottom: 1px solid lighten(@gray-lighter, 15%);
     }
 
-    .more-link {
-        display: block;
-        margin: 15px 0 0;
-        font-size: 18px;
-        text-align: right;
-    }
+    .wp-caption {
+        background: none;
+        border: none;
+        padding: 0;
 
-    border-bottom: 1px solid lighten(@gray-lighter, 15%);
+        img {
+            border: 1px solid lighten(@gray-lighter, 15%);
+        }
+
+        p {
+            margin: 0;
+            color: @gray-light;
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
 }
 
 #post-image {

@@ -61,12 +61,6 @@ $site_credit = rw_footer_credit_link("Site by Copter Labs");
                rel="home"><?php bloginfo('name', 'display'); ?></a>
         </p>
         <?php echo $footer_nav; ?> 
-        <!-- <ul class="col-md-6 list-inline text-center">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Speaking</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul> -->
         <p class="col-md-3 text-right">
             <?php echo $site_credit; ?> 
         </p>
