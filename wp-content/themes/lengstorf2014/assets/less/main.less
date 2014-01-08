@@ -203,7 +203,7 @@ p,li {
     }
 
     &#discussion {
-        font-size: 16px;
+        
     }
 
     @media (min-width: @screen-sm-min) {
@@ -265,6 +265,10 @@ blockquote {
     }
 }
 
+.twitter-tweet {
+    margin: 0 auto 45px !important;
+}
+
 .post {
     p>iframe {
         max-width: 100%;
@@ -279,24 +283,29 @@ blockquote {
         }
     }
 
+    h2,h3 {
+        margin-top: 0;
+        font-size: 45px;
+        line-height: 45px;
+        letter-spacing: 1px;
+
+        a {
+            color: @gray-darker;
+            text-decoration: none;
+        }
+    }
+
+    h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
     &.preview {
         padding-top: 30px;
 
         h2,h3 {
             margin-top: 0;
-            font-size: 45px;
-            line-height: 45px;
             text-transform: uppercase;
-
-            a {
-                color: @gray-darker;
-                text-decoration: none;
-            }
-        }
-
-        h3 {
-            font-size: 40px;
-            line-height: 45px;
         }
 
         .more-link {
@@ -323,6 +332,15 @@ blockquote {
             color: @gray-light;
             font-size: 15px;
             line-height: 30px;
+        }
+    }
+
+    small {
+        font-size: 15px;
+        color: @gray-light;
+
+        a {
+            color: @gray-light;
         }
     }
 }
