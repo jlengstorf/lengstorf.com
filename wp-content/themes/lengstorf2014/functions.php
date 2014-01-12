@@ -118,7 +118,7 @@ function rw_excerpt_more( $more ) {
 add_filter('excerpt_more', 'rw_excerpt_more');
 
 function shortcode_lead( $atts, $content ) {
-    $clean = strip_tags($content, '<strong><em><a>');
+    $clean = strip_tags($content, '<strong><em><a><span>');
     return '<p class="lead">' . $clean . '</p>';
 }
 add_shortcode('lead', 'shortcode_lead');
