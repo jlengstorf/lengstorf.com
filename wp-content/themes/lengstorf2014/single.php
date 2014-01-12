@@ -33,8 +33,13 @@ while (have_posts()):
         $image_class = NULL;
     }
 
+    if (function_exists('yoast_breadcrumb')) {
+        $breadcrumbs = yoast_breadcrumb('<p id="breadcrumbs" class="sr-only"><small>','</small></p>', FALSE);
+    }
+
 ?>
         <div class="col-md-10 col-md-push-2">
+            <?php echo $breadcrumbs; ?> 
             <h1><?php the_title(); ?></h1>
         </div>
         <div id="post-meta" 
