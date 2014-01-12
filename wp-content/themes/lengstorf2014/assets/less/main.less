@@ -245,10 +245,13 @@ blockquote {
     border: 0;
 
     p {
-        margin: 0;
         font-size: 22px;
         line-height: 30px;
         font-style: italic;
+
+        &:last-child {
+            margin: 0;
+        }
     }
 
     @media (min-width: @screen-md-min) {
