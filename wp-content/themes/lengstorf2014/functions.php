@@ -155,10 +155,10 @@ function copter_shortcode_footnote( $atts, $content=NULL )
     $count = ++Copter_Footnotes::$count;
     Copter_Footnotes::$footnotes[$count] = $content;
 
-    return '<a href="#footnote-' . $count . '" '
+    return '<sup><a href="#footnote-' . $count . '" '
             . 'id="note-' . $count . '" ' 
             . 'class="footnote">' 
-            . $count . '</a>';
+            . $count . '</a></sup>';
 }
 add_shortcode('footnote', 'copter_shortcode_footnote');
 

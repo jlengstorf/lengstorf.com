@@ -194,11 +194,7 @@ p,li {
     }
 
     .footnote {
-        position: relative;
-        top: -.5em;
-        display: inline-block;
         height: 0;
-        font-size: 13px;
         text-decoration: none;
     }
 
@@ -238,7 +234,7 @@ ol,ul {
     }
 }
 
-blockquote {
+.post blockquote {
     margin-top: 15px;
     margin-bottom: 30px;
     color: @gray;
@@ -246,11 +242,17 @@ blockquote {
 
     p {
         font-size: 22px;
-        line-height: 30px;
+        line-height: 25px;
         font-style: italic;
 
         &:last-child {
             margin: 0;
+        }
+
+        small {
+            display: block;
+            text-align: right;
+            font-size: 20px;
         }
     }
 
