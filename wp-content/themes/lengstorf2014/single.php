@@ -55,8 +55,8 @@ while (have_posts()):
 
 <?php if (get_field('discussion_link')): ?>
             <p id="discussion">
-                <strong>Have something to add to the conversation?</strong>
-                Join the <a href="<?php the_field('discussion_link'); ?>">discussion about this post</a> on Facebook.
+                <strong>Let&rsquo;s talk.</strong>
+                Join the <a href="<?php the_field('discussion_link'); ?>">discussion about this post</a>.
             </p>
 <?php endif; ?>
         </article>
