@@ -126,7 +126,11 @@ add_shortcode('lead', 'shortcode_lead');
 function shortcode_pullquote( $atts, $content ) {
     $clean = strip_tags($content, '<strong><em><a>');
     $cleaner = copter_remove_crappy_markup($content);
-    return '<blockquote class="pullquote hidden-sm hidden-xs"><p>' . $cleaner . '</p></blockquote>';
+    if (!is_feed()) {
+        return '<blockquote class="pullquote hidden-sm hidden-xs"><p>' . $cleaner . '</p></blockquote>';
+    } else {
+        return '';
+    }
 }
 add_shortcode('pullquote', 'shortcode_pullquote');
 
