@@ -58,7 +58,7 @@ $site_credit = rw_footer_credit_link("Site by Copter Labs");
             All content copyright &copy; 
             <a href="<?php echo home_url('/'); ?>" 
                title="<?php echo $title; ?>" 
-               rel="home"><?php bloginfo('name', 'display'); ?></a>
+               rel="home">Jason Lengstorf</a>
         </p>
         <?php echo $footer_nav; ?> 
         <p class="col-md-3 text-right">
