@@ -35,6 +35,8 @@ while (have_posts()):
 
     if (function_exists('yoast_breadcrumb')) {
         $breadcrumbs = yoast_breadcrumb('<p id="breadcrumbs" class="sr-only"><small>','</small></p>', FALSE);
+    } else {
+        $breadcrumbs = NULL;
     }
 
 ?>
@@ -61,11 +63,14 @@ while (have_posts()):
 <?php endif; ?>
         </article>
 
-        <ul class="col-md-2 list-inline">
-            <?php echo rw2_social_facebook_btn(get_permalink()); ?>
-            <?php echo rw2_social_gplus_btn(get_permalink(), $gplus_config); ?>
-            <?php echo rw2_social_twitter_btn(get_permalink(), $tw_config); ?>
-        </ul>
+        <div class="col-md-2">
+            <?php echo rw2_social_facebook_btn(get_permalink()); ?> 
+            <?php echo rw2_social_gplus_btn(get_permalink(), $gplus_config); ?> 
+            <?php echo rw2_social_twitter_btn(get_permalink(), $tw_config); ?> 
+            <script type="text/javascript" 
+                    src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 
+                    id="_fusionads_js"></script>
+        </div>
 
         <div id="author-bio" class="col-md-8 col-md-offset-2">
             <img src="<?php echo ASSETS_DIR; ?>/images/jason-lengstorf.jpg"
