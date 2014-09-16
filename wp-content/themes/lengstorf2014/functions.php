@@ -117,6 +117,11 @@ function rw_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'rw_excerpt_more');
 
+function responsive_embed($html, $url, $attr) {
+    return $html!='' ? '<div class="embed-container">'.$html.'</div>' : '';
+}
+add_filter('embed_oembed_html', 'responsive_embed', 10, 3);
+
 function shortcode_lead( $atts, $content ) {
     $clean = strip_tags($content, '<strong><em><a><span>');
     return '<p class="lead">' . $clean . '</p>';

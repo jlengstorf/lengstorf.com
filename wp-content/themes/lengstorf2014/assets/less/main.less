@@ -336,6 +336,15 @@ ol,ul {
         }
     }
 
+    img {
+        width: auto;
+
+        &.alignright {
+            max-width: 40%;
+            margin-top: 20px;
+        }
+    }
+
     small {
         font-size: 15px;
         color: @gray-light;
@@ -417,6 +426,24 @@ ol,ul {
     //     border-radius: 100%;
     //     border: 1px solid #f2a830;
     // }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+
+    iframe, object, embed { 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 #author-bio {
