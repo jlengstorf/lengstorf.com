@@ -159,6 +159,30 @@ function copter_remove_crappy_markup( $string )
 /**
  * Adds footnote handling
  */
+
+/*
+ * Updated footnote handling (works with WP-Markdown/Markdown footnote syntax)
+ */
+function extract_markdown_footnotes( $content ) {
+    // if (!is_single()) {
+    //     return $content;
+    // }
+
+    // Grabs the <li> elements out of the footnotes
+    $pattern = '#<div class="footnotes">\s*?<hr />\s*?<ol>\s*?(?P<footnotes>.*?)\s*?</ol>\s*?</div>#s';
+    preg_match($pattern, $content, $matches);
+
+    if (array_key_exists('footnotes', $matches)) {
+        Copter_Footnotes::$md_footnotes = $matches['footnotes'];
+    }
+
+    // Removes the footnotes div
+    $pattern = '#<div class="footnotes">(.*?)</div>#s';
+    $content = preg_replace($pattern, '', $content);
+    return $content;
+}
+add_filter('the_content', 'extract_markdown_footnotes');
+
 function copter_shortcode_footnote( $atts, $content=NULL )
 {
     $count = ++Copter_Footnotes::$count;
@@ -175,4 +199,5 @@ class Copter_Footnotes
 {
     public static $count = 0;
     public static $footnotes = array();
+    public static $md_footnotes = NULL;
 }

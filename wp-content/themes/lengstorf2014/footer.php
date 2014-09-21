@@ -33,11 +33,19 @@ $site_credit = rw_footer_credit_link("Site by Copter Labs");
 
 </div>
 
+<?php if (is_single()): ?>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <ol id="footnotes">
-        <?php foreach (Copter_Footnotes::$footnotes as $number => $footnote): ?>
+<?php
+
+if (!empty(Copter_Footnotes::$md_footnotes)):
+    echo Copter_Footnotes::$md_footnotes;
+else:
+    foreach (Copter_Footnotes::$footnotes as $number => $footnote):
+
+?>
                 <li id="footnote-<?=$number?>" class="footnote">
                     <p>
                         <?=$footnote?> 
@@ -46,11 +54,17 @@ $site_credit = rw_footer_credit_link("Site by Copter Labs");
                            class="footnote-return">&#8617;</a>
                     </p>
                 </li><!--/#footnote-<?=$number?>.footnote-->
-        <?php endforeach; ?>
+<?php
+
+    endforeach;
+endif;
+
+?>
             </ol><!--/#footnotes-->
         </div>
     </div>
 </div>
+<?php endif; ?>
 
 <footer id="site-credits" class="container">
     <div class="row">
