@@ -61,6 +61,40 @@ while (have_posts()):
                 Join the <a href="<?php the_field('discussion_link'); ?>">discussion about this post</a>.
             </p>
 <?php endif; ?>
+
+            <div class="row opt-in">
+                <form class="form-inline" role="form"
+                      action="http://copterlabs.us2.list-manage2.com/subscribe/post" 
+                      method="post">
+                    <div class="copy">
+                        <h4>Get Notified of New Posts</h4>
+                        <p>
+                            New posts will be delivered straight to your inbox. 
+                            Plus, it gives me warm fuzzies to know people read 
+                            the things I write. So thanks in advance.
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" 
+                               autocapitalize="off" autocorrect="off" name="MERGE0"
+                               placeholder="Email your email address">
+                    </div>
+
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;">
+                        <input type="text" 
+                               name="b_34042625c99172141e2b35836_7e395d5c57" 
+                               tabindex="-1" value="">
+                    </div>
+
+                    <button type="submit" name="submit"
+                            class="btn btn-primary">Get Notified</button>
+
+                    <input type="hidden" name="u" value="34042625c99172141e2b35836">
+                    <input type="hidden" name="id" value="7e395d5c57">
+                </form>
+            </div>
         </article>
 
         <div class="col-md-2">
@@ -76,7 +110,8 @@ while (have_posts()):
             <img src="<?php echo ASSETS_DIR; ?>/images/jason-lengstorf.jpg"
                  alt="Jason Lengstorf">
             <p>
-                <strong>Jason Lengstorf</strong> spends the majority of his time solving hard problems at Copter Labs, and otherwise occupies himself with travel, Learning For Fun&trade; (current obsession: cocktails), and the pursuit of new adventures. He lives in Portland, OR.
+                <?php the_author_meta('description'); ?> 
+                <!-- <strong>Jason Lengstorf</strong> spends the majority of his time solving hard problems at Copter Labs, and otherwise occupies himself with travel, Learning For Fun&trade; (current obsession: cocktails), and the pursuit of new adventures. He lives in Portland, OR. -->
             </p>
             <p class="author-meta">
                 Connect: 

@@ -176,7 +176,8 @@ h1 {
 
 p,li {
     margin: 0 0 30px;
-    letter-spacing: .02em;
+    letter-spacing: 0;
+    text-rendering: optimizeLegibility;
 
     &.lead {
         // font-size: 30px;
@@ -192,10 +193,6 @@ p,li {
     .footnote {
         height: 0;
         text-decoration: none;
-    }
-
-    &#discussion {
-        
     }
 
     @media (min-width: @screen-sm-min) {
@@ -351,6 +348,66 @@ ol,ul {
 
         a {
             color: @gray-light;
+        }
+    }
+}
+
+.opt-in {
+    margin: 0 0 40px;
+
+    .copy {
+        h4 {
+            margin-bottom: 5px;
+            font-size: 35px;
+            letter-spacing: .02em;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 10px;
+            color: @gray-light;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 0 0 1px;
+        font-family: @headings-font-family;
+        font-size: 35px;
+        letter-spacing: .02em;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    @media (min-width: @screen-xs-min) {
+        margin-left: -15px;
+
+        .copy {
+            .make-xs-column(12);
+        }
+
+        .form-group {
+            .make-xs-column(7);
+        }
+
+        .btn {
+            .make-xs-column(5);
+        }
+    }
+
+    @media (min-width: @screen-sm-min) {
+        .form-group {
+            .make-xs-column(9);
+        }
+
+        .btn {
+            .make-xs-column(3);
         }
     }
 }
