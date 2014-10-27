@@ -123,7 +123,7 @@ function responsive_embed($html, $url, $attr) {
 add_filter('embed_oembed_html', 'responsive_embed', 10, 3);
 
 function shortcode_lead( $atts, $content ) {
-    $clean = strip_tags($content, '<strong><em><a><span>');
+    $clean = strip_tags($content, '<strong><em><a><span><del><ins>');
     return '<p class="lead">' . $clean . '</p>';
 }
 add_shortcode('lead', 'shortcode_lead');
