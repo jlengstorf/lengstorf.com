@@ -45,7 +45,7 @@ while (have_posts()):
             <h1><?php the_title(); ?></h1>
         </div>
         <div id="post-meta" 
-             class="col-md-2 col-md-pull-10 hidden-sm hidden-xs">
+             class="col-md-2 col-md-pull-9 hidden-sm hidden-xs">
             <img src="<?php echo $image_path; ?>"
                  alt="<?php the_title(); ?>"
                  class="<?php echo $image_class; ?>">
@@ -62,10 +62,10 @@ while (have_posts()):
                     <span class="fa fa-google-plus"></span>
                 </a>
             </div>
-            <div class="updates">
+            <p class="updates">
                 <strong>Want More?</strong>
-                <a href="#opt-in">Get Notified of New Posts</a>
-            </div>
+                <a href="/get-updates/">Get New Posts by Email</a>
+            </p>
 
             <script type="text/javascript" 
                     src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 

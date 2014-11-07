@@ -326,10 +326,10 @@ h1 {
 
 #post-meta {
     height: 0;
-    text-align: right;
+    text-align: center;
 
-    img {
-        margin-bottom: 65px;
+    >img {
+        margin-bottom: 20px;
     }
 
     p,li {
@@ -355,6 +355,13 @@ h1 {
             &:before {
                 content: '#';
             }
+        }
+    }
+
+    .updates {
+        strong {
+            display: block;
+            font-weight: normal;
         }
     }
 
@@ -441,10 +448,47 @@ h1 {
     }
 }
 
+.post-sharing {
+    &:extend(#post-meta p);
+    margin-bottom: @font-size-base;
+
+    &:before {
+        content: 'Share This Post:';
+        display: block;
+        margin-bottom: @font-size-base*.25;
+        &:extend(#post-meta p);
+    }
+
+    &.bottom {
+        margin-bottom: 0;
+    }
+
+    a {
+        position: relative;
+        top: -2px;
+        display: inline-block;
+        width: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 6px 0 4px;
+        border-radius: 2px;
+        color: @gray-dark;
+        font-size: @font-size-base*1.5;
+        text-align: center;
+        .transition(.2s all ease-in-out);
+        vertical-align: middle;
+
+        &:hover {
+            background-color: @brand-primary;
+            color: @body-bg;
+        }
+    }
+}
+
 .fusion-wrap {
     display: block;
-    width: 140px;
-    margin-top: 20px;
+    width: 130px;
+    margin: 20px auto 0;
     font-size: 12px;
     line-height: 15px;
 

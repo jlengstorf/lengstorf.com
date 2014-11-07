@@ -34,6 +34,7 @@ if (has_nav_menu('primary')) {
 <title><?php wp_title('&rsaquo;'); ?></title>
 
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6102252/625342/css/fonts.css" />
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <?php if (is_single()): ?>
 <!-- Facebook Conversion Code for Blog Reads -->
