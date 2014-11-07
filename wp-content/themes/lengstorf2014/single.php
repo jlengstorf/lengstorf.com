@@ -116,21 +116,28 @@ while (have_posts()):
             </div>
         </article>
 
-<!--         <div class="col-md-2">
-            <?php echo rw2_social_facebook_btn(get_permalink()); ?> 
-            <?php echo rw2_social_gplus_btn(get_permalink(), $gplus_config); ?> 
-            <?php echo rw2_social_twitter_btn(get_permalink(), $tw_config); ?> 
+        <div class="col-xs-12 hidden-md hidden-lg">
+            <div class="post-sharing">
+                <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a href="http://twitter.com/share?text=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>&amp;via=johnromaniello">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>">
+                    <span class="fa fa-google-plus"></span>
+                </a>
+            </div>
             <script type="text/javascript" 
                     src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 
                     id="_fusionads_js" async defer></script>
-        </div> -->
+        </div>
 
         <div id="author-bio" class="col-md-8 col-md-offset-2">
             <img src="<?php echo ASSETS_DIR; ?>/images/jason-lengstorf.jpg"
                  alt="Jason Lengstorf">
             <p>
                 <?php the_author_meta('description'); ?> 
-                <!-- <strong>Jason Lengstorf</strong> spends the majority of his time solving hard problems at Copter Labs, and otherwise occupies himself with travel, Learning For Fun&trade; (current obsession: cocktails), and the pursuit of new adventures. He lives in Portland, OR. -->
             </p>
             <p class="author-meta">
                 Connect: 
