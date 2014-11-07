@@ -40,7 +40,7 @@ while (have_posts()):
     }
 
 ?>
-        <div class="col-md-10 col-md-push-2">
+        <div class="col-md-9 col-md-push-3">
             <?php echo $breadcrumbs; ?> 
             <h1><?php the_title(); ?></h1>
         </div>
@@ -51,8 +51,27 @@ while (have_posts()):
                  class="<?php echo $image_class; ?>">
             <p>Posted in <?php the_category(' '); ?></p>
             <?php the_tags('<ul class="list-unstyled"><li>', '</li><li>', '</li></ul>'); ?> 
+            <div class="post-sharing">
+                <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a href="http://twitter.com/share?text=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>&amp;via=johnromaniello">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>">
+                    <span class="fa fa-google-plus"></span>
+                </a>
+            </div>
+            <div class="updates">
+                <strong>Want More?</strong>
+                <a href="#opt-in">Get Notified of New Posts</a>
+            </div>
+
+            <script type="text/javascript" 
+                    src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 
+                    id="_fusionads_js" async defer></script>
         </div>
-        <article class="post col-md-8 col-md-offset-2">
+        <article class="post col-md-8 col-md-offset-3">
             <?php the_content(); ?>
 
 <?php if (get_field('discussion_link')): ?>
@@ -97,14 +116,14 @@ while (have_posts()):
             </div>
         </article>
 
-        <div class="col-md-2">
+<!--         <div class="col-md-2">
             <?php echo rw2_social_facebook_btn(get_permalink()); ?> 
             <?php echo rw2_social_gplus_btn(get_permalink(), $gplus_config); ?> 
             <?php echo rw2_social_twitter_btn(get_permalink(), $tw_config); ?> 
             <script type="text/javascript" 
                     src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 
                     id="_fusionads_js" async defer></script>
-        </div>
+        </div> -->
 
         <div id="author-bio" class="col-md-8 col-md-offset-2">
             <img src="<?php echo ASSETS_DIR; ?>/images/jason-lengstorf.jpg"
