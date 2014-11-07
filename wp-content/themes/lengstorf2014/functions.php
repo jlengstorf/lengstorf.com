@@ -139,6 +139,50 @@ function shortcode_pullquote( $atts, $content ) {
 }
 add_shortcode('pullquote', 'shortcode_pullquote');
 
+function shortcode_optin( $atts, $content=NULL ) {
+    extract(
+        shortcode_atts(
+            array(
+                'headline' => null,
+                'button' => 'Join Now',
+            ),
+            $atts
+        )
+    );
+
+    if (!empty($headline)) {
+        $headline = '<h2>' . strip_tags($headline) . '</h2>';
+    }
+    
+    ob_start();
+?>
+    <div class="opt-in-form-wrapper">
+        <?= $headline ?> 
+        <form action="http://copterlabs.us2.list-manage2.com/subscribe/post" 
+              method="post" id="mc-embedded-subscribe-form" 
+              name="mc-embedded-subscribe-form" 
+              novalidate class="opt-in-form validate" role="form">
+            <div class="form-group col-xs-8">
+                <label for="email" class="sr-only">Email Address</label>
+                <input type="email" name="MERGE0" class="form-control" 
+                       id="email" placeholder="Email Address">
+            </div>
+            <button type="submit" name="submit" 
+                    class="btn btn-primary col-xs-4">
+                <?= $button ?> 
+            </button>
+
+            <input type="hidden" name="u" value="34042625c99172141e2b35836">
+            <input type="hidden" name="id" value="7e395d5c57">
+        </form>
+    </div>
+<?php   
+    $return_string = ob_get_contents();
+    ob_end_clean();
+    return $return_string;
+}
+add_shortcode('optin', 'shortcode_optin');
+
 
 /**
  * Removes mismatched </p> and <p> tags from the beginning and end of a snippet.
