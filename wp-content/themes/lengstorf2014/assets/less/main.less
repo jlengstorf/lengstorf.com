@@ -328,6 +328,16 @@ h1 {
     height: 0;
     text-align: center;
 
+    &.affix {
+        position: fixed;
+        // top: 0;
+        width: 243px;
+
+        @media (min-width: @screen-lg-min) {
+            width: 195px;
+        }
+    }
+
     >img {
         margin-bottom: 20px;
     }
