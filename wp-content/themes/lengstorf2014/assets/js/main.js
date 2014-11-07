@@ -27,6 +27,26 @@ var size = window.getComputedStyle(document.body,':after')
 /*
  * CUSTOM THEME JS
  *****************************************************************************/
+    if (size==='desktop') {
+        var $meta = $('#post-meta');
 
+        if ($meta.length>0) {
+            $meta.affix({
+                offset: {
+                    top: $meta.offset().top
+                }
+            });
+        }
+ 
+        // Only triggers sharing pop-ups for desktops; small devices open in-screen
+        $('.post-sharing,.share-this-post').on('click', 'a', function(event){
+            event.preventDefault();
+            window.open(
+                $(this).attr('href'),
+                '_blank',
+                'width=800, height=400, top=200, left=300'
+            );
+        });
+    }
 
 });

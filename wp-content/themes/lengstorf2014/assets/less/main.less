@@ -450,17 +450,13 @@ h1 {
 
 .post-sharing {
     &:extend(#post-meta p);
-    margin-bottom: @font-size-base;
+    margin-bottom: 15px;
 
     &:before {
         content: 'Share This Post:';
         display: block;
         margin-bottom: @font-size-base*.25;
         &:extend(#post-meta p);
-    }
-
-    &.bottom {
-        margin-bottom: 0;
     }
 
     a {
