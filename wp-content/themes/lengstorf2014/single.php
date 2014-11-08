@@ -47,6 +47,10 @@ while (have_posts()):
                  class="<?php echo $image_class; ?>">
             <p>Posted in <?php the_category(' '); ?></p>
             <?php the_tags('<ul class="list-unstyled"><li>', '</li><li>', '</li></ul>'); ?> 
+            <p class="updates">
+                <strong>Want More?</strong>
+                <a href="/get-updates/">Get New Posts by Email</a>
+            </p>
             <div class="post-sharing">
                 <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>">
                     <span class="fa fa-facebook"></span>
@@ -58,10 +62,6 @@ while (have_posts()):
                     <span class="fa fa-google-plus"></span>
                 </a>
             </div>
-            <p class="updates">
-                <strong>Want More?</strong>
-                <a href="/get-updates/">Get New Posts by Email</a>
-            </p>
 
             <script type="text/javascript" 
                     src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 
@@ -116,7 +116,7 @@ while (have_posts()):
             </div>
         </article>
 
-        <div class="col-xs-12 hidden-md hidden-lg text-center">
+        <div class="col-md-8 col-md-offset-3 text-center">
             <div class="post-sharing">
                 <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>">
                     <span class="fa fa-facebook"></span>
