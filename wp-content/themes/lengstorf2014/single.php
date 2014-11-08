@@ -18,7 +18,6 @@ while (have_posts()):
         'hashtag' => strip_tags(get_the_tag_list('', ',', '')),
         'text' => get_the_title(),
     );
-    $gplus_config = array( 'width' => 60 );
 
     // Grabs the featured image
     $attachment_id = get_post_thumbnail_id();
@@ -55,7 +54,7 @@ while (have_posts()):
                 <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>">
                     <span class="fa fa-facebook"></span>
                 </a>
-                <a href="http://twitter.com/share?text=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>&amp;via=jlengstorf">
+                <a href="http://twitter.com/share?text=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>&amp;via=jlengstorf&amp;hashtag=<?= $tw_config['hashtag'] ?>">
                     <span class="fa fa-twitter"></span>
                 </a>
                 <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>">
@@ -121,7 +120,7 @@ while (have_posts()):
                 <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>">
                     <span class="fa fa-facebook"></span>
                 </a>
-                <a href="http://twitter.com/share?text=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>&amp;via=jlengstorf">
+                <a href="http://twitter.com/share?text=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>&amp;via=jlengstorf&amp;hashtag=<?= $tw_config['hashtag'] ?>">
                     <span class="fa fa-twitter"></span>
                 </a>
                 <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>">
