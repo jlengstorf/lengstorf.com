@@ -116,7 +116,7 @@ while (have_posts()):
             </div>
         </article>
 
-        <div class="col-xs-12 hidden-md hidden-lg">
+        <div class="col-xs-12 hidden-md hidden-lg text-center">
             <div class="post-sharing">
                 <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>">
                     <span class="fa fa-facebook"></span>
