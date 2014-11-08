@@ -67,7 +67,7 @@ while (have_posts()):
                     src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 
                     id="_fusionads_js" async defer></script>
         </div>
-        <div class="col-md-9 post-title">
+        <div class="col-md-9 col-md-offset-1 post-title">
             <?php echo $breadcrumbs; ?> 
             <h1><?php the_title(); ?></h1>
         </div>
