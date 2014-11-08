@@ -33,7 +33,7 @@ var size = window.getComputedStyle(document.body,':after')
         if ($meta.length>0) {
             $meta.affix({
                 offset: {
-                    top: $meta.offset().top-50
+                    top: $meta.offset().top-65
                 }
             });
         }
