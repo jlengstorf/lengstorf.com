@@ -133,7 +133,7 @@ while (have_posts()):
                     id="_fusionads_js" async defer></script>
         </div>
 
-        <div id="author-bio" class="col-md-8 col-md-offset-2">
+        <div id="author-bio" class="col-md-8 col-md-offset-3">
             <img src="<?php echo ASSETS_DIR; ?>/images/jason-lengstorf.jpg"
                  alt="Jason Lengstorf">
             <p>

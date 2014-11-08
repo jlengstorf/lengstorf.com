@@ -36,7 +36,7 @@ $site_credit = rw_footer_credit_link("Site by Copter Labs");
 <?php if (is_single()): ?>
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-8 col-md-offset-3">
             <ol id="footnotes">
 <?php
 
