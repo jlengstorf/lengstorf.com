@@ -45,10 +45,6 @@ if( have_posts() ):
 
         <article class="col-md-8 col-md-offset-2">
             <?php the_content(); ?> 
-            <p>
-                Supports HTML5 Galleries?
-                <?= current_theme_supports('html5', 'gallery') ? 'Yes' : 'No' ?> 
-            </p>
         </article>
 <?php 
 
