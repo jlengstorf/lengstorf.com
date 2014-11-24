@@ -151,8 +151,8 @@ iframe.twitter-tweet {
     margin: 1.25em auto !important;
 }
 
-.wp-caption {
-    &.aligncenter,&.alignright,&.alignleft {
+.wp-caption,figure {
+    &,&.aligncenter,&.alignright,&.alignleft {
         &,&[style] {
             padding: 0;
             border: none;
@@ -163,7 +163,7 @@ iframe.twitter-tweet {
                 border: 1px solid @border-color;
             }
 
-            .wp-caption-text {
+            .wp-caption-text,figcaption {
                 display: block;
                 margin: 0;
                 padding-top: 5px;
@@ -187,8 +187,8 @@ img {
 }
 
 @media (min-width: @screen-sm-min) {
-    .wp-caption {
-        &.aligncenter,&.alignright,&.alignleft {
+    .wp-caption,figure {
+        &,&.aligncenter,&.alignright,&.alignleft {
             &,&[style] {
                 width: @image-width !important;
                 max-width: @image-width;
@@ -200,7 +200,7 @@ img {
                     height: auto;
                 }
 
-                .wp-caption-text {
+                .wp-caption-text,figcaption {
                     text-align: left;
                 }
             }
@@ -239,5 +239,13 @@ img {
         margin-top: 20px;
         margin-left: 20px;
         margin-right: @image-margin;
+    }
+
+    .gallery {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: @image-width;
+        margin: 20px @image-margin;
     }
 }
