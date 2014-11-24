@@ -48,9 +48,13 @@ var size = window.getComputedStyle(document.body,':after')
             );
         });
 
-        $('.gallery a').colorbox({ title: function(){
-            return $(this).closest('figure').find('figcaption').html();
-        }});
+        $('.gallery a').colorbox({
+            title: function(){
+                return $(this).closest('figure').find('figcaption').html();
+            },
+            maxWidth: '80%',
+            maxHeight: '80%'
+        });
     }
 
 });
