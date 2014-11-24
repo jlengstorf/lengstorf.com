@@ -47,6 +47,10 @@ var size = window.getComputedStyle(document.body,':after')
                 'width=800, height=400, top=200, left=300'
             );
         });
+
+        $('.gallery a').colorbox({ title: function(){
+            return $(this).closest('figure').find('figcaption').html();
+        }});
     }
 
 });
