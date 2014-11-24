@@ -184,11 +184,6 @@ iframe.twitter-tweet {
     text-align: center;
 }
 
-#cboxTitle {
-    &:extend(figure figcaption);
-    text-align: center;
-}
-
 figure {
     display: inline-block;
     margin-bottom: 20px;
@@ -286,5 +281,10 @@ img {
         flex: 1 25%;
         max-width: 22%;
         margin: 0 10px 20px !important;
+    }
+
+    #cboxTitle {
+        &:extend(figure figcaption);
+        text-align: center;
     }
 }
