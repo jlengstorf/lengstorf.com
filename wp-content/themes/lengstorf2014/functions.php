@@ -86,11 +86,17 @@ function rwchild_enqueue_assets(  ) {
      * SCRIPTS
      **************************************************************************/
     
+    // Colorbox
+    wp_register_script('colorbox',
+        ASSETS_DIR . '/lib/colorbox/jquery.colorbox-min.js',
+        array('jquery'), NULL, TRUE
+    );
+
     // If a theme JS file is built, include it
     if (is_readable(ASSETS_PATH . '/js/main.min.js')) {
         wp_enqueue_script('theme-js',
             ASSETS_DIR . '/js/main.min.js',
-            array('jquery'),
+            array('colorbox'),
             '1.0.0b' . filemtime(ASSETS_PATH . '/js/main.min.js'),
             TRUE
         );
