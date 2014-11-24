@@ -190,6 +190,23 @@ img {
     }
 }
 
+@media (min-width: @screen-xs-min) {
+    .gallery {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    figure {
+        flex: 1 50%;
+        max-width: 45%;
+        margin: 0 10px 20px !important;
+    }
+}
+
 @media (min-width: @screen-sm-min) {
     .wp-caption,figure {
         &,&.aligncenter,&.alignright,&.alignleft {
@@ -246,13 +263,6 @@ img {
     }
 
     .gallery {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        justify-content: center;
-
         width: @image-width;
         margin: 40px @image-margin;
     }
