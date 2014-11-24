@@ -180,6 +180,10 @@ iframe.twitter-tweet {
     }
 }
 
+figure {
+    margin-bottom: 20px;
+}
+
 img {
     &.aligncenter,&.alignleft,&.alignright {
         border: 1px solid @border-color;
@@ -245,12 +249,17 @@ img {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: center;
+
         width: @image-width;
-        margin: 20px @image-margin;
+        margin: 40px @image-margin;
     }
 
     figure {
         flex: 1 25%;
-        margin: 0 10px !important;
+        max-width: 22%;
+        margin: 0 10px 20px !important;
     }
 }
