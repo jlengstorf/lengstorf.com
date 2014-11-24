@@ -59,11 +59,15 @@ function rwchild_enqueue_assets(  ) {
     // Unhooks the RotorWash2 stylesheet
     wp_dequeue_style('rotorwash-main-styles');
 
+    wp_register_style('colorbox-css',
+        ASSETS_DIR . '/lib/colorbox/colorbox.css'
+    );
+
     // Hooks up the child theme's stylesheet
     wp_enqueue_style(
         'theme-main-styles',
         ASSETS_DIR . '/css/main.css',
-        array(),
+        array('colorbox-css'),
         '1.0.0b' . filemtime(ASSETS_PATH . '/css/main.css')
     );
 
