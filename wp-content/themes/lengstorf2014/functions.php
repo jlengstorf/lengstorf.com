@@ -34,7 +34,7 @@ function rwchild_setup_theme(  ) {
      *************************************************************************/
     require_once 'includes/custom-fields.php';
 
-    add_theme_support( 'html5', array( 'gallery', 'caption' ) );
+    add_theme_support('html5', array('gallery', 'caption'));
 
     /*
      * CUSTOM IMAGE SIZES
