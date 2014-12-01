@@ -74,7 +74,6 @@ foreach ($recent_posts as $post):
 
         <h3>
             <a href="<?php the_permalink(); ?>" 
-               title="<?php echo $link_title; ?>" 
                rel="bookmark"><?php the_title(); ?></a>
         </h3>
 
