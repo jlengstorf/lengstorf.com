@@ -170,19 +170,23 @@ function shortcode_optin( $atts, $content=NULL ) {
 ?>
     <div class="opt-in-form-wrapper">
         <?= $headline ?> 
-        <form action="http://copterlabs.us2.list-manage2.com/subscribe/post" 
+        <form action="//lengstorf.us9.list-manage.com/subscribe/post?u=f25c45f78f64cfd807b86df9c&amp;id=33a31102ba" 
               method="post" id="mc-embedded-subscribe-form" 
               name="mc-embedded-subscribe-form" 
               novalidate class="opt-in-form validate" role="form">
             <div class="form-group col-xs-8">
                 <label for="email" class="sr-only">Email Address</label>
-                <input type="email" name="MERGE0" class="form-control" 
+                <input type="email" name="EMAIL" class="form-control" 
                        id="email" placeholder="Email Address">
             </div>
-            <button type="submit" name="submit" 
+            <button type="submit" name="subscribe" 
                     class="btn btn-primary col-xs-4">
                 <?= $button ?> 
             </button>
+            <div style="position: absolute; left: -5000px;">
+                <input type="text" name="b_f25c45f78f64cfd807b86df9c_33a31102ba" 
+                       tabindex="-1" value="">
+            </div>
 
             <input type="hidden" name="u" value="34042625c99172141e2b35836">
             <input type="hidden" name="id" value="7e395d5c57">
