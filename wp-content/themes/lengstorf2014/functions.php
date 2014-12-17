@@ -137,7 +137,7 @@ function remove_width_attribute( $html ) {
 
     $replacements = array(
         '', // Removes the height attribute entirely
-        'width="565"', // Sets the width to 565px (for MailChimp campaigns)
+        'width="565" ', // Sets the width to 565px (for MailChimp campaigns)
     );
 
     return preg_replace($patterns, $replacements, $html);
