@@ -65,7 +65,7 @@ p,li {
     }
 }
 
-ol#footnotes {
+ol#footnotes,.disclosure {
     margin-top: 20px;
     padding-top: 30px;
     border-top: 1px solid @gray-lighter;
@@ -75,12 +75,21 @@ ol#footnotes {
         font-size: 13px;
         line-height: 15px;
 
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
         .footnote-return {
             color: @gray-lighter;
             font-size: 11px;
             text-decoration: none;
         }
     }
+}
+
+.disclosure {
+    border-top: 0;
 }
 
 blockquote {
