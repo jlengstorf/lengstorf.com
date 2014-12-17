@@ -145,6 +145,12 @@ function remove_width_attribute( $html ) {
 add_filter('post_thumbnail_html', 'remove_width_attribute', 10);
 add_filter('image_send_to_editor', 'remove_width_attribute', 10);
 
+function make_footnote_links_absolute( $content ) {
+    $url = get_permalink();
+    return preg_replace('/href="#/', 'href="' . $url . '#', $content);
+}
+add_filter('the_content', 'make_footnote_links_absolute', 20);
+
 function responsive_embed($html, $url, $attr) {
     return $html!='' ? '<div class="embed-container">'.$html.'</div>' : '';
 }
