@@ -167,6 +167,12 @@ function shortcode_pullquote( $atts, $content ) {
 }
 add_shortcode('pullquote', 'shortcode_pullquote');
 
+function shortcode_disclosure( $atts, $content ) {
+    $clean = copter_remove_crappy_markup($content);
+    return '<div class="disclosure">' . $clean . '</div>';
+}
+add_shortcode('disclosure', 'shortcode_disclosure');
+
 function shortcode_optin( $atts, $content=NULL ) {
     extract(
         shortcode_atts(
