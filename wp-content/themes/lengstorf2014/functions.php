@@ -129,6 +129,22 @@ function rw_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'rw_excerpt_more');
 
+function remove_width_attribute( $html ) {
+    $patterns = array(
+        '/(height)="\d*"\s/', // Matches the height attribute
+        '/(width)="\d*"\s/', // Matches the height attribute
+    );
+
+    $replacements = array(
+        '', // Removes the height attribute entirely
+        'width="565"', // Sets the width to 565px (for MailChimp campaigns)
+    );
+
+    return preg_replace($patterns, $replacements, $html);
+}
+add_filter('post_thumbnail_html', 'remove_width_attribute', 10);
+add_filter('image_send_to_editor', 'remove_width_attribute', 10);
+
 function responsive_embed($html, $url, $attr) {
     return $html!='' ? '<div class="embed-container">'.$html.'</div>' : '';
 }
