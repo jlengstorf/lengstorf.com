@@ -134,7 +134,7 @@ while (have_posts()):
 
         <div id="author-bio" class="col-md-8 col-md-offset-3">
             <img src="<?php echo ASSETS_DIR; ?>/images/jason-lengstorf.jpg"
-                 alt="Jason Lengstorf">
+                 alt="Jason Lengstorf" class="img-circle">
             <p>
                 <?php the_author_meta('description'); ?> 
             </p>
