@@ -127,9 +127,6 @@ while (have_posts()):
                     <span class="fa fa-google-plus"></span>
                 </a>
             </div>
-            <script type="text/javascript" 
-                    src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=lengstorf" 
-                    id="_fusionads_js" async defer></script>
         </div>
 
         <div id="author-bio" class="col-md-8 col-md-offset-3">
