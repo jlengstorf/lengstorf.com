@@ -137,7 +137,7 @@ while (have_posts()):
             </p>
             <p class="author-meta">
                 Connect: 
-                <a href="http://facebook.com/jasonlengstorf">Facebook</a> | 
+                <a href="http://facebook.com/jlengstorf">Facebook</a> | 
                 <a href="http://twitter.com/jlengstorf">Twitter</a> | 
                 <a href="https://plus.google.com/+jasonlengstorf">Google+</a>
             </p>
