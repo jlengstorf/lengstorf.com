@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/hoverboard"]
+	path = wp-content/themes/hoverboard
+	url = git@github.com:copterlabs/hoverboard.git
