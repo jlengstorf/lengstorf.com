@@ -1,0 +1,310 @@
+/*
+ * Typography Rules
+ *****************************************************************************/
+
+// Font and vertical rhythm settings
+@font-family-base: @font-family-sans-serif;
+@font-family-base-small: @font-family-base;
+@font-family-base-large: @font-family-base;
+@font-color-base: @gray-dark;
+@font-color-light: @gray;
+@font-color-dark: @gray-darker;
+@font-size-base: 14px;
+@font-weight-base: 300;
+@font-weight-bold: 700;
+@font-weight-heading: 700;
+@border-color: @font-color-light;
+@vertical-grid-base: @font-size-base*1.375;
+
+// Allows for images to be a different width than the rest of the column
+@image-width: 110%;
+@image-outer-edge-margin: -5%;
+@image-inner-edge-margin: 25px;
+
+// Sets font sizes and vertical rhythms
+.set-screen-size-rules(@font-size-base);
+
+@media (min-width: @screen-xs-min) {
+    .set-screen-size-rules(@font-size-base*1.143);
+}
+
+@media (min-width: @screen-md-min) {
+    .set-screen-size-rules(@font-size-base*1.285);
+}
+
+@media (min-width: @screen-lg-min) {
+    .set-screen-size-rules(@font-size-base*1.428);
+}
+
+.main-content {
+    >* {
+        margin: 0;
+
+        +* {
+            margin-top: 10px;
+        }
+    }
+
+    // Sets defaults that aren’t size-sensitive
+    h1,h2,h3,h4,h5,h6,p,ul,ol,li {
+        margin-bottom: 0;
+        text-rendering: optimizeLegibility;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        font-weight: @font-weight-heading;
+
+        a {
+            &:link,&:visited,&:active,&:hover {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .main-content__headline {
+        margin-bottom: 20px;
+    }
+
+    p,li {
+        color: @font-color-base;
+        font-weight: @font-weight-base;
+    }
+
+    .main-content__content p:first-child,.lead {
+        color: @font-color-dark;
+    }
+
+    .wp-caption-text {
+        color: @font-color-light;
+    }
+
+    strong,b {
+        color: @font-color-dark;
+        font-weight: @font-weight-bold;
+    }
+
+    blockquote {
+        clear: both;
+        position: relative;
+        margin-left: @image-outer-edge-margin;
+        margin-right: @image-outer-edge-margin;
+        padding: @vertical-grid-base/4 abs(@image-outer-edge-margin);
+
+        >* {
+            position: relative;
+            z-index: 10;
+        }
+
+        // &:before {
+        //     content: '\201c';
+        //     position: absolute;
+        //     top: 0; left: 0;
+        //     color: @gray-lighter;
+        //     font-size: @font-size-base*3;
+        //     font-weight: @font-weight-heading;
+        //     z-index: 1;
+        // }
+
+        p {
+            font-style: italic;
+        }
+
+        small,strong:only-child {
+            display: block;
+            color: @font-color-light;
+            text-align: right;
+
+            &:before { content: '– '; }
+        }
+    }
+
+    // Uses !important to override Twitter’s inline styles
+    iframe.twitter-tweet {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .fb_iframe_widget {
+        display: block;
+        text-align: center;
+    }
+
+    // WordPress-specific alignment & caption styles
+    img {
+        .img-responsive;
+        display: inline-block;
+        height: auto;
+        border: 1px solid @border-color;
+
+        &.aligncenter {
+            display: block;
+        }
+
+        &.alignleft,&.alignright {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .wp-caption,.wp-caption[style] {
+        max-width: 100%;
+        width: 100% !important; // WordPress adds inline styles
+
+        img {
+            width: 100%;
+        }
+    }
+
+    // Galleries (have to hack because WP uses fucking IDs in its generated CSS)
+    .gallery {
+        .gallery-item {
+            margin: 0 !important;
+            padding: 5px !important;
+
+            img {
+                margin: 0 !important;
+                border: 0 !important;
+            }
+        }
+    }
+
+    @media (min-width: @screen-md-min) {
+        img.aligncenter,.wp-caption.aligncenter,.wp-caption.aligncenter[style],.gallery {
+            width: @image-width !important; // Overrides inline styles
+            max-width: @image-width !important;
+            margin-left: @image-outer-edge-margin !important;
+            margin-right: @image-outer-edge-margin !important;
+        }
+
+        .alignleft,.alignright {
+            &,&.wp-caption,&.wp-caption[style],img& {
+                max-width: 40%;
+                margin-bottom: @image-inner-edge-margin;
+            }
+        }
+
+        .alignright,img.alignright,.alignright.wp-caption,.alignright.wp-caption[style] {
+            float: right;
+            margin-left: @image-inner-edge-margin;
+            margin-right: @image-outer-edge-margin;
+
+            .wp-caption-text {
+                text-align: right;
+            }
+        }
+
+        .alignleft,img.alignleft,.alignleft.wp-caption,.alignleft.wp-caption[style] {
+            float: left;
+            margin-left: @image-outer-edge-margin;
+            margin-right: @image-inner-edge-margin;
+        }
+    }
+}
+
+// Mixins for typography
+.set-screen-size-rules( @font-size ) {
+    .main-content {
+        @vertical-grid-base: @font-size * 1.375;
+
+        *+*,p img { margin-top: @vertical-grid-base*.75; }
+
+        // Headings look better with a little additional top margin
+        h1,h2,h3,h4,h5,h6 {
+            &:not(:first-child) {
+                margin-top: @vertical-grid-base*1.5;
+            }
+        }
+
+        // Overrides inline margins
+        iframe.twitter-tweet,.instagram-media[style] {
+            margin-top: @vertical-grid-base*.75 !important;
+        }
+
+        .heading-sizes(6, @font-size, @vertical-grid-base);
+
+        p,li,dt,dl {
+            .font-family(@font-size);
+            font-size: @font-size;
+            line-height: @vertical-grid-base;
+
+            img {
+                margin-bottom: @vertical-grid-base*.75;
+            }
+        }
+
+        li,dt+dd {
+            margin-top: @vertical-grid-base*.25; 
+        }
+
+        .main-content__content p:first-child,.lead {
+            font-size: @font-size*1.125;
+            line-height: @vertical-grid-base*1.125;
+        }
+
+        blockquote {
+            strong:only-child,small {
+                font-size: @font-size*.875;
+            }
+        }
+
+        .main-content__excerpt p {
+            font-size: @font-size*.75;
+            line-height: @vertical-grid-base*.75;
+        }
+
+        .wp-caption-text {
+            margin-top: @vertical-grid-base*.25;
+            font-size: @font-size*.75;
+            line-height: @vertical-grid-base*.5;
+        }
+    }
+}
+
+.font-family(@font-size) {
+    font-family: @font-family-base-large;
+    font-weight: 400;
+}
+
+.font-family(@font-size) when (@font-size < 18px) {
+    font-family: @font-family-base-small;
+    font-weight: 400;
+}
+
+// Loops through heading declarations and sets styles
+.heading-sizes(@number, @font-size, @vertical-grid-base, @i: 1) when (@i =< @number) {
+    h@{i} {
+        @heading-font-size: @font-size + @font-size / @i;
+        font-size: @heading-font-size;
+        .line-height(@heading-font-size);
+    }
+
+    .heading-sizes(@number, @font-size, @vertical-grid-base, (@i + 1));
+}
+
+.line-height(@font-size) when (@font-size >= @vertical-grid-base*1.5) {
+    line-height: @vertical-grid-base*1.75;
+}
+
+.line-height(@font-size) 
+        when (@font-size >= @vertical-grid-base*1.375) 
+        and (@font-size < @vertical-grid-base*1.5) {
+    line-height: @vertical-grid-base*1.5;
+}
+
+.line-height(@font-size) 
+        when (@font-size >= @vertical-grid-base*1.25) 
+        and (@font-size < @vertical-grid-base*1.375) {
+    line-height: @vertical-grid-base*1.375;
+}
+
+.line-height(@font-size) 
+        when (@font-size >= @vertical-grid-base) 
+        and (@font-size < @vertical-grid-base*1.25) {
+    line-height: @vertical-grid-base*1.25;
+}
+
+.line-height(@font-size) when (@font-size < @vertical-grid-base) {
+    line-height: @vertical-grid-base;
+}
