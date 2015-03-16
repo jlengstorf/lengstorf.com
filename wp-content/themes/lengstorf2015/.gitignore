@@ -1,0 +1,6 @@
+/bower_components/
+/node_modules/
+/includes/*
+!/includes/load.php
+/assets/images/file_sigs.json
+todo.md

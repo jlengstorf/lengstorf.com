@@ -1,0 +1,23 @@
+{
+  "name": "hoverboard-child-theme",
+  "version": "1.1.1",
+  "authors": [
+    "Copter Labs <info@copterlabs.com>"
+  ],
+  "description": "A WordPress theme riding a Hoverboard",
+  "main": "style.css",
+  "license": "MIT",
+  "homepage": "https://github.com/copterlabs/hoverboard-child",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "includes",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tgm-plugin-activation": "thomasgriffin/TGM-Plugin-Activation"
+  }
+}
