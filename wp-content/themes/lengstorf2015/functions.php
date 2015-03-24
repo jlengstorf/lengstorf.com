@@ -66,6 +66,7 @@ function hb_setup_theme(  ) {
      * associated with it. Set them here.
      *************************************************************************/
     //add_image_size( $name, $width = 0, $height = 0, $crop = false )
+    add_image_size('blog-meta', 600, 300, true);
 }
 add_action('hoverboard/init', 'hb_setup_theme');
 
@@ -132,6 +133,7 @@ function hb_enqueue_assets(  ) {
      * *************************************************************************/
 
     // bower:css
+    wp_enqueue_style('font-awesome-css', get_stylesheet_directory_uri() . '/includes/fontawesome/css/font-awesome.css');
     // endbower
 
     // bower:js
