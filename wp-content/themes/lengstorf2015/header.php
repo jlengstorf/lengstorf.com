@@ -72,20 +72,32 @@ $nav = Hoverboard::get_nav_menu($config);
            rel="home">Jason Lengstorf</a>
         <nav class="site-header__navigation" role="navigation">
             <ul class="site-header__main-nav">
-                <li><a href="#" class="site-header__nav-item">Start Here</a></li>
-                <li><a href="#" class="site-header__nav-item">Blog</a></li>
+                <li><a href="/about/" class="site-header__nav-item">Start Here</a></li>
+                <li><a href="/blog/" class="site-header__nav-item">Blog</a></li>
                 <li>
-                    <a href="#" class="site-header__nav-item subnav-toggle">More</a>
+                    <a href="#" class="site-header__nav-item subnav-toggle"
+                       aria-haspopup="true">More</a>
                 </li>
             </ul>
-            <ul class="site-header__secondary-nav">
-                <li><a href="#" class="site-header__secondary-nav-item">Digital Nomadism 101</a></li>
-                <li><a href="#" class="site-header__secondary-nav-item">Remote Productivity Tips</a></li>
-                <li><a href="#" class="site-header__secondary-nav-item">Happiness Practice</a></li>
-                <li><a href="#" class="site-header__secondary-nav-item">Blog</a></li>
-                <li><a href="#" class="site-header__secondary-nav-item">About Jason</a></li>
-                <li><a href="#" class="site-header__secondary-nav-item">Speaking</a></li>
-                <li><a href="#" class="site-header__secondary-nav-item">Contact</a></li>
+            <ul class="site-header__secondary-nav" 
+                aria-hidden="true" aria-label="submenu">
+                <li><a href="/category/digital-nomadism/" class="site-header__secondary-nav-item">Digital Nomadism 101</a></li>
+                <li><a href="/category/remote-productivity/" class="site-header__secondary-nav-item">Remote Productivity Tips</a></li>
+                <li><a href="/category/happiness-practice/" class="site-header__secondary-nav-item">Happiness Practice</a></li>
+                <li><a href="/blog/" class="site-header__secondary-nav-item">Blog</a></li>
+                <li><a href="/about/" class="site-header__secondary-nav-item">About Jason</a></li>
+                <li><a href="/speaking/" class="site-header__secondary-nav-item">Speaking</a></li>
+                <li><a href="/contact/" class="site-header__secondary-nav-item">Contact</a></li>
+                <li class="search-form">
+                    <form role="form" method="GET" action="/"
+                          class="menu-search">
+                        <label for="search" 
+                               class="menu-search__label">Search the Site</label>
+                        <input type="search" class="menu-search__input" id="search" name="s">
+                        <button class="menu-search__submit" type="submit">Search</button>
+                        <input type="hidden" name="post_type" value="post">
+                    </form>
+                </li>
                 <li class="social-media facebook">
                     <a href="https://facebook.com/jlengstorf" 
                        class="site-header__secondary-nav-item">
