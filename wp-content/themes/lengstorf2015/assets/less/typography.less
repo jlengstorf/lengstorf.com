@@ -52,7 +52,9 @@
     }
 
     h1,h2,h3,h4,h5,h6 {
+        font-family: @headings-font-family;
         font-weight: @font-weight-heading;
+        color: @headings-color;
 
         a {
             &:link,&:visited,&:active,&:hover {
@@ -66,9 +68,24 @@
         margin-bottom: 20px;
     }
 
+    h3 {
+        color: @gray-dark;
+        font-weight: 300;
+        // text-transform: uppercase;
+    }
+
     p,li {
         color: @font-color-base;
         font-weight: @font-weight-base;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:active,&:focus,&:hover {
+            outline: none;
+            text-decoration: underline;
+        }
     }
 
     .main-content__content p:first-child,.lead {
@@ -89,11 +106,17 @@
         position: relative;
         margin-left: @image-outer-edge-margin;
         margin-right: @image-outer-edge-margin;
+        margin-bottom: 0;
         padding: @vertical-grid-base/4 abs(@image-outer-edge-margin);
+        border-left: 1px solid @gray-light;
 
         >* {
             position: relative;
             z-index: 10;
+        }
+
+        :first-child {
+            margin-top: 0;
         }
 
         // &:before {
@@ -151,6 +174,8 @@
     .wp-caption,.wp-caption[style] {
         max-width: 100%;
         width: 100% !important; // WordPress adds inline styles
+        margin-left: auto;
+        margin-right: auto;
 
         img {
             width: 100%;
@@ -283,7 +308,13 @@
     .heading-sizes(@number, @font-size, @vertical-grid-base, (@i + 1));
 }
 
-.line-height(@font-size) when (@font-size >= @vertical-grid-base*1.5) {
+.line-height(@font-size) when (@font-size >= @vertical-grid-base*1.75) {
+    line-height: 1em;
+}
+
+.line-height(@font-size) 
+        when (@font-size >= @vertical-grid-base*1.5) 
+        and (@font-size < @vertical-grid-base*1.75) {
     line-height: @vertical-grid-base*1.75;
 }
 
