@@ -18,6 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "tgm-plugin-activation": "thomasgriffin/TGM-Plugin-Activation"
+    "tgm-plugin-activation": "thomasgriffin/TGM-Plugin-Activation",
+    "fontawesome": "~4.3.0"
   }
 }
