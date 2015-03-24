@@ -4,7 +4,7 @@ wp-*.php
 xmlrpc.php
 wp-admin/
 wp-includes/
-wp-content/plugins/index.php
+wp-content/plugins/
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/*
