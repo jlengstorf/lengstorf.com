@@ -138,8 +138,8 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     base: '../../..',
-                    // hostname: 'localhost',
-                    hostname: 'lengstorf.dev',
+                    hostname: 'localhost',
+                    // hostname: 'lengstorf.dev',
                     port: 5000,
                     keepalive: true,
                     open: true
