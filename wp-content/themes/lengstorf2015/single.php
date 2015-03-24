@@ -18,23 +18,30 @@ while (have_posts()):
         $breadcrumbs = NULL;
     }
 
-    // Adds image attributes for the featured image
-    $img_attr = array(
-        'class' => 'alignleft featured-image',
-        'alt' => get_the_title()
-    );
+    // Grabs the featured image URL
+    $img_id = get_post_thumbnail_id();
+    $img_arr = wp_get_attachment_image_src($img_id, 'blog-meta');
+    $img_src = $img_arr[0];
+    $img_alt = get_the_title();
+
+    // For related posts
+    $related_post_id   = get_the_ID();
+    $related_post_cats = wp_get_post_categories(get_the_ID(), array('number'=>1));
 
 ?>
 
-    <div class="main-content">
+    <article class="main-content">
         <div class="main-content__breadcrumbs">
             <?= $breadcrumbs ?> 
         </div>
-        <h1 class="main-content__headline">
+        <h1 class="main-content__headline"
+            data-image="<?= $img_src ?>">
             <?php the_title(); ?> 
         </h1>
         <div class="main-content__meta">
-            <?php the_post_thumbnail('small', $img_attr); ?> 
+            <img src="<?= $img_src ?>"
+                 alt="<?= $img_alt ?>"
+                 class="alignleft featured-image">
             <div class="main-content__excerpt"><?php the_excerpt(); ?></div>
             <ul class="main-content__categories"><li><?php the_category('</li><li>'); ?></li></ul>
             <?php the_tags('<ul class="main-content__tags"><li>', '</li><li>', '</li></ul>'); ?> 
@@ -59,12 +66,17 @@ while (have_posts()):
 
 the_content();
 
+if (get_field('show_post_cta')!==false) {
+    echo do_shortcode('[endofpost]');
+}
+
 if (get_field('discussion_link')):
 
 ?>
+            <h2>Add Your Thoughts</h2>
             <p id="discussion">
-                <strong>Let&rsquo;s talk.</strong>
-                Join the <a href="<?php the_field('discussion_link'); ?>">discussion about this post</a>.
+                What did I get right in this post? What did I get wrong?
+                Join the <a href="<?php the_field('discussion_link'); ?>">discussion about this post</a> and share your thoughts!
             </p>
 <?php
 
@@ -88,8 +100,9 @@ endif;
                 </a>
             </div>
         </div>
-    </div>
-<?php 
+<?php get_template_part('layouts/related-posts'); ?>
+    </article>
+<?php
 
 endwhile;
 
