@@ -141,9 +141,11 @@ HighlightShare.prototype.handleSelection = function( event ) {
 
 HighlightShare.prototype.showSharingBox = function( event ) {
     var isEmpty = this.savedText.toString().length===0,
-        wrapper = this.getWrapper();
+        wrapper = this.getWrapper(),
+        ignoredTags = ['a', 'img'],
+        targetTag = event.target.tagName.toLowerCase();
 
-    if (!isEmpty && !this.isActive && event.target.tagName.toLowerCase()!=='a') {
+    if (!isEmpty && !this.isActive && ignoredTags.indexOf(targetTag)===-1) {
         this.isActive = true;
         wrapper.style.left = event.pageX + 'px';
         wrapper.style.top = event.pageY + 'px';
