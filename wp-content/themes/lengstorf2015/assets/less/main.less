@@ -937,15 +937,22 @@ body {
 
 .main-content__categories,.main-content__tags {
     list-style: none;
-    margin: 0;
+    margin: 10px 0 0;
     padding: 0;
-    font-size: 0.875em;
-    line-height: 20px;
-    text-transform: uppercase;
+    text-transform: small-caps;
 
     &:before {
+        display: block;
+        margin-right: 5px;
+        font-size: .75em;
         font-weight: @font-weight-heading;
         text-transform: uppercase;
+    }
+
+    @media (min-width: 480px) {
+        &:before {
+            display: inline-block;
+        }
     }
 
     li {
@@ -959,7 +966,6 @@ body {
 
 .main-content__categories {
     clear: both;
-    margin-top: 10px;
 
     @media (min-width: 480px) {
         clear: none;
@@ -971,8 +977,6 @@ body {
 }
 
 .main-content__tags {
-    margin-top: 0;
-
     &:before {
         content: 'Tags: ';
     }
@@ -990,6 +994,10 @@ body {
 
     a:before {
         content: '#';
+    }
+
+    @media (min-width: 480px) {
+        margin-top: 0;
     }
 }
 
