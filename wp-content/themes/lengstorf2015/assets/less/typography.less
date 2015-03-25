@@ -3,8 +3,8 @@
  *****************************************************************************/
 
 // Font and vertical rhythm settings
-@font-family-base: @font-family-sans-serif;
-@font-family-base-small: @font-family-base;
+@font-family-base: 'Gotham A', 'Gotham B';
+@font-family-base-small: 'Gotham SSm A', 'Gotham SSm B';
 @font-family-base-large: @font-family-base;
 @font-color-base: @gray-dark;
 @font-color-light: @gray;
@@ -13,6 +13,7 @@
 @font-weight-base: 300;
 @font-weight-bold: 700;
 @font-weight-heading: 700;
+@font-weight-heavy: 900;
 @border-color: @font-color-light;
 @vertical-grid-base: @font-size-base*1.375;
 
@@ -34,6 +35,11 @@
 
 @media (min-width: @screen-lg-min) {
     .set-screen-size-rules(@font-size-base*1.428);
+}
+
+body {
+    color: @font-color-base;
+    font-weight: @font-weight-base;
 }
 
 .main-content {
@@ -70,7 +76,7 @@
 
     h3 {
         color: @gray-dark;
-        font-weight: 300;
+        font-weight: @font-weight-base;
         // text-transform: uppercase;
     }
 
@@ -230,8 +236,12 @@
 
 // Mixins for typography
 .set-screen-size-rules( @font-size ) {
+    body {
+        .font-family(@font-size);
+    }
+
     .main-content {
-        @vertical-grid-base: @font-size * 1.375;
+        @vertical-grid-base: @font-size * 1.43;
 
         *+*,p img { margin-top: @vertical-grid-base*.75; }
 
@@ -275,8 +285,12 @@
         }
 
         .main-content__excerpt p {
-            font-size: @font-size*.75;
-            line-height: @vertical-grid-base*.75;
+            font-size: @font-size;
+            line-height: @vertical-grid-base;
+        }
+
+        .main-content__categories,.main-content__tags {
+                font-size: @font-size*.8;
         }
 
         .wp-caption-text {
@@ -289,12 +303,12 @@
 
 .font-family(@font-size) {
     font-family: @font-family-base-large;
-    font-weight: 400;
+    font-weight: @font-weight-base;
 }
 
 .font-family(@font-size) when (@font-size < 18px) {
     font-family: @font-family-base-small;
-    font-weight: 400;
+    font-weight: @font-weight-base;
 }
 
 // Loops through heading declarations and sets styles

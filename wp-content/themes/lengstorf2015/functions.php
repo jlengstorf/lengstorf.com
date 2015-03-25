@@ -86,15 +86,14 @@ function hb_enqueue_assets(  ) {
     // Adds extra styles
     wp_register_style(
         'fonts-com',
-        '//cloud.typography.com/6102252/625342/css/fonts.css'
+        '//cloud.typography.com/6102252/617726/css/fonts.css'
     );
 
     // Hooks up the child theme's stylesheet
     wp_enqueue_style(
         'theme-main-styles',
         ASSETS_DIR . '/css/main.min.css',
-        array(),
-        // array('fonts-com'),
+        array('fonts-com'),
         '1.0.0b' . filemtime(ASSETS_PATH . '/css/main.min.css')
     );
 

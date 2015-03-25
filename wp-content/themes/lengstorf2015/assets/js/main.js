@@ -42,7 +42,7 @@ jQuery(function($){
     }
 
     // On mobile, the featured image shows up differently
-    var $headlines = $('.main-content__headline,.main-content__headline--related');
+    var $headlines = $('.main-content__headline,.main-content__headline--related,.main-content__headline--single');
 
     $headlines.each(function(  ) {
         var $this = $(this);

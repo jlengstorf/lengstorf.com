@@ -3,7 +3,6 @@
 /*
 
 TODO:
-* Put posts into the new categories to verify layout works
 * Rewrite the home page
 * Rewrite the about page
 * Rewrite the "Get Updates" page
@@ -51,8 +50,6 @@ TODO:
 // @import "front-page.less";
 
 body {
-    font-family: @font-family-base;
-    font-weight: 100;
     overflow-x: hidden;
     background-attachment: fixed;
     background-color: @body-bg;
@@ -120,7 +117,7 @@ body {
     color: @gray-lighter;
     font-family: @headings-font-family;
     font-size: inherit;
-    font-weight: 700;
+    font-weight: @font-weight-heading;
     line-height: inherit;
     text-decoration: none;
     text-transform: uppercase;
@@ -168,7 +165,7 @@ body {
         background: fade(@gray-lighter, 20%);
         border-radius: 4px;
         color: @body-bg;
-        font-weight: 500;
+        font-weight: @font-weight-heading;
         outline: none;
         text-decoration: none;
     }
@@ -293,7 +290,7 @@ body {
     &:active,&:hover,&:focus {
         background: fade(@gray-lighter, 20%);
         color: @body-bg;
-        font-weight: 500;
+        font-weight: @font-weight-heading;
         outline: none;
         text-decoration: none;
     }
@@ -339,8 +336,9 @@ body {
 .hometown-hero__headline {
     margin: 0;
     color: @body-bg;
+    font-family: @font-family-base;
     font-size: 4.5vw;
-    font-weight: 900;
+    font-weight: @font-weight-heading;
     line-height: 1.111em;
     text-align: left;
     text-shadow: 0 0 0.111em fade(@gray-darker, 50%);
@@ -353,7 +351,7 @@ body {
     }
 
     strong {
-        font-weight: 800;
+        font-weight: @font-weight-heavy;
 
         &.days-abroad {
             margin-top: .25vw;
@@ -431,7 +429,7 @@ body {
     left: 0.5vw; top: -3vw;
     color: @body-bg;
     font-size: 2.25vw;
-    font-weight: 400;
+    font-weight: @font-weight-base;
     letter-spacing: 0.25vw;
     text-shadow: 0 0 0.2em fade(@gray-darker, 50%);
     text-transform: uppercase;
@@ -529,7 +527,7 @@ body {
     background: @brand-primary;
     color: @gray-lighter;
     font-size: 3.5vw;
-    font-weight: 700;
+    font-weight: @font-weight-heading;
     line-height: 4vw;
     text-transform: uppercase;
     transition: .2s all ease-in-out;
@@ -598,8 +596,9 @@ body {
 .cta__headline {
     margin: 0;
     color: @gray-darker;
+    font-family: @font-family-base;
     font-size: 5.25vw;
-    font-weight: 700;
+    font-weight: @font-weight-heading;
     line-height: 1em;
     text-align: center;
     text-transform: uppercase;
@@ -608,7 +607,7 @@ body {
         display: block;
         font-size: 8.5vw;
         line-height: .9em;
-        font-weight: 900;
+        font-weight: @font-weight-heavy;
     }
 
     @media (min-width: 420px) {
@@ -712,7 +711,7 @@ body {
 .cta__subhead {
     margin: 0;
     font-size: 4.5vw;
-    font-weight: 700;
+    font-weight: @font-weight-heading;
     line-height: 6vw;
     text-transform: uppercase;
 
@@ -759,7 +758,7 @@ body {
     border-radius: 4px;
     color: @body-bg;
     font-size: 3.75vw;
-    font-weight: 700;
+    font-weight: @font-weight-heading;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.2s all ease-in-out;
@@ -840,7 +839,9 @@ body {
     }
 }
 
-.main-content .main-content__headline,.main-content__headline--related {
+.main-content .main-content__headline,
+.main-content__headline--single,
+.main-content__headline--related {
     &,&:not(:first-child) { margin: 0 -3vw; }
 
     position: relative;
@@ -851,13 +852,15 @@ body {
     background-size: contain;
     z-index: 10;
 
-    &:before {
+    a:before {
         content: '';
         position: relative;
         display: block;
         width: 100vw;
         height: 50vw;
+        margin-left: -3vw;
         margin-bottom: 10px;
+        border-top: 1px solid @gray;
         border-bottom: 1px solid @gray;
         z-index: 1;
     }
@@ -865,9 +868,15 @@ body {
     @media (min-width: 480px) {
         &[style] { background-image: none !important; }
 
-        &:before {
+        a:before {
             display: none;
         }
+    }
+}
+
+.main-content__headline--single {
+    &:before {
+        &:extend(.main-content__headline--related a:before);
     }
 }
 
@@ -924,10 +933,6 @@ body {
 
 .main-content__excerpt {
     margin-top: 0;
-
-    p {
-        // line-height: 20px;
-    }
 }
 
 .main-content__categories,.main-content__tags {
@@ -939,7 +944,7 @@ body {
     text-transform: uppercase;
 
     &:before {
-        font-weight: @headings-font-weight;
+        font-weight: @font-weight-heading;
         text-transform: uppercase;
     }
 
@@ -1047,8 +1052,58 @@ a.main-content__sharing-link {
     }
 }
 
+.main-content__discussion a {
+    display: block;
+    padding: 12px;
+    background: @brand-info;
+    color: @body-bg;
+    font-size: .875em;
+    font-weight: @font-weight-heading;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:before {
+        content: '\f086';
+        font-family: @icon-font-name;
+    }
+
+    &:hover,&:focus,&:active {
+        background-color: darken(@brand-info, 5%);
+        color: lighten(@body-bg, 5%);
+        text-decoration: none;
+    }
+}
+
 .blog-preview {
     margin-top: 40px;
+}
+
+a.blog-preview__read-more {
+    display: block;
+    max-width: 300px;
+    margin: 15px auto 0;
+    padding: 7px;
+    background-color: @gray-darker;
+    border: 1px solid @gray-darker;
+    clear: both;
+    color: @body-bg;
+    font-size: .75em;
+    font-weight: @headings-font-weight;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s all ease-in-out;
+
+    &:hover,&:active,&:focus {
+        background-color: @brand-primary;
+        color: lighten(@body-bg, 5%);
+        text-decoration: none;
+        text-shadow: 1px 1px 1px fade(@gray-darker, 25%);
+    }
+
+    @media (min-width: @screen-md-min) {
+        float: left;
+        margin-left: 38%;
+    }
 }
 
 .text-center {
@@ -1057,6 +1112,10 @@ a.main-content__sharing-link {
 
 .pagination>li>a, .pagination>li>span {
     font-size: 12px;
+
+    &:hover,&:focus,&:active {
+        text-decoration: none;
+    }
 }
 
 
@@ -1084,7 +1143,7 @@ a.main-content__sharing-link {
     padding: 0 3vw;
     color: @body-bg;
     font-size: 4.75vw;
-    font-weight: 700;
+    font-weight: @font-weight-heading;
     line-height: 6vw;
     text-align: justify;
     text-transform: uppercase;

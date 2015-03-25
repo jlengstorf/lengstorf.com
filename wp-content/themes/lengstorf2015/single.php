@@ -34,7 +34,7 @@ while (have_posts()):
         <div class="main-content__breadcrumbs">
             <?= $breadcrumbs ?> 
         </div>
-        <h1 class="main-content__headline"
+        <h1 class="main-content__headline--single"
             data-image="<?= $img_src ?>">
             <?php the_title(); ?> 
         </h1>
@@ -70,18 +70,6 @@ if (get_field('show_post_cta')!==false) {
     echo do_shortcode('[endofpost]');
 }
 
-if (get_field('discussion_link')):
-
-?>
-            <h2>Add Your Thoughts</h2>
-            <p id="discussion">
-                What did I get right in this post? What did I get wrong?
-                Join the <a href="<?php the_field('discussion_link'); ?>">discussion about this post</a> and share your thoughts!
-            </p>
-<?php
-
-endif;
-
 ?>
         </div>
         <div class="main-content__meta--bottom">
@@ -99,6 +87,22 @@ endif;
                     <span class="sr-only">Share on Google Plus</span>
                 </a>
             </div>
+<?php
+
+if (get_field('discussion_link')):
+
+?>
+            <div class="main-content__discussion">
+                <a href="<?php the_field('discussion_link'); ?>"
+                   title="Comments on <?php the_title(); ?>">
+                    Discuss This Post
+                </a>
+            </div>
+<?php
+
+endif;
+
+?>
         </div>
 <?php get_template_part('layouts/related-posts'); ?>
     </article>
