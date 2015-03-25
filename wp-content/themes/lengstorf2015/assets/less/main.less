@@ -750,7 +750,7 @@ body {
     }
 }
 
-.cta__link {
+.cta__link,.footer-about__links a {
     display: inline-block;
     padding: 3vw;
     background: @brand-primary;
@@ -1150,7 +1150,7 @@ a.blog-preview__read-more {
     margin: 3vw 0 0;
     padding: 0 3vw;
     color: @body-bg;
-    font-size: 4.75vw;
+    font-size: 4.5vw;
     font-weight: @font-weight-heading;
     line-height: 6vw;
     text-align: justify;
@@ -1162,9 +1162,13 @@ a.blog-preview__read-more {
     }
 
     @media (min-width: 650px) {
-        margin: 30px 0 20px;
-        font-size: 20px;
+        margin: 20px 0 10px;
+        font-size: 18px;
         line-height: 20px;
+    }
+
+    @media (min-width: 1210px) {
+        margin-top: 30px;
     }
 }
 
@@ -1229,8 +1233,6 @@ a.blog-preview__read-more {
 
     @media (min-width: 420px) {
         margin: 20px 0 0;
-        font-size: 15px;
-        line-height: 20px;
 
         p {
             margin: 0 0 20px;
@@ -1266,14 +1268,24 @@ a.blog-preview__read-more {
     }
 
     a {
-        color: @brand-info;
-        text-decoration: underline;
+        display: block;
+        max-width: 400px;
+        margin: 0 auto 10px;
+        text-align: center;
     }
 
     @media (min-width: 420px) {
         margin: 20px 0 0;
         font-size: 15px;
         line-height: 20px;
+    }
+
+    @media (min-width: 1024px) {
+        margin-top: 10px;
+    }
+
+    @media (min-width: 1210px) {
+        margin-top: 20px;
     }
 }
 
@@ -1314,6 +1326,38 @@ a.blog-preview__read-more {
         font-size: 10px;
         letter-spacing: .1em;
         line-height: 20px;
+    }
+}
+
+.footer__site-nav {
+    a {
+        display: inline-block;
+        margin-right: 2px;
+        padding: 3px 2px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:link,&:visited,&:active,&:hover {
+            color: darken(@gray-light, 10%);
+            text-decoration: none;
+        }
+    }
+}
+
+.footer__copyright {
+    margin-top: 10px;
+    color: darken(@gray-light, 10%);
+
+    a {
+        display: inline-block;
+        padding: 3px 0;
+        color: inherit;
+    }
+
+    @media (min-width: 768px) {
+        margin-top: 0;
     }
 }
 

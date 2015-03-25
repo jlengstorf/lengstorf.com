@@ -6,6 +6,7 @@
 @font-family-base: 'Gotham A', 'Gotham B';
 @font-family-base-small: 'Gotham SSm A', 'Gotham SSm B';
 @font-family-base-large: @font-family-base;
+@font-family-heading: @font-family-base;
 @font-color-base: @gray-dark;
 @font-color-light: @gray;
 @font-color-dark: @gray-darker;
@@ -58,7 +59,7 @@ body {
     }
 
     h1,h2,h3,h4,h5,h6 {
-        font-family: @headings-font-family;
+        font-family: @font-family-heading;
         font-weight: @font-weight-heading;
         color: @headings-color;
 
@@ -297,6 +298,10 @@ body {
             font-size: @font-size*.75;
             line-height: @vertical-grid-base*.5;
         }
+    }
+
+    .footer-about__copy,.footer-about__links {
+        .tiny-sizes(@font-size*.5, @vertical-grid-base*.5);
     }
 }
 

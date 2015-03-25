@@ -2,7 +2,7 @@
 
     <div class="footer-about">
         <div class="footer-about__image">
-            <img src="http://localhost:5000/wp-content/themes/lengstorf2015/assets/images/jason-lengstorf_footer-sm.jpg" 
+            <img src="<?= home_url('/wp-content/themes/lengstorf2015/assets/images/jason-lengstorf_footer-sm.jpg') ?>" 
                  alt="Jason Lengstorf — Author, Speaker, Digital Nomad">
         </div>
         <div class="footer-about__bio">
@@ -29,12 +29,7 @@
                 </p>
             </div>
             <div class="footer-about__links">
-                <ul>
-                    <li><a href="#">About Jason</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
+                <a href="/remote-work-course/">Start Earning from Anywhere</a>
             </div>
         </div>
     </div>
@@ -70,7 +65,14 @@ endif;
 
     <footer class="footer">
         <ul class="footer__navigation">
-            <li>
+            <li class="footer__site-nav">
+                <a href="/about/">About</a>
+                <a href="/blog/">Blog</a>
+                <a href="/speaking/">Speaking</a>
+                <a href="/contact/">Contact</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </li>
+            <li class="footer__copyright">
                 All content copyright &copy; 
                 <a href="<?php echo home_url('/'); ?>" 
                    rel="home"><?php bloginfo('name', 'display'); ?></a>
