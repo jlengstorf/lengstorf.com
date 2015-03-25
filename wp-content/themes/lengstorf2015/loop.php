@@ -35,5 +35,5 @@ endif;
 
 // Displays pagination nav when applicable
 if ($wp_query->max_num_pages>1) {
-    Hoverboard::pagination('center', 3);
+    Hoverboard::pagination('center', 2);
 }
