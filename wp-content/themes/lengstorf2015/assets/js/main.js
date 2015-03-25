@@ -77,11 +77,13 @@ function HighlightShare( options ) {
                 active: classes.active || 'highlight-share__is-active',
                 tweetBtn: classes.tweetBtn || 'highlight-share__share-btn--twitter'
             },
+            container: opts.container || 'body',
             appendTo: 'body' // Query selector (see: http://mzl.la/1AYePlN)
         },
         savedText = false,
         shareBox = document.createElement('div'),
-        tweetBtn = document.createElement('button');
+        tweetBtn = document.createElement('button'),
+        container;
 
     // So we can avoid collisions
     this.isActive = false;
@@ -95,6 +97,9 @@ function HighlightShare( options ) {
 
     // Adds a click handler for sharing quotes
     shareBox.addEventListener('click', this.handleButtonClick.bind(this));
+
+    // Sets the container for restricting functionality to just one section
+    this.container = document.querySelector(this.config.container);
 
     // Appends the sharing box to the DOM
     document.querySelector(config.appendTo).appendChild(shareBox);
@@ -137,7 +142,9 @@ HighlightShare.prototype.restoreSelectedText = function( range ) {
 HighlightShare.prototype.handleSelection = function( event ) {
     this.savedText = this.getSelectedText();
 
-    setTimeout(this.showSharingBox.bind(this), 100, event);
+    if (this.isInContainer(event.target)) {
+        setTimeout(this.showSharingBox.bind(this), 100, event);
+    }
 };
 
 HighlightShare.prototype.showSharingBox = function( event ) {
@@ -208,6 +215,15 @@ HighlightShare.prototype.getWrapper = function(  ) {
     return document.getElementsByClassName(this.config.classNames.wrapper)[0];
 };
 
-var hishare = new HighlightShare({
-    via: 'jlengstorf'
+HighlightShare.prototype.isInContainer = function( node ) {
+    if (this.container===null) {
+        return false;
+    }
+
+    return this.container===node ? false : this.container.contains(node);
+};
+
+var highlightshare = new HighlightShare({
+    via: 'jlengstorf',
+    container: '.main-content'
 });
