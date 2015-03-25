@@ -51,7 +51,8 @@ jQuery(function($){
 
     // On full-sized posts, the background image ghosts in the background
     if (size==='desktop') {
-        var fullBG = $('.main-content__headline').data('image').replace(/([x\d-]+)?\.(png|jpe?g|gif)/, '.$2'),
+        var $headline = $('.main-content__headline,.main-content__headline--single').data('image'),
+            fullBG = $headline.replace(/([x\d-]+)?\.(png|jpe?g|gif)/, '.$2'),
             $body = $('body'),
             bgColor = $body.css('background-color'),
             bgFade = bgColor.indexOf('a')===-1 ? bgColor.replace(')', ', .92)').replace('rgb', 'rgba') : bgColor,

@@ -285,8 +285,7 @@ body {
         }
 
         .main-content__excerpt p {
-            font-size: @font-size;
-            line-height: @vertical-grid-base;
+            .tiny-sizes(@font-size*.75, @vertical-grid-base*.75);
         }
 
         .main-content__categories,.main-content__tags {
@@ -320,6 +319,16 @@ body {
     }
 
     .heading-sizes(@number, @font-size, @vertical-grid-base, (@i + 1));
+}
+
+.tiny-sizes(@font-size, @line-height) {
+    font-size: @font-size;
+    line-height: @line-height;
+}
+
+.tiny-sizes(@font-size, @line-height) when (@font-size < 14px) {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .line-height(@font-size) when (@font-size >= @vertical-grid-base*1.75) {
