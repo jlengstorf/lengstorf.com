@@ -338,7 +338,7 @@ body {
     color: @body-bg;
     font-family: @font-family-base;
     font-size: 4.5vw;
-    font-weight: @font-weight-heading;
+    font-weight: @font-weight-heavy;
     line-height: 1.111em;
     text-align: left;
     text-shadow: 0 0 0.111em fade(@gray-darker, 50%);
@@ -351,8 +351,6 @@ body {
     }
 
     strong {
-        font-weight: @font-weight-heavy;
-
         &.days-abroad {
             margin-top: .25vw;
             font-size: 2.22em;
@@ -880,7 +878,7 @@ body {
     }
 }
 
-.main-content__headline--page {
+.main-content__headline--page,.main-content__archive-title,.main-content__headline--single {
     &:extend(.main-content .main-content__headline);
     margin-top: 10px;
 
@@ -895,10 +893,6 @@ body {
 
 .main-content__headline--related {
     margin-top: 30px;
-}
-
-.main-content__archive-title {
-    margin-top: 70px;
 }
 
 .main-content__meta {
