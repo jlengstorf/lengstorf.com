@@ -863,7 +863,7 @@ body {
         z-index: 1;
     }
 
-    @media (min-width: 480px) {
+    @media (min-width: 600px) {
         &[style] { background-image: none !important; }
 
         a:before {
@@ -907,7 +907,7 @@ body {
         margin-right: 20px;
         margin-bottom: 20px;
 
-        @media (min-width: 480px) {
+        @media (min-width: 600px) {
             display: block;
         }
     }
@@ -1102,9 +1102,10 @@ a.blog-preview__read-more {
         text-shadow: 1px 1px 1px fade(@gray-darker, 25%);
     }
 
-    @media (min-width: @screen-md-min) {
+    @media (min-width: 680px) {
         float: left;
-        margin-left: 38%;
+        clear: none;
+        margin-top: 10px;
     }
 }
 
