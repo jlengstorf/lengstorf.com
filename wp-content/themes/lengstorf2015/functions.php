@@ -271,19 +271,16 @@ function shortcode_optin( $atts, $content=NULL ) {
     
     ob_start();
 ?>
-    <div class="opt-in-form-wrapper">
+    <div class="opt-in">
         <?= $headline ?> 
         <form action="//lengstorf.us9.list-manage.com/subscribe/post?u=f25c45f78f64cfd807b86df9c&amp;id=33a31102ba" 
               method="post" id="mc-embedded-subscribe-form" 
               name="mc-embedded-subscribe-form" 
-              novalidate class="opt-in-form validate" role="form">
-            <div class="form-group col-xs-8">
-                <label for="email" class="sr-only">Email Address</label>
-                <input type="email" name="EMAIL" class="form-control" 
-                       id="email" placeholder="Email Address">
-            </div>
-            <button type="submit" name="subscribe" 
-                    class="btn btn-primary col-xs-4">
+              novalidate class="opt-in__form validate" role="form">
+            <label for="email" 
+                   class="opt-in__label">Email Address</label>
+            <input type="email" class="opt-in__input" id="email" name="EMAIL">
+            <button class="opt-in__submit" type="submit" name="subscribe">
                 <?= $button ?> 
             </button>
             <div style="position: absolute; left: -5000px;">
