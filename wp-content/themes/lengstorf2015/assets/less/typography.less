@@ -87,9 +87,11 @@ body {
     }
 
     a {
+        color: @brand-primary;
         text-decoration: none;
 
         &:active,&:focus,&:hover {
+            color: darken(@brand-primary, 10%);
             outline: none;
             text-decoration: underline;
         }
