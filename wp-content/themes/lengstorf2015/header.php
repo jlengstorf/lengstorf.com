@@ -81,9 +81,9 @@ $nav = Hoverboard::get_nav_menu($config);
             </ul>
             <ul class="site-header__secondary-nav" 
                 aria-hidden="true" aria-label="submenu">
-                <li><a href="/category/digital-nomadism/" class="site-header__secondary-nav-item">Digital Nomadism 101</a></li>
+                <li><a href="/category/remote-work/" class="site-header__secondary-nav-item">Earn a Living Anywhere</a></li>
                 <li><a href="/category/remote-productivity/" class="site-header__secondary-nav-item">Remote Productivity Tips</a></li>
-                <li><a href="/category/happiness-practice/" class="site-header__secondary-nav-item">Happiness Practice</a></li>
+                <li><a href="/category/happiness/" class="site-header__secondary-nav-item">Happiness Practice</a></li>
                 <li><a href="/blog/" class="site-header__secondary-nav-item">Blog</a></li>
                 <li><a href="/about/" class="site-header__secondary-nav-item">About Jason</a></li>
                 <li><a href="/speaking/" class="site-header__secondary-nav-item">Speaking</a></li>

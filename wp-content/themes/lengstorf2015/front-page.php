@@ -32,33 +32,33 @@ get_header();
         </h2>
         <div class="cta__call work-remotely">
             <h3 class="cta__subhead">
-                <a href="#">Work from Anywhere. Really.</a>
+                <a href="<?= home_url('/remote-work/') ?>">Work from Anywhere. Really.</a>
             </h3>
             <p class="cta__tagline">
                 You can already make your living online. Why not do it from 
                 somewhere you&rsquo;ve always wanted to visit?
             </p>
-            <a href="#" class="cta__link">Start Working from Anywhere</a>
+            <a href="<?= home_url('/remote-work/') ?>" class="cta__link">Start Working from Anywhere</a>
         </div>
         <div class="cta__call remote-productivity">
             <h3 class="cta__subhead">
-                <a href="#">Get More Done in Less Time.</a>
+                <a href="<?= home_url('/remote-productivity/') ?>">Get More Done in Less Time.</a>
             </h3>
             <p class="cta__tagline">
                 What good is traveling if you don&rsquo;t get out 
                 and explore? Work smart. Finish early. Go adventure.
             </p>
-            <a href="#" class="cta__link">Get Remote Productivity Tips</a>
+            <a href="<?= home_url('/remote-productivity/') ?>" class="cta__link">Get Remote Productivity Tips</a>
         </div>
         <div class="cta__call happiness-101">
             <h3 class="cta__subhead">
-                <a href="#">Actually Enjoy Your Life.</a>
+                <a href="<?= home_url('/happiness/') ?>">Actually Enjoy Your Life.</a>
             </h3>
             <p class="cta__tagline">
                 Life isn&rsquo;t worth much if we spend all our time miserable.
                 Find your smile again and live well.
             </p>
-            <a href="#" class="cta__link">Do Some Happiness Practice</a>
+            <a href="<?= home_url('/happiness/') ?>" class="cta__link">Do Some Happiness Practice</a>
         </div>
     </div>
 
