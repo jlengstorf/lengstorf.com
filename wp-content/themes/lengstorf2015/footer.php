@@ -1,5 +1,5 @@
 
-
+<?php if (!is_page_template('template-no-footer.php')): ?>
     <div class="footer-about">
         <div class="footer-about__image">
             <img src="<?= home_url('/wp-content/themes/lengstorf2015/assets/images/jason-lengstorf_footer-sm.jpg') ?>" 
@@ -33,6 +33,7 @@
             </div>
         </div>
     </div>
+<?php endif; ?>
 
 <?php if (!empty(Copter_Footnotes::$md_footnotes) || !empty(Copter_Footnotes::$footnotes)): ?>
 <div class="post-footnotes">
@@ -66,11 +67,11 @@ endif;
     <footer class="footer">
         <ul class="footer__navigation">
             <li class="footer__site-nav">
-                <a href="/about/">About</a>
-                <a href="/blog/">Blog</a>
-                <a href="/speaking/">Speaking</a>
-                <a href="/contact/">Contact</a>
-                <a href="/disclaimer/">Disclaimer</a>
+                <a href="<?= home_url('/about/') ?>">About</a>
+                <a href="<?= home_url('/blog/') ?>">Blog</a>
+                <a href="<?= home_url('/speaking/') ?>">Speaking</a>
+                <a href="<?= home_url('/contact/') ?>">Contact</a>
+                <a href="<?= home_url('/disclaimer/') ?>">Disclaimer</a>
             </li>
             <li class="footer__copyright">
                 All content copyright &copy; 
