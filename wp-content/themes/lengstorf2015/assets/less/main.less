@@ -397,7 +397,7 @@ body {
 
     @media (min-width: 1024px) {
         max-width: 550px;
-        margin-left: 160px;
+        margin-left: 140px;
         margin-right: auto;
         padding-left: 0;
         font-size: 36px;
@@ -426,7 +426,7 @@ body {
     @media (min-width: 1024px) {
         max-width: 500px;
         margin-top: 40px;
-        margin-left: 160px;
+        margin-left: 140px;
     }
 }
 
@@ -759,30 +759,35 @@ body {
 
 .cta__subhead {
     margin: 0;
-    font-size: 4.5vw;
-    font-weight: @font-weight-heading;
-    line-height: 6vw;
+    font-family: @font-family-base;
+    font-size: 5.5vw;
+    font-weight: @font-weight-heavy;
+    line-height: 1;
     text-transform: uppercase;
 
     a {
         color: inherit;
+        font-weight: @font-weight-heavy;
         text-decoration: none;
     }
 
     @media (min-width: 420px) {
-        font-size: 3vw;
-        line-height: 4vw;
+        font-size: 5vw;
     }
 
     @media (min-width: 650px) {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 28px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 1.65vw;
     }
 }
 
 .cta__tagline {
+    margin-top: 10px;
+
     @media (min-width: 420px) {
-        margin: 10px 0;
         font-size: 16px;
         line-height: 20px;
     }
@@ -794,7 +799,7 @@ body {
 
     @media (min-width: 1024px) {
         margin: 10px 0;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 20px;
     }
 }
@@ -829,6 +834,13 @@ body {
         padding: 10px 10px 8px;
         font-size: 18px;
         line-height: 20px;
+    }
+}
+
+.cta__link {
+    @media (min-width: 1024px) {
+        font-size: 1vw;
+        line-height: 1.1;
     }
 }
 

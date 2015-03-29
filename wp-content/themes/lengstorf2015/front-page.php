@@ -32,7 +32,7 @@ get_header();
         </h2>
         <div class="cta__call work-remotely">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/remote-work/') ?>">Work from Anywhere. Really.</a>
+                <a href="<?= home_url('/remote-work/') ?>">Work from Anywhere.</a>
             </h3>
             <p class="cta__tagline">
                 You can already make your living online. Why not do it from 
@@ -42,7 +42,7 @@ get_header();
         </div>
         <div class="cta__call remote-productivity">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/remote-productivity/') ?>">Get More Done in Less Time.</a>
+                <a href="<?= home_url('/remote-productivity/') ?>">Get More Done Faster.</a>
             </h3>
             <p class="cta__tagline">
                 What good is traveling if you don&rsquo;t get out 
@@ -52,7 +52,7 @@ get_header();
         </div>
         <div class="cta__call happiness-101">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/happiness/') ?>">Actually Enjoy Your Life.</a>
+                <a href="<?= home_url('/happiness/') ?>">Truly Enjoy Your Life.</a>
             </h3>
             <p class="cta__tagline">
                 Life isn&rsquo;t worth much if we spend all our time miserable.
