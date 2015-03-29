@@ -23,8 +23,13 @@ jQuery(function($){
     $('.subnav-toggle').on('click', function(event) {
         event.preventDefault();
 
-        var isOpen = $('.site-header').toggleClass('open').hasClass('open'),
+        var $header = $('.site-header'),
+            isOpen = $header.removeClass('closed').toggleClass('open').hasClass('open'),
             navText = !isOpen ? 'More' : 'Less';
+
+        if (!isOpen) {
+            setTimeout(function(){ $header.addClass('closed'); }, 500);
+        }
 
         $(this).text(navText);
     });
@@ -51,14 +56,17 @@ jQuery(function($){
 
     // On full-sized posts, the background image ghosts in the background
     if (size==='desktop') {
-        var $headline = $('.main-content__headline,.main-content__headline--single').data('image'),
-            fullBG = $headline.replace(/([x\d-]+)?\.(png|jpe?g|gif)/, '.$2'),
-            $body = $('body'),
-            bgColor = $body.css('background-color'),
-            bgFade = bgColor.indexOf('a')===-1 ? bgColor.replace(')', ', .92)').replace('rgb', 'rgba') : bgColor,
-            gradient = 'linear-gradient(to bottom, ' + bgFade + ', ' + bgColor + ' 50vw)';
+        var $headline = $('.main-content__headline,.main-content__headline--single,.main-content__headline--page').data('image');
 
-        $body.css({ backgroundImage: gradient + ', url(' + fullBG + ')' });
+        if (typeof $headline!=='undefined') {
+            var fullBG = $headline.replace(/([x\d-]+)?\.(png|jpe?g|gif)/, '.$2'),
+                $body = $('body'),
+                bgColor = $body.css('background-color'),
+                bgFade = bgColor.indexOf('a')===-1 ? bgColor.replace(')', ', .92)').replace('rgb', 'rgba') : bgColor,
+                gradient = 'linear-gradient(to bottom, ' + bgFade + ', ' + bgColor + ' 50vw)';
+
+            $body.css({ backgroundImage: gradient + ', url(' + fullBG + ')' });
+        }
     }
 
 });

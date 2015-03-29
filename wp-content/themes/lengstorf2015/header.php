@@ -65,7 +65,7 @@ $nav = Hoverboard::get_nav_menu($config);
 
 <body class="<?= Hoverboard::get_wrapper_class() ?>">
 
-    <header class="site-header">
+    <header class="site-header closed">
         <a href="<?= home_url('/') ?>"
            class="site-header__brand"
            title="Work from Anywhere — Jason Lengstorf"

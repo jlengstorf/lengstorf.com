@@ -105,6 +105,12 @@ body {
         }
     }
 
+    &.closed {
+        .site-header__secondary-nav {
+            visibility: hidden; // So we don't accidentally tab to it
+        }
+    }
+
     @media (min-width: 768px) {
         height: 40px;
         font-size: 15px;
@@ -206,7 +212,6 @@ body {
     margin: 0;
     padding: 0 3vw;
     text-align: center;
-    visibility: hidden; // So we don't accidentally tab to it
 
     @media (min-width: 768px) {
         top: 40px;
@@ -869,6 +874,14 @@ body {
             fade(@body-bg, 50%) 93%, 
             fade(@body-bg, 0)
         );
+
+    &:before,&:after {
+        content:'';
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }
 
 .main-content__breadcrumbs {
