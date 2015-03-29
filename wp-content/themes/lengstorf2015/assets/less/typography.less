@@ -140,14 +140,16 @@ body {
 
         p {
             font-style: italic;
-        }
 
-        small,strong:only-child {
-            display: block;
-            color: @font-color-light;
-            text-align: right;
+            &:last-child {
+                small,strong {
+                    display: block;
+                    color: @font-color-light;
+                    text-align: right;
 
-            &:before { content: '– '; }
+                    &:before { content: '– '; }
+                }
+            }
         }
     }
 
