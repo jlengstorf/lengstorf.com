@@ -25,12 +25,10 @@ while (have_posts()):
             data-image="<?= $img_src ?>">
             <?php the_title(); ?> 
         </h1>
-        <div class="main-content__meta">
+        <div class="main-content__content">
             <img src="<?= $img_src ?>"
                  alt="<?= $img_alt ?>"
-                 class="aligncenter">
-        </div>
-        <div class="main-content__content">
+                 class="alignleft">
 
 <?php
 
