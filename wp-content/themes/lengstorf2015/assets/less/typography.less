@@ -278,14 +278,16 @@ body {
             margin-top: @vertical-grid-base*.25; 
         }
 
-        .main-content__content p:first-child,.lead {
+        .main-content__content>p:first-child,.lead {
             font-size: @font-size*1.125;
             line-height: @vertical-grid-base*1.125;
         }
 
         blockquote {
-            strong:only-child,small {
-                font-size: @font-size*.875;
+            p:last-child {
+                strong:only-child,small {
+                    font-size: @font-size*.875;
+                }
             }
         }
 
