@@ -26,9 +26,9 @@ while (have_posts()):
             <?php the_title(); ?> 
         </h1>
         <div class="main-content__content">
-            <img src="<?= $img_src ?>"
+            <!-- <img src="<?= $img_src ?>"
                  alt="<?= $img_alt ?>"
-                 class="alignleft">
+                 class="alignleft"> -->
 
 <?php
 
