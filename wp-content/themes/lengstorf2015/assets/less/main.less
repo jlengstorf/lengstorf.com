@@ -338,9 +338,13 @@ body {
     }
 
     @media (min-width: 1024px) {
-        padding-top: 140px;
-        padding-bottom: 60px;
+        padding-top: 150px;
+        padding-bottom: 80px;
     }
+}
+
+.hometown-hero--alt {
+    &:extend(.hometown-hero);
 }
 
 .hometown-hero__headline {
@@ -406,6 +410,76 @@ body {
         margin-right: auto;
         padding-left: 0;
         font-size: 36px;
+        line-height: 1;
+    }
+}
+
+.hometown-hero--alt {
+    padding-top: 40vw;
+    padding-bottom: 20vw;
+
+    strong {
+        font-size: 1.9em;
+        line-height: 1;
+    }
+
+    em {
+        font-size: 1.08em;
+    }
+
+    @media (min-width: 420px) {
+        padding-top: 17vw;
+        padding-bottom: 10vw;
+
+        .hometown-hero__headline {
+            font-size: 4.75vw;
+        }
+    }
+
+    @media (min-width: 650px) {
+        padding-top: 13vw;
+        padding-bottom: 7vw;
+        background-position: bottom left;
+
+        .hometown-hero__headline {
+            padding-left: 0;
+            font-size: 5.5vw;
+            line-height: 1;
+        }
+    }
+
+    @media (min-width: 768px) {
+        padding-top: 20vw;
+        padding-bottom: 10vw;
+
+        .hometown-hero__headline {
+            max-width: 100%;
+            margin-left: 0;
+            font-size: 4.5vw;
+        }
+    }
+
+    @media (min-width: 1100px) {
+        padding-top: 200px;
+        padding-bottom: 140px;
+        background-position: left top;
+        background-size: auto 100%;
+
+        .hometown-hero__headline {
+            font-size: 45px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        padding-top: 220px;
+        padding-bottom: 120px;
+        background-image: radial-gradient(650px at 50% 50% , fade(@gray-darker, 0%) 0%, fade(@gray-darker, 0%) 60%, @gray-darker 100%), url(../images/jason-lengstorf-remote-work_2880x1600.jpg);
+        background-position: center;
+
+        .hometown-hero__headline {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
     }
 }
 
@@ -540,7 +614,7 @@ body {
     }
 }
 
-.hometown-hero__opt-in-submit,.menu-search__submit,.opt-in__submit {
+.hometown-hero__opt-in-submit,.menu-search__submit,.opt-in__submit,.hometown-hero__button {
     width: 39vw;
     padding: 3.5vw 3vw;
     border: 2px solid lighten(@brand-primary, 5%);
@@ -576,6 +650,42 @@ body {
         padding: 9px 10px;
         font-size: 16px;
         line-height: 20px;
+    }
+}
+
+.hometown-hero__button {
+    display: block;
+    text-decoration: none;
+    max-width: 54vw;
+    width: auto;
+    margin: 10px 0 0;
+    font-size: 5vw;
+    line-height: 1;
+    text-align: center;
+
+    @media (min-width: 420px) {
+        max-width: 57vw;
+    }
+
+    @media (min-width: 650px) {
+        max-width: 65vw;
+        font-size: 4.5vw;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 53.5vw;
+        margin-top: 20px;
+    }
+
+    @media (min-width: 1100px) {
+        max-width: 530px;
+        font-size: 35px;
+    }
+
+    @media (min-width: 1280px) {
+        position: relative;
+        left: -335px;
+        margin: 20px auto 0;
     }
 }
 
@@ -640,7 +750,7 @@ body {
         justify-content: space-between;
         align-items: flex-start;
         flex-flow: row wrap;
-        background-image: linear-gradient(to bottom, fade(white, 70%), fade(white, 45%)),
+        background-image: linear-gradient(to bottom, fade(white, 80%), fade(white, 85%) 45%, fade(white, 65%)),
                           url(../images/palm-trees.jpg);
         background-position: center;
         background-size: cover;
@@ -846,6 +956,159 @@ body {
     @media (min-width: 1024px) {
         font-size: 1vw;
         line-height: 1.1;
+    }
+}
+
+.cta--alt {
+    &:extend(.cta);
+
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-flow: row wrap;
+    }
+
+    .cta__headline {
+        font-size: 4.5vw;
+
+        strong {
+            font-size: 2.111em;
+        }
+
+        em {
+            font-size: 1.3em;
+            font-style: normal;
+            font-weight: @font-weight-base;
+            line-height: 1.1;
+        }
+
+        @media (min-width: 420px) {
+            em {
+                font-size: 1em;
+            }
+        }
+
+        @media (min-width: 768px) {
+            max-width: 100%;
+            flex: 3 100%;
+            padding-left: 14%;
+            padding-right: 14%;
+            font-size: 3.5vw;
+        }
+
+        @media (min-width: 1024px) {
+            padding-left: 0;
+            padding-right: 0;
+            font-size: 2.325vw;
+        }   
+    }
+
+    .cta__call {
+        padding: 20px 15px;
+
+        &.break-free:after {
+            content: '\f127';
+        }
+
+        &.know-options:after {
+            content: '\f05a';
+        }
+
+        &.permission:after {
+            content: '\f058';
+        }
+
+        &.remove-anchors:after {
+            content: '\f13d';
+        }
+
+        &.action-plan:after {
+            content: '\f046';
+        }
+
+        &.begin-life:after {
+            content: '\f118';
+        }
+    }
+
+    .cta__subhead {
+        font-size: 5.25vw;
+    }
+
+    .cta__tagline {
+        margin-bottom: 0;
+    }
+
+    .cta__button {
+        &:extend(.hometown-hero__button);
+        max-width: 94vw;
+        margin: 20px auto 0;
+    }
+
+    @media (min-width: 420px) {
+        .cta__call {
+            &:after {
+                top: -20px;
+                left: -10px;
+                font-size: 180px;
+            }
+        }
+
+        .cta__subhead {
+            font-size: 4.5vw;
+        }
+
+        .cta__button {
+            max-width: 80vw;
+            font-size: 4vw;
+        }
+    }
+
+    @media (min-width: 650px) {
+        .cta__subhead {
+            font-size: 28px;
+        }
+
+        .cta__button {
+            max-width: 70vw;
+            font-size: 24px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .cta__call {
+            flex: 1 30%;
+            width: 30%;
+            margin-left: 10px;
+            margin-right: 20px;
+        }
+
+        .cta__subhead {
+            font-size: 2.625vw;
+        }
+
+        .cta__button {
+            font-size: 2.25vw;
+        }
+    }
+
+    @media (min-width: 1140px) {
+        .cta__call {
+            flex: 1;
+        }
+
+        .cta__subhead {
+            font-size: 1.325vw;
+        }
+
+        .cta__button {
+            flex: 6 100%;
+            left: 0;
+            max-width: 100%;
+            margin: 20px 30% 0;
+            font-size: 24px;
+        }
     }
 }
 

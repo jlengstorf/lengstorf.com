@@ -1,5 +1,5 @@
 
-<?php if (!is_page_template('template-no-footer.php')): ?>
+<?php if (!is_page_template('template-no-footer.php') && !is_page_template('template-front-page-alt.php') && !is_front_page()): ?>
     <div class="footer-about">
         <div class="footer-about__image">
             <img src="<?= home_url('/wp-content/themes/lengstorf2015/assets/images/jason-lengstorf_footer-sm.jpg') ?>" 
