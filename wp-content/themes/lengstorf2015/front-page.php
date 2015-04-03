@@ -81,7 +81,7 @@ get_header();
             </p>
         </div>
         <a href="<?= home_url('/remote-work-course/') ?>"
-           class="cta__button">Download the Guide Free</a>
+           class="cta__button">Get the Free Guide</a>
     </div>
 
 <?php
