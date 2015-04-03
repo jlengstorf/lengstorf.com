@@ -132,6 +132,25 @@ body {
         color: @brand-primary;
         text-decoration: none;
     }
+
+    @media (min-width: 768px) {
+        position: relative;
+        margin-left: 35px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            right: 100%;
+            top: 0;
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-image: url(../images/jason-lengstorf-thumb.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 50%;
+        }
+    }
 }
 
 .site-header__navigation {
