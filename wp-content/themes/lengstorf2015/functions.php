@@ -90,7 +90,8 @@ function hb_enqueue_assets(  ) {
     );
 
     // Hooks up the child theme's stylesheet
-    wp_enqueue_style(
+    // NOTE: Not used so we can use a !IE conditional to load it
+    wp_register_style(
         'theme-main-styles',
         ASSETS_DIR . '/css/main.min.css',
         array('fonts-com'),
@@ -108,8 +109,9 @@ function hb_enqueue_assets(  ) {
     // Adds a conditional tag
     $wp_styles->add_data('theme-ie-styles', 'conditional', 'lte IE 8');
 
-    // Uncomment this to actually include the IE stylesheet
-    wp_enqueue_style('theme-ie-styles');
+    // Uncomment this to actually include the stylesheet
+    wp_enqueue_style('fonts-com');
+    // wp_enqueue_style('theme-ie-styles');
 
 
     /*
@@ -361,4 +363,3 @@ class Copter_Footnotes
     public static $footnotes = array();
     public static $md_footnotes = NULL;
 }
-

@@ -50,6 +50,11 @@ $nav = Hoverboard::get_nav_menu($config);
 
 <?php wp_head(); ?> 
 
+<!--[if !IE]> -->
+<link rel="stylesheet" 
+      href="<?= ASSETS_DIR ?>/css/main.min.css?v<?= filemtime(ASSETS_PATH . '/css/main.min.css') ?>">
+<!-- <![endif]-->
+
 <?php if (is_user_logged_in()): ?>
 <style type="text/css">
 .site-header {
@@ -119,3 +124,12 @@ $nav = Hoverboard::get_nav_menu($config);
             </ul>
         </nav>
     </header>
+
+<!--[if lte IE 9]>
+<p style="color: red;">
+    This browser is too old to support the styles for this site. To make sure the 
+    content is still accessible, you're being served a version of the site without 
+    a stylesheet so you can see and interact with everything. It ain't pretty, but 
+    it'll work for you. :)
+</p>
+<![endif]-->
