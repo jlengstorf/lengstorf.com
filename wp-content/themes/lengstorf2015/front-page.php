@@ -28,7 +28,7 @@ get_header();
         </h2>
         <div class="cta__call break-free">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/remote-work/') ?>">Break Free of the Cult.</a>
+                Break Free of the Cult.
             </h3>
             <p class="cta__tagline">
                 Learn how offices are run more like a cult than a 
@@ -37,7 +37,7 @@ get_header();
         </div>
         <div class="cta__call know-options">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/remote-productivity/') ?>">Know Your Options.</a>
+                Know Your Options.
             </h3>
             <p class="cta__tagline">
                 See the dozens of options for anyone who  
@@ -46,7 +46,7 @@ get_header();
         </div>
         <div class="cta__call permission">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/happiness/') ?>">Give Yourself Permission.</a>
+                Give Yourself Permission.
             </h3>
             <p class="cta__tagline">
                 Identify the forces holding you back from 
@@ -55,7 +55,7 @@ get_header();
         </div>
         <div class="cta__call remove-anchors">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/remote-work/') ?>">Remove Your Anchors.</a>
+                Remove Your Anchors.
             </h3>
             <p class="cta__tagline">
                 Learn the common traps we fall into that 
@@ -64,7 +64,7 @@ get_header();
         </div>
         <div class="cta__call action-plan">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/remote-productivity/') ?>">Design an Action Plan.</a>
+                Design an Action Plan.
             </h3>
             <p class="cta__tagline">
                 Put together a concrete, clear todo list and 
@@ -73,7 +73,7 @@ get_header();
         </div>
         <div class="cta__call begin-life">
             <h3 class="cta__subhead">
-                <a href="<?= home_url('/happiness/') ?>">Begin Your New Life.</a>
+                Begin Your New Life.
             </h3>
             <p class="cta__tagline">
                 Take the first steps toward becoming happier,
