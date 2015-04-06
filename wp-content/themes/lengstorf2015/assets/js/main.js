@@ -47,12 +47,14 @@ jQuery(function($){
     }
 
     // On mobile, the featured image shows up differently
-    var $headlines = $('.main-content__headline,.main-content__headline--related,.main-content__headline--single');
+    if (size.length) {
+        var $headlines = $('.main-content__headline,.main-content__headline--related,.main-content__headline--single');
 
-    $headlines.each(function(  ) {
-        var $this = $(this);
-        $this.css({ backgroundImage: 'url(' + $this.data('image') + ')' });
-    });
+        $headlines.each(function(  ) {
+            var $this = $(this);
+            $this.css({ backgroundImage: 'url(' + $this.data('image') + ')' });
+        });
+    }
 
     // On full-sized posts, the background image ghosts in the background
     if (size==='desktop') {
@@ -231,7 +233,9 @@ HighlightShare.prototype.isInContainer = function( node ) {
     return this.container===node ? false : this.container.contains(node);
 };
 
-var highlightshare = new HighlightShare({
-    via: 'jlengstorf',
-    container: '.main-content'
-});
+if (size.length) {
+    var highlightshare = new HighlightShare({
+        via: 'jlengstorf',
+        container: '.main-content'
+    });
+}
