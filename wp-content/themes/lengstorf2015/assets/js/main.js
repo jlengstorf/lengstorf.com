@@ -71,6 +71,13 @@ jQuery(function($){
         }
     }
 
+    if (size.length) {
+        var highlightshare = new HighlightShare({
+            via: 'jlengstorf',
+            container: '.main-content'
+        });
+    }
+
 });
 
 // Let's build a highlighted text sharing tool!
@@ -160,7 +167,7 @@ HighlightShare.prototype.handleSelection = function( event ) {
 HighlightShare.prototype.showSharingBox = function( event ) {
     var isEmpty = this.savedText.toString().length===0,
         wrapper = this.getWrapper(),
-        ignoredTags = ['a', 'img'],
+        ignoredTags = ['a', 'img', 'button', 'input', 'select'],
         targetTag = event.target.tagName.toLowerCase();
 
     if (!isEmpty && !this.isActive && ignoredTags.indexOf(targetTag)===-1) {
@@ -232,10 +239,3 @@ HighlightShare.prototype.isInContainer = function( node ) {
 
     return this.container===node ? false : this.container.contains(node);
 };
-
-if (size.length) {
-    var highlightshare = new HighlightShare({
-        via: 'jlengstorf',
-        container: '.main-content'
-    });
-}
