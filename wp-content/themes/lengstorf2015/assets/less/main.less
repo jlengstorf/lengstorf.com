@@ -556,17 +556,17 @@ body {
     &:before {
         content: '\f0e0';
         position: absolute;
-        left: 2vw; top: 6.5vw;
+        left: 2vw; top: 7.25vw;
         color: @gray-light;
         font-family: @icon-font-name;
-        font-size: 4vw;
+        font-size: 14px;
         text-shadow: none;
         z-index: 10;
     }
 
     @media (min-width: 420px) {
         &:before {
-            top: 4.75vw;
+            top: 5.75vw;
         }
     }
 
@@ -598,13 +598,13 @@ body {
 .hometown-hero__opt-in-input,.menu-search__input,.opt-in__input {
     position: relative;
     width: 52vw;
-    padding: 3.5vw;
+    padding: 3vw 3.5vw;
     padding-left: 8vw;
     background: darken(@body-bg, 5%);
     border: 1px solid @gray;
     border-radius: 4px;
-    font-size: 3.5vw;
-    line-height: 4vw;
+    font-size: 16px;
+    line-height: 22px;
     transition: .2s all ease-in-out;
     z-index: 1;
 
@@ -624,29 +624,25 @@ body {
         padding-top: 1vw;
         padding-bottom: 1vw;
         padding-left: 5vw;
-        font-size: 2vw;
-        line-height: 3vw;
     }
 
     @media (min-width: 768px) {
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 40px;
-        font-size: 16px;
-        line-height: 20px;
     }
 }
 
 .hometown-hero__opt-in-submit,.menu-search__submit,.opt-in__submit,.hometown-hero__button {
     width: 39vw;
-    padding: 3.5vw 3vw;
+    padding: 3vw;
     border: 2px solid lighten(@brand-primary, 5%);
     border-radius: 4px;
     background: @brand-primary;
     color: @gray-lighter;
-    font-size: 3.5vw;
+    font-size: 16px;
     font-weight: @font-weight-heading;
-    line-height: 4vw;
+    line-height: 20px;
     text-transform: uppercase;
     transition: .2s all ease-in-out;
 
@@ -665,14 +661,10 @@ body {
     @media (min-width: 650px) {
         width: 41%;
         padding: 1vw;
-        font-size: 2vw;
-        line-height: 3vw;
     }
 
     @media (min-width: 768px) {
         padding: 9px 10px;
-        font-size: 16px;
-        line-height: 20px;
     }
 }
 
@@ -1160,6 +1152,7 @@ body {
             fade(@body-bg, 50%) 93%, 
             fade(@body-bg, 0)
         );
+    overflow-x: hidden;
 
     &:before,&:after {
         content:'';
