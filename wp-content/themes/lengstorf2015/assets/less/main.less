@@ -1186,7 +1186,7 @@ body {
     }
 
     span {
-        a:after {
+        a:before {
             content: ' > ';
         }
 
@@ -1194,8 +1194,8 @@ body {
             visibility: hidden;
         }
 
-        &:nth-last-child(2),&:last-child {
-            a:after {
+        &:first-child {
+            a:before {
                 content: '';
             }
         }
