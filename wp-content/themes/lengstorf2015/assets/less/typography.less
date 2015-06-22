@@ -95,6 +95,13 @@ body {
             outline: none;
             text-decoration: underline;
         }
+
+        /* offset adjustment for anchors hiding under the fixed header */
+        &[rel=footnote] {
+            display: inline-block;
+            margin-top: -80px;
+            padding-top: 80px;
+        }
     }
 
     .main-content__content p:first-child,.lead {
