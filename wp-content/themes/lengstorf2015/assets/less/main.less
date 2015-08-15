@@ -1333,6 +1333,16 @@ body {
     &:before {
         content: 'Category: ';
     }
+
+    li {
+        a:after {
+            content: ', ';
+        }
+
+        &:last-child a:after {
+            content: '';
+        }
+    }
 }
 
 .main-content__tags {
