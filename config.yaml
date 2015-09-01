@@ -1,0 +1,55 @@
+---
+baseurl: http://lengstorf.com/
+languageCode: en-us
+title: Jason Lengstorf
+
+footnotereturnlinkcontents: ↩
+
+canonifyurls: true
+
+Paginate: 6
+
+permalinks:
+  blog: /:slug/
+
+taxonomies:
+  tag: "tag"
+  category: "category"
+
+params:
+  googleanalytics: UA-39001606-1
+
+  social:
+    github: jlengstorf
+    facebook: jlengstorf
+    twitter: jlengstorf
+    googleplus: lengstorf
+    instagram: jlengstorf
+    youtube: lengstorf
+    linkedin: jlengstorf
+
+  authors:
+    jason:
+      name: Jason Lengstorf
+      thumbnail: http://placekitten.com/300/300
+      images: ["http://placekitten.com/600/400","http://placekitten.com/1600/900"]
+      bio: "Jason Lengstorf is a speaker, author, and consultant. He makes his living building web apps for clients including PlayStation, Intel, and Precision Nutrition. In 2014, he sold everything he owned and started traveling the world. He’s been on the road ever since."
+      email: jason@lengstorf.com
+      social:
+        github: jlengstorf
+        facebook: jlengstorf
+        twitter: jlengstorf
+        googleplus: lengstorf
+        instagram: jlengstorf
+        youtube: lengstorf
+        linkedin: jlengstorf
+
+menu:
+  main:
+    - Name: Blog
+      Weight: -10
+      Identifier: blog
+      Url: /blog/
+
+MetaDataFormat: yaml
+---
