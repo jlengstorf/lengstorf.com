@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Efficiency on Jason Lengstorf</title>
+    <link>http://lengstorf.com/tag/efficiency/</link>
+    <description>Recent content in Efficiency on Jason Lengstorf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 May 2015 08:31:20 -0800</lastBuildDate>
+    <atom:link href="http://lengstorf.com/tag/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Get More Done Faster: Scheduling for Maximum Productivity</title>
+      <link>http://lengstorf.com/scheduling-maximum-productivity/</link>
+      <pubDate>Thu, 07 May 2015 08:31:20 -0800</pubDate>
+      
+      <guid>http://lengstorf.com/scheduling-maximum-productivity/</guid>
+      <description>
+
+&lt;p&gt;If you write down everything you have to get done for you to do your job well, what does the list look like?&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re like most of us, &lt;strong&gt;your list of duties will have a wide variety of tasks that require different kinds of attention and focus.&lt;/strong&gt; We have to play multiple roles: communicator, planner, creator, administrator.&lt;/p&gt;
+
+&lt;p&gt;Each of these roles requires different skills, and different parts of our brains.&lt;/p&gt;
+
+&lt;p&gt;For example, when we check email, jump into the work chat, or scan social media, we&amp;rsquo;re working in the context of communication. Research and learning are in the context of information gathering. Design, development, and writing are in the context of creation.&lt;/p&gt;
+
+&lt;p&gt;If we spend a little time looking at our list of duties, we&amp;rsquo;ll start to see that &lt;strong&gt;our jobs expect us to work across multiple contexts to get things done.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The variety of jobs we&amp;rsquo;re expected to do adds a new challenge for us: we have to shift gears in order to get our work done. And while we all know that constantly shifting gears slows us down in our work — in the same way we &lt;em&gt;know&lt;/em&gt; that we should exercise more, and we &lt;em&gt;know&lt;/em&gt; seeing the movie based on a book we love will let us down — we don&amp;rsquo;t do much to fix the problem.&lt;/p&gt;
+
+&lt;p&gt;And it turns out, trying to do all the different jobs at the same time is a &lt;em&gt;big&lt;/em&gt; problem.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-used-to-be-terrible-at-working:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;I Used to Be Terrible at Working&lt;/h3&gt;
+
+&lt;p&gt;When I first started freelancing — and worse, when I started hiring subcontractors and employees — I was &lt;em&gt;awful&lt;/em&gt; at getting things done effectively. I felt tremendous pressure to be everything to everyone: if I wasn&amp;rsquo;t available on Slack, I was holding up my team; if I didn&amp;rsquo;t respond to an email within an hour, my clients would hire someone else; if I didn&amp;rsquo;t finish a project by the deadline, I&amp;rsquo;d lose the project.&lt;/p&gt;
+
+&lt;p&gt;This led to a horribly &lt;a href=&#34;http://lengstorf.com/overkill-cult/&#34;&gt;unsustainable working style&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Before my eyes are even open I&amp;rsquo;m reaching for my phone. The lock screen is loaded with notifications, and a knot starts to form in my stomach. &lt;em&gt;Oh Christ. Here we go again.&lt;/em&gt; Scan the email for emergencies. Check Twitter. &lt;em&gt;Only 1 new follower. Note to self: suck less as a person.&lt;/em&gt; More email. Mash out typo-riddled responses with my thumbs as I walk to get coffee — &amp;ldquo;Hey, Heidi. Nice day, huh? &amp;hellip; Yeah, I&amp;rsquo;m good. You? &amp;hellip; Good to hear. Well, see you later!&amp;rdquo; — and scan calendar invites on the walk back. Open a code editor. Chat beeps. Forget what I was working on. Remember. Email beeps. Forget again. Start working on the issue in the email. Chat beeps. Remember what I was supposed to be working on. Email beeps. Forget. Look at the clock. &lt;em&gt;Goddammit, I forgot to eat again.&lt;/em&gt; Order delivery. Move to the couch. Put on &lt;em&gt;Fringe&lt;/em&gt;. Remember today&amp;rsquo;s deadline. Panic. It&amp;rsquo;s after nine so chat&amp;rsquo;s quiet; &lt;em&gt;finally, I&amp;rsquo;ll get some work done.&lt;/em&gt; Close the computer with four half-finished emails and two of three projects incomplete. Fall asleep checking email.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Most days, I &lt;em&gt;did&lt;/em&gt; a lot — I just didn&amp;rsquo;t get much *done.&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;p&gt;Most of my time was spent on things that weren&amp;rsquo;t very important, and very little of my effort was spent on what I was &lt;em&gt;supposed&lt;/em&gt; to be doing.&lt;/p&gt;
+
+&lt;p&gt;If I had to guess, about 75% of my working hours were lost to fumbling between tasks and trying to ward off the onslaught of realtime communication with all the sad determination of a cartoon character plugging holes in a sinking boat with his fingers.&lt;/p&gt;
+
+&lt;p&gt;My target for each week is to spend fewer than 40 hours on the computer &lt;em&gt;total,&lt;/em&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:computertime&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:computertime&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; so I needed to be &lt;em&gt;way&lt;/em&gt; better at this if I wasn&amp;rsquo;t going to end up jobless.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/get-more-done-better-scheduling.jpg&#34;
+       alt=&#34;Rethink your schedule and get more done faster.&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;the-productivity-supercharger-separate-tasks-by-context:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;The Productivity Supercharger: Separate Tasks by Context&lt;/h2&gt;
+
+&lt;p&gt;My friend &lt;a href=&#34;https://twitter.com/philcaravaggio&#34;&gt;Phil Caravaggio&lt;/a&gt; is one of those people who optimizes everything. It&amp;rsquo;s necessary for his job — he&amp;rsquo;s the &lt;a href=&#34;http://www.precisionnutrition.com/about/phil-caravaggio&#34;&gt;CEO of Precision Nutrition&lt;/a&gt;, a multi-million dollar company — if he&amp;rsquo;s going to live a life outside the requirements of the company.&lt;/p&gt;
+
+&lt;p&gt;Phil introduced me to &lt;a href=&#34;http://www.entrepreneurship.org/resource-center/the-entrepreneurial-time-system-t.aspx&#34;&gt;Dan Sullivan&amp;rsquo;s time management ideas&lt;/a&gt;, which center around context. He has a trademarked approach to time management called The Entrepreneurial Time System™ that&amp;rsquo;s worth looking into.&lt;/p&gt;
+
+&lt;p&gt;Phil has implemented this system into his working style with &lt;em&gt;massive&lt;/em&gt; success. Encouraged by Phil&amp;rsquo;s experience, I decided to try out the broad strokes of the system in my own planning.&lt;/p&gt;
+
+&lt;p&gt;In simple terms: &lt;strong&gt;the best way to maximize your productivity is to separate tasks by context.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We have three kinds of tasks as entrepreneurs: high-impact tasks that require all of our attention and produce big results; regenerative tasks that allow us to recharge and let our subconscious work on new solutions and ideas; and low-impact tasks that just have to be done in order to allow us to perform the high-impact tasks.&lt;/p&gt;
+
+&lt;p&gt;If we group these tasks into three kinds of days, we get Meaningful Work Days, Off Days, and Bullshit&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:bullshit&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:bullshit&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Days. (For fun and brevity, we&amp;rsquo;ll call this the MOB System.)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:sullivan&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:sullivan&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;meaningful-work-days-focus-exclusively-on-big-tasks:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;Meaningful Work Days: Focus Exclusively on Big Tasks&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Meaningful work days are reserved for high-impact work only.&lt;/strong&gt; The act of actually writing, developing, or designing something after all the preparatory work is done. If working is an episode of &lt;em&gt;MTV Cribs&lt;/em&gt;, Meaningful Work Days are the bedroom, because, &lt;a href=&#34;https://www.youtube.com/watch?v=vuEdZVV6XHw&amp;amp;t=3m0s&#34;&gt;&amp;ldquo;This is where the magic happens.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;off-days-relax-recharge-let-your-mind-wander:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;Off Days: Relax, Recharge, Let Your Mind Wander&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Off days are technology-free.&lt;/strong&gt; Or at least work-free. I aim to have at least one day a week where my computer isn&amp;rsquo;t opened at all, and I use that day to do something adventurous, like &lt;a href=&#34;https://twitter.com/jlengstorf/status/588879515067097088&#34;&gt;heading out to a water fight&lt;/a&gt; or taking Thai cooking lessons.&lt;/p&gt;
+
+&lt;h3 id=&#34;bullshit-days-prep-work-busywork-chores:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;Bullshit Days: Prep Work, Busywork, Chores&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Bullshit days are for all the things that are required for us to do our important tasks,&lt;/strong&gt; but that aren&amp;rsquo;t necessarily the sexy parts of the job that we look forward to. This can include email, accounting, research, outlining, setting up development environments, or collecting inspiration for a new design.&lt;/p&gt;
+
+&lt;h2 id=&#34;all-three-days-are-necessary-for-maximum-productivity:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;All Three Days Are Necessary for Maximum Productivity&lt;/h2&gt;
+
+&lt;p&gt;It may be tempting to think, &amp;ldquo;Since all the best results come from Meaningful Work Days, why don&amp;rsquo;t I &lt;em&gt;only&lt;/em&gt; have Meaningful Work Days?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;There are two problems with this kind of thinking.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-all-work-and-no-play-makes-you-suck-at-work:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;1. All Work and No Play Makes You Suck at Work&lt;/h3&gt;
+
+&lt;p&gt;It turns out that human brains just aren&amp;rsquo;t all that good at sustained periods of focus. We can cram for a while, but it&amp;rsquo;s a game of diminishing returns.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If we try to force focus days every day, we&amp;rsquo;ll eventually end up hurting ourselves.&lt;/strong&gt; &lt;a href=&#34;http://lengstorf.com/overtime-hurts-productivity/&#34;&gt;Too much time on the job results in less output at lower quality&lt;/a&gt; than if we&amp;rsquo;d kept a more balanced schedule.&lt;/p&gt;
+
+&lt;p&gt;Off Days create mental space where &lt;a href=&#34;http://well.blogs.nytimes.com/2014/04/30/want-to-be-more-creative-take-a-walk/&#34;&gt;our subconscious can form new ideas&lt;/a&gt;.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:walking&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:walking&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; They create distance from the job, which allows us to &lt;a href=&#34;http://www.sciencedaily.com/releases/2009/05/090511180702.htm&#34;&gt;remember what&amp;rsquo;s important to us&lt;/a&gt;. They &lt;a href=&#34;https://hbr.org/2014/08/schedule-a-15-minute-break-before-you-burn-out/&#34;&gt;keeps us from burning out&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-hard-work-without-preparation-is-wasted:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;2. Hard Work Without Preparation Is Wasted&lt;/h3&gt;
+
+&lt;p&gt;Very few meaningful tasks can happen in a vacuum.&lt;/p&gt;
+
+&lt;p&gt;To write a good article, there&amp;rsquo;s prior reading to be done, research to be collected, interviews to be conducted, and various other prep tasks that need to be completed.&lt;/p&gt;
+
+&lt;p&gt;Similarly, to design something for a client, resources need to be collected, the requirements need to be gathered from the client, and marketing content needs to be approved.&lt;/p&gt;
+
+&lt;p&gt;Without doing the prep beforehand, you&amp;rsquo;ll have to do it while trying to complete the task. And there&amp;rsquo;s no better way to end up down a Wikipedia Hole and accomplish nothing than to try to do research for an article as you write it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If we want to be effective on our Meaningful Work Days, we need to have all the bullshit out of the way first.&lt;/strong&gt; Without proper prep work, a Meaningful Work Day becomes a Bullshit Day instead.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-split-up-your-todo-list:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;How to Split Up Your Todo List&lt;/h2&gt;
+
+&lt;p&gt;To start MOB-bing,&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:ha&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:ha&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; you need to go through two critical steps. Schedule these for your first Bullshit Day.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Write down &lt;em&gt;everything&lt;/em&gt; you do for your job.&lt;/strong&gt; If it happens while you&amp;rsquo;re at work, write it down.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Separate your tasks into &amp;ldquo;Meaningful&amp;rdquo; and &amp;ldquo;Bullshit&amp;rdquo; categories.&lt;/strong&gt; What makes a &lt;em&gt;big&lt;/em&gt; impact in your job? What just needs to be done to get you to the next big task?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;meaningful-tasks:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;Meaningful Tasks&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Meaningful tasks are the things that make the biggest impact,&lt;/strong&gt; and that take the most concentration. If we&amp;rsquo;re in a job we love — or even a job we just &lt;em&gt;like&lt;/em&gt;-like — these are probably the things we enjoy doing the most.&lt;/p&gt;
+
+&lt;p&gt;For me, meaningful tasks are writing, development, and design. I get a big emotional payoff from these jobs, and they make the biggest impact on my career.&lt;/p&gt;
+
+&lt;h3 id=&#34;bullshit-tasks:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;Bullshit Tasks&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Bullshit tasks are the tasks that have to be taken care of for the meaningful work to have meaning.&lt;/strong&gt; Tasks like these aren&amp;rsquo;t necessarily exciting, but they lay the groundwork for the fun stuff.&lt;/p&gt;
+
+&lt;p&gt;For me, bullshit tasks are research, editing, email, billing, and code maintenance. I don&amp;rsquo;t feel particularly enamored with this stuff, but I know that it needs to be done so I can keep the lights on and create more opportunities for my more enjoyable tasks.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-give-yourself-permission-and-space-to-improve-your-scheduling:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;How to Give Yourself Permission and Space to Improve Your Scheduling&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;The idea of taking full days away from email and chat to focus on the most meaningful work may seem impossible.&lt;/strong&gt; &amp;ldquo;Sure, &lt;em&gt;you&lt;/em&gt; can do that,&amp;rdquo; you may be thinking, &amp;ldquo;but I have [clients/coworkers/managers/customers] to consider. I can&amp;rsquo;t just &lt;em&gt;not&lt;/em&gt; check email for a full day.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:meaningfulmorning&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:meaningfulmorning&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I felt the same way before I started.&lt;/p&gt;
+
+&lt;p&gt;At the time, my agency was growing: I had over a hundred clients, a half-dozen employees and contractors, editors, and conference producers, and all of them had questions, problems, and needs that required my attention.&lt;/p&gt;
+
+&lt;p&gt;I was &lt;em&gt;absolutely positive&lt;/em&gt; that if I wasn&amp;rsquo;t 100% available, everything would fall apart around me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thankfully, my concerns were *absolutely wrong.&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s how I was able to make the switch, and how you can, too.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-start-with-a-plan:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;1. Start with a Plan&lt;/h3&gt;
+
+&lt;p&gt;Meaningful work days can only happen after you get the bullshit — planning, gathering resources, asking questions — out of the way first. Otherwise, you&amp;rsquo;re dead in the water.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use a Bullshit Day to write out all the tasks on your plate.&lt;/strong&gt; Then break them down into smaller steps and figure out what needs to be done before you can focus on the meat of the task: if you&amp;rsquo;re on the hook for an article, you&amp;rsquo;ll need to research other articles on the topic, find studies that back up your points, and write an outline before you can start writing.&lt;/p&gt;
+
+&lt;p&gt;If you try to start without doing the initial prep work, trying to do meaningful work becomes more challenging and — most likely — less productive.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-let-everyone-know-what-s-happening:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;2. Let Everyone Know What&amp;rsquo;s Happening&lt;/h3&gt;
+
+&lt;p&gt;The week before I started using the MOB System, I told my team that I was going to start spending three days a week on Meaningful Work Days. &lt;strong&gt;This meant on Monday, Wednesday, and Friday, everyone would be entirely unable to reach me.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To prepare my team,&lt;/strong&gt; I set clear expectations that &amp;ldquo;needing my input&amp;rdquo; was not a valid excuse for missed deadlines. If they needed me, they needed to get in touch &lt;em&gt;before&lt;/em&gt; my Meaningful Work Days.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:empowered&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:empowered&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To prepare my clients,&lt;/strong&gt; I created an autoresponder saying I only checked email on Tuesdays and Thursdays, and that they could route their requests to our general email if the request was urgent.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:bottleneck&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:bottleneck&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By being upfront and very clear with both my team and my clients, no one was blindsided by my changed schedule.&lt;/strong&gt; As a result, no one seemed to be particularly bothered or slowed down. I honestly don&amp;rsquo;t think anyone noticed most of the time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I hadn&amp;rsquo;t realized it before, but by making myself fully available at all times, I had actually made my team and clients &lt;em&gt;worse&lt;/em&gt; at things.&lt;/strong&gt; I was a crutch. A shortcut. As soon as I made myself less available, they stopped looking to me for approval or help.&lt;/p&gt;
+
+&lt;p&gt;They remembered their own power and competence, and as a result they &lt;em&gt;got things done.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-remove-all-distractions:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;3. Remove All Distractions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Getting work done means giving yourself a period of &lt;em&gt;uninterrupted&lt;/em&gt; time during which you can focus exclusively on the task at hand.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If your phone is vibrating every few seconds, or the work chat is chiming non-stop, you&amp;rsquo;re not working uninterrupted.&lt;/p&gt;
+
+&lt;p&gt;Use &amp;ldquo;Do Not Disturb&amp;rdquo; mode, or turn off your network connection entirely. Turn your phone face down and silence the ringer and vibration.&lt;/p&gt;
+
+&lt;p&gt;If you have trouble avoiding distracting sites, use something like &lt;a href=&#34;https://www.rescuetime.com/ref/967986&#34;&gt;RescueTime&lt;/a&gt; to block sites temporarily.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:blockers&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9bdf3bb94d9031e8bc4e49d3ce03f359:blockers&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;If you work in an office, find a space where you can avoid coworker interruptions. If all else fails, put on headphones and hang a sign off your back that says, &amp;ldquo;Unless the building is on fire, please don&amp;rsquo;t interrupt me.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;(Or, even better, &lt;a href=&#34;http://lengstorf.com/convince-your-boss-remote-work/&#34;&gt;convince your boss to let you work remotely&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;However you do it, find a way to buy yourself two blocks of 2–3 hours, at least twice a week.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If your boss has any interest in results, your extra productivity will be noticed quickly, and you&amp;rsquo;ll find yourself being &lt;em&gt;protected&lt;/em&gt; from distractions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;4-use-a-timer:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;4. Use a Timer&lt;/h3&gt;
+
+&lt;p&gt;Using a timer is critical, because without one we&amp;rsquo;re bound to run over our allotted time slots. I use a simple app called &lt;a href=&#34;https://itunes.apple.com/us/app/pocket-cup-noodle-timer/id423076135?mt=12&#34;&gt;Pocket Cup Noodle Timer&lt;/a&gt; to keep track of my work blocks.&lt;/p&gt;
+
+&lt;p&gt;I like 90-minute cycles because it&amp;rsquo;s supported by research into &lt;a href=&#34;http://www.huffingtonpost.com/tony-schwartz/work-life-balance-the-90_b_578671.html&#34;&gt;our bodies&amp;rsquo; natural rhythms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another popular approach with shorter working bursts is the &lt;a href=&#34;http://en.wikipedia.org/wiki/Pomodoro_Technique&#34;&gt;Pomodoro Technique&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;5-follow-a-simple-schedule:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;5. Follow a Simple Schedule&lt;/h3&gt;
+
+&lt;p&gt;Scheduling is a touchy subject for me. I hate it when people tell me how to spend my own time. So let me be very clear that &lt;strong&gt;this section is just a suggestion&lt;/strong&gt;, based on my own experience.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s nothing particularly groundbreaking about the way I schedule my days. The difference, really, is in the &lt;em&gt;types of work&lt;/em&gt; being scheduled.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The secret for me has been concentrated bursts of work, punctuated with full disconnection for short breaks.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the general scheduling template I follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;90-minute timed work block&lt;/li&gt;
+&lt;li&gt;15-minute technology- and work-free break&lt;/li&gt;
+&lt;li&gt;90-minute timed work block&lt;/li&gt;
+&lt;li&gt;60-minute lunch&lt;/li&gt;
+&lt;li&gt;90-minute timed work block&lt;/li&gt;
+&lt;li&gt;75-minute technology- and work-free break&lt;/li&gt;
+&lt;li&gt;90-minute timed work block&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is 7.5 total hours of work, with 6 hours of screen time.&lt;/p&gt;
+
+&lt;h3 id=&#34;6-take-real-breaks:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;6. Take Real Breaks&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Short &lt;a href=&#34;http://lengstorf.com/better-productivity-work-less/&#34;&gt;breaks are vital for staying productive&lt;/a&gt; because, according to science, &lt;a href=&#34;https://hbr.org/2014/08/schedule-a-15-minute-break-before-you-burn-out/&#34;&gt;taking breaks keeps us focused&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And if you use your break to take a walk, you can &lt;a href=&#34;http://well.blogs.nytimes.com/2014/04/30/want-to-be-more-creative-take-a-walk/?_r=0&#34;&gt;boost your creativity&lt;/a&gt; and &lt;a href=&#34;http://www.telegraph.co.uk/news/science/6094786/Feeling-stressed-Then-go-mow-the-lawn-claims-research.html&#34;&gt;lower your stress levels&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Just make sure to leave your technology behind. No phone checks, and leave your laptop closed. Take your breaks like it&amp;rsquo;s 1991 and phones are only used for talking to people far away.&lt;/p&gt;
+
+&lt;h3 id=&#34;7-when-you-re-done-be-done:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;7. When You&amp;rsquo;re Done, Be Done&lt;/h3&gt;
+
+&lt;p&gt;Each day starts with your todo list. Let&amp;rsquo;s say your goals for the day are to clear your inbox, edit a blog post, and fix a bug in the website; when you&amp;rsquo;ve finished the list, write your todo list for tomorrow, then &lt;em&gt;stop working for the day.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you only need three of the four 90-minute working blocks, be okay with stopping early. &lt;strong&gt;Productivity is measured in results, not how many hours your butt is in a chair.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(More on this: &lt;a href=&#34;http://lengstorf.com/results-based-work/&#34;&gt;How Time-Based Management Kills Motivation&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;better-productivity-means-a-little-discipline-now-and-a-lot-of-freedom-later:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;Better Productivity Means a Little Discipline Now and a Lot of Freedom Later&lt;/h2&gt;
+
+&lt;p&gt;Understanding the role context plays in our work — and its extreme effects on our productivity — is helpful, but it won&amp;rsquo;t make much of a difference if the knowledge isn&amp;rsquo;t applied.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All the knowledge in the world means jack if we don&amp;rsquo;t change after we know better.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The initial challenge of guarding our time can seem daunting. Our coworkers have grown used to the way we work &lt;em&gt;now&lt;/em&gt; — changing that seems like it could cause tension.&lt;/p&gt;
+
+&lt;p&gt;In all fairness, it might. But only at first.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In a healthy workplace, both management and the workers value results.&lt;/strong&gt; By giving yourself the freedom to work optimally in a flow state, you stand the best chance of producing truly outstanding results.&lt;/p&gt;
+
+&lt;p&gt;This is a win for everyone: the company sees better results, your coworkers have clear guidelines for getting in touch for help and information, and you get more done in fewer hours — which gives you the opportunity to &lt;a href=&#34;http://lengstorf.com/work-to-live/&#34;&gt;keep your life in balance&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;re going to do the work either way, so why not find a way that keeps your stress low and your overtime at a minimum?&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:9bdf3bb94d9031e8bc4e49d3ce03f359&#34;&gt;What&amp;rsquo;s Next?&lt;/h2&gt;
+
+&lt;p&gt;If you’re like me, you’d love to get away from the crazy hours and soul-sucking demands of the &amp;ldquo;always-on&amp;rdquo; lifestyle, but you don’t feel like it’s possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I was wrong. I just had to trust myself to take the first step.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t waste time like I did. You can start working less and accomplishing more today. I’ve put together a &lt;a href=&#34;http://lengstorf.com/remote-work-course/&#34;&gt;free step-by-step guide&lt;/a&gt; to show you how.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://lengstorf.com/remote-work-course/&#34;&gt;Get the Free Guide Here.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:computertime&#34;&gt;After my &lt;a href=&#34;http://lengstorf.com/overkill-cult/&#34;&gt;brush with stress-induced beardlessness&lt;/a&gt;, it became critically important to me — a literal matter of life and death, in my mind — to spend the majority of my time disconnected from a screen.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:computertime&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:bullshit&#34;&gt;I say bullshit lovingly: &amp;ldquo;I have to deal with this billing bullshit or I won&amp;rsquo;t have any money.&amp;rdquo; It&amp;rsquo;s the kind of thing that I someday (soon) plan to delegate entirely — once I&amp;rsquo;ve written out the process in a manner that&amp;rsquo;s bulletproof.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:bullshit&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:sullivan&#34;&gt;This is very similar to Dan Sullivan&amp;rsquo;s Focus/Buffer/Free day approach. He has a whole system built around this which is far more comprehensive than mine — my general approach is to do the least amount of structure required to get good results. If you&amp;rsquo;re better when there&amp;rsquo;s a stricter set of guidelines to follow, I highly recommend looking into Dan Sullivan&amp;rsquo;s &lt;a href=&#34;https://www.strategiccoach.com/home.html&#34;&gt;Strategic Coach programs&lt;/a&gt;. He&amp;rsquo;s extremely good at what he does.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:sullivan&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:walking&#34;&gt;The referenced study is centered around walking, but the idea is the same: you&amp;rsquo;re away from the task at hand, and your mind doesn&amp;rsquo;t have the immediate distraction in place. As a result, your subconscious can roll the idea around and make connections that may not have happened if you were still actively focused on the task.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:walking&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:ha&#34;&gt;Holy shit, that was terrible.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:ha&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:meaningfulmorning&#34;&gt;If a full day is absolutely out of the question, you can switch it to a half day. If your day starts at 9am, set the expectation that your first email check is after lunch. (Or, if you&amp;rsquo;re more effective in the afternoon, don&amp;rsquo;t check email after 2pm.) A three-hour dedicated window for your most important work won&amp;rsquo;t ruffle too many feathers, and it will have a big effect on your productivity.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:meaningfulmorning&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:empowered&#34;&gt;Once I was unavailable, my team was suddenly more empowered. I was, in effect, trusting them to make decisions without my approval or oversight. This made them significantly more efficient.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:empowered&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:bottleneck&#34;&gt;This had an unexpected benefit: clients stopped seeing me as the solution to their problems; instead, they saw the &lt;em&gt;company&lt;/em&gt; as the solution, which removed a bottleneck. When I was 100% available, clients might demand to work with me — &amp;rdquo;the boss&amp;rdquo; — instead of another member of the team; when working with me meant waiting, they were happy to work with whomever could solve the problem.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:bottleneck&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9bdf3bb94d9031e8bc4e49d3ce03f359:blockers&#34;&gt;Other options exist to do the same thing, like the Chrome extensions &lt;a href=&#34;https://chrome.google.com/webstore/detail/morphine/fbnpehpbojenlldmfcopeajkichnnjpo&#34;&gt;Morphine&lt;/a&gt; and &lt;a href=&#34;https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=e&#34;&gt;StayFocusd&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9bdf3bb94d9031e8bc4e49d3ce03f359:blockers&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Remote Work: How Telecommuting Is a Win for Everyone</title>
+      <link>http://lengstorf.com/remote-work-everyone-wins</link>
+      <pubDate>Sun, 29 Mar 2015 02:29:00 -0800</pubDate>
+      
+      <guid>http://lengstorf.com/remote-work-everyone-wins</guid>
+      <description>
+
+&lt;p&gt;The traditional office setting has its perks: community, an environment set up for productivity, common meeting spaces for face-to-face interaction.&lt;/p&gt;
+
+&lt;p&gt;But with global access to reliable video meeting services and a host of other cloud-based team management tools, remote workers have access to the same perks, plus a host of other bonuses: fewer distractions, less micromanagement, little or no commute, and — most importantly — location independence.&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t a one-sided victory, either: businesses hiring remote workers also see lower costs, lower turnover, happier employees, and a worldwide talent pool.&lt;/p&gt;
+
+&lt;h2 id=&#34;when-your-team-can-work-from-anywhere-you-can-hire-from-anywhere:245543e390042b6cbc7238076d84cc01&#34;&gt;When Your Team Can Work from Anywhere, You Can Hire from Anywhere&lt;/h2&gt;
+
+&lt;p&gt;If your team works remotely, &lt;em&gt;they don&amp;rsquo;t have to be in the city where your company is based.&lt;/em&gt; &lt;strong&gt;You can &lt;a href=&#34;https://zapier.com/blog/how-to-hire-remote-team/&#34;&gt;hire the right person&lt;/a&gt; for the job, no matter where they are in the world.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/remote-job-boards.jpg&#34;
+       alt=&#34;remoteok.io screenshot&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    &lt;p&gt;Remote job boards make it easy to find location-independent workers.&lt;/p&gt;
+
+    &lt;small&gt;Credit: &lt;a href=&#34;http://remoteok.io&#34;&gt;remoteok.io&lt;/a&gt;&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This means a developer living in Iowa doesn&amp;rsquo;t have to drop everything and move to San Francisco or Brooklyn to have a shot at getting a cool startup job.&lt;/p&gt;
+
+&lt;p&gt;This means an entrepreneur in Mississippi can hire top talent from anywhere in the world without having to convince anyone to move to Mississippi.&lt;/p&gt;
+
+&lt;p&gt;On a remote team, the workforce expands from whatever the population of your home town is to approximately &lt;a href=&#34;http://www.pewglobal.org/2014/01/30/global-population/&#34;&gt;4.8 billion working-age people&lt;/a&gt; who may be able to meet a need for your company.&lt;/p&gt;
+
+&lt;h2 id=&#34;remote-workers-are-results-based-by-default:245543e390042b6cbc7238076d84cc01&#34;&gt;Remote Workers Are Results-Based by Default&lt;/h2&gt;
+
+&lt;p&gt;One of the best ways to make sure employees and contractors feel empowered is to &lt;a href=&#34;http://lengstorf.com/results-based-work/&#34;&gt;switch to a results-based approach&lt;/a&gt; where employees are rewarded for efficiency instead of just showing up.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moving to a results-based environment is a huge win for any company (and its employees), and adopting a telecommuting culture is a great way to kickstart the process.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;remote-workers-are-more-productive:245543e390042b6cbc7238076d84cc01&#34;&gt;Remote Workers Are More Productive&lt;/h2&gt;
+
+&lt;p&gt;In a study performed at a call center, &lt;strong&gt;employees allowed to work from home were &lt;a href=&#34;https://web.stanford.edu/~nbloom/WFH.pdf&#34;&gt;13.5% more productive&lt;/a&gt; than those working in the call center.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a psychological benefit to this as well: reciprocity.&lt;/p&gt;
+
+&lt;p&gt;When we grant an employee the freedom to work on their own schedule, it&amp;rsquo;s a display of trust.&lt;/p&gt;
+
+&lt;p&gt;Humans are &lt;a href=&#34;https://sites.google.com/site/724ecialdiniwiki/chapter-1-weapons-of-influence/chapter-2-reciprocation&#34;&gt;hard-wired to reciprocate&lt;/a&gt;: &lt;strong&gt;put your trust in someone and their default response will be to reciprocate by doing good work&lt;/strong&gt; — repaying your trust, so to speak.&lt;/p&gt;
+
+&lt;h2 id=&#34;remote-work-lowers-turnover:245543e390042b6cbc7238076d84cc01&#34;&gt;Remote Work Lowers Turnover&lt;/h2&gt;
+
+&lt;p&gt;After introducing a &lt;a href=&#34;http://www.gorowe.com/main/what-is-rowe&#34;&gt;Results-Only Work Environment&lt;/a&gt; (ROWE), &lt;strong&gt;Best Buy saw an astonishing 45% reduction in turnover:&lt;/strong&gt; nearly half the people who would have quit &lt;em&gt;stayed with the company&lt;/em&gt; because they were happier with the job.&lt;/p&gt;
+
+&lt;p&gt;This is important, because the &lt;a href=&#34;http://guides.wsj.com/management/recruiting-hiring-and-firing/how-to-reduce-employee-turnover/&#34;&gt;cost of turnover adds up fast&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It costs upwards of twice an employee’s salary to find and train a replacement. And churn can damage morale among remaining employees.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://guides.wsj.com/management/recruiting-hiring-and-firing/how-to-reduce-employee-turnover/&#34;&gt;The Wall Street Journal&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;remote-work-empowers-employees:245543e390042b6cbc7238076d84cc01&#34;&gt;Remote Work Empowers Employees&lt;/h2&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/i-love-my-job.jpg&#34;
+       alt=&#34;make the job something workers love&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  Employees who feel in control of their work lives love their jobs.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;When we&amp;rsquo;re not being micromanaged, we&amp;rsquo;re able to self-direct and take ownership of tasks.&lt;/p&gt;
+
+&lt;p&gt;This shouldn&amp;rsquo;t be understated, because employee ownership likely plays a huge role in the reduced turnover ROWE reported.&lt;/p&gt;
+
+&lt;p&gt;As an employer, the Holy Grail of creating a healthy culture is &lt;a href=&#34;http://creatingtheconversation.com/employee-engagment-can-make-or-break-your-company/&#34;&gt;employee engagement&lt;/a&gt; — this is a buzzword that, at its core, describes employees who feel personally responsible for the success or failure of the company.&lt;/p&gt;
+
+&lt;p&gt;Letting employees go remote forces them to own their tasks in order to perform well. This gives them a sense of &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1468-005X.2012.00284.x/abstract?deniedAccessCustomisedMessage=&amp;amp;userIsAuthenticated=false&#34;&gt;autonomy and reduced pressure&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Personal responsibility leads to an emotional investment in the success or failure of projects — and like magic, your company has better employee engagement.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of just keeping butts in chairs, you build a family of employees who care about the company&amp;rsquo;s future.&lt;/p&gt;
+
+&lt;h2 id=&#34;remote-work-lowers-costs:245543e390042b6cbc7238076d84cc01&#34;&gt;Remote Work Lowers Costs&lt;/h2&gt;
+
+&lt;p&gt;For a startup in San Francisco, getting office space for 10 employees will &lt;a href=&#34;http://priceonomics.com/how-much-do-startups-pay-for-office-space/&#34;&gt;cost about $6,000/month&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Imagine putting that money back into the operating fund. Even if you buy all 10 remote workers a &lt;a href=&#34;http://amzn.to/1D00fzK&#34;&gt;Herman Miller office chair&lt;/a&gt;, you&amp;rsquo;d still &lt;strong&gt;save about $57K over the course of a year by letting them work remotely&lt;/strong&gt; and push that chair up to their desk at home.&lt;/p&gt;
+
+&lt;p&gt;In addition, remote workers are far less likely to call in sick: there are &lt;a href=&#34;http://globalworkplaceanalytics.com/pros-cons&#34;&gt;63% fewer unscheduled absences&lt;/a&gt; for telecommuters over in-office workers.&lt;/p&gt;
+
+&lt;p&gt;And that&amp;rsquo;s just the tip of the iceberg. There are quite a few arguments that suggest &lt;a href=&#34;http://blog.sqwiggle.com/working-remotely-saves-money/&#34;&gt;remote working saves money&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/remote-work-trust-your-team.jpg&#34;
+       alt=&#34;the only real argument against remote work is &amp;#34;I don&amp;#39;t trust my team&amp;#34;&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  All the other arguments are (scientifically) invalid.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;remote-working-just-makes-sense:245543e390042b6cbc7238076d84cc01&#34;&gt;Remote Working Just Makes Sense&lt;/h2&gt;
+
+&lt;p&gt;According to the research, remote workers are &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0925753502000425&#34;&gt;healthier&lt;/a&gt;, &lt;a href=&#34;https://hbr.org/2014/01/to-raise-productivity-let-more-employees-work-from-home&#34;&gt;more productive&lt;/a&gt;, &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/pubmed/18020794&#34;&gt;less likely to quit&lt;/a&gt;, &lt;a href=&#34;http://blog.sqwiggle.com/working-remotely-saves-money/&#34;&gt;less expensive&lt;/a&gt;, and even &lt;a href=&#34;http://www.samfak.umu.se/english/about-the-faculty/news/newsdetailpage/long-distance-commuters-get-divorced-more-often.cid160978&#34;&gt;less likely to get divorced&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Why the hell isn&amp;rsquo;t everyone already doing this?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h2&gt;What&amp;rsquo;s Next?&lt;/h2&gt;
+&lt;p&gt;
+  If you&amp;rsquo;re like me, the idea of traveling permanently while making a living probably seems like a dream — but you don&amp;rsquo;t think you can pull it off.
+&lt;/p&gt;
+&lt;p&gt;
+  I felt that way right up until I actually boarded a flight to leave the United States. And now I can&amp;rsquo;t believe I didn&amp;rsquo;t start living this life sooner.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;I want to help you avoid my mistake: you can start living the life of your dreams right now. And I&amp;rsquo;ve put together a &lt;a href=&#34;http://lengstorf.com/remote-work-course/&#34;&gt;free step-by-step guide&lt;/a&gt; to show you how.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href=&#34;http://lengstorf.com/remote-work-course/&#34;&gt;Click here to get the free guide.&lt;/a&gt;
+&lt;/p&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Art of Effective Planning: Avoid Wasted Time and Stress</title>
+      <link>http://lengstorf.com/effective-project-planning</link>
+      <pubDate>Mon, 02 Mar 2015 08:22:00 -0800</pubDate>
+      
+      <guid>http://lengstorf.com/effective-project-planning</guid>
+      <description>
+
+&lt;p&gt;I have a lot of good reasons to get my work done quickly:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I work remotely, so the faster I get my tasks done, the faster I can call my workday over;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m a &lt;a href=&#34;http://lengstorf.com/remote-work-travel/&#34;&gt;digital nomad&lt;/a&gt;, so having more time to explore means a more complete experience of the places I&amp;rsquo;m staying;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m constantly staring down a long list of things I want to work on, so getting things done quickly allows me to tackle my passion projects without burning the candle at both ends.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the past, my approach was to throw myself headlong into a new project — working furiously for as long as I could manage, hacking and slashing toward the finish line.&lt;/p&gt;
+
+&lt;p&gt;These days, I slow down, take a breath, and &lt;strong&gt;make a plan for my work day.&lt;/strong&gt; Then when I go hard, I go &lt;em&gt;hard.&lt;/em&gt; And then I&amp;rsquo;m done for the day and I go &lt;em&gt;to lunch.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/avoid-failure-planning.jpg&#34;
+       alt=&#34;Failures don&amp;#39;t plan to fail; they fail to plan. – Harvey Mackay&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;do-you-know-the-risks-of-poor-planning:bb69452ac325aca00c913e6462b70444&#34;&gt;Do You Know the Risks of Poor Planning?&lt;/h2&gt;
+
+&lt;p&gt;Without a plan, you&amp;rsquo;re hoping. You &lt;em&gt;hope&lt;/em&gt; you understood what your boss wanted. You &lt;em&gt;hope&lt;/em&gt; this feature is necessary. You &lt;em&gt;hope&lt;/em&gt; this is what the client meant by &amp;ldquo;make it pop&amp;rdquo;. You &lt;em&gt;hope&lt;/em&gt; you&amp;rsquo;ll find a way to wrap up this article coherently.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hope — for all the good it brings — is a terrible thing to rely on when you have deadlines to meet.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You don&amp;rsquo;t want to hope you&amp;rsquo;re getting it right. You want to &lt;em&gt;know&lt;/em&gt; you&amp;rsquo;re getting it right.&lt;/p&gt;
+
+&lt;h3 id=&#34;lack-of-direction-can-cause-lack-of-motivation:bb69452ac325aca00c913e6462b70444&#34;&gt;Lack of Direction Can Cause Lack of Motivation&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;If the project isn&amp;rsquo;t explicitly laid out, it&amp;rsquo;s easy to spin your wheels or procrastinate.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s no clear first step, and that makes it hard to know if you&amp;rsquo;re starting the right way.&lt;/p&gt;
+
+&lt;p&gt;Moving from &amp;ldquo;to do&amp;rdquo; to &amp;ldquo;in progress&amp;rdquo; is a big mental barrier, and poor planning can make it even bigger.&lt;/p&gt;
+
+&lt;h3 id=&#34;work-ends-up-wasted:bb69452ac325aca00c913e6462b70444&#34;&gt;Work Ends Up Wasted&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;If you do a bunch of work under incorrect assumptions, you&amp;rsquo;ll end up doing that work over again.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A murky understanding of a project&amp;rsquo;s end goals means you&amp;rsquo;re likely to spend effort in the wrong areas, wasting time and energy unnecessarily.&lt;/p&gt;
+
+&lt;h3 id=&#34;you-end-up-chasing-a-moving-target:bb69452ac325aca00c913e6462b70444&#34;&gt;You End Up Chasing a Moving Target&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Working without planning is an excellent way to waste hours.&lt;/strong&gt; It doesn&amp;rsquo;t mean that you don&amp;rsquo;t plan at all, it just means you&amp;rsquo;re forced to plan at the same time you&amp;rsquo;re working.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/good-planning-saves-time.jpg&#34;
+       alt=&#34;Bad plans cause wasted time.&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  If you don&#39;t have a plan, you will end up wasting time. Guaranteed.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In addition to the whole thing where &lt;a href=&#34;http://blog.codinghorror.com/the-multi-tasking-myth/&#34;&gt;humans are terrible at multitasking&lt;/a&gt;, planning on the fly means &lt;em&gt;hoping&lt;/em&gt; that the completed work meets all the requirements — even the ones that aren&amp;rsquo;t clear yet.&lt;/p&gt;
+
+&lt;p&gt;Defining goals late in the production schedule almost &lt;em&gt;always&lt;/em&gt; results in wasted or duplicated efforts, and it&amp;rsquo;s a great way to paint yourself into a deadline corner.&lt;/p&gt;
+
+&lt;h3 id=&#34;interruptions-are-guaranteed:bb69452ac325aca00c913e6462b70444&#34;&gt;Interruptions Are Guaranteed&lt;/h3&gt;
+
+&lt;p&gt;Whenever I work on a project where I don&amp;rsquo;t have a clear understanding of the goals, I&amp;rsquo;m frequently forced to stop and fire off an email asking for clarification.&lt;/p&gt;
+
+&lt;p&gt;On a web design, I might know that I need to build a home page, but I have to stop and ask if the main focus of the home page is to highlight the newsletter list or to drive readers to the blog. That&amp;rsquo;s vital to the project&amp;rsquo;s outcome — if I don&amp;rsquo;t have that information beforehand, I&amp;rsquo;m hamstrung until I hear back from the decision makers.&lt;/p&gt;
+
+&lt;p&gt;The same holds true for self-directed projects: &lt;strong&gt;if I have to stop working to think about the strategy, I&amp;rsquo;m context switching and adding unnecessary mental fatigue.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-make-projects-easier-faster-and-less-frustrating:bb69452ac325aca00c913e6462b70444&#34;&gt;How to Make Projects Easier, Faster, and Less Frustrating&lt;/h2&gt;
+
+&lt;p&gt;Proper planning doesn&amp;rsquo;t need to involve hours of meetings, flowcharts, or Post-It notes. It really just boils down to defining what &amp;ldquo;success&amp;rdquo; means — in quantifiable terms — &lt;em&gt;before work begins on a project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;make-the-project-s-goals-easy-to-measure-and-hard-to-misinterpret:bb69452ac325aca00c913e6462b70444&#34;&gt;Make the Project&amp;rsquo;s Goals Easy to Measure and Hard to Misinterpret&lt;/h3&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignleft&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/pizza-party.jpg&#34;
+       alt=&#34;pizza&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Imagine you&amp;rsquo;re helping prepare for a party, and the host asks, &amp;ldquo;Hey, can you order pizza?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;In theory, that&amp;rsquo;s enough information to move forward and complete the task.&lt;/p&gt;
+
+&lt;p&gt;However, without more information, you&amp;rsquo;ll have to make a lot of assumptions.&lt;/p&gt;
+
+&lt;p&gt;For example, how many people are coming? Is anyone vegetarian or lactose intolerant? Are we still doing the gluten-free thing? Anyone who doesn&amp;rsquo;t eat pork products?&lt;/p&gt;
+
+&lt;p&gt;To improve, set clear goals: get enough pizza for 20 people, including vegetarian options. Also, order cheese sticks.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The original goal — order pizza — was hard to measure. A single slice technically meets the requirements. No one&amp;rsquo;s happy, but, hey! you told me to order pizza — not &lt;em&gt;pizzas&lt;/em&gt; — so this is clearly not my fault.&lt;/p&gt;
+
+&lt;p&gt;The second goal is easy to measure and has far less room for misinterpretation: were all 20 people fed? Did the vegetarians have pizza to eat? Did I get my cheese sticks?&lt;/p&gt;
+
+&lt;p&gt;And this is just pizza — on bigger projects, there are dozens more clarifications needed before work starts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Defining clear goals with easily measurable outcomes is good for everyone.&lt;/strong&gt; For the boss or client, it provides the security of being sure the person doing the job is fully aware of what&amp;rsquo;s required in order to call the project a success. This alleviates the need for micromanagement, freeing up time for other tasks.&lt;/p&gt;
+
+&lt;p&gt;For the person doing the work, measurable goals eliminate ambiguity. It gives well-defined targets to shoot for, and creates simple check boxes that instantly measure whether or not the project is completed.&lt;/p&gt;
+
+&lt;p&gt;As a bonus, it requires the boss or client&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; to fully consider their idea and provide clear direction — this avoids the &amp;ldquo;I&amp;rsquo;ll know it when I see it&amp;rdquo; dilemma by removing that option as a possible outcome.&lt;/p&gt;
+
+&lt;h3 id=&#34;write-down-the-goals-and-post-them-for-everyone-on-the-project:bb69452ac325aca00c913e6462b70444&#34;&gt;Write Down the Goals and Post Them for Everyone on the Project&lt;/h3&gt;
+
+&lt;p&gt;In agency speak, this is a &amp;ldquo;scope of work&amp;rdquo; — a document that details everything expected of everyone involved, agreed upon by everyone involved, to show that everyone A) agrees on what &amp;ldquo;done&amp;rdquo; looks like, and B) feels confident that they have what they need in order to do the job well.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/share-plan-publicly.jpg&#34;
+       alt=&#34;Share plans with the whole team.&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  Post plans in a public place. No secrets on a team.
+
+    &lt;small&gt;Credit: &lt;a href=&#34;https://www.flickr.com/photos/jurvetson/&#34;&gt;Steve Jurvetson&lt;/a&gt;&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Write down &lt;em&gt;everything&lt;/em&gt; required before the project is considered complete, and make sure the whole team has reviewed and approved it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Emphasize to the decision makers that anything not on the list of goals will not be done, so the list needs to be complete.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Emphasize to the doers that they need to prove that tasks are completed, so the list needs to have quantifiable tasks.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;em&gt;extremely&lt;/em&gt; easy to blow past in early meetings, but trust me: I&amp;rsquo;ve never — &lt;strong&gt;&lt;em&gt;never&lt;/em&gt;&lt;/strong&gt; — worked on a project without a clear scope that didn&amp;rsquo;t run up against some kind of confusion, delay, tension, or (most commonly) all of the above.&lt;/p&gt;
+
+&lt;p&gt;Take the time to do a thorough job on the scope, and everyone will be happier.&lt;/p&gt;
+
+&lt;h3 id=&#34;make-a-todo-list-from-the-goals:bb69452ac325aca00c913e6462b70444&#34;&gt;Make a Todo List from the Goals&lt;/h3&gt;
+
+&lt;p&gt;After you have a clear scope, you can &lt;strong&gt;break a project down into a series of yes-or-no questions&lt;/strong&gt; that act as your project roadmap and todo list.&lt;/p&gt;
+
+&lt;p&gt;Going back to the pizza example, the project becomes three todo items:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Order enough pizza to feed 20 people&lt;/li&gt;
+&lt;li&gt;Make sure there are vegetarian options&lt;/li&gt;
+&lt;li&gt;Order cheese sticks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is incredibly clear, and — I hope — impossible to fuck up.&lt;/p&gt;
+
+&lt;p&gt;Did you order seven or eight pizzas? Yes. &lt;em&gt;Check.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Did you make sure three or four don&amp;rsquo;t have meat? Yes. &lt;em&gt;Check.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Did you order cheese sticks? Yes. &lt;em&gt;Check.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Boom. This project is &lt;em&gt;measurably&lt;/em&gt; complete. If this isn&amp;rsquo;t what the requester wanted, it&amp;rsquo;s because the project was improperly defined.&lt;/p&gt;
+
+&lt;p&gt;This is incredibly freeing as the person doing the work: &lt;strong&gt;creating a todo list from the project goals builds a map to completion and adds an obvious indication of progress.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The same benefits exist for clients, managers, and bosses: the project is either done according to the plan or it isn&amp;rsquo;t; no micromanagement or office policing required.&lt;/p&gt;
+
+&lt;h3 id=&#34;use-low-cost-prototypes-when-necessary:bb69452ac325aca00c913e6462b70444&#34;&gt;Use Low-Cost Prototypes when Necessary&lt;/h3&gt;
+
+&lt;p&gt;If a project is complex enough, hashing out the details may require a prototype or working draft for review.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If work is required to flesh out an idea, keep it simple and low-cost.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At my job, we use an approach called the &lt;a href=&#34;http://lengstorf.com/shitty-first-draft/&#34;&gt;Shitty First Draft&lt;/a&gt; to allow for rapid, lo-fi creation of &amp;ldquo;real&amp;rdquo; prototypes that give the whole team a feel for how something will work, but without any polish or unnecessary effort. We build something quick and dirty, and that&amp;rsquo;s usually enough to work out the rest of the details.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-few-hours-of-planning-can-avoid-weeks-of-wasted-time:bb69452ac325aca00c913e6462b70444&#34;&gt;A Few Hours of Planning Can Avoid Weeks of Wasted Time&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Laying out a solid plan is vital for a project to be completed on schedule, on budget, and without unnecessary stress.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stated more plainly, planning is not optional. I&amp;rsquo;ve ignored this advice in the past, and it&amp;rsquo;s always proven to be a source of pain later in the process.&lt;/p&gt;
+
+&lt;p&gt;On the flip side, I&amp;rsquo;ve never once put together a project plan and thought later, &amp;ldquo;Dang, I sure wish I hadn&amp;rsquo;t planned so well.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;rsquo;t take much more than asking questions and writing things down. You&amp;rsquo;ll spend a couple (potentially boring) hours doing it.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/costa-rica-sunset.jpg&#34;
+       alt=&#34;plan well to make sure you have time off&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  I saw this sunset in Costa Rica because I planned well and got my projects done on time.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But you know what you&amp;rsquo;ll gain?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You&amp;rsquo;ll gain weekends of relaxation&lt;/strong&gt; because you&amp;rsquo;re not scrambling to complete a late-stage feature that &lt;em&gt;has&lt;/em&gt; to launch Monday.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You&amp;rsquo;ll gain evenings off&lt;/strong&gt; because you aren&amp;rsquo;t staying late after spending the whole day in meetings trying to get guidance for features instead of working on them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You&amp;rsquo;ll gain camaraderie with your team and clients&lt;/strong&gt; because there&amp;rsquo;s no misunderstanding to cause resentment or tension.&lt;/p&gt;
+
+&lt;p&gt;Most importantly, &lt;strong&gt;you&amp;rsquo;ll gain all the benefits that come from completing projects&lt;/strong&gt; on time, on budget, and without huge hassles or setbacks.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-you-plan:bb69452ac325aca00c913e6462b70444&#34;&gt;How Do You Plan?&lt;/h2&gt;
+
+&lt;p&gt;Have you run up against projects where poor planning has wrought havoc? How have you adjusted moving forward to make things easier?&lt;/p&gt;
+
+&lt;p&gt;How do you plan your projects? Let me know in the comments!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;Hey! Cheese sticks weren&amp;rsquo;t on the original work order! But now that we&amp;rsquo;ve thoroughly considered the goals of the project, cheese sticks were always necessary.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;If you&amp;rsquo;re working on a personal project, you may think, &amp;ldquo;I don&amp;rsquo;t need to define the scope — I can figure it out as I go.&amp;rdquo; You&amp;rsquo;re not wrong, but you&amp;rsquo;re probably about to make your life a lot harder than you need to. I&amp;rsquo;m speaking from experience, here.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;This is especially important if you&amp;rsquo;re working with paying clients. The scope is what keeps the price where it is — if the scope changes, the price changes. Without clearly defined, measurable scopes, you&amp;rsquo;re almost guaranteed to run into &lt;a href=&#34;http://en.wikipedia.org/wiki/Scope_creep&#34;&gt;scope creep&lt;/a&gt;, and that either means you&amp;rsquo;re working for free or your client is paying money they didn&amp;rsquo;t expect to pay — in either scenario there&amp;rsquo;s unnecessary tension and resentment.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shitty First Draft</title>
+      <link>http://lengstorf.com/shitty-first-draft</link>
+      <pubDate>Mon, 23 Feb 2015 08:42:00 -0800</pubDate>
+      
+      <guid>http://lengstorf.com/shitty-first-draft</guid>
+      <description>
+
+&lt;p&gt;At &lt;a href=&#34;http://precisionnutrition.com/&#34;&gt;Precision Nutrition&lt;/a&gt;, the first iteration of any project is called a &lt;strong&gt;Shitty First Draft&lt;/strong&gt;.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9ccdb412110a12cc6d10d548842a4499:lamott&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9ccdb412110a12cc6d10d548842a4499:lamott&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t done to make the people producing the work feel bad about themselves; exactly the opposite, in fact: &lt;strong&gt;the goal of the Shitty First Draft is to remove the need for polish in favor of making progress.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/shitty-first-draft-hemingway.jpg&#34;
+       alt=&#34;The first draft of anything is shit. – Ernest Hemingway&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;the-power-of-getting-started:9ccdb412110a12cc6d10d548842a4499&#34;&gt;The Power of Getting Started&lt;/h2&gt;
+
+&lt;p&gt;A blank canvas is intimidating. You have a vague idea of what you need to create. You have a deadline. You know you have the skill to pull it off.&lt;/p&gt;
+
+&lt;p&gt;But there&amp;rsquo;s hesitation.&lt;/p&gt;
+
+&lt;p&gt;What if it&amp;rsquo;s not exactly right? What if people judge your work too harshly? What if this idea isn&amp;rsquo;t as good as you thought?&lt;/p&gt;
+
+&lt;p&gt;Small worries like these can lead to procrastination and unnecessary stress.&lt;/p&gt;
+
+&lt;p&gt;A Shitty First Draft is specifically designed to remove these barriers, making it much easier to just get started:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A Shitty First Draft is not intended to be perfect.&lt;/strong&gt; It&amp;rsquo;s intentionally imperfect and unpolished.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A Shitty First Draft isn&amp;rsquo;t reviewed for launch-readiness.&lt;/strong&gt; It&amp;rsquo;s intended to give everyone a starting point to provide real, concrete feedback.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A Shitty First Draft gets the ideas on paper and out of your head.&lt;/strong&gt; This makes it much easier to see the value of the idea &lt;em&gt;before&lt;/em&gt; spending too much time on it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Shitty First Draft is fast, and intended only to move the project from a vague, project-shaped idea to a tangible, tweakable, &lt;em&gt;actual&lt;/em&gt; thing.&lt;/p&gt;
+
+&lt;p&gt;Moving a project from &amp;ldquo;an idea we need to start working on&amp;rdquo; to &amp;ldquo;a project that&amp;rsquo;s started but needs to be finished&amp;rdquo; has a huge psychological benefit: &lt;strong&gt;forward progress generates momentum,&lt;/strong&gt; and there&amp;rsquo;s no question that projects with momentum get finished faster.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-something-simple-to-get-a-real-working-concept:9ccdb412110a12cc6d10d548842a4499&#34;&gt;Create Something Simple to Get a &amp;ldquo;Real&amp;rdquo; Working Concept&lt;/h2&gt;
+
+&lt;p&gt;Having something tangible to look at allows the whole team to see a real-world application of the idea. This is far easier to tweak than a collectively assembled mental model and/or flowchart.&lt;/p&gt;
+
+&lt;p&gt;With a Shitty First Draft, the time it takes to get something tangible is much lower. The project spends far less time as a concept in the minds of the &amp;ldquo;idea people&amp;rdquo;, and far more time being shaped into a final product by the team.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/quick-and-dirty-prototypes.jpg&#34;
+       alt=&#34;keep prototypes quick and dirty&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  The wireframes for our app bordered on stick figures. That&#39;s all we needed.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For example, I&amp;rsquo;m currently building a new application that&amp;rsquo;s trying to take certain in-person interactions and — as best as possible — scale those globally. We spent hours talking about how this could work and how to measure success, but because nothing like this app currently exists.&lt;/p&gt;
+
+&lt;p&gt;We couldn&amp;rsquo;t &lt;em&gt;really&lt;/em&gt; wrap our heads around how it worked, because it was only a concept.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We needed something real — something bound by the limits of reality — so that we could start to find and fix issues with our approach.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of trying to code anything, I started by building a Shitty First Draft: low-quality wireframes of different screens in the app, plugged together in a Google Presentation that we used to storyboard what a real session would look like using the app.&lt;/p&gt;
+
+&lt;p&gt;This lo-fi storyboard only took a few days to put together, and having &amp;ldquo;real&amp;rdquo; screens to look at while walking through a real use case allowed us to find issues that we wouldn&amp;rsquo;t have caught otherwise — issues that would have required a good deal of work done over again had we jumped straight to building a &amp;ldquo;production-ready&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9ccdb412110a12cc6d10d548842a4499:productionready&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9ccdb412110a12cc6d10d548842a4499:productionready&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; version.&lt;/p&gt;
+
+&lt;h2 id=&#34;remove-guesswork-from-new-projects:9ccdb412110a12cc6d10d548842a4499&#34;&gt;Remove Guesswork from New Projects&lt;/h2&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignleft&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/underpants-gnomes-planning.jpg&#34;
+       alt=&#34;Underpants Gnomes South Park&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  A Shitty First Draft helps avoid the Underpants Gnome problem.
+
+    &lt;small&gt;Credit: &lt;a href=&#34;http://southpark.cc.com/clips/151040/the-underpants-business&#34;&gt;South Park&lt;/a&gt;&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The Shitty First Draft also takes a lot of the guesswork out of the subsequent efforts: my first crack at coding up the app felt more like a paint-by-numbers than a blank canvas, and that allowed me to get into a &lt;a href=&#34;http://goo.gl/EY6UKJ&#34;&gt;flow state&lt;/a&gt; quickly.&lt;/p&gt;
+
+&lt;p&gt;The Shitty First Draft paved the way for the real product by smoothing out all the usual bumps that would take me out of building the app to work on its strategy.&lt;/p&gt;
+
+&lt;p&gt;The Shitty First Draft has been used effectively at Precision Nutrition for everything from web apps to coaching programs to full-length books. It doesn&amp;rsquo;t matter what kind of work you&amp;rsquo;re doing: &lt;strong&gt;start with a Shitty First Draft, you&amp;rsquo;ll end up with a higher-quality product sooner.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;give-yourself-permission-to-start-shitty:9ccdb412110a12cc6d10d548842a4499&#34;&gt;Give Yourself Permission to Start Shitty&lt;/h2&gt;
+
+&lt;p&gt;I shudder to think of now many hours I&amp;rsquo;ve wasted trying to write something perfect on the first try.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9ccdb412110a12cc6d10d548842a4499:highschool&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9ccdb412110a12cc6d10d548842a4499:highschool&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; How many lines of code I&amp;rsquo;ve deleted after I built out a fully-functional feature that it turned out wasn&amp;rsquo;t necessary at all. How many designs I&amp;rsquo;ve scrapped because I started with the aesthetic before I had all the details of how something would be used.&lt;/p&gt;
+
+&lt;p&gt;I felt pressure to be perfect. Most of it was internal pressure.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t want to admit I couldn&amp;rsquo;t get things perfect on the first try.&lt;/p&gt;
+
+&lt;p&gt;I wasted days of my life. Probably &lt;em&gt;months.&lt;/em&gt; All because I was worried that if every word, every line of code, every pixel of a design — if &lt;em&gt;everything&lt;/em&gt; I produced wasn&amp;rsquo;t my absolute best work, I was failing myself, my clients, my business, my fucking &lt;em&gt;ancestors.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/ernest-hemingway-shitty-first-draft.jpg&#34;
+       alt=&#34;Ernest Hemingway shitty first draft&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  Smart guy, that Hemingway fella.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When I came to accept that Hemingway was right, and that the first draft is always shitty, I started working more quickly, and the work I put out into the world was better quality.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This article started as a list of productivity tips, which was expanded to a series of articles including a piece on planning, which was then simplified into just this concept. From there, it went through several rounds of edits from myself and people I trust before it came out as the post you&amp;rsquo;re reading now.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9ccdb412110a12cc6d10d548842a4499:anxiety&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9ccdb412110a12cc6d10d548842a4499:anxiety&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Everything about my creative process improved when I started implementing the Shitty First Draft.&lt;/p&gt;
+
+&lt;p&gt;What will you create when you give yourself permission to start shitty?&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:9ccdb412110a12cc6d10d548842a4499:lamott&#34;&gt;I did a search for &amp;ldquo;shitty first draft&amp;rdquo; after I started writing this article and came across an excerpt from Anne Lamott&amp;rsquo;s &lt;em&gt;Bird by Bird&lt;/em&gt; &lt;a href=&#34;https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf&#34;&gt;on shitty first drafts.&lt;/a&gt; It&amp;rsquo;s worth a read — especially if you&amp;rsquo;re a writer.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9ccdb412110a12cc6d10d548842a4499:lamott&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9ccdb412110a12cc6d10d548842a4499:productionready&#34;&gt;I quote this because it still would have been a Shitty First Draft; it just would have cost far more to produce.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9ccdb412110a12cc6d10d548842a4499:productionready&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9ccdb412110a12cc6d10d548842a4499:highschool&#34;&gt;In high school, I was so hellbent on this I wouldn&amp;rsquo;t edit my writing assignments at all. Hell, I wouldn&amp;rsquo;t even &lt;em&gt;read&lt;/em&gt; them after I finished writing. I&amp;rsquo;d sit down, write the whole thing in one sitting — it doesn&amp;rsquo;t take long to fill two pages, double-spaced, after all — print it, and never look at it again. I remember saying something impossibly pretentious, like, &amp;ldquo;My writing is born whole. If I have to edit it, it wasn&amp;rsquo;t worth writing in the first place.&amp;rdquo;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9ccdb412110a12cc6d10d548842a4499:highschool&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:9ccdb412110a12cc6d10d548842a4499:anxiety&#34;&gt;The anxious part of my brain just started screaming, &amp;ldquo;No! Delete that! What if this isn&amp;rsquo;t an amazing article and people say, &amp;lsquo;This is your &lt;em&gt;edited&lt;/em&gt; stuff?&amp;lsquo;&amp;rdquo; Yes. This is my edited stuff.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9ccdb412110a12cc6d10d548842a4499:validation&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9ccdb412110a12cc6d10d548842a4499:validation&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; That little anxious voice can suck it.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9ccdb412110a12cc6d10d548842a4499:anxiety&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

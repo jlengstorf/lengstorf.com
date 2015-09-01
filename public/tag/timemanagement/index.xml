@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timemanagement on Jason Lengstorf</title>
+    <link>http://lengstorf.com/tag/timemanagement/</link>
+    <description>Recent content in Timemanagement on Jason Lengstorf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Mar 2015 00:38:00 -0800</lastBuildDate>
+    <atom:link href="http://lengstorf.com/tag/timemanagement/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Overtime: How to Lose Your Employees and Kill Your Business</title>
+      <link>http://lengstorf.com/overtime-hurts-productivity</link>
+      <pubDate>Sat, 28 Mar 2015 00:38:00 -0800</pubDate>
+      
+      <guid>http://lengstorf.com/overtime-hurts-productivity</guid>
+      <description>
+
+&lt;p&gt;The way many businesses approach pressing deadlines is terrifying.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s also, ironically, one of the least effective ways to meet deadlines.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The current mandatory hours are 9am to 10pm &amp;ndash; seven days a week &amp;ndash; with the occasional Saturday evening off for good behavior (at 6:30pm). – &lt;a href=&#34;http://ea-spouse.livejournal.com/274.html&#34;&gt;ea_spouse: &lt;em&gt;The Human Story&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This post from ea_spouse caused a huge stir in 2004, citing the slow creep of mandatory overtime into company culture at EA Sports.&lt;/p&gt;
+
+&lt;p&gt;EA&amp;rsquo;s reasoning, according to the post, was that engineering needed to go into &amp;ldquo;crunch mode&amp;rdquo; to boost output and meet looming deadlines. After all, an engineer working damn-near 90 hours a week should be at &lt;em&gt;least&lt;/em&gt; twice as productive as the same engineer working 40 hours a week.&lt;/p&gt;
+
+&lt;p&gt;Right?&lt;/p&gt;
+
+&lt;h2 id=&#34;productivity-is-not-linear:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Productivity Is Not Linear&lt;/h2&gt;
+
+&lt;p&gt;The thinking behind why managers believe twice the hours results in twice the output is short-sighted and toxic. Companies who regularly enter &amp;ldquo;crunch mode&amp;rdquo; forget to consider that their employees are humans — susceptible to fatigue, burnout, resentment, unhappiness — and not robots.&lt;/p&gt;
+
+&lt;p&gt;As a programmer starts working, her output will follow a pattern along these lines:&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/daily-productivity-graph.jpg&#34;
+       alt=&#34;productivity over the course of an average day&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;If she&amp;rsquo;s asked to work extra hours, she &lt;em&gt;will&lt;/em&gt; produce extra output. But since she&amp;rsquo;s already pretty beat after 8 hours, the extra output will be pretty low, and at a high cost.&lt;/p&gt;
+
+&lt;h2 id=&#34;working-more-produces-less:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Working More Produces Less&lt;/h2&gt;
+
+&lt;p&gt;After an alarmingly short period of time — just a month in some cases — &amp;rdquo;crunch mode&amp;rdquo; productivity will drop.&lt;/p&gt;
+
+&lt;p&gt;And not just a little drop. Output drops so much that it would have been more productive to work a standard 40 hours.&lt;/p&gt;
+
+&lt;p&gt;Let me repeat that, because this is huge: &lt;strong&gt;an employee working 60 hours a week for two months will produce &lt;em&gt;less overall&lt;/em&gt; than the same employee working 40 hours a week for the same time period.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;But how?&lt;/em&gt; How can doing 150% of the work result in less than 100% of the output?&lt;/p&gt;
+
+&lt;h2 id=&#34;why-does-productivity-tank-during-crunch-mode:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Why Does Productivity Tank During Crunch Mode?&lt;/h2&gt;
+
+&lt;p&gt;Imagine you work a standard 40-hour week, broken into five 8-hour shifts. And, since it&amp;rsquo;s hard to imagine our minds as a muscle, let&amp;rsquo;s pretend that your job is to unload heavy shit from a truck and move it into a warehouse all day.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-40-hour-week-is-sustainable:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;A 40-Hour Week Is Sustainable&lt;/h3&gt;
+
+&lt;p&gt;On an average day, you start out fresh, hit your stride an hour or two in, and start to feel fatigue set in after about six hours. At the end of eight hours, you&amp;rsquo;re beat, but not exhausted.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s hard work, but after you go home for the day&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9e087de5bf18f113c674bf17b69b2f2d:done&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9e087de5bf18f113c674bf17b69b2f2d:done&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; you have time to eat a nice dinner, relax with your friends and family, watch an episode of &lt;em&gt;Orange Is the New Black&lt;/em&gt;, and read a chapter of your book before sleeping a solid eight hours.&lt;/p&gt;
+
+&lt;p&gt;On the weekends you take care of errands, spend time with friends and family, and sleep in a bit to make up for when you didn&amp;rsquo;t stop at just one chapter of your book.&lt;/p&gt;
+
+&lt;p&gt;By the time your workweek starts again, you&amp;rsquo;re fully refreshed — mentally and physically — and ready to get back to work. You could happily keep up this pace for years.&lt;/p&gt;
+
+&lt;h3 id=&#34;crunch-mode-starts-strong:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Crunch Mode Starts Strong&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;In contrast, when mandatory overtime is assigned, you work a 60-hour week, broken into 6 10-hour shifts.&lt;/p&gt;
+
+&lt;p&gt;On day one, you start fresh, but by the end of 10 hours you&amp;rsquo;re feeling &lt;em&gt;really&lt;/em&gt; worn out — two extra hours of carrying heavy objects takes a toll — but you &lt;em&gt;did&lt;/em&gt; unload an extra truck.&lt;/p&gt;
+
+&lt;h3 id=&#34;but-it-takes-a-huge-toll:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;&amp;hellip;but It Takes a Huge Toll&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;ve also lost two hours of free time to the longer shift, so you have to skip meeting up with friends — and even with the cancellation, you only get seven hours of sleep.&lt;/p&gt;
+
+&lt;p&gt;On your only day off, you can&amp;rsquo;t sleep in because you have to rush through your errands early — you&amp;rsquo;re supposed to meet your friends for a barbecue at 4pm, and it&amp;rsquo;s your only chance to see them this week.&lt;/p&gt;
+
+&lt;p&gt;Your next shift starts with you still feeling fatigued from last week. &lt;strong&gt;No matter how hard you try, you&amp;rsquo;re just too tired to keep up the same pace from last week.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;and-it-gets-worse-over-time:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;&amp;hellip;and It Gets Worse Over Time&lt;/h3&gt;
+
+&lt;p&gt;As the weeks drag on, your lack of sleep is combining with the stress of your increasingly-hurried personal life and you&amp;rsquo;re feeling ragged. The fatigue is showing in your output: &lt;strong&gt;each week is a little less productive than the one before it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/overtime-negative-productivity.jpg&#34;
+       alt=&#34;overtime hurts productivity&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  After as little as 4 weeks of overtime, productivity can go negative.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Despite starting strong — during week one of crunch mode your output was noticeably higher than a standard week — over the following weeks your output dipped a little at a time, until you ended up doing &lt;em&gt;less&lt;/em&gt; work over ten hours than you would over eight hours.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For 150% of the effort, you&amp;rsquo;re now getting less than 100% of the results.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;if-overtime-is-less-productive-why-do-so-many-businesses-rely-on-it:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;If Overtime Is Less Productive, Why Do So Many Businesses Rely on It?&lt;/h2&gt;
+
+&lt;p&gt;Why — despite 100 years&amp;rsquo; worth of solid research, stating definitively that the 5-day, 8-hour workweek is the most sustainably productive arrangement — are so many businesses still implementing extended, mandatory overtime?&lt;/p&gt;
+
+&lt;h3 id=&#34;lack-of-effective-measurement:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Lack of Effective Measurement&lt;/h3&gt;
+
+&lt;p&gt;The most likely culprit is a lack of measured results. &lt;strong&gt;If you don&amp;rsquo;t measure output, then your only tool for gauging productivity is time and perceived effort:&lt;/strong&gt; the team has been putting in lots of extra time, and it sure &lt;em&gt;looks&lt;/em&gt; like they&amp;rsquo;re working hard!&lt;/p&gt;
+
+&lt;h3 id=&#34;misunderstanding-of-time-vs-output:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Misunderstanding of Time vs. Output&lt;/h3&gt;
+
+&lt;p&gt;In high school, if you finished your assignments early, you weren&amp;rsquo;t let out of class to do whatever you wanted with the extra time. In fact, you were often given extra assignments — things like extra credit — which were, in effect, a &lt;em&gt;punishment&lt;/em&gt; for being efficient.&lt;/p&gt;
+
+&lt;p&gt;Some businesses operate with the same mindset and pay for time instead of output — you may have heard this called &amp;ldquo;butts in chairs&amp;rdquo; management.&lt;/p&gt;
+
+&lt;p&gt;By valuing time over output, businesses unwittingly punish their most productive employees and reward the slackers.&lt;/p&gt;
+
+&lt;h3 id=&#34;poor-project-management:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Poor Project Management&lt;/h3&gt;
+
+&lt;p&gt;If a project isn&amp;rsquo;t properly planned, companies can find themselves trying to fit a six-week project into a four-week timeline. If managers aren&amp;rsquo;t actively working on controlling timelines, overtime may seem like the only viable option to meet unrealistic deadlines.&lt;/p&gt;
+
+&lt;p&gt;The problem is usually made worse by the fact that the manager doesn&amp;rsquo;t pay for poor management nearly as much as the employees stuck working overtime will.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-can-companies-fix-the-problem-of-overtime:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;How Can Companies Fix the Problem of Overtime?&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, there&amp;rsquo;s no easy answer to this question. Each company will have its own blend of dogmatic faith in overtime, cultural dependence on long hours, managerial incompetence/inexperience, and &lt;a href=&#34;http://lengstorf.com/overkill-cult/&#34;&gt;buy-in to the Overkill Cult&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are a few things that are worth auditing, however, that can at least help point out if there are some major, easily-fixable problems at work.&lt;/p&gt;
+
+&lt;h3 id=&#34;output-should-be-measured:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Output Should Be Measured&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Every company needs to be measuring output.&lt;/strong&gt; Where knowledge work is concerned, employee output is &lt;em&gt;the&lt;/em&gt; most important factor in determining whether or not the company is doing better or worse.&lt;/p&gt;
+
+&lt;p&gt;For some companies, employee output is easy (&amp;ldquo;how many trucks did Terry unload?&amp;rdquo;) whereas others face more challenging metrics (&amp;ldquo;how much managing did Pat do this week?&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;Before a company can see the detrimental effects on productivity, it needs to be able to &lt;strong&gt;define what &amp;ldquo;productive&amp;rdquo; means with hard data&lt;/strong&gt; — otherwise they&amp;rsquo;re just guessing.&lt;/p&gt;
+
+&lt;h3 id=&#34;reward-the-behavior-you-d-like-to-encourage:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Reward the Behavior You&amp;rsquo;d Like to Encourage&lt;/h3&gt;
+
+&lt;p&gt;On any project, each team member should be given their fair share of goals to complete.&lt;/p&gt;
+
+&lt;p&gt;After that, set &amp;lsquo;em loose. If someone finished her tasks today and they&amp;rsquo;re not due until next Friday, she can leave and not show up again until the review meeting — &lt;strong&gt;as long as what she&amp;rsquo;s turned in is quality, *it doesn&amp;rsquo;t matter how long she took to build it.&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t punish the stars on your team. Make sure they&amp;rsquo;re challenged, but be okay with results-oriented management — incentivizing your team (&amp;ldquo;finish ahead of schedule and you can do whatever you want until the meeting next week!&amp;rdquo;) instead of punishing them (&amp;ldquo;finish ahead of schedule and we&amp;rsquo;ll load you up with busywork!&amp;rdquo;) goes a long way toward encouraging the behavior you want to see in employees.&lt;/p&gt;
+
+&lt;h3 id=&#34;plan-projects-effectively:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Plan Projects Effectively&lt;/h3&gt;
+
+&lt;p&gt;When a new project is in its planning stages, &lt;strong&gt;make sure to include people in the decision-making process who will be able to provide reliable time estimates.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A system of checks and balances should be put in place before a client ever receives a timeline to make sure the proposed deadlines are achievable without the need to go into crunch mode.&lt;/p&gt;
+
+&lt;p&gt;Businesses shouldn&amp;rsquo;t underestimate the value of &lt;a href=&#34;http://lengstorf.com/effective-project-planning/&#34;&gt;properly planned projects&lt;/a&gt;; with a solid plan, projects get done faster and with fewer unpleasant surprises — like overtime.&lt;/p&gt;
+
+&lt;h2 id=&#34;be-part-of-the-solution:9e087de5bf18f113c674bf17b69b2f2d&#34;&gt;Be Part of the Solution&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s tempting to pretend that we&amp;rsquo;re the exception to this kind of data. Don&amp;rsquo;t fool yourself.&lt;/p&gt;
+
+&lt;p&gt;Working effectively — and in a way that makes us &lt;em&gt;happy&lt;/em&gt; with all aspects of our lives — is a marathon, not a sprint. We&amp;rsquo;ll feel like we have gas left in the tank. Like we&amp;rsquo;re not giving 100%.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s exactly the point.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Leaving a little in the tank is vital for sustained performance. When there&amp;rsquo;s a little gas left in the tank, we&amp;rsquo;re still excited to work. We&amp;rsquo;re not too exhausted to spend time with our family and friends. We still have time to pick up hobbies and relax.&lt;/p&gt;
+
+&lt;p&gt;And none of that should be undervalued — it&amp;rsquo;s the secret to &lt;em&gt;truly&lt;/em&gt; being successful and productive in the long run.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h2&gt;What&amp;rsquo;s Next?&lt;/h2&gt;
+&lt;p&gt;
+  If you&amp;rsquo;re like me, the idea of traveling permanently while making a living probably seems like a dream — but you don&amp;rsquo;t think you can pull it off.
+&lt;/p&gt;
+&lt;p&gt;
+  I felt that way right up until I actually boarded a flight to leave the United States. And now I can&amp;rsquo;t believe I didn&amp;rsquo;t start living this life sooner.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;I want to help you avoid my mistake: you can start living the life of your dreams right now. And I&amp;rsquo;ve put together a &lt;a href=&#34;http://lengstorf.com/remote-work-course/&#34;&gt;free step-by-step guide&lt;/a&gt; to show you how.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href=&#34;http://lengstorf.com/remote-work-course/&#34;&gt;Click here to get the free guide.&lt;/a&gt;
+&lt;/p&gt;
+&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:9e087de5bf18f113c674bf17b69b2f2d:done&#34;&gt;And remember, you&amp;rsquo;re doing manual labor in this scenario. You can&amp;rsquo;t just move a couple boxes real quick from your phone during dinner, or make a call to rearrange that shelf you forgot to deal with today. When you&amp;rsquo;re done for the day, &lt;em&gt;you&amp;rsquo;re done for the day.&lt;/em&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:9e087de5bf18f113c674bf17b69b2f2d:done&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Art of Effective Planning: Avoid Wasted Time and Stress</title>
+      <link>http://lengstorf.com/effective-project-planning</link>
+      <pubDate>Mon, 02 Mar 2015 08:22:00 -0800</pubDate>
+      
+      <guid>http://lengstorf.com/effective-project-planning</guid>
+      <description>
+
+&lt;p&gt;I have a lot of good reasons to get my work done quickly:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I work remotely, so the faster I get my tasks done, the faster I can call my workday over;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m a &lt;a href=&#34;http://lengstorf.com/remote-work-travel/&#34;&gt;digital nomad&lt;/a&gt;, so having more time to explore means a more complete experience of the places I&amp;rsquo;m staying;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m constantly staring down a long list of things I want to work on, so getting things done quickly allows me to tackle my passion projects without burning the candle at both ends.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the past, my approach was to throw myself headlong into a new project — working furiously for as long as I could manage, hacking and slashing toward the finish line.&lt;/p&gt;
+
+&lt;p&gt;These days, I slow down, take a breath, and &lt;strong&gt;make a plan for my work day.&lt;/strong&gt; Then when I go hard, I go &lt;em&gt;hard.&lt;/em&gt; And then I&amp;rsquo;m done for the day and I go &lt;em&gt;to lunch.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/avoid-failure-planning.jpg&#34;
+       alt=&#34;Failures don&amp;#39;t plan to fail; they fail to plan. – Harvey Mackay&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;do-you-know-the-risks-of-poor-planning:bb69452ac325aca00c913e6462b70444&#34;&gt;Do You Know the Risks of Poor Planning?&lt;/h2&gt;
+
+&lt;p&gt;Without a plan, you&amp;rsquo;re hoping. You &lt;em&gt;hope&lt;/em&gt; you understood what your boss wanted. You &lt;em&gt;hope&lt;/em&gt; this feature is necessary. You &lt;em&gt;hope&lt;/em&gt; this is what the client meant by &amp;ldquo;make it pop&amp;rdquo;. You &lt;em&gt;hope&lt;/em&gt; you&amp;rsquo;ll find a way to wrap up this article coherently.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hope — for all the good it brings — is a terrible thing to rely on when you have deadlines to meet.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You don&amp;rsquo;t want to hope you&amp;rsquo;re getting it right. You want to &lt;em&gt;know&lt;/em&gt; you&amp;rsquo;re getting it right.&lt;/p&gt;
+
+&lt;h3 id=&#34;lack-of-direction-can-cause-lack-of-motivation:bb69452ac325aca00c913e6462b70444&#34;&gt;Lack of Direction Can Cause Lack of Motivation&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;If the project isn&amp;rsquo;t explicitly laid out, it&amp;rsquo;s easy to spin your wheels or procrastinate.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s no clear first step, and that makes it hard to know if you&amp;rsquo;re starting the right way.&lt;/p&gt;
+
+&lt;p&gt;Moving from &amp;ldquo;to do&amp;rdquo; to &amp;ldquo;in progress&amp;rdquo; is a big mental barrier, and poor planning can make it even bigger.&lt;/p&gt;
+
+&lt;h3 id=&#34;work-ends-up-wasted:bb69452ac325aca00c913e6462b70444&#34;&gt;Work Ends Up Wasted&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;If you do a bunch of work under incorrect assumptions, you&amp;rsquo;ll end up doing that work over again.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A murky understanding of a project&amp;rsquo;s end goals means you&amp;rsquo;re likely to spend effort in the wrong areas, wasting time and energy unnecessarily.&lt;/p&gt;
+
+&lt;h3 id=&#34;you-end-up-chasing-a-moving-target:bb69452ac325aca00c913e6462b70444&#34;&gt;You End Up Chasing a Moving Target&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Working without planning is an excellent way to waste hours.&lt;/strong&gt; It doesn&amp;rsquo;t mean that you don&amp;rsquo;t plan at all, it just means you&amp;rsquo;re forced to plan at the same time you&amp;rsquo;re working.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/good-planning-saves-time.jpg&#34;
+       alt=&#34;Bad plans cause wasted time.&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  If you don&#39;t have a plan, you will end up wasting time. Guaranteed.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In addition to the whole thing where &lt;a href=&#34;http://blog.codinghorror.com/the-multi-tasking-myth/&#34;&gt;humans are terrible at multitasking&lt;/a&gt;, planning on the fly means &lt;em&gt;hoping&lt;/em&gt; that the completed work meets all the requirements — even the ones that aren&amp;rsquo;t clear yet.&lt;/p&gt;
+
+&lt;p&gt;Defining goals late in the production schedule almost &lt;em&gt;always&lt;/em&gt; results in wasted or duplicated efforts, and it&amp;rsquo;s a great way to paint yourself into a deadline corner.&lt;/p&gt;
+
+&lt;h3 id=&#34;interruptions-are-guaranteed:bb69452ac325aca00c913e6462b70444&#34;&gt;Interruptions Are Guaranteed&lt;/h3&gt;
+
+&lt;p&gt;Whenever I work on a project where I don&amp;rsquo;t have a clear understanding of the goals, I&amp;rsquo;m frequently forced to stop and fire off an email asking for clarification.&lt;/p&gt;
+
+&lt;p&gt;On a web design, I might know that I need to build a home page, but I have to stop and ask if the main focus of the home page is to highlight the newsletter list or to drive readers to the blog. That&amp;rsquo;s vital to the project&amp;rsquo;s outcome — if I don&amp;rsquo;t have that information beforehand, I&amp;rsquo;m hamstrung until I hear back from the decision makers.&lt;/p&gt;
+
+&lt;p&gt;The same holds true for self-directed projects: &lt;strong&gt;if I have to stop working to think about the strategy, I&amp;rsquo;m context switching and adding unnecessary mental fatigue.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-make-projects-easier-faster-and-less-frustrating:bb69452ac325aca00c913e6462b70444&#34;&gt;How to Make Projects Easier, Faster, and Less Frustrating&lt;/h2&gt;
+
+&lt;p&gt;Proper planning doesn&amp;rsquo;t need to involve hours of meetings, flowcharts, or Post-It notes. It really just boils down to defining what &amp;ldquo;success&amp;rdquo; means — in quantifiable terms — &lt;em&gt;before work begins on a project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;make-the-project-s-goals-easy-to-measure-and-hard-to-misinterpret:bb69452ac325aca00c913e6462b70444&#34;&gt;Make the Project&amp;rsquo;s Goals Easy to Measure and Hard to Misinterpret&lt;/h3&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignleft&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/pizza-party.jpg&#34;
+       alt=&#34;pizza&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Imagine you&amp;rsquo;re helping prepare for a party, and the host asks, &amp;ldquo;Hey, can you order pizza?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;In theory, that&amp;rsquo;s enough information to move forward and complete the task.&lt;/p&gt;
+
+&lt;p&gt;However, without more information, you&amp;rsquo;ll have to make a lot of assumptions.&lt;/p&gt;
+
+&lt;p&gt;For example, how many people are coming? Is anyone vegetarian or lactose intolerant? Are we still doing the gluten-free thing? Anyone who doesn&amp;rsquo;t eat pork products?&lt;/p&gt;
+
+&lt;p&gt;To improve, set clear goals: get enough pizza for 20 people, including vegetarian options. Also, order cheese sticks.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The original goal — order pizza — was hard to measure. A single slice technically meets the requirements. No one&amp;rsquo;s happy, but, hey! you told me to order pizza — not &lt;em&gt;pizzas&lt;/em&gt; — so this is clearly not my fault.&lt;/p&gt;
+
+&lt;p&gt;The second goal is easy to measure and has far less room for misinterpretation: were all 20 people fed? Did the vegetarians have pizza to eat? Did I get my cheese sticks?&lt;/p&gt;
+
+&lt;p&gt;And this is just pizza — on bigger projects, there are dozens more clarifications needed before work starts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Defining clear goals with easily measurable outcomes is good for everyone.&lt;/strong&gt; For the boss or client, it provides the security of being sure the person doing the job is fully aware of what&amp;rsquo;s required in order to call the project a success. This alleviates the need for micromanagement, freeing up time for other tasks.&lt;/p&gt;
+
+&lt;p&gt;For the person doing the work, measurable goals eliminate ambiguity. It gives well-defined targets to shoot for, and creates simple check boxes that instantly measure whether or not the project is completed.&lt;/p&gt;
+
+&lt;p&gt;As a bonus, it requires the boss or client&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; to fully consider their idea and provide clear direction — this avoids the &amp;ldquo;I&amp;rsquo;ll know it when I see it&amp;rdquo; dilemma by removing that option as a possible outcome.&lt;/p&gt;
+
+&lt;h3 id=&#34;write-down-the-goals-and-post-them-for-everyone-on-the-project:bb69452ac325aca00c913e6462b70444&#34;&gt;Write Down the Goals and Post Them for Everyone on the Project&lt;/h3&gt;
+
+&lt;p&gt;In agency speak, this is a &amp;ldquo;scope of work&amp;rdquo; — a document that details everything expected of everyone involved, agreed upon by everyone involved, to show that everyone A) agrees on what &amp;ldquo;done&amp;rdquo; looks like, and B) feels confident that they have what they need in order to do the job well.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/share-plan-publicly.jpg&#34;
+       alt=&#34;Share plans with the whole team.&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  Post plans in a public place. No secrets on a team.
+
+    &lt;small&gt;Credit: &lt;a href=&#34;https://www.flickr.com/photos/jurvetson/&#34;&gt;Steve Jurvetson&lt;/a&gt;&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Write down &lt;em&gt;everything&lt;/em&gt; required before the project is considered complete, and make sure the whole team has reviewed and approved it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Emphasize to the decision makers that anything not on the list of goals will not be done, so the list needs to be complete.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Emphasize to the doers that they need to prove that tasks are completed, so the list needs to have quantifiable tasks.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;em&gt;extremely&lt;/em&gt; easy to blow past in early meetings, but trust me: I&amp;rsquo;ve never — &lt;strong&gt;&lt;em&gt;never&lt;/em&gt;&lt;/strong&gt; — worked on a project without a clear scope that didn&amp;rsquo;t run up against some kind of confusion, delay, tension, or (most commonly) all of the above.&lt;/p&gt;
+
+&lt;p&gt;Take the time to do a thorough job on the scope, and everyone will be happier.&lt;/p&gt;
+
+&lt;h3 id=&#34;make-a-todo-list-from-the-goals:bb69452ac325aca00c913e6462b70444&#34;&gt;Make a Todo List from the Goals&lt;/h3&gt;
+
+&lt;p&gt;After you have a clear scope, you can &lt;strong&gt;break a project down into a series of yes-or-no questions&lt;/strong&gt; that act as your project roadmap and todo list.&lt;/p&gt;
+
+&lt;p&gt;Going back to the pizza example, the project becomes three todo items:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Order enough pizza to feed 20 people&lt;/li&gt;
+&lt;li&gt;Make sure there are vegetarian options&lt;/li&gt;
+&lt;li&gt;Order cheese sticks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is incredibly clear, and — I hope — impossible to fuck up.&lt;/p&gt;
+
+&lt;p&gt;Did you order seven or eight pizzas? Yes. &lt;em&gt;Check.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Did you make sure three or four don&amp;rsquo;t have meat? Yes. &lt;em&gt;Check.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Did you order cheese sticks? Yes. &lt;em&gt;Check.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Boom. This project is &lt;em&gt;measurably&lt;/em&gt; complete. If this isn&amp;rsquo;t what the requester wanted, it&amp;rsquo;s because the project was improperly defined.&lt;/p&gt;
+
+&lt;p&gt;This is incredibly freeing as the person doing the work: &lt;strong&gt;creating a todo list from the project goals builds a map to completion and adds an obvious indication of progress.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The same benefits exist for clients, managers, and bosses: the project is either done according to the plan or it isn&amp;rsquo;t; no micromanagement or office policing required.&lt;/p&gt;
+
+&lt;h3 id=&#34;use-low-cost-prototypes-when-necessary:bb69452ac325aca00c913e6462b70444&#34;&gt;Use Low-Cost Prototypes when Necessary&lt;/h3&gt;
+
+&lt;p&gt;If a project is complex enough, hashing out the details may require a prototype or working draft for review.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If work is required to flesh out an idea, keep it simple and low-cost.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At my job, we use an approach called the &lt;a href=&#34;http://lengstorf.com/shitty-first-draft/&#34;&gt;Shitty First Draft&lt;/a&gt; to allow for rapid, lo-fi creation of &amp;ldquo;real&amp;rdquo; prototypes that give the whole team a feel for how something will work, but without any polish or unnecessary effort. We build something quick and dirty, and that&amp;rsquo;s usually enough to work out the rest of the details.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-few-hours-of-planning-can-avoid-weeks-of-wasted-time:bb69452ac325aca00c913e6462b70444&#34;&gt;A Few Hours of Planning Can Avoid Weeks of Wasted Time&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Laying out a solid plan is vital for a project to be completed on schedule, on budget, and without unnecessary stress.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stated more plainly, planning is not optional. I&amp;rsquo;ve ignored this advice in the past, and it&amp;rsquo;s always proven to be a source of pain later in the process.&lt;/p&gt;
+
+&lt;p&gt;On the flip side, I&amp;rsquo;ve never once put together a project plan and thought later, &amp;ldquo;Dang, I sure wish I hadn&amp;rsquo;t planned so well.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;rsquo;t take much more than asking questions and writing things down. You&amp;rsquo;ll spend a couple (potentially boring) hours doing it.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption alignright&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/costa-rica-sunset.jpg&#34;
+       alt=&#34;plan well to make sure you have time off&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+  I saw this sunset in Costa Rica because I planned well and got my projects done on time.
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But you know what you&amp;rsquo;ll gain?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You&amp;rsquo;ll gain weekends of relaxation&lt;/strong&gt; because you&amp;rsquo;re not scrambling to complete a late-stage feature that &lt;em&gt;has&lt;/em&gt; to launch Monday.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You&amp;rsquo;ll gain evenings off&lt;/strong&gt; because you aren&amp;rsquo;t staying late after spending the whole day in meetings trying to get guidance for features instead of working on them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You&amp;rsquo;ll gain camaraderie with your team and clients&lt;/strong&gt; because there&amp;rsquo;s no misunderstanding to cause resentment or tension.&lt;/p&gt;
+
+&lt;p&gt;Most importantly, &lt;strong&gt;you&amp;rsquo;ll gain all the benefits that come from completing projects&lt;/strong&gt; on time, on budget, and without huge hassles or setbacks.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-you-plan:bb69452ac325aca00c913e6462b70444&#34;&gt;How Do You Plan?&lt;/h2&gt;
+
+&lt;p&gt;Have you run up against projects where poor planning has wrought havoc? How have you adjusted moving forward to make things easier?&lt;/p&gt;
+
+&lt;p&gt;How do you plan your projects? Let me know in the comments!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;Hey! Cheese sticks weren&amp;rsquo;t on the original work order! But now that we&amp;rsquo;ve thoroughly considered the goals of the project, cheese sticks were always necessary.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:bb69452ac325aca00c913e6462b70444:cheesesticks&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;If you&amp;rsquo;re working on a personal project, you may think, &amp;ldquo;I don&amp;rsquo;t need to define the scope — I can figure it out as I go.&amp;rdquo; You&amp;rsquo;re not wrong, but you&amp;rsquo;re probably about to make your life a lot harder than you need to. I&amp;rsquo;m speaking from experience, here.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:bb69452ac325aca00c913e6462b70444:personalprojects&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;This is especially important if you&amp;rsquo;re working with paying clients. The scope is what keeps the price where it is — if the scope changes, the price changes. Without clearly defined, measurable scopes, you&amp;rsquo;re almost guaranteed to run into &lt;a href=&#34;http://en.wikipedia.org/wiki/Scope_creep&#34;&gt;scope creep&lt;/a&gt;, and that either means you&amp;rsquo;re working for free or your client is paying money they didn&amp;rsquo;t expect to pay — in either scenario there&amp;rsquo;s unnecessary tension and resentment.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:bb69452ac325aca00c913e6462b70444:scopecreep&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Make Time; Find Time</title>
+      <link>http://lengstorf.com/find-time</link>
+      <pubDate>Tue, 30 Sep 2014 10:47:00 -0800</pubDate>
+      
+      <guid>http://lengstorf.com/find-time</guid>
+      <description>
+
+&lt;p&gt;I love listening to a good podcast. Something like &lt;a href=&#34;http://www.radiolab.org/&#34;&gt;Radiolab&lt;/a&gt; or &lt;a href=&#34;http://hearstartup.com/&#34;&gt;StartUp&lt;/a&gt; — things that make me think, teach me something new, spin me off on a philosophical tangent for a half hour.&lt;/p&gt;
+
+&lt;p&gt;But I &lt;em&gt;never&lt;/em&gt; listen to them.&lt;/p&gt;
+
+&lt;h2 id=&#34;i-don-t-have-time-for-that:827c260d78b604ba1fddaac998891545&#34;&gt;I Don&amp;rsquo;t Have Time for That&lt;/h2&gt;
+
+&lt;p&gt;I have a constant backlog at work. I have friends I want to visit. I like to go outside when I&amp;rsquo;m not working.&lt;/p&gt;
+
+&lt;p&gt;Sitting quietly for 45 minutes to listen to the latest Radiolab? Sorry, but it&amp;rsquo;s not high on my list of things to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The time spent listening to a podcast is too easy for me to reallocate to things that I deem &amp;ldquo;productive&amp;rdquo;, and therefore I rarely listen to podcasts.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The only times I ever listen to podcasts are A) when a friend hears a particularly good one and goes out of his way to listen to it again while we&amp;rsquo;re hanging out, B) on a road trip&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:827c260d78b604ba1fddaac998891545:road-trip&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:827c260d78b604ba1fddaac998891545:road-trip&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, or C) when I&amp;rsquo;m sick/hung over/burned out and can&amp;rsquo;t imagine doing anything other than passively listening to something while draped over my couch like a threadbare blanket.&lt;/p&gt;
+
+&lt;h2 id=&#34;you-should-make-time:827c260d78b604ba1fddaac998891545&#34;&gt;&amp;ldquo;You Should Make Time&amp;rdquo;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If it&amp;rsquo;s important to you, you should make time for it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When I hear that, I get a twinge of guilt. &lt;em&gt;I should. I&amp;rsquo;m such a slacker. Why don&amp;rsquo;t I just make time to do this if it&amp;rsquo;s important to me?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, here&amp;rsquo;s the thing: &lt;strong&gt;I&amp;rsquo;m making a lot of time for a lot of important things already.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m currently making time to write this post.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow, I will make time to go to the gym for an hour.&lt;/p&gt;
+
+&lt;p&gt;In the evenings this week I&amp;rsquo;ll be making time to meet with friends for dinners and drinks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If I keep &amp;ldquo;making time&amp;rdquo;, I&amp;rsquo;m going to run out of hours&lt;/strong&gt; for work, sleep, and showers.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:827c260d78b604ba1fddaac998891545:showers&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:827c260d78b604ba1fddaac998891545:showers&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; And if I prioritize the things I&amp;rsquo;m willing to make time for, podcasts definitely fall after writing, my health, and my social life.&lt;/p&gt;
+
+&lt;p&gt;So does that mean I should just give up on podcasts and write them off altogether?&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&#34;caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://lengstorf.com/images/find-time1.jpg&#34;
+       alt=&#34;Don&amp;#39;t make time; find time.&#34;&gt;
+  &lt;figcaption class=&#34;caption-text&#34;&gt;
+    
+
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;find-the-time:827c260d78b604ba1fddaac998891545&#34;&gt;Find the Time&lt;/h2&gt;
+
+&lt;p&gt;In a recent conversation, I brought all this up to &lt;a href=&#34;http://lengstorf.com/best-friends/&#34;&gt;Nate&lt;/a&gt;. &amp;ldquo;I&amp;rsquo;d love to listen to podcasts, but there just aren&amp;rsquo;t enough hours in the day, you know?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Being a particularly avid podcast listener, Nate didn&amp;rsquo;t understand. &amp;ldquo;You can always find time to listen to a podcast.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Nate fits his podcast listening into the spaces where nothing otherwise engaging is happening. While cooking dinner, he&amp;rsquo;ll throw on the latest &lt;a href=&#34;http://www.thisamericanlife.org/&#34;&gt;This American Life&lt;/a&gt; instead of background music. Or while cleaning, or folding laundry, or some other menial task that is otherwise less-than-engaging, but unavoidable.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;How many minutes of your day are full of little spaces where you zone out? Where you&amp;rsquo;re taking care of something, but your brain is completely off?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;If I wanted to listen to more podcasts, I didn&amp;rsquo;t need to &lt;em&gt;make time&lt;/em&gt; at all. &lt;strong&gt;I needed to use the time I already had more efficiently.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;finding-the-time-in-my-day-to-day:827c260d78b604ba1fddaac998891545&#34;&gt;Finding the Time in My Day-to-Day&lt;/h2&gt;
+
+&lt;p&gt;I don&amp;rsquo;t own a car. It&amp;rsquo;s a benefit of living somewhere like Portland — I&amp;rsquo;m close enough to pretty much everything that I can walk there.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:827c260d78b604ba1fddaac998891545:options&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:827c260d78b604ba1fddaac998891545:options&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I can walk a mile in about 15–20 minutes. I don&amp;rsquo;t like to talk on the phone while I walk, and I find it really annoying when people walk and text, so I try to keep my phone in my pocket. This means my walks are typically spent daydreaming or thinking about stuff that I can&amp;rsquo;t deal with until I get wherever I&amp;rsquo;m going.&lt;/p&gt;
+
+&lt;p&gt;Or, now that I&amp;rsquo;m thinking in terms of finding time, &lt;em&gt;my walks are one or two podcast episodes.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Today I&amp;rsquo;m at &lt;a href=&#34;http://www.wateravenuecoffee.com/&#34;&gt;Water Avenue Coffee&lt;/a&gt;, which is just under two miles from my apartment. It took me about 35 minutes to walk here, and on the walk I listened to episode 3 of StartUp. On the walk home I&amp;rsquo;ll listen to the latest episode of Radiolab.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ll have spent no additional time that I wasn&amp;rsquo;t already going to spend, but I&amp;rsquo;ll have listened to two podcasts that I really enjoy.&lt;/strong&gt; That&amp;rsquo;s two more podcasts than I listened to in the previous two weeks because I was &lt;a href=&#34;http://lengstorf.com/too-busy/&#34;&gt;too busy&lt;/a&gt; and couldn&amp;rsquo;t make time.&lt;/p&gt;
+
+&lt;p&gt;What else do I put off or skip altogether because I can&amp;rsquo;t (or won&amp;rsquo;t) make time? And where could I find the time to &lt;em&gt;fit it into my existing commitments?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not sure yet, but I certainly plan to find out.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:827c260d78b604ba1fddaac998891545:road-trip&#34;&gt;Road trips are a very rare thing for me nowadays; I no longer own a car and I usually travel solo, which makes airfare a cheaper, faster option in most cases.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:827c260d78b604ba1fddaac998891545:road-trip&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:827c260d78b604ba1fddaac998891545:showers&#34;&gt;I include showers here because I&amp;rsquo;ve tried the work-is-more-important-than-showers approach. &lt;em&gt;It&amp;rsquo;s not.&lt;/em&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:827c260d78b604ba1fddaac998891545:showers&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:827c260d78b604ba1fddaac998891545:options&#34;&gt;Or bike, or &lt;a href=&#34;https://www.car2go.com/en/portland/&#34;&gt;car2go&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:827c260d78b604ba1fddaac998891545:options&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
