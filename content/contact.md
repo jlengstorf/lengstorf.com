@@ -15,9 +15,9 @@ Are you interested in picking my brain about remote working or productivity? Wan
 
 I'd love to help you out!
 
-There are a few ways to get in touch with me:
+There are three ways to get in touch with me:
 
-## 1\. Call Me
+## 1\. Schedule a Call with Me
 
 <style>
   #clarity-widget { display: none; float: right; margin: 0 0 0 20px; } @media (min-width: 768px) { #clarity-widget { display: block; }
