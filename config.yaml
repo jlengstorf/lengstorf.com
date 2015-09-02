@@ -19,6 +19,8 @@ taxonomies:
 params:
   googleanalytics: UA-39001606-1
 
+  site_email: jason@lengstorf.com
+
   social:
     github: jlengstorf
     facebook: jlengstorf

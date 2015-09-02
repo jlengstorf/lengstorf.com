@@ -4,7 +4,7 @@ date: 2015-08-29T13:19:37+02:00
 author: jason
 
 title: "Media and Press Inquiries for Jason Lengstorf"
-slug: media
+slug: press
 description: "How to contact Jason Lengstorf for media and press inquries, including speaking engagements."
 
 images:
