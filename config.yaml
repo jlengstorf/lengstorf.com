@@ -21,6 +21,16 @@ params:
 
   site_email: jason@lengstorf.com
 
+  schema:
+    type: Person
+    name: Jason Lengstorf
+    sameAs:
+    - "https://www.facebook.com/jlengstorf"
+    - "https://instagram.com/jlengstorf"
+    - "https://plus.google.com/+Lengstorf"
+    - "https://www.youtube.com/lengstorf"
+    - "https://twitter.com/jlengstorf"
+
   social:
     github: jlengstorf
     facebook: jlengstorf
