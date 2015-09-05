@@ -3,14 +3,14 @@ date: 2015-08-29T12:57:57+02:00
 author: jason
 
 title: "Learn Everything You Need to Escape the Office Today"
-slug: remote-work-course/
+slug: remote-work-course
 description: "If you've ever wished you could earn a living while traveling the world, I have good news: you can live the lifestyle of your dreams, starting TODAY."
 
 aliases:
 - /get-updates/
 
 images:
-- /images/jason-lengstorf-smiling.jpg
+- /images/jason-lengstorf.jpg
 
 videos: []
 

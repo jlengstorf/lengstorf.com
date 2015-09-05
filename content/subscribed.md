@@ -6,7 +6,8 @@ title: The First Lesson Is on Its Way
 slug: subscribed
 
 images:
-- /images/jason-lengstorf-barcelona.jpg
+- /images/jason-lengstorf.jpg
+
 videos: []
 ---
 I'm so excited to be a part of your transformation from a desk jockey to a world traveler.

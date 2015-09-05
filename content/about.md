@@ -8,6 +8,7 @@ title: "Jason Lengstorf"
 description: "Jason Lengstorf is an author, a speaker, and a solver of hard problems. He is currently experimenting with permanent travel and remote work."
 
 images:
+- /images/jason-lengstorf.jpg
 - /images/jason-lengstorf-barcelona.jpg
 - /images/jason-lengstorf-uniform.jpg
 - /images/jason-lengstorf-smiling.jpg

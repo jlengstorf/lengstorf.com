@@ -16,6 +16,7 @@ tag:
 
 images:
 - /images/2014-05-10-19.01.50-2-600x300.jpg
+- /images/2014-05-10-19.01.50-2-600x300.jpg
 - /images/pizza-thrower.jpg
 - /images/ninja-rap.gif
 - /images/its-in.gif

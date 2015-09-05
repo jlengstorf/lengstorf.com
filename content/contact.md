@@ -3,11 +3,11 @@ date: 2015-08-29T13:19:37+02:00
 author: jason
 
 title: "Contact Jason Lengstorf"
-slug: contact/
+slug: contact
 description: "Contact Jason Lengstorf for help with your remote working career, building your business, and more. Jason is available for speaking and writing engagements."
 
 images:
-- /images/jason-lengstorf-smiling.jpg
+- /images/jason-lengstorf.jpg
 
 videos: []
 ---

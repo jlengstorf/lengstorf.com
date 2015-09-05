@@ -3,11 +3,11 @@ date: 2015-08-29T12:57:57+02:00
 author: jason
 
 title: Disclaimer
-slug: disclaimer/
+slug: disclaimer
 description: "Disclaimer and disclosures. In short: assume I'm wrong about everything."
 
 images:
-- /images/jason-lengstorf-smiling.jpg
+- /images/jason-lengstorf.jpg
 
 videos: []
 ---

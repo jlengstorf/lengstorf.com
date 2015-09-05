@@ -8,7 +8,7 @@ slug: press
 description: "How to contact Jason Lengstorf for media and press inquries, including speaking engagements."
 
 images:
-- /images/jason-lengstorf-smiling.jpg
+- /images/jason-lengstorf.jpg
 
 videos: []
 ---

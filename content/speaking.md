@@ -3,11 +3,11 @@ date: 2015-08-29T14:27:25+02:00
 author: jason
 
 title: Speaking
-slug: speaking/
+slug: speaking
 description: Jason Lengstorf is an experienced speaker on topics ranging from web design and development to happiness, work-life balance, and productivity.
 
 images:
-- /images/jason-lengstorf-speaking.jpg
+- /images/jason-lengstorf.jpg
 
 videos: []
 ---
