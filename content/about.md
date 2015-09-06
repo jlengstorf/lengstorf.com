@@ -1,11 +1,11 @@
 ---
-date: "2015-08-25T14:25:27+02:00"
+date: 2015-08-25T14:25:27+02:00
 author: jason
 
 menu: main
 
-title: "Jason Lengstorf"
-description: "Jason Lengstorf is an author, a speaker, and a solver of hard problems. He is currently experimenting with permanent travel and remote work."
+title: Jason Lengstorf
+description: Jason Lengstorf is an author, a speaker, and a solver of hard problems. He is currently experimenting with permanent travel and remote work.
 
 images:
 - /images/jason-lengstorf.jpg
