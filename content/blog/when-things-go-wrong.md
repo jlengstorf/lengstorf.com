@@ -25,7 +25,7 @@ images:
 
 videos: []
 
-discussion_link:
+discussion_link: https://www.facebook.com/jlengstorf/posts/879046358831933
 
 ---
 It's 07:30 in London, but it feels like early afternoon. We're still functioning on Chiang Mai time.
@@ -98,6 +98,8 @@ This is a good thing. A life without complications is a life without challenges,
 
 [^boring]:
   You know that excitement you feel when you learn a new skill and get it right? Your first bike ride without training wheels; your first kiss; your first properly-fingered E chord — none of these would have been very exciting without the possibility and previous experience of getting it wrong.
+
+**BONUS:** The checklist is also available as an infographic. [Click here to view and/or download it.](/images/when-things-go-wrong-survival-checklist.jpg?utm_source=what-to-do-when-things-go-wrong-a-survival-checklist&utm_medium=infographic&utm_campaign=resources) Print it out, send it to a friend, or share it around on your social networks!
 
 ### Step 1: Breathe; This Is What We Trained For
 
