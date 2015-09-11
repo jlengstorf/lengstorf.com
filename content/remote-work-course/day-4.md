@@ -14,56 +14,193 @@ images:
 hide_footer_bio: true
 
 ---
+
 {{< caption src="/images/earn-from-anywhere_header.jpg"
             align="aligncenter"
             alt="Earn from Anywhere Guide to Escaping the Cubicle" >}}
 {{< /caption >}}
 
+This lesson is different from days 1–3.
+
 So far, we've talked a lot about the theory of long-term travel: the [modern workplace is broken]({{< ref "remote-work-course/day-1.md" >}}); modern workers have [bad habits]({{< ref "remote-work-course/day-2.md" >}}); many of us tend to be [our own biggest obstacles]({{< ref "remote-work-course/day-3.md" >}}) to new experiences.
+
+This is the stuff that allows us to take control of our lives and do things that might seem "too big" — like packing a bag and exploring the world while making a living.
 
 But theory only gets us ready for the adventure *in theory*. When it's time to actually go, we have to move past the theory and lay out concrete steps we'll need to take.
 
-**Today's lesson is pretty dense, so be sure to bookmark it to use for reference** — it's too much to try and remember, and this stuff is really important.
+Today, we're going to focus on the practical aspects of traveling: what to pack, how to prepare, and other tips and tricks that make travel fun instead of a huge, stressful nightmare.
+
+**This lesson is pretty dense, so be sure to bookmark it to use for reference throughout your preparations** — it's too much to try and remember, and this stuff is really important.
 
 Here's what we'll be covering:
 
-* [**Preparation**]({{< ref "#preparation" >}})
-    - [Get Your Travel Gear]({{< ref "#travel-gear" >}})
-        + [Simplify your style to simplify your packing]({{< ref "#uniform" >}})
-        + [Get the right electronics for traveling]({{< ref "#electronics" >}})
-        + [Remember: you don't need much]({{< ref "#minimalism" >}})
+* [What to Pack for a Carry-On Lifestyle]({{< ref "#packing" >}})
+    - [Packing List: Clothing]({{< ref "#packing-clothing" >}})
+        + [The Clothing in My Carry-On Right Now]({{< ref "#packing-list-clothing" >}})
+        + [Why You May Want to Consider a Uniform]({{< ref "#packing-uniform" >}})
+    - [Packing List: Electronics]({{< ref "#packing-electronics" >}})
+        + [The Electronics in my Carry-On Right Now]({{< ref "#packing-list-electronics" >}})
+    - [Remember: You Don't Need Much]({{< ref "#packing-minimalism" >}})
+* Handling and Accessing Money
+    - Credit Cards
+    - Bank Accounts
+    - Use Apps to Send and Accept Money Free
+    - Stay Safe
+        + ATM Safety
+        + Don't Carry Everything at Once
+* Communication
+    - Keep a U.S. Phone Number
+    - Free International Calling
+    - Get a Local Phone Number
+    - Free International Texting and Picture Messaging
+* Booking Travel
+    - How to Find Long-Term Accommodations
+        + Airbnb
+        + Shop Locally
+    - How to Find Cheap International Flights
+        + Google Flights, Skyscanner, flexible dates
+        + Pay for Checked Baggage in Advance
+* Avoid Travel Day Hassles
+    - Understand How Visas Work
+        + Schengen Area
+        + Know When to Apply for Visas in Advance
+    - Be Ready for Customs
+        + Onward Ticket
+        + Proof of Financial Means
+        + Don't Be a Smartass
+* Taxes
+    - Talk to an Accountant
+    - Foreign Earned Income Exemption
+        + Save the Money Just in Case
+    - Self-Employment Tax
+    - Check on State Tax
+        + Move to a State Without Income Tax First
+    - Seriously: Talk to an Accountant
+* Insurance and General Ass-Covering
+    - Traveler's Insurance
+    - Coverage for Your Gear
+    - Emergency Bailout Fund
+    - Keep Important Documents Safe
+        + Keep a Copy in the Cloud
+        + Keep the Originals in a Safe Place
+    - Mail Forwarding
 
-This is different from the other lessons in that it's intended more to be a checklist than a single-sitting read. **Reference this guide throughout your preparations to save yourself a fair amount of headache.**
 
-## Be Prepared {#preparation}
+## What to Pack for a Carry-On Lifestyle {#packing}
 
-In this section, we'll be going over various things that will need to be in order *before* leaving: luggage, what to pack, how to organize money, and how to stay in touch.
+The biggest change between living in the same place and living in different cities around the world is in the way we have to look at our stuff.
 
-### Get Your Travel Gear {#travel-gear}
+Every month or two, we'll need to carry everything we own to our next destination. This often includes the odd flight of stairs in a metro station, crumbling cobblestone streets, and miles upon miles of airport corridors.
 
-The biggest difference for long-term travelers is that **we have to carry everything we own through an airport or train station every month or two.**
+It changes the relationship we have with physical objects. Instead of, "How much do I like this?" we ask, "Do I like this enough to carry it through JFK?"
 
-That means we need not only to pack light, but to ensure we have everything we need — and nothing we don't.
+In this section I'm going over my clothing and electronics. I'm leaving out the mundane stuff, like toiletries — just stick to the "only what I *really* need" rule and you're probably fine.
 
-#### Simplify your style to simplify your packing {#uniform}
+### The Packing List, Part I: What to Wear {#packing-clothing}
+
+A carry-on suitcase will carry about six days' worth of clothing.[^dude] This means we need to prune our wardrobes down to just the essentials.
+
+(For a woman's approach to packing, check out [Marisa's take on carry-on packing](https://medium.com/live-happy/oh-my-god-i-have-nothing-to-wear-dressing-for-extended-travel-60359781814d).)
+
+[^dude]:
+    I say this as a 5'10", 240lb dude. Your results may vary.
+
+The key to carry-on suitcase style is interoperability: each item of clothing should work with every other item in your bag. This way, you can ensure the maximum utility in each piece of clothing.[^dark]
+
+[^dark]:
+    You can also get dressed in the dark. Not that it's important — it's just possible.
+
+#### The Clothing in My Bag Right Now {#packing-list-clothing}
+
+Here's what I pack:
+
+{{% columns %}}
+- [American Apparel t-shirts (6)](http://amzn.to/1KcGKmq)
+- [AG pants (1 pair)](http://amzn.to/1ULdF7x)
+- [AG shorts (2 pair)](http://amzn.to/1KcGTqc)
+- [Diesel boxer briefs (6)](http://amzn.to/1NtofkJ)
+- [Timberland no-show socks (6)](http://amzn.to/1geGJXo)
+- [Nike Free 5.0 (1 pair)](http://amzn.to/1Ntoso2)
+- [Vans Authentic (1 pair)](http://amzn.to/1geHb7Z)
+- [Reef flip flops (1 pair)](http://amzn.to/1geHi3o)
+- [Bonobos woven belt (1)](http://bit.ly/1Q6hgfa)
+- [Jack Spade watches (2)](http://amzn.to/1geHOi1)
+- [Citizen EcoDrive watch (1)](http://amzn.to/1geHXSu)
+- [Salt glasses (1 pair)](https://www.saltoptics.com/products/walter-matteashbrown/frames/668)
+- [Ray-Ban New Wayfarer sunglasses (1 pair)](http://amzn.to/1geIsMs)
+- [Snapback cap from Willet Distillery (1)](http://willett-distillery.mybigcommerce.com/hats/)
+- [Shitty hat from a street stall (1)](https://instagram.com/p/542x9VzK8j/)
+- [Jack Spade cotton jacket (1)](http://www.jackspade.com/harrington-jacket/716453557274.html)
+- [By Robert James overcoat (1)](http://www.byrobertjames.com/collections/jackets)
+- [Giorgio Armani sport coat (1)](http://www.armani.com/us/emporioarmani/men/onlinestore/jackets)
+- [Adidas swim trunks (1 pair)](http://amzn.to/1ULgplw)
+- [Nike workout shorts (1 pair)](http://amzn.to/1geLq3x)
+{{% /columns %}}
+
+For a full write-up about what I've packed and why, read my [carry-on clothing packing list]({{< ref "blog/carry-on-clothing-packing-list.md" >}}) post.
+
+#### Consider Wearing a Uniform {#packing-uniform}
 
 One solution to the challenge of packing light is to simplify your wardrobe significantly.
 
-In my case, I found that [wearing a "uniform"]({{< ref "blog/travel-essentials-uniform.md" >}}) — black t-shirt, grey shorts/pants, black shoes — removed my need to pack a huge array of options. It also allows me to remain semi-fashionable without dedicating any energy to shopping or outfit choice.
+The best decision I made in preparation for my trip was to pick out a "uniform": a [basic outfit I wear every day]({{< ref "blog/travel-essentials-uniform.md" >}}).
 
-For a full list of the clothing I pack, see my [carry-on clothing checklist]({{< ref "blog/carry-on-clothing-packing-list.md" >}}).
+For me, this is a plain black t-shirt, dark pants or shorts, and casual shoes, plus basic accessories: a watch and a belt.
+
+I'm fashionable-ish, comfortable, and I never have to worry about whether I have something to wear: my uniform can be dressed up with a sport coat, or made incredibly casual with flip flops.
 
 **Further reading: [On Uniforms: Why I Wear the Same Outfit Every Day]({{< ref "blog/travel-essentials-uniform.md" >}})**
 
-#### Get the right electronics for traveling {#electronics}
+### The Packing List, Part II: Electronics {#packing-electronics}
+
+Similar to clothing, there's only so much extra space and weight you'll want to deal with for electronics. Sure, it's *possible* to get a custom [Pelican case](http://bit.ly/1MgUXp9) and lug around a ton of gear — but for me, there was more value in choosing only the things that *really* add value for my day-to-day life.
+
+#### The Electronics in My Bag Right Now {#packing-list-electronics}
+
+Here's what's in my bag right now:
+
+{{% columns %}}
+- [15" MacBook Pro](http://amzn.to/1VRGz8G)
+- [Unlocked iPhone 6](http://amzn.to/1VRGzVX)
+- [Amazon Kindle Paperwhite](http://amzn.to/1UHu7Lj)
+- [Bose Mini SoundLink](http://amzn.to/1UHuc1M)
+- [Apple earbuds](http://amzn.to/1M1YKUj)
+- [JBL Reflect Bluetooth headphones](http://amzn.to/1UH03j0)
+- [HDMI cable](http://amzn.to/1NtWetn)
+- [3.5mm male to male cable](http://amzn.to/1NtWkBf)
+- [AudioTechnica ATR2100-USB microphone](http://amzn.to/1gePPn1)
+- [Power Converter](http://amzn.to/1KcNy3y)
+- [Surge protector](http://amzn.to/1geQsNq)
+{{% /columns %}}
+
+For a full write-up about what I've packed and why, read my [carry-on electronics packing list]({{< ref "blog/carry-on-electronics-packing-list.md" >}}) post.
+
+### Remember: You Don't Need Much {#packing-minimalism}
+
+The temptation with travel is to bring a lot of stuff, "just in case".
+
+{{< caption src="/images/too-much-luggage.jpg"
+            align="alignright"
+            alt="don't pack too much stuff"
+            attr="Scarlette Begonia"
+            attrlink="http://anefforttoevolve.com/2015/02/15/got-baggage/" >}}
+  Nobody needs this much crap to travel.
+{{< /caption >}}
+
+Resist that urge. It's a trap that leads to sweating like a pig while dragging a hundred pounds of "just in case" up the out-of-service escalator in a Barcelona metro station.
+
+Most things we instinctively think to pack "just in case" go unused. And most of the stuff we wouldn't normally pack that we end up needing isn't part of that "just in case" inventory.
+
+So figure out what you'll actually use every day. If you find yourself needing something you didn't pack, you can *almost always* buy what you need in the city you're staying in — and usually you can rent or borrow it.[^leave-behind]
+
+[^leave-behind]:
+    We have purchased and left behind all sorts of fun things: spatulas, buckets, dish soap, umbrellas. We've also successfully remained alive without needing any of the miscellaneous shit that used to weigh down our bags before.
+
+**Further reading: [Do More with Less: Drop Dead Physical & Psychological Weight]({{< ref "blog/do-more-with-less.md" >}})**
+
+***
 
 
-
-- Packing list
-
-#### Remember: you don't need much {#minimalism}
-
-- Do more with less
 
 ### Avoid International Fees and Foreign Transaction Fees
 
