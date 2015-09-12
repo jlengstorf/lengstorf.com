@@ -7,6 +7,9 @@ seo_title: The No-Distractions Productivity Experiment Results and Stats
 slug: no-distractions-results
 description: A few days ago I planned an experiment in which I turned off email, the phone, and chat programs to focus on high-concentration work. These are the results.
 
+aliases:
+- /distractions-results/
+
 category:
 - remote-productivity
 
