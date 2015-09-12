@@ -60,7 +60,7 @@ When you decide to leave your lease behind and start traveling permanently, some
             align="aligncenter"
             alt="cheap Prague rental on Airbnb"
             attr="Airbnb"
-            attrlink="www.airbnb.com/c/jlengstorf?s=8" %}}
+            attrlink="https://www.airbnb.com/c/jlengstorf?s=8" %}}
   This [apartment in Prague](https://www.airbnb.com/rooms/4500253) costs less than $700/month — wifi and utilities included.
 {{% /caption %}}
 
