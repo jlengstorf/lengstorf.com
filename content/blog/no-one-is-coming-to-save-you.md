@@ -24,8 +24,7 @@ images:
 - /images/nate-green-jason-lengstorf_high-school-attitude.jpg
 - /images/jason-lengstorf-childhood.jpg
 
-videos:
-- https://www.facebook.com/jlengstorf/videos/vb.107496345986942/519589568110949/
+videos: []
 
 discussion_link: https://www.facebook.com/jlengstorf/posts/866629353406967
 ---
