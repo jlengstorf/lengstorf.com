@@ -5,7 +5,7 @@ draft: true
 
 title: "Take the Stress Out of Travel: Gear, Tools, and Guidelines"
 slug: take-the-stress-out-of-travel
-description: 
+description:
 
 images:
 - /images/jason-lengstorf.jpg
@@ -77,35 +77,41 @@ Today, we're going to focus on the practical aspects of traveling: what to pack,
 - [Keep Dates Flexible to Save the Most on Flights]({{< ref "#booking-flexible-dates" >}})
 {{% /columns %}}
 
-#### Avoid Travel Day Hassles
+#### [Avoid Travel Day Hassles]({{< ref "#avoid-hassles" >}})
 
-    - Understand How Visas Work
-        + Schengen Area
-        + Know When to Apply for Visas in Advance
-    - Be Ready for Customs
-        + Onward Ticket
-        + Proof of Financial Means
-        + Don't Be a Smartass
+{{% columns %}}
+- [Get Familiar with the Schengen Area]({{< ref "#avoid-hassles-schengen" >}})
+- [Check If You Need a Visa Before You Go]({{< ref "#avoid-hassles-visa" >}})
+- [Don't Get Worked Up About Security]({{< ref "#avoid-hassles-security" >}})
+- [Be Ready to Prove You're Planning to Leave]({{< ref "#avoid-hassles-onward-travel" >}})
+- [Be Ready to Prove You Can Afford Your Stay]({{< ref "#avoid-hassles-proof-of-income" >}})
+- [Don't Overshare with Customs]({{< ref "#avoid-hassles-overshare" >}})
+- {{% /columns %}}
 
-#### Taxes
+#### [Learn About Tax Breaks Available to Long-Term Travelers]({{< ref "#taxes" >}})
 
-    - Talk to an Accountant
-    - Foreign Earned Income Exemption
-        + Save the Money Just in Case
-    - Self-Employment Tax
-    - Check on State Tax
-        + Move to a State Without Income Tax First
-    - Seriously: Talk to an Accountant
+{{% columns %}}
+- [Get an Accountant]({{< ref "#taxes-accountant" >}})
+- [See If You Qualify for the Foreign Earned Income Exclusion (FEIE)]({{< ref "#taxes-feie" >}})
+- [The FEIE Does NOT Exclude You from Self-Employment Tax]({{< ref "#taxes-self-employment" >}})
+- [Save Your Tax Money, Just in Case]({{< ref "#taxes-savings" >}})
+- [Learn About Tax Requirements in Your State]({{< ref "#taxes-state" >}})
+- [Seriously: Talk to an Accountant]({{< ref "#taxes-accountant-freal" >}})
+{{% /columns %}}
 
-#### Insurance and General Ass-Covering
+#### [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})
 
-    - Traveler's Insurance
-    - Coverage for Your Gear
-    - Emergency Bailout Fund
-    - Keep Important Documents Safe
-        + Keep a Copy in the Cloud
-        + Keep the Originals in a Safe Place
-    - Mail Forwarding
+{{% columns %}}
+- [Get a Travel Health Insurance]({{< ref "#insurance-travel" >}})
+- [Consider a Supplemental Insurance Plan for Your Gear]({{< ref "#insurance-gear" >}})
+- [Keep an Emergency Bailout Fund]({{< ref "#insurance-bailout" >}})
+- [Keep Photos of Critical Documents in the Cloud]({{< ref "#insurance-cloud" >}})
+- [Back Up Files Using a Cloud Service]({{< ref "#insurance-backup" >}})
+- [Turn On Two-Factor Authentication for Your Accounts]({{< ref "#insurance-2fa" >}})
+- [Use a VPN While Browsing the Internet]({{< ref "#insurance-vpn" >}})
+- [Keep Original Documents Somewhere Safe]({{< ref "#insurance-original-documents" >}})
+- [Set Up Mail Forwarding, Not a P.O. Box]({{< ref "#insurance-mail-forwarding" >}})
+{{% /columns %}}
 
 
 ## What to Pack for a Carry-On Lifestyle {#packing}
@@ -117,6 +123,14 @@ Every month or two, we'll need to carry everything we own to our next destinatio
 It changes the relationship we have with physical objects. Instead of, "How much do I like this?" we ask, "Do I like this enough to carry it through JFK?"
 
 In this section I'm going over my clothing and electronics. I'm leaving out the mundane stuff, like toiletries — just stick to the "only what I *really* need" rule and you're probably fine.
+
+{{% columns %}}
+- [Packing List: Luggage and Storage]({{< ref "#packing-luggage" >}})
+- [Packing List: Clothing]({{< ref "#packing-clothing" >}})
+- [Why You May Want to Consider a Uniform]({{< ref "#packing-uniform" >}})
+- [Packing List: Electronics]({{< ref "#packing-electronics" >}})
+- [Remember: You Don't Need Much]({{< ref "#packing-minimalism" >}})
+{{% /columns %}}
 
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
@@ -262,11 +276,22 @@ When you leave the U.S., some of the ease of banking gets left behind. For examp
 
 So before you go, you'll want to make sure you can get to your money easily and — more importantly — without paying huge penalties for accessing your accounts outside the country.
 
+{{% columns %}}
+- [Make Sure You Have EMV-Capable Cards]({{< ref "#money-emv" >}})
+- [Learn About Foreign Transaction Fees]({{< ref "#money-extra fees" >}})
+- [Get Credit Cards Without Foreign Transaction Fees]({{< ref "#money-credit-cards" >}})
+- [Watch Out for Hidden Costs When Paying By Card]({{< ref "#money-hidden-costs" >}})
+- [Get Bank Accounts Without Foreign ATM Fees]({{< ref "#money-bank" >}})
+- [Be Aware of ATM Skimming and Protect Yourself]({{< ref "#money-atm-skimming" >}})
+- [Use Apps to Send and Receive Money Free]({{< ref "#money-apps" >}})
+- [Don't Carry All Your Cards at Once]({{< ref "#money-diversify" >}})
+{{% /columns %}}
+
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
 ### Make Sure You Have EMV-Capable Cards {#money-emv}
 
-Everywhere in the world except the United States[^chip-cards] is using [chip and PIN](https://en.wikipedia.org/wiki/EMV) (or EMV) for payments. This is because EMV is more secure and harder to forge. 
+Everywhere in the world except the United States[^chip-cards] is using [chip and PIN](https://en.wikipedia.org/wiki/EMV) (or EMV) for payments. This is because EMV is more secure and harder to forge.
 
 [^chip-cards]:
     This is changing. U.S. card issuers announced a plan that includes shifting liability for non-EMV purchases as of [October, 2015](http://www.emv-connection.com/emv-migration-driven-by-payment-brand-milestones/), which should result in a mass migration of U.S. businesses to the new system.
@@ -428,6 +453,13 @@ As we get ready to leave the country, it's a good idea to figure out how to keep
 
 While we're at it, we should figure out how to get a local number and access to wireless data.
 
+{{% columns %}}
+- [Keep a U.S. Phone Number that Works Internationally]({{< ref "#communication-us-number" >}})
+- [How to Get Free International Calling]({{< ref "#communication-international" >}})
+- [Get a Local Number for the Country You're In]({{< ref "#communication-local" >}})
+- [Use Free Video Calling Apps for More Personal Connection]({{< ref "#communication-video" >}})
+{{% /columns %}}
+
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
 ### Keep a U.S. Phone Number that Works Internationally {#communication-us-number}
@@ -517,6 +549,15 @@ With the enormous amount of information available about booking travel, it can f
 So part of becoming a full-time traveler means becoming a part-time travel agent.
 
 Fortunately, that's *way* easier than it sounds.
+
+{{% columns %}}
+- [Stay Long Enough to Really Enjoy Each Place (and Save Money)]({{< ref "#booking-stay-longer" >}})
+- [Use Airbnb to Book Long-Stay Accommodations Hassle-Free]({{< ref "#booking-airbnb" >}})
+- [Shop Locally for Cheaper Accommodations]({{< ref "#booking-local" >}})
+- [How to Book Cheap Flights Without Wasting Time]({{< ref "#booking-flights" >}})
+- [Pay for Checked Baggage in Advance]({{< ref "#booking-checked-bags" >}})
+- [Keep Dates Flexible to Save the Most on Flights]({{< ref "#booking-flexible-dates" >}})
+{{% /columns %}}
 
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
@@ -655,17 +696,20 @@ The takeaway from all this is to leverage your ability to work and live from whe
 
 ## Avoid Travel-Day Hassles {#avoid-hassles}
 
-    - Understand How Visas Work
-        + Schengen Area
-        + Know When to Apply for Visas in Advance
-    - Be Ready for Customs
-        + Onward Ticket
-        + Proof of Financial Means
-        + Don't Be a Smartass
-
 If you're planning to travel internationally — especially if you've never done it before — there are a few gotchas that can really fuck up your day.
 
 Fortunately, they're all pretty easy to avoid. Most of them don't even require preparation; just being aware of what can happen is typically enough to steer away from stressful travel-day scenarios.
+
+{{% columns %}}
+- [Get Familiar with the Schengen Area]({{< ref "#avoid-hassles-schengen" >}})
+- [Check If You Need a Visa Before You Go]({{< ref "#avoid-hassles-visa" >}})
+- [Don't Get Worked Up About Security]({{< ref "#avoid-hassles-security" >}})
+- [Be Ready to Prove You're Planning to Leave]({{< ref "#avoid-hassles-onward-travel" >}})
+- [Be Ready to Prove You Can Afford Your Stay]({{< ref "#avoid-hassles-proof-of-income" >}})
+- [Don't Overshare with Customs]({{< ref "#avoid-hassles-overshare" >}})
+- {{% /columns %}}
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
 ### Get Familiar with the Schengen Area {#avoid-hassles-schengen}
 
@@ -677,11 +721,14 @@ So I looked up Italy. Again: 90 days.
 
 But I had it wrong.
 
-Yes, you can stay for 90 days in Spain. And you can stay for 90 days in Italy. *However,* both Spain and Italy issue the same visa — so I couldn't go straight to Italy from Spain.
+Yes, you can stay for 90 days in Spain. And you can stay for 90 days in Italy. *However,* both Spain and Italy issue the same visa — so I couldn't go straight to Italy after three months in Spain.
 
 This was a serious wrench in my shit.
 
-After a little more research, I found out that in 1985, the Schengen Agreement was sign, which meant that, starting in the 90s, a tourist visa in most European Union countries would actually count for *all* EU countries.
+After a little more research, I learned that the Schengen Agreement created — among other things — a common visa for *all* EU countries.[^almost] This common visa applies to what's known as the [Schengen Area](http://bit.ly/1UUkS5m).
+
+[^almost]:
+    The Schengen Area consists of all EU countries *except* Ireland, the United Kingdom, Croatia, Bulgaria, Romania, and Cyprus. Norway, Iceland, Liechtenstein, and Switzerland are also part of the Schengen Area.<br><br>Ireland and the UK have opted out of common visas. The UK is really strict about their border, and Ireland didn't want to jeopardize its open border agreement with the UK. At least, this is what I was able to understand by skimming the Wikipedia article.<br><br>Croatia, Bulgaria, Romania, and Cyprus are all supposed to join the Schengen Area in the near future. They just have to prove their infrastructure meets EU standards first.
 
 This is really convenient when you're visiting, or when you live in the EU: you can move between Schengen Area countries the same way U.S. citizens move between states: no border control and no hassles.
 
@@ -690,113 +737,420 @@ But for the long-term traveler, this poses a challenge: after your 90-day visa i
 [^rolling]:
     The specifics of this are kind of weird to understand. The 90 days are figured on a rolling basis, so you can be present for 90 of the last 180 days. The easiest way to look at this is to go exactly 180 days backward from today, then add up all the days you were in an EU country. Is it fewer than 90 days total? You're allowed to be there.
 
+So if Europe is on your list, make sure your plans account for the Schengen visa. Depending on the time of year, you can jump over to Croatia or Romania for a less expensive option, or to the UK[^london] if you don't mind spending a little more on... everything.
 
+[^london]:
+    The UK is really only a good idea for long-term stay if you like being wet, cold, and broke.
 
-### Know which countries require you to apply for a visa
+Or, if you don't mind a longer flight, Asia has a lot to offer. I've found that splitting my time between southeast Asia and Europe has been ideal for me, both in terms of my happiness and my bank accounts.
 
-Thailand, for example.
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
 
-### Relax about security
+### Check If You Need a Visa Before You Go {#avoid-hassles-visa}
 
+As Americans, tourist visas are often just given to us when we show up. That stamp in your passport? That's a visa.
 
+But not all countries work that way. Thailand, for example, requires you to apply for a visa beforehand[^voa] if you want to stay longer than 30 days, and Turkey requires you to get a visa online before you fly.
 
-### Onward Ticket
+[^voa]:
+    You can get what's called a "visa on arrival", but it involves yet another line in the airport, and there's no guarantee you'll actually get one — it's a low-risk gamble, but when there's a 24-hour, three-connection flight involved, I'm not willing to leave *anything* to chance.
 
-https://flyonward.com
+These visas also cost money. They're usually cheap — $20 for a 90-day Turkish visa, $80 for a double-entry (180-day) Thai visa — and you'll save so much staying in the country[^thaifood] that it's absolutely worth paying.
 
-Customs agents have one job: keep people from entering the country and staying illegally. They need to be sure you're not going to overstay your visa and take work from the citizens of that country. That means they'll ask questions about how you support yourself, how much money you have in savings, and where you're going next. They're not being dicks; it's their job.
+[^thaifood]:
+    On Ko Samui in September, we had two orders of panang curry with pork, one order of fried rice with pork, and two bottled waters. It cost us ฿170 — that's less than $5 to feed two people. And those prices aren't abnormally cheap, either.
 
-### Be ready to show proof of income and/or savings
+Before you book your flight and apartment, figure out how visas work for the country you're visiting. A quick search for "tourist visa for ________" will usually do the trick.
 
-In addition to making sure you're actually going to leave, they might try to ensure you can afford your trip. Thailand, for example, requires that you have at least 10,000THB (just under $300) before they'll let you enter on a 30-day tourist visa.
+If you need to apply for a visa in person, figure out where a consulate or embassy for the country is. Plan on being there for at least three days, just in case the processing takes longer than expected. And check for holidays in both the country you're planning to visit *and* the country you're trying to get a visa to enter. You don't want to show up and find out they're closed.
 
-Be ready to show you bank account balance. This doesn't happen often (I've only had to do it once), but it's a possibility.
+I'm making this sound scary, but it's really not. Just read the requirements, jump through the hoops, and enjoy your 3–6-month visit.
 
-### Don't be a smart-ass to Customs agents
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
 
-I told a customs agent I was technically homeless. He was not amused. Sarcasm is not appreciated, and if you rub a customs agent the wrong way, sarcasm can result in you being held for extra questioning. Be polite, answer the questions truthfully, don't volunteer additional information, and get it over with quickly.
+### Don't Get Worked Up About Security {#avoid-hassles-security}
 
-### Try not to look homeless
+I struggle with inefficiency. Because of this, the security line is a special kind of hell.
 
+There's the this-is-my-first-airplane guy, who holds up the line for several minutes while he learns, item by item, that "remove everything from your pockets" means *everything*. Yes, even gum. Yes even your boarding pass. Yes, even... goddammit, dude, just turn 'em inside out!
 
-## Taxes
+And then there's the we-pack-by-stuffing-all-our-shit-into-tote-bags couple. He's unpacking his *entire* carry-on because the laptop is at the very bottom, and she's not sure which pocket the liquids are in. Also, is an iPad a laptop? Or can that stay in the bag?
 
-    - Talk to an Accountant
-    - Foreign Earned Income Exemption
-        + Save the Money Just in Case
-    - Self-Employment Tax
-    - Check on State Tax
-        + Move to a State Without Income Tax First
-    - Seriously: Talk to an Accountant
+Meanwhile, I've been holding my watch, belt, and shoes since the second switchback in the security line, and my bag is packed in such a way that my laptop and liquids are out within ten seconds of setting my bag in a bin.
 
-### Get an Accountant
+Marisa looks at me with concern, and reaches out to touch my arm with the same care and caution she'd use to disarm a bomb. "It's okay. We've got plenty of time before our flight," she reassures me.
+
+"I don't give a fuck about our flight. I give a fuck about these idiots not having the common courtesy to give a few seconds' forethought to how this might go," I spit at her. "I give a fuck that they're so solipsistic they don't even have the capacity to feel ashamed about it."
+
+So it goes: I let inexperienced or inconsiderate travelers get under my skin, and my stress response skyrockets, and minutes or hours or days of my life are lost in a self-inflicted rage; casualties of a war I can't help but wage on my body, using my endocrine system as a chemical weapon.
+
+Marisa's right, after all: it doesn't matter if the tourists in matching outfits empty their bags onto the floor, or if the first-timer has to three times before he gets everything out of his pockets. *It doesn't affect me.*
+
+And I need to show a little empathy. I've been these people before. And I still am, on occasion.
+
+In Costa Rica, I did my usual shoes-and-belt-and-electronics routine to get ready for security, and when I got to the front of the line, the security lady looked at me and said, "What are you doing? Put your shoes back on."
+
+So I tried to put my shoes on quickly, but I was definitely holding up the line.
+
+And I'm sure, somewhere behind me, a Costa Rican businessman's neck felt hot, and he checked his watch impatiently.
+
+*¡Odio estos pinches turistas!*
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
+
+### Be Ready to Prove You're Planning to Leave {#avoid-hassles-onward-travel}
+
+When we go through customs in a foreign country, it's the customs agent's job to make sure we're not going to do anything illegal while we're there.
+
+The big fear is illegal immigration: if I show up in London on a tourist visa, then take a job under the table and just... don't leave, I'm putting a strain on the British system. My illegal job means there's one less *legal* job; it means fewer taxes are paid; it means I'm probably renting a place illegally (again, fewer taxes).
+
+It's a legitimate concern to have, but it also makes long-term travel a red flag for customs agents.
+
+As part of ensuring you're not going to do anything untoward, some customs agents will ask for proof that you're planning to leave. They call this "proof of onward travel" — typically your flight out of the country.
+
+Usually, this isn't a problem; just make sure you have the email ready to show at customs if they ask.
+
+But if you're not sure when you're leaving yet, you probably won't have your flight booked. Which means you can't prove you're planning to leave. Which means — in extreme cases — you could be denied entry into the country.
+
+I've never personally run into this issue. I've only ever been asked for proof of onward travel in the United Kingdom, whose customs agents have a reputation for being hardasses.
+
+So this may not ever be an issue for you. However, if you're paranoid, you can "rent" an onward ticket using [FlyOnward](https://flyonward.com). In short, they work with a travel agency to book refundable tickets in your name, which are valid for 1–2 days. They're real flights, so the confirmation numbers check out, and the service is cheap: about $10 for a ticket.
+
+Now, I've never actually used the service, but if you're going to the UK and haven't figured out when you're leaving yet, it may be worth a try.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
+
+### Be Ready to Prove You Can Afford Your Stay {#avoid-hassles-proof-of-income}
+
+In addition to proving you're actually going to leave, you may be asked to show that you have enough money to afford your stay. After all, if you show up on a tourist visa with $10 in your pocket, no savings, and no return ticket, how the hell will you leave without illegally taking a job?
+
+The requirements are low in most places. Thailand, for example, requires that you have ฿10,000 (about US $280) for every 30 days you plan to stay. Somewhere like London may expect a higher sum, but I haven't been asked.
+
+It might feel like an invasion of privacy, but think of it more like a security deposit: if you're about to lend someone your $1,000 guitar, you want to be sure they've got $1,000 to replace it in case it gets destroyed, right? Same idea here.
+
+So be ready to show your bank account balance. This doesn't happen often (I've only had to do it once), but it's a possibility.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
+
+### Don't Overshare with Customs {#avoid-hassles-overshare}
+
+I once told a customs agent I was technically homeless.
+
+He was not amused.[^amused]
+
+[^amused]:
+    Honestly, he must have been a little amused, because otherwise there's no way in hell I'd have been allowed in the country.
+
+Remember the situation you're in: a customs agent can maek your life *really* hard for a day or two, so play along and be nice. If you rub the agent the wrong way, they might grill you a little harder, and if you slip up, you could find yourself held for extra questioning.
+
+Be polite. Be honest. But be *brief*.
+
+When you show up in a country and plan to be working, *but that work is technically being performed in another country*, you're not taking jobs from locals. When I work on a contract with a Canadian company that pays money into my U.S.-based bank account, I'm not stealing a job from a Thai citizen.
+
+But I *am* working while in Thailand.
+
+Does that violate the tourist visa? Honestly — it seems to depend who you ask. The location-independent workers of the world — the WFHers, the digital nomads, the remote workers — exist in an as-yet undefined legal space.[^change]
+
+[^change]:
+    I suspect this will change in the future. But for now, thanks to ambiguities in the way remote work is defined, workers like us seem to have fallen through the cracks. What we're doing is perfectly legal, as far as I can tell, and no one has refuted my claims with anything other than different interpretations of the same murky wording that led me to believe it was legal.<br><br>Since there aren't many people doing this, I doubt it's a high priority to clarify the language, but I expect we'll see it cleaned up within our lifetimes. So if you're planning to do this, do it now: who knows how long the big benefits (like tax breaks) will remain intact.
+
+My personal stance on this is that as long as I'm putting money into a local economy and taking nothing out, I'm a tourist.
+
+As far as the country I'm visiting is concerned, my money could just as well come from a trust fund, or a magic purse I won from a down-on-his-luck wizard; the point is that where I am has exactly *nothing* to do with how I make my living.
+
+I believe this is logically correct, but I also hold no illusions about legal decisions being based in logic, so I take an incognito approach: I am a tourist; I am here on holiday; I do not plan to take a job in the country; I plan to leave before my tourist visa expires.
+
+All of these statements are true. I leave out my internet-based business because global legislation hasn't caught up to the global economy. I don't want to engage government representatives in a rhetorical debate about where internet-based work "is" — so I keep my mouth shut and, if they probe about income, I show them my emergency fund to prove I can afford to be there.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
+
+## Learn About Tax Breaks Available to Long-Term Travelers {#taxes}
+
+When I first started researching long-term travel, taxes were the biggest, shiniest lure. I read somewhere that I wouldn't have to pay *any* taxes if I left the country for a year.
+
+Holy shit, right?
+
+Now, it turns out that whatever I was reading was utter bullshit, but there *are* some big tax breaks available. If you're planning to spend at least 11 months outside the U.S. on your travels, this section is for you.
+
+{{% columns %}}
+- [Get an Accountant]({{< ref "#taxes-accountant" >}})
+- [See If You Qualify for the Foreign Earned Income Exclusion (FEIE)]({{< ref "#taxes-feie" >}})
+- [The FEIE Does NOT Exclude You from Self-Employment Tax]({{< ref "#taxes-self-employment" >}})
+- [Save Your Tax Money, Just in Case]({{< ref "#taxes-savings" >}})
+- [Learn About Tax Requirements in Your State]({{< ref "#taxes-state" >}})
+- [Seriously: Talk to an Accountant]({{< ref "#taxes-accountant-freal" >}})
+{{% /columns %}}
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
+
+### Get an Accountant {#taxes-accountant}
 
 I'm not an accountant, and this isn't accounting advice. Double-check anything you read here with a professional.
 
-### FEIE
+Everything in this section is my own interpretation of tax law, which I ran by two accountants to make sure I'm not crazy. They both agreed that my interpretation is theoretically correct.
 
+Now, that being said, everyone's situation is unique, and things like property you own, which state you live in, and all sorts of details about your exact state of existence in the government's eyes can and probably will affect the accuracy of what I'm talking about here.
 
+So don't just take this at face value. Go to an accountant. Get real tax advice from a real tax professional. The internet is full of liars, and while I believe what I'm writing here, I may be one of them.
 
-### You still owe self-employment tax
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Learn About Tax Breaks]({{< ref "#taxes" >}})</small>
 
-This is Social Security and Medicare, which aren't optional. This ends up being around 15–16% of your income, and you *will* have to pay it.
+### See If You Qualify for the Foreign Earned Income Exclusion (FEIE) {#taxes-feie}
 
-I think you're supposed to send it in quarterly to avoid extra fees. Check with your accountant.
+This is the big break — if you qualify for it, you're able to exclude up to about $100,000 in income from federal income taxes.
 
-### Save the money you would owe in taxes, just in case
+That's almost $25,000 you *won't* pay in taxes if you qualify.
 
-Think of it like a year-end bonus if the FEIE claim is accepted. You don't want to be left holding a $25K tax bill if you claim the FEIE and find out you didn't actually qualify.
+This is all made legal under the [Foreign Earned Income Exclusion (FEIE)](http://1.usa.gov/1LBNgUS), which states that you qualify if:
 
-Be safe. Don't take chances with the IRS. Tax code is tricky, and you can never be sure you got it right.
+1. You are outside the U.S. for a minimum 330 days in a 12-month period
+2. You don't have a home in the U.S. (e.g. an apartment standing vacant, a home you own without renters)
 
-### Every state is different about taxes
+There's [more to it](http://1.usa.gov/1NHpqNu), but if you meet those requirements you're in good shape.
 
-Some states consider you a resident even if you're not in the state, which means you would owe taxes. Check with your accountant.
+What it all comes down to is where your "tax home" is, and whether or not your income is considered "foreign earned".
 
-### If you can, move to a state without income tax first
+The tax home is pretty self-explanatory:
 
-If you can become a resident of a state that doesn't have income tax, do it.
+> If you have neither a regular or main place of business nor a place where you regularly live, you are considered an itinerant and your tax home is wherever you work. <small>Excerpt from ["Tax Home in a Foreign Country"](http://1.usa.gov/1LBNPhF)</small>
 
-- Get a list of all states without income tax
+As for foreign-earned income, the language isn't crystal clear, but it leans in favor of remote workers qualifying:
 
-### Seriously: Talk to an Accountant
+> Foreign earned income is income you receive for performing personal services in a foreign country. [...] For example, income you receive for work done in France is income from a foreign source even if the income is paid directly to your bank account in the United States and your employer is located in New York City. <small>Excerpt from ["What Is Foreign Earned Income"](http://1.usa.gov/1LBNUln)</small>
+
+So even if you're paid by a U.S. company into a U.S. bank account, the fact you're physically present in another country seems to qualify you for the exemption.
+
+I checked my interpretation with two accountants, and both agreed that I'm interpreting the law correctly, and the exemption applies to remote workers.
+
+I'll have to wait until my taxes are filed and accepted before I'm fully convinced, but for now, I'm cautiously optimistic.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Learn About Tax Breaks]({{< ref "#taxes" >}})</small>
+
+### The FEIE Does NOT Exclude You from Self-Employment Tax {#taxes-self-employment}
+
+If you're an independent contractor, or if you own your business, keep in mind that the FEIE doesn't get you out of *all* taxes — just *income* tax.
+
+So you still owe [self-employment tax](http://1.usa.gov/1LBOEXD) (which covers Social Security and Medicare) optional. This is 15.3% of your income,[^irs] and you *will* have to pay it.
+
+[^irs]:
+    15.3% is the 2014 figure. I can't find any official mention of what the 2015 rate will be as of September 2015.
+
+You only pay this tax on the first $117,000 you make. I think you're supposed to send it in quarterly to avoid extra fees, but I'm not 100% sure on this. Check with your accountant.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Learn About Tax Breaks]({{< ref "#taxes" >}})</small>
+
+### Save Your Tax Money, Just in Case {#taxes-savings}
+
+I'm not a worrier. No one I know would describe me by saying, "Well, Jason's the kind of guy who worries a lot." Because I don't.
+
+But when it comes to large amounts of money, I'm a little gun-shy.
+
+I learned this the hard way: when I first started freelancing, I didn't have a good concept of steady cashflow, so when I landed my first large job, I didn't think to save it for hard times. What I *did* think about was impressing my new girlfriend, so I booked a trip to Hawaii that included a swanky hotel room and convertible rental.
+
+Later, in the depths of a dry spell, I realized that the "feast or famine" mythos that's handed down from freelancer to freelancer is mostly self-inflicted.
+
+So now, where there's up to $25K on the line, I'm not going to book any expensive trips using my tax savings.
+
+Instead, I'm keeping it in an interest-bearing account that I don't touch except to put more money in. I keep 31% of my earnings in the account — which I'm actually nervous is a bit low.
+
+I look at it this way: if something unexpected comes up and I end up back in the U.S. before December 31, 2015, my FEIE claim may not work out. And if it doesn't work out, I'm going to owe my full income taxes — which, if I hit the max, means I'll need to come up with $25,000.
+
+If that happens, I do *not* want to be stuck scrambling for jobs to dig myself out of that hole. And I certainly don't want to take out a loan to pay my taxes.
+
+So instead, the money will sit and collect interest until I'm sure that no one else can lay claim to it.
+
+I'd recommend you do the same. Think of it like building in a year-end bonus when your FEIE claim is accepted.
+
+Be safe. Don't take chances with the IRS. Tax code is tricky, and you can never be sure you got it right until you get confirmation from the IRS.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Learn About Tax Breaks]({{< ref "#taxes" >}})</small>
+
+### Learn About Tax Requirements in Your State {#taxes-state}
+
+Depending on which state you're currently calling home, you may have some additional hoops to jump through tax-wise.
+
+Even if your FEIE claim goes through, some states may still expect income taxes. The language is confusing, and the two accountants I talked to were both a little apprehensive about the situation.
+
+Oregon, where I lived for most of 2014, has a policy that effectively claims that you "live" in Oregon until you establish a permanent residence somewhere else. Which puts me in a weird place, because I technically don't have a permanent residence.
+
+So even with zero days spent in Oregon during 2015, they could potentially try to tax me as an Oregon resident.
+
+This didn't sit well with me — it seems like they're playing dirty pool.
+
+So instead, I moved in with my parents.
+
+My parents live in Washington. So I brought them my box of legal documents I was hoping they'd keep safe for me. Then I got a Washington driver's license, registered to vote in Washington, and updated everything I have to my Washington address.
+
+Logically, this all makes sense: if I'm going to be shipped back to the U.S. for any reason, I'd prefer that I showed up at my parents' house rather than at the apartment I no longer rent in Portland.
+
+I'm also filing a partial-year tax return for Washington and Oregon, to let Oregon know I have *for sure* moved out of the state permanently.
+
+So check with your accountant. Figure out how state taxes work where you live. And if you're in a state where they'll try to tax you even if you definitely don't live there or plan to return, see if you can become a resident of a [state that doesn't have income tax](http://intuit.me/1LBRJqA) before you leave.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Learn About Tax Breaks]({{< ref "#taxes" >}})</small>
+
+### Seriously: Talk to an Accountant {#taxes-accountant-freal}
 
 This money stuff is complex and confusing. Don't leave it up to chance. Go talk to an accountant, and give some serious thought to letting a professional handle it on your behalf.
 
+Remember: I'm just some guy on the internet, and I have no professional qualifications to tell you how to manage your taxes. **DO NOT use any of this information without clearing it with a tax professional first.**
 
-## Insurance and General Ass-Covering
-
-    - Traveler's Health Insurance
-    - Coverage for Your Gear
-    - Emergency Bailout Fund
-    - Keep Important Documents Safe
-        + Keep a Copy in the Cloud
-        + Keep the Originals in a Safe Place
-    - Mail Forwarding
-
-### Consider a supplemental insurance plan for your gear
-
-This may not be necessary — I prefer to just keep a cash reserve rather than paying a monthly fee. But that all depends on how much your gear is worth in sum.
-
-### Gear Coverage
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Learn About Tax Breaks]({{< ref "#taxes" >}})</small>
 
 
+## Look into Insurance and General Ass-Covering {#insurance}
 
-### Emergency Bailout Fund
+Just like when you're living in one place, it's a good idea to have a few safety measures in place. Sure, you can live by the seat of your pants, but when your roof starts to leak (or your luggage disappears), it's nice to know you're not *entirely* up a creek.
 
+So this section goes over some travel-specific areas of insurance, safety nets, and general ass-covering. All stuff that you'll *hopefully* never need, but you'll be glad to have in the unlikely event you do.
 
+{{% columns %}}
+- [Get a Travel Health Insurance]({{< ref "#insurance-travel" >}})
+- [Consider a Supplemental Insurance Plan for Your Gear]({{< ref "#insurance-gear" >}})
+- [Keep an Emergency Bailout Fund]({{< ref "#insurance-bailout" >}})
+- [Keep Photos of Critical Documents in the Cloud]({{< ref "#insurance-cloud" >}})
+- [Back Up Files Using a Cloud Service]({{< ref "#insurance-backup" >}})
+- [Turn On Two-Factor Authentication for Your Accounts]({{< ref "#insurance-2fa" >}})
+- [Use a VPN While Browsing the Internet]({{< ref "#insurance-vpn" >}})
+- [Keep Original Documents Somewhere Safe]({{< ref "#insurance-original-documents" >}})
+- [Set Up Mail Forwarding, Not a P.O. Box]({{< ref "#insurance-mail-forwarding" >}})
+{{% /columns %}}
 
-### Keep photos of critical documents in the cloud
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
-Use Dropbox, Google Drive, your email — anything that allows you to get to those docs even if everything you own is stolen.
+### Get a Travel Health Insurance {#insurance-travel}
 
-### Keep original documents somewhere safe
+A travel health insurance policy is important, because it covers a lot of things that a standard policy typically doesn't. For example, medical evacuation isn't something you'll see on a standard insurance policay — but if you end up pretty sick in a developing country, you'll want to be evacuated.
 
-Documents you don't need — birth certificate, Social Security card, etc. — shouldn't be kept in your luggage. Put them in a lockbox at a bank, in your parents' safe, or with your lawyer. If someone steals your passport, it's best that they don't also have all of your other ID documents as well.
+Another, albeit more grisly, benefit is the repatriation of remains. If the worst happens, you don't want your family to end up spending a fortune trying to get you back home.
 
-### Mail Forwarding
+There are several options for travel health insurance. I ended up using [GeoBlue](http://bit.ly/1FTpbXJ) because I liked the benefits-to-cost comparison,[^health] and it's in the Blue Cross Blue Shield network.
 
-You'll need a "home address" sometimes (not a P.O. box), so make sure you have a non-P.O. address for mail.
+[^health]:
+    Honestly, I almost never go to the doctor. I've been to a walk-in clinic a couple times in the last four years. Aside from that, I went to the emergency room once when I was 99% sure I was going to die from food poisoning; the doctor told me — I'm paraphrasing here — to rub some dirt on it and quit whining, then sent me a bill for $1,400.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Consider a Supplemental Insurance Plan for Your Gear {#insurance-gear}
+
+Something I looked into before leaving was a plan to cover my valuables: my laptop, phone, and so on.
+
+This turned out to be pretty tricky — every quote I got back was insanely expensive for what it would cover.
+
+So in my case, I decided to skip insurance on my gear. Instead, I set aside an all-my-shit-got-stolen fund, which will replace everything I absolutely need in order to keep going.
+
+Now, this makes sense for me, because replacing my essentials — a laptop, a phone, and some clothing — would cost me about $3,000 tops. So if you're traveling with $30K in video equipment, an insurance policy is probably worth researching.
+
+But if you're like me, rolling with nothing more valuable than a MacBook Pro, a cash reserve may hold its value better than a supplemental insurance plan.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Keep an Emergency Bailout Fund {#insurance-bailout}
+
+I'm a firm believer in [setting yourself on fire]({{< ref "blog/set-yourself-on-fire.md" >}}). I think setting yourself on a do-or-die course is a great way to make sure you follow through on a commitment.
+
+However, I'm also not about to put myself at risk of running out of money in Cambodia with no way to get home and no legal way of remaining in the country.
+
+So I've put aside an emergency bailout fund. It's a few grand, which I look at as my emergency parachute. If I have to touch that, it's time to go home. If I'm going to go broke, I want to make sure I do it in a country where I can start applying for jobs without fear of deportation.
+
+The bailout fund will ideally cover a flight home and a week or two of accommodations.[^emergency-fund]
+
+[^emergency-fund]:
+    This is not to be crossed up with a standard emergency fund, which gives you operating capital for a few months. The bailout fund is only intended to keep you out of a situation that could turn legally ugly, like going broke in a country where you can't legally work.
+
+If you ignore everything else in this section, *do this*. Don't leave without a bailout fund in place.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Keep Photos of Critical Documents in the Cloud {#insurance-cloud}
+
+You never want to be without your ID documents. The problem with physical documents, though, is that they can be lost, stolen, or destroyed.
+
+So keep a secure copy of your documents somewhere in the cloud, where you can get to them on any computer with internet access. Use Dropbox, Google Drive, your email — anything that allows you to get to those docs even if everything you own is stolen.
+
+What I'm currently using is [1Password](http://bit.ly/1Pbi7eg), which is fantastic for securely managing passwords,[^spy-movie] credit card information, bank accounts, ID documents, and anything else you want to keep encrypted. I have it on both my laptop and my phone, and it syncs with Dropbox.
+
+[^spy-movie]:
+    Tools like 1Password have ruined the spy movie genre for future generations:<br><br>The hero is tied to a chair. The villain weilds some horrible instrument of pain. In an ominously accented growl, he demands, "Tell me ze password, Mr. Bond."<br><br>And the hero will say, "I can't. It was randomly generated by my password manager."<br><br>*[sickening sound of something awful happening, followed by tortured cries]*<br><br>"What do you expect me to do," the hero manages to retort through gritted teeth, "take a wild guess at a randomly generated password with 128 bits of entropy?!"<br><br>"No, Mr. Bond. I expect you to die."
+
+In many cases, I've found my passport number — not the passport itself — is all anyone is after, which saves me the hassle of carrying my passport around all the time. Since I've got my passport info encrypted in my phone, I can just pull it up quickly.
+
+In addition the 1Password storage, I also keep a scan of my passport. I think I have this out of sheer paranoia, honestly, but I figure it's a good thing to have for disaster scenarios.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Back Up Files Using a Cloud Service {#insurance-backup}
+
+Sometimes shit happens. Once I dumped an entire cup of coffee into the keyboard of my laptop, killing it instantly. Another time I dropped my phone with surgical precision to land screen-down on a pointy rock, also killing it instantly. Another time I was so worried about dropping my (new) phone in the toilet that I set it on the sink, where it fell in, got wet, and was killed instantly.
+
+In each of those cases, I stood to lose important things: my laptop has all of my work files on it; my phone has contact information, photos, messages, and music.
+
+But I back up all my files to the cloud (automatically), so in all three of the above cases, I was only out the device, not the data.
+
+Wrecking a laptop sucks — it's a really stupid way to spend money — but losing the data would have threatened my career. My clients' files all would have needed to be rebuilt; that's not time I get to bill for. So I lose months of work, and have to make it all up — without falling behind in the process. It's just not tenable as a remote worker.
+
+For that reason, it's *critical* to install some kind of automated cloud backup. I prefer [Dropbox](https://db.tt/gPmxlbE) because it's incredibly easy and reasonably priced, but there are multiple options out there, including [Google Drive](http://bit.ly/1NCtxsx) and [iCloud](http://apple.co/1PbkZYz).
+
+If you're concerned about privacy, there are options to [beef up security on cloud storage](http://bit.ly/1PbnYQJ).
+
+Once you set this up, your files will be automatically synced up to the cloud. This has the added benefit of allowing you to edit a document on your phone and have those edits immediately and automatically show up on your laptop.
+
+It's an hour or so of hassle to set it up, and then you're just... done. And you don't have to worry about it again.
+
+When I dumped coffee on my laptop, I swore loudly, went to Best Buy, bought a new laptop, installed Dropbox, and I was back up and running by the end of the day. Instead of days, weeks, or months of lost work, I was only out a few hours.
+
+Cloud backups. Get 'em.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Turn On Two-Factor Authentication for Your Accounts {#insurance-2fa}
+
+If you've never heard of [two-factor authentication](http://bit.ly/1V21JE2) before, don't worry. You've probably already used it. You know how sometimes when you log into your bank or social accounts, they'll text you an authorization code? That's two-factor authentication.
+
+The reason it's important is because while you're traveling, you never know which open wifi network has some shitbag connected that's eavesdropping on network traffic. It's really hard to be sure that someone hasn't gotten hold of your information.
+
+However, it's pretty tough for someone to steal both your phone *and* all your passwords. So using two-factor authentication just adds an additional layer of hassle for would-be data thieves, which is typically enough to discourage them. Why bother with two-factor auth when you can go after the people who haven't turned it on instead?
+
+Time-wise, it's a minor inconvenience: most apps will use Google Authenticator, which means you enter your password, then check the app for a six-digit code to confirm you have your device with you. Other services will text you or call you — if you use your Google Voice number as the confirmation number, you can verify those services anywhere in the world.
+
+Check your accounts — especially your email, social, and bank accounts — and turn on two-factor authentication in the settings. If you're not sure how, a quick Google search or help chat will get you pointed in the right direction.
+
+This is a good idea whether or not you're traveling, so take the time to set it up today. These days, letting someone take over your email account is probably more destructive than letting them have your social security number — they can reset all your passwords, lock you out of all your accounts, and generally wreak utter havoc on your on- and offline existence. Don't take the chance.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Use a VPN While Browsing the Internet {#insurance-vpn}
+
+A VPN, or *virtual private network*, is a way to encrypt all your information that's sent through the internet. In short, it makes sure that if you're on an open wifi network, someone with sinister intentions can't intercept the things you're sending and receiving from your browser.
+
+The reason most people get a VPN is to work around geographical restrictions on sites like Netflix, but they're worth much more than that.
+
+I use [TunnelBear](http://bit.ly/1V22vRf) because it's cheap and really easy to use on both my laptop and phone. Plus they have all sorts of bear animations, and I like bears.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Keep Original Documents Somewhere Safe {#insurance-original-documents}
+
+Documents you don't need — birth certificate, Social Security card, etc. — shouldn't be kept in your luggage. Put them in a lockbox at a bank, in a loved one's safe, or with your lawyer or accountant for safekeeping.
+
+If someone steals your passport, it's best that they don't also have all of your other ID documents as well.
+
+Outside the U.S., most ID documents won't help you much anyways, so don't take the risk of carrying your entire identity paper trail in one bag.
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
+### Set Up Mail Forwarding, Not a P.O. Box {#insurance-mail-forwarding}
+
+For some services, like bank accounts, you can't use a P.O. box. So just setting up a P.O. box before you leave may put you in a tough spot later on.
+
+You can easily work around that, though, by setting up a mail forwarding service.
+
+I found a local place in Washington that offered a "virtual mailbox" service, which essentially means my mail goes to them, and they forward it wherever I tell them to. For now, I forward my mail to my parents, which is fine because I've received about one piece of mail every three months that actually requires any action.
+
+If you don't want to burden your family and friends, there are companies that do this for you, including scanning mail, shredding items, and other mail-related tasks. I haven't used them myself, but some of the popular choices are [Traveling Mailbox](http://bit.ly/1V23yRa), [Mailbox Forwarding](http://bit.ly/1V23C3F), and [Earth Class Mail](http://bit.ly/1V23D7H).
+
+<small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})</small>
+
 
 ## What's Next?
 
@@ -804,7 +1158,7 @@ You're now fully equipped, both emotionally and practically, to go out and start
 
 Tomorrow, I've got one last piece of advice — and I think this is the most important one — to help you keep the ball rolling.
 
-## Disclaimer
+#### Disclaimer
 
 Bear in mind that the items and strategies laid out in this email are what I use — this is not the *only* way, or necessarily the "right" way; this is what worked for me. Use your best judgment, consult professionals where applicable, and feel free to [get in touch]({{< ref "contact.md" >}}) with questions.
 
