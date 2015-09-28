@@ -24,9 +24,9 @@ This lesson is different from days 1–3.
 
 So far, we've talked a lot about the theory of long-term travel: the [modern workplace is broken]({{< ref "remote-work-course/day-1.md" >}}); modern workers have [bad habits]({{< ref "remote-work-course/day-2.md" >}}); many of us tend to be [our own biggest obstacles]({{< ref "remote-work-course/day-3.md" >}}) to new experiences.
 
-This is the stuff that allows us to take control of our lives and do things that might seem "too big" — like packing a bag and exploring the world while making a living.
+Days 1–3 cover strategies and mindsets that allow us to take control of our lives and do things that might otherwise seem "too big" — like setting off to explore the world while making a living.
 
-But theory only gets us ready for the adventure *in theory*. When it's time to actually go, we have to move past the theory and lay out concrete steps we'll need to take.
+But theory only gets us ready for the adventure *in theory*. When it's time to actually go, we have to move past theory and lay out the concrete steps we'll need to take.
 
 Today, we're going to focus on the practical aspects of traveling: what to pack, how to prepare, and other tips and tricks that make travel fun instead of a huge, stressful nightmare.
 
@@ -86,9 +86,9 @@ Today, we're going to focus on the practical aspects of traveling: what to pack,
 - [Be Ready to Prove You're Planning to Leave]({{< ref "#avoid-hassles-onward-travel" >}})
 - [Be Ready to Prove You Can Afford Your Stay]({{< ref "#avoid-hassles-proof-of-income" >}})
 - [Don't Overshare with Customs]({{< ref "#avoid-hassles-overshare" >}})
-- {{% /columns %}}
+{{% /columns %}}
 
-#### [Learn About Tax Breaks Available to Long-Term Travelers]({{< ref "#taxes" >}})
+#### [Learn About Tax Breaks for Long-Term Travelers]({{< ref "#taxes" >}})
 
 {{% columns %}}
 - [Get an Accountant]({{< ref "#taxes-accountant" >}})
@@ -102,7 +102,7 @@ Today, we're going to focus on the practical aspects of traveling: what to pack,
 #### [Look into Insurance and General Ass-Covering]({{< ref "#insurance" >}})
 
 {{% columns %}}
-- [Get a Travel Health Insurance]({{< ref "#insurance-travel" >}})
+- [Get Travel Health Insurance]({{< ref "#insurance-travel" >}})
 - [Consider a Supplemental Insurance Plan for Your Gear]({{< ref "#insurance-gear" >}})
 - [Keep an Emergency Bailout Fund]({{< ref "#insurance-bailout" >}})
 - [Keep Photos of Critical Documents in the Cloud]({{< ref "#insurance-cloud" >}})
@@ -122,7 +122,10 @@ Every month or two, we'll need to carry everything we own to our next destinatio
 
 It changes the relationship we have with physical objects. Instead of, "How much do I like this?" we ask, "Do I like this enough to carry it through JFK?"
 
-In this section I'm going over my clothing and electronics. I'm leaving out the mundane stuff, like toiletries — just stick to the "only what I *really* need" rule and you're probably fine.
+In this section I'm going over my clothing and electronics. I'm leaving out the mundane stuff, like toiletries — just stick to the "only what I *really* need" rule[^one-quart] and you're probably fine.
+
+[^one-quart]:
+    Also, remember you only get a single one-quart bag or they'll take it away at security.
 
 {{% columns %}}
 - [Packing List: Luggage and Storage]({{< ref "#packing-luggage" >}})
@@ -296,7 +299,7 @@ Everywhere in the world except the United States[^chip-cards] is using [chip and
 [^chip-cards]:
     This is changing. U.S. card issuers announced a plan that includes shifting liability for non-EMV purchases as of [October, 2015](http://www.emv-connection.com/emv-migration-driven-by-payment-brand-milestones/), which should result in a mass migration of U.S. businesses to the new system.
 
-So the ol' swipe-and-sign method is unwieldy abroad. Many businesses won't be familiar with non-chip cards, and you may find yourself trying to explain how swiping works across dual barriers of culture and language, which... just call your credit and debit card issuers and ask for chip cards. Trust me.
+So the ol' swipe-and-sign method is unwieldy abroad. Some ATMs won't accept cards without chips. Many businesses won't be familiar with non-chip cards, and you may find yourself trying to explain how swiping works across dual barriers of culture and language, which... just call your credit and debit card issuers and ask for chip cards. Trust me.
 
 Most issuers are already sending chip cards, so if you call and ask you should have a replacement card[^replacements] within a week or two.
 
@@ -396,6 +399,7 @@ You can prevent this with a few simple precautions:
 2. Jiggle the card reader. If it feels loose, don't use the ATM. Better safe than sorry.
 3. Look for anything weird near the ATM, like a plastic container full of flyers. If you see one, check the sides and bottom for a camera.
 4. Cover your hand while you enter your PIN. That way a camera can't see the PIN anyways.
+5. Use ATMs that are on more heavily trafficked streets. The ATMs on little side roads don't have very much supervision.
 
 There's no reason to be paranoid — this happens in the U.S., too — but be aware that it exists. Keep an eye on your accounts[^mint] to see if anything you don't recognize comes out, and set sane daily withdrawal limits ($500 or less from ATMs, for example) on your cards.
 
@@ -425,7 +429,7 @@ Some of the most popular are:
 - [Snapchat Snapcash](https://support.snapchat.com/ca/snapcash)
 {{% /columns %}}
 
-Another advantage of these apps is paying friends back home to help out with something. I had a friend handle on my behalf back in the States, and with Cash I was able to pay him back instantly from Croatia — no dealing with wire transfers or figuring out how to get a check sent internationally.
+Another advantage of these apps is paying friends back home to help out with something. I had a friend handle something on my behalf back in the States, and with Cash I was able to pay him back instantly from Croatia — no dealing with wire transfers or figuring out how to get a check sent internationally.
 
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Handling and Accessing Money]({{< ref "#money" >}})</small>
 
@@ -670,7 +674,7 @@ Becoming location independent is all about freedom. An excellent use of your fre
 
 Take advantage of the Google Flights calendar view to see if there's a big fluctuation in price, and make sure you're not paying $500 for a flight on Friday that could be $200 for a flight on Monday.
 
-The same applies to certain cities. Many places have "on" or "high" seasons, where tourism peaks and prices for just about everything spike. Sometimes, the high season makes a lot of sense: the lavender fields in Provence only bloom from June to August.
+The same applies to certain cities. Many places have "on" or "high" seasons, where tourism peaks and prices for just about everything spike. Sometimes, the high season makes a lot of sense: the lavender fields in Provence only bloom in August.
 
 Other times, though, high season is just when the tourists show up.
 
@@ -707,7 +711,7 @@ Fortunately, they're all pretty easy to avoid. Most of them don't even require p
 - [Be Ready to Prove You're Planning to Leave]({{< ref "#avoid-hassles-onward-travel" >}})
 - [Be Ready to Prove You Can Afford Your Stay]({{< ref "#avoid-hassles-proof-of-income" >}})
 - [Don't Overshare with Customs]({{< ref "#avoid-hassles-overshare" >}})
-- {{% /columns %}}
+{{% /columns %}}
 
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
@@ -735,7 +739,7 @@ This is really convenient when you're visiting, or when you live in the EU: you 
 But for the long-term traveler, this poses a challenge: after your 90-day visa is up, you need to stay out of *all* Schengen Area countries for a 90-day period before you can enter again.[^rolling]
 
 [^rolling]:
-    The specifics of this are kind of weird to understand. The 90 days are figured on a rolling basis, so you can be present for 90 of the last 180 days. The easiest way to look at this is to go exactly 180 days backward from today, then add up all the days you were in an EU country. Is it fewer than 90 days total? You're allowed to be there.
+    The specifics of this are kind of weird to understand. The 90 days are figured on a rolling basis, so you can be present for 90 of the last 180 days. The easiest way to look at this is to go exactly 180 days backward from today, then add up all the days you were in an EU country. Is it fewer than 90 days total? [You're allowed to be there.](http://bit.ly/1UUkofy)
 
 So if Europe is on your list, make sure your plans account for the Schengen visa. Depending on the time of year, you can jump over to Croatia or Romania for a less expensive option, or to the UK[^london] if you don't mind spending a little more on... everything.
 
@@ -764,13 +768,13 @@ Before you book your flight and apartment, figure out how visas work for the cou
 
 If you need to apply for a visa in person, figure out where a consulate or embassy for the country is. Plan on being there for at least three days, just in case the processing takes longer than expected. And check for holidays in both the country you're planning to visit *and* the country you're trying to get a visa to enter. You don't want to show up and find out they're closed.
 
-I'm making this sound scary, but it's really not. Just read the requirements, jump through the hoops, and enjoy your 3–6-month visit.
+I'm making this sound scary, but it's really not. Just read the requirements, jump through the hoops, and enjoy your 3–6 month visit.
 
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
 
 ### Don't Get Worked Up About Security {#avoid-hassles-security}
 
-I struggle with inefficiency. Because of this, the security line is a special kind of hell.
+I can't handle inefficiency; it makes me crazy. Because of this, the security line is a special kind of hell.
 
 There's the this-is-my-first-airplane guy, who holds up the line for several minutes while he learns, item by item, that "remove everything from your pockets" means *everything*. Yes, even gum. Yes even your boarding pass. Yes, even... goddammit, dude, just turn 'em inside out!
 
@@ -814,9 +818,7 @@ But if you're not sure when you're leaving yet, you probably won't have your fli
 
 I've never personally run into this issue. I've only ever been asked for proof of onward travel in the United Kingdom, whose customs agents have a reputation for being hardasses.
 
-So this may not ever be an issue for you. However, if you're paranoid, you can "rent" an onward ticket using [FlyOnward](https://flyonward.com). In short, they work with a travel agency to book refundable tickets in your name, which are valid for 1–2 days. They're real flights, so the confirmation numbers check out, and the service is cheap: about $10 for a ticket.
-
-Now, I've never actually used the service, but if you're going to the UK and haven't figured out when you're leaving yet, it may be worth a try.
+So this may not ever be an issue for you. But if you're worried, make sure you've got a valid exit plan.
 
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}}) | [Avoid Travel-Day Hassles]({{< ref "#avoid-hassles" >}})</small>
 
@@ -839,15 +841,15 @@ I once told a customs agent I was technically homeless.
 He was not amused.[^amused]
 
 [^amused]:
-    Honestly, he must have been a little amused, because otherwise there's no way in hell I'd have been allowed in the country.
+    Honestly, he must have been a little amused, because otherwise there's no way in hell I'd have been allowed in the country. He did, however, tell me to "never, *ever* say that to a customs agent again."
 
 Remember the situation you're in: a customs agent can maek your life *really* hard for a day or two, so play along and be nice. If you rub the agent the wrong way, they might grill you a little harder, and if you slip up, you could find yourself held for extra questioning.
 
 Be polite. Be honest. But be *brief*.
 
-When you show up in a country and plan to be working, *but that work is technically being performed in another country*, you're not taking jobs from locals. When I work on a contract with a Canadian company that pays money into my U.S.-based bank account, I'm not stealing a job from a Thai citizen.
+When you show up in a country and plan to be working, *but that work is technically being performed in another country*, you're not taking jobs from locals. When I work on a contract with a Canadian company that pays money into my U.S.-based bank account, I'm not stealing a job from a Spanish citizen.
 
-But I *am* working while in Thailand.
+But I *am* working while in Spain.
 
 Does that violate the tourist visa? Honestly — it seems to depend who you ask. The location-independent workers of the world — the WFHers, the digital nomads, the remote workers — exist in an as-yet undefined legal space.[^change]
 
@@ -1005,7 +1007,7 @@ Just like when you're living in one place, it's a good idea to have a few safety
 So this section goes over some travel-specific areas of insurance, safety nets, and general ass-covering. All stuff that you'll *hopefully* never need, but you'll be glad to have in the unlikely event you do.
 
 {{% columns %}}
-- [Get a Travel Health Insurance]({{< ref "#insurance-travel" >}})
+- [Get Travel Health Insurance]({{< ref "#insurance-travel" >}})
 - [Consider a Supplemental Insurance Plan for Your Gear]({{< ref "#insurance-gear" >}})
 - [Keep an Emergency Bailout Fund]({{< ref "#insurance-bailout" >}})
 - [Keep Photos of Critical Documents in the Cloud]({{< ref "#insurance-cloud" >}})
@@ -1018,9 +1020,9 @@ So this section goes over some travel-specific areas of insurance, safety nets, 
 
 <small>Jump to: [Table of Contents]({{< ref "#contents" >}})</small>
 
-### Get a Travel Health Insurance {#insurance-travel}
+### Get Travel Health Insurance {#insurance-travel}
 
-A travel health insurance policy is important, because it covers a lot of things that a standard policy typically doesn't. For example, medical evacuation isn't something you'll see on a standard insurance policay — but if you end up pretty sick in a developing country, you'll want to be evacuated.
+A travel health insurance policy is important, because it covers a lot of things that a standard policy typically doesn't. For example, medical evacuation isn't something you'll see on a standard insurance policy — but if you end up pretty sick in a developing country, you'll want to be evacuated.
 
 Another, albeit more grisly, benefit is the repatriation of remains. If the worst happens, you don't want your family to end up spending a fortune trying to get you back home.
 
@@ -1109,7 +1111,7 @@ If you've never heard of [two-factor authentication](http://bit.ly/1V21JE2) befo
 
 The reason it's important is because while you're traveling, you never know which open wifi network has some shitbag connected that's eavesdropping on network traffic. It's really hard to be sure that someone hasn't gotten hold of your information.
 
-However, it's pretty tough for someone to steal both your phone *and* all your passwords. So using two-factor authentication just adds an additional layer of hassle for would-be data thieves, which is typically enough to discourage them. Why bother with two-factor auth when you can go after the people who haven't turned it on instead?
+However, it's pretty tough for someone to steal both your phone *and* all your passwords. So using two-factor authentication just adds an additional layer of hassle for would-be data thieves, which is typically enough to discourage them. Why bother with two-factor authentication when you can go after the people who haven't turned it on instead?
 
 Time-wise, it's a minor inconvenience: most apps will use Google Authenticator, which means you enter your password, then check the app for a six-digit code to confirm you have your device with you. Other services will text you or call you — if you use your Google Voice number as the confirmation number, you can verify those services anywhere in the world.
 
@@ -1162,4 +1164,4 @@ Tomorrow, I've got one last piece of advice — and I think this is the most imp
 
 Bear in mind that the items and strategies laid out in this email are what I use — this is not the *only* way, or necessarily the "right" way; this is what worked for me. Use your best judgment, consult professionals where applicable, and feel free to [get in touch]({{< ref "contact.md" >}}) with questions.
 
-A quick disclaimer: some of the linked products use my affiliate links. If you decide to purchase something I recommend here, that means the price for you is the same (or cheaper), and I get a small kickback from the company. I use all this stuff myself, so I can vouch for the quality. If you'd rather not use my affiliate links,  though, you can Google the products instead.
+A quick disclaimer: some of the linked products use my affiliate links. If you decide to purchase something I recommend here, that means the price for you is the same (or cheaper), and I get a small kickback from the company. I use all this stuff myself, so I can vouch for the quality. If you'd rather not use my affiliate links, though, you can Google the products instead.

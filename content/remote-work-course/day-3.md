@@ -5,7 +5,7 @@ draft: true
 
 title: "Lose the Dead Weight: Drop Emotional and Physical Baggage"
 slug: lose-the-extra-baggage
-description: Everyone tells us 
+description: Everyone tells us
 
 images:
 - /images/jason-lengstorf.jpg
@@ -144,7 +144,7 @@ Our lives are a series of stories starring us. We're the hero, the antihero, the
 
 And I don't mean "interesting to other people". **We need to make our stories interesting *to ourselves*.** Our ability to amuse strangers is just a pleasant side effect.
 
-**Further reading: [*No one is coming to save you. Are you going to save yourself?*]({{< ref "blog/no-one-is-coming-to-save-you.md" >}})
+**Further reading: [*No one is coming to save you. Are you going to save yourself?*]({{< ref "blog/no-one-is-coming-to-save-you.md" >}})**
 
 It didn't do so well in the box office — and maybe it's because the story is all heart and no substance — but one of my favorite movies of the last few years is *The Secret Life of Walter Mitty*.
 
@@ -211,7 +211,7 @@ So if you want to try something that doesn't fit in with who you think you are i
     ...and I don't work for nobody but you.
 {{< /caption >}}
 
-Our identities aren't set in stone. I wasn't born a bearded, code-writing, wanderlusting sex machine — I worked hard to become all of those things.
+Our identities aren't set in stone. I wasn't born a bearded, code-writing, wanderlusting love machine — I worked hard to become all of those things.
 
 On the way to becoming what I am today, I've been a sad poet, an "oppressed" teenager, an overworked entrepreneur — I chose each of those identities, and discarded them when they no longer fit.
 
@@ -221,7 +221,7 @@ On the way to becoming what I am today, I've been a sad poet, an "oppressed" tee
 
 When we really get down to it, your goals — becoming location-independent, traveling the world, being your own boss — aren't out of your reach. Tearing down walls to get where we want to go isn't hard, *if* you've given yourself permission to do it.
 
-If you've ever jumped into water from somewhere high, you might remember the mental block you felt before the first jump. 
+If you've ever jumped into water from somewhere high, you might remember the mental block you felt before the first jump.
 
 As you stood at the edge, looking down, you carried out an internal debate. Sure, other people have jumped, and they're okay, but you think you might remember a story, maybe, about a kid who jumped and was attacked by a flock of seagulls mid-flight because he'd just eaten popcorn shrimp and was covered in shrimp-grease and, sure, you know it's probably not true and it sounds pretty unlikely (especially because you haven't eaten any shrimp) but, hey, why take unnecessary risks, right?
 

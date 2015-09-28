@@ -25,19 +25,19 @@ The workplace today has completely lost sight of long-term sustainability. Compa
 
 "We can't focus on employee wellbeing right now," say the decision-makers, "because we're under pressure from the shareholders to get the numbers up this quarter."
 
-So the drudgery continues and, ironically, the companies' revenues suffer nearly as much as the employees killing themselves for the cause.
+So the drudgery continues and, ironically, companies' revenues suffer nearly as much as the employees killing themselves for the cause.
 
-In this way, many companies today are sitting in fertile fields, leaning against a bag of seed, hacking bits off their legs to eat. Quick fixes to short-term problems trump common sense with alarming frequency.
+In this way, many companies today are sitting in fertile fields, leaning against a bag of seed, hacking chunks off their legs to eat rather than sowing. Quick fixes to short-term problems — at the expense of long-term viability — trump common sense with alarming frequency.
 
-This is so common that it just feels... normal.
+Most disturbingly, this happens so frequently that it all just feels... normal.
 
 We feel like it's just the way things are, and that we don't really have a choice in the matter.
 
 The first step toward starting a life free to do what you want is to recognize **many things we think are mandatory are actually *entirely optional*.**
 
-And, worse, a lot of the things we're told are normal and necessary are actually *horrible* for us.
+Worse, a lot of things we're told are normal and necessary are actually *horrible* for us.
 
-In today's lesson, let's talk about how terribly broken the current working environment is, and how we can try to fix things.
+In today's lesson, let's talk about how terribly broken the current working environment is, and what we need to do if we hope to fix the problem.
 
 ## The Modern Workplace Has Become a Cult
 
@@ -63,9 +63,9 @@ Just don't let it kill you first.
 
 Thanks to the unhealthy working patterns set up by the Overkill Cult, many companies look at productivity as a strictly linear relationship: more time working means more production.
 
-But we all know — even if we don't admit it — that **productivity is a limited resource.** We can only do so much in a day before our brain turns to mush and we can't put our thoughts together effectively.
+But we all know — even if we don't admit it — that **productivity is a limited resource.** We can only do so much in a day before our brain fatigues and we can't put thoughts together effectively.
 
-We need to recognize three fundamental truths that research has proven over and over again if we're going to succeed in both work and, you know, being alive.
+We need to recognize three fundamental truths — proven by research over and over again — if we're going to succeed in both work and, you know, remaining alive.
 
 ### 1\. Working Longer Hours Does Not Make Us More Productive
 
@@ -83,7 +83,7 @@ It's counterintuitive, but it's true for both [manual labor][3] and [knowledge w
 
 Knowledge workers, by name, are hired for what they *know.* We're hired to solve problems and produce results.
 
-But, for reasons that defy common sense and a century's worth of research, many companies only measure the worth of their team by the number of hours worked.
+But, **for reasons that defy common sense and a century's worth of research, many companies only measure the worth of their team by the number of hours worked.**
 
 This is *exactly the opposite* of the ideal approach.
 
@@ -115,7 +115,7 @@ Taking time away from work is not a selfish, I-don't-want-to-work endeavor, eith
 
 Beyond that, the subconscious mind is an incredible thing — if we let it work. If you've ever had one of those *holy shit* moments while in the shower, drifting off to sleep, or playing a game, that's your subconscious at work.
 
-If we stay engaged with work at all times — whether it's actually working in the office, or simply checking work emails at all hours — we don't give ourselves enough distance from work to let our subconscious fully engage.
+Whether it's actually working in the office, or simply checking work emails at all hours, **if we stay engaged with work at all times, we don't give ourselves enough distance from work to let our subconscious do its magic.**
 
 So take a break. For your health *and* for your career.
 
@@ -123,29 +123,29 @@ So take a break. For your health *and* for your career.
 
 ## How to Fix the Modern Workplace
 
-So we know that we're living in a culture that encourages workaholism, counts minutes instead of results, and pressures us to be "always on" — even when we're not at work.
+Here's where we are: we know that **we're living in a culture that encourages workaholism, counts minutes instead of results, and pressures us to be "always on" — even when we're not at work.**
 
 How, then, can we go about fixing it?
+
+There are a lot of ways to go about it, but here are three that I know
 
 ### 1. Get Serious About Protecting Your Time
 
 If you work in an office or another setting where people ask you for things constantly — meetings, input, help on projects, etc. — you'll need to *kinda-sorta* act like a total dick if you want to protect your time.
 
-That doesn't mean you need to be rude or unpleasant. It means you have to be really selective about what you will and won't do.
+That doesn't mean you need to be rude or unpleasant. It means **you have to be selective about what kind of work you take on.**
 
 Do you need to be on that meeting, or can you just read the notes afterward?
 
 Will your input on that project *actually* make it better, or does the project lead have it under control?
 
-Is this new project going to make a big difference? If so, are you the one who can make that big difference? And is this the big difference that you *want* to make?
+Is this new project going to make a big difference? Are *you* the person who will make that big difference? And is this the big difference that you *want* to make?
 
-Start saying no unless a meeting or project meets strict acceptance guidelines. That way you can **put your focus into big-impact projects and avoid the busywork and distractions** that won't help anyone long-term.
+Start saying no unless a meeting or project meets strict guidelines. That way you can **put your focus into big-impact projects and avoid the busywork and distractions.** By doing that, you can focus on long-term gains and big accomplishments rather than getting stuck in the merry-go-round of short-term hustles and wasted time.
 
 At first, people might think you're being difficult. But your results will speak for themselves. And really, most people ask for meetings and help as a way of procrastinating or avoiding responsibility — don't enable that shit.
 
-If you want a much more detailed read on how to put this into practice, read [*Essentialism*](http://amzn.to/1KB7qTO) by Greg McKeown.[^affiliatelink]
-
-[^affiliatelink]: That book link is an affiliate link. If you buy the book, Amazon will give me, like, $0.60. If you'd prefer not to have Amazon give me money, Google "Essentialism" and it's the first or second result.
+If you want a much more detailed read on how to put this into practice, read [*Essentialism*](http://amzn.to/1KB7qTO) by Greg McKeown.
 
 ### 2. Go Remote
 
@@ -153,7 +153,7 @@ If you're able to get out of the office entirely, it gets much easier to avoid a
 
 With a remote working setup, results-based work is more or less non-negotiable. That means **you get to control your time as long as you make sure the items on your todo list are done.**
 
-Plus, being a remote worker doesn't mean *never* going to the office. Sometimes it's nice to spend a day at the office to catch up with coworkers, have important meetings, or just to remind people that you're not dead. **Being remote just means that you now have the *choice* to head to the office, instead of being stuck there no matter how hard it is to get things done.**
+Plus, being a remote worker doesn't mean *never* going to the office. Sometimes it's nice to spend a day at the office to catch up with coworkers, have important meetings, or just to remind people that you're not dead. **Being remote means you have a *choice* about going to the office, rather than being stuck in a cubicle no matter how hard it is to get things done.**
 
 This is my favorite option, but it's also not always easy.
 
@@ -165,9 +165,9 @@ If your job is killing you and doesn't want to change, take your show on the roa
 
 **There are dozens of options for working remotely**, ranging from highly-skilled positions (computer programming, accounting, etc.) to no-experience-required positions (customer service, transcription, etc.).
 
-**Further reading: [Ditch the Day Job: How to Become Location-Independent](http://lengstorf.com/how-to-become-location-independent/)**
-
 Over the last few years, the world has fundamentally changed, work-wise: nearly every job that doesn't directly require physical presence — e.g. food service, construction — can be done remotely thanks to technology like video calls, collaborative documents (e.g. Google Docs and [Draft](https://draftin.com)), and other apps and tools that allow us to mimic in-person interactions with very little difference.
+
+**Further reading: [Ditch the Day Job: How to Become Location-Independent](http://lengstorf.com/how-to-become-location-independent/)**
 
 ## Remember: You Might Not Live to See "Later"
 
