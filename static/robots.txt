@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /remote-work-course/the-way-we-work-isnt-working/
+Disallow: /remote-work-course/break-bad-work-habits/
+Disallow: /remote-work-course/lose-the-extra-baggage/
+Disallow: /remote-work-course/take-the-stress-out-of-travel/
+Disallow: /remote-work-course/the-first-step/
