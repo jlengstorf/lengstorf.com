@@ -1,7 +1,6 @@
 ---
 date: 2015-09-03T19:01:53-08:00
 author: jason
-draft: true
 
 title: "What to Do When Things Go Wrong: A Survival Checklist"
 seo_title: "What to Do When Things Go Wrong: A Survival Checklist"
