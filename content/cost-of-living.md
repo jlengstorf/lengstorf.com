@@ -24,11 +24,13 @@ To see exactly how much, take three minutes to enter your expenses below.
 
 {{< cost-of-living >}}
 
-This calculator compares your monthly living expenses to a year spent living abroad — including the cost of flights to get between each city. The table above lists the specific travel itineraries and expenses used for comparison.[^cost-source]
+## About the Calculator
+
+This calculator compares your monthly living expenses to a year spent living abroad — including the cost of flights to get between each city.[^cost-source] The original idea came from an article about [the surprisingly low cost of long-term travel]({{< ref "blog/cost-of-living-remotely.md" >}}).
 
 [^cost-source]:
     Costs were pulled for the corresponding dates in 2016 from [Google Flights](https://www.google.com/flights/) and [Airbnb](https://www.airbnb.com/c/jlengstorf?s=1). Airbnb costs are approximate, using a lower-end average monthly cost (e.g. if rentals ranged from $1,000–5,000, but most of the lower-cost listings start at around $1,500, then $1,500 would be used as the monthly rate.)
 
 (And remember, this is only comparing the cost of living — if you start factoring in lower cost of food, transportation, entertainment, and so on, the savings only get bigger.)
 
-For more detail about how living abroad can save you money, [read the full post]({{< ref "blog/cost-of-living-remotely.md" >}}).
+{{< cta travel "More Travel Tips and Strategies" >}}
