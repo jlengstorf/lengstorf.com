@@ -5,7 +5,7 @@ author: jason
 title: Create Something
 seo_title: Meditation, Gratitude, Self-Reflection, and Being Too Cool
 slug: create-something
-description: How I'm going to implement new-agey techniques like meditation and gratitude journaling into my routine without actually drinking the Kool-Aid.
+description: Whenever I feel restless or unhappy, it usually means I'm not creating. I always feel better when I'm creating.
 
 category:
 - motivation
