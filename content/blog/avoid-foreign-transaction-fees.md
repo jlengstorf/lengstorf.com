@@ -75,9 +75,7 @@ There are no foreign transaction fees or currency exchange fees, and the rewards
 
 On top of all that, it's a Visa card with a chip, so I've never had an issue using it to pay — if the business accepts cards, this one will work.
 
-[Apply for the Chase Sapphire Preferred card.][6]
-
-<small>(If you apply through this link, you get a 40,000 point bonus, and I get a 5,000 point bonus. Win-win!)</small>
+[Learn more about the Chase Sapphire Preferred card.][5]
 
 ### Delta SkyMiles American Express
 
@@ -116,6 +114,5 @@ By taking a bit of time to get your money organized in a way that doesn't cost y
  [3]: http://www.schwab.com/public/schwab/banking_lending/checking_account
  [4]: http://www.nerdwallet.com/blog/top-credit-cards/no-foreign-transaction-fee-credit-card/
  [5]: https://creditcards.chase.com/credit-cards/sapphire-preferred-card.aspx
- [6]: https://applynow.chase.com/FlexAppWeb/renderApp.do?PID=CFFD2&SPID=FDY7&CELL=6RLJ&MSC=1440684963
  [7]: https://www304.americanexpress.com/credit-card/skymiles/25330
  [8]: http://www.forbes.com/sites/leoking/2014/10/21/is-the-us-finally-accelerating-a-move-to-chip-and-pin/
