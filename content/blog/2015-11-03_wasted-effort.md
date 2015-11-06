@@ -3,16 +3,21 @@ date: 2015-11-03T07:57:02-08:00
 author: jason
 draft: true
 
-title: What if I choose the wrong career and waste a bunch of time?
+title: What if I choose the wrong goal and waste a bunch of time?
 seo_title:
 slug: wasted-time
 description:
 
 category:
--
+- motivation
+- remote-productivity
 
 tag:
--
+- confidence
+- failure
+- fear
+- learning
+- success
 
 images:
 - /images/jason-lengstorf.jpg
