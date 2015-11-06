@@ -104,7 +104,10 @@ This is tinfoil hat paranoid, not to mention *completely* misguided. Encouraging
 
 Of *course* having employees who love what they do is beneficial to a company, and of *course* bosses want their employees to love their work.
 
-But, here's the thing: **if a boss is exploiting her employees, they're not going to love their work.** The idea that using *love* as a way to drive class separation and abuse is fatally flawed. No one loves a job that bullies. I've worked in toxic environments where the expectations are for long hours and little reward; the morale is abysmal, and resentment is high. I doubt many people who are *actually* being exploited would describe any love for their jobs.
+But, here's the thing: **if a boss is exploiting her employees, they're not going to love their work.** The idea that using *love* as a way to drive class separation and abuse is fatally flawed. No one loves a job that bullies. I've worked in toxic environments where the expectations are for long hours and little reward; the morale is abysmal, and resentment is high. I doubt many people who are *actually* being exploited would describe any love for their jobs.[^overkill-cult]
+
+[^overkill-cult]:
+    Keep in mind, though, that even if our bosses aren't *consciously* exploiting us, there is definitely evidence that [our working culture is dangerously out of control](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a).
 
 My employees love their jobs. But if I cross the line and ask more of them than they're comfortable giving, my team's happiness will suffer and they'll start looking elsewhere for love and passion.
 
