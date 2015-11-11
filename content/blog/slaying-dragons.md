@@ -4,12 +4,12 @@ author: jason
 draft: true
 
 title: Slaying Dragons
-seo_title:
+seo_title: "Slaying Dragons: Choose Your Battles Wisely"
 slug: slaying-dragons
-description:
+description: If we're looking for them, there are always bigger, more challenging problems to tackle. But are we making anything better by fighting these battles?
 
 category:
--
+- 
 
 tag:
 -
@@ -109,14 +109,14 @@ And I was exactly the same: the success-obsessed professional who'd taken "stayi
 
 ## How to Balance Bloodlust and Introspection
 
-One of the reasons for my endless pursuit of a new dragon to slay, I decided, was that I couldn't stand the thought of [spending time alone with my thoughts](http://www.2ftat.com/episode/02-being-alone/). Wrestling with my inner demons sounded *way* scarier than battling external threats.
+One of the reasons for my endless pursuit of a new dragon to slay, I realized, was that I couldn't stand the thought of [spending time alone with my thoughts](http://www.2ftat.com/episode/02-being-alone/). Wrestling with my inner demons sounded *way* scarier than battling external threats.
 
 I was doing the emotional equivalent of starting a fire in the kitchen to avoid doing the dishes.
 
 In a trite plot twist, **the _real_ dragon I needed to slay was... _myself_.**[^drama]
 
 [^drama]:
-    Cue dramatic orchestral stab and a tight zoom on my horrified face.
+    Cue dramatic orchestral stab and a tight close-up of my horrified face.
 
 Slowly, and with the help of [good friends]({{< ref "blog/best-friends.md" >}}) and a strategy to [develop a more positive outlook](https://medium.com/@jlengstorf/stop-glossing-over-the-good-stuff-b89e25f7c714), I created fewer and fewer problems for myself, and directed the restlessness I felt during quiet periods toward identifying the real source of my restlessness.
 
@@ -128,32 +128,32 @@ I try to think a little harder about the dragons I go after. Are they real? Or a
 
 ### 2. Am I upset about this thing, or did this thing just make me acutely aware of one of my shortcomings?
 
-Occasionally someone says something, and suddenly I'm ready for battle. But did they actually do something wrong, or did they just expose one of my blind spots and I'm embarrassed?
+Occasionally someone says something, and suddenly I'm ready for battle. But did they actually do something wrong, or did they just expose one of my blind spots and now I'm embarrassed and defensive?
 
 ### 3. If I let this go, will anything bad happen?
 
-Let's assume I do nothing. What will happen? Like, *really* play out this hypothetical scenario: if I don't solve this problem, does anything bad happen? Or does the world just continue to exist, unperturbed?
+Let's assume I do nothing. What will happen? Like, *really* play out this hypothetical scenario: if I don't solve this problem, does _anything_ bad happen? Or does the world just continue to exist, unperturbed?
 
 (Hint: it's usually door #2.)
 
 ### 4. If I *don't* let this go, will anything improve?
 
-Sometimes I have a project I don't want to do, and so I start thinking about other things in my life, and I decide I don't like the way my room is organized, and so I decide this is a pressing issue and spend two hours pushing furniture around.
+Sometimes I have a project I don't want to do, and so I start thinking about other things in my life, and I decide I don't like the way my room is organized, and this becomes an urgent problem, and I spend two hours pushing furniture around.
 
-When I'm done, my life isn't better — the only thing I've succeeded in doing is procrastinating whatever I was supposed to be working on in the first place.
+When I'm done, my life isn't any better — the only thing I've succeeded in doing is procrastinating whatever I was supposed to be working on in the first place.
 
 ## Don't Hate the Slayer
 
-I love the rush that comes when I square off against a dragon.[^figuratively] My favorite thing to do, after all, is solve hard problems, and the last thing I want to do is fold in on myself until I'm too introspective to be interesting (or pleasant) anymore.
+I love the rush that comes when I square off against a dragon.[^figuratively] My favorite thing to do, after all, is solve hard problems, and the last thing I want to do is train myself to shy away from a challenge.
 
 [^figuratively]:
-    I mean that figuratively, of course. The thought of *actually* fighting an *actual* dragon (even a [tiny dragon](https://en.wikipedia.org/wiki/Draco_volans)) makes me hyperventilate a little. Side note: DID YOU KNOW THAT DRAGONS ARE REAL YOU GUYS?!
+    I mean that figuratively, of course. The thought of *actually* fighting an *actual* dragon (even a [tiny dragon](https://en.wikipedia.org/wiki/Draco_volans)) makes me hyperventilate a little. Side note: _DID YOU KNOW THAT DRAGONS ARE REAL YOU GUYS?!_
 
-So while I don't intend to never slay a dragon again, I _will_ look for more balance. More long-term value. There will always be a bigger dragon, but some (most) dragons just don't need to be slain — at least not by me.
+So while I don't intend to never slay a dragon again, I _will_ look for more balance. More long-term value. There will always be a bigger dragon, but **most dragons just don't need to be slain** — at least not by me.
 
-I'll try to choose my battles more wisely, and make sure that the reward is real, and actually worth fighting for. I'll try to let things go when they don't matter. And if I can help it, I'll try to start by figuring out the things happening in my head that made me want to fight in the first place.
+Going forward, I'll try to choose my battles more wisely, and make sure that the reward is real, and actually worth fighting for. I'll try to let things go when they don't matter. And if I can help it, I'll try to start by figuring out the things happening in my head that made me want to fight in the first place.
 
-Truth be told, I'll probably never hang up my banana hammock or my sword. But they maybe won't be used as frivolously.
+Truth be told, I'll probably never hang up my sword. Or my banana hammock. But I'll try to use them more responsibly.
 
 And that's better for all of us.
 
