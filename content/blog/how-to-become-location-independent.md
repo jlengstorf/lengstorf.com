@@ -2,7 +2,7 @@
 date: 2015-04-03T06:32:58-08:00
 author: jason
 
-title: "Ditch the Day Job: How to Become Location-Independent"
+title: "Ditch the Desk Job: How to Become Location-Independent"
 seo_title: "Ditch the Desk Job: How to Become Location-Independent"
 slug: how-to-become-location-independent
 description: Working remotely (location independence) allows you to work on your own terms and your own schedule — from anywhere in the world. Here's how to get there.
