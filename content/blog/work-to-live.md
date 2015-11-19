@@ -82,7 +82,7 @@ She's found purpose in her work — or maybe it's better to say she found work 
 
 **Even if our work isn't our main purpose, it provides a means to pursue that purpose.** To quote the words of modern-day philosopher Jay-Z:
 
-> I can't help the poor if I'm one of them So I got rich and gave back, to me that's the win/win
+> I can't help the poor if I'm one of them, so I got rich and gave back, to me that's the win/win.
 >
 > **Jay-Z, [*Moment of Clarity*][6]**
 
@@ -115,6 +115,6 @@ So repeat after me:
  [1]: http://lengstorf.com/sacrifice/
  [2]: http://lengstorf.com/growing-up-vs-growing-older/
  [3]: http://en.wikipedia.org/wiki/Nintendo_64
- [4]: http://lengstorf.com/overkill-cult/
+ [4]: http://bit.ly/1OQ2Oe3
  [5]: http://www.elephantnaturepark.org/
  [6]: http://genius.com/9545/Jay-z-moment-of-clarity/Since-i-know-what-im-up-against-we-as-rappers-must-decide-whats-most-important-and-i-cant-help-the-poor-if-im-one-of-them-so-i-got-rich-and-gave-back-to-me-thats-the-win-win
