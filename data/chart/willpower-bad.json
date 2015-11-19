@@ -1,0 +1,36 @@
+{
+  "data": {
+    "labels": ["8am","9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm"],
+    "series": [
+      {
+        "name": "Remaining Willpower",
+        "data": [100,98,89,71,59,42,20,12,4, 0]
+      },
+      {
+        "name": "Willpower Required for the Scheduled Task",
+        "data": [  0,10,14,12,25,18,42,35,55,26]
+      }
+    ]
+  },
+  "options": {
+    "stretch": true,
+    "fullWidth": true,
+    "series": {
+      "Remaining Willpower": {
+        "showArea": true
+      },
+      "Willpower Required for the Scheduled Task": {
+        "showArea": true
+      }
+    },
+    "axisY": {
+      "title": "How Much Willpower I Have",
+      "showLabel": false
+    }
+  },
+  "legend": true,
+  "caption": "By waiting until the end of the day to start tasks that require more willpower, I've set myself up for failure.",
+  "classes": {
+    "caption": "caption-text"
+  }
+}

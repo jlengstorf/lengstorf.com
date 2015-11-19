@@ -1,0 +1,36 @@
+{
+  "data": {
+    "labels": ["8am","9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm"],
+    "series": [
+      {
+        "name": "Remaining Willpower",
+        "data": [100,71,65,59,42,37,20,12, 6, 2]
+      },
+      {
+        "name": "Willpower Required for the Scheduled Task",
+        "data": [ 45,56,35,25,18,22,12, 9,5, 1]
+      }
+    ]
+  },
+  "options": {
+    "stretch": true,
+    "fullWidth": true,
+    "series": {
+      "Remaining Willpower": {
+        "showArea": true
+      },
+      "Willpower Required for the Scheduled Task": {
+        "showArea": true
+      }
+    },
+    "axisY": {
+      "title": "How Much Willpower I Have",
+      "showLabel": false
+    }
+  },
+  "legend": true,
+  "caption": "Front-loading the tasks that require the most willpower makes it much easier to get them done.",
+  "classes": {
+    "caption": "caption-text"
+  }
+}
