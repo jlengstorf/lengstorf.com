@@ -22,19 +22,19 @@ videos: []
 discussion_link:
 
 ---
-When we call time a resource, it implies that we can *do stuff* with it. And we talk about our time like that: protecting time, spending time, wasting time.
-
-We talk about our time like it's a bank balance: "I only spend time on the things that *truly* add value to my life."
+There's a tendency to talk about time like it's a bank balance: "I only spend time on the things that *truly* add value to my life."
 
 But fuck your sanctimonious proclamations, because no you don't. None of us do. Because _we don't **choose** to spend our time._
 
+**We can't "save" or "spend" time; we can only use it as it passes, or stand and watch it go.**
+
 Time passes, whether we're choosing to spend it or not. I can't say, "Well, I only have three hours' worth of value-adding life scheduled for today, so I'll bank the additional twenty-one hours for later."
 
-That's the fantasy that we seem to operate under, however — to varying degrees of self-inflicted damage.
+That's the fantasy that we seem to operate under, however — to varying degrees of self-inflicted damage.
 
-## What If I'm Wasting Time on the Wrong Projects?
+## What If I'm Wasting Time on the Wrong Stuff?
 
-At breakfast a few days ago, Marisa and I were talking about her career transition over the last year, and the twists and turns she's dealt with along the way. There was a twinge of despair around the edges of the conversation, and when I poked at it[^poke] she started talking about time.
+At breakfast a few days ago, Marisa and I were talking about her transition into [freelance copywriting](http://marisamorby.com) over the last year, and the twists and turns she's dealt with along the way. There was a twinge of despair around the edges of the conversation, and when I poked at it[^poke] she started talking about time.
 
 [^poke]:
     That's what you're supposed to do when you see that something is bothering someone, right? Poke at the sore spot?
@@ -49,11 +49,11 @@ For a brief, strange second I saw inside Marisa's mind.
 >
 > As I draw closer, the mermaid bristles and booms, "HEY. BACK THE FUCK UP. I'M PROTECTING THIS TIME."
 
-This was a *Holy Shit, Obviously* moment for me. Marisa — and I, and probably everyone else ever — was looking at time all wrong.
+This was a *Holy Shit, Obviously* moment for me. Marisa (and I, and probably everyone else ever) was looking at time all wrong.
 
 ## A Shift in the Realities of Time
 
-So, let's get deep(ly unscientific) for a minute and talk about time, as it exists in our current realities.
+Let's get deep(ly unscientific) for a minute and talk about time, as it exists in our current realities.
 
 Time flows through a mysterious hole in the universe, originating from a much-debated wellspring just beyond our comprehension. Time rains down upon us from the fourth dimension or whatever, and we're all given the opportunity to use a finite amount of it.
 
@@ -61,7 +61,7 @@ And that's where the fundamental misunderstanding comes in.
 
 ### How we think time works.
 
-There's a delusion that, with a bucket, we can store time. We say things like, "I don't want to spend my time that way," and imagine ourselves catching those few hours in a jar, to be spent later.
+There's a delusion that, with an appropriate container, we can store time. We say things like, "I don't want to spend my time that way," and imagine ourselves catching those few hours in a jar, to be spent later.
 
 We picture it as a liquid, like water, that can be dammed, captured, stoppered, stored, labeled, and consumed at a later date.
 
@@ -81,7 +81,7 @@ Time, like sunlight and wind, is a linear, nontransferable resource. It happens 
 
 With time's impermanence in mind, the idea that you can "waste time" by working on "the wrong ideas" is ridiculous.
 
-Time will pass, whether or not you're working on something.
+**Time will pass, whether or not you're working on something.**
 
 The passing of time can provide two outcomes:
 
@@ -92,27 +92,29 @@ In one of these situations, we're putting time to work for us. In the other, we'
 
 ### Outcome #1: You receive new information about the world.
 
-If you work on any idea — even the "wrong" ones — you will receive new information:
+**If you work on _any_ idea — even the "wrong" ones — you will receive new information:**
 
 - "Turns out I don't really like sales. I don't want to do that anymore."
 - "I really enjoyed working with my hands when I took that woodworking class. I should do more of that."
 - "I thought marine biologists just played with dolphins! Why am I scraping fish shit off an aquarium floor?"
 
-This information can be used to refine how your remaining time is spent.
+This information can be used to refine how your future time is spent. **By experiencing something new, you have improved your understanding of the world**, and by extension, your ability to make better decisions.
 
 ### Outcome #2: You receive no new information about the world.
 
-If you "guard" your time by waiting until you have "the right idea" to work on, what you're *actually* doing is thoroughly and totally wasting time.
+Thanks in no small part to the "only spend time on things that make your life better" chorus all around us, there's a pressure to wait for the right idea before putting in a solid effort.
 
-_You're still out the same amount of time as if you'd worked on something else, except in this case you've learned nothing._
+**Doing nothing because you're waiting for the "right idea" _guarantees_ your time is thoroughly and completely wasted.**
 
-## Use Your Time Now, Because You Can't Use It Later
+You're still out the same amount of time as if you'd worked on something else, except in this case _you've learned nothing_.
 
-Our time is not like our bank balance. We can't live frugally and accrue tons of time that we can spend later in life on things we enjoy.
+## Use Your Time Now — You Can't Use It Later
 
-Rather, we're born with a set amount of time, and each day we lose 24 hours of it.
+Our time is not like our bank balance. We can't live frugally and accrue tons of time to spend later in life, after we've learned what we enjoy.
 
-When you refuse to start on something because you're worried you might waste your time on it, you manage to both a) irrevocably waste your time, and b) make no progress toward figuring out what "the right idea" may be.
+**We're born with a finite amount of time, and each day we lose 24 hours of it.**
+
+When you refuse to start on something because you're worried you might waste your time on it, you manage to both a) irrevocably waste your time, and b) make no progress toward figuring out what the "right idea" may be.
 
 ## Pull the Trigger on New Projects and Learn Something
 
@@ -131,7 +133,7 @@ If you're not starting a new project at the expense of something valuable to you
 And if you don't start this new project — and you don't have something more valuable to spend your time on — where will your time go instead? Idle "research" on social media? Reading yet another article about finding your passion[^fyp] or being more productive?[^productive] Some other clever disguise for _completely_ wasting time?
 
 [^fyp]:
-    "I used to be miserable, just like you, until I found my passion, which is helping other people find their passion. You should buy my ebook on finding your passion so you, too, can find your passion — which is probably selling ebooks to other people about finding their passion."<br><br>(Sass notwithstanding, I do think you should [do what you love]({{< ref "blog/do-what-you-love.md" >}}).)
+    "I used to be miserable, just like you, until I found my passion, which is helping other people find their passion. You should buy my ebook on finding your passion so you, too, can find your passion — which is probably selling ebooks to other people about finding their passion."<br><br>(Snark notwithstanding, I do think you should [do what you love]({{< ref "blog/do-what-you-love.md" >}}).)
 
 [^productive]:
     Productivity is important. I [talk about productivity]({{< ref "blog/scheduling-maximum-productivity.md" >}}) frequently. But there's a point where productivity research is like turning down sex because you're too busy masturbating.
@@ -142,6 +144,10 @@ Don't worry about wasting time. It's spent no matter what.
 
 **Instead, worry about _using time_.** Make sure the time that passes results in new information and new experiences.
 
-So go start that project that might be doomed. Chase that idea that you can't imagine making money. It's certainly more temporally responsible than letting that time pass unused.
+So go start that project that might be doomed. Build that side business that you're nervous might fail. Take that class. [Take the trip.]({{< ref "blog/take-the-trip.md" >}}) _Take action._
+
+It's certainly more temporally responsible than letting that time pass unused.
 
 And — hey — you might just learn something.
+
+{{< cta "focus" >}}
