@@ -1,7 +1,9 @@
 ---
-baseurl: http://lengstorf.com/
+baseurl: https://lengstorf.com/
 languageCode: en-us
 title: Jason Lengstorf
+
+theme: "lengstorf"
 
 footnotereturnlinkcontents: ↩
 
