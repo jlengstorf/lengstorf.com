@@ -1,7 +1,7 @@
 ---
-date: 2015-11-08T09:14:02-08:00
+date: 2015-11-19T11:53:32+07:00
 author: jason
-draft: true
+draft: false
 
 title: Why Can't I Stay Consistent?
 seo_title: Why can't I stay consistent? How to keep a good thing going.
@@ -23,12 +23,14 @@ tag:
 
 images:
 - /images/how-to-stay-consistent.jpg
+- /images/make-the-right-thing-the-easy-thing.jpg
 
 videos: []
 
 discussion_link:
 
 ---
+
 I've had trouble writing over the last few months. It's not writer's block, though; I haven't even been _trying_ to write.
 
 It's been bumming me out, because writing makes me happy.
