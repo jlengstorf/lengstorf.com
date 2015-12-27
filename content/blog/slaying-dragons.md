@@ -1,21 +1,24 @@
 ---
-date: 2015-09-23T16:47:07-08:00
+date: 2015-12-08T20:07:27-07:00
 author: jason
-draft: true
+draft: false
 
-title: Slaying Dragons
-seo_title: "Slaying Dragons: Choose Your Battles Wisely"
+title: "Fake problems: slaying dragons, and why maybe we shouldn't."
+seo_title: "Fake problems: slaying dragons, and why maybe we shouldn't."
 slug: slaying-dragons
 description: If we're looking for them, there are always bigger, more challenging problems to tackle. But are we making anything better by fighting these battles?
 
 category:
-- 
+- happiness
 
 tag:
--
+- adventure
+- happiness
+- monsters
+- ritesofpassage
 
 images:
-- /images/jason-lengstorf.jpg
+- /images/are-my-problems-real.jpg
 
 videos: []
 
@@ -40,17 +43,19 @@ The dragon resigns itself to yet another standoff, crushing the charred skulls o
 
 And I know I'm outmatched. I know I'm woefully under-equipped in an enclosed space with a sentient flame-broiler. I know my only chance is a combination of quick thinking, dumb luck, and a dogged unwillingness to admit defeat.
 
-I grip my sword loosely and snap it around in a quick, casual circle. I grin darkly. *This is where I belong,* I think to myself. *This is home.*
+I grip my sword loosely and snap it around in a quick, casual circle. *This is where I belong,* I think to myself.
+
+I grin darkly.
 
 I'm ready to slay this motherfucker.
 
-## No Problems? No Problem!
+## No Problems? I Can Fix That.
 
-I don't know about you, but when things quiet down in my life, I feel weird.
+When things quiet down in my life, I feel weird.
 
 My childhood was free of any real problems and hardships — so I was forced to create my own. Whether I was bored, self-destructive, or simply [trying to find out what I was made of]({{< ref "blog/growing-up-vs-growing-older.md" >}}), I made a sport out of creating hurdles for myself as a kid.
 
-I didn't feel particularly challenged in high school, so I decided the best use of my free time would be to psychologically terrorize my teachers[^deserving] to see how far I could go without getting into any real trouble. I couldn't bring myself to care about college, so I dropped out and tried my hand as a broke musician. I dated women who treated me well, so I came up with ways to ruin my relationships.
+I didn't feel particularly challenged in high school, so I dedicated myself to psychologically terrorizing my teachers[^deserving] and learning how far I could bend the rules without getting into any real trouble. I couldn't force myself to care about college, so I dropped out and tried my hand as a broke musician. I dated women who treated me well, so I invented ways to ruin my relationships.
 
 [^deserving]:
     During my sophomore year, I had a teacher who told us he was, among other things, a champion figure skater, a former FIFA referee, and an alien abductee. He had a fondness for busywork, including a weekly retrospective where we were asked to recount, in one or two paragraphs, what he'd taught us the previous week. (I'm still not sure if this was for our benefit or his.) <br><br>I couldn't take him seriously, so I wrote a bunch of nonsense to amuse myself: "I've received coded messages from the Wu-Tang Clan and *Merrie Melodies*. Martha Stewart is putting mind control drugs in the water supply!"<br><br>Later, my parents sat with me as this character expressed serious concerns — "I just can't figure out what Jason _means_ by all this!" — and the assistant principal asked my parents how they planned to address my issues. My dad, absolutely deadpan, leaned forward and said, "You realize that my son is *fucking with you*, right?"<br><br>The weirdo teacher was fired later that year for calling a fifteen-year-old girl fat. I feel pretty justified in fucking with that guy, because he shouldn't have been allowed around children in the first place.<br><br>In most cases, though, I was just being a dick.
@@ -59,7 +64,7 @@ The trend carried through my teenage years, and into my twenties: **whenever thi
 
 ## Who Am I Without a Dragon to Slay?
 
-When I had a problem, I felt an immediate sense of purpose. I had to slay this dragon — obviously *this problem* was the source of any unhappiness in my life. My daily struggle had a villain, and I was [the hero]({{< ref "blog/stories.md" >}}) risking his life on a quest to restore balance to the realm.
+When I had a problem, I felt an immediate sense of purpose. I had to slay this dragon — obviously *this problem* was the source of any unhappiness in my life. My daily struggle had a villain, and [I was the hero]({{< ref "blog/stories.md" >}}) risking his life on a quest to restore balance to the realm.
 
 **In the absence of trouble, I'd feel a pressure building. And when the pressure outmatched my common sense, I'd release it — blowing up my life in the process.**
 
@@ -75,9 +80,9 @@ Without a quest I felt purposeless. Obsolete. A warrior without a war, like Robe
 
 What started as listlessness grew to malaise, then blossomed darkly into hostility and aggression — which I would focus on a non-problem, creating a pressure cooker that would eventually blow a hole in my otherwise untroubled existence.
 
-### I slay the dragons because I slay dragons. Duh.
+### I slay dragons because I slay dragons.
 
-I fell into a cycle: I slayed a dragon, then raised a new one in its place. The goal was forgotten. I slayed dragons because I slayed dragons. The peaceful moments between struggles were nothing more than unpleasant waiting periods between bouts — why would anyone want to *not* be slaying a dragon?
+I fell into a cycle: I slayed a dragon, then raised a new one in its place. The goal was forgotten. The peaceful moments between struggles were nothing more than unpleasant waiting periods between bouts — why would anyone want to *not* be slaying a dragon?
 
 Knowing a dragon was out there, after all, let me focus my energy on external sources of discomfort. The dragons were the cause of my unhappiness, I had decided. Never mind that [I didn't feel particularly happy]({{< ref "blog/finding-happiness.md" >}}) after I'd slain one.
 
@@ -86,22 +91,30 @@ In the absence of dragons, I might be forced to acknowledge that my dissatisfact
 [^yinyang]:
     Equilibrium is not optional. We're all pendulums — pendula? penduli? — and an upswing has its equal and opposite downswing. The laws of physics don't offer any loopholes, no matter how good your "gravity guy" is.<br><br>But I think that's okay. Without the swings, we wouldn't be able to feel anything at all, good _or_ bad. So while I do believe we should work to increase our baseline — raising the equilibrium point for happiness to a higher base value so the highs are higher and the lows less low — we also need to accept that sometimes things will suck. And that this is a good thing, because it allows us to enjoy it more when things *don't* suck.
 
-## The Runaway Hero Complex
+{{< caption src="/images/are-my-problems-real.jpg"
+            align="aligncenter"
+            alt="Am I creating problems for myself?" >}}
+    Am I creating problems for myself?
+{{< /caption >}}
 
-As I approached my mid-twenties, it dawned on me that I was playing an emotional thrill-seekers' game of *Keeping Up with the Joneses* where I *wanted* a bigger and scarier dragon to slay — I needed to have bigger problems than anyone else to justify my discontent.
+## Fetishizing Misery
+
+As I approached my mid-twenties, it dawned on me that I was playing the Death Wish Edition™ of *Keeping Up with the Joneses* where I *wanted* a bigger and scarier dragon to slay — I needed to have bigger problems than anyone else to justify my discontent.
 
 {{< caption src="/images/fetish.gif"
             align="alignright"
             alt="That's my fetish." >}}
 {{< /caption >}}
 
-Worse, I was somehow getting pleasure from having bigger problems than other people. I had been using the size of my problems as a perverse signal of my value as a human being: I have the most out-of-control inbox; I have the most [unreasonable working schedule](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a); I get the least sleep.
+Worse, I was somehow getting pleasure from having bigger problems than other people. I had been using the size of my problems as a perverse signal of my value as a human being: I have _the most_ out-of-control inbox; I have the [_craziest_ working schedule](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a); I get the _least_ sleep.
 
-I was fetishizing misery. And when it dawned on me, it wasn't a sexy _that's my fetish_ moment. It was more like, "Wait. **_That's_** my fetish?"
+I was fetishizing misery. And when it dawned on me, it wasn't a sexy _that's my fetish_ moment.
+
+It was more like, "Wait. **_That's_** my fetish?"
 
 ### A hero who manufactures his own dragons isn't much of a hero at all.
 
-My senseless urge to increase the number and scale of my problems was the same kind of imaginary arms race that I would so publicly scorn in its other forms: the bodybuilders who lost sight of the "aesthetically pleasing" part of their sport and turned it into a "who can get most hugest" competition; the custom car subculture that was so obsessed with one-upping itself that the cars weren't even legal to drive; the vain who chased beauty so far down the plastic surgery rabbit hole that they barely resembled humans anymore.
+My senseless urge to increase the number and scale of my problems was the same kind of imaginary arms race that I would so publicly scorn in its other forms: the bodybuilders who lost sight of the "aesthetically pleasing" part of their sport and turned it into a "who can get most hugest" competition; the custom car subculture that was so obsessed with one-upping itself that the cars weren't even legal to drive; the vain who chased beauty so far down the plastic surgery rabbit hole they barely resembled humans anymore.
 
 Each group started a status arms race that eventually lost sight of its original purpose, becoming an endless pursuit of nothing but "more".
 
@@ -118,7 +131,7 @@ In a trite plot twist, **the _real_ dragon I needed to slay was... _myself_.**[^
 [^drama]:
     Cue dramatic orchestral stab and a tight close-up of my horrified face.
 
-Slowly, and with the help of [good friends]({{< ref "blog/best-friends.md" >}}) and a strategy to [develop a more positive outlook](https://medium.com/@jlengstorf/stop-glossing-over-the-good-stuff-b89e25f7c714), I created fewer and fewer problems for myself, and directed the restlessness I felt during quiet periods toward identifying the real source of my restlessness.
+Slowly, and with the help of [good friends]({{< ref "blog/best-friends.md" >}}) and a [strategy to develop a more positive outlook](https://medium.com/@jlengstorf/stop-glossing-over-the-good-stuff-b89e25f7c714), I created fewer and fewer problems for myself, and directed the restlessness I felt during quiet periods toward identifying the real source of my discomfort.
 
 These days, I try to take a beat and ask a few questions before I go charging into the fiery jaws of death.
 
@@ -156,5 +169,3 @@ Going forward, I'll try to choose my battles more wisely, and make sure that the
 Truth be told, I'll probably never hang up my sword. Or my banana hammock. But I'll try to use them more responsibly.
 
 And that's better for all of us.
-
-{{< cta travel >}}
