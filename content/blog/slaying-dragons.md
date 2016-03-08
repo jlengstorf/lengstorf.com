@@ -1,5 +1,5 @@
 ---
-date: 2015-12-08T20:07:27-07:00
+date: "2015-12-08T20:07:27-07:00"
 author: jason
 draft: false
 
@@ -149,7 +149,7 @@ Let's assume I do nothing. What will happen? Like, *really* play out this hypoth
 
 (Hint: it's usually door #2.)
 
-### 4. If I *don't* let this go, will anything improve?
+### 4. If I don't let this go, will anything improve?
 
 Sometimes I have a project I don't want to do, and so I start thinking about other things in my life, and I decide I don't like the way my room is organized, and this becomes an urgent problem, and I spend two hours pushing furniture around.
 
