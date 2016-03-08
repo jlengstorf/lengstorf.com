@@ -58,7 +58,7 @@ No safety net. No escape hatch. I was there until my return flight, with no opti
 *   After sweeping up the shattered bits of my former life, I would move into my parents' basement
 *   I would die poor, alone, and ashamed
 
-### Here's what *actually* happened when I disconnected:
+### Here's what actually happened when I disconnected:
 
 *   None of that
 
