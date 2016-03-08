@@ -1,21 +1,26 @@
 ---
-date: 2015-12-27T09:50:33-08:00
+date: 2015-12-30T08:49:12+07:00
 author: jason
 draft: true
 
 title: "The Secret to Having Great Ideas: Write Everything Down"
-seo_title: 
+seo_title: The Secret to Having Great Ideas According to Charles Darwin
 slug: write-everything-down
-description: 
+description: Could a long-dead seventeenth-century trend hold one of the keys to better ideas? 
 
 category:
-- 
+- commonplacing
+- motivation
 
 tag:
-- 
+- creating
+- productivity
+- ideas
+- stevenjohnson
 
 images:
-- /images/jason-lengstorf.jpg
+- /images/secret-to-great-ideas-600x300.jpg
+- /images/secret-to-great-ideas.jpg
 
 videos: []
 
@@ -57,6 +62,11 @@ In the span of maybe ten minutes, I lost an idea that I can _still_ remember rea
 > <small>**Steven Johnson**, [_Where Good Ideas Come From_](http://amzn.to/1QOSd4A)</small>
 
 Had I taken a few seconds to put a note into my phone, I'd still have it. But I couldn't be bothered, and now I'm sans-idea.
+
+{{< caption src="/images/secret-to-great-ideas.jpg"
+            align="aligncenter"
+            alt="The Secret to Good Ideas" >}}
+{{< /caption >}}
 
 ## Trends from a Long Time Ago
 
