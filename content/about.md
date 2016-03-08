@@ -5,7 +5,8 @@ author: jason
 menu: main
 
 title: Jason Lengstorf
-description: Jason Lengstorf is an author, a speaker, and a solver of hard problems. He is currently experimenting with permanent travel and remote work.
+seo_title: Jason Lengstorf on finding balance and doing work that matters.
+description: Jason Lengstorf is an author, coach, and consultant specializing in helping busy people free up extra hours to pursue things that truly matter to them.
 
 images:
 - /images/jason-lengstorf.jpg
@@ -53,15 +54,13 @@ When I realized what I actually wanted out of life, I drastically reduced the nu
   Acting like a cool guy in Barcelona.
 {{< /caption >}}
 
-I've been on the road ever since. And now? I work a manageable 40 hours each week; I explore a new city every month or so; I spend more time than ever with loved ones; I've lost 30 lbs.
+I've been on the road ever since. And now? I work a manageable 40 hours each week; I explore a new city every month or so; I spend more time than ever with loved ones; I've lost 40 lbs.
 
 **I'm happier than I've ever been.**
 
 But here's the thing: I don't think what I did was extraordinary. In fact, I think *anyone* can find the same happiness. *Starting today.*
 
 I started this website to show anyone who's ever felt like I used to feel that there's a better way, and it doesn't take anything but a will to change.
-
-And, look: I'm not selling anything. I don't have a product to sell you. I just wish someone would have told me this stuff before I spent a decade killing myself at a keyboard.
 
 I've put together a guide to show you how to get your hours under control, how to start working remotely, and — ultimately — how to travel the world for less than it costs to rent an apartment in the US.
 
