@@ -1,45 +1,41 @@
 ---
-date: 2015-11-06T08:18:27-08:00
+date: 2016-03-08T20:33:00+09:00
 author: jason
-draft: true
 
-title: Time is not a resource. Stop acting like it is.
-seo_title:
-slug: time-is-not-a-resource
-description:
+title: Am I Wasting My Time on the Wrong Goals?
+seo_title: Am I Wasting My Time on the Wrong Goals?
+slug: wasting-time
+description: "\"Is this the best use of my time?\" It seems responsible to ask — but if we're not careful, it's a dangerous question that wastes more time than it saves."
 
 category:
--
+- finding-direction
 
 tag:
--
+- exploration
+- fear
+- learning
+- timemanagement
 
 images:
-- /images/jason-lengstorf.jpg
+- /images/not-a-good-use-of-my-time-600x300.jpg
+- /images/not-a-good-use-of-my-time.jpg
 
 videos: []
 
-discussion_link:
+enable_disqus: true
 
 ---
-There's a tendency to talk about time like it's a bank balance: "I only spend time on the things that *truly* add value to my life."
-
-But fuck your sanctimonious proclamations, because no you don't. None of us do. Because _we don't **choose** to spend our time._
-
-**We can't "save" or "spend" time; we can only use it as it passes, or stand and watch it go.**
-
-Time passes, whether we're choosing to spend it or not. I can't say, "Well, I only have three hours' worth of value-adding life scheduled for today, so I'll bank the additional twenty-one hours for later."
-
-That's the fantasy that we seem to operate under, however — to varying degrees of self-inflicted damage.
-
-## What If I'm Wasting Time on the Wrong Stuff?
-
 At breakfast a few days ago, Marisa and I were talking about her transition into [freelance copywriting](http://marisamorby.com) over the last year, and the twists and turns she's dealt with along the way. There was a twinge of despair around the edges of the conversation, and when I poked at it[^poke] she started talking about time.
 
 [^poke]:
     That's what you're supposed to do when you see that something is bothering someone, right? Poke at the sore spot?
 
-"I worry that I've already wasted so much time. What if I start working on one of these ideas and it doesn't work? I'll be even further behind," she sighed, and gave me her best exasperated pout. "I just don't want to waste any more time going in the wrong direction."
+{{< caption src="/images/not-a-good-use-of-my-time.jpg"
+            align="aligncenter"
+            alt="Am I wasting my time on the wrong things?" >}}
+{{< /caption >}}
+
+"**I worry that I've already wasted so much time. What if I start working on one of these ideas and it doesn't work?** I'll be even further behind," she sighed, and gave me her best exasperated pout. **"I just don't want to waste any more time going in the wrong direction."**
 
 For a brief, strange second I saw inside Marisa's mind.
 
@@ -49,33 +45,39 @@ For a brief, strange second I saw inside Marisa's mind.
 >
 > As I draw closer, the mermaid bristles and booms, "HEY. BACK THE FUCK UP. I'M PROTECTING THIS TIME."
 
-This was a *Holy Shit, Obviously* moment for me. Marisa (and I, and probably everyone else ever) was looking at time all wrong.
+And then I had one of those realizations that seemed so obvious in retrospect: Marisa, and I, and probably everyone else ever — **we were looking at time all wrong.**
 
 ## A Shift in the Realities of Time
 
 Let's get deep(ly unscientific) for a minute and talk about time, as it exists in our current realities.
 
-Time flows through a mysterious hole in the universe, originating from a much-debated wellspring just beyond our comprehension. Time rains down upon us from the fourth dimension or whatever, and we're all given the opportunity to use a finite amount of it.
+Time flows through a mysterious hole in the universe, originating from a much-debated wellspring just beyond our comprehension. So time rains down upon us from the fourth dimension or whatever, and we're all given the opportunity to use a finite amount of it — until we run out of time and die.
 
 And that's where the fundamental misunderstanding comes in.
 
-### How we think time works.
+### We pretend time can be spent...
 
-There's a delusion that, with an appropriate container, we can store time. We say things like, "I don't want to spend my time that way," and imagine ourselves catching those few hours in a jar, to be spent later.
+{{% caption src="/images/better-way-to-spend-time.jpg"
+            align="alignright"
+            alt="There are better ways to spend my time." %}}
+  We seem to think we can save up our time until we're ready to use it.
+{{% /caption %}}
 
-We picture it as a liquid, like water, that can be dammed, captured, stoppered, stored, labeled, and consumed at a later date.
+There's a delusion that, with an appropriate container, we can store our time for later. We say things like, "I don't want to spend my time that way," and imagine ourselves catching those unused hours in a jar, to be spent when we _do_ want to spend our time some way.
+
+**We picture time as a liquid, like water, that can be dammed, diverted, stoppered, stored, labeled, and used at a later date.**
 
 Over time, the most temporally responsible among us will boast shelves upon shelves of bottled time, waiting for the right time to spend our carefully stockpiled time. Aging it, so to speak.
 
-### How time really works.
+### ...but that's not how time works.
 
-A better analogy for time is sunlight. Or wind.
+A more accurate analogy for time is sunlight. Or wind.
 
 The world spins, and depending on where we stand on it, we get so much sunlight during the day. And if it's a windy day, the wind blows.
 
 We can't store it. There's no bottle-aged sunshine. You can't crack open a can of Blustery October Morning on a stifling July afternoon.
 
-Time, like sunlight and wind, is a linear, nontransferable resource. It happens once, and then it's over. **Time passes and is lost, whether you had something valuable to spend it on or not.**
+Time — like sunlight and wind — is a linear, nontransferable resource. It happens once, and then it's over. **Time passes and is lost, whether you "spent it" on something valuable or not.**
 
 ## The Two Possible Outcomes of Passing Time
 
@@ -110,6 +112,12 @@ You're still out the same amount of time as if you'd worked on something else, e
 
 ## Use Your Time Now — You Can't Use It Later
 
+{{% caption src="/images/jason-and-marisa-cooking-class.jpg"
+            align="alignright"
+            alt="Jason Lengstorf and Marisa Morby in a cooking class in Rome" %}}
+  At a cooking class in Rome. Hard to call this "productive", but I know more about the world because of it.
+{{% /caption %}}
+
 Our time is not like our bank balance. We can't live frugally and accrue tons of time to spend later in life, after we've learned what we enjoy.
 
 **We're born with a finite amount of time, and each day we lose 24 hours of it.**
@@ -118,7 +126,7 @@ When you refuse to start on something because you're worried you might waste you
 
 ## Pull the Trigger on New Projects and Learn Something
 
-If we choose to sit and wait for "the right ideas" to come to us, we might wait an awfully long time. However, if you're constantly working on something — even if it might be wrong — you can find the right ideas much more quickly.
+If we choose to sit and wait for "the right ideas" to come to us, we might wait an awfully long time. However, if you're constantly working on something — even if it ends up being the "wrong" idea — you'll learn things that will help you find the right ideas that much more quickly.
 
 So if you find yourself wanting to hold off on a new project because you're worried it might be a waste of time, ask yourself two questions:
 
@@ -137,6 +145,12 @@ And if you don't start this new project — and you don't have something more va
 
 [^productive]:
     Productivity is important. I [talk about productivity]({{< ref "blog/scheduling-maximum-productivity.md" >}}) frequently. But there's a point where productivity research is like turning down sex because you're too busy masturbating.
+
+{{% caption src="/images/things-jason-lengstorf-has-wasted-time-on.jpg"
+            align="aligncenter"
+            alt="Is this the best use of my time?" %}}
+  Just a few of the many things I've "wasted" time on that weren't my ultimate career path — each of which taught me something valuable I can apply to my life.
+{{% /caption %}}
 
 ### There is no better way to spend your time than by gaining experience.
 
