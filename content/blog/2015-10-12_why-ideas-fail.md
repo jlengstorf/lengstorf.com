@@ -192,7 +192,7 @@ And then there's my usual struggle: the projects that scream along toward comple
 [^artbiopic]:
     If an art film is ever made about my creative process, it'll be a six minute loop of Sisyphus rolling a boulder up a hill while bragging loudly on his cell phone about how awesome his boulder is, then chasing it down the hill while angrily explaining to the cell phone that all boulders are stupid.
 
-### Some ideas *should* die.
+### Some ideas should die.
 
 In the case of Kidstarter, Robin and I had a good idea that was bad for us. We had the enthusiasm and the technical knowhow, but — critically — we lacked the skills to find investors or deal with legal challenges.
 
@@ -252,7 +252,7 @@ So The Slog is a necessary evil. It's what allows us to break out of that endles
 
 The Slog, in other words, is what separates *finishing* from *failing*.
 
-### The only *real* failure is giving up.
+### The only real failure is giving up.
 
 When we push through The Slog, we add punctuation to the story. It creates space for additional information, and for next steps.
 
