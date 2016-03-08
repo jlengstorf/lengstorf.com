@@ -18,6 +18,8 @@ images:
 
 <p class="lead"><strong>Can you really <em>save money</em> by traveling the world?</strong> Chances are, you can. Probably quite a bit, actually.</p>
 
+If your income is location-independent, you can most likely _save_ thousands of dollars a year by traveling the world.
+
 To see exactly how much, take three minutes to enter your expenses below.
 
 <a href="#enter-bills" class="cost-of-living__continue-link">Compare Your Costs</a>
