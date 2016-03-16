@@ -44,6 +44,7 @@ The guide is broken up to lessons, which are delivered over a few days to make t
 When you're ready to take the first step toward a life of travel and adventure, just enter your email below to get the first lesson delivered instantly.
 
 {{< optin button="Get the Guide"
+          group="remote-work"
           privacy="I will never share your information. Because I&rsquo;m not a dick." >}}
 
 ### Why did I go to the trouble of putting this guide together just to give it away for free?
@@ -61,4 +62,5 @@ If you don't like it, you can unsubscribe at any time and/or reply to a message 
 You've got nothing to lose and everything to gain.
 
 {{< optin button="Send Lesson 1"
+          group="remote-work"
           privacy="I will never share your information. Because I&rsquo;m not a dick." >}}
