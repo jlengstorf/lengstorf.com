@@ -132,6 +132,8 @@ What will you create when you give yourself permission to start shitty?
 [^validation]:
     Please validate me. My sense of self-worth is bound to [my Klout score][4].
 
+{{< cta focus >}}
+
  [1]: http://precisionnutrition.com/
  [2]: http://goo.gl/EY6UKJ
  [3]: https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf

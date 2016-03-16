@@ -112,6 +112,8 @@ Have you made something non-optional and seen success similar to mine? Or, bette
 
 I'd love to hear about it; hit the discussion link and share!
 
+{{< cta focus >}}
+
  [1]: http://lengstorf.com/better-productivity-work-less/
  [2]: http://www.t-nation.com/free_online_article/sports_body_training_performance/the_gable_method
  [3]: http://lengstorf.com/best-friends/

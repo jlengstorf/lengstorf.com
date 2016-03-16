@@ -66,5 +66,7 @@ It should also have the added benefit of making me feel less guilty if I spend t
 
 **UPDATE:** The experiment went well, and I've [posted the results][2] for review. Short version: this is something I'm going to try and integrate into my workflow once a week or so.
 
+{{< cta focus >}}
+
  [1]: http://lengstorf.com/jazz/
  [2]: http://lengstorf.com/no-distractions-results/

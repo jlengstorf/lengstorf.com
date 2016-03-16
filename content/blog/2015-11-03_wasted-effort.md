@@ -84,3 +84,5 @@ The tech crowd encourages new entrepreneurs to "fail fast" — this is what the
 Gaining experience of *any kind* is a step further away from, "I have no idea what I want to do with my life," and a step closer to, "I'm still not sure what I want to do with my life, but I'm certain of a few things I *don't* want to do with it."
 
 Because even a bad experience is still experience, and **it's just as critical to know where _not_ to step** as you're moving forward.
+
+{{< cta focus >}}

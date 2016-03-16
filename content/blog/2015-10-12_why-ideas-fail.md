@@ -341,3 +341,5 @@ This is all the more reason to push through The Slog. If it feels like we never 
 Finish a blog post. Finish a sketch. Hell, finish a *meal*.
 
 Just get that ball rolling. Because sticking through The Slog sucks, but a single, finished project is worth a thousand half-baked ideas abandoned in Despair.
+
+{{< cta focus >}}

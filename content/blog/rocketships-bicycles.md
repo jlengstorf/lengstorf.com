@@ -215,4 +215,6 @@ You may find yourself on a bicycle to start, but before long you'll find yoursel
 >
 > **Norman Vincent Peale**
 
+{{< cta focus >}}
+
  [1]: http://lengstorf.com/remote-work-travel/

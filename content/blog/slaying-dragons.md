@@ -169,3 +169,5 @@ Going forward, I'll try to choose my battles more wisely, and make sure that the
 Truth be told, I'll probably never hang up my sword. Or my banana hammock. But I'll try to use them more responsibly.
 
 And that's better for all of us.
+
+{{< cta focus >}}

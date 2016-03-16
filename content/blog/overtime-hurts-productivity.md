@@ -165,7 +165,7 @@ Leaving a little in the tank is vital for sustained performance. When there's a 
 
 And none of that should be undervalued — it's the secret to *truly* being successful and productive in the long run.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
 [^done]:
     And remember, you're doing manual labor in this scenario. You can't just move a couple boxes real quick from your phone during dinner, or make a call to rearrange that shelf you forgot to deal with today. When you're done for the day, *you're done for the day.*

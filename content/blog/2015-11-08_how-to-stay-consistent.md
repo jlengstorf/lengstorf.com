@@ -258,3 +258,5 @@ I sincerely doubt that I'll follow this routine until I die. Later, when I have 
 But for now, **I've been able to get in an hour and a half of writing every day** following this routine, without getting less done elsewhere. For now, I don't feel guilty about ignoring something I care about.
 
 So while I'm sure I'll need to create a new routine in the future to address some other area of my life that I'm neglecting, for now this routine is good enough — and compared to where I was before, it feels like magic.
+
+{{< cta focus >}}

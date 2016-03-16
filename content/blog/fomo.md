@@ -168,7 +168,7 @@ But we saw [this video][4] the day it came out. And [this one][5].
 
 Clearly, our sacrifice was necessary.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
 [^punchline]:
     The third statistician jumps up and starts fist-pumping and yelling, "Yeah! We got him, boys! We got him!"

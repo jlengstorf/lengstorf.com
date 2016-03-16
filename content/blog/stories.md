@@ -88,7 +88,7 @@ The good news is that — regardless of how your stories read so far — you're 
 
 Try to make them good ones.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
  [1]: http://amzn.to/X7sjiL
  [2]: http://lengstorf.com/bright-side/

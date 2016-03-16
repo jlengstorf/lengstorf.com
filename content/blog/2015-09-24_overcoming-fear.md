@@ -169,4 +169,4 @@ Whether you're nervous about [becoming a remote worker]({{< ref "blog/how-to-bec
 
 And when overcoming your fear is as simple as exposing yourself to it until it becomes boring, the only *truly* scary thing is that some people still choose the cage.
 
-{{< cta travel >}}
+{{< cta focus >}}

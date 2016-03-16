@@ -184,7 +184,7 @@ Because I don't know what I want tomorrow. I don't know what I'll see from the t
 
 **But I know that I'll be happy as long as I'm climbing.**
 
-{{< cta travel >}}
+{{< cta focus >}}
 
 [^next-birthday]:
     "No, Mom, I promise! If you get me this you don't have to get *anything* for my next birthday! Honest," he said, for the third straight year.

@@ -173,4 +173,4 @@ It hasn't cured me — I mean, shit, I was probably condescending within this po
 
 And I'll call that a win.
 
-{{< cta travel >}}
+{{< cta focus >}}

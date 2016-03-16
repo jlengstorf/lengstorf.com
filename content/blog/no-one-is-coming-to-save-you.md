@@ -292,7 +292,7 @@ So far, at least, I feel happier than I've ever felt — and significantly more 
 
 Most of all, I'm free to let my past experiences make me lighter — they're there to show me what I *don't* need to carry, after all.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
 [^injustices]:
     An abridged list of injustices endured by fourteen-year-old Jason Lengstorf:

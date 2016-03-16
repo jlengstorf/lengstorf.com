@@ -161,7 +161,7 @@ It's stressful to hunt for a new job, but there are [lots][6] [of][7] [options][
 
 If you can't change your culture, **don't let yourself be the one who's punished for someone else's incompetence.**
 
-{{< cta travel >}}
+{{< cta focus >}}
 
  [1]: http://discover.umn.edu/news/arts-humanities/flexible-schedules-and-results-oriented-work-environments-reduce-work-family
  [3]: http://gorowe.com/pages/about-rowe

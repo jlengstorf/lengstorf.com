@@ -210,6 +210,8 @@ How do you plan your projects? Let me know in the comments!
 [^scopecreep]:
     This is especially important if you're working with paying clients. The scope is what keeps the price where it is — if the scope changes, the price changes. Without clearly defined, measurable scopes, you're almost guaranteed to run into [scope creep][5], and that either means you're working for free or your client is paying money they didn't expect to pay — in either scenario there's unnecessary tension and resentment.
 
+{{< cta focus >}}
+
  [1]: http://lengstorf.com/remote-work-travel/
  [2]: http://blog.codinghorror.com/the-multi-tasking-myth/
  [4]: http://lengstorf.com/shitty-first-draft/

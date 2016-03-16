@@ -90,7 +90,7 @@ Is a full day too scary? Start small: **take just two hours to leave your phone 
 
 You might be surprised at what you're able to accomplish.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
  [1]: http://lengstorf.com/set-yourself-on-fire/
  [2]: http://www.nytimes.com/2014/08/10/opinion/sunday/hit-the-reset-button-in-your-brain.html

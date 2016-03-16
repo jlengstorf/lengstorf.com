@@ -164,4 +164,4 @@ It's certainly more temporally responsible than letting that time pass unused.
 
 And — hey — you might just learn something.
 
-{{< cta "focus" >}}
+{{< cta focus >}}

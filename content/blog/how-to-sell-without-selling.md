@@ -299,7 +299,7 @@ So if you hate sales, don't worry — you can still be a freelancer. You may nee
 
 Just stay confident, ask for leads, and remember that your skills finish the job and earn new referrals — so do good work.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
 [^degree]:
     I don't actually remember *exactly* what her degree is. It's something to do with English, writing, and/or literature. Whatever it is, it's very relevant to writing professionally.

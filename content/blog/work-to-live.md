@@ -110,7 +110,7 @@ So repeat after me:
 
 ***We work to live.***
 
-{{< cta travel >}}
+{{< cta focus >}}
 
  [1]: http://lengstorf.com/sacrifice/
  [2]: http://lengstorf.com/growing-up-vs-growing-older/

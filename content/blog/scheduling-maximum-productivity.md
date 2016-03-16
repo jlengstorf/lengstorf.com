@@ -45,7 +45,7 @@ This led to a horribly [unsustainable working style][1].
 
 > Before my eyes are even open I'm reaching for my phone. The lock screen is loaded with notifications, and a knot starts to form in my stomach. *Oh Christ. Here we go again.* Scan the email for emergencies. Check Twitter. *Only 1 new follower. Note to self: suck less as a person.* More email. Mash out typo-riddled responses with my thumbs as I walk to get coffee — "Hey, Heidi. Nice day, huh? . . . Yeah, I'm good. You? . . . Good to hear. Well, see you later!" — and scan calendar invites on the walk back. Open a code editor. Chat beeps. Forget what I was working on. Remember. Email beeps. Forget again. Start working on the issue in the email. Chat beeps. Remember what I was supposed to be working on. Email beeps. Forget. Look at the clock. *Goddammit, I forgot to eat again.* Order delivery. Move to the couch. Put on *Fringe*. Remember today's deadline. Panic. It's after nine so chat's quiet; *finally, I'll get some work done.* Close the computer with four half-finished emails and two of three projects incomplete. Fall asleep checking email.
 
-**Most days, I *did* a lot — I just didn't get much *done.***
+**Most days, I *did* a lot — I just didn't get much _done_.**
 
 Most of my time was spent on things that weren't very important, and very little of my effort was spent on what I was *supposed* to be doing.
 
@@ -300,7 +300,7 @@ Don’t waste time like I did. You can start working less and accomplishing more
  [18]: http://www.telegraph.co.uk/news/science/6094786/Feeling-stressed-Then-go-mow-the-lawn-claims-research.html
  [19]: http://lengstorf.com/results-based-work/
  [20]: http://lengstorf.com/work-to-live/
- [21]: http://lengstorf.com/remote-work-course/
+ [21]: https://lengstorf.com/productivity-habits/
  [22]: https://www.strategiccoach.com/home.html
  [23]: https://chrome.google.com/webstore/detail/morphine/fbnpehpbojenlldmfcopeajkichnnjpo
  [24]: https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=e

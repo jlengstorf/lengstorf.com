@@ -125,7 +125,7 @@ And if you want something different than what you're doing now, don't ever let a
 
 So let's all find the love in our work, because it certainly beats the shit out of the alternative.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
  [1]: http://www.slate.com/articles/technology/technology/2014/01/do_what_you_love_love_what_you_do_an_omnipresent_mantra_that_s_bad_for_work.single.html
  [2]: http://thegreencleanqueen.com

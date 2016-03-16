@@ -258,4 +258,4 @@ The events may sometimes be out of our control, but the choice of how to deal wi
 
 **Further reading: [Stop Glossing Over the Good Stuff](https://medium.com/@jlengstorf/stop-glossing-over-the-good-stuff-b89e25f7c714)**
 
-{{< cta travel >}}
+{{< cta focus >}}

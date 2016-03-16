@@ -152,4 +152,6 @@ Maybe. But at least now I can remind him that I was a helping hand on his way up
 [^perspective]:
     For the non-nerds in the room, let me try to put this question into perspective. Imagine you're curious to know more about engines, and you ask a mechanic how what you should do to learn more about cars. In response, he says to you, "What's the difference between using a horse to pull your carriage, or using a donkey?"
 
+{{< cta focus >}}
+
  [1]: http://javascriptjake.com/

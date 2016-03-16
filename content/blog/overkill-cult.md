@@ -275,7 +275,7 @@ Dump your Kool-Aid in the sink. Take back your freedom. Find the happiness and s
 
 Close your computer. Go outside. And call your friends; they miss you.
 
-{{< cta travel >}}
+{{< cta focus >}}
 
 [^worklike]:
     Hardly any of these hours were productive. Often I'd refresh my email, or stare at a code editor in a daze before realizing I'd been sitting there with my mouth open for half an hour.
