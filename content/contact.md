@@ -39,10 +39,7 @@ I'm more responsive on social media than I am on email. If you've got a quick qu
 
 ## 3\. Send Me a Message
 
-If you'd like to email me, you can use the form below. Please keep in mind that I only check email a couple times a week ([here's why][4]), so it'll take me a few days to get back to you.
-
-{{< contactform >}}
-
+If you want to talk about something that doesn't make sense on social media, you can <a href='mail&#116;o&#58;j%61%&#55;3&#37;6Fn&#64;l&#37;6&#53;ng&#37;7&#51;%&#55;4&#37;&#54;Fr%66&#46;c%6Fm'>email me directly</a>. Please keep in mind that I check email infrequently, so it may take me a few days to get back to you.
 
 
 [^email]:
