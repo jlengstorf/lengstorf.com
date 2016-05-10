@@ -15,8 +15,7 @@ tag:
 - productivity
 
 images:
-- /images/do-it-every-day1-600x300.jpg
-- /images/do-it-every-day1.jpg
+- /images/do-it-every-day-600x300.jpg
 - /images/do-it-every-day.jpg
 
 videos: []
