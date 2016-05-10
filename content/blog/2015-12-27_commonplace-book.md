@@ -1,5 +1,5 @@
 ---
-date: 2015-12-30T08:49:12+07:00
+date: 2016-04-26T16:17:12+09:00
 author: jason
 draft: true
 
@@ -9,10 +9,10 @@ slug: write-everything-down
 description: Could a long-dead seventeenth-century trend hold one of the keys to better ideas? 
 
 category:
-- commonplacing
 - motivation
 
 tag:
+- commonplacing
 - creating
 - productivity
 - ideas
@@ -27,12 +27,13 @@ videos: []
 discussion_link: 
 
 ---
-I started reading [_Where Good Ideas Come From_](http://amzn.to/1QOSd4A) by Steven Johnson last week.
+Not too long ago, I read [_Where Good Ideas Come From_](http://amzn.to/1QOSd4A) by Steven Johnson. In it, Johnson talks about Charles Darwin's process that led to the theory of natural selection.
 
-In it, Johnson talks about Charles Darwin, and the process by which the theory of natural selection came about. There was no Aha Moment; no flash of sudden insight; no wise old man with the final piece to the puzzle[^malthus] — Darwin's idea formed slowly, over the course of years.
+The story is interesting in how utterly uninteresting it is.
 
-[^malthus]:
-    Though there was almost a wise old man with the final piece of the puzzle: Darwin read an essay by Malthus, after which he wrote, "Here, then, I had at last got a theory by which to work." Except he'd already been talking about natural selection for about a year in his writing — he just hadn't realized it yet.
+There was no Aha Moment. No flash of sudden insight. No wise old man with the final piece to the puzzle, or a cruel twist of fate that brought new perspective.
+
+Instead, Darwin's idea formed slowly, over the course of many years.
 
 Johnson calls this a "slow hunch", and attributes several great breakthroughs in history to it. His argument, really, is that very few ideas happen suddenly and without warning; rather, "they fade into view."
 
@@ -46,11 +47,11 @@ Johnson calls this a "slow hunch", and attributes several great breakthroughs in
     How to cross the street in Vietnam.
 {{< /caption >}}
 
-Three days ago I was walking home in Hanoi. I was walking in the street because sidewalks aren't really for walking here; they were packed with people sitting on tiny stools, enjoying street food and [bia hoi](https://en.wikipedia.org/wiki/Bia_h%C6%A1i).
+When I first started this post I was living in Hanoi, Vietnam.
 
-Scooters weaved through the pedestrian press, blasting horns, carrying everything from families of four to refrigerator-sized boxes, somehow staying upright and avoiding the thousand other quick-weaving, horn-blasting scooters.
+The sidewalks in Vietnam are used for everything _except_ walking; the corners are packed with people sitting on tiny stools, enjoying street food and [bia hoi](https://en.wikipedia.org/wiki/Bia_h%C6%A1i); scooters weave through the pedestrian press, blasting horns, carrying everything from families of four to refrigerator-sized boxes, somehow staying upright and avoiding the thousand other quick-weaving, horn-blasting scooters.
 
-As I was watching all this, I had an idea. I know it was a good idea, because I can remember the giddy-silly excitement I felt after it hit me.
+As I watched the chaos, I had an idea. It was a good idea, I know, because I remember the giddy-silly excitement I felt after it hit me.
 
 And then? I fucking _forgot it_.
 
@@ -82,9 +83,15 @@ The goal was to keep a written record of the transient thoughts that we catch an
 
 ## How to Have Great Ideas
 
-If I've had one Big Idea™ in my life so far, it's been the realization that my career and my income are _tools_ and not goals. My _goals_ are to live a life where I'm not obligated to do anything I haven't chosen to do; to have the personal and financial freedom to do the things that sound interesting to me; to live a life where every day I'm saying, "I can't imagine any way I'd rather be living right now."
+If I've had one Big Idea™ in my life so far, it's been the realization that my career and my income are _tools_ and not goals.
 
-That idea wasn't born whole. For anyone who's been reading along, I've slowly built this idea, starting in late 2013 when I realized how unhealthy my working situation was, gaining steam in early 2014 when I [wrote about my workaholism](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a), and maturing throughout 2015 as I've shifted into this new lifestyle.
+My _goals_ are:
+
+1. to live a life where I'm not obligated to do anything I haven't chosen to do;
+2. to have the personal and financial freedom to do the things that sound interesting to me;
+3. to live a life where every day I'm saying, "I can't imagine any way I'd rather be living right now."
+
+That idea wasn't born whole. For anyone who's been reading along, I've slowly built this idea, starting in late 2013 when I realized how unhealthy my working situation was, gaining steam in early 2014 when I [wrote about my workaholism](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a), and maturing throughout 2015 as I've shifted into a new lifestyle of [permanent travel]({{< ref "2015-12-30_year-in-review.md" >}}) and far more balance.
 
 In fact, if I look through my previous posts I can see:
 
