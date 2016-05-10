@@ -16,8 +16,8 @@ tag:
 - productivity
 
 images:
-- /images//shitty-first-draft-hemingway-600x300.jpg
-- /images//shitty-first-draft-hemingway.jpg
+- /images/shitty-first-draft-hemingway-600x300.jpg
+- /images/shitty-first-draft-hemingway.jpg
 - /images/quick-and-dirty-prototypes.jpg
 - /images/underpants-gnomes-planning.jpg
 - /images/ernest-hemingway-shitty-first-draft.jpg
