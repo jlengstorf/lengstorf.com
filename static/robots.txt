@@ -1,4 +1,5 @@
 User-agent: *
 
-Disallow: /productivity-habits/download/
 Disallow: /downloads/
+Disallow: /productivity-habits/download/
+Disallow: /remote-work-course/confirmed/
