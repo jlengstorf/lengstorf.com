@@ -1,0 +1,52 @@
+baseurl = "https://lengstorf.com"
+languageCode = "en-us"
+title = "Jason Lengstorf"
+
+theme = "lengstorf2016"
+
+footnotereturnlinkcontents = "↩"
+canonifyurls = true
+
+Paginate = 6
+
+[permalinks]
+  blog = "/:slug/"
+
+[taxonomies]
+  tag = "tag"
+  category = "category"
+
+[params]
+  description = "Jason Lengstorf is an author, a speaker, and a solver of hard problems. He is currently experimenting with permanent travel and remote work."
+  default_image = "/images/jason-lengstorf.jpg"
+
+  google_analytics = "UA-39001606-1"
+
+  site_email = "jason@lengstorf.com"
+
+[params.schema]
+  type = "Person"
+  name = "Jason Lengstorf"
+  sameAs = [
+    "https://www.facebook.com/jlengstorf",
+    "https://instagram.com/jlengstorf",
+    "https://plus.google.com/+Lengstorf",
+    "https://www.youtube.com/lengstorf",
+    "https://twitter.com/jlengstorf",
+  ]
+
+[params.social]
+  github = "jlengstorf"
+  facebook = "jlengstorf"
+  facebook_admin = "1468448880"
+  twitter = "jlengstorf"
+  googleplus = "lengstorf"
+  instagram = "jlengstorf"
+  youtube = "lengstorf"
+  linkedin = "jlengstorf"
+
+[params.authors.jason]
+  name = "Jason Lengstorf"
+
+[params.authors.jason.social]
+  twitter = 'jlengstorf'
