@@ -1,0 +1,10 @@
+name = "lengstorf2016"
+license = "ISC"
+source_repo = "https://github.com/jlengstorf/hugo-lengstorf"
+description = "Updated blog theme for 2016."
+tags = [
+  "blog",
+]
+features = [
+  "manual",
+]
