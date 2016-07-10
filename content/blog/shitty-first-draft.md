@@ -62,6 +62,7 @@ Having something tangible to look at allows the whole team to see a real-world a
 With a Shitty First Draft, the time it takes to get something tangible is much lower. The project spends far less time as a concept in the minds of the "idea people", and far more time being shaped into a final product by the team.
 
 {{< caption src="/images/quick-and-dirty-prototypes.jpg"
+            paddingBottomPercent="61"
             align="alignright"
             alt="keep prototypes quick and dirty" >}}
   The wireframes for our app bordered on stick figures. That's all we needed.
@@ -80,6 +81,7 @@ This lo-fi storyboard only took a few days to put together, and having "real" sc
 ## Remove Guesswork from New Projects
 
 {{< caption src="/images/underpants-gnomes-planning.jpg"
+            paddingBottomPercent="61"
             align="alignleft"
             alt="Underpants Gnomes South Park"
             attr="South Park"

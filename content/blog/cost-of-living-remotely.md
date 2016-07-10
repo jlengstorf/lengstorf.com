@@ -108,6 +108,7 @@ If you were to spend half your year in low-cost cities like Chiang Mai and Pragu
 Using [Skyscanner][3] to determine the cost of flights, and [Airbnb][4] to determine the average cost of renting a place for a month, this comes out to an average $1,040/month.
 
 {{< caption src="/images/lease-vs-airbnb-cost-of-living.jpg"
+            paddingBottomPercent="37"
             align="aligncenter"
             alt="save about $1,000 by traveling the world" >}}
   Over the course of a year, living expenses end up lower when traveling.

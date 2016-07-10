@@ -35,10 +35,12 @@ I lugged my duffel up onto my right shoulder, clutched my computer bag to my lef
 By the time I got to the US Customs line, I was drenched in sweat, and my right shoulder was on fire from hauling the duffel.
 
 {{< caption src="/images/donald-duck-exhausted.gif"
+            srcset="/images/donald-duck-exhausted.gif 1x"
             align="alignright"
             alt="Donald Duck exhausted"
             attr="Disney"
-            attrlink="http://mickey.disney.com/donald" >}}
+            attrlink="http://mickey.disney.com/donald"
+            paddingBottomPercent="75" >}}
   Artist's depiction of me in the Dublin airport circa 2013.
 {{< /caption >}}
 
@@ -103,6 +105,7 @@ But my bag is fairly heavy when it's loaded with my computer, chargers, and misc
 Deep tissue massages hurt like hell, so I made the decision to get over my aversion to backpacks. In the beginning of 2014 I switched to using a [**Pacsafe Venture Safe 25L GII Backpack**][3], and I haven't once regretted the decision. I even (kind of) feel cool wearing it.
 
 {{< caption src="/images/jason-lengstorf-pacsafe-backpack.jpg"
+            paddingBottomPercent="100"
             align="alignleft"
             alt="Pacsafe travel backpack" >}}
   I feel pretty cool wearing this bag.
@@ -154,6 +157,8 @@ These are definitely a simple item, but I miss few things more than headphones i
 I've heard of people switching to tablets and ditching laptops altogether, but that's definitely not me. I still need an actual computer to get real work done, at least for the time being.
 
 {{< caption src="/images/ipad.jpg"
+            srcset="/images/ipad.jpg 1x"
+            paddingBottomPercent="80"
             align="alignright"
             alt="Apple iPad"
             attr="Apple"

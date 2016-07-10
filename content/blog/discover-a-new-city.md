@@ -71,6 +71,7 @@ For the first week or two, Barcelona seemed like a maze. Much of it was built be
 Mostly because we kept getting lost, we almost never walked the same route when we left Poble Sec.
 
 {{< caption src="/images/marisa-morby-barcelona-spain.jpg"
+            paddingBottomPercent="61"
             align="alignleft"
             alt="explore a new city — Marisa Morby, Cometa, Barcelona, Spain" >}}
   Marisa sipping chai at Cometa, a café we found while lost.
@@ -97,6 +98,7 @@ You can walk about three miles (4.8 kilometers) in an hour — if you're staying
 ### 2\. Don't visit the same places more than once or twice a week.
 
 {{< caption src="/images/jason-lengstorf-malamen.jpg"
+            paddingBottomPercent="100"
             align="alignright"
             alt="Malamén Barcelona, Spain, Jason Lengstorf"
             attr="Marisa Morby"

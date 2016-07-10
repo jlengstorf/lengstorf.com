@@ -39,6 +39,8 @@ But what good is that sacrifice, really? **Does the decision to suffer today for
 Certainly some sacrifice is a good thing. But how do we tell the difference between a sacrifice that will benefit us and a sacrifice that just makes us miserable for no reason?
 
 {{< caption src="/images/ramen.jpg"
+            srcset="/images/ramen.jpg 1x"
+            paddingBottomPercent="129"
             align="alignright"
             alt="ramen" >}}
   #thestruggleisreal

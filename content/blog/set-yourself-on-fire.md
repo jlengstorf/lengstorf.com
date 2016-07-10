@@ -33,6 +33,7 @@ For me, and for most people I know, this is both horribly frightening and incred
 ## From Drawing Garfield to Marketing a Band
 
 {{< caption src="/images/minusmythoughts.jpg"
+            paddingBottomPercent="69"
             align="aligncenter"
             alt="MinusMyThoughts"
             attr="Tyson Vick"

@@ -77,6 +77,8 @@ This is important, because the [cost of turnover adds up fast][8]:
 ## Remote Work Empowers Employees
 
 {{< caption src="/images/i-love-my-job.jpg"
+            srcset="/images/i-love-my-job.jpg 1x"
+            paddingBottomPercent="133"
             align="alignright"
             alt="make the job something workers love" >}}
   Employees who feel in control of their work lives love their jobs.

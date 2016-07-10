@@ -91,6 +91,8 @@ But knowing these few key phrases will at least give you tools to feel a little 
 ## Step 1: Learn How to Apologize
 
 {{< caption src="/images/im-sorry.jpg"
+            srcset="/images/im-sorry.jpg 1x"
+            paddingBottomPercent="67"
             align="alignright"
             alt="I'm sorry" >}}
 {{< /caption >}}

@@ -35,6 +35,8 @@ Carl was the first person I'd met who worked on websites for a living.[^montana]
 Carl looked at me, sizing me up. He had a smirk on his face. His condescending gaze was amused, like, "Who the fuck does this kid think he is?"
 
 {{< caption src="/images/ron-swanson-condescending.gif"
+            srcset="/images/ron-swanson-condescending.gif 1x"
+            paddingBottomPercent="49"
             align="alignright"
             alt="Ron Swanson condescending"
             attr="Parks and Recreation"
@@ -99,6 +101,8 @@ Last week I was in Boston speaking at an event.
 On one of the evenings there was a cocktail mixer at a bar called Lucky's, a basement bar in South Boston. It was the sort of dimly lit, brick-walled dive where you imagine finding disreputable people discussing unsavory acts, but actually find disinterested twenty-somethings discussing undiscovered bands.
 
 {{< caption src="/images/jake-pruitt.jpg"
+            srcset="/images/jake-pruitt.jpg 1x"
+            paddingBottomPercent="100"
             align="alignleft"
             alt="Jake Pruitt" >}}
 {{< /caption >}}

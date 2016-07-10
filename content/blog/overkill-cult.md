@@ -100,6 +100,7 @@ The client was thrilled. The site won a couple Addy Awards. I assume they made a
 Over the next few months, patches of my beard started to turn white. The whiskers became ultra-fine. Then they fell out altogether.
 
 {{< caption src="/images/overwork-stress-unhealthy.jpg"
+            paddingBottomPercent="61"
             align="alignright"
             alt="effect of overwork on the body" >}}
   May, 2013 — about six months after my Black Friday fiasco.
@@ -152,6 +153,7 @@ Research has proven over and over again that **it's not possible to be productiv
 Despite over 100 years of research supporting shorter work weeks, many companies still push for long hours, under the claims of a "sprint" or "crunch time" period.
 
 {{< caption src="/images/overwork-hurts-productivity.jpg"
+            paddingBottomPercent="61"
             align="alignright"
             alt="overtime causes negative productivity after a short time" >}}
   This diagram is loosely based on one included in Sidney J. Chapman's *Hours of Labor*.

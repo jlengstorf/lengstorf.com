@@ -220,10 +220,12 @@ If you sent this message without the note about referring leads, it would still 
 ### Remember: These Are Your Friends
 
 {{< caption src="/images/dont-be-a-dick.jpg"
+            srcset="/images/dont-be-a-dick.jpg 1x"
             align="alignright"
             alt="How not to be a dick."
             attr="Wil Wheaton"
-            attrlink="http://dontbeadickday.com" >}}
+            attrlink="http://dontbeadickday.com"
+            paddingBottomPercent="129" >}}
 {{< /caption >}}
 
 The big goal, of course, is not to be a dick about this. You are *not* going to get good results by pestering everyone you know about buying a website to "help you out" or whatever. That's multi-level marketing — are you a freelancer, or are you hawking Scentsy candles?

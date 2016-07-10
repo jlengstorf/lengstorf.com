@@ -52,6 +52,8 @@ We don't even need to be brave to pull it off.
 [According to research](http://bit.ly/1iT4fL6), animals (and people) "appear to be attracted towards mildly novel stimuli, and to avoid extremely novel stimuli." What this means is that we don't like being bored, but we also don't like things that fall too far outside our comfort zones. In other words, **when something is too unfamiliar, we find it scary.**
 
 {{< caption src="/images/only-scared-at-first.gif"
+            srcset="/images/only-scared-at-first.gif 1x"
+            paddingBottomPercent="75"
             align="alignright"
             alt="it's only scary at first" >}}
   It's only scary when it's new. Afterward, we can laugh at it.
@@ -86,6 +88,7 @@ Only now, we were terrified.
 Given that it was our first time on the bike, this set a bad precedent: as of that moment, 100% of scooter rides resulted in pain and humiliation for us. And that made us both far more reluctant to get back on the scooter again.
 
 {{< caption src="/images/marisa-scooter.jpg"
+            paddingBottomPercent="81"
             align="alignright"
             alt="Marisa Morby scooter safety" >}}
   Marisa, somewhere between "sphincter-clenching" and "anxiety".

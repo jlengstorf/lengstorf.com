@@ -17,7 +17,7 @@ tag:
 images:
 - /images/becoming-an-adult-600x300.jpg
 - /images/becoming-an-adult.jpg
-- /images/fight-club.png
+- /images/fight-club.jpg
 - /images/minusmythoughts.jpg
 
 videos: []
@@ -73,7 +73,7 @@ We grow older, but we remain children.
 
 There's a scene in [*Fight Club*][2] that has always stuck with me:
 
-{{< caption src="/images/fight-club.png"
+{{< caption src="/images/fight-club.jpg"
             align="aligncenter"
             alt="Fight Club"
             attr="Fight Club"
@@ -138,6 +138,7 @@ When my parents sent me off to college in Denver, I'm sure they had high hopes t
 Instead, I dropped out after a few months, moved back into their basement, joined back up with my band, and embarked on what ended up being my vision quest: I jumped in a van with four other dudes and drove around the country playing music for two years.
 
 {{< caption src="/images/minusmythoughts.jpg"
+            paddingBottomPercent="69"
             align="aligncenter"
             alt="Don't we look ready to face grown-up issues?"
             attr="Tyson Vick"

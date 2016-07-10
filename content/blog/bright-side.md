@@ -68,6 +68,8 @@ Everything has a bright side.[^realtalk] **It's up to you to let the bright side
   Okay, okay, not everything. Some things are irredeemable. But if you have time to read a blog like mine, I'm willing to bet that you and I are talking better than 95% First World Problems, here. #realtalk
 
 {{% caption src="/images/eeyore.jpg"
+            srcset="/images/eeyore.jpg 1x"
+            paddingBottomPercent="100"
             align="alignright"
             alt="Eeyore" %}}
   Don't let yourself become an emotional black hole.

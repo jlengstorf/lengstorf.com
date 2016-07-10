@@ -102,6 +102,8 @@ In the absence of dragons, I might be forced to acknowledge that my dissatisfact
 As I approached my mid-twenties, it dawned on me that I was playing the Death Wish Edition™ of *Keeping Up with the Joneses* where I *wanted* a bigger and scarier dragon to slay — I needed to have bigger problems than anyone else to justify my discontent.
 
 {{< caption src="/images/fetish.gif"
+            srcset="/images/fetish.gif 1x"
+            paddingBottomPercent="73"
             align="alignright"
             alt="That's my fetish." >}}
 {{< /caption >}}

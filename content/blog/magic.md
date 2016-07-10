@@ -108,6 +108,8 @@ But the more I learned, the more I realized that none of this is sacred, superna
 ## Does Magic Matter?
 
 {{< caption src="/images/Justin-Flom-Magic-Trick.gif"
+            srcset="/images/Justin-Flom-Magic-Trick.gif 1x"
+            paddingBottomPercent="100"
             align="alignright"
             alt="Justin Flom magic trick"
             attr="Justin Flom"

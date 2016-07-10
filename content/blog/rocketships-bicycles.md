@@ -15,7 +15,6 @@ tag:
 - failure
 
 images:
-- /images/rocketship-setting-goals-600x300.jpg
 - /images/rocketship-goal-setting-lg.jpg
 - /images/progress-snowball-goal-setting.jpg
 

@@ -42,6 +42,8 @@ I dressed up as a Ninja Turtle for something like four straight Halloweens, watc
 So when the [pizza thrower][1] came out, *I had to have it.*
 
 {{< caption src="/images/ninja-rap.gif"
+            srcset="/images/ninja-rap.gif 1x"
+            paddingBottomPercent="75"
             align="alignright"
             alt="Vanilla Ice — Ninja Rap"
             attr="TMNT II: The Secret of the Ooze"
@@ -94,6 +96,8 @@ We didn't know about foreplay. We didn't know about "being sexy". We just awkwar
 In the time it took me to say, "Oh my god, it's in!" — it was over.
 
 {{< caption src="/images/its-in.gif"
+            srcset="/images/its-in.gif 1x"
+            paddingBottomPercent="53"
             align="aligncenter"
             alt="Oh my god, it's in!"
             attr="Superbad"

@@ -89,6 +89,7 @@ Really, I think I was just expecting things to be... _different_.
 But when I came out at gate A4 and found myself staring into the glowing beacon of a McDonald's menu, I realized the world is a pretty homogenous place these days. I mean, shit: I'm in Vietnam right now, and there's a goddamn KFC two blocks from my apartment.
 
 {{< caption src="/images/eiffel-tower-paris-france.jpg"
+            paddingBottomPercent="75"
             align="aligncenter"
             alt="Annecy, France" >}}
     Even the French were nice to me. Paris, France.
@@ -110,6 +111,7 @@ I think people want to be nice. But if you're a dick, or you give them the feeli
 So don't be a dick, and you'll probably have an awesome time while traveling.
 
 {{< caption src="/images/la-sagrada-familia-barcelona-spain.jpg"
+            paddingBottomPercent="75"
             align="aligncenter"
             alt="La Sagrada Familia, Barcelona, Spain" >}}
     La Sagrada Familia in Barcelona, Spain.
@@ -202,6 +204,7 @@ Other cities immediately rubbed me the wrong way: London had the sullen vibe of 
 Most cities, though, took time to show their personalities. I thought Istanbul was awful my first day there, but as I saw more of it, I realized it was just different from what I was used to — after a week, I was sad to leave because I realized I'd completely misjudged it at first.
 
 {{< caption src="/images/sunset-koh-phangan.jpg"
+            paddingBottomPercent="37"
             align="aligncenter"
             alt="The sunset in Koh Phangan, Thailand." >}}
     This is an untouched iPhone photo of the sunset in Koh Phangan, Thailand.
@@ -216,6 +219,7 @@ That year is over. So what do I do now?
 At the moment, I think I'll just keep doing what I'm doing. The world is a big place, and I still don't feel like I've seen very much of it. Marisa and I are still having fun, and our list of things to see has only gotten _longer_ as we've made our slow lap(s) around the planet.
 
 {{< caption src="/images/waterfall-krka-croatia.jpg"
+            paddingBottomPercent="75"
             align="aligncenter"
             alt="Krka in Croatia" >}}
     One of the most beautiful places I've ever been: Krka, Croatia.

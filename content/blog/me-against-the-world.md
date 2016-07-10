@@ -18,7 +18,6 @@ tag:
 images:
 - /images/dog-against-the-world-600x300.jpg
 - /images/dog-against-the-world.jpg
-- /images/me-against-the-world.jpg
 
 videos: []
 

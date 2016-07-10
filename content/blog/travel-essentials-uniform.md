@@ -28,6 +28,8 @@ discussion_link: https://www.facebook.com/jlengstorf/posts/760557387347498
 One of the toughest challenges of [my experiment in long-term remote living and travel][1] was figuring out how I was going to dress myself out of a carry-on suitcase for an entire year.
 
 {{< caption src="/images/exofficio-shirt.jpg"
+            srcset="/images/exofficio-shirt.jpg"
+            paddingBottomPercent="61"
             align="alignright"
             alt="Exofficio shirt"
             attr="Exofficio"

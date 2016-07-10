@@ -33,6 +33,7 @@ At fourteen, I felt a lot of rage.
 In retrospect, my anger wasn't much more than the vinegar-and-baking-soda aftermath of my first waves of conscious individualism breaking against jagged, hormonal shores.
 
 {{< caption src="/images/jason-lengstorf-high-school-bad-attitude.jpg"
+            paddingBottomPercent="61"
             align="alignright"
             alt="Jason Lengstorf in high school with a shitty attitude." >}}
   This is the face of struggle.
@@ -99,6 +100,8 @@ I spent most of my youth terrified of looking foolish. And when I wasn't worried
 **When I realized no one gave a shit about me, life became immeasurably easier.** I could strip down to one of those novelty thongs where my penis becomes an elephant trunk and sprint through a town hall meeting belting out the latest Taylor Swift single at the top of my lungs and *no one would care.*
 
 {{< caption src="/images/elephant-g-string.jpg"
+            srcset="/images/elephant-g-string.jpg 1x"
+            paddingBottomPercent="124"
             align="alignright"
             alt="Elephant G-string"
             attr="TGL, Inc."
@@ -145,6 +148,8 @@ I was the type of man who questioned all authority and made my own path.
 I was the type of man who wouldn't be lumped in with a group or clique.
 
 {{< caption src="/images/south-park-non-conformists.jpg"
+            srcset="/images/south-park-non-conformists.jpg 1x"
+            paddingBottomPercent="61"
             align="alignright"
             alt="South Park non-conformists"
             attr="South Park"
@@ -215,6 +220,8 @@ I had no memories. I knew nothing. All I cared about was whether I was hungry or
 When something happened, I had no frame of reference. I could only observe, consider it as an isolated event, and make a decision about what that meant to me in that moment.[^infantdecisions]
 
 {{< caption src="/images/jason-lengstorf-childhood.jpg"
+            srcset="/images/jason-lengstorf-childhood.jpg 1x"
+            paddingBottomPercent="83"
             align="alignleft"
             alt="Jason Lengstorf childhood photo" >}}
   No agenda, no prejudices — just a sweet bear sweater.
@@ -269,6 +276,7 @@ I had been cheating myself out of dozens — if not *hundreds* — of experience
 In the aftermath of the wake surfing incident, I've started running all my decisions through a do-I-really-feel-that-way-or-am-I-listening-to-my-idiot-teenaged-self-again filter.
 
 {{< caption src="/images/popeye-i-yam-what-i-yam.jpg"
+            paddingBottomPercent="61"
             align="alignright"
             alt="Popeye I Yam What I Yam"
             attr="Popeye the Sailor Man"

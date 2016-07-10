@@ -103,6 +103,7 @@ This is a good thing. A life without complications is a life without challenges,
 ### Step 1: Breathe; This Is What We Trained For
 
 {{< caption src="/images/when-things-go-wrong_step-1.jpg"
+            paddingBottomPercent="48"
             align="aligncenter"
             alt="when things go wrong, step 1: breathe" >}}
 {{< /caption >}}
@@ -116,6 +117,7 @@ We knew mistakes would happen. We're ready for this. We're excited, even: **now 
 ### Step 2: Determine the Severity of the Situation
 
 {{< caption src="/images/when-things-go-wrong_step-2.jpg"
+            paddingBottomPercent="48"
             align="aligncenter"
             alt="when things go wrong, step 2: check for injuries" >}}
 {{< /caption >}}
@@ -133,6 +135,7 @@ If everyone's intact, we can relax: **this is not an emergency situation.**
 ### Step 3: Figure Out Exactly What Went Wrong
 
 {{< caption src="/images/when-things-go-wrong_step-3.jpg"
+            paddingBottomPercent="48"
             align="aligncenter"
             alt="when things go wrong, step 4: think" >}}
 {{< /caption >}}
@@ -153,6 +156,7 @@ And remember to breathe; even a missed flight doesn't put us at risk of physical
 ### Step 4: Take Action (or Don't)
 
 {{< caption src="/images/when-things-go-wrong_step-4.jpg"
+            paddingBottomPercent="48"
             align="aligncenter"
             alt="when things go wrong, step 4: fix the problem (or don't)" >}}
 {{< /caption >}}

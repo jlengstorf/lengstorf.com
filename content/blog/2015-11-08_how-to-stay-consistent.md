@@ -9,16 +9,12 @@ slug: how-to-stay-consistent
 description: How can we make sure the things we care about most still get done, even when things get busy? Willpower isn't enough; we need a routine to keep us on track.
 
 category:
-- happiness
 - remote-productivity
 
 tag:
-- efficiency
-- learning
 - motivation
 - planning
 - productivity
-- ritual
 - success
 
 images:
