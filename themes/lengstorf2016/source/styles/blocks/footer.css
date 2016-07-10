@@ -1,0 +1,55 @@
+.footer {
+  padding: $height-unit calc( $width-unit * 5 ) calc( $height-unit * 4 );
+  border-top: 2px solid $color-accent;
+  color: color( $color-text tint(50%) );
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-transform: uppercase;
+
+  &__nav,&__credits {
+    text-align: center;
+  }
+
+  &__nav-link,&__credit {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,&:active,&:focus {
+      text-decoration: underline;
+      outline: 0;
+    }
+  }
+
+  @media $viewport-md {
+    display: flex;
+    align-items: center;
+    font-size: calc( $font-size-default * 0.75 );
+    padding-top: 0;
+    padding-bottom: 0;
+
+    &__nav {
+      flex: 2;
+      order: 2;
+      text-align: right;
+    }
+
+    &__credits {
+      flex: 1;
+      order: 1;
+      margin-top: 0;
+      text-align: left;
+    }
+
+    &__nav-link,&__credit {
+      margin-left: 0.5em;
+      margin-bottom: 0;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  /*
+   * Heydon Pickering’s lobotomized owl selector to create a
+   * default vertical rhythm. See <http://bit.ly/1H7MXUD>
+   */
+  *+* {
+    margin-top: $height-unit;
+  }
+}

@@ -1,0 +1,9 @@
+//{{ if isset .Params "enable_disqus" }}
+ul.meta__list.meta__list--comment-count
+  li.meta__item
+    a.meta__link(
+      href="#disqus_thread"
+      data-disqus-identifier="{{ .Slug }}"
+    ) 0
+script#dsq-count-scr(src="//lengstorf.disqus.com/count.js" async)
+//{{ end }}

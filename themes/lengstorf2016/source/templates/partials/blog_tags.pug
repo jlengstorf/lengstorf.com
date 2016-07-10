@@ -1,0 +1,7 @@
+//{{ if isset .Params "tag" }}
+ul.meta__list.meta__list--tags
+  //{{ range .Params.tag }}
+  li.meta__item.meta__item--tags
+    a.meta__link.meta__link--tags(href="/tag/{{ . | urlize }}") {{ . }}
+  //{{ end }}
+//{{ end }}

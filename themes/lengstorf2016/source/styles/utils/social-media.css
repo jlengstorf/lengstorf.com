@@ -1,0 +1,31 @@
+/*
+ * # Social Media Embed Styles
+ * These don’t really fit anywhere else, so let’s just shoehorn them in here...
+ */
+.fb-post {
+  width: 100%;
+  margin: calc( $height-unit * 1.5 ) auto;
+  text-align: center;
+}
+
+#fb-root {
+  margin-top: 0;
+}
+
+.twitter-tweet,.instagram-media {
+
+  /* Why do these guys hard-code the fucking margins?! */
+  margin: calc( $height-unit * 1.5 ) auto !important;
+}
+
+.instagram-media {
+  max-width: 500px !important;
+
+  a {
+    border: 0 !important;
+  }
+}
+
+iframe[id^="dsq-app"] {
+  margin-top: 0;
+}

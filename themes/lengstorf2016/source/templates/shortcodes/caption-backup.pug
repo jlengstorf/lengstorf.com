@@ -1,0 +1,38 @@
+//
+
+  This shortcode mimics the WordPress [caption] shortcode (sort of).
+
+  Options:
+  - align <enum> [ alignleft, alignright, aligncenter ]
+  - attr <string> entity to be credited for the image
+  - attrlink <string> Must be a valid URL
+  - alt <string> alt text for the image
+  - imglink <string> Must be a valid URL
+  - src <string> Path to the image
+
+
+  *******************************************************************
+
+  {{ $figureModifier := replace (.Get "align") "align" "" }}
+  {{ $innerLength := len .Inner }}
+
+  {{ if eq $figureModifier "center" }}
+    {{ $.Scratch.Set "sizes" "(min-width: 690px) 690px, 100vw" }}
+  {{ else }}
+    {{ $.Scratch.Set "sizes" "(min-width: 768px) 300px, 100vw" }}
+  {{ end }}
+
+figure.figure(
+  class!= 'figure--{{ $figureModifier }}'
+) {{ with .Get "imglink" }}<a class="figure__image-link" href="{{ . }}">{{ end }}
+  img.figure__image(
+    src!= '{{ replace (.Get "src") ".jpg" "-300x150.jpg" }}'
+    srcset!= '{{ replace (.Get "src") ".jpg" "-300x150.jpg" }} 300w, {{ replace (.Get "src") ".jpg" "-600x300.jpg" }} 600w, {{ .Get "src" }} 690w, {{ replace (.Get "src") ".jpg" "@2x.jpg" }} 1380w'
+    sizes!= '{{ $.Scratch.Get "sizes" }}'
+    alt!= '{{ with .Get "alt" }}{{.}}{{ end }}'
+  )
+  | {{ with .Get "imglink" }}</a>{{ end }}
+
+  //{{ if or (.Get "attr") (gt $innerLength 0) }}
+  figcaption.figure__caption {{ if and (gt $innerLength 0) (not (lt (len .Inner) 2)) }}{{ with .Inner }}{{ . }}{{ end }}{{ end }}{{ if isset .Params "attr" }} #[small.figure__attribution Credit:{{ with .Get "attrlink" }}<a class="figure__attribution-link" href="{{.}}">{{ end }} {{ .Get "attr" }}{{ if .Get "attrlink" }}</a>{{ end }}]{{ end }}
+  //{{ end }}

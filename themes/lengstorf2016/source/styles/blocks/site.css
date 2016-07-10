@@ -1,0 +1,75 @@
+.site {
+  position: relative;
+  background: $color-lightest;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 4px solid $color-accent;
+    z-index: 110;
+  }
+
+  &::after {
+    content: '';
+    position: fixed;
+    top: 4px;
+    left: 0;
+    right: 0;
+    border-top: 2px solid $color-gray-medium;
+    border-bottom: 2px solid $color-lightest;
+    z-index: 110;
+  }
+
+  &__header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__content {
+    margin-top: 0;
+    padding: calc( $height-unit * 4 ) calc( $height-unit * 1.334 );
+
+    /* Background images are inlined for certain layouts. */
+    background-attachment: scroll;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: color( $color-lightest alpha(95%) );
+  }
+
+  @media $viewport-md {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__header {
+      position: static;
+      flex: 1 calc( $width-unit * 38.2 );
+      max-width: 400px;
+      margin-top: 0;
+    }
+
+    &__content {
+      flex: 2 calc( $width-unit * 61.8 );
+      min-height: calc( 100vh - 30px );
+      min-width: calc( $width-unit * 61.8 );
+      margin-top: 0;
+      padding: calc( $height-unit * 10 ) calc( $height-unit * 3.667 ) calc( $height-unit * 4 );
+      overflow-y: scroll;
+    }
+
+    &__footer {
+      position: relative;
+      height: 30px;
+      width: 100%;
+      margin-top: 0;
+      background-color: $color-lightest;
+      z-index: 20;
+    }
+  }
+
+}

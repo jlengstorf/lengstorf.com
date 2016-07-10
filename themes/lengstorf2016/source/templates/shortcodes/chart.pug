@@ -1,0 +1,15 @@
+//{{ if .Get 0 }}
+//  {{ $chart := index $.Page.Site.Data.chart (urlize (.Get 0)) }}
+div(id="{{ .Get 0 }}")
+script.
+  var loadDropInCharts = () => {
+    ReactDOM.render(
+      React.createElement(
+        DropInChart,
+        {{ $chart }}
+      ),
+      document.getElementById('{{ .Get 0 }}')
+    );
+  };
+  document.addEventListener('drop-in-charts-loaded', loadDropInCharts);
+//{{ end }}

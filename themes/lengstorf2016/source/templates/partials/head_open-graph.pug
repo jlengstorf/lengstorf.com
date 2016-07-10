@@ -1,0 +1,79 @@
+meta(
+  property= 'og:title'
+  content= '{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}'
+)
+meta(
+  property= 'og:description'
+  content= '{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}'
+)
+meta(
+  property= 'og:type'
+  content!= '{{ if eq .Section "blog" }}article{{ else }}website{{ end }}'
+)
+meta( property= 'og:url' content= '{{ .Permalink }}' )
+
+//- Loop through this page's images, or supply the default image.
+//{{ with .Params.images }}
+    {{ range first 6 . }}
+      {{ if in . "-600x300" }}
+      {{ else }}
+meta( property= 'og:image' content= '{{ . | absURL }}' )
+//    {{ end }}
+    {{ end }}
+  {{ else }}
+meta(
+  property= 'og:image'
+  content= '{{ $.Site.Params.default_image | absURL }}'
+)
+//{{ end }}
+
+//- If videos were provided, loop through those and add them.
+//{{ with .Params.videos }}
+    {{ range . }}
+meta( property= 'og:video' content= '{{ . }}' )
+//  {{ end }}
+  {{ end }}
+
+meta(
+  property= 'og:updated_time'
+  content!= '{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'
+)
+
+//- If an author was set, add the appropriate OG tag.
+//{{ if and (isset .Site.Params "authors") (isset .Params "author") }}
+    {{ $author := index .Site.Params.authors .Params.author }}
+meta(
+  property= 'article:author'
+  content= 'https://www.facebook.com/{{ $author.social.facebook }}'
+)
+//{{ end }}
+
+meta(
+  property= 'article:publisher'
+  content= 'https://www.facebook.com/{{ .Site.Params.social.facebook }}'
+)
+
+//- For blog posts, add publication information.
+//{{ if .IsPage }}
+meta(
+  property= 'article:published_time'
+  content!= '{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'
+)
+meta(
+  property= 'article:modified_time'
+  content!= '{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'
+)
+meta( property= 'article:section' content= '{{ .Section }}' )
+//{{ end }}
+
+//- Loop through the first 6 tags and add them as tags.
+//{{ with .Params.tags }}
+    {{ range first 6 . }}
+meta( property= 'article:tag' content= '{{ . }}' )
+//  {{ end }}
+  {{ end }}
+
+//- If Facebook admin(s) were supplied, add them here.
+//{{ with .Site.Params.social.facebook_admin }}
+meta( property= 'fb:admins' content= '{{ . }}' )
+//{{ end }}

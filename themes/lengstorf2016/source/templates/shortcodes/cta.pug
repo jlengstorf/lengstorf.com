@@ -1,0 +1,38 @@
+//-
+  Adds a call to action.
+-
+  const getLink = landingpage => `{{ .Page.Site.BaseURL }}${landingpage}/?utm_source={{ .Page.Slug }}&utm_medium=cta&utm_campaign=${landingpage}`;
+//{{ $cta := .Get 0 }}
+h2 {{ if isset .Params 1 }}{{ .Get 1 }}{{ else }}What To Do Next{{ end }}
+
+//{{ if eq $cta "travel" }}
+p.
+  If you’re like me, the idea of traveling permanently while making a living probably seems like a dream — but you don’t think you can pull it off.
+p.
+  I felt that way right up until I actually boarded a flight to leave the United States. And now I can’t believe I didn’t start living this life sooner.
+p
+  strong
+    | I want to help you avoid my mistake: you can start living the life of your dreams right now. And I’ve put together a 
+    a(href= getLink('remote-work-course')) free step-by-step guide
+    |  to show you how.
+p
+  a(href= getLink('remote-work-course'))
+//{{ end }}
+
+//{{ if eq $cta "focus" }}
+p.
+  As adults, we’re supposed to build careers, build relationships, build futures, build happiness&hellip; It’s all pretty fucking overwhelming. It’s easy to feel stuck — like we’re on autopilot, punching a clock, and buried in tasks we don’t really care about.
+p.
+  Wouldn’t it be nice to get some balance back? To have extra time #[em every day] to dedicate to the things that actually matter to you?
+p
+  | I want to help: 
+  strong I’ve compiled 
+    em 5 Habits of the Unfuckwithably Productive
+    | , and 
+    a(href= getLink('productivity-habits')) I want to give it to you for free
+    | . These are time-tested habits that helped me break the cycle of overwork and exhaustion; this is 
+    em how I spend less than 40 hours a week on the computer — while making a living and traveling the world.
+p
+  a(href= getLink('productivity-habits')).
+    Click here to get the free guide.
+//{{ end }}

@@ -1,0 +1,42 @@
+
+head
+  meta(charset="utf-8")
+  meta(
+    name="viewport"
+    content="width=device-width,minimum-scale=1,initial-scale=1"
+  )
+  link(rel="canonical" href="{{ .Permalink }}")
+
+  //- | {{ partial "head_favicons" . }}
+
+  title
+    block title
+      | {{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}
+
+  //- Let's just avoid the headache of IE altogether.
+  | {{ "<!--[if !IE]> -->" | safeHTML }}
+
+  //- Include the site CSS directly
+  style
+    include /static/styles/app.css
+
+  | {{ "<!-- <![endif]-->" | safeHTML }}
+
+  link(
+    rel="publisher"
+    href="https://plus.google.com/+Lengstorf"
+  )
+  meta(
+    name="p:domain_verify"
+    content="96778d384f05c0f6fadda46a947404b8"
+  )
+
+  | {{ partial "head_schema.html" . }}
+  | {{ partial "head_open-graph.html" . }}
+  //- | {{ partial "head/seo/twitter-cards.html" . }}
+  //- | {{ partial "head/favicon.html" . }}
+  //- | {{ partial "head/rss.html" . }}
+  //- | {{ partial "head/google-analytics.html" . }}
+
+  script
+    include /static/scripts/direct-injected.js

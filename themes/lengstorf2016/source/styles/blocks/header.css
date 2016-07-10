@@ -1,0 +1,198 @@
+.header {
+  position: relative;
+  background-color: $color-gray-light;
+  z-index: 10;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid $color-lightest;
+    box-shadow: -1px 0 4px color( $color-darkest alpha(15%) );
+  }
+
+  &__nav-item {
+    flex: 1;
+    position: relative;
+    height: 40px;
+    margin: 0;
+    background: $color-accent;
+    border-right: 1px solid $color-lightest;
+    overflow: hidden;
+    text-indent: -9999px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 30px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 22px;
+    }
+
+    &::after {
+      content: attr(data-short-name);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: $color-lightest;
+      font-size: 8px;
+      font-weight: $font-weight-bold;
+      text-align: center;
+      text-indent: 0;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+
+    &--blog::before {
+      background-image: url(/images/icon-blog.svg);
+    }
+
+    &--start-here::before {
+      background-image: url(/images/icon-about.svg);
+    }
+
+    &--travel::before {
+      background-image: url(/images/icon-travel.svg);
+    }
+
+    &--post-hustle::before {
+      background-image: url(/images/icon-post-hustle.svg);
+    }
+
+    &--hire-me::before {
+      background-image: url(/images/icon-hire-me.svg);
+    }
+
+    &--contact::before {
+      background-image: url(/images/icon-contact.svg);
+    }
+
+    &:hover,&:active,&:focus,&--active {
+      background-color: $color-brand;
+      text-shadow: 1px 1px 0 color( $color-darkest alpha(40%) );
+      outline: 0;
+    }
+  }
+
+  @media $viewport-md {
+
+    &__nav {
+      position: fixed;
+      display: block;
+      width: calc( $width-unit * 38.2 );
+      max-width: 400px;
+      padding-top: 80px;
+      background-color: $color-lightest;
+      background-image: url(/images/jason-lengstorf-header-sm.jpg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: auto 80px;
+      border-bottom: 2px solid $color-lightest;
+      box-shadow: none;
+      font-size: calc( $font-size-default * 1.25 );
+
+      @media $res-2x {
+        background-image: url(/images/jason-lengstorf-header-sm@2x.jpg);
+      }
+
+      /* TODO: Check this once the final nav is in. */
+      @media (min-height: 474px) {
+        padding-top: 180px;
+        background-image: url(/images/jason-lengstorf-header-md.jpg);
+        background-size: auto 180px;
+
+        @media $res-2x {
+          background-image: url(/images/jason-lengstorf-header-md@2x.jpg);
+        }
+      }
+
+      @media (min-height: 602px) {
+        padding-top: 300px;
+        background-image: url(/images/jason-lengstorf-header-lg.jpg);
+        background-size: auto 300px;
+
+        @media $res-2x {
+          background-image: url(/images/jason-lengstorf-header-lg@2x.jpg);
+        }
+      }
+
+      &::before {
+        content: '';
+        display: block;
+        border-top: 1px solid $color-text;
+      }
+    }
+
+    &__nav-item {
+      position: relative;
+      display: block;
+      height: auto;
+      margin: 0;
+      padding: 0 $font-size-default;
+      background-color: $color-gray-light;
+      border-top: 2px solid $color-lightest;
+      color: $color-darkest;
+      font-weight: $font-weight-light;
+      line-height: calc( $font-size-default * 3 );
+      overflow: initial;
+      text-align: right;
+      text-decoration: none;
+      transition: 200ms all ease-in-out;
+
+      &::before {
+        background-image: none;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        right: 10px;
+        top: 0;
+        left: auto;
+        display: block;
+        background-color: $color-gray-light;
+        border-radius: 50%;
+        height: calc( $font-size-default * 3 );
+        width: calc( $font-size-default * 3 );
+        transform: rotate(45deg);
+        transition: 200ms all ease-in-out;
+      }
+
+      &--active {
+        font-family: $font-family-script;
+        font-size: 100%;
+      }
+
+      &:hover,&--active {
+        background-color: $color-brand;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: $color-lightest;
+        text-shadow: 1px 1px 0 color( $color-darkest alpha(30%) );
+
+        &::after {
+          right: calc( $height-unit * -0.25 );
+          background-color: $color-brand;
+          border-top-right-radius: calc( $height-unit / 4 );
+          z-index: 1;
+        }
+      }
+    }
+
+    &__nav-text {
+      position: relative;
+      z-index: 2;
+    }
+
+    &__nav-item--active &__nav-text {
+      top: 3px;
+      font-size: 110%;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.embed-container.figure.figure--center
+  iframe(
+    width="750"
+    height="400"
+    src!= "https://www.youtube.com/embed/{{ .Get 0 }}?rel=0{{ if isset .Params 1 }}&start={{ .Get 1 }}{{ end }}{{ if isset .Params 2 }}&end={{ .Get 2 }}{{ end }}"
+    frameborder="0"
+    allowfullscreen
+  )

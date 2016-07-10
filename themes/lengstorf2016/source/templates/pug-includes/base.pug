@@ -1,0 +1,131 @@
+doctype html
+
+block config
+  -
+    const config = {
+      nav: [
+        {
+          name: 'Home',
+          shortName: 'Home',
+          classes: ['home'],
+          slug: '',
+          hideInHeader: true,
+        },
+        {
+          name: 'Read the Blog',
+          shortName: 'Blog',
+          classes: ['blog'],
+          slug: 'blog',
+        },
+        {
+          name: 'Start Here',
+          shortName: 'About',
+          classes: ['start-here'],
+          slug: 'about',
+        },
+        {
+          name: 'Travel the World (Profitably)',
+          shortName: 'Travel',
+          classes: ['travel'],
+          slug: 'remote-work-course',
+        },
+        {
+          name: 'Have a Great Career <em>and</em> a Great Life',
+          shortName: 'Post-Hustle',
+          classes: ['post-hustle'],
+          slug: 'post-hustle',
+        },
+        {
+          name: 'Hire Me for Speaking &amp; Workshops',
+          shortName: 'Hire Me',
+          classes: ['hire-me'],
+          slug: 'hire-me',
+        },
+        {
+          name: 'Contact',
+          shortName: 'Contact',
+          classes: ['contact'],
+          slug: 'contact',
+        },
+        {
+          name: 'Disclaimer',
+          shortName: 'Disclaimer',
+          classes: ['disclaimer'],
+          slug: 'disclaimer',
+          hideInHeader: true,
+        },
+      ],
+      type: 'default',
+      apiURI: process.env.API_URI || '//api.lengstorf.dev',
+    };
+  -
+
+doctype html
+html(lang="en")
+  | {{ partial "head.html" . }}
+
+  body.no-js
+    .site
+      a.a11y__sr-only(href="#content") Jump to Content
+      header.site__header.header
+        nav.header__nav
+          each link in config.nav
+            -
+              var classes = link.classes.map(c => `header__nav-item--${c}`);
+              classes.push(
+                `{{ if eq .Slug "${link.slug}" }}header__nav-item--active{{ end }}`
+              );
+            -
+            if !link.hideInHeader
+              a.header__nav-item(
+                class!= classes
+                data-short-name= link.shortName
+                href!= `{{ .Site.BaseURL }}${link.slug}/`
+                title= link.title || ''
+              )
+                span.header__nav-text!= link.name
+              //- Trailing space to avoid links running together.
+              |  
+
+      //
+        {{ if isset .Params "images" }}
+          {{ if in (index .Params.images 0) "-600x300" }}
+            {{ $.Scratch.Set "mainImage" (index .Params.images 1) }}
+          {{ else }}
+            {{ $.Scratch.Set "mainImage" (index .Params.images 0) }}
+          {{ end }}
+        {{ else }}
+          {{ $.Scratch.Set "mainImage" "" }}
+        {{ end }}
+      if config.type === 'post'
+        style.
+          @media (min-width: 768px) {
+            .site__content {
+              background-image: linear-gradient(
+                to bottom,
+                rgba(255,252,255,.95) 0%,
+                rgba(255,252,255,1) 35vw
+              ),
+              url({{ $.Scratch.Get "mainImage" }});
+            }
+          }
+      main.site__content(
+        style!= bgImage
+      )
+        block content
+          article.article#content(
+            class= `article--${config.type}`
+          )
+            block article
+              .article__header
+                h1.article__heading {{ .Title }}
+              .article__content {{ .Content }}
+              | {{ partial "footnotes" .}}
+
+
+      footer.site__footer.footer
+        block footer
+          include ../pug-includes/footer
+
+    include ../pug-includes/footer_scripts
+    include ../pug-includes/dev-only_footer-scripts

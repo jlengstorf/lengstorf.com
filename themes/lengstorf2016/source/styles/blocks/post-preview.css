@@ -1,0 +1,93 @@
+.post-preview {
+  max-width: 650px;
+  margin: calc( $height-unit * 2 ) auto;
+  padding-bottom: calc( $height-unit * 2 );
+  border-bottom: 1px solid $color-gray-medium;
+
+  @media $viewport-md {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  &__heading {
+    font-family: $font-family-sans;
+    font-size: 150%;
+    font-weight: $font-weight-ultra;
+    text-transform: uppercase;
+  }
+
+  &__heading-link {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,&:active,&:focus {
+      text-decoration: underline;
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0;
+
+    @media $viewport-xs {
+      flex-direction: row;
+    }
+  }
+
+  &__meta {
+    flex: 3 100%;
+    margin-top: 0;
+  }
+
+  &__image-link {
+    flex: 1;
+    display: block;
+    width: 100%;
+    margin-top: $height-unit;
+    border: 1px solid color( $color-text tint( 20% ) );
+
+    @media $viewport-xs {
+      flex: 1 40%;
+      max-width: 40%;
+      margin-top: calc( $height-unit / 2 );
+      margin-right: 20px;
+    }
+
+    @media $viewport-sm {
+      margin-left: -20px;
+    }
+  }
+
+  &__image {
+
+  }
+
+  &__excerpt {
+    flex: 1;
+    font-size: calc( $font-size-default * 1.25 );
+    line-height: calc( $font-size-default * 2 );
+
+    @media $viewport-xs {
+      flex: 2 calc( 60% - 20px );
+      max-width: calc( 60% - 20px );
+      margin-top: calc( $height-unit / 2 );
+    }
+  }
+
+  a&__read-more {
+    display: block;
+
+    @media $viewport-xs {
+      display: inline-block;
+    }
+  }
+}

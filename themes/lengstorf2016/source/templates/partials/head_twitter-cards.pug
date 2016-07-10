@@ -1,0 +1,32 @@
+meta( name='twitter:card' content='summary_large_image' )
+
+//{{ with .Params.images }}
+meta(
+  name='twitter:image'
+  content!='{{ if in (index . 0) "-600x300" }}{{ index . 1 | absURL }}{{ else }}{{ index . 0 | absURL }}{{ end }}'
+)
+//{{ else }}
+meta(
+  name='twitter:image'
+  content!='{{ $.Site.Params.default_image | absURL }}'
+)
+//{{ end }}
+
+meta(
+  name='twitter:title'
+  content='{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}'
+)
+meta(
+  name='twitter:description'
+  content='{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}'
+)
+//{{ with .Site.Params.social.twitter }}
+meta( name='twitter:site' content='@{{ . }}' )
+//{{ end }}
+
+//{{ if and (isset .Site.Params "authors") (isset .Params "author") }}
+//  {{ $author := index .Site.Params.authors .Params.author }}
+//  {{ with $author.social.twitter }}
+meta( name='twitter:creator' content='@{{.}}' )
+//  {{ end }}
+//{{ end }}

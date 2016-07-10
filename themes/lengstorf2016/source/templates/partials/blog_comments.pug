@@ -1,0 +1,14 @@
+//{{ with .Params.enable_disqus }}
+.article__comments.comments
+  .comments__disqus#disqus_thread
+  script(async).
+
+    // Hacking away over here...
+    window.disqus_config = function () {
+      this.page.url = {{ $.Permalink }};
+      this.page.identifier = {{ $.Slug }};
+    };
+
+  noscript
+    | Please enable JavaScript to view the comments.
+//{{ end }}
