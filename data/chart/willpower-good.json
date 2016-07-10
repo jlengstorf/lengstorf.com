@@ -30,7 +30,9 @@
   },
   "legend": true,
   "caption": "Front-loading the tasks that require the most willpower makes it much easier to get them done.",
+  "align": "figure figure--center",
   "classes": {
-    "caption": "caption-text"
+    "base": "drop-in-chart",
+    "caption": "figure__caption"
   }
 }

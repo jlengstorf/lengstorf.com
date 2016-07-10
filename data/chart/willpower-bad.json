@@ -30,7 +30,9 @@
   },
   "legend": true,
   "caption": "By waiting until the end of the day to start tasks that require more willpower, I've set myself up for failure.",
+  "align": "figure figure--center",
   "classes": {
-    "caption": "caption-text"
+    "base": "drop-in-chart",
+    "caption": "figure__caption"
   }
 }
