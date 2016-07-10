@@ -1,4 +1,7 @@
 .DS_Store
+.env
+!.env.example
 dev/
+dev2016/
 public/
 invalidate.sh
