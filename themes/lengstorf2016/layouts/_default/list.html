@@ -1,0 +1,36 @@
+<!DOCTYPE html><!DOCTYPE html><html lang="en">{{ partial "head.html" . }}<body class="no-js"><div class="site"><a class="a11y__sr-only" href="#content">Jump to Content</a><header class="site__header header"><nav class="header__nav"><a class="header__nav-item header__nav-item--blog header__nav-item--active {{ if eq .Slug "blog" }}header__nav-item--active{{ end }}" data-short-name="Blog" href="{{ .Site.BaseURL }}blog/" title=""><span class="header__nav-text">Read the Blog</span></a> <a class="header__nav-item header__nav-item--start-here {{ if eq .Slug "about" }}header__nav-item--active{{ end }}" data-short-name="About" href="{{ .Site.BaseURL }}about/" title=""><span class="header__nav-text">Start Here</span></a> <a class="header__nav-item header__nav-item--travel {{ if eq .Slug "remote-work-course" }}header__nav-item--active{{ end }}" data-short-name="Travel" href="{{ .Site.BaseURL }}remote-work-course/" title=""><span class="header__nav-text">Travel the World (Profitably)</span></a> <a class="header__nav-item header__nav-item--post-hustle {{ if eq .Slug "post-hustle" }}header__nav-item--active{{ end }}" data-short-name="Post-Hustle" href="{{ .Site.BaseURL }}post-hustle/" title=""><span class="header__nav-text">Have a Great Career <em>and</em> a Great Life</span></a> <a class="header__nav-item header__nav-item--hire-me {{ if eq .Slug "hire-me" }}header__nav-item--active{{ end }}" data-short-name="Hire Me" href="{{ .Site.BaseURL }}hire-me/" title=""><span class="header__nav-text">Hire Me for Speaking &amp; Workshops</span></a> <a class="header__nav-item header__nav-item--contact {{ if eq .Slug "contact" }}header__nav-item--active{{ end }}" data-short-name="Contact" href="{{ .Site.BaseURL }}contact/" title=""><span class="header__nav-text">Contact</span></a> </nav></header><!--{{ if isset .Params "images" }}
+  {{ if in (index .Params.images 0) "-600x300" }}
+    {{ $.Scratch.Set "mainImage" (index .Params.images 1) }}
+  {{ else }}
+    {{ $.Scratch.Set "mainImage" (index .Params.images 0) }}
+  {{ end }}
+{{ else }}
+  {{ $.Scratch.Set "mainImage" "" }}
+{{ end }}--><main class="site__content"><!--{{ $category := index $.Site.Data.category (urlize .Title) }}--><h1>{{ if isset .Data "Singular" }}
+  {{ if isset $category "name" }}
+    {{ $category.name }}
+  {{ else }}
+    {{ .Data.Singular | title }}: {{ .Title | title }}
+  {{ end }}
+{{ else }}
+  Latest Posts
+{{ end }}
+</h1><!--{{ with $category.summary }}--><div class="main-content__archive-description">{{ . | safeHTML }}</div><!--{{ end }}--><!--{{ if isset .Data "Singular" }}{{ else }}--><script>(function() {
+  var cx = '007515341874450556556:wqrlmcefmg4';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+      '//cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();</script><gcse:search></gcse:search><!--{{ end }}--><!--{{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+
+{{ range $paginator.Pages }}--><article class="post-preview"><h2 class="post-preview__heading"><a class="post-preview__heading-link" href="{{ .Permalink }}">{{ .Title }}</a></h2><div class="post-preview__info"><div class="post-preview__meta meta">{{ partial "blog_category.html" . }}
+{{ partial "blog_tags.html" . }}</div><a class="post-preview__image-link alignleft js--lazyload js--lazyload--loading" href="{{ .Permalink }}"><!--{{ $image := replace (index .Params.images 0) "-600x300" "" }}--><img class="post-preview__image" src="{{ replace $image ".jpg" "@2x.jpg" }}" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="{{ replace $image ".jpg" "-300x150.jpg" }} 300w, {{ replace $image ".jpg" "-600x300.jpg" }} 600w, {{ $image }} 690w, {{ replace $image ".jpg" "@2x.jpg" }} 1380w" sizes="(min-width: 768px) 300px, 100vw" alt="{{ .Title }}"><noscript><img class="post-preview__image" src="{{ replace $image ".jpg" "@2x.jpg" }}" srcset="{{ replace $image ".jpg" "-300x150.jpg" }} 300w, {{ replace $image ".jpg" "-600x300.jpg" }} 600w, {{ $image }} 690w, {{ replace $image ".jpg" "@2x.jpg" }} 1380w" sizes="(min-width: 768px) 300px, 100vw" alt="{{ .Title }}"></noscript></a><div class="post-preview__excerpt"><p>{{ .Description }}</p><a class="post-preview__read-more button" href="{{ .Permalink }}">Read this post</a></div></div></article><!--{{ end }}--><div class="main-content__pagination">{{ template "_internal/pagination.html" . }}</div></main><footer class="site__footer footer"><nav class="footer__nav"><a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}/" title="">Home</a> <a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}blog/" title="">Blog</a> <a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}about/" title="">About</a> <a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}remote-work-course/" title="">Travel</a> <a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}post-hustle/" title="">Post-Hustle</a> <a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}hire-me/" title="">Hire Me</a> <a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}contact/" title="">Contact</a> <a class="footer__nav-link header__nav-link--undefined" href="{{ .Site.BaseURL }}disclaimer/" title="">Disclaimer</a> </nav><p class="footer__credits">All content © <a class="footer__credit" href="{{ .Site.BaseURL }}">Jason Lengstorf</a>.</p></footer></div><div id="fb-root"></div><script async>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=220587498083499";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><script id="__bs_script__">document.write("<script async src='http://HOST:8100/browser-sync/browser-sync-client.2.12.12.js'><\/script>".replace("HOST", location.hostname));</script></body></html>

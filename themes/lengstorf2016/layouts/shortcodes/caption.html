@@ -1,0 +1,36 @@
+<!--This shortcode mimics the WordPress [caption] shortcode (sort of).
+
+Options:
+- align <enum> [ alignleft, alignright, aligncenter ]
+- attr <string> entity to be credited for the image
+- attrlink <string> Must be a valid URL
+- alt <string> alt text for the image
+- imglink <string> Must be a valid URL
+- src <string> Path to the image
+
+
+*******************************************************************
+
+{{ $figureModifier := replace (.Get "align") "align" "" }}
+{{ $innerLength := len .Inner }}
+{{ $.Scratch.Add "figureCount" 1 }}
+{{ $figureID := printf "figure-%s" (md5 (.Get "src")) }}
+
+{{ if eq $figureModifier "center" }}
+  {{ $.Scratch.Set "sizes" "(min-width: 690px) 690px, 100vw" }}
+{{ else }}
+  {{ $.Scratch.Set "sizes" "(min-width: 768px) 300px, 100vw" }}
+{{ end }}
+
+{{ with .Get "srcset" }}
+  {{ $.Scratch.Set "srcset" . }}
+{{ else }}
+  {{ $imageName := replace (.Get "src") ".jpg" "" }}
+  {{ $.Scratch.Add "srcset" ($imageName | printf "%s-300x150.jpg 300w") }}
+  {{ $.Scratch.Add "srcset" ($imageName | printf ", %s-600x300.jpg 600w") }}
+  {{ $.Scratch.Add "srcset" ($imageName | printf ", %s.jpg 690w") }}
+  {{ $.Scratch.Add "srcset" ($imageName | printf ", %s@2x.jpg 1380w") }}
+{{ end }}
+--><!--{{ with .Get "paddingBottomPercent" }}--><style>#{{ $figureID }} .figure__image-wrap {
+  padding-bottom: {{.}}%;
+}</style><!--{{ end }}--><figure class="figure figure--{{ $figureModifier }}" id="{{ $figureID }}">{{ with .Get "imglink" }}<a class="figure__image-link" href="{{ . }}">{{ end }}<div class="figure__image-wrap js--lazyload js--lazyload--loading"><img class="figure__image" src="{{ replace (.Get "src") ".jpg" "@2x.jpg" }}" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="{{ $.Scratch.Get "srcset" }}" sizes="{{ $.Scratch.Get "sizes" | safeHTML }}" alt="{{ with .Get "alt" }}{{.}}{{ end }}"/><noscript><img class="figure__image" src="{{ replace (.Get "src") ".jpg" "@2x.jpg" }}" srcset="{{ replace (.Get "src") ".jpg" "-300x150.jpg" }} 300w, {{ replace (.Get "src") ".jpg" "-600x300.jpg" }} 600w, {{ .Get "src" }} 690w, {{ replace (.Get "src") ".jpg" "@2x.jpg" }} 1380w" sizes="{{ $.Scratch.Get "sizes" }}" alt="{{ with .Get "alt" }}{{.}}{{ end }}"/></noscript></div>{{ with .Get "imglink" }}</a>{{ end }}<!--{{ if or (.Get "attr") (gt $innerLength 0) }}--><figcaption class="figure__caption">{{ if and (gt $innerLength 0) (not (lt (len .Inner) 2)) }}{{ with .Inner }}{{ . }}{{ end }}{{ end }}{{ if isset .Params "attr" }} <small class="figure__attribution">Credit:{{ with .Get "attrlink" }}<a class="figure__attribution-link" href="{{.}}">{{ end }} {{ .Get "attr" }}{{ if .Get "attrlink" }}</a>{{ end }}</small>{{ end }}</figcaption><!--{{ end }}--><!--{{ $.Scratch.Set "srcset" "" }}--></figure>

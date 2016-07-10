@@ -1,0 +1,6 @@
+<!--{{ with .Params.enable_disqus }}--><div class="article__comments comments"><div class="comments__disqus" id="disqus_thread"></div><script async="async">// Hacking away over here...
+window.disqus_config = function () {
+  this.page.url = {{ $.Permalink }};
+  this.page.identifier = {{ $.Slug }};
+};
+</script><noscript>Please enable JavaScript to view the comments.</noscript></div><!--{{ end }}-->
