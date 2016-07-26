@@ -1,0 +1,40 @@
+{
+  "data": {
+    "labels": ["Too Little","The Sweet Spot →","← The Sweet Spot","Too Much"],
+    "series": [
+      {
+        "name": "Satisfaction",
+        "data": [0,90,90,0]
+      },
+      {
+        "name": "Progress",
+        "data": [0,80,98,100]
+      }
+    ]
+  },
+  "options": {
+    "stretch": true,
+    "fullWidth": true,
+    "series": {
+      "Progress": {
+        "showArea": true
+      },
+      "Satisfaction": {
+        "showArea": true
+      }
+    },
+    "axisY": {
+      "showLabel": false
+    },
+    "axisX": {
+      "title": "Amount of Hustle"
+    }
+  },
+  "legend": true,
+  "caption": "We have to find the sweet spot.",
+  "align": "figure figure--center",
+  "classes": {
+    "base": "drop-in-chart",
+    "caption": "figure__caption"
+  }
+}
