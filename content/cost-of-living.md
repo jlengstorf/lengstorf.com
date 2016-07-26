@@ -2,7 +2,7 @@
 date: 2015-08-25T14:25:27+02:00
 author: jason
 
-title: World travel is probably cheaper than your rent. Use this tool to compare the cost.
+title: World travel is probably cheaper than your rent. Use this tool to see how much you could save.
 seo_title: Is your rent more expensive than a year of world travel?
 description: Can you really SAVE money by traveling the world? Find out now! Use this calculator to compare your monthly living expenses to the cost of a year abroad.
 
@@ -13,8 +13,7 @@ images:
 ---
 {{< caption src="/images/rent-more-expensive-than-travel.jpg"
             align="alignright"
-            alt="Is your rent more expensive than travel?" >}}
-{{< /caption >}}
+            alt="Is your rent more expensive than travel?" >}}{{< /caption >}}
 
 <p class="lead"><strong>Can you really <em>save money</em> by traveling the world?</strong> Chances are, you can. Probably quite a bit, actually.</p>
 
