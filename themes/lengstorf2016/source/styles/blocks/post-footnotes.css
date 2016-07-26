@@ -58,7 +58,6 @@
   &__return-link {
     display: inline-block;
     margin: 0;
-    padding-top: 3px;
     color: $color-caption;
     text-decoration: none;
     transition: 200ms all ease-in-out;
