@@ -26,7 +26,7 @@
   },
   "config": {
     "pug": {
-      "source": [ "templates/**/*.pug", "!templates/pug-includes/**/*.pug" ],
+      "source": [ "templates/**/*.pug", "!templates/pug-*/**/*.pug" ],
       "dest": "layouts"
     },
     "devUrl": "localhost:1313",

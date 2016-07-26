@@ -242,6 +242,7 @@
     background: $color-brand;
     border-radius: calc( $height-unit / 4 );
     color: $color-lightest;
+    font-family: $font-family-heading;
     font-size: calc( $font-size-default * 1.5 );
     font-weight: $font-weight-ultra;
     letter-spacing: 0.1em;
@@ -305,6 +306,7 @@
     margin: 0;
     color: $color-darkest;
     font-size: 12px;
+    font-family: $font-family-heading;
     font-weight: $font-weight-ultra;
     line-height: 1.325;
     text-align: center;
@@ -339,6 +341,7 @@
 
       strong {
         margin-bottom: 2px;
+        font-family: $font-family-heading;
         font-size: 45px;
         font-weight: $font-weight-ultra;
         line-height: 1.25;

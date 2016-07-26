@@ -31,7 +31,10 @@
     width: 210px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 210px;
+
+    .js--lazyload {
+      padding-bottom: 210px;
+    }
   }
 
   a&__button {
@@ -66,15 +69,21 @@
       order: 3;
       margin-left: 0;
       margin-right: 0;
-      padding-bottom: 33%;
       max-width: 33%;
+
+      .js--lazyload {
+        padding-bottom: 33%;
+      }
     }
   }
 
   @media $viewport-sm {
     &__image-wrap {
-      padding-bottom: 210px;
       max-width: 210px;
+
+      .js--lazyload {
+        padding-bottom: 210px;
+      }
     }
   }
 

@@ -39,6 +39,13 @@ if (isCostOfLiving) {
 }
 
 /*
+ * Add the Facebook SDK.
+ */
+assets.push({
+  uri: '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=220587498083499',
+});
+
+/*
  * Remove the `.no-js` class from the body to signify that JS is enabled.
  */
 document.addEventListener('DOMContentLoaded', event => {

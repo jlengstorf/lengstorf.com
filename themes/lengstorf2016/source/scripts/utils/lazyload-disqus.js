@@ -3,6 +3,7 @@ import { isElementVisible } from './is-in-viewport';
 
 // Static value to keep track of whether or not the comments are loaded.
 let isDisqusLoaded = false;
+let disqus_config = false;
 
 /**
  * Adds the Disqus comment script to the document.
@@ -12,7 +13,7 @@ let isDisqusLoaded = false;
 const loadDisqus = shortName => {
 
   // Pulling this from the global namespace to allow CMS-generated values.
-  const disqus_config = window.disqus_config;
+  disqus_config = window.disqus_config;
 
   // Create and append the Disqus loading script.
   const disqus = document.createElement('script');
@@ -37,6 +38,7 @@ export function lazyLoadDisqus({ shortName, containerClass = 'comments' }) {
   // Throttle the handler to avoid excessive checks.
   const shouldLoadDisqus = throttle(() => {
     if (container && !isDisqusLoaded && isElementVisible(container)) {
+      container.classList.add(`${containerClass}--loading`);
       loadDisqus(shortName);
     }
   }, 100);

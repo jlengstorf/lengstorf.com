@@ -20,29 +20,39 @@
     overflow: hidden;
     text-indent: -9999px;
 
+    @media (min-width: 360px) {
+      height: 35px;
+    }
+
     &::before {
       content: '';
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
-      height: 30px;
+      height: 24px;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 22px;
+      background-size: 16px;
     }
 
     &::after {
       content: attr(data-short-name);
       position: absolute;
-      bottom: 0;
+      bottom: 4px;
       left: 0;
       right: 0;
       color: $color-lightest;
       font-size: 8px;
-      font-weight: $font-weight-bold;
+      font-weight: $font-weight-normal;
+      line-height: 1;
       text-align: center;
       text-indent: 0;
+      text-shadow: 1px 1px 1px color( $color-darkest alpha( 25% ) );
+
+      @media $viewport-xs {
+        font-size: 10px;
+      }
     }
 
     &:last-child {
@@ -57,11 +67,15 @@
       background-image: url(/images/icon-about.svg);
     }
 
+    &--efficiency::before {
+      background-image: url(/images/icon-efficiency.svg);
+    }
+
     &--travel::before {
       background-image: url(/images/icon-travel.svg);
     }
 
-    &--post-hustle::before {
+    &--work-happier::before {
       background-image: url(/images/icon-post-hustle.svg);
     }
 
@@ -89,43 +103,96 @@
       max-width: 400px;
       padding-top: 80px;
       background-color: $color-lightest;
-      background-image: url(/images/jason-lengstorf-header-sm.jpg);
-      background-position: center top;
-      background-repeat: no-repeat;
-      background-size: auto 80px;
       border-bottom: 2px solid $color-lightest;
       box-shadow: none;
       font-size: calc( $font-size-default * 1.25 );
+      z-index: 10;
 
-      @media $res-2x {
-        background-image: url(/images/jason-lengstorf-header-sm@2x.jpg);
-      }
-
-      /* TODO: Check this once the final nav is in. */
-      @media (min-height: 474px) {
+      @media (min-height: 494px) {
         padding-top: 180px;
-        background-image: url(/images/jason-lengstorf-header-md.jpg);
-        background-size: auto 180px;
-
-        @media $res-2x {
-          background-image: url(/images/jason-lengstorf-header-md@2x.jpg);
-        }
       }
 
-      @media (min-height: 602px) {
+      @media (min-height: 615px) {
         padding-top: 300px;
-        background-image: url(/images/jason-lengstorf-header-lg.jpg);
-        background-size: auto 300px;
-
-        @media $res-2x {
-          background-image: url(/images/jason-lengstorf-header-lg@2x.jpg);
-        }
       }
 
       &::before {
+        position: relative;
         content: '';
         display: block;
         border-top: 1px solid $color-text;
+        z-index: 3;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 100%;
+        background-image: url(/images/jason-lengstorf-header-sm.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+
+        @media $res-2x {
+          background-image: url(/images/jason-lengstorf-header-sm@2x.jpg);
+        }
+
+        @media (min-height: 494px) {
+          height: 180px;
+          background-image: url(/images/jason-lengstorf-header-md.jpg);
+
+          @media $res-2x {
+            background-image: url(/images/jason-lengstorf-header-md@2x.jpg);
+          }
+        }
+
+        @media (min-height: 615px) {
+          height: 300px;
+          background-image: url(/images/jason-lengstorf-header-lg.jpg);
+
+          @media $res-2x {
+            background-image: url(/images/jason-lengstorf-header-lg@2x.jpg);
+          }
+        }
+      }
+    }
+
+    &--home &__nav,&--landing &__nav {
+      position: relative;
+      padding-top: 0;
+      transition: 200ms padding ease-out;
+
+      &::after {
+        opacity: 0;
+        transition: 150ms opacity ease-out;
+      }
+
+      &:not(.header__nav--fixed) {
+        &::before {
+          border-top: 0;
+        }
+      }
+
+      &--fixed {
+        position: fixed;
+        top: 0;
+        padding-top: 80px;
+
+        &::after {
+          opacity: 1;
+        }
+
+        @media (min-height: 494px) {
+          padding-top: 180px;
+        }
+
+        @media (min-height: 615px) {
+          padding-top: 300px;
+        }
       }
     }
 
@@ -144,6 +211,7 @@
       text-align: right;
       text-decoration: none;
       transition: 200ms all ease-in-out;
+      z-index: 5;
 
       &::before {
         background-image: none;

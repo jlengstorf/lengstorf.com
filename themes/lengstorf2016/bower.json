@@ -23,6 +23,7 @@
   "dependencies": {
     "cost-of-living": "jlengstorf/cost-of-living",
     "font-awesome": "^4.6.3",
-    "drop-in-chart": "jlengstorf/drop-in-chart"
+    "drop-in-chart": "jlengstorf/drop-in-chart",
+    "responsive-lazyload": "^0.1.6"
   }
 }

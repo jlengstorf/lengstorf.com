@@ -3,6 +3,11 @@
   margin: calc( $height-unit * 2 ) auto;
   padding-bottom: calc( $height-unit * 2 );
   border-bottom: 1px solid $color-gray-medium;
+  overflow: hidden;
+
+  @supports (display: flex) {
+    overflow: visible;
+  }
 
   @media $viewport-md {
     margin-left: 0;
@@ -31,15 +36,18 @@
   }
 
   &__info {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 0;
 
-    @media $viewport-xs {
-      flex-direction: row;
+    @supports (display: flex) {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      @media $viewport-xs {
+        flex-direction: row;
+      }
     }
   }
 
@@ -49,21 +57,30 @@
   }
 
   &__image-link {
-    flex: 1;
     display: block;
     width: 100%;
     margin-top: $height-unit;
     border: 1px solid color( $color-text tint( 20% ) );
 
+    @supports (display: flex) {
+      flex: 1;
+    }
+
     @media $viewport-xs {
-      flex: 1 40%;
+      float: left;
+      margin-right: 20px;
       max-width: 40%;
       margin-top: calc( $height-unit / 2 );
       margin-right: 20px;
-    }
 
-    @media $viewport-sm {
-      margin-left: -20px;
+      @supports (display: flex) {
+        flex: 1 40%;
+        float: none;
+
+        @media $viewport-sm {
+          margin-left: -20px;
+        }
+      }
     }
   }
 
@@ -77,9 +94,14 @@
     line-height: calc( $font-size-default * 2 );
 
     @media $viewport-xs {
-      flex: 2 calc( 60% - 20px );
+      float: left;
       max-width: calc( 60% - 20px );
       margin-top: calc( $height-unit / 2 );
+
+      @supports (display: flex) {
+        flex: 2 calc( 60% - 20px );
+        float: none;
+      }
     }
   }
 

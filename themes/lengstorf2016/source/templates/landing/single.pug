@@ -1,0 +1,26 @@
+extends ../pug-includes/base
+
+include ../pug-mixins/popover
+
+block append config
+  -
+    config.type = 'landing';
+  -
+
+block hero
+  include ../pug-includes/hero
+
+block article
+  .article__content {{ .Content }}
+  | {{ partial "footnotes" .}}
+
+block extras
+  // {{ with .Params.popover }}
+  +popover(
+    '{{ .heading | markdownify }}', 
+    '{{ .lede | markdownify }}', 
+    '{{ .button }}', 
+    '{{ .group }}', 
+    '{{ .source }}'
+  )
+  // {{ end }}

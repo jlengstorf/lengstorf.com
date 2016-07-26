@@ -30,8 +30,9 @@ $color-brand: #FF7800;
  * ## Fonts
  */
 $font-family-serif: georgia, serif;
-$font-family-sans: mallory, sans-serif;
-$font-family-script: Flood STD, sans-serif;
+$font-family-sans: "mallory-microplus", sans-serif;
+$font-family-heading: "mallory", sans-serif;
+$font-family-script: "flood-std", sans-serif;
 $font-family-mono: monospace;
 $font-size-default: 14px;
 $font-weight-light: 200;

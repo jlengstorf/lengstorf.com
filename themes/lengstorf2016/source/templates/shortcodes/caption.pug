@@ -46,7 +46,7 @@ figure.figure(
   id!= '{{ $figureID }}'
   class!= 'figure--{{ $figureModifier }}'
 ) {{ with .Get "imglink" }}<a class="figure__image-link" href="{{ . }}">{{ end }}
-  .figure__image-wrap.js--lazyload.js--lazyload--loading
+  .figure__image-wrap.js--lazyload
     img.figure__image(
       src!= '{{ replace (.Get "src") ".jpg" "@2x.jpg" }}'
       srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="

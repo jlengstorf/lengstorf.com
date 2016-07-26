@@ -86,10 +86,10 @@
   }
 
   @media (max-width: 768px) {
-    left: 2%;
-    width: 90%;
-    padding-left: 3%;
-    padding-right: 3%;
+    left: 2% !important;
+    width: 90% !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
   }
 }
 

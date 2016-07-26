@@ -59,24 +59,25 @@ block content
       .post-preview__meta.meta
         | {{ partial "blog_category.html" . }}
         | {{ partial "blog_tags.html" . }}
-      a.post-preview__image-link.alignleft.js--lazyload.js--lazyload--loading(
+      a.post-preview__image-link.alignleft(
         href= '{{ .Permalink }}'
       )
-        //{{ $image := replace (index .Params.images 0) "-600x300" "" }}
-        img.post-preview__image(
-          src!= '{{ replace $image ".jpg" "@2x.jpg" }}'
-          srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-lazyload!= '{{ replace $image ".jpg" "-300x150.jpg" }} 300w, {{ replace $image ".jpg" "-600x300.jpg" }} 600w, {{ $image }} 690w, {{ replace $image ".jpg" "@2x.jpg" }} 1380w'
-          sizes="(min-width: 768px) 300px, 100vw"
-          alt!= '{{ .Title }}'
-        )
-        noscript
+        div.js--lazyload
+          //{{ $image := replace (index .Params.images 0) "-600x300" "" }}
           img.post-preview__image(
             src!= '{{ replace $image ".jpg" "@2x.jpg" }}'
-            srcset!= '{{ replace $image ".jpg" "-300x150.jpg" }} 300w, {{ replace $image ".jpg" "-600x300.jpg" }} 600w, {{ $image }} 690w, {{ replace $image ".jpg" "@2x.jpg" }} 1380w'
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-lazyload!= '{{ replace $image ".jpg" "-300x150.jpg" }} 300w, {{ replace $image ".jpg" "-600x300.jpg" }} 600w, {{ $image }} 690w, {{ replace $image ".jpg" "@2x.jpg" }} 1380w'
             sizes="(min-width: 768px) 300px, 100vw"
             alt!= '{{ .Title }}'
           )
+          noscript
+            img.post-preview__image(
+              src!= '{{ replace $image ".jpg" "@2x.jpg" }}'
+              srcset!= '{{ replace $image ".jpg" "-300x150.jpg" }} 300w, {{ replace $image ".jpg" "-600x300.jpg" }} 600w, {{ $image }} 690w, {{ replace $image ".jpg" "@2x.jpg" }} 1380w'
+              sizes="(min-width: 768px) 300px, 100vw"
+              alt!= '{{ .Title }}'
+            )
       .post-preview__excerpt
         p {{ .Description }}
         a.post-preview__read-more.button(

@@ -48,7 +48,7 @@ $series-d-area-alpha: $default-area-alpha;
     position: relative;
     height: 0;
     margin: 0;
-    padding-bottom: 54.65%;
+    padding-bottom: 35%;
 
     .ct-chart {
       position: absolute;
@@ -65,16 +65,17 @@ $series-d-area-alpha: $default-area-alpha;
     color: $color-caption;
     font-size: 10.5px;
     font-weight: $font-weight-bold;
+    text-align: center;
 
     &.axis-title-x {
-
+      bottom: 0;
+      width: 100%;
     }
 
     &.axis-title-y {
       left: 0;
       top: 0;
-      width: 54.65%;
-      text-align: center;
+      width: 33%;
       transform: translateX(-95%) rotate(-90deg);
       transform-origin: right top;
     }
@@ -173,6 +174,7 @@ $series-d-area-alpha: $default-area-alpha;
       font-size: 8px;
       line-height: 1;
       text-align: center;
+      white-space: pre;
 
       &.ct-vertical {
         display: flex;

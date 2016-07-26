@@ -4,12 +4,25 @@
 import { moveMarkdownFootnotes, highlightCurrentFootnote } from './blocks/footnotes';
 import { fiveStagesInit } from './blocks/five-stages';
 import { scrollToLocalLinks } from './utils/scroll-to-anchor';
-import { lazyLoadImages } from './utils/lazyload-images';
+import { lazyLoadImages } from 'responsive-lazyload';
 import { lazyLoadDisqus } from './utils/lazyload-disqus';
+import popover from './blocks/popover';
+import floater from './blocks/floater';
+import sharing from './blocks/sharing';
 
 moveMarkdownFootnotes({
   srcBlockClass: 'footnotes',
   destBlockClass: 'post-footnotes',
+});
+
+/*
+ * Enables popovers. This needs to happen _before_ `scrollToLocalLinks()` to
+ * prevent scrolling the page when a popover link is clicked.
+ */
+popover.init();
+
+floater.init({
+  elementClass: 'header__nav',
 });
 
 document.addEventListener('click', event => {
@@ -30,12 +43,11 @@ fiveStagesInit();
 /*
  * Lazyloads images to cut down on unnecessary data transfer.
  */
-lazyLoadImages({
-  containerClass: 'js--lazyload',
-  loadingClass: 'js--lazyload--loading',
-});
+lazyLoadImages();
 
 /*
  * Lazyloads Disqus to avoid wasting bandwidth.
  */
 lazyLoadDisqus({ shortName: 'lengstorf' });
+
+sharing.init();

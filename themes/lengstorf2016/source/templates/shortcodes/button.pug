@@ -1,0 +1,18 @@
+//
+  {{ if (.Get "popover") }}
+    {{ $.Scratch.Set "href" "#sign-up" }}
+    {{ $.Scratch.Set "class" "button--open-popover" }}
+  {{ else }}
+    {{ $.Scratch.Set "href" (.Get "href") }}
+    {{ $.Scratch.Set "class" "" }}
+  {{ end}}
+
+  {{ if (.Get "large") }}
+    {{ $.Scratch.Set "large" "button--large" }}
+  {{ else }}
+    {{ $.Scratch.Set "large" "" }}
+  {{ end }}
+a.button.button--center(
+  class!= '{{ $.Scratch.Get "class" }} {{ $.Scratch.Get "large" }}'
+  href!= '{{ $.Scratch.Get "href" }}'
+)!= '{{ with .Get "text" }}{{ . }}{{ else }}Sign Up{{ end }}'

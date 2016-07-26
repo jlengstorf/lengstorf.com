@@ -23,6 +23,7 @@
 
       &:first-line {
         font-family: $font-family-script;
+        font-size: 110%;
         line-height: 1;
       }
     }
@@ -43,15 +44,16 @@
 
       >a[rel] {
         display: inline-block;
-        min-width: $font-size-default;
-        padding: 4px;
+        height: 14px;
+        width: 14px;
         background-color: $color-caption;
         border: 0;
         border-radius: 50%;
         color: $color-lightest;
+        font-size: 9px;
         font-style: normal;
         font-weight: $font-weight-bold;
-        line-height: 0.75;
+        line-height: 16px;
         text-align: center;
         text-decoration: none;
         transition: 200ms background-color linear;

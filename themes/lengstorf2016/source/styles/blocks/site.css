@@ -60,6 +60,10 @@
       margin-top: 0;
       padding: calc( $height-unit * 10 ) calc( $height-unit * 3.667 ) calc( $height-unit * 4 );
       overflow-y: scroll;
+
+      &--home,&--landing {
+        padding-top: calc( $height-unit * 4 );
+      }
     }
 
     &__footer {

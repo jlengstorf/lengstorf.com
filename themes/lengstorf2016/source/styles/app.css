@@ -26,7 +26,9 @@
 @import './blocks/article';
 @import './blocks/author-bio';
 @import './blocks/button';
+@import './blocks/comments';
 @import './blocks/cost-of-living';
+@import './blocks/credibility';
 @import './blocks/drop-in-charts';
 @import './blocks/embed-container';
 @import './blocks/figure';
@@ -34,10 +36,13 @@
 @import './blocks/footer';
 @import './blocks/google-search';
 @import './blocks/header';
+@import './blocks/hero';
 @import './blocks/meta';
 @import './blocks/opt-in';
 @import './blocks/pagination';
+@import './blocks/popover';
 @import './blocks/post-footnotes';
 @import './blocks/post-preview';
 @import './blocks/related-posts';
+@import './blocks/sharing';
 @import './blocks/site';

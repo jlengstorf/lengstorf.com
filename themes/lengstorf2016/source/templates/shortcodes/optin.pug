@@ -1,86 +1,9 @@
--
-  // TODO make the confirm keys smarter (e.g. support for different endings)
-  var env = process.env.NODE_ENV === 'production' ? 'production' : 'development';
-  var all_confirm_keys = {
-    development: {
-      focus: 'ee00e05abc3b3fd33b7dfc7b8e4efa30e982c3f9a1d14bb8adfdd3caa9149bb0edfc386bc877903b228739261bd00860c04b21fd61b65b',
-      'remote-work': 'ee00e05abc3b3fd33b7dfc7b8e4efa30e982c3f9a1d14bb8adfdd1ddab1f9ab6b4e22170d723de3c36972337479c0361d14c3fff65b65b',
-    },
-    production: {
-      focus: 'ee00e05af52e3f903276f56f8955e724a1c8c5e0f6cf08fbf1b6d6dbb21998baedec636add6cd42730ca343d1f910060d64162',
-      'remote-work': 'ee00e05af52e3f903276f56f8955e724a1c8c5e0f6cf0aecf3bdd7ddeb0781a1f2b82d6dc97cce366c863f3c0e961e62d24162'
-    },
-  };
+include ../pug-mixins/opt-in
 
-  var api_uri = 'http://api.lengstorf.dev:1350';
-  var confirm_keys = all_confirm_keys[env];
-  if (env === 'production') {
-    api_uri = 'https://api-lengstorf.herokuapp.com';
-  } 
--
-.opt-in
-  form.opt-in__form(
-    action= `${api_uri}/user`
-    method="post"
-    role="form"
-  )
-    .opt-in__input-group
-      label.opt-in__label.opt-in__label--name(
-        for="fname"
-      ) First Name
-      input.opt-in__input(
-        type="text"
-        id="fname"
-        name="FNAME"
-        required
-      )
-    .opt-in__input-group
-      label.opt-in__label.opt-in__label--email(
-        for="email"
-      ) Email Address
-      input.opt-in__input(
-        type="text"
-        id="email"
-        name="EMAIL"
-        required
-      )
-    button.opt-in__submit.button(
-      type="submit"
-      name="subscribe"
-    ) {{ .Get "button" }}
-
-    input(
-      type="hidden"
-      name="SOURCE"
-      value="{{ $.Page.Slug }}"
-    )
-    input(
-      type="hidden"
-      name="status"
-      value="unsubscribed"
-    )
-    input(
-      type="hidden"
-      name="redirect"
-      value!= '{{ "/confirm/" | absURL }}'
-    )
-
-    //{{ with .Get "group" }}
-    //  {{ if eq . "focus" }}
-    //    {{ $.Scratch.Set "group" "PRODUCTIVE" }}
-    |     {{ $.Scratch.Set "confirm" "#{confirm_keys.focus}" }}
-    //  {{ else if eq . "remote-work" }}
-    //    {{ $.Scratch.Set "group" "TRAVEL" }}
-    |     {{ $.Scratch.Set "confirm" "#{confirm_keys['remote-work']}" }}
-    //  {{ end }}
-    input(
-      type="hidden"
-      name="confirm"
-      value!= '{{ $.Scratch.Get "confirm" }}'
-    )
-    input(
-      type="hidden"
-      name!= '{{ $.Scratch.Get "group" }}'
-      value="1"
-    )
-    // {{ end }}
+//{{ if eq (.Get "group") "focus" }}
++optin('{{ .Get "button" }}', 'PRODUCTIVE', '{{ $.Page.Slug }}')
+//{{ else if eq (.Get "group") "remote-work" }}
++optin('{{ .Get "button" }}', 'TRAVEL', '{{ $.Page.Slug }}')
+//{{ else if eq (.Get "group") "work-happier" }}
++optin('{{ .Get "button" }}', 'WORKHAPPY', '{{ $.Page.Slug }}')
+//{{ end }}

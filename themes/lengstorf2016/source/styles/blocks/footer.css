@@ -29,7 +29,7 @@
   @media $viewport-md {
     display: flex;
     align-items: center;
-    font-size: calc( $font-size-default * 0.75 );
+    font-size: calc( $font-size-default * 0.625 );
     padding-top: 0;
     padding-bottom: 0;
 

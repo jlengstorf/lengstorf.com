@@ -8,12 +8,13 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
 
   @media $viewport-sm {
-    font-size: calc( $font-size-default * 1.5 );
+    font-size: calc( $font-size-default * 1.25 );
   }
 }
 
 h1,h2,h3,h4,h5,h6 {
   color: $color-darkest;
+  font-family: $font-family-heading;
   line-height: 1;
 }
 

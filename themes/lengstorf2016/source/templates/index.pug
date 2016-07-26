@@ -1,62 +1,43 @@
-doctype html
-html(lang="en")
-  | {{ partial "head.html" . }}
-  body.home
-    //- | {{ partial "header.html" . }}
+extends ./pug-includes/base
 
-    div.hometown-hero--alt
-      h1.hometown-hero__headline
-        | You Can Work from 
-        strong Anywhere 
-        em I’ll Show You How
-      a.hometown-hero__button(
-        href="{{ "/remote-work-course/" | relURL }}"
-      ) Get the Guide
+include ./pug-mixins/popover
 
-    div.cta--alt
-      h2.cta__headline
-        | For 
-        span.days-abroad months 
-        | I&rsquo;ve been traveling the world &amp; working remotely. 
-        strong.how-i-did-it I want to show you how I did it. 
-        em (And how you can, too.)
+block append config
+  -
+    config.type = 'home';
+  -
 
-      div.cta__call.break-free
-        h3.cta__subhead Break Free of the Cult.
-        p.cta__tagline
-          | Learn how offices are run more like a cult than a healthy workplace — and how to escape.
+block hero
+  //
+    {{ range .Data.Pages }}
+      {{ if eq .Type "index" }}
+  include ./pug-includes/hero
+  //
+      {{ end }}
+    {{ end }}
 
-      div.cta__call.know-options
-        h3.cta__subhead Know Your Options.
-        p.cta__tagline
-          | See the dozens of options for anyone who wants an alternative to the 40-hour lifestyle.
+block article
+  //
+    {{ range .Data.Pages }}
+      {{ if eq .Type "index" }}
+  | {{ .Content }}
+  //
+      {{ end }}
+    {{ end }}
 
-      div.cta__call.permission
-        h3.cta__subhead Give Yourself Permission.
-        p.cta__tagline
-          | Identify the forces holding you back from what you want. (Hint: the worst one is you.)
-
-      div.cta__call.remove-anchors
-        h3.cta__subhead Remove Your Anchors.
-        p.cta__tagline
-          | Learn the common traps we fall into that anchor us in place — and how to remove them.
-
-      div.cta__call.action-plan
-        h3.cta__subhead Design an Action Plan.
-        p.cta__tagline
-          | Put together a concrete, clear todo list and prepare for your newly-upgraded lifestyle.
-
-      div.cta__call.begin-life
-        h3.cta__subhead Begin Your New Life.
-        p.cta__tagline
-          | Take the first steps toward becoming happier, healthier, and location-independent.
-
-      a.cta__button(
-        href="{{ "/remote-work-course/" | relURL }}"
-      ) Get the Free Guide
-
-    //- | {{ partial "footer/navigation.html" . }}
-    //- | {{ partial "scripts.html" . }}
-
-    if process.env.NODE_ENV !== 'production'
-      script#__bs_script__ document.write("<script async src='http://HOST:8100/browser-sync/browser-sync-client.2.12.12.js'><\/script>".replace("HOST", location.  hostname));
+block extras
+  //
+    {{ range .Data.Pages }}
+      {{ if eq .Type "index" }}
+        {{ with .Params.popover }}
+  +popover(
+    '{{ .heading | markdownify }}', 
+    '{{ .lede | markdownify }}', 
+    '{{ .button }}', 
+    '{{ .group }}', 
+    '{{ .source }}'
+  )
+  //
+        {{ end }}
+      {{ end }}
+    {{ end }}

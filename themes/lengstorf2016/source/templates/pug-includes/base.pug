@@ -24,19 +24,25 @@ block config
           slug: 'about',
         },
         {
+          name: 'Have a Great Career <em>and</em> a Great Life',
+          shortName: 'Balance',
+          classes: ['work-happier'],
+          slug: 'work-happier',
+        },
+        {
+          name: 'Get More Done in Less Time',
+          shortName: 'Efficiency',
+          classes: ['efficiency'],
+          slug: 'productivity-habits',
+        },
+        {
           name: 'Travel the World (Profitably)',
           shortName: 'Travel',
           classes: ['travel'],
           slug: 'remote-work-course',
         },
         {
-          name: 'Have a Great Career <em>and</em> a Great Life',
-          shortName: 'Post-Hustle',
-          classes: ['post-hustle'],
-          slug: 'post-hustle',
-        },
-        {
-          name: 'Hire Me for Speaking &amp; Workshops',
+          name: 'I’m Available for Hire',
           shortName: 'Hire Me',
           classes: ['hire-me'],
           slug: 'hire-me',
@@ -67,8 +73,13 @@ html(lang="en")
   body.no-js
     .site
       a.a11y__sr-only(href="#content") Jump to Content
-      header.site__header.header
-        nav.header__nav
+
+      block hero
+
+      header.site__header.header(
+        class= `header--${config.type}`
+      )
+        nav.header__nav.js__floater
           each link in config.nav
             -
               var classes = link.classes.map(c => `header__nav-item--${c}`);
@@ -87,17 +98,17 @@ html(lang="en")
               //- Trailing space to avoid links running together.
               |  
 
-      //
-        {{ if isset .Params "images" }}
-          {{ if in (index .Params.images 0) "-600x300" }}
-            {{ $.Scratch.Set "mainImage" (index .Params.images 1) }}
-          {{ else }}
-            {{ $.Scratch.Set "mainImage" (index .Params.images 0) }}
-          {{ end }}
-        {{ else }}
-          {{ $.Scratch.Set "mainImage" "" }}
-        {{ end }}
       if config.type === 'post'
+        //
+          {{ if isset .Params "images" }}
+            {{ if in (index .Params.images 0) "-600x300" }}
+              {{ $.Scratch.Set "mainImage" (index .Params.images 1) }}
+            {{ else }}
+              {{ $.Scratch.Set "mainImage" (index .Params.images 0) }}
+            {{ end }}
+          {{ else }}
+            {{ $.Scratch.Set "mainImage" "" }}
+          {{ end }}
         style.
           @media (min-width: 768px) {
             .site__content {
@@ -111,6 +122,7 @@ html(lang="en")
           }
       main.site__content(
         style!= bgImage
+        class= `site__content--${config.type}`
       )
         block content
           article.article#content(
@@ -118,7 +130,7 @@ html(lang="en")
           )
             block article
               .article__header
-                h1.article__heading {{ .Title }}
+                h1.article__heading {{ .Title | markdownify }}
               .article__content {{ .Content }}
               | {{ partial "footnotes" .}}
 
@@ -126,6 +138,9 @@ html(lang="en")
       footer.site__footer.footer
         block footer
           include ../pug-includes/footer
+          include ../pug-includes/footer_scripts
 
-    include ../pug-includes/footer_scripts
+      block extras
+
+    //- include ../pug-includes/footer_scripts
     include ../pug-includes/dev-only_footer-scripts

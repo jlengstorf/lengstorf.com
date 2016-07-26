@@ -1,0 +1,25 @@
+include ../pug-mixins/opt-in
+
+mixin popover(heading, lede, button, group, source)
+  .popover.popover--fade-out.popover--hidden#sign-up
+    .popover__content
+      .popover__image-wrap
+        .popover__lazyload.js--lazyload(
+          style="padding-bottom: 100%"
+        )
+          img.popover__image(
+            src="/images/jason-lengstorf-tokyo-footer.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-lazyload="/images/jason-lengstorf-tokyo-footer.jpg 210w, /images/jason-lengstorf-tokyo-footer@2x.jpg 420w"
+            alt="Jason Lengstorf in Tokyo"
+          )
+      .popover__text-wrap
+        h2.popover__heading= heading
+        .popover__text= lede
+      .popover__form-wrap
+        +optin(button, group, source)
+
+    .popover__close
+      a.popover__close-link(
+        href="#popover-close"
+      ) close

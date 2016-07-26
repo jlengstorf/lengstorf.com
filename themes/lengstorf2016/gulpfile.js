@@ -23,6 +23,7 @@ const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const jshint = require('gulp-jshint');
 const jscs = require('gulp-jscs');
+const imagemin = require('gulp-imagemin');
 
 /*
  * ## Create a Simple Error Handler for Use With Plumber
@@ -177,6 +178,9 @@ gulp.task('styles:watch', (callback) => {
 const scriptTasks = filename => lazypipe()
   .pipe(() => gulpif(enabled.maps, sourcemaps.init()))
   .pipe(webpackStream, {
+    resolve: {
+      modulesDirectories: ['static/vendor', 'node_modules'],
+    },
     module: {
       loaders: [
         {
@@ -219,6 +223,19 @@ gulp.task('scripts:test', () => gulp.src(['gulpfile.js', manifest.paths.source +
 );
 
 /*
+ * ## Compress Images Losslessly
+ */
+gulp.task('images', () => gulp.src(manifest.globs.images)
+    .pipe(imagemin({
+      progressive: true,
+      interlaced: true,
+      svgoPlugins: [{ removeUnknownsAndDefaults: false }, { cleanupIDs: false }],
+    }))
+    .pipe(gulp.dest(manifest.paths.dist + 'images'))
+    .pipe(browserSync.stream())
+);
+
+/*
  * ## Set Up File Watching for Development
  */
 gulp.task('watch', () => {
@@ -232,6 +249,7 @@ gulp.task('watch', () => {
 
   gulp.watch([manifest.paths.source + 'styles/**/*'], ['styles:watch']);
   gulp.watch([manifest.paths.source + 'scripts/**/*'], ['scripts']);
+  gulp.watch([manifest.paths.source + 'images/**/*'], ['images']);
 
   // Hugo server already reloads, so we don't need to watch templates.
   gulp.watch([manifest.paths.source + 'templates/**/*'], ['pug']);
