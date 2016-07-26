@@ -34,7 +34,7 @@ The employees at Cheesy Express Pizza came in three flavors: a) people so dim an
 
 I told myself I'd trade up soon, but I was terrified that I landed squarely in the first two categories.
 
-My time at Cheesy Express came during my Rockstar Period,[^rockstar] and I'd regularly ask Tim to give me two weeks or more off work so I could go on tour. Tim obliged, being a Really Nice Guy™.
+My time at Cheesy Express came during my Rockstar Period,[^rockstar] and I'd regularly ask Tim to give me two weeks or more off work so I could go on tour. Tim agreed, being a Really Nice Guy™.
 
 [^rockstar]:
     This is what my dad calls it. To most people, it was my Why-Is-That-Idiot-Wearing-Eyeliner-and-Jeggings Period.
