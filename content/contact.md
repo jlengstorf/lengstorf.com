@@ -20,7 +20,7 @@ There are three ways to get in touch with me:
 ## 1\. Schedule a Call with Me
 
 <style>
-  #clarity-widget { display: none; float: right; margin: 0 0 0 20px; } @media (min-width: 768px) { #clarity-widget { display: block; }
+  #clarity-widget { display: none; float: right; margin-left: 30px; margin-bottom: 10px; } @media (min-width: 768px) { #clarity-widget { display: block; }
 </style>
 
 <div id="clarity-widget">

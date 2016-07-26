@@ -1,66 +1,87 @@
----
-date: 2015-08-29T12:57:57+02:00
-author: jason
++++
+date = "2016-07-05"
+author = "jason"
+draft = true
 
-title: "Learn Everything You Need to Escape the Office Today"
-slug: remote-work-course
-description: "If you've ever wished you could earn a living while traveling the world, I have good news: you can live the lifestyle of your dreams, starting TODAY."
+slug = "remote-work-course"
+seo_title = "Escape the office and make your living while traveling the world."
+description = ""
 
-aliases:
-- /get-updates/
+type = "landing"
 
-images:
-- /images/jason-lengstorf.jpg
+[hero]
+    heading = "Escape the Office. Earn Money."
+    headingBig = "See the World."
+    lede = "Have you ever dreamed of making a living from a laptop while you travel the world? It's easier than you think."
+    ledeStrong = "I can teach you in 6 steps."
+    button = "Get the Checklist"
+    class = "travel"
+    popover = true
+    credit = "paint with stars"
+    creditlink = "http://paintwithstars.com"
 
-videos: []
+[popover]
+    heading = "Escape the Office: Get My 6-Step Checklist and Learn:"
+    lede = "- **How to create a location-independent income source** (or how to make your current job remote-friendly).\n- **The additional skills remote workers _need_ to master** if they intend to _remain_ remote workers.\n- **A remote worker's most valuable tool** for balancing work and play. Because what good is having the freedom to live anywhere if you can't go explore?"
+    button = "Get It Now"
+    group = "TRAVEL"
+    source = "remote-work-course"
 
-hide_footer_bio: true
----
-If you've ever wished you could earn a living while traveling the world, I have good news.
+images = [
+    "/images/jason-lengstorf-in-tokyo.jpg",
+]
++++
+Here's the truth: whether you're working in a traditional office job, contracting for a big company, or doing your your own thing as a freelancer, it's possible to live the "digital nomad"[^dn] lifestyle: **living anywhere in the world, making your own schedule, and earning money with nothing but a laptop, an internet connection, and your sexy-ass brain.**
 
-It turns out you can live the lifestyle of your dreams, and **you can start today**.
+[^dn]:
+    I really dislike the term "digital nomad", because it creates the impression that there's some kind of secret club that you have to be initiated into. There isn't.
 
-{{% caption src="/images/earn-from-anywhere_header.jpg"
-            align="aligncenter"
-            alt="Earn from Anywhere Guide to Becoming Location Independent" %}}
-  The *Earn from Anywhere* guide will show you how to become a digital nomad.
-{{% /caption %}}
+_Any_ job that's done through a computer can be done remotely: I know accountants, writers, designers, developers, marriage counselors, travel gear producers, and customer service reps (and many more) who can do their jobs anywhere.
 
-## Everything You Need to Go Location-Independent
+## But despite its recent popularity, this lifestyle isn't for everyone. 
 
-The *Earn from Anywhere* guide is broken up into several key areas you'll need to address before you leave the country:
+Remote work requires building skills that go beyond simply doing your job. It requires self-experimentation, finding joy in chaos and uncertainty, and hurling yourself head-first into an adventure that changes for every person who takes it on.
 
-*   The lies about work that we've grown up believing
-*   What's possible once we discard the Overkill Cult's dogma
-*   How to become truly location-independent
-*   What we need to do before we leave
-*   How to survive once we're on the road
-*   Ideas for staying happy and productive in our travels
-*   Strategies for US citizens to save big on taxes
-*   And much more
+Most of all, it requires tapping into your emergency stores of courage — and doing something that will make everyone you know simultaneously question your grip on reality and _envy the Christ out of you_.
 
-The guide is broken up to lessons, which are delivered over a few days to make them easy to remember and simple to implement. By the end of the course you'll have everything you need to break free of your anchors and see the world now — without sacrificing your comfort or security later.
+### If you're cut out for location-independence, though, life can be more amazing than you've ever imagined.
 
-When you're ready to take the first step toward a life of travel and adventure, just enter your email below to get the first lesson delivered instantly.
+Just to list the obvious benefits:
 
-{{< optin button="Get the Guide"
-          group="remote-work"
-          privacy="I will never share your information. Because I&rsquo;m not a dick." >}}
+- **You'll be able to travel the world** and see what's out there with your own eyes.[^pinterest]
+- **You'll earn a living doing work you love** — or at least make it more possible to do things you love in addition to working.
+- **You'll experience a level of freedom most people only dream of.** _"Can I Winnie-the-Pooh it[^wtp] on a video meeting?"_ You bet. _"Spontaneous dance parties?"_ I'd be disappointed if you didn't. _"Can I tempt fate and knock out some work from the jacuzzi?"_ I don't recommend it, but who the fuck am I to tell you what to do?
 
-### Why did I go to the trouble of putting this guide together just to give it away for free?
+[^pinterest]:
+    You can finally judge for yourself whether Paris lives up to its myriad Pinterest boards!
 
-That's a fair question, and I have a few reasons:
+[^wtp]:
+    Shirt, no pants.
 
-1.  I put this guide together for myself when I initially left the United States to start traveling permanently.
-2.  The location-independent lifestyle has been one of the more rewarding experiences of my life, and I believe this holds true for anyone who cares to try it.
-3.  I get a huge amount of satisfaction from helping others become the best versions of themselves; that's why I teach, speak, and write.
+{{< caption src="/images/jason-lengstorf-in-tokyo.jpg"
+            align="center"
+            alt="Jason Lengstorf in Tokyo"
+            attr="paint with stars"
+            attrlink="http://www.paintwithstars.com/" >}}
+    Speaking of adventures: the train system in Tokyo.
+{{< /caption >}}
 
-So don't worry: this guide is free, and **the only payment I want in return is your success.** And maybe you'll share some of my articles if they help you.
+## I'm Jason, and I've been working remotely for over a decade.
 
-If you don't like it, you can unsubscribe at any time and/or reply to a message to let me know how I can improve it.
+Since late 2014 I've been traveling the world, staying in a new city for a month or two before moving on to the next place that sounds interesting.
 
-You've got nothing to lose and everything to gain.
+**Making my income location-independent has been the single most impactful thing I've ever done.** And I know I'm not the only one.
 
-{{< optin button="Send Lesson 1"
-          group="remote-work"
-          privacy="I will never share your information. Because I&rsquo;m not a dick." >}}
+### I want to help you work remotely and make a good living. 
+
+To help you determine how to make remote work a possibility for you, I've put together a 6-step checklist to help you get started.
+
+#### What you'll learn:
+
+- **How to create a location-independent income source** (or how to make your current job remote-friendly).
+- **The additional skills remote workers _need_ to master** if they intend to _remain_ remote workers.
+- **A remote worker's most valuable tool** for balancing work and play. Because what good is having the freedom to live anywhere if you can't go explore?
+
+### Enter your name and email and I'll send you the free 6-step checklist right now.
+
+{{< optin group="remote-work" button="Send It Now" >}}
