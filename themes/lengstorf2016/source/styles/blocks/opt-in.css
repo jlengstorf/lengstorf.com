@@ -16,7 +16,7 @@
 
   &__label {
     position: absolute;
-    top: 3px;
+    top: 5px;
     left: 7px;
     color: $color-caption;
     font-size: 8px;
