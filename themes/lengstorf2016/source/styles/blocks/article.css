@@ -29,12 +29,12 @@
     }
 
     a:not([class]) {
-      border-bottom: 1px solid $color-brand;
-      line-height: 1;
+      border-bottom: 1px solid color( $color-brand alpha(0%) );
       text-decoration: none;
+      transition: 100ms border linear;
 
       &:hover,&:active,&:focus {
-        border-top: 1px solid $color-brand;
+        border-bottom: 1px solid $color-brand;
         outline: none;
       }
     }
