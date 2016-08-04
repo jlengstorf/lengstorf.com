@@ -1,38 +1,82 @@
 //-
   Adds a call to action.
+
+include ../pug-mixins/popover
+
 -
-  const getLink = landingpage => `{{ .Page.Site.BaseURL }}${landingpage}/?utm_source={{ .Page.Slug }}&utm_medium=cta&utm_campaign=${landingpage}`;
+  const getLink = landingpage => `{{ .Page.Site.BaseURL }}${landingpage}?utm_source={{ .Page.Slug }}&utm_medium=cta&utm_campaign=${landingpage}`;
+-
 //{{ $cta := .Get 0 }}
 h2 {{ if isset .Params 1 }}{{ .Get 1 }}{{ else }}What To Do Next{{ end }}
 
-//{{ if eq $cta "travel" }}
-p.
-  If you’re like me, the idea of traveling permanently while making a living probably seems like a dream — but you don’t think you can pull it off.
-p.
-  I felt that way right up until I actually boarded a flight to leave the United States. And now I can’t believe I didn’t start living this life sooner.
+//{{ if or (eq $cta "travel") (eq $cta "TRAVEL") }}
+:marked
+  If you're like me, the idea of traveling permanently while making a living probably seems like a dream — but you don't think you can pull it off.
+
+  I felt that way right up until I actually boarded a flight to leave the United States back in 2014 — and now _I can't believe I didn't start living this life sooner_.
+
+  The secret to a life on your terms — work where and when you want, living anywhere in the world — is **remote work**. And there's good news: it's easier than ever before to join the ranks of location-independent workers around the world.
 p
   strong
-    | I want to help you avoid my mistake: you can start living the life of your dreams right now. And I’ve put together a 
-    a(href= getLink('remote-work-course')) free step-by-step guide
-    |  to show you how.
+    | I want to help you. The best remote workers all have a set of non-technical skills, and I’ve put together a 
+    a.cta__link--open-popover(href= getLink('remote-work-course#content')) free 6-point checklist
+    |  to help you master them — and ultimately master your time and ability to work anywhere in the world.
 p
-  a(href= getLink('remote-work-course'))
+  a.cta__link--open-popover(href= getLink('remote-work-course#content')) Click here to get the free checklist now.
+
++popover(
+  'Escape the Office: Get My 6-Step Checklist and Learn:', 
+  '<ul><li><strong>How to create a location-independent income source</strong> (or how to make your current job remote-friendly).</li><li><strong>The additional skills remote workers <em>need</em> to master</strong> if they intend to <em>remain</em> remote workers.</li><li><strong>A remote worker’s most valuable tool</strong> for balancing work and play. Because what good is having the freedom to live anywhere if you can’t go explore?</li></ul>', 
+  'Get It Now', 
+  'TRAVEL', 
+  '{{ .Page.Slug }}'
+)
 //{{ end }}
 
-//{{ if eq $cta "focus" }}
-p.
-  As adults, we’re supposed to build careers, build relationships, build futures, build happiness&hellip; It’s all pretty fucking overwhelming. It’s easy to feel stuck — like we’re on autopilot, punching a clock, and buried in tasks we don’t really care about.
-p.
-  Wouldn’t it be nice to get some balance back? To have extra time #[em every day] to dedicate to the things that actually matter to you?
+//{{ if or (eq $cta "focus") (eq $cta "PRODUCTIVE") }}
+:marked
+  As adults, we're supposed to build careers, build relationships, build futures, build happiness... It's all pretty fucking overwhelming. It's easy to feel stuck — like we're on autopilot, punching a clock, and buried in tasks we don't really care about.
+
+  Wouldn't it be nice to get some balance back? To have extra time _every day_ to dedicate tot he things that actually matter to you?
 p
   | I want to help: 
   strong I’ve compiled 
     em 5 Habits of the Unfuckwithably Productive
     | , and 
-    a(href= getLink('productivity-habits')) I want to give it to you for free
+    a.cta__link--open-popover(href= getLink('productivity-habits#content')) I want to give it to you for free
     | . These are time-tested habits that helped me break the cycle of overwork and exhaustion; this is 
     em how I spend less than 40 hours a week on the computer — while making a living and traveling the world.
 p
-  a(href= getLink('productivity-habits')).
-    Click here to get the free guide.
+  a.cta__link--open-popover(href= getLink('productivity-habits#content')) Click here to get the free guide.
+
++popover(
+  'Proven Strategies for Getting More Done in Less Time', 
+  '<ul><li><strong>Stay consistent & get things done.</strong></li><li><strong>Make productivity automatic.</strong></li><li><strong>Avoid burnout & find the joy in your work again.</strong></li><li><strong>Turboboost efficiency & create more free time.</strong></li><li><strong>Maintain laser-like focus.</strong></li></ul>', 
+  'Get It Now', 
+  'PRODUCTIVE', 
+  '{{ .Page.Slug }}'
+)
+//{{ end }}
+
+//{{ if eq $cta "WORKHAPPY" }}
+:marked
+  If you listen to typical business advice, the only way to advance in your career is to sacrifice your life outside of work. "The only way you'll get ahead," it claims, "is to hustle harder than everyone else."
+
+  It seems like you have to choose: your career _or_ your life.
+p But I think there's a third choice. 
+  strong
+    | You can have a great career #[em and] a great life. And I’ve written 
+    | #[a.cta__link--open-popover(href= getLink('work-happier#content')) a free guide to show you how to do it].
+:marked
+  Inside, I share 3 daily actions I've used to grow my career while living a wonderfully fulfilling life outside of work. **And I lay out how you can start living a better life, too — starting _today_.**
+p
+  a.cta__link--open-popover(href= getLink('work-happier#content')) Click here to get the guide.
+
++popover(
+  'Get your life back without sacrificing your career.', 
+  '<ul><li><strong>Get motivated.</strong> Stop feeling buried. Start feeling unstoppable.</li><li><strong>Supercharge your productivity.</strong> Show up, kick ass, get out, and live your life.</li><li><strong>Create more quality time.</strong> Spend more time with the people you love.</li></ul>', 
+  'Get It Now', 
+  'WORKHAPPY', 
+  '{{ .Page.Slug }}'
+)
 //{{ end }}
