@@ -50,10 +50,12 @@
 
 .hero {
   position: relative;
+  display: none;
+  min-height: 860px;
   min-height: calc( 100vh - 35px );
   width: 100vw;
   margin: 0;
-  padding: 7vh 5vw 0;
+  padding: 6vh 5vw 0;
   background-position: top center;
   background-size: cover;
   border-bottom: 1px solid $color-darkest;
@@ -61,11 +63,19 @@
   text-shadow: 1px 1px 2px color( $color-darkest alpha(75%) );
   overflow: hidden;
 
+  &--home {
+    display: block;
+  }
+
+  @media (min-width: 769px) {
+    display: block;
+  }
+
   @mixin bg-img piggyback;
 
   &--about {
     @mixin bg-img about;
-    padding-top: 55vh;
+    padding-top: 50vh;
   }
 
   &--travel {
@@ -244,6 +254,7 @@
   }
 
   &__photo-credit {
+    display: none;
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -252,6 +263,10 @@
     font-variant: small-caps;
     line-height: 1;
     text-transform: lowercase;
+
+    @media $viewport-xs {
+      display: block;
+    }
   }
 
   &__credit-link {
@@ -260,6 +275,55 @@
 
     &:hover,&:active,&:focus {
       text-decoration: underline;
+    }
+  }
+
+  /*
+   * You know, I started out claiming I wouldn’t support older browsers so I
+   * could avoid EXACTLY THIS PROBLEM.
+   */
+  .ios7 & {
+    max-height: 1000px !important;
+    min-height: 860px;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    &:not(.hero--home) {
+      display: none;
+    }
+
+    &::after {
+      display: none;
+    }
+
+    &__heading {
+      font-size: 175%;
+    }
+
+    &__lede {
+      font-size: 125%;
+      max-width: 60%;
+    }
+
+    &__button {
+      max-width: 60%;
+    }
+
+    @media $viewport-sm {
+      max-height: 1000px;
+      min-height: 860px;
+      padding-top: 70px;
+
+      &__lede {
+        font-size: 125%;
+        max-width: 44%;
+      }
+
+      &__button {
+        max-width: 44%;
+      }
     }
   }
 }

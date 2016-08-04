@@ -48,15 +48,15 @@
 
     &__header {
       position: static;
-      flex: 1 calc( $width-unit * 38.2 );
+      flex: 1 38.2%;
       max-width: 400px;
       margin-top: 0;
     }
 
     &__content {
-      flex: 2 calc( $width-unit * 61.8 );
+      flex: 2 61.8%;
       min-height: calc( 100vh - 30px );
-      min-width: calc( $width-unit * 61.8 );
+      min-width: 61.8%;
       margin-top: 0;
       padding: calc( $height-unit * 10 ) calc( $height-unit * 3.667 ) calc( $height-unit * 4 );
       overflow-y: scroll;
@@ -73,6 +73,20 @@
       margin-top: 0;
       background-color: $color-lightest;
       z-index: 20;
+    }
+
+    .ios7 & {
+      display: block;
+
+      &__header {
+        float: left;
+      }
+
+      &__content {
+        min-height: 850px;
+        max-width: 60%;
+        margin-left: 40%;
+      }
     }
   }
 

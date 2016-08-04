@@ -41,15 +41,29 @@ if (isCostOfLiving) {
 /*
  * Add the Facebook SDK.
  */
-assets.push({
-  uri: '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=220587498083499',
-});
+
+// jscs:disable
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=220587498083499";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+// jscs:enable
 
 /*
  * Remove the `.no-js` class from the body to signify that JS is enabled.
  */
 document.addEventListener('DOMContentLoaded', event => {
   document.body.classList.remove('no-js');
+
+  // Detect iOS 7 because WHY GOD WHY?
+  if (navigator.userAgent.match(/(iPad|iPhone|iPod touch);.*CPU.*OS (7|8)_\d/i)) {
+    document.body.classList.add('ios7');
+  }
 
   // Some things (like hoverable tooltips) don't work on touch devices
   if (!('ontouchstart' in window) || !('msmaxtouchpoints' in window.navigator)) {
