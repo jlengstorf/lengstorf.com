@@ -1,10 +1,10 @@
 {
   "data": {
-    "labels": ["Too Little","The Sweet Spot →","← The Sweet Spot","Too Much"],
+    "labels": ["Too Little","Goldilocks Zone →|","|← Goldilocks Zone","Too Much"],
     "series": [
       {
         "name": "Satisfaction",
-        "data": [0,90,90,0]
+        "data": [0,85,85,0]
       },
       {
         "name": "Progress",
@@ -27,11 +27,11 @@
       "showLabel": false
     },
     "axisX": {
-      "title": "Amount of Hustle"
+      "title": "Amount of Hustle & Grind"
     }
   },
   "legend": true,
-  "caption": "We have to find the sweet spot.",
+  "caption": "The Goldilocks Zone is the range where your progress and your level of satisfaction with the work are both high.",
   "align": "figure figure--center",
   "classes": {
     "base": "drop-in-chart",
