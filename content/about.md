@@ -22,7 +22,7 @@ description = "I started out overworked, overweight, and unhappy. Now I travel t
 
 [popover]
     heading = "Get your life back without sacrificing your career."
-    lede = "* **Gain clarity and purpose in your daily tasks.** No more feeling like you're at the bottom of a mountain of todos, making no progress.\n* **Supercharge your productivity and create more time for yourself.** Show up at work, sit down, kick ass, get out, and live your life.\n* **Reclaim quality time with the people you care about.** Learn one simple action that will close the gaps between you and the people you love."
+    lede = "* **Get motivated.** Stop feeling buried. Start feeling unstoppable.\n* **Supercharge your productivity.** Show up, kick ass, get out, and live your life.\n* **Create more quality time.** Spend more time with the people you love."
     button = "Get It Now"
     group = "WORKHAPPY"
     source = "about"
