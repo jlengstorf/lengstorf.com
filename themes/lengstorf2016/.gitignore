@@ -1,3 +1,7 @@
 node_modules
+static/images
+static/scripts
+static/styles
 static/vendor
+layouts
 
