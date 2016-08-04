@@ -1,7 +1,6 @@
 +++
 date = "2016-06-24"
 author = "jason"
-draft = true
 
 title = "You May Love Your Job. But Does Your Job Love You Back?"
 slug = "work-happier"
@@ -23,7 +22,7 @@ type = "landing"
 
 [popover]
     heading = "Get your life back without sacrificing your career."
-    lede = "* **Gain clarity and purpose in your daily tasks.** No more feeling like you're at the bottom of a mountain of todos, making no progress.\n* **Supercharge your productivity and create more time for yourself.** Show up at work, sit down, kick ass, get out, and live your life.\n* **Reclaim quality time with the people you care about.** Learn one simple action that will close the gaps between you and the people you love."
+    lede = "* **Get motivated.** Stop feeling buried. Start feeling unstoppable.\n* **Supercharge your productivity.** Show up, kick ass, get out, and live your life.\n* **Create more quality time.** Spend more time with the people you love."
     button = "Get It Now"
     group = "WORKHAPPY"
     source = "work-happier"
@@ -51,11 +50,13 @@ In reality, there's no secret strategy or insider tip that will fix your balance
 
 ### Learn 3 blindingly obvious (and therefore painfully underappreciated) daily actions that will change your life — starting today.
 
-* **Gain clarity and purpose in your daily tasks.** No more feeling like you're at the bottom of a mountain of todos, making no progress.
-* **Supercharge your productivity and create more time for yourself.** Show up at work, sit down, kick ass, get out, and live your life.
-* **Reclaim quality time with the people you care about.** Learn one simple action that will close the gaps between you and the people you love.
+This guide will show you three small, immediately-applicable actions you can take _today_ that will help you:
 
-I've put together a PDF with three daily actions that if you choose to _actually follow through with_, will change your life.
+* **Get motivated.** Stop feeling buried. Start feeling unstoppable.
+* **Supercharge your productivity.** Show up, kick ass, get out, and live your life.
+* **Create more quality time.** Spend more time with the people you love.
+
+These daily actions — if you choose to _actually follow through with them_ — will change your life.
 
 And the best part is, making **these changes will have _no negative impact_ on your career.** (And, in fact, you'll probably see things _improve_ at work.)
 

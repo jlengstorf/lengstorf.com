@@ -31,6 +31,8 @@ images = [
     "/images/productivity-strategy.jpg",
 ]
 +++
+## Stop Wasting Time Feeling Overwhelmed and Tired. Start Doing What Matters.
+
 If you're feeling stuck right now — too many tasks, too little free time, too much bullshit, and not enough of the things that matter — I have good news.
 
 With a few adjustments to the way you work, **you can free up hours of extra time _every day_ to spend on the things that really matter to you.**
