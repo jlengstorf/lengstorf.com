@@ -5,7 +5,7 @@ draft: true
 
 title: Labels
 seo_title: 
-slug: labels_old
+slug: labels
 description: 
 
 category:
