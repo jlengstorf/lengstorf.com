@@ -90,11 +90,11 @@
     flex: 2 calc( 100% - ($height-unit * 2 + 210px) );
 
     margin-top: 0;
-    font-size: calc( $font-size-default * 1.25 );
-    line-height: 1.25;
+    font-size: $font-size-default;
 
     @media $viewport-sm {
       max-width: calc( 100% - ($height-unit * 2 + 210px) );
+      font-size: calc( $font-size-default * 1.25 );
     }
   }
 

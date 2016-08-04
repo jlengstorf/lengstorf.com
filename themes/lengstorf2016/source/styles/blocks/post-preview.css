@@ -90,8 +90,7 @@
 
   &__excerpt {
     flex: 1;
-    font-size: calc( $font-size-default * 1.25 );
-    line-height: calc( $font-size-default * 2 );
+    font-size: $font-size-default;
 
     @media $viewport-xs {
       float: left;
@@ -102,6 +101,11 @@
         flex: 2 calc( 60% - 20px );
         float: none;
       }
+    }
+
+    @media $viewport-sm {
+      font-size: calc( $font-size-default * 1.25 );
+      line-height: calc( $font-size-default * 2 );
     }
   }
 
