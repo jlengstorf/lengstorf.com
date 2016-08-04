@@ -2,7 +2,7 @@
 date = "2016-06-24"
 author = "jason"
 
-title = "Let Me Solve Your Hard Problems: Hire Me for Speaking, Coaching, Web Consulting, Workshops, Training, and More"
+title = "Let Me Solve Your Hard Problems"
 slug = "hire-me"
 seo_title = "I Solve Hard Problems: Coaching, Workshops, Training & More"
 description = "You can hire me to solve your hard problems. I offer 1-on-1 coaching, workshops, in-person or remote training, speaking, web consulting, and more."
@@ -11,6 +11,8 @@ images = [
   "/images/jason-lengstorf.jpg",
 ]
 +++
+## Hire Me for Speaking, Coaching, Web Consulting, Workshops, Training, and More
+
 My favorite place to be is up against a new challenge. I get to dig into research, create ideas, and test those ideas against real scenarios.
 
 **And that's what I'd like to do for you: solve hard problems.**
