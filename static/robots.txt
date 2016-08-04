@@ -1,6 +1,5 @@
 User-agent: *
 
 Disallow: /downloads/
-Disallow: /productivity-habits/download/
-Disallow: /remote-work-course/confirmed/
-Disallow: /work-happier/confirmed/
+Disallow: /confirm/
+Disallow: /confirmed/
