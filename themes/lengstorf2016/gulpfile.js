@@ -73,6 +73,9 @@ gulp.task('pug', () => {
     .pipe(gulpif(!enabled.failTemplateTask, plumber(handleError)))
     .pipe(pug({
       basedir: path.resolve(__dirname),
+      filters: [
+        require('jstransformer-marked'),
+      ],
     }))
     .pipe(changed(manifest.config.pug.dest, {
       extension: '.html',

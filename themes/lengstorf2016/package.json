@@ -43,6 +43,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",
+    "jstransformer-marked": "^1.0.1",
     "lazypipe": "^1.0.1",
     "merge-stream": "^1.0.0",
     "minimist": "^1.2.0",
