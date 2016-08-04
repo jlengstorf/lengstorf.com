@@ -1,7 +1,10 @@
 mixin optin(buttonText, group, source)
   .opt-in
+    //- 
+      action= 'https://api.lengstorf.com/user'
+      action= 'http://api.lengstorf.dev:1350/user'
     form.opt-in__form(
-      action= `https://api.lengstorf.com/user`
+      action= 'https://api.lengstorf.com/user'
       method="post"
       role="form"
     )
@@ -20,7 +23,7 @@ mixin optin(buttonText, group, source)
           for="email"
         ) Email Address
         input.opt-in__input(
-          type="text"
+          type="email"
           id="email"
           name="EMAIL"
           required
@@ -38,7 +41,7 @@ mixin optin(buttonText, group, source)
       input(
         type="hidden"
         name="status"
-        value="unsubscribed"
+        value="pending"
       )
       input(
         type="hidden"
