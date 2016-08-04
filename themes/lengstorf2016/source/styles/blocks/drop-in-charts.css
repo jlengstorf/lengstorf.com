@@ -152,10 +152,6 @@ $series-d-area-alpha: $default-area-alpha;
     display: block;
     margin: 10px 0 0;
     border-bottom: 0;
-
-    @media $viewport-md {
-      margin-top: 0;
-    }
   }
 
   /* Chartist-specific styles */
