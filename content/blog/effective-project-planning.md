@@ -4,7 +4,7 @@ author: jason
 
 title: "The Art of Effective Planning: Avoid Wasted Time and Stress"
 seo_title: "The Art of Effective Planning: Avoid Wasted Time and Stress"
-url: effective-project-planning
+slug: effective-project-planning
 description: Planning may not be a sexy topic, but learning to plan properly means higher productivity, less stress, and more free time — and THAT is pretty damn sexy.
 
 category:
