@@ -9,11 +9,9 @@ block append config
 
 block hero
   //
-    {{ range .Data.Pages }}
-      {{ if eq .Type "index" }}
+    {{ range first 1 (where .Data.Pages "Type" "index") }}
   include ./pug-includes/hero
   //
-      {{ end }}
     {{ end }}
 
 block article
