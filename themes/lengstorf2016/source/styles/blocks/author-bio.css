@@ -12,7 +12,9 @@
   &__heading {
     flex: 1;
     order: 1;
+    font-family: $font-family-script;
     font-size: 200%;
+    font-weight: $font-weight-normal;
     text-align: center;
   }
 
@@ -72,7 +74,7 @@
       max-width: 33%;
 
       .js--lazyload {
-        padding-bottom: 33%;
+        padding-bottom: 100%;
       }
     }
   }
