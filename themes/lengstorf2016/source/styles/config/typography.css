@@ -45,9 +45,9 @@ h1 {
 }
 
 h2 {
-  font-family: $font-family-script;
+  /*font-family: $font-family-script;*/
   font-size: 175%;
-  font-weight: $font-weight-normal;
+  font-weight: $font-weight-bold;
 
   strong {
     font-weight: $font-weight-normal;
@@ -57,6 +57,14 @@ h2 {
 h3 {
   font-size: 125%;
   font-weight: $font-weight-ultra;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: $color-caption;
+  font-size: 115%;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -73,16 +81,20 @@ a {
 }
 
 blockquote {
-  background: $color-gray-light;
   padding: $font-size-default;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-left: 2px solid $color-accent;
-  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 2px solid $color-accent;
+  border-bottom: 2px solid $color-accent;
+  color: $color-darkest;
+  font-size: 110%;
+  line-height: 1.5;
 
   @media $viewport-sm {
     margin-left: -20px;
     margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   >p:last-child {
