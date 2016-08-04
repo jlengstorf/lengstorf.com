@@ -6,17 +6,19 @@
   &__nav {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid $color-lightest;
+    border-top: 2px solid $color-gray-medium;
     box-shadow: -1px 0 4px color( $color-darkest alpha(15%) );
   }
 
   &__nav-item {
     flex: 1;
     position: relative;
+    display: block;
     height: 40px;
+    min-width: 14%;
     margin: 0;
-    background: $color-accent;
-    border-right: 1px solid $color-lightest;
+    background: $color-lightest;
+    border-right: 1px solid $color-gray-medium;
     overflow: hidden;
     text-indent: -9999px;
 
@@ -30,7 +32,7 @@
       top: 0;
       left: 0;
       right: 0;
-      height: 24px;
+      height: 22px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: 16px;
@@ -42,13 +44,12 @@
       bottom: 4px;
       left: 0;
       right: 0;
-      color: $color-lightest;
+      color: $color-text;
       font-size: 8px;
       font-weight: $font-weight-normal;
       line-height: 1;
       text-align: center;
       text-indent: 0;
-      text-shadow: 1px 1px 1px color( $color-darkest alpha( 25% ) );
 
       @media $viewport-xs {
         font-size: 10px;
@@ -60,37 +61,73 @@
     }
 
     &--blog::before {
-      background-image: url(/images/icon-blog.svg);
+      background-image: url(/images/icon-blog-dark.svg);
     }
 
     &--start-here::before {
-      background-image: url(/images/icon-about.svg);
+      background-image: url(/images/icon-about-dark.svg);
     }
 
     &--efficiency::before {
-      background-image: url(/images/icon-efficiency.svg);
+      background-image: url(/images/icon-efficiency-dark.svg);
     }
 
     &--travel::before {
-      background-image: url(/images/icon-travel.svg);
+      background-image: url(/images/icon-travel-dark.svg);
     }
 
     &--work-happier::before {
-      background-image: url(/images/icon-post-hustle.svg);
+      background-image: url(/images/icon-post-hustle-dark.svg);
     }
 
     &--hire-me::before {
-      background-image: url(/images/icon-hire-me.svg);
+      background-image: url(/images/icon-hire-me-dark.svg);
     }
 
     &--contact::before {
-      background-image: url(/images/icon-contact.svg);
+      background-image: url(/images/icon-contact-dark.svg);
     }
 
     &:hover,&:active,&:focus,&--active {
       background-color: $color-brand;
       text-shadow: 1px 1px 0 color( $color-darkest alpha(40%) );
       outline: 0;
+
+      &.header__nav-item--blog::before {
+        background-image: url(/images/icon-blog-light.svg);
+      }
+
+      &.header__nav-item--start-here::before {
+        background-image: url(/images/icon-about-light.svg);
+      }
+
+      &.header__nav-item--efficiency::before {
+        background-image: url(/images/icon-efficiency-light.svg);
+      }
+
+      &.header__nav-item--travel::before {
+        background-image: url(/images/icon-travel-light.svg);
+      }
+
+      &.header__nav-item--work-happier::before {
+        background-image: url(/images/icon-post-hustle-light.svg);
+      }
+
+      &.header__nav-item--hire-me::before {
+        background-image: url(/images/icon-hire-me-light.svg);
+      }
+
+      &.header__nav-item--contact::before {
+        background-image: url(/images/icon-contact-light.svg);
+      }
+
+      &::after {
+        color: $color-lightest;
+      }
+    }
+
+    &--active {
+      background-color: $color-accent;
     }
   }
 
@@ -213,8 +250,15 @@
       transition: 200ms all ease-in-out;
       z-index: 5;
 
-      &::before {
-        background-image: none;
+      &::before,&--active::before {
+
+        /*
+         * I overdid it with my specificity on the icons, and it’s biting me in
+         * the ass now.
+         *
+         * SHAME SHAME SHAME
+         */
+        background-image: none !important;
       }
 
       &::after {
