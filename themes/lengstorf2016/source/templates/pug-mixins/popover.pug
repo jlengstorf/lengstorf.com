@@ -15,7 +15,7 @@ mixin popover(heading, lede, button, group, source)
           )
       .popover__text-wrap
         h2.popover__heading= heading
-        .popover__text= lede
+        .popover__text!= lede
       .popover__form-wrap
         +optin(button, group, source)
 
