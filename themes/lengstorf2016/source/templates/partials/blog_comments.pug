@@ -1,4 +1,4 @@
-//{{ with .Params.enable_disqus }}
+//{{ with .Params.enable_disqus }}{{ if not .Site.BuildDrafts }}
 .article__comments.comments#comments
   .comments__disqus#disqus_thread
   script(async).
@@ -11,4 +11,4 @@
 
   noscript
     | Please enable JavaScript to view the comments.
-//{{ end }}
+//{{ end }}{{ end }}
