@@ -1,2 +1,4 @@
-if process.env.NODE_ENV !== 'production'
-  script#__bs_script__ document.write("<script async src='http://HOST:8100/browser-sync/browser-sync-client.2.12.12.js'><\/script>".replace("HOST", location.hostname));
+// {{ if $.Site.BuildDrafts }}
+script#__bs_script__.
+   document.write("<script async src='http://HOST:8100/browser-sync/browser-sync-client.2.12.12.js'><\/script>".replace("HOST", location.hostname));
+// {{ end }}
