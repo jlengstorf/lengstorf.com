@@ -241,6 +241,7 @@
       padding: 0 $font-size-default;
       background-color: $color-gray-light;
       border-top: 2px solid $color-lightest;
+      border-right: 0;
       color: $color-darkest;
       font-weight: $font-weight-light;
       line-height: calc( $font-size-default * 3 );
