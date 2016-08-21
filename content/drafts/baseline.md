@@ -153,26 +153,63 @@ And _that_ is where things can become bad, because when we make predictions abou
 
 This is where bitterness comes from, and the suspicion that there's only so much happiness (or love, or money, or whatever) in the world, and that someone else is getting your share.
 
-And if we look at happiness as a zero-sum game, we're all fucked.
+And if we look at happiness as a zero-sum game, we're all fucked.[^zero-sum]
+
+[^zero-sum]:
+    Note to self: write a post about this and explain what the fuck you're talking about.
 
 ## How to Have Higher Highs (Without the Crash)
-### 1. Only keep score against yourself.
-### 2. Learn the difference between fault and responsibility.
-### 3. Measure by all of what matters: outcome, growth, and experience.
-## Outro
 
----
+So if you'll humor me, let's all agree that the following assumptions hold true:
 
-## What's the point?
+- Chasing happiness as destinations leads to seeking higher highs, with the accompanying lower lows.
+- This leads to a baseline happiness that more or less stays flat.
+- A flat baseline happiness can start to feel like things are stagnating and/or getting worse.
+- This can lead to believing things are actually getting worse, which can become a self-fulfilling prophecy.
+- If we start to believe our best years are behind us, we become bitter and unhappy.
 
-We all have swings in our moods. Some days we're up, and other days we're way down. Our instinct is often to seek out higher highs — bigger adventures, loftier titles, newer toys — but that opens us up to even lower lows on the downswing (thanks for nothing, Newtonian mechanics). But we're not totally fucked here; if we aim to raise the baseline, several things happen:
+With all of that laid out, it seems pretty obvious
 
-1. Our highs are higher.
-2. Our lows aren't nearly as low.
-3. Our day-to-day average moods are higher overall.
+### Are you ready for me to stop talking about cupcakes?
 
-We can raise our baseline surprisingly quickly with a few mental exercises:
+Going back to our cupcake example, what if we made one simple adjustment?
 
-1. Only keep score against yourself.
-2. Focus only on what you can control, and accept responsibility.
-3. Measure by growth and experience in addition to outcomes.
+#### Instead of viewing the cupcake itself as the reason for our happiness, we look at it as a starting point.
+
+This cupcake looks amazing. How do you make a cupcake look this good?
+
+And holy shit — it tastes as good as it looks. _How do you make a cupcake taste this good?!_
+
+I should try and make cupcakes. I bet I can make pretty good ones.
+
+{{< caption src="/images/increase-baseline-happiness.jpg"
+            align="center"
+            alt="increase baseline happiness" >}}
+  The cupcake paves the way for curiosity, which leads to learning and improvement.
+{{< /caption >}}
+
+Instead of the deep crash when the cupcake is gone, we come out of the experience with a new goal: we're going to learn how to make cupcakes that taste this good.
+
+This means we have _something else_ to look forward to — we're not left without a goal once the cupcake is gone — and we get to chase our curiosity.
+
+### Each new expierience brings us happiness and gives us new ideas to pursue.
+
+By looking at each new experience as a step instead of a destination, we're reducing the full depths of the crash. And that's _really_ important.
+
+**If the crashes after each high aren't as extreme, our baseline happiness will _increase_ over time.**
+
+{{< caption src="/images/increase-baseline-happiness-w-baseline.jpg"
+            align="center"
+            alt="improved happiness over time" >}}
+  Each good experience is a step, not a destination, and that means we're getting happier all the time.
+{{< /caption >}}
+
+It's a subtle shift: instead of thinking, "I'll be happy when...", we shift our thinking to, "This will be fun to try."
+
+That makes the _whole process_ a reward, instead of just the outcome. On top of that, learning something almost always exposes new things to learn, and — if you give yourself permission to keep learning — that means you'll always have some interesting thread to tug at.
+
+## What's Your Baseline?
+
+Which way is your baseline trending? And what could you do _today_ to get it trending upward? [Put your action step in the comments.](#comments)
+
+{{< cta "WORKHAPPY" >}}
