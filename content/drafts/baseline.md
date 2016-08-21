@@ -30,7 +30,7 @@ The first time I left the United States, I was so excited I could have hung my c
 [^lowbrow]:
     "Jesus, he's not even going to warm us up before waving a boner joke in our faces?"
 
-This was a trip I'd been talking about since high school — it was supposed to be _the_ big trip I took after graduation — and after nearly a decade of "saving up",[^nope] delays, and excuses, I _finally_ had my ticket.
+This was a trip [Nate](https://nategreen.org/) and I had been talking about since high school — it was supposed to be _the_ big trip after high school graduation — and after years of "saving up",[^nope] delays, and excuses, I _finally_ had my ticket.
 
 [^nope]:
     Just kidding. I didn't save _anything_ in those days. I made an extreme sport out of trying to stretch the $8.71 in my wallet across three days until I (hopefully) got an invoice paid.
