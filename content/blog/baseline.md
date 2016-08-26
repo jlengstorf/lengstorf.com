@@ -1,13 +1,12 @@
 +++
-date = "2016-06-16"
+date = "2016-08-25"
 author = "jason"
-draft = true
 type = "blog"
 
 title = "The Baseline: How to Create Long-Term Happiness"
-seo_title = "How to Create Long-Term Happiness: Focus on the Baseline"
+seo_title = "What cupcakes can teach us about long-term happiness."
 slug = "baseline"
-description = ""
+description = "The quest for happiness is a rollercoaster of highs and lows. But can we build long-term happiness? I think it's possible. Let me explain. With cupcakes."
 
 category = [
     "happiness"
@@ -19,7 +18,6 @@ tag = [
 ]
 
 images = [
-    "/images/cupcake-happiness-timeline-600x300.jpg",
     "/images/cupcake-happiness-timeline.jpg",
 ]
 
@@ -53,7 +51,7 @@ But now? _It was all over._
 
 I had nothing to look forward to. I started to worry I may never feel that kind of happiness again.
 
-TKTK(transition: I started planning the next thing, because I needed something to look forward to.)
+My incredible high was matched by an equally crushing low.
 
 ## Finding Happiness the Hard Way
 
@@ -63,7 +61,7 @@ Happiness, especially, tends to be noticed only at its heights, or in its utter 
 
 A "happy person" is a walking highlight reel: a dream wedding with a romantic destination honeymoon chaser; a new puppy to round out graduation and the start of a promising career; a bucket list vacation photo series with a first-class-upgrade cherry on top.
 
-Our high points are often the only metric used to determine how happy we are. And thanks to the latent one-upsmanship we all tend to suffer from, in order to "stay happy" we need to reach for higher and higher highs.[^boring]
+**Our high points are often the only metric used to determine how happy we are.** And thanks to the latent one-upsmanship we all tend to suffer from, in order to "stay happy" we need to reach for higher and higher highs.[^boring]
 
 [^boring]:
     There's actually some psychological headfuckery at work here: as we have experiences, doing the same thing starts to feel boring — no matter how exciting it may have been at first. I've talked about how we can use this as a [tool to overcome fear]({{< ref "2015-09-24_overcoming-fear.md" >}}), but in the case of happiness it can work against us.
@@ -77,7 +75,7 @@ More exotic vacations.[^exotic] Bigger adventures. Go further, go harder, do mor
 
 The catch with focusing only on the ups, though, is that it ignores a fundamental truth: life happens in swings.
 
-So if the highs are getting increasingly higher, we stand to experience even lower lows.[^newton]
+**If the highs are getting increasingly higher, we stand to experience even lower lows.**[^newton]
 
 [^newton]:
     Thanks for nothing, Newtonian mechanics.
@@ -86,7 +84,7 @@ My big trip, for example, was the highest high I'd reached at that point in my l
 
 ## Here's a Simpler Example: Say You've Got a Cupcake
 
-Now, this cupcake looks _amazing_. It's still a bit warm from the oven. It's the perfect mix of moist and springy. The icing is buttercream, made from scratch. _It's filled with goddamn salted caramel._
+Now, this cupcake looks _amazing_. It's still warm from the oven. It's the perfect mix of moist and springy. The icing is buttercream, made from scratch. _It's filled with goddamn salted caramel._
 
 {{< caption src="/images/cupcake.jpg"
             align="aligncenter"
@@ -127,7 +125,7 @@ You don't know how, but life will continue, step after merciless, unsprinkled st
 
 For most of my teens and twenties, [I chased happiness as a sort of destination]({{< ref "finding-happiness.md" >}}). I'd see something shiny, struggle toward it, achieve it, feel amazing for the briefest of moments, and then plunge into the existential quagmire of existing without goals — until I saw something shiny.
 
-It was a strange sort of holding pattern, where I'd oscillate between euphoria and angst, always at about the same frequency. My overall _average happiness_, if we look at the highs and lows on a graph, stayed about the same.
+It was a strange sort of holding pattern, where I'd oscillate between euphoria and angst, always at about the same frequency. My _average happiness_, if we look at the highs and lows on a graph, stayed about the same.
 
 {{< caption src="/images/cupcake-happiness-timeline-w-baseline.jpg"
             align="center"
@@ -141,7 +139,7 @@ It was a strange sort of holding pattern, where I'd oscillate between euphoria a
 
 Since we generally acclimate to circumstances pretty quickly, staying the same often feels like things are getting worse.
 
-And _that_ is where things can become bad, because when we make predictions about how we're going to feel, they tend to be self-fulfilling prophecies.
+And _that_ is where things get ugly, because **when we make predictions about how we're going to feel, they tend to be self-fulfilling prophecies.**
 
 {{< caption src="/images/cupcake-longing-for-the-past-w-baseline.jpg"
             align="center"
@@ -158,29 +156,35 @@ And if we look at happiness as a zero-sum game, we're all fucked.[^zero-sum]
 [^zero-sum]:
     Note to self: write a post about this and explain what the fuck you're talking about.
 
-## How to Have Higher Highs (Without the Crash)
+## How to Have Higher (Crash-Free) Highs
 
 So if you'll humor me, let's all agree that the following assumptions hold true:
 
 - Chasing happiness as destinations leads to seeking higher highs, with the accompanying lower lows.
 - This leads to a baseline happiness that more or less stays flat.
 - A flat baseline happiness can start to feel like things are stagnating and/or getting worse.
-- This can lead to believing things are actually getting worse, which can become a self-fulfilling prophecy.
+- This can lead to believing things are _actually_ getting worse.
 - If we start to believe our best years are behind us, we become bitter and unhappy.
 
-With all of that laid out, it seems pretty obvious
+With all of that laid out, we'd be hard-pressed to find many benefits to this approach.
+
+So what are our alternatives?
 
 ### Are you ready for me to stop talking about cupcakes?
 
 Going back to our cupcake example, what if we made one simple adjustment?
 
-#### Instead of viewing the cupcake itself as the reason for our happiness, we look at it as a starting point.
+**What if, instead of seeing the cupcake as the _reason_ for our happiness, we look at it as a _starting point_?**
 
-This cupcake looks amazing. How do you make a cupcake look this good?
+Maybe our thought process goes something like this:
 
-And holy shit — it tastes as good as it looks. _How do you make a cupcake taste this good?!_
+> This cupcake looks amazing. How do you make a cupcake look this good?
+> 
+> And holy shit — it tastes as good as it looks. _How do you make a cupcake taste this good?!_
+> 
+> I should try and make cupcakes. I bet I can make pretty good ones.
 
-I should try and make cupcakes. I bet I can make pretty good ones.
+Instead of a deep crash when the cupcake is gone, we come out of the experience with a new goal: **we're going to learn how to make cupcakes that taste this good.**
 
 {{< caption src="/images/increase-baseline-happiness.jpg"
             align="center"
@@ -188,15 +192,13 @@ I should try and make cupcakes. I bet I can make pretty good ones.
   The cupcake paves the way for curiosity, which leads to learning and improvement.
 {{< /caption >}}
 
-Instead of the deep crash when the cupcake is gone, we come out of the experience with a new goal: we're going to learn how to make cupcakes that taste this good.
-
 This means we have _something else_ to look forward to — we're not left without a goal once the cupcake is gone — and we get to chase our curiosity.
 
-### Each new expierience brings us happiness and gives us new ideas to pursue.
+### Each new experience brings us happiness and gives us new ideas to pursue.
 
 By looking at each new experience as a step instead of a destination, we're reducing the full depths of the crash. And that's _really_ important.
 
-**If the crashes after each high aren't as extreme, our baseline happiness will _increase_ over time.**
+**If our post-high crashes are less extreme than our highs, our baseline happiness will _increase_ over time.**
 
 {{< caption src="/images/increase-baseline-happiness-w-baseline.jpg"
             align="center"
@@ -204,12 +206,12 @@ By looking at each new experience as a step instead of a destination, we're redu
   Each good experience is a step, not a destination, and that means we're getting happier all the time.
 {{< /caption >}}
 
-It's a subtle shift: instead of thinking, "I'll be happy when...", we shift our thinking to, "This will be fun to try."
+It's a subtle shift: instead of thinking, "[I'll be happy when...]({{< ref "finding-happiness.md" >}})", we think, "This will be fun to try."
 
-That makes the _whole process_ a reward, instead of just the outcome. On top of that, learning something almost always exposes new things to learn, and — if you give yourself permission to keep learning — that means you'll always have some interesting thread to tug at.
+**Removing the focus on the destination makes the _whole process_ a reward, instead of just the outcome.** On top of that, learning something almost always exposes new things to learn, and — if you give yourself permission to keep learning — that means you'll always have some interesting thread to tug at.
 
 ## What's Your Baseline?
 
 Which way is your baseline trending? And what could you do _today_ to get it trending upward? [Put your action step in the comments.](#comments)
 
-{{< cta "WORKHAPPY" >}}
+{{< cta "WORKHAPPY" "Improve Your Baseline at Work" >}}
