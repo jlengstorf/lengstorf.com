@@ -34,6 +34,8 @@
 @import './blocks/figure';
 @import './blocks/five-stages';
 @import './blocks/footer';
+@import './blocks/footnote-display';
+@import './blocks/footnotes';
 @import './blocks/google-search';
 @import './blocks/header';
 @import './blocks/hero';
@@ -41,7 +43,6 @@
 @import './blocks/opt-in';
 @import './blocks/pagination';
 @import './blocks/popover';
-@import './blocks/post-footnotes';
 @import './blocks/post-preview';
 @import './blocks/related-posts';
 @import './blocks/sharing';

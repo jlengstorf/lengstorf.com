@@ -1,7 +1,6 @@
 /*
  * # app.js
  */
-import { moveMarkdownFootnotes, highlightCurrentFootnote } from './blocks/footnotes';
 import { fiveStagesInit } from './blocks/five-stages';
 import { scrollToLocalLinks } from './utils/scroll-to-anchor';
 import { lazyLoadImages } from 'responsive-lazyload';
@@ -9,11 +8,9 @@ import { lazyLoadDisqus } from './utils/lazyload-disqus';
 import popover from './blocks/popover';
 import floater from './blocks/floater';
 import sharing from './blocks/sharing';
+import footnotes from './blocks/footnote-display';
 
-moveMarkdownFootnotes({
-  srcBlockClass: 'footnotes',
-  destBlockClass: 'post-footnotes',
-});
+footnotes();
 
 /*
  * Enables popovers. This needs to happen _before_ `scrollToLocalLinks()` to
