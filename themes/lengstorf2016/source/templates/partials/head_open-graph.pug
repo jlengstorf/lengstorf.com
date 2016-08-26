@@ -44,7 +44,7 @@ meta(
     {{ $author := index .Site.Params.authors .Params.author }}
 meta(
   property= 'article:author'
-  content= 'https://www.facebook.com/{{ $author.social.facebook }}'
+  content= 'https://www.facebook.com/{{ .Site.Params.social.facebook }}'
 )
 //{{ end }}
 
