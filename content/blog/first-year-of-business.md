@@ -6,8 +6,8 @@ type="blog"
 
 title = "What Would You Tell Yourself About Balance in Your First Year of Business?"
 slug = "balance-for-first-year-entrepreneurs"
-seo_title = ""
-description = ""
+seo_title = "Keeping balance as a new entrepreneur. Is it possible?"
+description = "In your first year as an entrepreneur, it feels like you need to be running at 110%, all the time. But is that sustainable? Or necessary? Or even helpful?"
 
 enable_disqus = true
 
