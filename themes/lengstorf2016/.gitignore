@@ -3,5 +3,6 @@ static/images
 static/scripts
 static/styles
 static/vendor
+static/assets.json
 layouts
 
