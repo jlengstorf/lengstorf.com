@@ -16,7 +16,7 @@ const getOffsetTop = element => {
     if (!isNaN(element.offsetTop)) {
       offsetTop += element.offsetTop;
     }
-  } while (element = element.offsetParent);
+  } while ((element = element.offsetParent));
 
   return offsetTop;
 };

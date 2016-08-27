@@ -99,7 +99,7 @@ const init = (config = {}) => {
           showHandler();
           return;
         }
-      } while (element = element.parentNode);
+      } while ((element = element.parentNode));
     });
   }
 
