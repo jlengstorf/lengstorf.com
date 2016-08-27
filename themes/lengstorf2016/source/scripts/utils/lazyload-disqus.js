@@ -1,6 +1,8 @@
 import { throttle } from './performance';
 import { isElementVisible } from './is-in-viewport';
 
+// jscs:disable requireCamelCaseOrUpperCaseIdentifiers
+
 // Static value to keep track of whether or not the comments are loaded.
 let isDisqusLoaded = false;
 let disqus_config = false;
@@ -26,6 +28,11 @@ const loadDisqus = shortName => {
   isDisqusLoaded = true;
 };
 
+function startLoad(shortName, container, containerClass) {
+  container.classList.add(`${containerClass}--loading`);
+  loadDisqus(shortName);
+}
+
 /**
  * Initializes the script and attaches a scroll handler.
  * @param  {String} options.shortName      the Disqus short name
@@ -34,17 +41,29 @@ const loadDisqus = shortName => {
  */
 export function lazyLoadDisqus({ shortName, containerClass = 'comments' }) {
   const container = document.getElementsByClassName(containerClass)[0];
+  const loadingClass = `${containerClass}--loading`;
 
   // Throttle the handler to avoid excessive checks.
   const shouldLoadDisqus = throttle(() => {
     if (container && !isDisqusLoaded && isElementVisible(container)) {
-      container.classList.add(`${containerClass}--loading`);
-      loadDisqus(shortName);
+      startLoad(shortName, container, loadingClass);
     }
   }, 100);
 
+  const loadOnClick = event => {
+    if (
+      event.target.classList.contains('js--load-disqus') &&
+      event.target.getAttribute('href') === '#comments' &&
+      container &&
+      !isDisqusLoaded
+    ) {
+      startLoad(shortName, container, loadingClass);
+    }
+  };
+
   // Attach a listener to the scroll event.
   window.addEventListener('scroll', shouldLoadDisqus);
+  document.addEventListener('click', loadOnClick);
 
   // In case the page was loaded with comments visible, fire once right away.
   shouldLoadDisqus();
