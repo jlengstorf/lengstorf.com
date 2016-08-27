@@ -25,9 +25,6 @@ floater.init({
 document.addEventListener('click', event => {
   scrollToLocalLinks(event, {
     offsetAdjustment: 20,
-    callback: highlightCurrentFootnote.bind(null, {
-      containerClass: 'post-footnotes',
-    }),
   });
 });
 
