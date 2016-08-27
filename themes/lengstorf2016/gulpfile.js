@@ -24,6 +24,7 @@ const webpackStream = require('webpack-stream');
 const jshint = require('gulp-jshint');
 const jscs = require('gulp-jscs');
 const imagemin = require('gulp-imagemin');
+const replace = require('gulp-replace');
 
 /*
  * ## Create a Simple Error Handler for Use With Plumber
@@ -167,7 +168,7 @@ gulp.task('styles', [], () => {
   return merged.pipe(writeToManifest('styles'));
 });
 
-gulp.task('styles:watch', (callback) => {
+gulp.task('styles:watch', ['clean:styles'], callback => {
   runSequence(
     'styles',
     'pug',
@@ -208,13 +209,51 @@ const scriptTasks = filename => lazypipe()
 gulp.task('scripts', ['scripts:test'], () => {
   const merged = merge();
   manifest.forEachDependency('js', dep => {
+    const originalRev = enabled.rev;
+    enabled.rev = dep.name !== 'app.js' ? false : enabled.rev;
     merged.add(
       gulp.src(dep.globs, { base: 'scripts' })
         .pipe(scriptTasks(dep.name))
     );
+    enabled.rev = originalRev;
   });
 
   return merged.pipe(writeToManifest('scripts'));
+});
+
+const del = require('del');
+gulp.task('clean', callback => {
+  runSequence(['clean:scripts', 'clean:styles'], callback);
+});
+
+gulp.task('clean:scripts', () => {
+  del([
+    path.join(manifest.paths.dist, 'scripts', 'app*.js'),
+    path.join(manifest.paths.dist, 'scripts', 'direct-injected-*.js'),
+  ]).then(paths => {
+    console.log(`Deleted ${paths.length} files:\n${paths.join('\n')}`);
+  });
+});
+
+gulp.task('clean:styles', () => {
+  del([
+    path.join(manifest.paths.dist, 'styles', 'app-*.js'),
+  ]).then(paths => {
+    console.log(`Deleted ${paths.length} files:\n${paths.join('\n')}`);
+  });
+});
+
+/*
+ * It doesn’t matter for directly-injected files (`direct-injected.js` and
+ * `app.css`), but for `app.js` we need to update the filename with the
+ * proper revision, or anyone who’s previously visited the site will never get
+ * fresh updates due to our localStorage caching.
+ */
+gulp.task('scripts:rev', () => {
+  const fileRevs = require(path.join(__dirname, manifest.paths.dist, 'assets.json'));
+  gulp.src(path.join(manifest.paths.dist, 'scripts/direct-injected.js'))
+    .pipe(gulpif(enabled.rev, replace('app.js', fileRevs['app.js'])))
+    .pipe(gulp.dest(manifest.paths.dist + 'scripts'));
 });
 
 gulp.task('scripts:test', () => gulp.src(['gulpfile.js', manifest.paths.source + 'scripts/**/*.js'])
@@ -224,6 +263,10 @@ gulp.task('scripts:test', () => gulp.src(['gulpfile.js', manifest.paths.source +
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(gulpif(enabled.failJSHint, jshint.reporter('fail')))
 );
+
+gulp.task('scripts:watch', ['clean:scripts'], callback => {
+  runSequence('scripts', 'scripts:rev', 'pug', callback);
+});
 
 /*
  * ## Compress Images Losslessly
@@ -251,9 +294,19 @@ gulp.task('watch', () => {
   console.log(`Current env: ${argv.production ? 'production' : 'development'}`);
 
   gulp.watch([manifest.paths.source + 'styles/**/*'], ['styles:watch']);
-  gulp.watch([manifest.paths.source + 'scripts/**/*'], ['scripts']);
+  gulp.watch([manifest.paths.source + 'scripts/**/*'], ['scripts:watch']);
   gulp.watch([manifest.paths.source + 'images/**/*'], ['images']);
 
   // Hugo server already reloads, so we don't need to watch templates.
   gulp.watch([manifest.paths.source + 'templates/**/*'], ['pug']);
+});
+
+gulp.task('build', ['clean'], callback => {
+  runSequence('styles', 'scripts', 'scripts:rev', ['images'], callback);
+});
+
+// ### Gulp
+// `gulp` - Run a complete build. To compile for production run `gulp --production`.
+gulp.task('default', [], function () {
+  gulp.start('build');
 });
