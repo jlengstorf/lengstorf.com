@@ -5,9 +5,18 @@
   right: 0;
   padding: 1.5rem 1.5rem 50px;
   background-color: $color-gray-light;
-  border-top: 2px solid $color-gray-medium;
+  border-top: 4px solid $color-lightest;
   transition: 150ms bottom ease-out;
   z-index: 9;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid $color-gray-medium;
+  }
 
   &::after {
     content: '';
@@ -39,12 +48,9 @@
 
   &__text-wrap {
     position: relative;
-    display: block;
-    max-height: 250px;
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
-    overflow-y: scroll;
 
     @media $viewport-md {
       margin-left: 0;
@@ -57,7 +63,7 @@
       width: 18px;
       height: 18px;
       margin: 0 0 1rem;
-      background-color: $color-darkest;
+      background-color: $color-accent;
       border: 0;
       border-radius: 50%;
       color: $color-lightest;
@@ -69,8 +75,10 @@
   }
 
   &__text {
+    max-height: 200px;
     font-size: 90%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    overflow-y: scroll;
 
     /* Hide the return links in this view. */
     .footnote-return {
