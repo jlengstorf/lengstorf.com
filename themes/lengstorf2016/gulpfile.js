@@ -153,6 +153,8 @@ const writeToManifest = (directory) => lazypipe()
 gulp.task('styles', [], () => {
   const merged = merge();
   manifest.forEachDependency('css', (dep) => {
+    const originalRev = enabled.rev;
+    enabled.rev = false;
     const styleTasksInstance = styleTasks(dep.name);
 
     if (!enabled.failStyleTask) {
@@ -163,6 +165,7 @@ gulp.task('styles', [], () => {
       gulp.src(dep.globs, { base: 'styles' })
         .pipe(styleTasksInstance)
     );
+    enabled.rev = originalRev;
   });
 
   return merged.pipe(writeToManifest('styles'));
@@ -237,7 +240,7 @@ gulp.task('clean:scripts', () => {
 
 gulp.task('clean:styles', () => {
   del([
-    path.join(manifest.paths.dist, 'styles', 'app-*.js'),
+    path.join(manifest.paths.dist, 'styles', 'app-*.css'),
   ]).then(paths => {
     console.log(`Deleted ${paths.length} files:\n${paths.join('\n')}`);
   });
