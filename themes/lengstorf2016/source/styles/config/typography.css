@@ -18,16 +18,6 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1;
 }
 
-h2 {
-  + * {
-    margin-top: calc( $height-unit / 2 );
-
-    @media $viewport-sm {
-      margin-top: calc( $height-unit / 3 );
-    }
-  }
-}
-
 *:not(.figure) {
   + h2:not([class]),+ h3:not([class]),+ h4:not([class]),
   + h5:not([class]),+ h6:not([class]) {
