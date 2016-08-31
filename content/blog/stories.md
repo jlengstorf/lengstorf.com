@@ -4,7 +4,7 @@ author: jason
 
 title: The Stories We Tell Ourselves
 seo_title: A Good Story Isn't About the Ending — What Your Stories Say About You
-url: stories
+slug: stories
 description: Everything we've ever done ultimately becomes a story. How can we make sure the stories we tell ourselves — and others — are good?
 
 category:
