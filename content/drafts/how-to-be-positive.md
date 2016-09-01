@@ -7,9 +7,9 @@ draft = true
 type = "blog"
 
 title = "Stop Glossing Over the Good Stuff: How to Be More Positive"
-seo_title = ""
+seo_title = "How I Stopped Being So Negative: 1 Thing You Can Do NOW"
 slug = "how-to-be-positive"
-description = ""
+description = "We’re not born as “glass half full” or “glass half empty” people. We make that choice each day. Here’s how to stop negativity and start being more positive."
 
 category = [
     "happiness",
@@ -23,7 +23,8 @@ tag = [
 ]
 
 images = [
-    "/images/jason-and-marisa-playful.jpg",
+    "/images/how-to-be-positive.jpg",
+    "/images/jason-and-marisa-barcelona.jpg",
 ]
 
 enable_disqus = true
@@ -39,12 +40,12 @@ As simple as it seems, taking the time to recognize the good stuff can have a hu
 
     A while back, S2B was shut down so PN could concentrate its efforts on their other programs. So I'm moving this post to my own blog because A) I still think the practices in this article have played a _huge_ part of my transition from overworked and miserable to "feeling pretty balanced and happy", and B) I have no idea if/when the S2B blog will be shut down.
 
-{{< caption src="/images/jason-and-marisa-playful.jpg"
+{{< caption src="/images/jason-and-marisa-barcelona.jpg"
             align="center"
-            alt="Jason and Marisa playful"
-            attr="paint with stars"
-            attrlink="http://paintwithstars.com" >}}
-    Marisa and I in Tokyo.
+            alt="Jason and Marisa in Barcelona"
+            attr="La Boutique de la Luz"
+            attrlink="http://www.laboutiquedelaluz.com" >}}
+    Marisa and I in Barcelona.
 {{< /caption >}}
 
 ## We Take a Good Thing for Granted
@@ -102,7 +103,7 @@ During the course of conversation, I made a couple negative comments about my li
 
 Phil looked me in the eye and asked, point blank, _“Are you actually complaining right now?”_
 
-It caught me off guard to be questioned like that, because I was used to commiserating with other entrepreneurs about how “hard” our lives were and all the things we wished we could change.
+The question caught me off guard, because I was used to commiserating with other entrepreneurs about how “hard” our lives were and all the things we wished we could change.
 
 Yet here was a fellow business owner staring at me like I just set the restaurant on fire.
 
@@ -130,7 +131,7 @@ My four-star hotel room and the day’s extremely successful meeting with PN fla
 
 I had to think pretty hard. I forgot toothpaste and had to call the front desk to get some. They sent peppermint, but I prefer spearmint. I had to wait in line for a taxi for, like, _ten whole minutes_.
 
-I was being a colossal tool.
+**I was acting like a colossal tool.**
 
 ### It's easy to only focus on the negative things.
 
@@ -160,6 +161,13 @@ Phil beamed; he had picked the restaurant.
 
 “Over time I stopped complaining, partly because I felt silly having to stop mid-conversation to derail a complaint,” JB paused to make eye contact, “but mostly because I just don’t think of the negative stuff as often.”
 
+{{< caption src="/images/how-to-be-positive.jpg"
+            align="center"
+            alt="how to stop being negative"
+            attr="La Boutique de la Luz"
+            attrlink="http://laboutiquedelaluz.com" >}}
+{{< /caption >}}
+
 ## Reprogramming My Brain
 
 In the weeks that followed, that conversation stuck with me.[^years] I was acutely aware of my negativity, and admonished myself publicly by stopping mid-complaint to apologize and list the day’s high points.
@@ -180,6 +188,7 @@ It didn’t take long for me to notice a significant drop in complaints. But tha
             paddingBottomPercent="75"
             align="right"
             alt="daily affirmation"
+            imglink="https://www.youtube.com/watch?v=qR3rK0kZFkg"
             attr="dmchatster"
             attrlink="https://www.youtube.com/watch?v=qR3rK0kZFkg" >}}
     “I LOVE MY WHOLE HOUSE!”
@@ -187,10 +196,10 @@ It didn’t take long for me to notice a significant drop in complaints. But tha
 
 In my new effort to curb negativity, I started making “anti-complaints”.
 
-- “How easy was airport security today?”
+- “I really like Dave. He’s such a happy guy.”
 - “Our waitress was really excellent tonight.”
 - “This project is going really smoothly.”
-- “How amazing is this song?”
+- “I’m so happy someone invented toast.”
 
 These anti-complaints did more than realign my perception of the world, though; I started to see the people around me becoming more positive as well, which made for better experiences in both my professional and personal life.
 
@@ -220,7 +229,7 @@ Then a project gets rejected: your boss tells you all the things that are wrong 
 
 It doesn’t matter that every project before this one was accepted; **the only feedback you’ve received from her has been negative.**
 
-However, in the exact same situation, if every accepted project had been accompanied with positive feedback — “great job on the layout here”; “I love this sentence here”; “I really appreciate you getting this in on time” — the negative feedback wouldn’t have felt so jarring.
+However, in the exact same situation, if every accepted project had been accompanied with positive feedback — “great job on the layout”; “I love this sentence here”; “I really appreciate you getting this in on time” — the negative feedback wouldn’t have felt so jarring.
 
 It would have been feedback as usual, working with you toward a better final product.
 
@@ -228,10 +237,11 @@ It’s not weak or overly emotional to tell someone you appreciate them. In fact
 
 ### How to stay positive at home.
 
-{{< caption src="/images/jason-and-marisa-angels.jpg"
-            paddingBottomPercent="100"
+{{< caption src="/images/jason-and-marisa-playful.jpg"
             align="right"
-            alt="Jason and Marisa" >}}
+            alt="Jason and Marisa"
+            attr="paint with stars"
+            attrlink="http://paintwithstars.com" >}}
   Marisa is the only person I’ve ever met who takes “don’t take life so seriously” as seriously as I do.
 {{< /caption >}}
 
@@ -248,10 +258,10 @@ I try to remember to call out all the things I like about her, whether it's her 
 
     So we argued, I apologized, she was grumpy with me for half a day, and I (hopefully) learned something. There was no yelling. No crying. No sulking silences or blistering attacks on each other's character. We knew we were only fighting about _this mistake I made_, and not about anything else.
 
-As a result, I can share my frustrations with her without it feeling like the relationship is ruined. When we argue, it's not about whether or not we like each other; it's just one of us was supposed to be getting ready to leave, and instead spent a half-hour on Reddit answering nerdy questions.[^my-bad]
+As a result, we can share frustrations with each other without worrying that the relationship is falling apart. When we argue, it's not about whether or not we like each other; it's just that one of us was supposed to get ready to leave, and was still sans-pants three minutes before we're supposed to be out the door.[^my-bad]
 
 [^my-bad]:
-    Yeah, that was my bad.
+    Yeah, that was my bad. I _really_ hate pants.
 
 ## Even When It’s Bad, It’s Not That Bad
 
@@ -277,7 +287,7 @@ Positivity works best when it’s shared. The people around you can’t read min
     Don’t hold back on the positive feedback.
 {{< /caption >}}
 
-If you make a habit of sharing all the good things, you become a bright spot in people's days. You become someone that makes the people around you more positive. You create a vacuum where negativity cannot survive, because you don't give it the chance to feed and grow.
+**If you make a habit of sharing all the good things, you become someone that makes the people around you more positive.** You become a bright spot in people's days. You create a vacuum where negativity cannot survive, because you don't give it the chance to feed and grow.
 
 My efforts to become more positive were immediately met with more positivity from the people around me: I talked about what I liked, and that encouraged others to talk about what they liked, and that made all of us feel better — a welcome break from the circlejerk of commiseration that I'd grown accustomed to.
 
