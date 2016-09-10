@@ -111,7 +111,7 @@ No conditions or caveats — I can just pick up my two small bags and go with no
 
 ## People Like Me
 
-Of course, I haven't reduced my essential self back down to its weightless state. I've only changed my view of what "people like me" do; instead of thinking of myself as the kind of person who owns nice things and drinks good whiskey, I've written a new description for myself.
+Of course, I haven't reduced my essential self back down to its weightless state. I've only changed my view of [what "people like me" do]({{< ref "no-one-is-coming-to-save-you.md" >}}); instead of thinking of myself as the kind of person who owns nice things and drinks good whiskey, I've written a new description for myself.
 
 **I'm the kind of person who values experience over things and doesn't worry about material possessions because they add stress instead of happiness.**
 

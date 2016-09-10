@@ -89,7 +89,7 @@ At four this morning, Marisa's alarm went off. She got up to shower, and I went 
 
 At ten to six we were in the security line. Six fifteen we were at the gate with coffee in hand. On the plane by seven.
 
-As I write this, I'm somewhere over the Atlantic Ocean, getting further and further away from a home I no longer have. All of my former possessions are settling into new homes with the friends and strangers on Craigslist who bought them. The apartment I locked up last night has already been rented to new tenants; I imagine they'll start moving in this weekend.
+As I write this, I'm somewhere over the Atlantic Ocean, getting further and further away from a home I no longer have. All of my [former possessions]({{< ref "do-more-with-less.md" >}}) are settling into new homes with the friends and strangers on Craigslist who bought them. The apartment I locked up last night has already been rented to new tenants; I imagine they'll start moving in this weekend.
 
 Everything I own in the world is in two bags: one at my feet, and one above my head. I didn't leave behind a storage unit, or an attic-load of furniture for my parents to hold onto. *This is it.* These bags. The clothes I'm wearing.
 
