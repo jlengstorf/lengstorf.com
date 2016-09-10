@@ -1,8 +1,7 @@
 +++
 
-date = "2016-08-27"
+date = "2016-09-01"
 author = "jason"
-draft = true
 
 type = "blog"
 
