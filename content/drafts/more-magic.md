@@ -1,14 +1,14 @@
 +++
 
-date = "2016-08-31"
+date = "2016-09-07"
 author = "jason"
 draft = true
 
 type = "blog"
 
-title = "Unique to Me"
+title = "More Magic"
 seo_title = ""
-slug = "unique-to-me"
+slug = "more-magic"
 description = ""
 
 category = []
@@ -23,4 +23,4 @@ enable_disqus = true
 
 +++
 
-My experience is unique _to me_, but it's not _unique_.
+if you can hear the formula through the song, it loses the magic
