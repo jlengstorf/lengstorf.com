@@ -76,9 +76,9 @@ blockquote {
   padding-right: 10px;
   border-top: 2px solid $color-accent;
   border-bottom: 2px solid $color-accent;
-  color: $color-darkest;
-  font-size: 110%;
-  line-height: 1.5;
+  color: color( $color-text tint(10%) );
+  font-size: 105%;
+  font-style: italic;
 
   @media $viewport-sm {
     margin-left: -20px;
@@ -93,6 +93,7 @@ blockquote {
       display: block;
       color: $color-caption;
       font-size: $font-size-default;
+      font-style: normal;
       text-align: right;
 
       &::before {
