@@ -5,6 +5,8 @@ author = "jason"
 title = "Thank You"
 slug = "confirmed"
 
+fbevent = "Lead"
+
 aliases = [
     "/productivity-habits/download/",
     "/productivity-habits/confirmed/",
