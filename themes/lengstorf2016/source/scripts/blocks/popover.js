@@ -1,3 +1,5 @@
+import analytics from '../utils/analytics';
+
 const getConfig = ({
   popoverClass = 'popover',
   closeBtnClass = 'popover__close',
@@ -96,6 +98,7 @@ const init = (config = {}) => {
         if (element && buttonModifier.test(classes)) {
           event.preventDefault();
           event.stopImmediatePropagation();
+          analytics.trackEvent({ category: 'popover' });
           showHandler();
           return;
         }
