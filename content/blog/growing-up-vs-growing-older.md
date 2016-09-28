@@ -143,7 +143,7 @@ Instead, I dropped out after a few months, moved back into their basement, joine
             alt="Don't we look ready to face grown-up issues?"
             attr="Tyson Vick"
             attrlink="http://tysonvick.com" >}}
-  Don't we look ready to face grown-up issues?
+  Don’t we look ready to face grown-up issues?
 {{< /caption >}}
 
 ### Into the Wilderness (or Van, in My Case)
