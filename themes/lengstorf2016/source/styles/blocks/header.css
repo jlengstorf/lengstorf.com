@@ -282,7 +282,7 @@
         font-size: 100%;
       }
 
-      &:hover,&--active {
+      &:hover,&--active,&:active,&:focus {
         background-color: $color-brand;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
