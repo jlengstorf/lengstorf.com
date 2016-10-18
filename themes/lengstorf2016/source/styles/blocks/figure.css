@@ -30,6 +30,7 @@
 
   &__image-wrap {
     border: 1px solid color( $color-text tint( 20% ) );
+    margin-bottom: 0;
   }
 
   &__image {
