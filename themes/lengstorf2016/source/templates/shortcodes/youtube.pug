@@ -1,8 +1,79 @@
-.embed-container.figure.figure--center
-  iframe(
-    width="750"
-    height="400"
-    src!= "https://www.youtube.com/embed/{{ .Get 0 }}?rel=0{{ if isset .Params 1 }}&start={{ .Get 1 }}{{ end }}{{ if isset .Params 2 }}&end={{ .Get 2 }}{{ end }}"
-    frameborder="0"
-    allowfullscreen
-  )
+//
+  //- Set defaults
+  {{ $.Scratch.Set "align" "center" }}
+
+  {{ if .IsNamedParams }}
+
+    //- The video ID is required.
+    {{ $.Scratch.Set "video_id" (.Get "video_id") }}
+
+    //- Alignment defaults to "center" if not supplied.
+    {{ if .Get "align" }}
+      {{ $.Scratch.Set "align" (.Get "align") }}
+    {{ end }}
+
+    //- An optional caption can be supplied.
+    {{ if .Get "caption" }}
+      {{ $.Scratch.Set "caption" (.Get "caption") }}
+    {{ end }}
+
+    {{ if .Get "attr" }}
+      {{ $.Scratch.Set "attr" (.Get "attr") }}
+    {{ end }}
+
+    {{ if .Get "attrlink" }}
+      {{ $.Scratch.Set "attrlink" (.Get "attrlink") }}
+    {{ end }}
+
+    //- The start time is optional.
+    {{ if .Get "start" }}
+      {{ $.Scratch.Set "start" (.Get "start") }}
+    {{ end }}
+
+    //- The end time is also optional.
+    {{ if .Get "end" }}
+      {{ $.Scratch.Set "end" (.Get "end") }}
+    {{ end }}
+
+  {{ else }}
+
+    //-
+      This is for older instances of the shortcode, which
+      was designed with fewer configuration options, and 
+      relied on positional parameters.
+    {{ $.Scratch.Set "video_id" (.Get 0) }}
+
+    {{ if isset .Params 1 }}
+      {{ $.Scratch.Set "start" (.Get 1) }}
+    {{ end }}
+
+    {{ if isset .Params 2 }}
+      {{ $.Scratch.Set "end" (.Get 2) }}
+    {{ end }}
+
+  {{ end }}
+
+.figure(
+ class!='figure--{{ $.Scratch.Get "align" }}'
+)
+  .embed-container.figure__image-wrap
+    iframe.figure__image(
+      width="750"
+      height="400"
+      src!= 'https://www.youtube.com/embed/{{ $.Scratch.Get "video_id" }}?rel=0{{ with $.Scratch.Get "start" }}&start={{ . }}{{ end }}{{ with $.Scratch.Get "end" }}&end={{ . }}{{ end }}'
+      frameborder="0"
+      allowfullscreen
+    )
+  // {{ with $.Scratch.Get "caption" }}
+  p.figure__caption {{ . }}
+    // {{ if $.Scratch.Get "attr" }}
+    small.figure__attribution Credit: 
+      // {{ if $.Scratch.Get "attrlink" }}
+      a.figure__attribution-link(
+        href!='{{ $.Scratch.Get "attrlink" }}'
+      ) {{ $.Scratch.Get "attr" }}
+      // {{ else }}
+      | {{ $.Scratch.Get "attr" }}
+      // {{ end }}
+    // {{ end }}
+  // {{ end }}
