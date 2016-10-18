@@ -1,3 +1,5 @@
+import analytics from '../utils/analytics';
+
 function clearActiveStatus() {
   const activeLinks = document.querySelectorAll('[data-is-active=true]');
   if (activeLinks && activeLinks.length) {
@@ -46,8 +48,15 @@ function open(container, activeClass, event) {
       return;
     }
 
+    const footnoteID = event.target.getAttribute('href').split('#')[1];
+
+    analytics.trackEvent({
+      category: 'footnote',
+      source: `${document.location.pathname}#${footnoteID}`,
+    });
+
     // Update the footnote display.
-    updateDisplay(container, event.target.getAttribute('href').split('#')[1]);
+    updateDisplay(container, footnoteID);
 
     // Show the footnote.
     container.classList.add(activeClass);
