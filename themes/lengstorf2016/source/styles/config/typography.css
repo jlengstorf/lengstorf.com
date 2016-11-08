@@ -113,6 +113,11 @@ blockquote {
   }
 }
 
+abbr {
+  border-bottom: 1px dotted $color-caption;
+  cursor: help;
+}
+
 sup {
   position: relative;
   top: -0.5rem;
