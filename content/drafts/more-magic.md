@@ -25,15 +25,52 @@ enable_disqus = true
 
 How can we make the world magical again?
 
-I've written about [the loss of magic in the world]({{< ref "magic.md" >}}) before, but today I want to dig into what _makes_ magic.
+In an older post, I asked, "Is there any [magic left in the world]({{< ref "magic.md" >}})?"
 
-## We Need the Baby Bear Amount of Magic
+## Magic Is Our Sense of Wonder at Things We Don't Understand
+
+My argument was that magic is the wonder that comes before understanding — and that as we get older, our understanding of the world broadens, which leads to our sense of wonder diminishing proportionately.
+
+And logically, that seems like a good thing, right? Because wonder is _not knowing_ — and it only takes a few seconds in the comments section or a single talking heads segment on the news to see what _not knowing things_ has done for debate.
+
+### We should be working to gain a better understanding of everything.
+
+One of my guiding principles in life is this: **Be curious about everything.**
+
+{{< tweetable via="jlengstorf" >}}Be curious about everything.{{< /tweetable >}}
+
+But I think there's a _huge_ amount of value in a healthy sense of wonder.
+
+### Isn't understanding how stuff works fatal to our sense of wonder?
+
+I want to be curious about everything (to know things), but I want to have a sense of wonder (to _not_ know things).
+
+Are my arguments antithetical to each other? Am I suffering from a debilitating case of <abbr title="American Cognitive Dissonance">ACD</abbr>?[^epidemic]
+
+[^epidemic]:
+    American Cognitive Dissonance. It's impossible to prove I haven't been infected; there appears to be an epidemic of ACD sweeping social media right now, and one of the earliest symptoms is an inability to recognize the condition, both in yourself and in anyone who agrees with you.
+
+I don't think so. Working to constantly improve my understanding of the world by [diving into anything that seems interesting]({{< ref "wasted-time.md" >}}) doesn't require that I never feel awed by the things people are capable of. And being blown away by something I don't understand (and therefore feels like magic) doesn't bar me from trying to figure out how the trick was performed.
+
+## We Make Our Own Magic
+
+TKTK
+
+### We make magic for ourselves when we learn.
+
+TKTK
+
+### We make magic for others when we share what we've learned.
+
+TKTK
+
+## But We Need to Be Responsible With Magic
 
 There's a balance to be struck: too little, and we can hear the formula through the song; too much, and no one understands what the hell you're trying to accomplish.
 
 It's a different kind of [Goldilocks Zone]({{< ref "goldilocks-zone.md" >}}) than I've talked about before, but the concept is similar: when you're dealing with magic, you have to get the balance _juuuuust_ right.
 
-### Mama Bear Magic: Too little magic feels predictable.
+### Mama Bear Magic: underwhelming, predictable, and easy to hate.
 
 For an example of how magic makes the difference, let's look at pop music.
 
@@ -63,9 +100,9 @@ Sure, the bones of Lorde's [_Royals_](https://www.youtube.com/watch?v=nlcIKh6sBt
 
 It had magic.
 
-We saw the same kind of familiar-yet-surprising work from [Queen](https://www.youtube.com/watch?v=HgzGwKwLmgM), the Yeah Yeah Yeahs, David Bowie, Daft Punk, [Frank Ocean](https://www.youtube.com/watch?v=5onaWSflUQ0), and Alt-J, 
+We saw the same kind of familiar-yet-surprising work from [Queen](https://www.youtube.com/watch?v=HgzGwKwLmgM), the Yeah Yeah Yeahs, David Bowie, Daft Punk, [Frank Ocean](https://www.youtube.com/watch?v=5onaWSflUQ0), and Alt-J.
 
-### Papa Bear Magic: Too much magic just doesn't make any damn sense.
+### Papa Bear Magic: no one knows what the hell you're doing.
 
 Papa Bear Magic: This thing is _too damn magical_.
 
@@ -78,12 +115,19 @@ It starts with trying to stand out as an artist, takes a left turn, detaches fro
 
     I mean, look, pal — I'm not trying to tell you how to do your job, but maybe don't call me again until you've got a tiger or something, okay?
 
+{{< youtube caption="Listening to this makes me legitimately nervous."
+            video_id="fxvGHQHiY70" align="right" >}}
+
 In music, the same things can happen. You start off by trying to break the traditional formula, tweak the "usual" sounds, and somehow end up making something that sounds less like a song and more like a lightly-choreographed physical assault.
 
-{{< youtube
-    align="right"
-    video_id="fxvGHQHiY70"
-    caption="Listening to this makes me physically uncomfortable."
-    attr="Animal Collective"
-    attrlink="http://google.com"
->}}
+Is it art? Absolutely.
+
+Is it music? Depends on who you ask.
+
+Does it inspire a sense of wonder? For me, no: I can't follow what's going on, so it confuses me; I don't find the sound pleasing, so it irritates me.
+
+### Baby Bear Magic: enough to inspire wonder, tempered with familiarity.
+
+Channing Tatum
+
+MIIKA
