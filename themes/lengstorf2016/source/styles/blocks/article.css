@@ -9,7 +9,12 @@
   }
 
   &__content {
-    overflow: hidden;
+
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
 
     /* A little chaotic in here since this is user-generated content. */
     img:not([class]) {
