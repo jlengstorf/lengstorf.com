@@ -1,6 +1,8 @@
 +++
-date = "2016-07-28"
+
+date = "2016-10-07"
 author = "jason"
+type = "blog"
 draft = true
 
 title = "3 Ways to Avoid Burnout at Work"
@@ -11,7 +13,33 @@ description = ""
 images = [
     "/images/jason-lengstorf.jpg",
 ]
+
 +++
+
+Here's a quote from a recent message I received:[^alex]
+
+[^alex]:
+    This message came from Alex Mullan, who's [given me article ideas before]({{< ref "first-year-of-business.md" >}}).
+
+> I’ve written two segments of a sales page (500 words or so), ran through 
+> edits on 3 sales pages I’m in the midst of revamping, made semi-final edits 
+> to an article [...], wrote two training programs, outlined my next batch of 
+> guest posts, and wrote an email to my list. After I reply here, I’m off to 
+> train and am going to try to avoid my computer afterwards.
+> 
+> The fucked, incredibly frustrating part? I feel like I haven’t accomplished 
+> anything. Nothing. Zip. Nada.
+
+For those counting along at home, that's nine distinct tasks — plus a workout — all accomplished in the same day.
+
+_That's a lot of things._
+
+Yet there's still a (totally undeserved) feeling of underachievement there. And this isn't an uncommon feeling — 
+
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Ajlengstorf%3Aplaylist%3A0PMq0DGXfIU8PL4qchV7qW" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
+**Why 
+
 There are three major culprits in our daily working lives that contribute to burnout and/or feeling like we aren't doing enough:
 
 1. **Wasted time.** If we feel like our time wasn't well-spent, it causes a lot of stress and unhappiness about our days.
