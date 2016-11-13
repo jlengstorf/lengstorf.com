@@ -29,7 +29,7 @@
       "source": [ "templates/**/*.pug", "!templates/pug-*/**/*.pug" ],
       "dest": "layouts"
     },
-    "devUrl": "localhost:1313",
+    "devUrl": "lengstorf.dev:1313",
     "devPort": 1313
   }
 }
