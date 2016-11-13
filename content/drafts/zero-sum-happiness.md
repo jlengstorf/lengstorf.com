@@ -1,31 +1,28 @@
-+++
+---
 
-date = "2016-06-16"
-author = "jason"
-draft = true
-type = "blog"
+date: 2016-11-13
+author: jason
+draft: true
+type: blog
 
-title = "Happiness Is Not a Zero-Sum Game"
-seo_title = ""
-slug = "zero-sum-happiness"
-description = ""
+title: Happiness Is Not a Zero-Sum Game
+seo_title: 
+slug: zero-sum-happiness
+description: 
 
-category = [
-    "happiness"
-]
+category:
+    - happiness
 
-tag = [
-    "positivity",
-    "success",
-]
+tag:
+    - positivity
+    - success
 
-images = [
-    "/images/jason-lengstorf.jpg",
-]
+images:
+    - /images/jason-lengstorf.jpg
 
-enable_disqus = true
+enable_disqus: true
 
-+++
+---
 
 Happiness is not a zero-sum game. It's exactly the opposite: the more happiness you bring to the people around you, the happier you'll be.
 
