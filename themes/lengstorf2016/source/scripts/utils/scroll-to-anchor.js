@@ -45,13 +45,15 @@ const animateScroll = (element, elapsedTime, {
   element.scrollTop = easeInOutSine(elapsedTime, position, stepSize, duration);
 
   if (elapsedTime < duration) {
-    setTimeout(() => { animateScroll(element, elapsedTime, {
-      position,
-      stepSize,
-      increment,
-      duration,
-      callback,
-    }); }, increment);
+    setTimeout(() => {
+      animateScroll(element, elapsedTime, {
+        position,
+        stepSize,
+        increment,
+        duration,
+        callback,
+      });
+    }, increment);
   } else {
     callback();
   }

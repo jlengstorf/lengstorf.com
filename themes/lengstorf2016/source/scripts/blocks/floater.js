@@ -1,4 +1,4 @@
-import {throttle} from '../utils/performance';
+import { throttle } from '../utils/performance';
 
 let isFixed = false;
 

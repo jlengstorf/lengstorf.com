@@ -1,4 +1,4 @@
-import {onVisibilityChange} from '../utils/is-in-viewport';
+import { onVisibilityChange } from '../utils/is-in-viewport';
 
 /**
  * Initializes the Five Stages elements.
