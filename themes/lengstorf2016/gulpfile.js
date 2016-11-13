@@ -5,6 +5,7 @@
  */
 const gulp = require('gulp');
 const path = require('path');
+const fs = require('fs');
 
 /*
  * ## Load Dependencies for Processing Assets
@@ -253,10 +254,19 @@ gulp.task('clean:styles', () => {
  * fresh updates due to our localStorage caching.
  */
 gulp.task('scripts:rev', () => {
-  const fileRevs = require(path.join(__dirname, manifest.paths.dist, 'assets.json'));
-  gulp.src(path.join(manifest.paths.dist, 'scripts/direct-injected.js'))
-    .pipe(gulpif(enabled.rev, replace('app.js', fileRevs['app.js'])))
-    .pipe(gulp.dest(manifest.paths.dist + 'scripts'));
+  const revPath = path.join(__dirname, manifest.paths.dist, 'assets.json');
+
+  // Make sure the rev manifest exists before doing anything.
+  fs.access(revPath, 'r', err => {
+    if (err) {
+      return;
+    }
+
+    const fileRevs = require(revPath);
+    gulp.src(path.join(manifest.paths.dist, 'scripts/direct-injected.js'))
+      .pipe(gulpif(enabled.rev, replace('app.js', fileRevs['app.js'])))
+      .pipe(gulp.dest(manifest.paths.dist + 'scripts'));
+  });
 });
 
 gulp.task('scripts:test', () => gulp.src(['gulpfile.js', manifest.paths.source + 'scripts/**/*.js'])
