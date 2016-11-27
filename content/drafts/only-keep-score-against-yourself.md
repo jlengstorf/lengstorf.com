@@ -1,31 +1,26 @@
-+++
+---
+type: blog
+date: 2016-08-21
+author: jason
+draft: true
 
-type = "blog"
-date = "2016-08-21"
-author = "jason"
-draft = true
+title: Only Keep Score Against Yourself
+slug: keeping-score
 
-title = "Only Keep Score Against Yourself"
-slug = "keeping-score"
+seo_title: 
+description: 
 
-seo_title = ""
-description = ""
+category:
+    - 
 
-category = [
-    ""
-]
+tag:
+    - 
 
-tag = [
-    "",
-]
+images:
+    - /images/jason-lengstorf.jpg
 
-images = [
-    "/images/jason-lengstorf.jpg",
-]
-
-enable_disqus = true
-
-+++
+enable_disqus: true
+---
 
 How do we know when we're successful?
 
@@ -34,49 +29,137 @@ There's no formal award ceremony[^chewie] denoting success. And if you've ever s
 [^chewie]:
     But if there was, the wookie would get a medal.
 
-The fluidity of success — or, more precisely, _feeling successful_ — has been on my mind recently, due mostly to [some big changes](http://www.2ftat.com/episode/07-change-and-labels/) I've been contemplating.
+The fluidity of success — or, more precisely, _feeling successful_ — has been on my mind recently, due mostly to [some big changes](http://www.2ftat.com/episode/07-change-and-labels/) I'm in the middle of.
 
-Over the course of multiple conversations on the topic, the feeling of success has proven to be a fascinatingly maddening subject: everyone wants it, but its meaning and measure is inifinitely varied.
+Over the course of multiple conversations on the topic, the feeling of success has proven to be maddening subject matter: everyone wants it, but its meaning and measure are infinitely varied.
 
 So let's try to pin it down, yeah?
 
-## Success, Objectively. I Am Successful Because...
+## Success, Objectively: I Am Successful Because...
 
-On the surface, it seems like success shouldn't be too hard to nail down. After all, there are 
+On the surface, it seems like success shouldn't be too hard to nail down. After all, it seems like there are perfectly objective definitions of success.
 
-### ...I am not on fire.
+### ...I am not being eaten.
 
-The lack of immediate danger is a sure sign of success, right?
+The lack of immediate danger must be a sure sign of success. After all, we're clothed, and we're fed, and the lights are on, and we live indoors.[^not-all-of-us]
 
-We're not dangerously hot or cold. We have something to eat. We
+[^not-all-of-us]:
+    I know this isn't true for everyone, but let's be honest: if we've got time to worry about whether or not we're successful enough, we're doing just fine.
 
-How do we know if we're doing okay in life?
+In fact, **we're so successful in this regard that we sometimes choose to live in the awful conditions our ancestors saw as a best-case scenario _for fun_.** We call it "camping".
 
-**Is our "okayness" determined by the relative level of danger in our lives?** "Well, I'm not on fire, and I have a sandwich, and nothing is hunting me. So... yes?"
+Historically speaking, we're in pretty good shape, and — apocalyptic Facebook feeds notwithstanding — things are looking better all the time.
 
-**Is "okayness" a product of being better or worse than other people?** "I have this season's designer shoes, but my jacket is from last year. He has the hot new jacket. But _his_ shoes are knock-offs.
+### ...I have options.
 
-"Shit. Do shoes trump jackets?"
+Millennials are living at home into their twenties. We're only staying in our jobs for a few years at a time. We're attending conferences and reading books to help us "find our passion".[^passion]
 
-**Is "okayness" measured by how much wealth we've collected?** "I have lots of monies. "
+[^passion]:
+    This is something Nate and I talk about at length in [Refocus](https://getrefocus.com), but the short version is this: we rarely _find_ our passion and _then_ follow it; instead, we put in the work, build our expertise, and the passion _follows_.
+    
+    **Chasing passion doesn't build mastery. Chasing mastery builds passion.**
 
----
+A few generations back, we inherited family businesses or went to work at the same factories and farms as our parents. Our paths were laid out, and we didn't have much choice. That's just how things worked.
 
-If our self-worth is tied to what other people are capable of, we'll always be miserable.
+No we have the internet, and a college degree is carrying less and less weight in the hiring decision for knowledge workers. The world is wide open, and if we want to get a job [building websites while living on an island in Thailand]({{< ref "remote-work-course.md" >}}), _that's a perfectly fucking realistic option_.
 
-Instead, we should measure against our past selves:
+### ...I am rich.
 
-1. Yesterday Me
-2. Last Month Me
-3. Last Year Me
-4. Five Years Ago Me
+On top of all of this, we have levels of material wealth that are unbelievable in a historical and/or global context. And if you just rolled your eyes, check this out: **anyone who makes [more than USD $50,000/year is in the top 1%](#TODO TKTK find this reference) of wealthy humans.** So as we're all complaining about the CEOs who make 100x what we make, remember that at $50K/year we're making 136x the income of [XX% of global workers](#TODO TKTK find this reference).
 
-Am I doing something today to make me better than yesterday? Than last month? Than last year? Than five years ago?
+All of which makes a pretty fucking compelling case that we were born successful, and will likely stay that way unless something goes horribly wrong.
 
-If so, I'm working toward becoming a better human. If I feel I should be doing more, that's fine. But if I only feel I should be doing more because Mark Zuckerberg was a millionaire by twenty-something, that's fruitless self-abuse.
+## What's the Problem With Objective Success?
 
-And on the flipside, if I'm comforting myself because I'm doing "better than most" — you know, watching reality TV and smugly thinking, _Well, at least I'm not as fucked up as these idiots._ — then I'm making excuses for my own lack of effort.
+The problem with measuring success objectively is a discussion that spirals outward and downward and eventually lands on the greatest conundrum in the human tragedy: **people don't like _facts_; they like _feelings_.**
 
-There will always be someone doing better than us — even the smartest quantum physicist in the world probably sucks at ping pong, or cooking, or fixing the lawn mower — and there will always be people who are doing worse than us. Making those comparisons will only bum us out, or lull us into a false sense of superiority.
+All the objective truth around us proves that — simply by being born in the first world — we've already won life by any reasonable measures.
 
-Measure against yourself. Only yourself. Be better than Yesterday You every day. That's your only metric for success.
+So — naturally — we had to make up _unreasonable_ measures.
+
+### There's a pile of shit in my house to prove I'm not a piece of shit.
+
+Five or six years ago I found myself in a fancypants kitchen store looking at pots and pans. At this point in my life, I cooked meals _maybe_ three times a year.
+
+Logically, I knew this. _Hey, self,_ I thought with my smart brain, _you don't need much, here. Grab a decent frying pan and get out of here._
+
+_Now wait a damn minute, here,_ chimed in my Idiot Lizard Brain, _if you don't have the nicest pans money can buy, who will ever fuck you?_[^lizard-brain]
+
+[^lizard-brain]:
+    Did I really believe that the right cookware would get me laid? Logically speaking, no. But as this [black pit of existential despair masquerading as a book](#TODO TKTK link to Spent) will tell you, a concerning amount of consumerism is driven by a vestigial urge to prove we're worth bumping uglies with.
+
+I felt the damp sheen of fear sweat. Felt my lungs shrink and my heart thump and my mouth go dry. I set down the perfectly-fine frying pan I was holding and reached for one with a special copper core that was guaranteed to distribute heat more evenly or some shit like that, but I was looking less at the description than at the price tag, which was easily three times that of the frying pan I actually needed.
+
+**When the dust settled, I'd spent over a thousand dollars on a complete set of pots and pans. I didn't have a thousand dollars to spend; I spread the purchase across two credit cards.**
+
+I probably used the stock pot once. The skillet less than a dozen times. I then [sold it all]({{< ref "do-more-with-less.md" >}}) for maybe 20% of what I paid for it.
+
+I cleared the credit card debt a year later.
+
+Why? To be perfectly honest, I have no fucking idea. I just knew that I _needed_ the nicest set. Or at least the nicest set out of all of my friends.
+
+How else would everyone who came to my apartment know how _successful_ I was?
+
+### That guy has a thing, so obviously I also need that thing.
+
+I was in an upscale bar in Vancouver a couple weeks ago, drinking a cocktail that cost $12. It was 4pm, and we'd just left the coffee shop where we'd been working because we'd finished everything that needed to be done. I'd later make an offhand comment to Marisa about the reasonable price of the drinks.
+
+(I know. I'm a snob and a bougie asshole. But I need to set the scene for what's about to happen.)
+
+To my left, a couple guys walked in — presumably they'd just left work. The first guy was rocking a perfectly tailored three-piece suit, a fantastic trench, and a hat that belonged on a film noir detective. His buddy was dressed even better.
+
+I immediately wanted to go suit shopping. _That's_ what successful guys look like, I started convincing myself. _This_ is how the men that men look up to dress.
+
+Never mind that these dudes were probably only wearing suits because they _had_ to wear suits to the office. That they probably _had_ to be in the office. That I have no reason whatsoever to wear a suit unless I want to really dress up for the coffee shop.
+
+For the briefest of moments, I worked very hard to convince myself that unless I had a nice suit, I'd never be as successful as these guys, and all the men like them who show up in _Esquire_ and Bond films and red carpets.
+
+And it felt bad.
+
+Which is fucking ridiculous, because I _know_ how good I have it. The smart part of my brain has no doubt that I'm happiest where I am right now, but I still sat there feeling jealous of some bro in a power tie and a haircut like he's Harvey fucking Specter.
+
+The moment was brief. And once it passed, I spent some time reflecting on exactly how much I like my life. But this is pretty new for me; historically I wouldn't have realized I didn't _actually_ want a suit until after I'd bought it, worn it once, and left it in my closet for a year.
+
+So what changed?
+
+## How to Feel Successful: Stop Keeping Score
+
+There's this scene burned into my memory, and whenever I replay it I can feel the blood rushing to my face. I was at a dinner with the [Precision Nutrition](http://precisionnutrition.com) team years ago, talking about success in the abstract. At some point I found myself haranguing the group about success, or — more precisely — the _appearance_ of success.
+
+I felt slighted because strangers would "dismiss" me as an average human, presumably due to my free conference t-shirt or my hoodie, and this was _obviously_ an unforgivable offense.
+
+In the course of my rant, I used the phrase, "...and I could _buy and sell that guy_, and he doesn't even know it!" I meant it in the same douchebag vein as, "Don't you know who I _am_?"
+
+Someone at the table looked at me and remarked, "You're awfully concerned with how you stack up to other people."
+
+It was humiliating. I sulked about it. And later I realized that this was a disturbing insight into my contentment, or lack thereof.
+
+### Who are you measuring against?
+
+If our self-worth is tied to what other people are capable of, we'll always be miserable. If we're looking to beat ourselves up, someone is always richer, further along, more famous, or better looking. There's a preteen graduating from an Ivy League college. There's a lady who's a billionaire now because she cut the feet off her pantyhose and decided it was worth making into a product. Some kid you drank with in high school with is now the quarterback for the Baltimore Ravens [TODO TKTK check this].
+
+Or, if we're looking to comfort ourselves, we can always find someone doing worse.
+
+And there's no way to break out of that cycle: even the world's smartest mathematician will feel stupid if she's asked to face off against my uncle in a transmission-fixing contest. And the strongest man in the world will be made a fool of if he tries to challenge my mother at finding creative uses for cream of mushroom soup.
+
+We all have strengths and weaknesses. We all started at different times, with different levels of background knowledge. Comparing our success to someone else's is apples and oranges; it all boils down to opinions and rhetoric in the end.
+
+Instead, the only way we can realistically measure our success is to measure against ourselves — and _only_ ourselves. Am I better than I was yesterday? Than I was last year?
+
+_That_ is progress. _That_ is success.
+
+## Success Is Cumulative
+
+If we're only measuring against ourselves, the conversation becomes very different. We're no longer looking at other people and panicking because they have things we don't have. We already _know_ that they have things we don't, and that's okay.
+
+Instead, we're looking at what we're working toward, and answering a single question each day: **Did I do something today to take me closer to where I want to be?**
+
+Success means answering "yes" more often than we answer "no". And that's _all_ it means.
+
+Success is not the stuff we own, or our bank balances, or any of the other crap we get fed by advertising or social norms or The American Dream™. Success is having a target and knowing that you're putting most of your effort toward hitting that target. And then setting a new target once you've hit the first one. Because [the target is always moving]({{< ref "finding-happiness.md" >}}).
+
+Because if we can stop evaluating success as a subjective measure of us vs. them, we can leave the panic of "keeping up with the Joneses" behind.
+
+And that leaves us free to define success by what makes us _happy_, instead of what keeps us competitive.
+
+{{< cta WORKHAPPY >}}
