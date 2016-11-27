@@ -65,7 +65,7 @@ No we have the internet, and a college degree is carrying less and less weight i
 
 ### ...I am rich.
 
-On top of all of this, we have levels of material wealth that are unbelievable in a historical and/or global context. And if you just rolled your eyes, check this out: **anyone who makes [more than USD $50,000/year is in the top 1%](#TODO TKTK find this reference) of wealthy humans.** So as we're all complaining about the CEOs who make 100x what we make, remember that at $50K/year we're making 136x the income of [XX% of global workers](#TODO TKTK find this reference).
+On top of all of this, we have levels of material wealth that are unbelievable in a historical and/or global context. And if you just rolled your eyes, check this out: **anyone who makes [more than USD $32,400/year is in the top 1%](http://www.investopedia.com/articles/personal-finance/050615/are-you-top-one-percent-world.asp) of wealthy humans.** So as we're all complaining about the CEOs who make a hundred times more than we do, remember that even at $32.4K/year we're making almost fifty times the income of [767 million people living on less than $1.90/day](http://www.worldbank.org/en/publication/poverty-and-shared-prosperity).
 
 All of which makes a pretty fucking compelling case that we were born successful, and will likely stay that way unless something goes horribly wrong.
 
@@ -86,7 +86,7 @@ Logically, I knew this. _Hey, self,_ I thought with my smart brain, _you don't n
 _Now wait a damn minute, here,_ chimed in my Idiot Lizard Brain, _if you don't have the nicest pans money can buy, who will ever fuck you?_[^lizard-brain]
 
 [^lizard-brain]:
-    Did I really believe that the right cookware would get me laid? Logically speaking, no. But as this [black pit of existential despair masquerading as a book](#TODO TKTK link to Spent) will tell you, a concerning amount of consumerism is driven by a vestigial urge to prove we're worth bumping uglies with.
+    Did I really believe that the right cookware would get me laid? Logically speaking, no. But as this [black pit of existential despair masquerading as a book](http://amzn.to/2fpyYCJ) will tell you, a concerning amount of consumerism is driven by a vestigial urge to prove we're worth bumping uglies with.
 
 I felt the damp sheen of fear sweat. Felt my lungs shrink and my heart thump and my mouth go dry. I set down the perfectly-fine frying pan I was holding and reached for one with a special copper core that was guaranteed to distribute heat more evenly or some shit like that, but I was looking less at the description than at the price tag, which was easily three times that of the frying pan I actually needed.
 
@@ -136,7 +136,7 @@ It was humiliating. I sulked about it. And later I realized that this was a dist
 
 ### Who are you measuring against?
 
-If our self-worth is tied to what other people are capable of, we'll always be miserable. If we're looking to beat ourselves up, someone is always richer, further along, more famous, or better looking. There's a preteen graduating from an Ivy League college. There's a lady who's a billionaire now because she cut the feet off her pantyhose and decided it was worth making into a product. Some kid you drank with in high school with is now the quarterback for the Baltimore Ravens [TODO TKTK check this].
+If our self-worth is tied to what other people are capable of, we'll always be miserable. If we're looking to beat ourselves up, someone is always richer, further along, more famous, or better looking. There's a preteen graduating from an Ivy League college. There's a lady who's a billionaire now because she cut the feet off her pantyhose and decided it was worth making into a product. Some kid you drank with in high school with is now the quarterback for the Houston Texans.
 
 Or, if we're looking to comfort ourselves, we can always find someone doing worse.
 
