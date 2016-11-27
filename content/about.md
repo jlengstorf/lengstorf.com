@@ -1,36 +1,47 @@
-+++
-date = "2016-07-12"
-author = "jason"
+---
 
-type = "landing"
+date: 2016-07-12
+author: jason
 
-title = "About Jason"
-slug = "about"
-seo_title = "Jason Lengstorf: from workaholic to remoter worker & traveler."
-description = "I started out overworked, overweight, and unhappy. Now I travel the world & work less than 30 hrs/wk. I want to show you how I did it — and how you can too."
+type: landing
 
-[hero]
-    heading = "From unhappy & unhealthy to"
-    headingBig = "unbelievable."
-    lede = "I started out overworked, overweight, and unhappy. Now I travel the world and work less than 30 hours a week."
-    ledeStrong = "I want to show you how I did it."
-    class = "about"
-    popover = true
-    button = "Get the Guide"
-    credit = "paint with stars"
-    creditlink = "http://paintwithstars.com/"
+title: About Jason
+slug: about
+seo_title: "Jason Lengstorf: from workaholic to remoter worker & traveler."
+description: |
+  I started out overworked, overweight, and unhappy. Now I travel the world & 
+  work less than 30 hrs/wk. I want to show you how I did it — and how you 
+  can too.
 
-[popover]
-    heading = "Get your life back without sacrificing your career."
-    lede = "* **Get motivated.** Stop feeling buried. Start feeling unstoppable.\n* **Supercharge your productivity.** Show up, kick ass, get out, and live your life.\n* **Create more quality time.** Spend more time with the people you love."
-    button = "Get It Now"
-    group = "WORKHAPPY"
-    source = "about"
+hero:
+    heading: From unhappy & unhealthy to
+    headingBig: unbelievable.
+    lede: |
+        I started out overworked, overweight, and unhappy. Now I travel the 
+        world and work less than 30 hours a week.
+    ledeStrong: I want to show you how I did it.
+    class: about
+    popover: true
+    button: Get the Guide
+    credit: paint with stars
+    creditlink: http://paintwithstars.com/
 
-images = [
-    "/images/jason-lengstorf.jpg",
-]
-+++
+popover:
+    heading: Get your life back without sacrificing your career.
+    lede: |
+        * **Get motivated.** Stop feeling buried. Start feeling unstoppable.  
+        * **Supercharge your productivity.** Show up, kick ass, get out, and 
+        live your life.  
+        * **Create more quality time.** Spend more time with the people you love.
+    button: Get It Now
+    group: WORKHAPPY
+    source: about
+
+images:
+    - /images/jason-lengstorf.jpg
+
+---
+
 ## How I Went From Workaholic to World Traveler Who Also Works
 
 In my mid-20s, I had a booming business.
