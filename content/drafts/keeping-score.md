@@ -24,12 +24,12 @@ enable_disqus: true
 
 How do we know when we're successful?
 
-There's no formal award ceremony[^chewie] denoting success. And if you've ever subjected yourself to the horrors of reality television, a few minutes of watching the petty competitiveness of _The Real Housewives_ makes it pretty obvious that "owning a giant pile of expensive shit" doesn't necessarily make you feel successful.
+There's no formal award ceremony[^chewie] denoting success. And if you've ever subjected yourself to the horrors of reality television, a few minutes of watching the petty competitiveness of _The Real Housewives_ makes it pretty obvious that owning a giant pile of expensive shit doesn't necessarily make you _feel_ successful.
 
 [^chewie]:
     But if there was, the wookie would get a medal.
 
-The fluidity of success — or, more precisely, _feeling successful_ — has been on my mind recently, due mostly to [some big changes](http://www.2ftat.com/episode/07-change-and-labels/) I'm in the middle of.
+The fluidity of success — or, more precisely, of _feeling successful_ — has been on my mind recently, due mostly to [some big changes](http://www.2ftat.com/episode/07-change-and-labels/) I'm navigating.
 
 Over the course of multiple conversations on the topic, the feeling of success has proven to be maddening subject matter: everyone wants it, but its meaning and measure are infinitely varied.
 
