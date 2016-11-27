@@ -7,7 +7,7 @@ draft: true
 title: Only Keep Score Against Yourself
 slug: keeping-score
 
-seo_title: 
+seo_title: How do you know when you’re REALLY successful?
 description: 
 
 category:
