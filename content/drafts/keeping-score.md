@@ -24,20 +24,31 @@ enable_disqus: true
 
 How do we know when we're successful?
 
-There's no formal award ceremony[^chewie] denoting success. And if you've ever subjected yourself to the horrors of reality television, a few minutes of watching the petty competitiveness of _The Real Housewives_ makes it pretty obvious that owning a giant pile of expensive shit doesn't necessarily make you _feel_ successful.
+There's no formal award ceremony denoting success. There's no set quantity of _stuff_ we can acquire and suddenly we're sure.[^housewives] We can't inherit our parents' success — only the results of it. We can't buy or steal success, either.
 
-[^chewie]:
-    But if there was, the wookie would get a medal.
+[^housewives]:
+    <img src="/images/real-housewives.gif" alt="SO MAD" class="footnote-image footnote-image--right">
+    
+    If you've ever subjected yourself to the horrors of reality television, a few minutes of the petty nonsense on _The Real Housewives of Wherever_ is all the proof we need that owning a giant pile of expensive shit doesn't correlate with success _at all_.
+
+{{% caption src="/images/success-to-failure.gif"
+            srcset="/images/success-to-failure.gif"
+            align="right"
+            alt="win to fail" %}}
+  This guy felt like a goddamn champion for all of six seconds.
+{{% /caption %}}
+
+Worse, what feels like success _now_ can slide out from under us and feel like stagnation or failure, like a kid who feels so proud of her B+ on the math test until her parents ask, "Why didn't you get an A?"
 
 The fluidity of success — or, more precisely, of _feeling successful_ — has been on my mind recently, due mostly to [some big changes](http://www.2ftat.com/episode/07-change-and-labels/) I'm navigating.
 
-Over the course of multiple conversations on the topic, the feeling of success has proven to be maddening subject matter: everyone wants it, but its meaning and measure are infinitely varied.
+The _feeling_ of success is a maddening subject: **everyone wants to feel successful, but how we define and measure what success feels like is infinitely varied.**
 
 So let's try to pin it down, yeah?
 
 ## Success, Objectively: I Am Successful Because...
 
-On the surface, it seems like success shouldn't be too hard to nail down. After all, it seems like there are perfectly objective definitions of success.
+It seems like success shouldn't be too hard to nail down. After all, don't we have perfectly objective definitions of success?
 
 ### ...I am not being eaten.
 
@@ -52,14 +63,14 @@ Historically speaking, we're in pretty good shape, and — apocalyptic Facebook 
 
 ### ...I have options.
 
-Millennials are living at home into their twenties. We're only staying in our jobs for a few years at a time. We're attending conferences and reading books to help us "find our passion".[^passion]
+Many of us had the option to live with our parents well into our twenties. We're only staying in our jobs for a few years at a time. We're attending conferences and reading books to help us "find our passion".[^passion]
 
 [^passion]:
     This is something Nate and I talk about at length in [Refocus](https://getrefocus.com), but the short version is this: we rarely _find_ our passion and _then_ follow it; instead, we put in the work, build our expertise, and the passion _follows_.
     
     **Chasing passion doesn't build mastery. Chasing mastery builds passion.**
 
-A few generations back, we inherited family businesses or went to work at the same factories and farms as our parents. Our paths were laid out, and we didn't have much choice. That's just how things worked.
+A few generations back, kids like us would have inherited the family businesses or went to work at the same factories and farms as our parents. We would have done that for fifty years or so and then left it to our own kids. Our paths were laid out, and we didn't have much choice. That's just how things worked.
 
 No we have the internet, and a college degree is carrying less and less weight in the hiring decision for knowledge workers. The world is wide open, and if we want to get a job [building websites while living on an island in Thailand]({{< ref "remote-work-course.md" >}}), _that's a perfectly fucking realistic option_.
 
