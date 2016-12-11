@@ -1,6 +1,6 @@
 .footnote-display {
   position: fixed;
-  bottom: calc( -400px + 1.5rem );
+  bottom: calc(-400px + 1.5rem);
   left: 0;
   right: 0;
   padding: 1.5rem 1.5rem 50px;
@@ -25,16 +25,18 @@
     left: 0;
     right: 0;
     height: 30px;
-    background-image: linear-gradient(to top,
-      $color-gray-light 15%,
-      color( $color-gray-light alpha(0) ) 100%
-    );
+    background-image:
+      linear-gradient(
+        to top,
+        $color-gray-light 15%,
+        color($color-gray-light alpha(0)) 100%
+      );
   }
 
   @media $viewport-md {
     left: 402px;
-    padding-left: calc( $height-unit * 3.667 );
-    padding-right: calc( $height-unit * 3.667 );
+    padding-left: calc($height-unit * 3.667);
+    padding-right: calc($height-unit * 3.667);
     padding-bottom: 20px;
 
     &::after {
@@ -75,10 +77,23 @@
   }
 
   &__text {
-    max-height: 200px;
+    max-height: 240px;
     font-size: 90%;
     padding-bottom: 30px;
     overflow-y: scroll;
+
+    .footnote-image {
+      display: block;
+      max-width: 100%;
+
+      &--right {
+        @media $viewport-xs {
+          float: right;
+          max-width: 45%;
+          margin: 2rem 0 1rem 2rem;
+        }
+      }
+    }
 
     /* Hide the return links in this view. */
     .footnote-return {
