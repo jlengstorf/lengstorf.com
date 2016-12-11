@@ -64,7 +64,7 @@ figure.figure(
   | {{ with .Get "imglink" }}</a>{{ end }}
 
   //{{ if or (.Get "attr") (gt $innerLength 0) }}
-  figcaption.figure__caption {{ if and (gt $innerLength 0) (not (lt (len .Inner) 2)) }}{{ with .Inner }}{{ . }}{{ end }}{{ end }}{{ if isset .Params "attr" }} #[small.figure__attribution Credit:{{ with .Get "attrlink" }}<a class="figure__attribution-link" href="{{.}}">{{ end }} {{ .Get "attr" }}{{ if .Get "attrlink" }}</a>{{ end }}]{{ end }}
+  figcaption.figure__caption {{ if and (gt $innerLength 0) (not (lt (len .Inner) 2)) }}{{ with .Inner }}{{ . }}{{ end }}{{ end }}{{ if isset .Params "attr" }} #[small.figure__attribution Credit:{{ with .Get "attrlink" }} <a class="figure__attribution-link" href="{{.}}">{{ end }}{{ .Get "attr" }}{{ if .Get "attrlink" }}</a>{{ end }}]{{ end }}
   //{{ end }}
 
   //{{ $.Scratch.Set "srcset" "" }}
