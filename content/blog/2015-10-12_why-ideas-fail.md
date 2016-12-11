@@ -165,7 +165,7 @@ What felt like a dream is now definitely a nightmare. How much time have we wast
 
 The project is falling to pieces in our hands. And what's worse, we can't seem to care. We can't seem to remember why we ever thought this was a good idea in the first place.
 
-*There is no way,* we think, *that this will ever, **ever** work.*
+*There is no way,* we think, _that this will ever, **ever** work._
 
 ### Stage 5: The Slog
 
@@ -263,7 +263,7 @@ If it's marginally successful — or even a failure — we still get to add a fu
 After a success *or* a failure, you're able to learn something:
 
 * "I made this! People like it, and now I'm working on a second version to incorporate their feedback."
-* "I made this. It didn't work out, but I think I know what went wrong, so now I'm working on something that will work better."
+* "I made this. It didn't work out, but I think I know what went wrong, so now I'm working on something better."
 
 But if we quit before The Slog is finished, our project is a sentence fragment: "I made this..."
 
@@ -291,7 +291,7 @@ This is what's called a *minimum viable product* in the startup sphere, and it's
 
 ### 2. Spend time planning at the beginning.
 
-Planning a project is decidedly not exciting. So when we're riding high on the ecstatic waves of Total Infatuation, the *last* think we'll want to do is slow down and start tearing the idea into small, well-planned pieces.
+Planning a project is decidedly not exciting. So when we're riding high on the ecstatic waves of Total Infatuation, the *last* thing we'll want to do is slow down and start tearing the idea into small, well-planned pieces.
 
 But we have to.
 
