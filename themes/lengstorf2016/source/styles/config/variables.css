@@ -16,15 +16,14 @@ $res-2x: (-webkit-min-device-pixel-ratio: 1.5),  (min-resolution: 144dpi);
 /*
  * ## Colors
  */
-$color-darkest: #382A2C;
-$color-text: #56453B;
-$color-caption: color( $color-text tint(30%) );
-$color-lightest: #FFFCFF;
-$color-gray-light: #F9F2FA;
-$color-gray-medium: #EAE4EB;
-$color-accent: #C700EB;
-$color-brand: #FF7800;
-
+$color-darkest: #382a2c;
+$color-text: #56453b;
+$color-caption: color($color-text tint(30%));
+$color-lightest: #fffcff;
+$color-gray-light: #f9f2fa;
+$color-gray-medium: #eae4eb;
+$color-accent: #c700eb;
+$color-brand: #ff7800;
 
 /*
  * ## Fonts
@@ -39,7 +38,6 @@ $font-weight-light: 200;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-ultra: 800;
-
 
 /*
  * ## Measurements
