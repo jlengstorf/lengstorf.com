@@ -1,6 +1,13 @@
 .figure {
   width: 100%;
 
+  &--left,
+  &--right {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @media $viewport-sm {
     &--center,
     &--left,
@@ -16,7 +23,6 @@
 
     &--left,
     &--right {
-      max-width: 300px;
       margin-bottom: 20px;
     }
 
