@@ -34,11 +34,5 @@ block article
   block article-comments
     | {{ partial "blog_comments.html" . }}
 
-  .article__footnote-display.footnote-display
-    .footnote-display__text-wrap(
-      data-footnote-number="1"
-    )
-      .footnote-display__text
-      a.footnote-display__close(
-        href="#"
-      ) close
+block footnotes
+  | {{ partial "footnotes-display.html" . }}
