@@ -4,7 +4,7 @@ date = "2016-09-16"
 author = "jason"
 type = "blog"
 
-title = "How to Having Great Ideas: Write Everything Down"
+title = "How to Have Great Ideas: Write Everything Down"
 seo_title = "How to Come Up With — And Remember — More Great Ideas"
 slug = "write-everything-down"
 description = "If you’re waiting for inspiration, you’re doing it wrong. Great ideas don’t happen overnight — you have to make sure you give them a chance to grow."
