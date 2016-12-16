@@ -26,21 +26,53 @@ For the last two years, [Marisa](https://marisamorby.com) and I have been living
 
 When we first set off on our [grand travel and remote work experiment]({{< ref "remote-work-travel.md" >}}), we had several hypotheses about how things would go. Here's a quick recap of what we expected:
 
-1. We don't have to wait until we retire to start traveling.
-2. It's possible to be productive during sustained periods of travel.
-3. It's just as cheap (or cheaper) to live abroad.
-4. It's healthier to live abroad than it is to live in the United States.
-5. Living abroad for extended periods of time means _big_ tax breaks.
+1. **We don't have to wait until we retire to start traveling.**
+2. **It's possible to be productive during sustained periods of travel.**
+3. **It's just as cheap (or cheaper) to live abroad.**
+4. **It's healthier to live abroad than it is to live in the United States.**
+5. **Living abroad for extended periods of time means _huge_ tax breaks.**
 
 ## Two Years In: Were My Hypotheses Correct?
 
-TKTK
+When I boarded a one-way flight to Milan at the end of 2014, I had no idea whether or not I was right about _any_ of these hypotheses. Sure, I had my gut feelings and I'd done my research, but without putting it into practice, I was still making educated guesses at best.
+
+Knowing about a thing and _actually doing_ a thing are two very different things.
+
+Now it's been two years, and I've been testing these hypotheses the whole time. So... was I right? 
 
 ### 1. Is it possible to travel extensively before retirement?
 
-TKTK
+**tl;dr:** Abso-fucking-lutely.
 
-Yes, but you need to have a network and income stream _first_. I was fine; Marisa struggled a little because she was trying to break into a new industry.
+There are only two prerequisites for long-term travel:
+
+1. a willingness to spend an extended period of time exploring the world, and
+2. a stable source of income that never (or rarely) requires physical presence
+
+If you _don't_ have a location-independent source of income, it's easy to throw your hands up and say, "Well, that works for programmers, but not for [INSERT PROFESSION HERE] like me."
+
+**Bullshit.**[^probably]
+
+[^probably]:
+    Hold your fucking horses before you jump down my throat here — I'm getting to the fine print. Don't begrudge a guy his flair for the dramatic, okay?
+
+    While there are obvious exceptions — hard skills like carpentry and transmission repair don't travel well — a huge number of jobs in the western world have moved online.
+
+    In my travels I've met trademark lawyers, stock brokers, accountants, journalists, customer service reps, marriage counselors, and real estate consultants; if your job is performed on a computer, it's _extremely_ plausible that [you can become a remote worker]({{< ref "how-to-become-location-independent.md" >}}).
+
+However, there is a caveat to all this: you need to have your network in place _first_.
+
+When I left, I had already been in my industry for a decade, and I have an amazing group of previous clients who have always sent interesting opportunities my way. I've also put a fair amount of time into meeting other people in my industry and building a professional network.
+
+My network meant I could rely on my sales pipeline staying full when my existing contracts wrapped up. It meant I had people to hit up for leads if I needed work. Most of all, it meant I was _stable_.
+
+#### Freelancers: you need a network first.
+
+Marisa, however, had just switched industries when we left. She realized that most of what she'd been doing in her role as a human resources director crossed over with user experience, and she was _way_ more interested in working in user experience.
+
+When we started traveling, she was trying to _build_ her network. It's not impossible — she pulled it off — but it _is_ way more difficult. There were a few tough months where she didn't have anything in her pipeline and wasn't sure where her next contract would come from. There were times she felt hopeless because no one was responding to her cold emails. There were a crying jags in the bathtub. And since we were in Japan or wherever, she couldn't just roll down the street to a business meetup and use her trademark combination of giant sexy brain + irresistible curly cuteness to win people over in-person.
+
+So if you aren't already established with a network, spend time building your network first: go to meetups, attend conferences, meet people, and create a solid pipeline. It may take a year, but when you're in Thailand and your current contract ends, a network means the difference between dropping a few lines to let people convince you why you should work with them, and trying to decide exactly how close you're willing to get to broke before you pull the rip-cord and head home.
 
 ### 2. Is it hard to stay productive while traveling constantly?
 
