@@ -76,9 +76,38 @@ So if you aren't already established with a network, spend time building your ne
 
 ### 2. Is it hard to stay productive while traveling constantly?
 
-TKTK
+I closed my eyes and let the _déjà vu_ wash over me. I was having _this_ conversation. Again.
 
-Nope. Unless you travel too fast.
+"I'd never get _anything_ done," she said with a self-deprecating chuckle. "I'd be too distracted by the sand and the ocean."
+
+In an alternate reality where my filter is all the way broken,[^filter] I clunk my beer down and turn to face her. "Listen," I snap, "if all it takes to keep you from getting your shit taken care of is a beach, then I'd say the beach is the least of your fucking problems."
+
+[^filter]:
+    In _this_ reality, my filter is only mostly broken. It's not that I want to be an asshole; I just don't really grasp the concept of leading questions. "Why did you ask a question you didn't want the answer to?" ranks high on my list of frequently-used phrases.
+
+But I'm a coward, so instead I just nod and smile and look for a way to politely exit the conversation.
+
+Here's the thing: staying productive on the road is _easy_. Once you [get your productivity habits sorted]({{< ref "productivity-habits.md" >}}), hitting "office-standard" productivity goals for an eight-hour day takes _at most_ six hours. Probably four.
+
+{{% caption src="/images/2016-rescuetime.jpg"
+            paddingBottomPercent="45"
+            align="center"
+            alt="RescueTime"
+            attr="RescueTime"
+            attrlink="https://www.rescuetime.com/rp/jlengstorf" %}}
+  If you're not already using RescueTime, [go download it now](https://www.rescuetime.com/rp/jlengstorf). Knowing where your time goes is the first step to killer productivity.
+{{% /caption %}}
+
+For the last two years I've averaged roughly 37 hours a week on a computer — that's _including_ Netflix time – and my productivity sits at 75%[^email] overall.
+
+[^email]:
+    I categorize email, chat, and all meetings as unproductive time. That accounts for an additional 10% of my screen time in 2016.
+
+#### However, productivity goes to hell if you travel too fast.
+
+A few times over the last couple years we decided to make "quick trips". A long weekend in Berlin; a couple days in Budapest; five days in Istanbul. Had we looked at these trips as vacations, things would have been fine. But we didn't — we thought we'd be able to get things done on these short trips.
+
+Fast travel makes productivity _hard_. If you're in a place for a few months, there's time for both work and seeing the city. But when your time is restricted, you have to start making choices between a thing you want to do in the city and a thing you need to do for work — and work typically loses.
 
 ### 3. How much does it actually cost to travel the world for two years?
 
