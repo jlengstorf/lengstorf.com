@@ -109,11 +109,43 @@ A few times over the last couple years we decided to make "quick trips". A long 
 
 Fast travel makes productivity _hard_. If you're in a place for a few months, there's time for both work and seeing the city. But when your time is restricted, you have to start making choices between a thing you want to do in the city and a thing you need to do for work — and work typically loses.
 
+Everyone will have a different [Goldilocks Zone]({{< ref "goldilocks-zone.md" >}}) for balancing experience, productivity, and exploration,[^goldilocks-zone] but it's important not to get antsy and try to see everything in a hurry. Working and traveling is a way to _avoid_ high-stress, high-speed vacations; don't forget to take advantage of that freedom to maximize both your productivity _and_ your level of satisfaction about traveling.
+
+[^goldilocks-zone]:
+    For me, the Goldilocks Zone is about two months. If I stay longer, I start to feel listless and catch myself settling into the kind of routines that I didn't like when I lived in one place.
+    
+    A month can work, but I usually feel like I've just started to make friends and know the neighborhood at a month. For the last year Marisa and I have aimed for about 6–8 weeks in a location, and we've been happy with that result.
+
 ### 3. How much does it actually cost to travel the world for two years?
 
-TKTK
+When I left the United States in 2014, my only experience of traveling abroad was a short trip with [Nate]({{< ref "best-friends.md" >}}) to Belgium, the Netherlands, and the UK.
 
-Nowhere near as much as we expected. Average monthly cost — and listen, we fucking _balled hard_ — was USD $1,666.88.
+That trip nearly bankrupted me.
+
+Over the course of ten days or so, I managed to spend every penny I had (and quite a few that I didn't). After Nate left a couple days early for a work thing, I was forced to ration food for the last 36 hours because I only had €8 or so left and no credit available.
+
+My experience isn't uncommon. My dad always grumbles about travel because it costs too much. Friends are always putting off vacations because they can't afford them.
+
+So naturally, most of us — myself included until mid-2015 or so — immediately assume that long-term travel will be _expensive_. Prohibitively so.
+
+But that's simply not the case. At least not for many of us.
+
+#### My cost-of-living for 2016–2017: $1,666.88/month
+
+For the last two years, I've averaged $1,666.88 per month to live. And that's not just rent; that's rent _plus_ utilities _plus_ cable and internet _plus_ electric _plus_ property taxes or hotel taxes or whatever taxes.
+
+In that time, I've lived in a dozen or so different countries, ranging from oceanside resorts in Koh Samui (~$22/day) to a courtyard apartment in Rome (~$79/day) to a kitschy apartment in the heart of Zagreb (~$34/day).
+
+In Portland, my cost of living was ~$88/day.[^portland]
+
+[^portland]:
+    My rent was on the higher side in Portland at $1,950/month. However, it's worth noting that the Airbnbs we were renting were mostly as nice (and in some cases nicer) than my Belmont loft in Portland.
+
+Beyond just the cost of rent and utilities and other living expenses, we also saved a _ton_ on food. Most of my disposable income goes toward eating well, so this was not an insignificant savings.
+
+For example, in Vietnam we regularly ate banh mi sandwiches that would cost about $10 in the United States for less than VND 25,000 — which is roughly a U.S. dollar. A _fancy_ meal — a multi-course affair for two — would cost _maybe_ $20. Most of the time Marisa and I both ate for less than $5 total.
+
+Thailand was astonishingly cheap as well. Ditto Barcelona and Zagreb.
 
 ### 4. Is it actually healthier to live outside the United States?
 
