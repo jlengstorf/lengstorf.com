@@ -1,23 +1,24 @@
 ---
-draft: true
-
-date: 2017-01-04
+date: 2017-01-25
 author: jason
 type: blog
 
-title: 2016 Retrospective
-slug: 2016
+title: How I’m Looking at My Past to Improve My Future
+slug: 2016-personal-retrospective
 seo_title: 
-description: 
+description: >
+    We all look at the past sometimes and think about what went wrong. Here’s a simple exercise to make sure reflecting on our past is building a better future.
 
 category:
-    - 
+    - motivation
 
 tag:
-    - 
+    - learning
+    - planning
+    - success
 
 images:
-    - /images/jason-lengstorf.jpg
+    - /images/sol-calla-marisa-jason-cropped.jpg
 
 enable_disqus: true
 ---
@@ -37,6 +38,13 @@ A good idea that I intend to steal outright in this post.[^timeline]
     Indeed I am, dear reader. Indeed I am. I'll talk more about this later in the post.
 
 ## Why a Retrospective? (Also, What Is a Retrospective?)
+
+{{% caption src="/images/nate-being-smart.jpg"
+            paddingBottomPercent="100"
+            align="right"
+            alt="Nate Green being smart" %}}
+  Nate being smart.
+{{% /caption %}}
 
 One of the more valuable strategies I picked up from my time as a contractor for [Precision Nutrition](http://www.precisionnutrition.com/) is the idea of holding a retrospective[^post-mortem] after each project (or phase of a project).
 
@@ -76,6 +84,12 @@ Overall, 2016 was a great year for me. My personal and professional lives grew i
 
 However, everything I just said is fluffy, and not particularly useful. So let's dig into specifics and see if I can **come up with a plan to make 2017 a great year** — even if that plan ends up being, "Just keep doing what you're doing."
 
+{{% caption src="/images/friends-in-thailand.jpg"
+            align="center"
+            alt="Friends in Thailand" %}}
+  Homemade dinner and cookes with Gai, Richelle, Marisa, and Nate in Chiang Mai, January 2016
+{{% /caption %}}
+
 ### What went well in 2016?
 
 I had a lot of things to be happy about in 2016:
@@ -93,6 +107,12 @@ I had a lot of things to be happy about in 2016:
     
     If you _are_ on my newsletter list, I'm still working on something cool that combines my ideas with the dozens of incredible ideas you sent me — stay tuned.
 
+{{% facebookvideo
+    video_url="https://www.facebook.com/jlengstorf/videos/994057190664182/"
+    paddingBottom="51.3" %}}
+  Watch the tiny girl at 1:30 start busting moves.
+{{% /facebookvideo %}}
+
 ### What could have gone better in 2016?
 
 Even though I don't have regrets about last year, I _do_ see some room for improvement. So let's run through a quick list of my shortcomings, shall we?
@@ -100,6 +120,12 @@ Even though I don't have regrets about last year, I _do_ see some room for impro
 #### I did a bad job of keeping up with friends.
 
 If something's not at the front of my mind, I tend to forget about it entirely. And while this is [great for productivity]({{< ref "scheduling-maximum-productivity.md" >}}), it's _terrible_ for keeping up with people I don't get to see very often.
+
+{{% caption src="/images/scotty-and-jason.jpg"
+            align="right"
+            alt="Scotty and Jason" %}}
+  I was in Scotty's wedding, and we talk _maybe_ once a year.
+{{% /caption %}}
 
 Left unattended, I can go months without calling my parents. _Years_ without talking to people I consider close friends.
 
@@ -112,6 +138,9 @@ Whether or not anyone but me has noticed, I don't like this.
 In the years before I [started traveling]({{< ref "remote-work-travel.md" >}}), I was constantly speaking at conferences. For a couple years I was averaging a talk every month or so.
 
 After leaving, though, that number plummeted: I gave maybe three talks in 2015, and only one or two in 2016.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">How to make it (from anywhere) by <a href="https://twitter.com/jlengstorf">@jlengstorf</a> in <a href="https://twitter.com/PHPSevilla">@PHPSevilla</a> <a href="https://twitter.com/hashtag/PHPSevilla?src=hash">#PHPSevilla</a> <a href="https://twitter.com/workINcompany">@workINcompany</a> <a href="https://t.co/9r1r2Nr9Xk">pic.twitter.com/9r1r2Nr9Xk</a></p>&mdash; Juan Luis Garcia (@JuanluGarciaB) <a href="https://twitter.com/JuanluGarciaB/status/745672145490022400">June 22, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 That bums me out, because I enjoy challenging myself to learn something well enough to teach it. And I _really_ enjoy watching the light come on in someone's eyes when they comprehend a new idea for the first time.
 
@@ -133,6 +162,15 @@ This is bullshit, and I know it.
 ### What will I work to improve in 2017?
 
 After going through the process of complaining about 2016, there's a critical step left to make this productive: I need to make a plan to keep the good things good, and improve on the things I wasn't so happy with.
+
+{{% caption src="/images/sol-calla-marisa-jason.jpg"
+            paddingBottomPercent="64"
+            align="center"
+            alt="Sol Orwell, Calla Lee, Marisa Morby, Jason Lengstorf"
+            attr="Verkspace"
+            attrlink="http://verk.space/" %}}
+  Sol and Calla pulled this photo off way better than Marisa and me.
+{{% /caption %}}
 
 #### I will dedicate time to keeping up with the people I care about.
 
@@ -167,9 +205,22 @@ Most conferences open up a request for proposals, where people can submit talk i
 [^rfps]:
     If you're interested in getting into speaking, Lanyrd has a [round-up of open calls for proposals](http://lanyrd.com/calls/), and [PaperCall](https://www.papercall.io/cfps) is a tool used by conferences looking for speakers. You can also check out [We Are All Awesome](http://weareallaweso.me/) for resources to help you build confidence and get your proposals accepted.
 
+    
+{{% caption src="/images/jason-gym-slovenia.jpg"
+            paddingBottomPercent="64"
+            align="center"
+            alt="Jason Lengstorf at Vigor Ground gym in Ljubljana"
+            attr="Nate Green"
+            attrlink="https://nategreen.org/" %}}
+  My favorite gyms are more or less extremely dangerous playgrounds.
+{{% /caption %}}
+
 #### I will stay consistent in the gym, even though things are going to be a little different now.
 
-For the last two years I've been really consistent in the gym. At _least_ twice and usually three times a week, Marisa and I have been in the gym. We worked with great coaches to build a remote program, including remote programs from [Chris Bathke](http://www.elementalfitnesslab.com/), [Precision Nutrition](http://www.precisionnutrition.com/) and [Craig Weller](http://trainrogue.com/about/coaches/).
+For the last two years I've been really consistent in the gym. At _least_ twice and usually three times a week, Marisa and I have been in the gym. We worked with great coaches to build a remote program, including remote programs from [Chris Bathke](http://www.elementalfitnesslab.com/), [Precision Nutrition](http://www.precisionnutrition.com/) and [Craig Weller](http://trainrogue.com/about/coaches/). I'm in better shape now than I've probably _ever_ been in before — I can do _pull-ups_ now.[^pullups]
+
+[^pullups]:
+    This is a new development for me. I was always the kid in gym class who just hung on the bar and looked hurt that I was expected to do anything.
 
 However, we had an advantage: we were halfway around the world, so if we felt like sleeping in and working out at 10:30 am, that was okay.
 
@@ -200,9 +251,17 @@ And that's exactly what I plan to do: I want to spend a few hours every week wor
 [^nerds]:
     Fellow nerds: I'm looking for ideas, so [open issues for topics that interest you](https://github.com/jlengstorf/code.lengstorf.com/issues).
 
+{{% caption src="/images/jason-writing-vancouver.jpg"
+            align="center"
+            alt="Jason Lengstorf in Vancouver, BC"
+            attr="Marisa Morby"
+            attrlink="https://marisamorby.com/" %}}
+  As you can tell by my furious typing, I was writing _so hard_ in this photo.
+{{% /caption %}}
+
 #### I will replace my morning phone habit with writing (again).
 
-I don't really remember how this happened — I was kicking ass with waking up phoneless and writing and then... I don't know. We moved somewhere that changed my schedule? I was hungover?
+I don't really remember how this happened — I was kicking ass with waking up phoneless and writing and then... I don't know. We moved somewhere that changed my schedule? I was hungover one day?
 
 Whatever it was, I fucked up and started bringing my phone into the bed after I woke up. So my _Boom Beach_ ranking went up, but my writing output tanked.
 
