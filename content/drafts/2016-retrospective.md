@@ -29,7 +29,12 @@ Honestly, I wasn't really planning to say anything at all about 2016.[^momma-say
 [^momma-says]:
     If you [can't say something nice](https://www.facebook.com/theoatmeal/photos/a.10150413121115078.628758.220779885077/10158020247080078/?type=3&theater) and all.
 
-A good idea that I intend to steal outright in this post.
+A good idea that I intend to steal outright in this post.[^timeline]
+
+[^timeline]:
+    "Wait," you might be thinking, "isn't it almost February? Aren't you a little late to the 2017 party?"
+    
+    Indeed I am, dear reader. Indeed I am. I'll talk more about this later in the post.
 
 ## Why a Retrospective? (Also, What Is a Retrospective?)
 
@@ -44,11 +49,11 @@ A project retrospective follows a simple-but-effective format that aims to answe
 2. What could have gone better?
 3. What will we change to improve our next attempt?
 
-As a business strategy, this is _huge_. It [frames things positively]({{< ref "how-to-be-positive.md" >}}) and calls out the good parts in addition to the bad. It gives the team room to share negative feedback in a structured way. And — this is the most important part — it [creates a plan]({{< ref "effective-project-planning.md" >}}) for getting better.
+As a business strategy, this is _huge_. It [frames things positively]({{< ref "how-to-be-positive.md" >}}) and calls out the good parts in addition to the bad. It gives the team a platform to share negative feedback in a structured, expected way. And — this is the most important part — it [creates a plan]({{< ref "effective-project-planning.md" >}}) for getting better.
 
 ### Wait. Is this a post about business?
 
-No.[^business] But context is important. Calm down – I'm getting to my point.
+No.[^business] I'm trying to provide context. Calm down, Sparky – I'm getting to my point.
 
 [^business]:
     But it _could_ be. I've got a [discussion about building great teams](https://github.com/jlengstorf/lengstorf.com/issues/6) that will evolve into a post soon(-ish). I'd love to get your input — I _am_ a TEAM PLAYER after all. Ha! Eh? Anyone?
@@ -58,6 +63,8 @@ No.[^business] But context is important. Calm down – I'm getting to my point.
 Nate said this well, so I'm just copy-pasting his words here:
 
 > If we don’t learn from our past, we we won’t be able to identify our biggest opportunities to make life better. Which means we’ll likely suffer through the same situations and thought-patterns again and again.
+>
+> **Nate Green, [_My 2016 Personal Retrospective (And 2017 Action Plan)_](https://nategreen.org/2016-personal-retrospective/)**
 
 People say things like "learn from your past" all the time. But this is one of those vaguely idea-shaped truisms: it's cute and inspirational and all, but it isn't really _useful_ without a plan.
 
@@ -67,13 +74,14 @@ People say things like "learn from your past" all the time. But this is one of t
 
 Overall, 2016 was a great year for me. My personal and professional lives grew in ways I'm proud of, I made choices I'm happy to defend, and I can't think of anything I regret.
 
-However, everything I just said is fluffy, and not particularly useful. So let's dig into specifics and see if I can come up with a plan — even if that plan ends up being, "Just keep doing what you're doing."
+However, everything I just said is fluffy, and not particularly useful. So let's dig into specifics and see if I can **come up with a plan to make 2017 a great year** — even if that plan ends up being, "Just keep doing what you're doing."
 
 ### What went well in 2016?
 
 I had a lot of things to be happy about in 2016:
 
 - [Marisa](https://marisamorby.com) and I continued [our traveling adventures]({{< ref "2015-12-30_year-in-review.md" >}}) for the second year.
+- Nate and I released an [online workshop/course for gaining better focus and productivity](https://getrefocus.com/). We also recorded a [half-dozen episodes of 2FTAT](http://www.2ftat.com/).
 - I launched a [code blog](https://code.lengstorf.com) to share (far geekier) content about building better software.
 - With help from great people like [Mackenzie Child](https://www.youtube.com/user/mackenziechild), I learned a bit about making videos and launched a [YouTube channel for nerds](https://www.youtube.com/lengstorf).
 - I started cooking again after years of almost exclusively eating out (or buying pre-made meals).
@@ -95,7 +103,7 @@ If something's not at the front of my mind, I tend to forget about it entirely. 
 
 Left unattended, I can go months without calling my parents. _Years_ without talking to people I consider close friends.
 
-And while part of that results from a (typically mutual) disinterest in forcing a catch-up call "just because", a good deal of the blame falls on me straight-up _never_ thinking about things that aren't in front of my face — whether it's a project I forgot I was working on, or a person I really like but haven't thought about in a while.
+And while part of that results from a (typically mutual) disinterest in forcing a catch-up call "just because", a good deal of the blame falls on me for straight-up _never_ thinking about things that aren't in front of my face — whether it's a project I forgot I was working on, or a person I really like but haven't thought about in a while.
 
 Whether or not anyone but me has noticed, I don't like this.
 
@@ -138,34 +146,98 @@ I should know this already; I used to watch Nate go _way_ out of his way to send
 Both Sol and Nate have built incredible networks. Nate's entire livelihood is built on the back of his outstanding networking skills.[^me-too]
 
 [^me-too]:
-    And, if we're being totally honest here, a pretty decent portion of _my_ livelihood has roots in Nate being roughly 1,000,000x better at networking and making intros on my behalf.
+    And, if we're being totally honest here, a pretty decent portion of _my_ livelihood has roots in Nate being roughly 1,000,000x better at networking than I am.
 
 So in 2017, I'm actually going to schedule time for keeping up with people. And not just for professional networking; I'm going to make sure I've set aside time to call my mom, or send a card to my grandparents, or follow up with my friend who just got a new job.
 
 I don't need to be a networking genius like Nate or Sol, but I definitely need to _stop_ being an out-of-sight-out-of-mind jerk like I have been.
 
-**My 2017 Habit: Schedule two hours every week to connect with friends, family, and my professional network.**
-
 #### I will submit proposals so I'm speaking at one conference per quarter minimum.
 
-TKTK
+It's important to me on both a professional and personal level to continue speaking.
 
-**My 2017 Habit: Follow open requests for proposals and submit at least one talk idea for every conference that fits my calendar.**
+Professionally, speaking gigs help me increase my value to the companies that want to work with me, and it establishes me as an expert on a variety of subjects. This gives me more freedom to negotiate on rates and specifics — such as [working remotely]({{< ref "how-to-become-location-independent.md" >}}).
+
+Personally, it feels really good to know that someone is going to have a better career — and hopefully, a [better life]({{< ref "work-happier.md" >}}) — because of something I helped them understand. I may not be changing to world, but for a small handful of people, I have the chance to spark an idea or offer a little insight that can help them get where they want to go.
+
+It's why I write, and it's why I speak. Or at least, it's why I _want_ to speak.
+
+Most conferences open up a request for proposals, where people can submit talk ideas.[^rfps] I need to be more proactive about looking for these and submitting ideas if I want to continue speaking regularly.
+
+[^rfps]:
+    If you're interested in getting into speaking, Lanyrd has a [round-up of open calls for proposals](http://lanyrd.com/calls/), and [PaperCall](https://www.papercall.io/cfps) is a tool used by conferences looking for speakers. You can also check out [We Are All Awesome](http://weareallaweso.me/) for resources to help you build confidence and get your proposals accepted.
 
 #### I will stay consistent in the gym, even though things are going to be a little different now.
 
-TKTK
+For the last two years I've been really consistent in the gym. At _least_ twice and usually three times a week, Marisa and I have been in the gym. We worked with great coaches to build a remote program, including remote programs from [Chris Bathke](http://www.elementalfitnesslab.com/), [Precision Nutrition](http://www.precisionnutrition.com/) and [Craig Weller](http://trainrogue.com/about/coaches/).
 
-**My 2017 Habit: Stay consistent with my existing routine of working out 3–4 days per week.**
+However, we had an advantage: we were halfway around the world, so if we felt like sleeping in and working out at 10:30 am, that was okay.
+
+Now we're in Austin, working regular business hours. We have to be at the gym by six most mornings or we won't have time to work out.
+
+This is where I've struggled in the past: when things get busy, my health slips first.
+
+So I'm not going to do that. This year, I'm going to make sure I continue with my good habit of hitting the gym three or more times a week.[^so-far]
+
+[^so-far]:
+    A month in, this has worked out well. Early mornings suck, but I've found I tend to sleep better, have more energy, and just generally feel less like a damp sack of shit when I make it to the gym early.
 
 #### I will make time to continue working on videos and tutorials for my code blog.
 
-TKTK
+Writing a blog post like this one is therapeutic; I have a thought, wrestle with it, and flesh it out in a few words.[^few-words] The process is simple: write until something that makes sense is on the page.
 
-**My 2017 Habit: Schedule 2–3 hours each week to make progress on writing and/or recording a code tutorial.**
+[^few-words]:
+    Ha. I say "few words" as if I've ever written anything shorter than 2,000 words.
+
+Code posts, by contrast, are _fucking difficult_. There's research, testing, demo applications, and rounds of feedback — and _then_ you write the post. And after that, you record the video, edit it, and post it on YouTube.
+
+A blog post for this site might take me two hours if I'm fucking around, or having a hard time articulating myself; a code post will easily take days.
+
+So I can't just sit down and throw one together. I need to [~~make~~ _find_ time]({{< ref "find-time.md" >}}) to work on these if I plan to release more than two or three a year.
+
+And that's exactly what I plan to do: I want to spend a few hours every week working on a code tutorial.[^nerds]
+
+[^nerds]:
+    Fellow nerds: I'm looking for ideas, so [open issues for topics that interest you](https://github.com/jlengstorf/code.lengstorf.com/issues).
 
 #### I will replace my morning phone habit with writing (again).
 
-TKTK
+I don't really remember how this happened — I was kicking ass with waking up phoneless and writing and then... I don't know. We moved somewhere that changed my schedule? I was hungover?
 
-**My 2017 Habit: Resume my habit of writing for 30 minutes minimum before looking at my phone in the morning.**
+Whatever it was, I fucked up and started bringing my phone into the bed after I woke up. So my _Boom Beach_ ranking went up, but my writing output tanked.
+
+(For example, I started this post on January 4. Three weeks later and I'm _just now_ getting back to it. Like a slacker.)
+
+I didn't notice at first. That's how bad habits tend to work: we don't notice the slide; we just wake up one day and realize, _Holy shit, I've made a huge mistake._
+
+**But noticing the problem is the first step toward fixing it.** So as long as I take this as an opportunity to get a little better,[^again] I can feel confident that I'm making progress.
+
+[^again]:
+    Even if I'm getting a little better _again_.
+
+To that end, I'm going to leave my phone outside the bedroom _at all times_, and put my computer next to my coffee stuff. If I Make the Right Thing the Easy Thing™, I'll have a much better chance of succeeding.
+
+### Making it real: how I'll turn these thoughts into action steps.
+
+Based on the ideas I've just listed, I need to make a list of todo items that I can follow every day. I'll call it **Jason's List of Habits for 2017:**
+
+- **I will schedule two hours every week to connect with friends, family, and my professional network.**
+- **I will submit at least one talk idea for every conference that fits my calendar.**
+- **I will stay consistent with my existing gym routine of 3–4 mornings per week.**
+- **I will schedule 2–3 hours each week to make progress on writing and/or recording a code tutorial.**
+- **I will resume my habit of writing for 30 minutes minimum before looking at my phone in the morning.**
+
+## Your Turn: Do a 2016 (+ January) Retrospective
+
+Even if you've already made your New Year's resolutions,[^broken] **take 15 minutes to do your own retrospective.** Remember: you're asking and answering three questions about the last year of your life.
+
+[^broken]:
+    And even if you've already _broken_ those resolutions.
+
+1. What went well?
+2. What could have gone better?
+3. What will I work to improve in 2017?
+
+**Share one or two of your answers in the comments.** Here's to continuous improvement — and our best year yet!
+
+{{< cta "PRODUCTIVE" >}}
