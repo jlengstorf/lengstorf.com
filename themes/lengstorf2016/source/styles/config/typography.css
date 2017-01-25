@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
   color: $color-text;
   font-family: $font-family-sans;
   font-size: $font-size-default;
@@ -8,34 +9,37 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
 
   @media $viewport-sm {
-    font-size: calc( $font-size-default * 1.25 );
+    font-size: calc($font-size-default * 1.25);
   }
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $color-darkest;
   font-family: $font-family-heading;
   line-height: 1;
 }
 
 *:not(.figure) {
-  + h2:not([class]),+ h3:not([class]),+ h4:not([class]),
-  + h5:not([class]),+ h6:not([class]) {
-    margin-top: calc( $height-unit * 2 );
+  + h2:not([class]),
+  + h3:not([class]),
+  + h4:not([class]),
+  + h5:not([class]),
+  + h6:not([class]) {
+    margin-top: calc($height-unit * 2);
   }
 }
 
 h1 {
   font-size: 200%;
   text-transform: uppercase;
-
-  /*@media $viewport-xs {
-    font-size: calc( $font-size-default * 2.5 );
-  }*/
 }
 
 h2 {
-  /*font-family: $font-family-script;*/
   font-size: 175%;
   font-weight: $font-weight-bold;
 
@@ -58,16 +62,17 @@ h4 {
   text-transform: uppercase;
 }
 
-ol,ul {
-  padding-left: calc( $font-size-default * 1.5 );
+ol,
+ul {
+  padding-left: calc($font-size-default * 1.5);
 }
 
 li {
-  margin-top: calc( $font-size-default / 2 );
+  margin-top: calc($font-size-default / 2);
 }
 
 a {
-  color: color( $color-brand shade(7.5%) );
+  color: color($color-brand shade(7.5%));
 }
 
 blockquote {
@@ -76,7 +81,7 @@ blockquote {
   padding-right: 10px;
   border-top: 2px solid $color-accent;
   border-bottom: 2px solid $color-accent;
-  color: color( $color-text tint(10%) );
+  color: color($color-text tint(10%));
   font-size: 105%;
   font-style: italic;
 
@@ -87,8 +92,7 @@ blockquote {
     padding-right: 20px;
   }
 
-  >p:last-child {
-
+  > p:last-child {
     strong:only-child {
       display: block;
       color: $color-caption;
@@ -104,9 +108,11 @@ blockquote {
         border-color: $color-caption;
         color: inherit;
 
-        &:hover,&:active,&:focus {
+        &:hover,
+        &:active,
+        &:focus {
           border-color: $color-brand;
-          color: color( $color-brand shade(7.5%) );
+          color: color($color-brand shade(7.5%));
         }
       }
     }
@@ -121,7 +127,7 @@ abbr {
 sup {
   position: relative;
   top: -0.5rem;
-  font-size: calc( $font-size-default * 0.75 );
+  font-size: calc($font-size-default * 0.75);
   line-height: 0.75;
   vertical-align: baseline;
 }
@@ -132,16 +138,17 @@ hr {
   &::before {
     content: '* * *';
     display: block;
-    margin-top: calc( $font-size-default * 1.5 );
+    margin-top: calc($font-size-default * 1.5);
     color: $color-caption;
     text-align: center;
 
     @media $viewport-sm {
-      margin-top: calc( $font-size-default * 2 );
+      margin-top: calc($font-size-default * 2);
     }
   }
 }
 
-input,button {
+input,
+button {
   font-family: $font-family-sans;
 }
