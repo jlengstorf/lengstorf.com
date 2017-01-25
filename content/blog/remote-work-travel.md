@@ -171,7 +171,7 @@ The only other thing I was worried about is that my employer, Copter Labs, is A)
 
 I'm still wary that there will be a gotcha in the tax code somewhere, but I'm cautiously optimistic that I will be able to claim the Foreign Earned Income Tax Exclusion for every penny I make in 2015.[^cautious]
 
-***[UPDATE — December 31, 2014]** After consulting with Steve Barkley (my accountant) and [Roz at Tax Warriors][9] (an incredibly generous accountant who helped me out with research in her spare time), I'm now 100% certain that I'm interpreting the tax law correctly, and that I won't pay federal income tax as long as I meet the requirements laid out above.*
+_**[UPDATE — December 31, 2014]** After consulting with Steve Barkley (my accountant) and [Roz at Tax Warriors][9] (an incredibly generous accountant who helped me out with research in her spare time), I'm now 100% certain that I'm interpreting the tax law correctly, and that I won't pay federal income tax as long as I meet the requirements laid out above._
 
 *However, I did find out that state taxes aren't set up the same way. Oregon, for example, doesn't consider your residency terminated until you've established a permanent residence elsewhere, and they're apparently pretty aggressive about collecting. If you're considering taking a similar move, it would be wise to plan ahead and establish residency in a [state without income tax][10].*
 
