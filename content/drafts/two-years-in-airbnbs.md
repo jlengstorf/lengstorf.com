@@ -7,17 +7,21 @@ type: blog
 
 title: I’ve spent 2 years living abroad in Airbnbs. Here’s what I’ve learned.
 slug: two-years-in-airbnbs
-seo_title: 
-description: 
+seo_title: I spent the last 2 years living abroad in Airbnbs. You can, too.
+description: >
+    In 2014, I claimed travel is not only possible, but cheaper, healthier, & more productive than living at home. 2 years & 13 countries later — was I right?
 
 category:
-    - 
+    - remote-work
 
 tag:
-    - 
+    - adventure
+    - remotework
+    - travel
+    - worklifebalance
 
 images:
-    - /images/jason-lengstorf.jpg
+    - /images/marisa-jason-barcelona-cropped.jpg
 
 enable_disqus: true
 ---
@@ -36,9 +40,16 @@ When we first set off on our [grand travel and remote work experiment]({{< ref "
 
 When I [boarded a one-way flight to Milan]({{< ref "leaving.md" >}}) at the end of 2014, I had no idea whether or not I was right about _any_ of these hypotheses. Sure, I had my gut feelings and I'd done my research, but without putting it into practice, I was still making educated guesses at best.
 
-{{% tweetable url="https://lengstorf.com/two-years-in-airbnbs/" via="jlengstorf" %}}Knowing a thing and actually doing a thing are two very different things.{{% /tweetable %}}
+{{% tweetable url="https://lengstorf.com/two-years-in-airbnbs/" via="jlengstorf" %}}Knowing a thing and doing a thing are two very different things.{{% /tweetable %}}
 
 Now it's been two years, and I've been testing these hypotheses the whole time. So... was I right? 
+
+{{% caption src="/images/exact-same-selfie.jpg"
+            paddingBottomPercent="30"
+            align="center"
+            alt="exact same selfie in different countries" %}}
+  Thanks to world travel, Marisa and I have taken the exact same selfie in front of dozens of landmarks around the world!
+{{% /caption %}}
 
 ### 1. Is it possible to travel extensively before retirement?
 
@@ -62,6 +73,15 @@ If you _don't_ have a location-independent source of income, it's easy to throw 
 
 However, there is a caveat to all this: **you need to have your network in place _first_.**
 
+{{% caption src="/images/working-in-chiang-mai.jpg"
+            paddingBottomPercent="100"
+            align="right"
+            alt="Jason Lengstorf at a coffee shop in Chiang Mai, Thailand"
+            attr="Marisa Morby"
+            attrlink="https://marisamorby.com" %}}
+  My network meant I always had contracts — even in Chiang Mai.
+{{% /caption %}}
+
 When I left, I had already been in my industry for a decade, and I have an amazing group of previous clients who have always sent interesting opportunities my way. I've also put a fair amount of time into meeting other people in my industry and building a professional network.
 
 My network meant I could rely on my [sales pipeline staying full]({{< ref "how-to-sell-without-selling.md" >}}) when my existing contracts wrapped up. It meant I had people who could send me leads if I needed work. Most of all, it meant my income was _stable_.
@@ -70,7 +90,14 @@ My network meant I could rely on my [sales pipeline staying full]({{< ref "how-t
 
 Marisa, however, had just switched industries when we left. She realized that most of what she'd been doing in her role as a human resources director crossed over with user experience, and she was _way_ more interested in working in user experience.
 
-When we started traveling, she was trying to _build_ her network. **It's not impossible to create a network while traveling — she pulled it off — but it _is_ way more difficult.** There were a few tough months where she didn't have anything in her pipeline and wasn't sure where her next contract would come from. There were times she felt hopeless because no one was responding to her cold emails. There were a crying jags in the bathtub. And since we were in Japan or wherever, she couldn't just roll down the street to a business meetup and use her trademark combination of giant sexy brain + irresistible curly cuteness to win people over in-person.
+When we started traveling, she was trying to _build_ her network. **It's not impossible to create a network while traveling — she pulled it off — but it _is_ way more difficult.** There were a few tough months where she didn't have anything in her pipeline and wasn't sure where her next contract would come from. There were times she felt hopeless because no one was responding to her cold emails. There were a crying jags in the bathtub. And since we were in Vietnam or wherever, she couldn't just roll down the street to a business meetup and use her trademark combination of giant sexy brain + irresistible curly cuteness to win clients over in person.
+
+{{% caption src="/images/marisa-barcelona.jpg"
+            paddingBottomPercent="72"
+            align="right"
+            alt="Marisa Morby in Barcelona" %}}
+  Could _you_ resist this much charm?
+{{% /caption %}}
 
 So if you aren't already established with a network, **spend time building your network first**: go to meetups, attend conferences, meet people, and create a solid pipeline. It may take a year, but when you're in Thailand and your current contract ends, a network means the difference between dropping a few lines to let people convince you why you should work with them, and trying to decide exactly how close you're willing to get to broke before you pull the rip-cord and head home.
 
@@ -80,7 +107,7 @@ I closed my eyes and let the _déjà vu_ wash over me. I was having _this_ conve
 
 "I'd never get _anything_ done," she said with a self-deprecating chuckle. "I'd be too distracted by the sand and the ocean."
 
-In an alternate reality where my filter is all the way broken,[^filter] I clunk my beer down and turn to face her. "Listen," I snap, "if all it takes to keep you from getting your shit taken care of is a beach, then I'd say the beach is the least of your fucking problems."
+In an alternate reality where my filter is all the way broken,[^filter] I clunk my beer down and turn to face her. "Listen," I snap, "if all it takes to keep you from getting your shit taken care of is a beach, then I'd say the beach is the _least_ of your fucking problems."
 
 [^filter]:
     In _this_ reality, my filter is only mostly broken.
@@ -92,16 +119,16 @@ Here's the thing: **staying productive on the road is _easy_.** Once you [get yo
 [^time]:
     The industry's dirty little secret is that [working longer hours makes us less productive]({{< ref "overtime-hurts-productivity.md" >}}), and the constant distractions in an office add up to [huge amounts of wasted time while working]({{< ref "scheduling-maximum-productivity.md" >}}).
 
-{{% caption src="/images/2016-rescuetime.jpg"
-            paddingBottomPercent="45"
-            align="center"
-            alt="RescueTime"
-            attr="RescueTime"
-            attrlink="https://www.rescuetime.com/rp/jlengstorf" %}}
-  If you're not already using RescueTime, [go download it now](https://www.rescuetime.com/rp/jlengstorf). Knowing where your time goes is the first step to killer productivity.
-{{% /caption %}}
-
 **For the last two years I've averaged roughly 37 hours a week on a computer — that's _including_ Netflix time – and my productivity sits at 75%[^email] overall.**
+
+{{% caption src="/images/2016-rescuetime.jpg"
+        paddingBottomPercent="45"
+        align="center"
+        alt="RescueTime"
+        attr="RescueTime"
+        attrlink="https://www.rescuetime.com/rp/jlengstorf" %}}
+If you're not already using RescueTime, [go download it now](https://www.rescuetime.com/rp/jlengstorf). Knowing where your time goes is the first step to killer productivity.
+{{% /caption %}}
 
 [^email]:
     I categorize email, chat, and all meetings as unproductive time. That accounts for an additional 10% of my screen time in 2016.
@@ -111,6 +138,13 @@ Here's the thing: **staying productive on the road is _easy_.** Once you [get yo
 A few times over the last couple years we decided to make "quick trips". A long weekend in Berlin; a couple days in Budapest; five days in Istanbul. Had we looked at these trips as vacations, things would have been fine. But we didn't — we thought we'd be able to get things done on these short trips.
 
 Fast travel makes productivity _hard_. If you're in a place for a few months, there's time for both work and seeing the city. But **when your time is restricted, you have to start making choices between a thing you want to do in the city and a thing you need to do for work — and work typically loses.**
+
+{{% caption src="/images/marisa-tries-turkish-coffee.jpg"
+            paddingBottomPercent="56"
+            align="center"
+            alt="Marisa tries Turkish coffee" %}}
+  On our five-day trip to Istanbul, we accomplished _nothing_ — except learning that Marisa doesn't like Turkish coffee.
+{{% /caption %}}
 
 Everyone will have a different [Goldilocks Zone]({{< ref "goldilocks-zone.md" >}}) for balancing experience, productivity, and exploration,[^goldilocks-zone] but it's important not to get antsy and try to see everything in a hurry. Working and traveling is a way to _avoid_ high-stress, high-speed vacations; don't forget to take advantage of that freedom to maximize both your productivity _and_ [your level of satisfaction]({{< ref "baseline.md" >}}) about traveling.
 
@@ -138,6 +172,13 @@ But that's simply not the case. For most people living in the United States, [lo
 
 #### My cost-of-living for 2016–2017: $54.80/day
 
+{{% caption src="/images/koh-samui-thailand-airbnb.jpg"
+            paddingBottomPercent="100"
+            align="right"
+            alt="Airbnb in Koh Samui, Thailand" %}}
+  This Airbnb cost us $874 for a month, including utilities, wifi, a gym, and weekly cleaning.
+{{% /caption %}}
+
 For the last two years, I've averaged $1,666.88 per month to live. And that's not just rent; that's rent _plus_ utilities _plus_ cable and internet _plus_ electric _plus_ property taxes or hotel taxes or whatever taxes.
 
 In that time, I've lived in a dozen or so different countries, ranging from oceanside resorts in Koh Samui (~$22/day) to a courtyard apartment in Rome (~$79/day) to a kitschy apartment in the heart of Zagreb (~$34/day).
@@ -152,6 +193,13 @@ For reference, my cost of living in Portland was ~$88/day.[^portland]
 Beyond just the cost of rent and utilities and other living expenses, we also saved a _ton_ on food. Most of my disposable income goes toward eating well, so this was not an insignificant savings.
 
 For example, in Vietnam we regularly ate banh mi sandwiches that would cost about $10 in the United States for less than VND 25,000 — which is roughly a U.S. dollar. A _fancy_ meal — a multi-course affair for two — would cost _maybe_ $20. **Most of the time Marisa and I both ate for less than $5 total.**
+
+{{% caption src="/images/bun-bo-nam-bo-hanoi.jpg"
+            paddingBottomPercent="56"
+            align="center"
+            alt="bun bo nam bo Hanoi" %}}
+  This is enough food to fill me up, and it cost $2.50.
+{{% /caption %}}
 
 Thailand was astonishingly cheap as well.[^thai-food] Ditto Croatia.[^split]
 
@@ -173,28 +221,110 @@ So my impulse purchasing dropped to near-zero.
 
 ### 4. Is it actually healthier to live outside the United States?
 
-Yep. I lost 20 pounds. The only changes?
+This is going to be a loaded question, I guess; it depends on who you are and where you go.[^france]
 
-1. I averaged about 7,500 steps a day in 2016, according to the Apple Health app. This is not a lot of walking, honestly, but it's a _lot more_ than I was doing before I started traveling.
-2. I ate local food. Not _healthy_ local food; just whatever the locals ate. As a result I ate a shitload more vegetables, a lot less bread, and almost nothing processed.
+[^france]:
+    If you go to France and don't walk at all and eat croissants and cheese all day, you probably aren't doing your body any favors. There's a reason no one in California has started a fad diet based on the French way of eating.
+    
+    Then again, if you go to France and _don't_ eat croissants and cheese all day, I'm not sure you and I have much to talk about.
 
-Portion sizes were notably smaller. Our typical approach to a restaurant was to order three entrees: Marisa would eat all of one and a few bites of the second, and I'd eat the rest.[^vegas]
+But for Marisa and me? _Yes._ Marisa is in the best shape of her life. I lost a lot of weight without doing anything that would be considered a diet.
+
+{{% caption src="/images/hike-picnic-slovenia.jpg"
+            align="center"
+            alt="picnic in the Slovenian Alps"
+            attr="Richelle DeVoe"
+            attrlink="https://medium.com/@richelledevoe" %}}
+  A picnic halfway up a mountain in the Slovenian Alps. Matej said it was a hike for old people; I almost died.
+{{% /caption %}}
+
+A few things happened once Marisa and I left:
+
+1. **We started walking _way_ more.** In 2016 I averaged 7,500 steps a day — which isn't all that much, honestly, but it's a hell of a lot more walking than I did before I left.
+
+2. **The amount of processed food we ate dropped significantly.** This wasn't a conscious effort; there's just less processed food in a lot of the places we visited. We tried to eat local food, which meant there was a lot less bread and cheese, and a whole lot more veggies and fruit.
+
+3. **We made it to the gym regularly.** This was much easier to do when there was no commute or early meetings to worry about; we weren't able to claim that we were "too busy" to make it to the gym.[^habit]
+
+[^habit]:
+    Now that we've built the habit, it's much easier to keep it now that we're on more of a schedule. But it still takes effort; that's why staying consistent in the gym is [part of my 2017 action plan]({{< ref "2016-retrospective.md" >}}).
+
+It's also worth noting that portion sizes were notably smaller. Our typical approach to a restaurant was to order three entrees: Marisa would eat all of one and a few bites of the second, and I'd eat the rest.[^vegas]
 
 [^vegas]:
-    I spoke at a conference in Las Vegas in 2015, after we'd picked up the three-entree habit, and ordered three entrees in a diner — an egg dish each, with pancakes to share — and the waitress couldn't fit our order on the table.
+    **Portion sizes in the United States are insane.** I spoke at a conference in Las Vegas in 2015, after we'd picked up the three-entree habit, and ordered three entrees in a diner — an egg dish each, with pancakes to share — and the waitress couldn't fit our order on the table.
     
     I'd never really thought about portion sizes in the U.S. being all that big, but **you guys they're fucking huge.**
 
-I had already been going to they gym three times a week, and no doubt that played a significant role, but there was a _notable_ increase in weight loss when I got away from the North American diet I was used to.
+In Japan, both Marisa and I noticed that we just plain _felt_ better eating Japanese food. Western diets have a lot of bread and cheese, which — despite being delicious[^food-group] — tends to make me feel gross and bloaty. Which I didn't realize until I _wasn't_ eating bread and cheese all the time. Which never would have happened if I hadn't left the U.S., because there's so much bread and cheese available.[^back]
 
-Also, Marisa got even hotter.
+[^food-group]:
+    I truly believe that, were it possible, I'd be perfectly happy eating nothing but cheese for the rest of my life.
+
+[^back]:
+    And let me be clear: I am by no means advocating a diet that doesn't include bread and cheese. Hell, I ate a sandwich an hour ago. I'm just saying that I'm now aware of the consequences of my high-cheese diet, and I'm choosing to accept them.
 
 ### 5. Are the tax breaks for long-term travelers real? And how much is actually saved?
 
-TKTK
+{{% caption src="/images/make-it-rain-silicon-valley.gif"
+            srcset="/images/make-it-rain-silicon-valley.gif"
+            paddingBottomPercent="56"
+            align="right"
+            alt="Silicon Valley make it rain"
+            attr="Silicon Valley"
+            attrlink="http://www.hbo.com/silicon-valley" %}}
+{{% /caption %}}
 
-Yep. 25% on gross income stayed in my pocket. The IRS still has time to audit me, but my returns were all accepted without complaint, and I was able to hold onto a significant portion of my income.
+This was the big one: my research and the advice from a couple accountants seemed to imply that **anyone living outside the U.S. for 330 days or more wouldn't pay federal income taxes** because of something called the [Foreign Earned Income Exclusion](https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion). And since I wouldn't be working in the countries I was living in, I used tourist visas — which means I don't pay taxes to the country (except sales taxes).
 
-## Conclusion TKTK
+**This means roughly 25% of my _gross_ income that usually goes to taxes goes straight to my savings instead.**[^tax-note]
 
-TKTK
+[^tax-note]:
+    Keep in mind that you still have to pay Social Security and Medicare, which is roughly 15%. And each state has different rules about what you do and don't owe, so do your research — or move to one of the [states without income tax](https://ttlc.intuit.com/questions/1901267-which-states-don-t-have-income-tax) before leaving.
+
+#### Is this legal?
+
+**As far as I can tell, yes.**
+
+How visas work for people in my situation is a legislative grey area. The laws about working in foreign countries are in place to protect the local economies: if I come in, take a job locally (which takes money out of the local economy), and don't pay taxes, I'm creating a leak that could become a big problem. However, if my job is in the United States, I'm not taking any money out of the local economy — I'm only putting money into it. This is what tourists do, and in many countries tourism is a large portion of the economy.
+
+There are a few ways to interpret what a tourist visa allows, but in the case of remote work, the rules are poorly defined: if I sit down in a coffee shop in Thailand and working on a U.S.-based website that pays my U.S.-based company, am I working _in_ Thailand? And if so, does that mean that everyone who goes on vacation and checks their work email is also violating their tourist visa?
+
+My feeling here is that remote work while traveling is still falling through the cracks because a very small number of people take advantage of it. I'm willing to bet that there _will_ someday be laws passed to cover this edge case, but for now — especially considering the lower cost of living — **world travel is easily the world's greatest savings plan.**
+
+#### Okay, fine, but did it work?
+
+It sure did. For 2015, I kept 25% of my gross income. The IRS still has time to audit me, but my returns were all accepted without complaint, and I was able to hold onto a significant portion of my income.
+
+I'll be filing for the <abbr title="Foreign Earned Income Exclusion">FEIE</abbr> again on my 2016 taxes, and I expect similar savings.
+
+{{% caption src="/images/marisa-jason-barcelona.jpg"
+            paddingBottomPercent="66.6"
+            align="center"
+            alt="Marisa and Jason in Barcelona"
+            attr="La Boutique de la Luz"
+            attrlink="http://www.laboutiquedelaluz.com/" %}}
+  Barcelona, June 2016. No complaints.
+{{% /caption %}}
+
+## What I Know About World Travel From Two Years Living & Working Remotely
+
+I had five hypotheses about travel, and all five held up to real-world testing.
+
+1. **It's absolutely possible to travel extensively before retirement.** In fact, it's a really smart move to help save for your future if you've got a steady source of remote income.
+
+2. **Staying productive is just as easy — probably easier — while traveling.** Being halfway around the world is a great way to limit your meetings and focus.
+
+3. **The cost of living in Airbnbs around the world is significantly cheaper than paying a lease or mortgage in the United States.** You'll pay less in rent, utilities, and insurance. (And food, and entertainment, and...)
+
+4. **Staying healthy is easier outside the United States.** Especially in Asia.
+
+5. **There are enormous tax savings for long-term travelers.** 25% of your gross income stays in your pocket if you travel for 330 days a year.
+
+There are a lot of reasons not to travel. Some of them are valid. Some of them are excuses. Ultimately, whether or not travel is a good idea for you is going to come down to you.
+
+But if this food-loving, wanderlusting, turbonerding, friendly old bear can make a suggestion: if you fantasize about traveling, lock down [your remote work strategy]({{< ref "remote-work-course.md" >}}) and _buy the fucking ticket._
+
+I promise you this: you'll never regret taking the trip; you might regret _not_ taking it.
+
+{{< cta "TRAVEL" >}}
