@@ -88,6 +88,7 @@ Only now, we were terrified.
 Given that it was our first time on the bike, this set a bad precedent: as of that moment, 100% of scooter rides resulted in pain and humiliation for us. And that made us both far more reluctant to get back on the scooter again.
 
 {{< caption src="/images/marisa-scooter.jpg"
+            srcset="/images/marisa-scooter.jpg"
             paddingBottomPercent="81"
             align="alignright"
             alt="Marisa Morby scooter safety" >}}
