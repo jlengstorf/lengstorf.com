@@ -1,7 +1,5 @@
 ---
-draft: true
-
-date: 2017-12-15
+date: 2017-02-07
 author: jason
 type: blog
 
@@ -40,7 +38,7 @@ When we first set off on our [grand travel and remote work experiment]({{< ref "
 
 When I [boarded a one-way flight to Milan]({{< ref "leaving.md" >}}) at the end of 2014, I had no idea whether or not I was right about _any_ of these hypotheses. Sure, I had my gut feelings and I'd done my research, but without putting it into practice, I was still making educated guesses at best.
 
-{{% tweetable url="https://lengstorf.com/two-years-in-airbnbs/" via="jlengstorf" %}}Knowing a thing and doing a thing are two very different things.{{% /tweetable %}}
+{{% tweetable url="https://lengstorf.com/two-years-in-airbnbs/" via="jlengstorf" intent_url="https://twitter.com/intent/retweet?tweet_id=829004323338190848" %}}Knowing a thing and doing a thing are two very different things.{{% /tweetable %}}
 
 Now it's been two years, and I've been testing these hypotheses the whole time. So... was I right? 
 
@@ -60,7 +58,7 @@ There are only two prerequisites for long-term travel:
 1. a willingness to spend an extended period of time exploring the world, and
 2. a stable source of income that never (or rarely) requires physical presence
 
-If you _don't_ have a location-independent source of income, it's easy to throw your hands up and say, "Well, that works for programmers, but not for [INSERT PROFESSION HERE] like me."
+If you _don't_ have a location-independent source of income, it's easy to throw your hands up and say, "Well, that works for _programmers_, but not for [INSERT PROFESSION HERE] like me."
 
 **Bullshit.**[^probably]
 
