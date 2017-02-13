@@ -27,7 +27,7 @@ For a year or so, I lived on the top floor of a fancy building in Portland's Pea
 This place was _dope_: giant balcony, concrete floors and walls for soundproofing, a 24-hour concierge — this was the kind of apartment I signed a lease on and thought to myself, "Clearly I've now arrived, and Jay-Z will be calling any minute to discuss how our lives are very different but equally awesome."
 
 [^yuppie]:
-    The Pearl, as far as I can tell, is where people who've just moved to Portland go, because they're convinced that all the cool stuff in Portland is there. Then, after a year, they move to the east side because they've realized that the Pearl is where all the more expensive versions of all the cool stuff is.
+    The Pearl, as far as I can tell, is where people who've just moved to Portland go, because they're convinced that all the cool stuff in Portland is there. Then, after a year, they move to the east side because they've realized that the Pearl is where the more expensive version of the cool stuff is.
     
     This story is from my days of paying way too much for things so I could be "where the action is".
 
@@ -53,13 +53,11 @@ The recycling, on the other hand, was a sixteen-floor elevator ride down, and th
 
 Now, look: I don't hate the planet. **I like the planet.** I would very much like for it to continue to be habitable for human beings.
 
-But also, fuck wrestling cardboard into the elevator, _amirite_?
+But also, fuck changing out of pajama pants and putting on shoes just to get rid of a couple cardboard boxes, _amirite_?
 
-The guilt of slowly killing the earth to save myself an elevator ride I could live with. But the shame of someone else knowing? The struggle of changing out of pajama pants and putting on shoes just to get rid of a couple boxes?
+**I _did_ make an effort — at least at first.** But after a while, I rationalized it: _There's probably someone who sorts the trash anyways, right? I'm creating jobs! I'm a goddamned American hero!_
 
-**I made an effort — at least at first.** But after a while, I rationalized it: _There's probably someone who sorts this anyways, right? I'm creating jobs! I'm a goddamned American hero!_
-
-**Eventually I just started taking out the trash late at night in hopes I wouldn't see anyone in the hallway.** I'd be safe from judging eyes. Eyes that would see me stuffing recyclables into the trash chute like I was one of _those_ people: the type who drives a Hummer with vanity plates that say ERTHFKR and tosses styrofoam cups out my window like confetti in a parade.
+**Eventually I just started taking out the trash late at night in hopes I wouldn't see anyone in the hallway.** I'd be safe from judging eyes. Eyes that would see me stuffing recyclables into the trash chute like one of _those_ people — you know the type — who drives a Hummer with vanity plates that say ERTHFKR and tosses styrofoam cups out my window like confetti in a parade.
 
 ## I'm Not a Dick, I'm Just Lazy
 
@@ -72,28 +70,33 @@ I could — and did — blame the building for its lack of forethought in desig
 
 I could — and did — come up with numerous other excuses for why this was a failure of the management, or the system, or humanity in general.
 
-But, obviously, this was my failure. I could have done the right thing, but I did the wrong thing anyways. Because the wrong thing was easier, and I'm lazy.
+But, obviously, this was _my_ failure. **I could have done the right thing, but I did the wrong thing anyways. Because the wrong thing was easier, and I'm lazy.**
 
-Less obviously, though, is that **this was a _completely predictable_ failure.** 
+Less obviously, though, is something more interesting: **this was a _completely predictable_ failure.** 
 
 ### In the long run, convenience always wins.
 
-The frustrating trend in my life is that I will nearly always end up doing the thing that it most convenient to me.
+The frustrating trend in my life is that **I will nearly always end up doing the most convenient thing.**
 
-- Despite [all the shit I talk about great coffee]({{< ref "taste-doesnt-matter.md" >}}), most days I'd make instant coffee that our Airbnb host left for us over walking 35 minutes in oppressive heat to get a really good cup of coffee somewhere else.
+- Despite [all the shit I talk about great coffee]({{< ref "taste-doesnt-matter.md" >}}), given a choice between instant coffee[^airbnb] with zero effort and walking 35 minutes in oppressive heat for a really good cup of coffee, most mornings I'd end up making the instant coffee.
 - Even though I've seen the documentaries and read the studies, after a particularly long day I'd go to a McDonald's in Japan instead of a local restaurant because I didn't have to think about the menu.[^mcdonalds]
-- I'm TKTK
+
+[^airbnb]:
+    Despite [my love for Airbnb]({{< ref "use-airbnb-like-a-pro.md" >}}), you can always count on two things when you check in:
+    
+    1. Utterly terrible instant coffee
+    2. All IKEA everything
 
 [^mcdonalds]:
-    Even though I was there, and I remember making the decision to do this, I'm outraged that I did this. Japan is easily top 3 places in the world for food, but somehow I decided Japanese menus were "too hard" and ordered a fucking Big Mac instead. _What the hell is wrong with me?_
+    Even though I was there, and I remember making the decision to do this, I'm still kind of outraged that I did this. Japan is easily top 3 places in the world for food, but somehow I decided Japanese menus were "too hard" and ordered a fucking Big Mac instead. _What the hell is wrong with me?_
 
 This list could go on for days — I have dozens of examples of me making bad-but-convenient decisions, and I don't expect that this is a trend that will stop any time soon.
 
-After all, it's early in the morning, and [my willpower is high]({{< ref "2015-11-08_how-to-stay-consistent.md" >}}), so right now I'm up on my high horse and judging my past self. But check in with me at 8pm on a day when I've been working on a particularly challenging problem or spent the whole day in meetings, and I'll do just about anything to avoid having to make an effort.
+After all, I'm writing this early in the morning, and [my willpower is high]({{< ref "2015-11-08_how-to-stay-consistent.md" >}}), so right now I'm up on my high horse and judging my past self. But check in with me at 8pm most days and I'll do just about _anything_ to avoid having to make an effort.
 
 ### So we're just fucked, then?
 
-Of course not. But we have to start looking at the problem differently.
+Of course not. But **we have to start looking at the problem differently.**
 
 In each of these situations where I did the wrong thing:
 
@@ -102,6 +105,16 @@ In each of these situations where I did the wrong thing:
 - I also understood that I'd feel shame and/or guilt about doing the wrong thing
 
 And yet I did the wrong thing anyways.
+
+{{% caption src="/images/zoidberg-bad-feel-bad.jpg"
+            srcset="/images/zoidberg-bad-feel-bad.jpg"
+            paddingBottomPercent="66.5"
+            align="right"
+            alt="You’re bad and you should feel bad"
+            attr="Futurama"
+            attrlink="http://www.cc.com/shows/futurama" %}}
+  This doesn't help.
+{{% /caption %}}
 
 I could chalk this up to me being a weak person with shitty willpower, but that's not particularly productive. But if we look a little deeper and Find The Why[^ftw] another, more useful thread shows up: **these decisions are born out of convenience, not ignorance or malice.**
 
