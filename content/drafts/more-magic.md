@@ -48,7 +48,7 @@ I want to be curious about everything (to know things), but I want to have a sen
 Are my arguments antithetical to each other? Am I suffering from a debilitating case of <abbr title="American Cognitive Dissonance">ACD</abbr>?[^epidemic]
 
 [^epidemic]:
-    American Cognitive Dissonance. It's impossible to prove I haven't been infected; there appears to be an epidemic of ACD sweeping social media right now, and one of the earliest symptoms is an inability to recognize the condition, both in yourself and in anyone who agrees with you.
+    American Cognitive Dissonance. It's impossible for me to be sure I'm not infected; one of the earliest symptoms of ACD is an inability to recognize the symptoms of ACD, both in yourself and in anyone who agrees with you.
 
 I don't think so. Working to constantly improve my understanding of the world by [diving into anything that seems interesting]({{< ref "wasted-time.md" >}}) doesn't require that I never feel awed by the things people are capable of. And being blown away by something I don't understand (and therefore feels like magic) doesn't bar me from trying to figure out how the trick was performed.
 
