@@ -1,20 +1,25 @@
-+++
+---
 
-date = "2016-10-07"
-author = "jason"
-type = "blog"
-draft = true
+date: 2016-10-07
+author: jason
+type: blog
+draft: true
 
-title = "3 Ways to Avoid Burnout at Work"
-slug = "avoid-burnout"
-seo_title = ""
-description = ""
+title: 3 Ways to Avoid Burnout at Work
+slug: avoid-burnout
+seo_title: 
+description: 
 
-images = [
-    "/images/jason-lengstorf.jpg",
-]
+category:
+  - 
 
-+++
+tag:
+  - 
+
+images:
+  - /images/jason-lengstorf.jpg
+
+---
 
 Here's a quote from a recent message I received:[^alex]
 
@@ -36,7 +41,6 @@ _That's a lot of things._
 
 Yet there's still a (totally undeserved) feeling of underachievement there. And this isn't an uncommon feeling — 
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Ajlengstorf%3Aplaylist%3A0PMq0DGXfIU8PL4qchV7qW" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 **Why 
 
