@@ -1,25 +1,27 @@
-+++
-date = "2015-11-12"
-author = "jason"
-draft = true
+---
 
-title = "Selfish"
-seo_title = ""
-slug = "selfish"
-description = ""
+date: 2016-11-13
+author: jason
+draft: true
 
-category = [
-]
+title: Selfish
+seo_title: 
+slug: selfish
+description: 
 
-tag = [
-]
+category:
+  - 
 
-images = [
-    "/images/jason-lengstorf.jpg",
-]
+tag:
+  -
 
-enable_disqus = true
-+++
+images:
+  - /images/jason-lengstorf.jpg
+
+enable_disqus: true
+
+---
+
 I'm probably the most selfish person you'll ever meet.
 
 I only do things I want to do. I pointedly avoid anything that doesn't make me happy. I work painstakingly to eliminate anything from my life that doesn't meet my selfish goals.
