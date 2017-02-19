@@ -57,6 +57,15 @@ But also, fuck changing out of pajama pants and putting on shoes just to get rid
 
 **I _did_ make an effort — at least at first.** But after a while, I rationalized it: _There's probably someone who sorts the trash anyways, right? I'm creating jobs! I'm a goddamned American hero!_
 
+{{% caption src="/images/hummer.jpg"
+            paddingBottomPercent="66.7"
+            align="right"
+            alt="Hummer H2"
+            attr="Thomas Doerfer"
+            attrlink="https://commons.wikimedia.org/wiki/User:Thomas_doerfer" %}}
+  “Listen, bro: you _never_ know when your commute can turn into an off-road adventure, okay?”
+{{% /caption %}}
+
 **Eventually I just started taking out the trash late at night in hopes I wouldn't see anyone in the hallway.** I'd be safe from judging eyes. Eyes that would see me stuffing recyclables into the trash chute like one of _those_ people — you know the type — who drives a Hummer with vanity plates that say ERTHFKR and tosses styrofoam cups out my window like confetti in a parade.
 
 ## I'm Not a Dick, I'm Just Lazy
@@ -73,6 +82,11 @@ I could — and did — come up with numerous other excuses for why this was a f
 But, obviously, this was _my_ failure. **I could have done the right thing, but I did the wrong thing anyways. Because the wrong thing was easier, and I'm lazy.**
 
 Less obviously, though, is something more interesting: **this was a _completely predictable_ failure.** 
+
+{{% caption src="/images/quality-vs-convenience.jpg"
+            align="center"
+            alt="quality vs. convenience" %}}
+{{% /caption %}}
 
 ### In the long run, convenience always wins.
 
@@ -100,11 +114,11 @@ Of course not. But **we have to start looking at the problem differently.**
 
 In each of these situations where I did the wrong thing:
 
-- I was completely aware of what the right thing was
-- I logically and rationally knew that I _wanted_ to do the right thing, and that the right thing would make me happier
-- I also understood that I'd feel shame and/or guilt about doing the wrong thing
+- **I was completely aware of what the right thing was**
+- I logically and rationally knew that **I _wanted_ to do the right thing**, and that the right thing would make me happier
+- I also understood that **I'd feel shame and/or guilt about doing the wrong thing**
 
-And yet I did the wrong thing anyways.
+And yet **I did the wrong thing anyways.**
 
 {{% caption src="/images/zoidberg-bad-feel-bad.jpg"
             srcset="/images/zoidberg-bad-feel-bad.jpg"
@@ -125,7 +139,7 @@ I could chalk this up to me being a weak person with shitty willpower, but that'
 
 So I'm not choosing to throw recyclables in the trash because I don't want to recycle; I'm doing it because I don't want to deal with the hassle of going to the recycling room when there's a hole I can toss it down _right here_.
 
-I'm not choosing McDonald's over a local izakaya because I prefer fake cheese and extra preservatives; I'm eating there because the izakaya would require me to translate a menu and decide between unfamiliar preparations of ingredients, whereas McDonald's will serve me a 100% predictable and effortless meal with **zero mental effort on my part.**
+I'm not choosing McDonald's over a local izakaya because I prefer fake cheese and extra preservatives; I'm eating there because the izakaya would require me to translate a menu and decide between unfamiliar preparations of ingredients, whereas McDonald's will serve me a 100% predictable meal with **zero mental effort.**
 
 ## Make the Right Thing the Easy Thing
 
@@ -166,6 +180,14 @@ In the past, everyone smoked and smoking was allowed everywhere — it was _easy
     
     Then the band broke up. Continuing to smoke would mean regularly interrupting my workflow to go outside and smoke — where I'd get dirty looks from people on the street — then come back inside and get yelled at by my girlfriend for smelling bad. I quit for _entirely_ convenient reasons; health never even entered the conversation.
 
+{{% caption src="/images/monica-araya.jpg"
+            align="center"
+            alt="Monica Araya"
+            attr="TED / Monica Araya"
+            attrlink="https://www.ted.com/talks/monica_araya_a_small_country_with_big_ideas_to_get_rid_of_fossil_fuels" %}}
+  
+{{% /caption %}}
+
 ### A real example: electric cars in Costa Rica.
 
 Monica Araya is working to get Costa Rica off fossil fuels entirely. But she's not doing it by running a smear campaign against oil. She's also not focusing all her efforts on educating people about the environmental "rightness" of eliminating fossil fuels.
@@ -187,7 +209,7 @@ Here are a few ways I'm trying to Make The Right Thing The Easy Thing in my own 
 4. **Make it hard to procrastinate.** To keep myself from going off-task, I kill all notifications and [turn on FocusTime](https://www.rescuetime.com/rp/jlengstorf/focustime) so that I can't even _load_ Facebook, let alone use it to put off doing work.[^nuclear]
 
 [^nuclear]:
-    Or, if you want to get _really_ serious, you can [schedule distraction-free time in advance](https://zapier.com/app/editor/template/5874?selected_apis=RescueTimeDevAPI,ScheduleAPI) — I've taken to calling this approach [Nate's Nuclear Mode](https://nategreen.org/TKTK/).
+    Or, if you want to get _really_ serious, you can [schedule distraction-free time in advance](https://zapier.com/app/editor/template/5874?selected_apis=RescueTimeDevAPI,ScheduleAPI) — what Nate and I have started calling [Nuclear Mode](https://nategreen.org/self-discipline/).
 
 ## How Will You Make the Right Thing the Easy Thing?
 
