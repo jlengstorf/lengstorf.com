@@ -48,7 +48,7 @@ figure.figure(
 ) {{ with .Get "imglink" }}<a class="figure__image-link" href="{{ . }}">{{ end }}
   .figure__image-wrap.js--lazyload
     img.figure__image(
-      src!= '{{ replace (.Get "src") ".jpg" "@2x.jpg" }}'
+      src!= '{{ replace (.Get "src") ".jpg" "-300x150.jpg" }}'
       srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       data-lazyload!= '{{ $.Scratch.Get "srcset" }}'
       sizes!= '{{ $.Scratch.Get "sizes" | safeHTML }}'
@@ -56,7 +56,7 @@ figure.figure(
     )
     noscript
       img.figure__image(
-        src!= '{{ replace (.Get "src") ".jpg" "@2x.jpg" }}'
+        src!= '{{ replace (.Get "src") ".jpg" "-300x150.jpg" }}'
         srcset!= '{{ replace (.Get "src") ".jpg" "-300x150.jpg" }} 300w, {{ replace (.Get "src") ".jpg" "-600x300.jpg" }} 600w, {{ .Get "src" }} 690w, {{ replace (.Get "src") ".jpg" "@2x.jpg" }} 1380w'
         sizes!= '{{ $.Scratch.Get "sizes" }}'
         alt!= '{{ with .Get "alt" }}{{.}}{{ end }}'

@@ -65,7 +65,7 @@ block content
         div.js--lazyload
           //{{ $image := replace (index .Params.images 0) "-600x300" "" }}
           img.post-preview__image(
-            src!= '{{ replace $image ".jpg" "@2x.jpg" }}'
+            src!= '{{ replace $image ".jpg" "-300x150.jpg" }}'
             srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
             data-lazyload!= '{{ replace $image ".jpg" "-300x150.jpg" }} 300w, {{ replace $image ".jpg" "-600x300.jpg" }} 600w, {{ $image }} 690w, {{ replace $image ".jpg" "@2x.jpg" }} 1380w'
             sizes="(min-width: 768px) 300px, 100vw"

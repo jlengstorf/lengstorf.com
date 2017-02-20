@@ -72,7 +72,8 @@ li {
 }
 
 a {
-  color: color($color-brand shade(7.5%));
+  color: $color-darkest;
+  text-decoration: underline;
 }
 
 blockquote {

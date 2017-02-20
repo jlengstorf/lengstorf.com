@@ -5,19 +5,22 @@ date: 2017-02-10
 author: jason
 type: blog
 
-title: "The Ultimate Life Hack: Make the Right Thing the Easy Thing"
+title: "The Ultimate Life Hack: How to Do the Right Thing Every Time"
 slug: right-thing-easy-thing
 seo_title: 
-description: 
+description: >
+    Why is it — even though we KNOW what’s right — we often end up taking shortcuts and doing the wrong thing? Here’s how to be your best self, every time.
 
 category:
-    - 
+    - remote-productivity
 
 tag:
-    - 
+    - failure
+    - motivation
+    - success
 
 images:
-    - /images/jason-lengstorf.jpg
+    - /images/quality-vs-convenience.jpg
 
 enable_disqus: true
 ---
