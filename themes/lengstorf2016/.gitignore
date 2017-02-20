@@ -4,5 +4,5 @@ static/scripts
 static/styles
 static/vendor
 static/assets.json
+static/service-worker.js
 layouts
-
