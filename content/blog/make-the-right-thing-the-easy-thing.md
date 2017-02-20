@@ -1,6 +1,4 @@
 ---
-draft: true
-
 date: 2017-02-10
 author: jason
 type: blog
