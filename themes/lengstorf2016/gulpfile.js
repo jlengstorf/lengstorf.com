@@ -10,6 +10,7 @@ const fs = require('fs');
 /*
  * ## Load Dependencies for Processing Assets
  */
+const swPrecache = require('sw-precache');
 const lazypipe = require('lazypipe');
 const changed = require('gulp-changed');
 const gulpif = require('gulp-if');
@@ -26,6 +27,7 @@ const jshint = require('gulp-jshint');
 const jscs = require('gulp-jscs');
 const imagemin = require('gulp-imagemin');
 const replace = require('gulp-replace');
+const packageJson = require('./package.json');
 
 /*
  * ## Create a Simple Error Handler for Use With Plumber
@@ -64,6 +66,54 @@ const enabled = {
   // Fail on pug errors
   failTemplateTask: argv.production,
 };
+
+const DEV_DIR = 'static';
+const DIST_DIR = 'static';
+
+function writeServiceWorkerFile(rootDir, handleFetch, callback) {
+  var config = {
+    cacheId: packageJson.name,
+
+    // If handleFetch is false (i.e. because this is called from generate-service-worker-dev), then
+    // the service worker will precache resources but won't actually serve them.
+    // This allows you to test precaching behavior without worry about the cache preventing your
+    // local changes from being picked up during the development cycle.
+    handleFetch: handleFetch,
+    staticFileGlobs: [
+      path.join(rootDir, '/styles/**.css'),
+      path.join(rootDir, '/scripts/**.js'),
+      path.join(rootDir, '/vendor/cost-of-living/dist/bundle.js'),
+      path.join(rootDir, '/vendor/drop-in-chart/dist/drop-in-chart.min.js'),
+      '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css',
+    ],
+    runtimeCaching: [
+      {
+        urlPattern: /\/*\//,
+        handler: 'fastest',
+        options: {
+          cache: {
+            maxEntries: 30,
+            name: 'page-cache',
+          },
+        },
+      },
+    ],
+    stripPrefix: rootDir + '/',
+
+    // verbose defaults to false, but for the purposes of this demo, log more.
+    verbose: true,
+  };
+
+  swPrecache.write(path.join(rootDir, 'service-worker.js'), config, callback);
+}
+
+gulp.task('generate-service-worker-dev', function (callback) {
+  writeServiceWorkerFile(DEV_DIR, false, callback);
+});
+
+gulp.task('generate-service-worker-dist', function (callback) {
+  writeServiceWorkerFile(DIST_DIR, true, callback);
+});
 
 /*
  * ## Convert Pug Files to HTML
@@ -106,10 +156,13 @@ const styleTasks = (filename) => {
     // - [`postcss-simple-vars`](http://git.io/vUBKX) allows Sass-style vars
     require('postcss-simple-vars'),
 
-    // - [`postcss-simple-vars`](http://git.io/vUBKX) allows Sass-style vars
+    // - [`postcss-inline-svg`](https://git.io/vD5xE) prevents extra requests
+    require('postcss-inline-svg')(),
+
+    // - [`postcss-cssnext`](https://git.io/vD5xw) polyfill new CSS features
     require('postcss-cssnext')(),
 
-    // - [`postcss-simple-vars`](http://git.io/vUBKX) allows Sass-style vars
+    // - [`cssnano`](https://git.io/vUFEw) minify/compress the stylesheet
     require('cssnano')({ safe: true, autoprefixer: false }),
   ];
 
@@ -176,6 +229,7 @@ gulp.task('styles:watch', ['clean:styles'], callback => {
   runSequence(
     'styles',
     'pug',
+    'generate-service-worker-dev',
     callback
   );
 });
@@ -200,7 +254,6 @@ const scriptTasks = filename => lazypipe()
     },
     plugins: [
       new webpack.optimize.UglifyJsPlugin(),
-      new webpack.optimize.DedupePlugin(),
       new webpack.optimize.OccurrenceOrderPlugin(),
     ],
   })
@@ -278,7 +331,7 @@ gulp.task('scripts:test', () => gulp.src(['gulpfile.js', manifest.paths.source +
 );
 
 gulp.task('scripts:watch', ['clean:scripts'], callback => {
-  runSequence('scripts', 'scripts:rev', 'pug', callback);
+  runSequence('scripts', 'scripts:rev', 'pug', 'generate-service-worker-dev', callback);
 });
 
 /*
@@ -308,14 +361,21 @@ gulp.task('watch', () => {
 
   gulp.watch([manifest.paths.source + 'styles/**/*'], ['styles:watch']);
   gulp.watch([manifest.paths.source + 'scripts/**/*'], ['scripts:watch']);
-  gulp.watch([manifest.paths.source + 'images/**/*'], ['images']);
+  gulp.watch([manifest.paths.source + 'images/**/*'], ['images', 'generate-service-worker-dev']);
 
   // Hugo server already reloads, so we don't need to watch templates.
   gulp.watch([manifest.paths.source + 'templates/**/*'], ['pug']);
 });
 
 gulp.task('build', ['clean'], callback => {
-  runSequence('styles', 'scripts', 'scripts:rev', ['images'], callback);
+  runSequence(
+    'styles',
+    'scripts',
+    'scripts:rev',
+    ['images'],
+    'generate-service-worker-dist',
+    callback
+  );
 });
 
 // ### Gulp

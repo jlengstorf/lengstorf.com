@@ -91,6 +91,8 @@
     &:active,
     &:hover,
     &:focus {
+      color: $color-accent;
+      outline: 0;
       text-decoration: underline;
     }
   }

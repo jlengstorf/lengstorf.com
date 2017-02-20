@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     border-top: 2px solid $color-gray-medium;
-    box-shadow: -1px 0 4px color( $color-darkest alpha(15%) );
+    box-shadow: -1px 0 4px color($color-darkest alpha(15%));
   }
 
   &__nav-item {
@@ -61,64 +61,67 @@
     }
 
     &--blog::before {
-      background-image: url(/images/icon-blog-dark.svg);
+      background-image: svg-load(../../../static/images/icon-blog-dark.svg);
     }
 
     &--start-here::before {
-      background-image: url(/images/icon-about-dark.svg);
+      background-image: svg-load(../../../static/images/icon-about-dark.svg);
     }
 
     &--efficiency::before {
-      background-image: url(/images/icon-efficiency-dark.svg);
+      background-image: svg-load(../../../static/images/icon-efficiency-dark.svg);
     }
 
     &--travel::before {
-      background-image: url(/images/icon-travel-dark.svg);
+      background-image: svg-load(../../../static/images/icon-travel-dark.svg);
     }
 
     &--work-happier::before {
-      background-image: url(/images/icon-post-hustle-dark.svg);
+      background-image: svg-load(../../../static/images/icon-post-hustle-dark.svg);
     }
 
     &--hire-me::before {
-      background-image: url(/images/icon-hire-me-dark.svg);
+      background-image: svg-load(../../../static/images/icon-hire-me-dark.svg);
     }
 
     &--contact::before {
-      background-image: url(/images/icon-contact-dark.svg);
+      background-image: svg-load(../../../static/images/icon-contact-dark.svg);
     }
 
-    &:hover,&:active,&:focus,&--active {
+    &:hover,
+    &:active,
+    &:focus,
+    &--active {
       background-color: $color-brand;
-      text-shadow: 1px 1px 0 color( $color-darkest alpha(40%) );
+      text-shadow: 1px 1px 0 color($color-darkest alpha(40%));
       outline: 0;
 
       &.header__nav-item--blog::before {
-        background-image: url(/images/icon-blog-light.svg);
+        background-image: svg-load(../../../static/images/icon-blog-light.svg);
       }
 
       &.header__nav-item--start-here::before {
-        background-image: url(/images/icon-about-light.svg);
+        background-image: svg-load(../../../static/images/icon-about-light.svg);
       }
 
       &.header__nav-item--efficiency::before {
-        background-image: url(/images/icon-efficiency-light.svg);
+        background-image: svg-load(../../../static/images/icon-efficiency-light.svg);
       }
 
       &.header__nav-item--travel::before {
-        background-image: url(/images/icon-travel-light.svg);
+        background-image: svg-load(../../../static/images/icon-travel-light.svg);
       }
 
       &.header__nav-item--work-happier::before {
-        background-image: url(/images/icon-post-hustle-light.svg);
+        background-image: svg-load(../../../static/images/icon-post-hustle-light.svg);
       }
 
       &.header__nav-item--hire-me::before {
-        background-image: url(/images/icon-hire-me-light.svg);
+        background-image: svg-load(../../../static/images/icon-hire-me-light.svg);
       }
 
       &.header__nav-item--contact::before {
-        background-image: url(/images/icon-contact-light.svg);
+        background-image: svg-load(../../../static/images/icon-contact-light.svg);
       }
 
       &::after {
@@ -132,17 +135,16 @@
   }
 
   @media $viewport-md {
-
     &__nav {
       position: fixed;
       display: block;
-      width: calc( $width-unit * 38.2 );
+      width: calc($width-unit * 38.2);
       max-width: 400px;
       padding-top: 80px;
       background-color: $color-lightest;
       border-bottom: 2px solid $color-lightest;
       box-shadow: none;
-      font-size: calc( $font-size-default * 1.25 );
+      font-size: calc($font-size-default * 1.25);
       z-index: 10;
 
       @media (min-height: 494px) {
@@ -198,7 +200,8 @@
       }
     }
 
-    &--home &__nav,&--landing &__nav {
+    &--home &__nav,
+    &--landing &__nav {
       position: relative;
       padding-top: 0;
       transition: 200ms padding ease-out;
@@ -244,15 +247,15 @@
       border-right: 0;
       color: $color-darkest;
       font-weight: $font-weight-light;
-      line-height: calc( $font-size-default * 3 );
+      line-height: calc($font-size-default * 3);
       overflow: initial;
       text-align: right;
       text-decoration: none;
       transition: 200ms all ease-in-out;
       z-index: 5;
 
-      &::before,&--active::before {
-
+      &::before,
+      &--active::before {
         /*
          * I overdid it with my specificity on the icons, and it’s biting me in
          * the ass now.
@@ -271,8 +274,8 @@
         display: block;
         background-color: $color-gray-light;
         border-radius: 50%;
-        height: calc( $font-size-default * 3 );
-        width: calc( $font-size-default * 3 );
+        height: calc($font-size-default * 3);
+        width: calc($font-size-default * 3);
         transform: rotate(45deg);
         transition: 200ms all ease-in-out;
       }
@@ -282,17 +285,20 @@
         font-size: 100%;
       }
 
-      &:hover,&--active,&:active,&:focus {
+      &:hover,
+      &--active,
+      &:active,
+      &:focus {
         background-color: $color-brand;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         color: $color-lightest;
-        text-shadow: 1px 1px 0 color( $color-darkest alpha(30%) );
+        text-shadow: 1px 1px 0 color($color-darkest alpha(30%));
 
         &::after {
-          right: calc( $height-unit * -0.25 );
+          right: calc($height-unit * -0.25);
           background-color: $color-brand;
-          border-top-right-radius: calc( $height-unit / 4 );
+          border-top-right-radius: calc($height-unit / 4);
           z-index: 1;
         }
       }

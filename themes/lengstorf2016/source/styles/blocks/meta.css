@@ -10,7 +10,7 @@
     font-size: 11px;
     line-height: $font-size-default;
     list-style: none;
-    margin: calc( $font-size-default / 2 ) 0 0;
+    margin: calc($font-size-default / 2) 0 0;
     padding: 0;
 
     &:first-child {
@@ -73,6 +73,14 @@
 
   &__link {
     text-decoration: none;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: $color-accent;
+      outline: 0;
+      text-decoration: underline;
+    }
 
     &--tags {
       &::before {

@@ -8,6 +8,17 @@ script.
   ga('send', 'pageview');
 
 script.
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {
+      return;
+    }
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=220587498083499";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+script.
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
   n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -36,3 +47,27 @@ script.
     },
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
+
+script(
+  src='/scripts/app.js'
+  async
+)
+
+script(
+  src='/vendor/drop-in-chart/dist/drop-in-chart.min.js'
+  async
+)
+
+// {{ if in .Permalink "cost-of-living" }}
+script(
+  src='/vendor/cost-of-living/dist/bundle.js'
+  async
+)
+script.
+  document.addEventListener('DOMContentLoaded', function(event) {
+    const faScript = document.createElement('link');
+    faScript.rel = 'stylesheet';
+    faScript.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+    document.head.appendChild(faScript);
+  });
+// {{ end }}
