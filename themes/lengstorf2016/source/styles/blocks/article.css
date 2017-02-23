@@ -4,8 +4,10 @@
   margin-right: auto;
 
   @media $viewport-md {
-    margin-left: 0;
-    margin-right: 0;
+    @supports (display: flex) {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 
   &__content {

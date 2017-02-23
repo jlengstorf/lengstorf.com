@@ -135,96 +135,18 @@
   }
 
   @media $viewport-md {
-    &__nav {
-      position: fixed;
-      display: block;
-      width: calc($width-unit * 38.2);
-      max-width: 400px;
-      padding-top: 80px;
-      background-color: $color-lightest;
-      border-bottom: 2px solid $color-lightest;
-      box-shadow: none;
-      font-size: calc($font-size-default * 1.25);
-      z-index: 10;
-
-      @media (min-height: 494px) {
-        padding-top: 180px;
-      }
-
-      @media (min-height: 615px) {
-        padding-top: 300px;
-      }
-
-      &::before {
-        position: relative;
-        content: '';
-        display: block;
-        border-top: 1px solid $color-text;
-        z-index: 3;
-      }
-
-      &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 80px;
-        width: 100%;
-        background-image: url(/images/jason-lengstorf-header-sm.jpg);
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 1;
-
-        @media $res-2x {
-          background-image: url(/images/jason-lengstorf-header-sm@2x.jpg);
-        }
-
-        @media (min-height: 494px) {
-          height: 180px;
-          background-image: url(/images/jason-lengstorf-header-md.jpg);
-
-          @media $res-2x {
-            background-image: url(/images/jason-lengstorf-header-md@2x.jpg);
-          }
-        }
-
-        @media (min-height: 615px) {
-          height: 300px;
-          background-image: url(/images/jason-lengstorf-header-lg.jpg);
-
-          @media $res-2x {
-            background-image: url(/images/jason-lengstorf-header-lg@2x.jpg);
-          }
-        }
-      }
-    }
-
-    &--home &__nav,
-    &--landing &__nav {
-      position: relative;
-      padding-top: 0;
-      transition: 200ms padding ease-out;
-
-      &::after {
-        opacity: 0;
-        transition: 150ms opacity ease-out;
-      }
-
-      &:not(.header__nav--fixed) {
-        &::before {
-          border-top: 0;
-        }
-      }
-
-      &--fixed {
+    @supports (display: flex) {
+      &__nav {
         position: fixed;
-        top: 0;
+        display: block;
+        width: calc($width-unit * 38.2);
+        max-width: 400px;
         padding-top: 80px;
-
-        &::after {
-          opacity: 1;
-        }
+        background-color: $color-lightest;
+        border-bottom: 2px solid $color-lightest;
+        box-shadow: none;
+        font-size: calc($font-size-default * 1.25);
+        z-index: 10;
 
         @media (min-height: 494px) {
           padding-top: 180px;
@@ -233,85 +155,165 @@
         @media (min-height: 615px) {
           padding-top: 300px;
         }
-      }
-    }
 
-    &__nav-item {
-      position: relative;
-      display: block;
-      height: auto;
-      margin: 0;
-      padding: 0 $font-size-default;
-      background-color: $color-gray-light;
-      border-top: 2px solid $color-lightest;
-      border-right: 0;
-      color: $color-darkest;
-      font-weight: $font-weight-light;
-      line-height: calc($font-size-default * 3);
-      overflow: initial;
-      text-align: right;
-      text-decoration: none;
-      transition: 200ms all ease-in-out;
-      z-index: 5;
-
-      &::before,
-      &--active::before {
-        /*
-         * I overdid it with my specificity on the icons, and it’s biting me in
-         * the ass now.
-         *
-         * SHAME SHAME SHAME
-         */
-        background-image: none !important;
-      }
-
-      &::after {
-        content: '';
-        position: absolute;
-        right: 10px;
-        top: 0;
-        left: auto;
-        display: block;
-        background-color: $color-gray-light;
-        border-radius: 50%;
-        height: calc($font-size-default * 3);
-        width: calc($font-size-default * 3);
-        transform: rotate(45deg);
-        transition: 200ms all ease-in-out;
-      }
-
-      &--active {
-        font-family: $font-family-script;
-        font-size: 100%;
-      }
-
-      &:hover,
-      &--active,
-      &:active,
-      &:focus {
-        background-color: $color-brand;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        color: $color-lightest;
-        text-shadow: 1px 1px 0 color($color-darkest alpha(30%));
+        &::before {
+          position: relative;
+          content: '';
+          display: block;
+          border-top: 1px solid $color-text;
+          z-index: 3;
+        }
 
         &::after {
-          right: calc($height-unit * -0.25);
-          background-color: $color-brand;
-          border-top-right-radius: calc($height-unit / 4);
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 80px;
+          width: 100%;
+          background-image: url(/images/jason-lengstorf-header-sm.jpg);
+          background-position: center top;
+          background-repeat: no-repeat;
+          background-size: cover;
           z-index: 1;
+
+          @media $res-2x {
+            background-image: url(/images/jason-lengstorf-header-sm@2x.jpg);
+          }
+
+          @media (min-height: 494px) {
+            height: 180px;
+            background-image: url(/images/jason-lengstorf-header-md.jpg);
+
+            @media $res-2x {
+              background-image: url(/images/jason-lengstorf-header-md@2x.jpg);
+            }
+          }
+
+          @media (min-height: 615px) {
+            height: 300px;
+            background-image: url(/images/jason-lengstorf-header-lg.jpg);
+
+            @media $res-2x {
+              background-image: url(/images/jason-lengstorf-header-lg@2x.jpg);
+            }
+          }
         }
       }
-    }
 
-    &__nav-text {
-      position: relative;
-      z-index: 2;
-    }
+      &--home &__nav,
+      &--landing &__nav {
+        position: relative;
+        padding-top: 0;
+        transition: 200ms padding ease-out;
 
-    &__nav-item--active &__nav-text {
-      top: 3px;
-      font-size: 110%;
+        &::after {
+          opacity: 0;
+          transition: 150ms opacity ease-out;
+        }
+
+        &:not(.header__nav--fixed) {
+          &::before {
+            border-top: 0;
+          }
+        }
+
+        &--fixed {
+          position: fixed;
+          top: 0;
+          padding-top: 80px;
+
+          &::after {
+            opacity: 1;
+          }
+
+          @media (min-height: 494px) {
+            padding-top: 180px;
+          }
+
+          @media (min-height: 615px) {
+            padding-top: 300px;
+          }
+        }
+      }
+
+      &__nav-item {
+        position: relative;
+        display: block;
+        height: auto;
+        margin: 0;
+        padding: 0 $font-size-default;
+        background-color: $color-gray-light;
+        border-top: 2px solid $color-lightest;
+        border-right: 0;
+        color: $color-darkest;
+        font-weight: $font-weight-light;
+        line-height: calc($font-size-default * 3);
+        overflow: initial;
+        text-align: right;
+        text-decoration: none;
+        transition: 200ms all ease-in-out;
+        z-index: 5;
+
+        &::before,
+        &--active::before {
+          /*
+           * I overdid it with my specificity on the icons, and it’s biting me in
+           * the ass now.
+           *
+           * SHAME SHAME SHAME
+           */
+          background-image: none !important;
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          right: 10px;
+          top: 0;
+          left: auto;
+          display: block;
+          background-color: $color-gray-light;
+          border-radius: 50%;
+          height: calc($font-size-default * 3);
+          width: calc($font-size-default * 3);
+          transform: rotate(45deg);
+          transition: 200ms all ease-in-out;
+        }
+
+        &--active {
+          font-family: $font-family-script;
+          font-size: 100%;
+        }
+
+        &:hover,
+        &--active,
+        &:active,
+        &:focus {
+          background-color: $color-brand;
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+          color: $color-lightest;
+          text-shadow: 1px 1px 0 color($color-darkest alpha(30%));
+
+          &::after {
+            right: calc($height-unit * -0.25);
+            background-color: $color-brand;
+            border-top-right-radius: calc($height-unit / 4);
+            z-index: 1;
+          }
+        }
+      }
+
+      &__nav-text {
+        position: relative;
+        z-index: 2;
+      }
+
+      &__nav-item--active &__nav-text {
+        top: 3px;
+        font-size: 110%;
+      }
     }
   }
 }

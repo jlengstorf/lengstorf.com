@@ -43,26 +43,28 @@
   }
 
   @media $viewport-md {
-    display: flex;
-    flex-wrap: wrap;
+    @supports (display: flex) {
+      display: flex;
+      flex-wrap: wrap;
 
-    &__header {
-      position: static;
-      flex: 1 38.2%;
-      max-width: 400px;
-      margin-top: 0;
-    }
+      &__header {
+        position: static;
+        flex: 1 38.2%;
+        max-width: 400px;
+        margin-top: 0;
+      }
 
-    &__content {
-      flex: 2 61.8%;
-      min-height: calc( 100vh - 30px );
-      min-width: 61.8%;
-      margin-top: 0;
-      padding: calc( $height-unit * 10 ) calc( $height-unit * 3.667 ) calc( $height-unit * 4 );
-      overflow-y: scroll;
+      &__content {
+        flex: 2 61.8%;
+        min-height: calc( 100vh - 30px );
+        min-width: 61.8%;
+        margin-top: 0;
+        padding: calc( $height-unit * 10 ) calc( $height-unit * 3.667 ) calc( $height-unit * 4 );
+        overflow-y: scroll;
 
-      &--home,&--landing {
-        padding-top: calc( $height-unit * 4 );
+        &--home,&--landing {
+          padding-top: calc( $height-unit * 4 );
+        }
       }
     }
 
