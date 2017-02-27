@@ -1,5 +1,5 @@
 ---
-date: 2015-09-28T19:20:00-08:00
+date: 2017-02-25
 author: jason
 draft: true
 
@@ -27,45 +27,21 @@ At least three times a year, I want to give up, quit, and disappear.
 
 I find myself running logistics for ghosting: new name, new place, new *everything*. I just fade into the background and leave nothing but a fade-to-question-mark in my old life.
 
-***
-
 Usually I feel it coming: the desire to burn it down and start over. It creeps in around the edges when my projects are all well underway, my relationships all stable, my life under control.
 
-It shows up when everything is "just fine" and I have no problems to speak of.
+It shows up when everything is "just fine" and I have no problems to speak of: all the fires are out; all the todos are completed; all the [dragons are slain]({{< ref "slaying-dragons.md" >}}).
 
-All the fires are out. All the todos are checked off. All the [dragons are slain]({{< ref "slaying-dragons.md" >}}).
+I've always told myself **this is what I was working toward.** Isn't this success? Haven't I made it? [Shouldn't I be happy now?]({{< ref "blog/finding-happiness.md" >}})
 
-This is what I always told myself I was working toward. This should be the peaceful repose that accompanies reaching my goals. Isn't this success? Haven't I just succeeded? [Shouldn't I be happy now?]({{< ref "blog/finding-happiness.md" >}})
+Why, then, do I feel _so fucking empty_?
 
-Why, then, do I feel so *fucking awful*?
-
-***
-
-When the only thing that's hard about being alive is not sounding like a whiner when you can't understand why your decidedly _not_ hard life doesn't seem all that fulfilling, you learn to shut your mouth.
-
-Speaking up about the problems that arise from other problems' solutions is not a smart thing to do. At least not if you want to avoid public ridicule.
-
-And it's not like you're ungrateful. You know, even at your lowest moments, that your life is not now, nor will it ever (probably) be, _actually_ bad. You don't like to say "lucky" because it implies you just fell face-first into everything you have, but there's no denying that you've had no shortage of opportunities.
-
-Still, disillusionment sits in the darker corners of your mind, brooding and terrible, gnawing on the wiring.
-
-*I thought there'd be more than this,* it whispers. *Is this as far as I can go?*
-
-So you sit at the end of a path that promised fulfillment, and you're hit by the gut-dropping realization that you're only thirty years old but you're more or less out of ideas. Now that you're standing on the precipice of the best ending you could imagine for yourself — you, with that special intellect that was so advanced, so different from all the others: the coasters, the weak-willed, the "normies" — your best-case outcomes are feeling more like cheap trophies that no one could (or should) care about longer than the few minutes it'll take to write your obituary.
-
-And you can still count on another forty years or so of being alive.
-
-So you're sitting with your feet dangling over the edge of the void, dark and empty and endless, a yawning expanse of nothing in the exact spot where you were *so sure* all the answers would be.
-
-Disillusionment slumps down beside you and moans, *What now?*
-
-And you only just squeeze out, "I don't know," past the tightness in your throat.
+[TKTK standing near a pile of trophies, contemplating a match]
 
 ***
 
 There's no way to bring it up without sounding ungrateful.
 
-"What do I do next, now that I've achieved all my goals? I feel lost and sad and directionless."
+"What do I do next, now that I've achieved all my goals? I feel lost and sad and directionless." **Speaking up about the problems that arise from other problems' solutions is not a smart thing to do.** At least not if you want to avoid public ridicule.
 
 So you bottle it up. Tell yourself you're just being irrational.
 
@@ -75,13 +51,60 @@ And maybe that's the problem. You gave up your scapegoats when you killed God, b
 
 This shitty feeling that nothing is quite right? *You created it.*
 
-This whole world of yours — your little solipsistic slice of heaven — you hammered in each nail yourself, and if it feels more like a coffin than a rumpus room, well, maybe you should have thought harder about how you framed up the walls.
+This whole world of yours — your little solipsistic slice of heaven — you hammered in each nail yourself, and if it feels more like a coffin than a trophy room, well, maybe you should have thought harder about how you framed up the walls.
+
+[TKTK illustration two-panel comic hammering nail inside, outside view is a box w/no doors or windows]
+
+***
+
+**When the only thing that's hard about being alive is not sounding like a whiner because — now that you've reached all your goals — you're not feeling all that fulfilled, you learn to shut your mouth.**
+
+And it's not like you're ungrateful. You know, even at your lowest moments, that your life is not now, nor will it ever (probably) be, _actually_ bad. You don't like to say "lucky" because it implies you just fell face-first into everything you have, but there's no denying you've had no shortage of opportunities.
+
+Still, disillusionment sits in the darker corners of your mind, brooding and terrible, gnawing on the wiring.
+
+_I thought there'd be more than this,_ it whispers. _Is this as far as I can go?_
+
+So you sit at the end of a path that promised fulfillment, and you're hit by the gut-dropping realization that you're only thirty years old but you're more or less out of ideas.[^next-steps] Now that you're standing on the precipice of the best ending you could imagine for yourself — you, with that special intellect that was so advanced, so different from all the others: the mediocre coasters, the weak-willed, the "normies" — **all of your accomplishments are feeling more like cheap trophies** no one could (or should) care about longer than the few minutes it'll take to write your obituary.
+
+[^next-steps]:
+    You certainly don't intend to do _this_ for the rest of your life, but it's becoming painfully obvious that your stretch goals sound like they were written by a second-grader.
+    
+    "Write a novel" — like, for money? You're not independently wealthy yet, pal; try again.
+
+And you can still count on another forty years or so of being alive.
+
+So you're sitting with your feet dangling over the edge of the void, dark and empty and endless, a yawning expanse of nothing in the exact spot where you were _positive_ all the answers would be.
+
+Disillusionment slumps down beside you and moans, _What now?_
+
+And it's all you can do to squeeze out, "I don't know," past the tightness in your throat.
+
+[TKTK illustration sitting on cliff with disillusionment "what now?"]
 
 ***
 
 It doesn't make sense, this hollow feeling, but then again it makes perfect sense: you've been looking at things all wrong, like somehow [you'd hit this high and never come down]({{< ref "baseline.md" >}}).
 
 Rationally, you knew that wasn't the case — but you never really took the time to think about it rationally, now did you?
+
+***
+
+You're not the type to lay down and die, though, are you? Of course not; you don't end up with problems like "I've accomplished all my goals and now I'm sad" through complacence.
+
+You're here because your ambition maintains a constant state of upward and outward thrust. Historically, you've had a target to direct it toward, but now? you've got no plans.
+
+But just because you've stopped creating targets doesn't mean your ambition's slowed down; now you've just got directionless drive pushing beyond the limits of your goals, and the vacuum it's creating feels bad.[^bad-puns]
+
+[^bad-puns]:
+    <img src="/images/bad-joke-eel.jpg"     
+         srcset="/images/bad-joke-eel-300x150.jpg 300w,
+                        /images/bad-joke-eel-600x300.jpg 600w,
+                        /images/bad-joke-eel.jpg 690w,
+                        /images/bad-joke-eel@2x.jpg 1380w"
+         sizes="(min-width: 768px) 300px, 100vw"
+         alt="you might even say it sucks"
+         class="footnote-image">
 
 ***
 
