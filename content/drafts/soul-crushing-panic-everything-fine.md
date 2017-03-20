@@ -65,16 +65,16 @@ Still, disillusionment sits in the darker corners of your mind, brooding and ter
 
 _I thought there'd be more than this,_ it whispers. _Is this as far as I can go?_
 
-So you sit at the end of a path that promised fulfillment, and you're hit by the gut-dropping realization that you're only thirty years old but you're more or less out of ideas.[^next-steps] Now that you're standing on the precipice of the best ending you could imagine for yourself — you, with that special intellect that was so advanced, so different from all the others: the mediocre coasters, the weak-willed, the "normies" — **all of your accomplishments are feeling more like cheap trophies** no one could (or should) care about longer than the few minutes it'll take to write your obituary.
+So you sit at the end of a path that promised fulfillment, and you're hit by the gut-dropping realization that you're only thirty years old but you're more or less out of ideas.[^next-steps] Now that you're standing on the front steps of the best ending you could imagine for yourself — you, with that special intellect that was so advanced, so different from all the others: the mediocre coasters, the weak-willed, the "normies" — **all of your accomplishments are feeling more like cheap trophies** no one could (or should) care about longer than the few minutes it'll take to write your obituary.
 
 [^next-steps]:
     You certainly don't intend to do _this_ for the rest of your life, but it's becoming painfully obvious that your stretch goals sound like they were written by a second-grader.
     
     "Write a novel" — like, for money? You're not independently wealthy yet, pal; try again.
 
-And you can still count on another forty years or so of being alive.
+And you're not even at the halfway point.
 
-So you're sitting with your feet dangling over the edge of the void, dark and empty and endless, a yawning expanse of nothing in the exact spot where you were _positive_ all the answers would be.
+So here you sit, feet dangling over the edge of the void, staring into a vacant maw in the exact spot you were convinced all the answers would be.
 
 Disillusionment slumps down beside you and moans, _What now?_
 
@@ -90,21 +90,34 @@ Rationally, you knew that wasn't the case — but you never really took the time
 
 ***
 
-You're not the type to lay down and die, though, are you? Of course not; you don't end up with problems like "I've accomplished all my goals and now I'm sad" through complacence.
+But you're not the type to lay down and die, are you? Of course not; you don't end up with problems like "I've accomplished all my goals and now I'm sad" by sitting on your hands.
 
-You're here because your ambition maintains a constant state of upward and outward thrust. Historically, you've had a target to direct it toward, but now? you've got no plans.
+You're here because your ambition maintains steady upward thrust. Usually you have a target to point it at, but now? you've got no plans.
 
-But just because you've stopped creating targets doesn't mean your ambition's slowed down; now you've just got directionless drive pushing beyond the limits of your goals, and the vacuum it's creating feels bad.[^bad-puns]
+But just because you've stopped creating targets doesn't mean your ambition's slowed down; now you've just got directionless drive pushing beyond the limits of your goals, and the hollow feeling in your chest is the vacuum it's creating.
 
-[^bad-puns]:
-    <img src="/images/bad-joke-eel.jpg"     
-         srcset="/images/bad-joke-eel-300x150.jpg 300w,
-                        /images/bad-joke-eel-600x300.jpg 600w,
-                        /images/bad-joke-eel.jpg 690w,
-                        /images/bad-joke-eel@2x.jpg 1380w"
-         sizes="(min-width: 768px) 300px, 100vw"
-         alt="you might even say it sucks"
-         class="footnote-image">
+[TKTK illustration of rocket]
+
+***
+
+
+
+***
+
+So quit feeling sorry for yourself, Champ; let's tackle this problem like we'd tackle anything else: **Find the Why, make a [plan]({{< ref "effective-project-planning.md" >}}), and do something about it.**
+
+If we take it back to the beginning and [run a retrospective]({{< ref "2016-retrospective.md" >}}), a few things start to become clear.
+
+1. **What went well?** You're currently pouting because you've run out of problems, so we can start with that. And you enjoyed every step of the process, so it's not the work itself causing your restlessness.[^alternatives] You set goals, and you achieved them.
+
+[^alternatives]:
+    Yeah, I know you've told yourself it would be more rewarding to tend bar somewhere, or build furniture out of driftwood, or a dozen other jobs that sound like a Simple Life™ in your imagination, but none of these fantasies hold up under even light scrutiny — and you know it.
+
+2. **What could have gone better?** 
+
+1. **You don’t feel bad because you got what you wanted — you feel bad because you never considered what you’d do after you had it.** You're the dog who catches the UPS truck. You've been chasing it, and now you have it, so... now what?
+
+2. **You got complacent.** You started coasting, and 
 
 ***
 
@@ -122,7 +135,7 @@ What are the causes of this feeling?
     _something_ you do should probably matter. Matter to you, at least. If your job is feeling meaningless and that makes you feel bad, look for a job that _doesn't_ feel meaningless. Or, if you don't want to give up the job, find something that matters to you and do it in your down time — because [you're not working crazy hours anymore]({{< ref "overtime-hurts-productivity.md" >}}) and you've got plenty of down time, right?
 
 4.  Isolation. [Working remotely]({{< ref "remote-work-everyoone-wins.md" >}}) 
-    leaves you in a position to do great work, but it also means a lot of what you do happens in a vacuum. And no matter how much you try to pretend that you're both a rock _and_ an island, you need to share with someone. And Marisa only cares so much about whatever technical bullshit you're spouting, so you need a community of people who share your interest in turbonerdery.
+    leaves you in a position to do great work, but it also means a lot of what you do happens in a vacuum. And no matter how much you try to pretend that you're both [a rock _and_ an island](https://www.youtube.com/watch?v=My9I8q-iJCI), you need to share with someone. And Marisa only cares so much about whatever technical bullshit you're spouting, so you need a community of people who share your interest in turbonerdery.
    
 5.  No collaboration. When you learn something, it makes your life better. But i
     if you don't share it, that lesson dies with you. Go out and share what you've learned — preferably in person, because you're a fucking human person and human contact is good for you — and make the world a better place. Even if the improvement is as small as a better way to organize code.
