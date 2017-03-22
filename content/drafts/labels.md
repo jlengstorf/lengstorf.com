@@ -23,6 +23,8 @@ enable_disqus = true
 
 +++
 
+**TODO: Add note about external labels — and how I have WAY too much privilege to speak about that on more than a superficial level — and internal labels, which are self-imposed and easier to control.**
+
 When I wrote my [retrospective on a year of full-time travel]({{< ref "blog/2015-12-30_year-in-review.md" >}}), I included a section about my distaste for the label "digital nomad":
 
   > It became immediately clear to me upon leaving that I'm skittish about 
