@@ -134,7 +134,7 @@ What are the causes of this feeling?
 3.  Purposelessness. Your work doesn't need to be world-changing, but 
     _something_ you do should probably matter. Matter to you, at least. If your job is feeling meaningless and that makes you feel bad, look for a job that _doesn't_ feel meaningless. Or, if you don't want to give up the job, find something that matters to you and do it in your down time — because [you're not working crazy hours anymore]({{< ref "overtime-hurts-productivity.md" >}}) and you've got plenty of down time, right?
 
-4.  Isolation. [Working remotely]({{< ref "remote-work-everyoone-wins.md" >}}) 
+4.  Isolation. [Working remotely]({{< ref "remote-work-everyone-wins.md" >}}) 
     leaves you in a position to do great work, but it also means a lot of what you do happens in a vacuum. And no matter how much you try to pretend that you're both [a rock _and_ an island](https://www.youtube.com/watch?v=My9I8q-iJCI), you need to share with someone. And Marisa only cares so much about whatever technical bullshit you're spouting, so you need a community of people who share your interest in turbonerdery.
    
 5.  No collaboration. When you learn something, it makes your life better. But i
