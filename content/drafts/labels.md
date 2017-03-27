@@ -1,29 +1,28 @@
-+++
+---
+date: 2017-03-27
+author: jason
+draft: true
 
-date = "2016-08-24"
-author = "jason"
-draft = true
+type: blog
 
-type = "blog"
+title: >
+    Reading the Label: How the ways we choose to describe ourselves can hurt us.
+seo_title: ""
+slug: labels
+description: >
 
-title = "Reading the Label: How the ways we choose to describe ourselves can hurt us."
-seo_title = ""
-slug = "labels"
-description = ""
 
-category = []
+category:
+-
 
-tag = []
+tag:
+-
 
-images = [
-    "/images/jason-lengstorf.jpg",
-]
+images:
+- "/images/jason-lengstorf.jpg",
 
-enable_disqus = true
-
-+++
-
-**TODO: Add note about external labels — and how I have WAY too much privilege to speak about that on more than a superficial level — and internal labels, which are self-imposed and easier to control.**
+enable_disqus: true
+---
 
 When I wrote my [retrospective on a year of full-time travel]({{< ref "blog/2015-12-30_year-in-review.md" >}}), I included a section about my distaste for the label "digital nomad":
 
@@ -51,6 +50,19 @@ When I talk about what I do, why do I shy away from terms like "founder" or "ent
 What's my aversion to becoming "a CrossFitter" or a "digital nomad"?
 
 Of course, the _obvious_ reason is that I'm such a goddamned special little snowflake that I can't be labeled. But debilitating narcissism aside, I just don't feel comfortable waving the banners of a group.
+
+### Before we start, let's talk about me and my mountains of privilege for a second.
+
+There are two discussions we can have about labels:
+
+1. The labels we apply to ourselves.
+2. The labels other people apply to us.
+
+I have _way_ too much privilege to talk about external labels — so I won't.
+
+In this post, I'm _only_ talking about self-imposed labels, and my own strong opinions about why that's usually a bad idea.
+
+Also, **I'm not intending this to be a "here's how everyone should live their lives" kind of thing. Think I'm wrong? Let's talk about it (like adults) [in the comments](#comments).**
 
 ## But Isn't "Anti-Label" a Label?
 
