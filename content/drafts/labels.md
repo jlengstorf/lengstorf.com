@@ -10,7 +10,7 @@ title: >
 seo_title: ""
 slug: labels
 description: >
-
+    TKTK
 
 category:
 -
@@ -19,10 +19,12 @@ tag:
 -
 
 images:
-- "/images/jason-lengstorf.jpg",
+- /images/jason-lengstorf.jpg
 
 enable_disqus: true
 ---
+
+My entire adult life, I've tried to avoid being labeled.
 
 When I wrote my [retrospective on a year of full-time travel]({{< ref "blog/2015-12-30_year-in-review.md" >}}), I included a section about my distaste for the label "digital nomad":
 
@@ -33,23 +35,24 @@ When I wrote my [retrospective on a year of full-time travel]({{< ref "blog/2015
   > secret Digital Nomad Society that only the elite can join, which is about 
   > as far from the truth as you can get.
 
-Since writing that, the idea of labels has been rolling around in my head.
+Since writing that,[^long-time] the idea of labels has been rolling around in my head.
+
+[^long-time]:
+    I've been working on this post for a _long_ time.
+
+    Well, actually that's not true; I did a lot of work on this post in early 2016, and then panicked because I was worried people might not like it, so I sat on it for almost a year.
 
 ## Why I Get Squeamish About Labels
 
-My entire adult life, I've tried to avoid being labeled. But until recently I'd never asked myself _why_ I was uncomfortable with labels.
-
-> Once you label me you negate me.
-> 
-> **Søren Kierkegaard**
+Until recently, however, I'd never asked myself _why_ I was uncomfortable with labels.
 
 Why is it that, when I started a company, I wouldn't call it a "startup"?
 
 When I talk about what I do, why do I shy away from terms like "founder" or "entrepreneur"?
 
-What's my aversion to becoming "a CrossFitter" or a "digital nomad"?
+What's my aversion to becoming "a CrossFitter" or a "Digital Nomad"?
 
-Of course, the _obvious_ reason is that I'm such a goddamned special little snowflake that I can't be labeled. But debilitating narcissism aside, I just don't feel comfortable waving the banners of a group.
+Of course, the _obvious_ reason is that I'm such a goddamned special little snowflake that no label can adequately express my excellence. But debilitating narcissism aside, I just don't feel comfortable waving the banners of a group.
 
 ### Before we start, let's talk about me and my mountains of privilege for a second.
 
@@ -62,30 +65,38 @@ I have _way_ too much privilege to talk about external labels — so I won't.
 
 In this post, I'm _only_ talking about self-imposed labels, and my own strong opinions about why that's usually a bad idea.
 
-Also, **I'm not intending this to be a "here's how everyone should live their lives" kind of thing. Think I'm wrong? Let's talk about it (like adults) [in the comments](#comments).**
+Also, **I'm not intending this to be a "here's how everyone should live their lives" kind of thing. I want to kick off a discussion about the way we perceive and present ourselves.** Think what I'm saying is a bunch of bullshit? Let's talk about it (like adults) [in the comments](#comments).
 
 ## But Isn't "Anti-Label" a Label?
 
-"Whoa whoa whoa," I can hear you thinking. "Isn't going 'anti-label' just another label that contrarian douchebags like you use to make themselves feel unique?"
+"Whoa whoa whoa," I can hear you thinking. "Isn't 'anti-label' just another label that contrarian douchebags like you use to make themselves feel unique?"
 
 And it's hard for me to argue with that, because the difference between a rebellious teenager claiming anti-label as his label, and what I'm advocating here may just be a matter of opinion.
 
-But my goal isn't to get people to describe me as "the anti-label guy". More importantly, I would never call myself that. 
+But my goal isn't to get people to describe me as "the anti-label guy". More importantly, I would never call myself that.
+
+### Labels are shortcuts, but they sell people short.
+
+  > Once you label me, you negate me.
+  >
+  > **Søren Kierkegaard**
 
 People are bombarded with information on all fronts from the time they wake up until the time they fall asleep. So we take shortcuts: clichés, proverbs, aphorisms, maxims, and precepts. In many cases, these shortcuts are helpful: they provide shorthand for behavioral codes of conduct, pass down general wisdom, and compress complex ideas into a compact phrase (e.g. "a bird in the hand is worth two in the bush").
 
 But when we take these shortcuts with people, things get weird. **Labels become stereotypes become prejudices, and we stop seeing someone as an individual — instead, we see her as a member of whatever group we've lumped her into.**[^white-guys]
 
 [^white-guys]:
-    Here's an example that always bothers me: most of the time, if Jenny is on the news or being interviewed, Jenny can't just be Jenny — she's Jenny of the Women and therefore is burdened with all the preconceived roles and assumptions that society has placed on All Women.
+    Here's an example that always bothers me: most of the time, if Jenny is on the news or being interviewed, Jenny can't just be Jenny — **she's Jenny of the Women and therefore is burdened with all the preconceived roles and assumptions that society has placed on All Women.**
 
-    As I've been thinking more and more about this — specifically about how labels supercede our personalities when we allow them to take over — it hit me in a real way (as opposed to the dim understanding that something is true) that these label issues that sit at the foundation of sexism, racism, et al. have never affected me, because the idea that I, Jason, could somehow be a representative of All White Men is absurd, and it sounds absurd to everyone.
+    As I've been thinking more and more about this — specifically about how **labels supercede our personalities when we allow them to take over** — it hit me in a real way (as opposed to the dim understanding that something is true) that labels sit at the foundation of sexism, racism, and all the other -isms. And more importantly, I realized that _these issues have never affected me_. The idea that I, Jason, could somehow be a representative of All White Men is absurd — and it sounds absurd to everyone.
 
-    (And for that reason, I'd like to point out that I am well aware of my privilege.)
-    
-    Yet somehow, whenever we see a woman or a black person or a Muslim in an interview, they're asked to answer questions on behalf of All Women or All Black People or All Muslims, as if it's somehow _not_ ridiculous to expect them to speak for "their kind". As if there's a cabal of All Women that meets every second Thursday to hash out what they stand for, and what major events do and don't count as "big wins for women everywhere".
+    Yet somehow, whenever we see a woman or a black person or a Muslim in an interview, they're asked to answer questions on behalf of All Women or All Black People or All Muslims, as if it's somehow _not_ ridiculous to expect them to speak for "their group", as if there's a cabal of All Women that meets every second Thursday to hash out what they stand for, and which major events count as "big wins for women everywhere".
 
-The most damaging effect, though, is when we take these shortcuts with ourselves. When I cop out on defining who I want to be and just adopt a label, I've relinquished control of my own identity. Rather than being an individual with my own unique assortment of ambitions, tastes, and idiosyncracies, I've removed my own will and chosen to let the group make those decisions for me.
+    When I realized this, it was one of the first times that I _really_ grasped my own privilege.
+
+### We should never sell ourselves short.
+
+The most damaging effect, though, is when we take these shortcuts with ourselves. **When I cop out on defining who I want to be and just adopt a label, I've relinquished control of my own identity.** Rather than being an individual with my own unique assortment of ambitions, tastes, and idiosyncracies, I've removed my own will and chosen to let the group make those decisions for me.
 
 **If [the story I tell myself]({{< ref "blog/stories.md" >}}) is that I am my labels, I've cut off huge areas of opportunity for personal development, exploration, new ideas, and growth.** Not because I have an aversion to becoming better, but because I took a shortcut that prevented me from even seeing that those opportunities existed in the first place.[^traveler]
 
@@ -96,7 +107,7 @@ The most damaging effect, though, is when we take these shortcuts with ourselves
 
 ## Adopting a Label Means Adopting a Set of Rules
 
-Becoming a digital nomad — if you believe the articles about it — would imply that you must meet certain criteria in order to officially belong to the group.
+Becoming a Digital Nomad — if you believe the articles about it — would imply that you must meet certain criteria in order to officially belong to the group.
 
 You _must_ sell all your stuff and travel the world. You _must_ visit certain "DN hubs". You _must_ choose which faction you belong to: the Programmers, the Marketers and Drop-Shippers, or the Travel Bloggers.[^factions]
 
@@ -105,12 +116,12 @@ You _must_ sell all your stuff and travel the world. You _must_ visit certain "D
 
 And while none of these rules are real — mostly they're the opinions of early-adopting writers who get cited by the next wave of writers (who are then cited by the mainstream writers who've started hearing about this "hot new trend") until the ideas become canon — they all create a mythos that becomes a label that creates barriers and pressure.
 
-In the [Digital Nomad subreddit](https://www.reddit.com/r/digitalnomad/), there are frequent questions about "becoming a digital nomad" asking if one itinerary or another would qualify someone as a _true_ nomad.
+In the [Digital Nomad subreddit](https://www.reddit.com/r/digitalnomad/) there are frequent questions about "becoming a Digital Nomad" asking if one itinerary or another would qualify someone as a _Real™_ Digital Nomad.
 
-But to ask whether you're _truly_ a digital nomad is similar to asking if you're _truly_ a vegan: it depends who you ask, and what kind of mood they're in.[^veggies]
+But asking whether you're _truly_ a Digital Nomad — as opposed to what? someone who works remotely and travels constantly? — is similar to asking if you're _truly_ a vegan: it depends who you ask, and what kind of mood they're in.[^veggies]
 
 [^veggies]:
-    For the readers not located in cities where vegans can be overheard infighting, just imagine a religious debate about whether yeast feels pain.
+    If you're not located in a city where vegans can be overheard infighting, imagine a religious debate over whether yeast can feel pain.
 
 Trying to subscribe to a label brings with it all the stresses and anxieties of chasing "cool" — the rules of inclusion are constantly changing, sometimes contradictory, and always half-buried under a snowdrift of asterisks.[^cool]
 
@@ -119,7 +130,7 @@ Trying to subscribe to a label brings with it all the stresses and anxieties of 
     
     \* Except Andre 3000. That dude can wear whatever he wants. Except some of his more questionable hats; big stupid hats are always uncool.**
     
-    ** Unless you're Pharrell Williams. He wore the shit out of that big stupid hat.
+    ** Unless you're Pharrell. He wore the shit out of that big stupid hat.
 
 ### Following rules is inherently uncool.
 
@@ -131,6 +142,14 @@ My band came on the tail end of a trendy sort of music called "emo". Emo emerged
 
 [^blood]:
     Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!"
+
+{{< caption src="/images/from-first-to-last.jpg"
+            align="center"
+            alt="From First To Last"
+            attr="From First To Last"
+            attrlink="https://www.facebook.com/FromFirstToLast/" >}}
+    Holy shit, is that Skrillex?
+{{< /caption >}}
 
 We wanted to make it, and "making it" as an emo band meant we had to _look_ like an emo band: black hair falling in our eyes, black eyeliner, tight t-shirt, white belt, skinny jeans — **it was a full-on uniform.**
 
