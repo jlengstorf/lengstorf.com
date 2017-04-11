@@ -42,6 +42,14 @@ Since writing that,[^long-time] the idea of labels has been rolling around in my
 
     Well, actually that's not true; I did a lot of work on this post in early 2016, and then panicked because I was worried people might not like it, so I sat on it for almost a year.
 
+{{< caption src="/images/jocks-and-nerds.jpg"
+            align="center"
+            alt="21 Jump Street"
+            attr="21 Jump Street"
+            attrlink="http://www.sonypictures.com/movies/21jumpstreet/" >}}
+    In high school, labels (or cliques) are obvious — but do they really go away when we become adults? Or get worse?
+{{< /caption >}}
+
 ## Why I Get Squeamish About Labels
 
 Until recently, however, I'd never asked myself _why_ I was uncomfortable with labels.
@@ -62,6 +70,11 @@ There are two discussions we can have about labels:
 2. The labels other people apply to us.
 
 I have _way_ too much privilege to talk about external labels — so I won't.
+
+{{< caption src="/images/mountains-of-privilege.jpg"
+            align="right"
+            alt="Mountains of Privilege" >}}
+{{< /caption >}}
 
 In this post, I'm _only_ talking about self-imposed labels, and my own strong opinions about why that's usually a bad idea.
 
@@ -105,6 +118,13 @@ The most damaging effect, though, is when we take these shortcuts with ourselves
 
     As soon as I challenged the assumption that labels dictate possibilities, I was able to see the opportunity, and it resulted in one of the [greatest adventures of my life so far]({{< ref "two-years-in-airbnbs.md" >}}).
 
+{{< caption src="/images/digital-nomads.jpg"
+            align="center"
+            alt="Digital nomads"
+            attr="Google Image Search"
+            attrlink="https://www.google.com/search?q=%22digital+nomad%22&tbm=isch" >}}
+  Apparently becoming a Digital Nomad means beaches and orange-colored beverages.
+{{< /caption >}}
 ## Adopting a Label Means Adopting a Set of Rules
 
 Becoming a Digital Nomad — if you believe the articles about it — would imply that you must meet certain criteria in order to officially belong to the group.
@@ -138,11 +158,6 @@ This is the paradox that labels present: we want to be part of these groups to b
 
 I learned this — much like I've learned most of my lessons — by refusing to accept it could be true until it was far too late.
 
-My band came on the tail end of a trendy sort of music called "emo". Emo emerged from the death throes of pop punk music, when kids got sick of songs about house parties. These were _emotional_ songs, with _feelings_ that _mattered_.[^blood] But we weren't just _emo_; we were part of a post-emo movement called screamo, which was an evolution of post-hardcore that wasn't veering toward butt rock, and then — hey, are you asleep? Sorry. Moving on.
-
-[^blood]:
-    Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!"
-
 {{< caption src="/images/from-first-to-last.jpg"
             align="center"
             alt="From First To Last"
@@ -151,11 +166,24 @@ My band came on the tail end of a trendy sort of music called "emo". Emo emerged
     Holy shit, is that Skrillex?
 {{< /caption >}}
 
+My band came on the tail end of a trendy sort of music called "emo". Emo emerged from the death throes of pop punk music, when kids got sick of songs about house parties. These were _emotional_ songs, with _feelings_ that _mattered_.[^blood] But we weren't just _emo_; we were part of a post-emo movement called screamo, which was an evolution of post-hardcore that wasn't veering toward butt rock, and then — hey, are you asleep? Sorry. Moving on.
+
+[^blood]:
+    Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!"
+
 We wanted to make it, and "making it" as an emo band meant we had to _look_ like an emo band: black hair falling in our eyes, black eyeliner, tight t-shirt, white belt, skinny jeans — **it was a full-on uniform.**
 
 I'd look at the cool kids in the emo scene and figure out how I could look more like them, which — presumably — would make me more emo (and therefore more cool).
 
 With the benefit of hindsight, I can see how absurd this all was. At the time, however, this seemed _critically important_.
+
+{{< caption src="/images/stoner.jpg"
+            align="center"
+            alt="Half Baked"
+            attr="Half Baked"
+            attrlink="http://www.imdb.com/title/tt0120693/" >}}
+    Legalize it, man. Like, fully!
+{{< /caption >}}
 
 ## Adopting a Label Makes You a Stereotype
 
@@ -174,6 +202,14 @@ Accurate or not, these are the stereotypes that haunt the people who choose to l
 
 If your Tinder bio reads, "I ❤️ CrossFit and Steve Jobs," **you've effectively outsourced your entire personality to two labels' accompanying stereotypes.** The person reading knows nothing about who you are, but they've now made sweeping assumptions based on their opinions about CrossFit and Apple.
 
+{{< caption src="/images/farmer.jpg"
+            align="right"
+            alt="Farmer"
+            attr="anned"
+            attrlink="https://pixabay.com/en/users/anned-1166062/" >}}
+    We like what we like, amirite?
+{{< /caption >}}
+
 Sometimes this can work in your favor. People who live in the country and only want to meet other country folk can use a site like [Farmers Only](https://www.farmersonly.com/) to seek out other people who define themselves as farmers.
 
 But more often than not, our labels isolate us in ways we didn't intend.
@@ -191,7 +227,7 @@ Pat the Digital Nomad is living in Southeast Asia, broke and socially inept, bec
 In each of these cases, we didn't need to meet Pat, or see Pat's behavior, to make a sweeping judgment about the content of Pat's character. For all we know, the Pat behind all three of these labels might be the same person.[^super-pat]
 
 [^super-pat]:
-    Pat the Anti-Vaxxing Digital Nomad Developer: currently renting a Balinese hovel, selling ebooks on how to make money as a digital nomad to fund the creation of a "killer app" that helps parents find the nearest [measles party](http://thinkprogress.org/health/2015/02/09/3621020/measles-parties-california/). Some people — mostly Pat — are calling it "the Uber of intentionally infecting children with diseases".
+    Pat the Anti-Vaxxing Digital Nomad Developer: currently renting a Balinese hovel, selling ebooks on how to make money as a digital nomad to fund the creation of a "killer app" that helps parents find the nearest [measles party](http://thinkprogress.org/health/2015/02/09/3621020/measles-parties-california/). Some people — mostly Pat — are calling it "the Uber of intentionally infecting children with diseases". He's currently confused because he's been catching shit from "haters" who think his company slogan — "giving your kid measles now so he can grow up and get mad bitches later, bro" — is sexist.
 
 That's the insidious thing: **rather than enhancing who we tell the world we are, labels completely overwrite us.** Labels replace our personalities — the things we do and say and stand for — with presumptions — the things our labels give us the appearance of doing and saying and standing for.
 
