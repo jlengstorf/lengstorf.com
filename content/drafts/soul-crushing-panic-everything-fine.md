@@ -51,7 +51,7 @@ And maybe that's the problem. You gave up your scapegoats when you killed God, b
 
 This shitty feeling that nothing is quite right? *You created it.*
 
-This whole world of yours — your little solipsistic slice of heaven — you hammered in each nail yourself, and if it feels more like a coffin than a trophy room, well, maybe you should have thought harder about how you framed up the walls.
+This whole world of yours — your little solipsistic slice of heaven — you hammered in each nail yourself, and if it feels more like a casket than a castle, well, maybe you should have thought harder about how you framed up the walls.
 
 [TKTK illustration two-panel comic hammering nail inside, outside view is a box w/no doors or windows]
 
