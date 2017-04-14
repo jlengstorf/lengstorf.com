@@ -47,65 +47,72 @@ Since writing that,[^long-time] the idea of labels has been rolling around in my
             alt="21 Jump Street"
             attr="21 Jump Street"
             attrlink="http://www.sonypictures.com/movies/21jumpstreet/" >}}
-    In high school, labels (or cliques) are obvious — but do they really go away when we become adults? Or get worse?
+    In high school, labels (a.k.a. cliques) are obvious — but do they really go away when we become adults? Or get worse?
 {{< /caption >}}
 
 ## Why I Get Squeamish About Labels
 
 Until recently, however, I'd never asked myself _why_ I was uncomfortable with labels.
 
-Why is it that, when I started a company, I wouldn't call it a "startup"?
+Why, when I started a company, wouldn't I call it a startup?
 
 When I talk about what I do, why do I shy away from terms like "founder" or "entrepreneur"?
 
-What's my aversion to becoming "a CrossFitter" or a "Digital Nomad"?
+What's my aversion to becoming "a CrossFitter" or "a Digital Nomad"?
 
-Of course, the _obvious_ reason is that I'm such a goddamned special little snowflake that no label can adequately express my excellence. But debilitating narcissism aside, I just don't feel comfortable waving the banners of a group.
+Of course, the _obvious_ reason is that I'm such a goddamned special little snowflake that no label can adequately express my excellence. But — debilitating narcissism aside — **I just don't feel comfortable waving the banners of a group.**
 
-### Before we start, let's talk about me and my mountains of privilege for a second.
+Why is that? And if you're in the same boat, what can we do instead?
+
+### But before we start, let's talk about me and my mountains of privilege for a second.
 
 There are two discussions we can have about labels:
 
 1. The labels we apply to ourselves.
 2. The labels other people apply to us.
 
-I have _way_ too much privilege to talk about external labels — so I won't.
-
 {{< caption src="/images/mountains-of-privilege.jpg"
             align="right"
             alt="Mountains of Privilege" >}}
 {{< /caption >}}
 
-In this post, I'm _only_ talking about self-imposed labels, and my own strong opinions about why that's usually a bad idea.
+I have _way_ too much privilege to talk about external labels — so I won't. In this post, I'm _only_ talking about self-imposed labels, and my own strong opinions about why that's usually a bad idea.
 
-Also, **I'm not intending this to be a "here's how everyone should live their lives" kind of thing. I want to kick off a discussion about the way we perceive and present ourselves.** Think what I'm saying is a bunch of bullshit? Let's talk about it (like adults) [in the comments](#comments).
+Also, **I'm not intending this to be a "here's how everyone should live their lives" kind of thing. I want to kick off a discussion about the way we perceive and present ourselves.**
+
+So if you think what I'm saying is a bunch of bullshit, let's talk about it (like adults) [in the comments](#comments).
 
 ## But Isn't "Anti-Label" a Label?
 
-"Whoa whoa whoa," I can hear you thinking. "Isn't 'anti-label' just another label that contrarian douchebags like you use to make themselves feel unique?"
+"Whoa whoa whoa," I can hear you thinking. "Isn't saying 'I'm anti-label' just another label that contrarian douchebags like you use to make themselves feel unique?"
 
-And it's hard for me to argue with that, because the difference between a rebellious teenager claiming anti-label as his label, and what I'm advocating here may just be a matter of opinion.
+And despite your hurtful tone,[^mean] it's hard for me to argue with that, because the difference between what I'm advocating here and a rebellious teenager claiming "anti-label" as his label may just be a matter of opinion.
+
+[^mean]:
+    Why are you so mean to me? Who hurt you?
 
 But my goal isn't to get people to describe me as "the anti-label guy". More importantly, I would never call myself that.
 
-### Labels are shortcuts, but they sell people short.
+## Labels Are Shortcuts That Sell You Short
 
   > Once you label me, you negate me.
   >
   > **Søren Kierkegaard**
 
-People are bombarded with information on all fronts from the time they wake up until the time they fall asleep. So we take shortcuts: clichés, proverbs, aphorisms, maxims, and precepts. In many cases, these shortcuts are helpful: they provide shorthand for behavioral codes of conduct, pass down general wisdom, and compress complex ideas into a compact phrase (e.g. "a bird in the hand is worth two in the bush").
+People are bombarded with information on all fronts from the time they wake up until the time they fall asleep. So we take shortcuts, substituting clichés, proverbs, aphorisms, maxims, and precepts for in-depth analysis. And in many cases these shortcuts are helpful: they provide shorthand for behavioral codes of conduct, pass down general wisdom, and encapsulate complex ideas in a compact phrase (e.g. "a bird in the hand is worth two in the bush").
 
 But when we take these shortcuts with people, things get weird. **Labels become stereotypes become prejudices, and we stop seeing someone as an individual — instead, we see her as a member of whatever group we've lumped her into.**[^white-guys]
 
 [^white-guys]:
-    Here's an example that always bothers me: most of the time, if Jenny is on the news or being interviewed, Jenny can't just be Jenny — **she's Jenny of the Women and therefore is burdened with all the preconceived roles and assumptions that society has placed on All Women.**
+    I know I said I wouldn't touch this, but it pisses me off.
+    
+    Here's an example: most of the time, if Jenny is on the news or being interviewed, Jenny can't just be Jenny — **she's Jenny of the Women and therefore is burdened with all the preconceived roles and assumptions that society has placed on All Women.**
 
     As I've been thinking more and more about this — specifically about how **labels supercede our personalities when we allow them to take over** — it hit me in a real way (as opposed to the dim understanding that something is true) that labels sit at the foundation of sexism, racism, and all the other -isms. And more importantly, I realized that _these issues have never affected me_. The idea that I, Jason, could somehow be a representative of All White Men is absurd — and it sounds absurd to everyone.
 
-    Yet somehow, whenever we see a woman or a black person or a Muslim in an interview, they're asked to answer questions on behalf of All Women or All Black People or All Muslims, as if it's somehow _not_ ridiculous to expect them to speak for "their group", as if there's a cabal of All Women that meets every second Thursday to hash out what they stand for, and which major events count as "big wins for women everywhere".
+    Yet we see a woman or a black person or a Muslim in an interview, and they're asked to answer questions on behalf of All Women or All Black People or All Muslims, as if it's somehow _not_ absurd to expect them to speak for "their group", as if there's a cabal of All Women that meets every second Thursday to hash out what they stand for, and which major events count as "big wins for women everywhere".
 
-    When I realized this, it was one of the first times that I _really_ grasped my own privilege.
+    My exemption from this kind of bullshit is what "privilege" means.
 
 ### We should never sell ourselves short.
 
@@ -114,7 +121,7 @@ The most damaging effect, though, is when we take these shortcuts with ourselves
 **If [the story I tell myself]({{< ref "blog/stories.md" >}}) is that I am my labels, I've cut off huge areas of opportunity for personal development, exploration, new ideas, and growth.** Not because I have an aversion to becoming better, but because I took a shortcut that prevented me from even seeing that those opportunities existed in the first place.[^traveler]
 
 [^traveler]:
-    The concept of travel was one of these moments in my life. I had always assumed that long-term travel was for Rich Travelers, and that label didn't apply to me. I believed I wasn't part of the group who could travel, so I never gave any consideration to whether or not I could do it.
+    The concept of travel was one of these moments in my life. I had always assumed that long-term travel was for Rich Travelers — a label that didn't apply to me. I believed I wasn't part of the group who could travel, so I never gave any consideration to whether or not I could do it.
 
     As soon as I challenged the assumption that labels dictate possibilities, I was able to see the opportunity, and it resulted in one of the [greatest adventures of my life so far]({{< ref "two-years-in-airbnbs.md" >}}).
 
@@ -134,14 +141,17 @@ You _must_ sell all your stuff and travel the world. You _must_ visit certain "D
 [^factions]:
     This in itself is a "rule" that bothers me: there is no real limit to what you can do remotely for work. If your job is based on the computer and/or conversation, [you can work from anywhere]({{< ref "remote-work-course.md" >}}).
 
-And while none of these rules are real — mostly they're the opinions of early-adopting writers who get cited by the next wave of writers (who are then cited by the mainstream writers who've started hearing about this "hot new trend") until the ideas become canon — they all create a mythos that becomes a label that creates barriers and pressure.
+**And while none of these rules are real,[^canon] they all create mythos, which becomes a label, which creates artificial barriers and social pressure.**
+
+[^canon]:
+    Mostly they're the opinions of early-adopting writers. These articles get cited by the next wave of writers (who are then cited by the mainstream writers who've started hearing about this "hot new trend"). Eventually things get repeated often enough that the ideas become canon.
 
 In the [Digital Nomad subreddit](https://www.reddit.com/r/digitalnomad/) there are frequent questions about "becoming a Digital Nomad" asking if one itinerary or another would qualify someone as a _Real™_ Digital Nomad.
 
-But asking whether you're _truly_ a Digital Nomad — as opposed to what? someone who works remotely and travels constantly? — is similar to asking if you're _truly_ a vegan: it depends who you ask, and what kind of mood they're in.[^veggies]
+But asking whether you're _truly_ a Digital Nomad — as opposed to what? someone who works remotely and regularly travels? — is similar to asking if you're _truly_ a vegan: it depends who you ask, and what kind of mood they're in.[^veggies]
 
 [^veggies]:
-    If you're not located in a city where vegans can be overheard infighting, imagine a religious debate over whether yeast can feel pain.
+    If you're not located in a city where vegans can be overheard infighting, picture a religious debate about whether yeast can feel pain.
 
 Trying to subscribe to a label brings with it all the stresses and anxieties of chasing "cool" — the rules of inclusion are constantly changing, sometimes contradictory, and always half-buried under a snowdrift of asterisks.[^cool]
 
@@ -154,9 +164,9 @@ Trying to subscribe to a label brings with it all the stresses and anxieties of 
 
 ### Following rules is inherently uncool.
 
-This is the paradox that labels present: we want to be part of these groups to become cooler, but we all look at people who join groups and follow their rules mindlessly as "sheep" or "drones" — _never_ as cool.
+This is the paradox that labels present: we presumably want to join these groups so people think we're cool. But we all look at people who join groups and mindlessly follow their rules as "sheep" or "drones" — _never_ as cool.
 
-I learned this — much like I've learned most of my lessons — by refusing to accept it could be true until it was far too late.
+I learned this — much like I've learned most of my lessons — by refusing to accept it until it was far too late to redeem myself.
 
 {{< caption src="/images/from-first-to-last.jpg"
             align="center"
@@ -171,11 +181,22 @@ My band came on the tail end of a trendy sort of music called "emo". Emo emerged
 [^blood]:
     Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!"
 
+{{< caption src="/images/bad-hair-decisions.jpg"
+            paddingBottomPercent="66.7"
+            align="right"
+            alt="bad hair decisions" >}}
+    WHY DIDN’T YOU TELL ME I LOOKED SO TERR— oh, you did? Repeatedly? Are you sure? I thought you said I looked great.
+{{< /caption >}}
+
 We wanted to make it, and "making it" as an emo band meant we had to _look_ like an emo band: black hair falling in our eyes, black eyeliner, tight t-shirt, white belt, skinny jeans — **it was a full-on uniform.**
 
 I'd look at the cool kids in the emo scene and figure out how I could look more like them, which — presumably — would make me more emo (and therefore more cool).
 
 With the benefit of hindsight, I can see how absurd this all was. At the time, however, this seemed _critically important_.
+
+## Adopting a Label Makes You a Stereotype
+
+Picture an Herbalife salesperson. A "legalize marijuana" activist. A yoga fanatic. A CrossFitter.
 
 {{< caption src="/images/stoner.jpg"
             align="center"
@@ -184,10 +205,6 @@ With the benefit of hindsight, I can see how absurd this all was. At the time, h
             attrlink="http://www.imdb.com/title/tt0120693/" >}}
     Legalize it, man. Like, fully!
 {{< /caption >}}
-
-## Adopting a Label Makes You a Stereotype
-
-Picture an Herbalife salesperson. A "legalize marijuana" activist. A yoga fanatic. A CrossFitter.
 
 Each of those labels carries stereotypes:
 
@@ -200,7 +217,7 @@ Accurate or not, these are the stereotypes that haunt the people who choose to l
 
 ### Why would anyone voluntarily become a stereotype?
 
-If your Tinder bio reads, "I ❤️ CrossFit and Steve Jobs," **you've effectively outsourced your entire personality to two labels' accompanying stereotypes.** The person reading knows nothing about who you are, but they've now made sweeping assumptions based on their opinions about CrossFit and Apple.
+If your Tinder bio reads, "I ❤️ CrossFit and Steve Jobs," **you've effectively outsourced your entire personality to two labels and their accompanying stereotypes.** The person reading knows nothing about who you are, but they've now made sweeping assumptions based on their opinions about CrossFit and Apple.
 
 {{< caption src="/images/farmer.jpg"
             align="right"
@@ -210,9 +227,9 @@ If your Tinder bio reads, "I ❤️ CrossFit and Steve Jobs," **you've effective
     We like what we like, amirite?
 {{< /caption >}}
 
-Sometimes this can work in your favor. People who live in the country and only want to meet other country folk can use a site like [Farmers Only](https://www.farmersonly.com/) to seek out other people who define themselves as farmers.
+Sometimes this can work in your favor. People who live in the country and only want to meet other country folk can use a site like [Farmers Only](https://www.farmersonly.com/) to seek out other people who define themselves as farmers — a perfectly valid way to find people with shared interests.
 
-But more often than not, our labels isolate us in ways we didn't intend.
+But more often than not, our self-applied labels isolate and limit us in ways we didn't intend.
 
 ### Just for fun, let's play with labels.
 
