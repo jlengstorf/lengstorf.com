@@ -13,10 +13,12 @@ description: >
     TKTK
 
 category:
--
+- happiness
 
 tag:
--
+- happiness
+- identity
+- judgment
 
 images:
 - /images/jason-lengstorf.jpg
@@ -231,49 +233,53 @@ Sometimes this can work in your favor. People who live in the country and only w
 
 But more often than not, our self-applied labels isolate and limit us in ways we didn't intend.
 
-### Just for fun, let's play with labels.
+### One human. Three labels. Vastly different assumptions.
 
-Pat the Human is a blank slate. We can make some basic assumptions — Pat most likely consumes food, sleeps, and occasionally goes on a Netflix binge — but beyond that we'd have to observe Pat to make our judgments.
+Pat the Human is a blank slate. We can make some basic assumptions — Pat most likely consumes food, sleeps, and occasionally goes on a Netflix binge — but beyond that we'd have to actually _meet_ Pat to make any judgments.
 
-Pat the Anti-Vaxxer, on the other hand, is a helicopter mom trying to shake up the monotony of upper-middle-class motherhood with attempted filicide.
+But if we add labels, shit gets weird.
+
+Pat the Anti-Vaxxer is a helicopter mom trying to shake up the monotony of upper-middle-class motherhood with attempted filicide.
 
 Pat the Startup Developer is a white dude who's ignorantly strengthening the patriarchy and only making the world better for other white dudes who prefer smartphones to people.
 
 Pat the Digital Nomad is living in Southeast Asia, broke and socially inept, because an ebook claimed you can live there for $300/month and make a fortune selling ebooks to ~~marks~~ <ins>people</ins> who want to become digital nomads.
 
-In each of these cases, we didn't need to meet Pat, or see Pat's behavior, to make a sweeping judgment about the content of Pat's character. For all we know, the Pat behind all three of these labels might be the same person.[^super-pat]
+When a label is applied, we will most likely make a sweeping judgment about the content of Pat's character. For all we know, the Pat behind all three of these labels might be the same person.[^super-pat]
 
 [^super-pat]:
-    Pat the Anti-Vaxxing Digital Nomad Developer: currently renting a Balinese hovel, selling ebooks on how to make money as a digital nomad to fund the creation of a "killer app" that helps parents find the nearest [measles party](http://thinkprogress.org/health/2015/02/09/3621020/measles-parties-california/). Some people — mostly Pat — are calling it "the Uber of intentionally infecting children with diseases". He's currently confused because he's been catching shit from "haters" who think his company slogan — "giving your kid measles now so he can grow up and get mad bitches later, bro" — is sexist.
+    Pat the Anti-Vaxxing Digital Nomad Developer: currently renting a Balinese hovel, selling ebooks on how to make money as a digital nomad to fund the creation of a "killer app" that helps parents find the nearest [measles party](http://thinkprogress.org/health/2015/02/09/3621020/measles-parties-california/). Some people — mostly Pat — are calling it "the Uber of intentionally infecting children with diseases". He's currently confused because he's catching shit from "haters" who think his company slogan — "giving your kid measles now so he can grow up and get mad bitches later, bro" — is sexist.
 
-That's the insidious thing: **rather than enhancing who we tell the world we are, labels completely overwrite us.** Labels replace our personalities — the things we do and say and stand for — with presumptions — the things our labels give us the appearance of doing and saying and standing for.
+That's the insidious thing: **rather than enhancing who we tell the world we are, labels tend to overwrite us.** Instead of letting our own actions and words and beliefs define us, labels let people define us with a set of culturally defined presumptions — meaning we're now defined by the actions and words and beliefs of whatever that label means to the person judging us.
 
-## \#3: Adopting a Label Means a Bunch of Strangers Can Fuck Up Your Reputation
+## Adopting a Label Means a Bunch of Strangers Can Fuck Up Your Reputation
 
 Closely related to stereotypes, another problem with adopting a label is the risk of letting other members of the group — total strangers in many cases — make decisions about how the rest of the world views you.
 
-In one of the saddest examples of how this can go wrong, imagine a Catholic priest. For over a thousand years, the life of a clergyman in the church was a respected position, largely considered a good thing.
+In one of the saddest examples of how the actions of other people, imagine a Catholic priest. What just came to mind?
 
-Then, news reports come out that that some Catholic priests are child molesters and that the church covered it up.
+In probably 99.9% of cases, members of the clergy are decent people with good intentions. But there's a reasonably good chance that's _not_ what you just thought about.
 
-Now, a good portion of the world is giving _all_ Catholic priests the side-eye, like, "I don't know about those priest types... I heard they're all kidfuckers."
+A lot of us probably just connected Catholic priests with pedophilia, because a few dirtbag pedophiles were _also_ priests.
+
+Thanks to a few perverts, a good portion of the world is giving _all_ Catholic priests the side-eye, like, "I don't know about those priest types... I heard they're all kidfuckers."
 
 Similarly, startup dudes everywhere are expected to be socially inept, micro-aggression-lobbing twenty- and thirty-something white males. The world sees _Silicon Valley_ and the [tragic bro-show nosedive happening at Uber](http://www.latimes.com/business/technology/la-fi-tn-uber-bad-month-20170224-story.html) and the idea sinks in that the people at startups are basically frat boys[^another-one] that passed math class.
 
 [^another-one]:
-    And another one: "frat boys". I didn't have to add any _actual_ description, because we're all already picturing a certain type of behavior.
+    And another one: "frat boys". I didn't have to add any real description, because we're all already picturing a certain type of behavior.
 
 Sometimes these strangers are the figureheads at the epicenter of the label, like in the case of Donald Trump giving renewed life to a caricature of Republicans as bigoted, out of touch, and largely solipsistic, leaving a lot of conservative-leaning Americans without a party to support.
 
-Other times — in the digital nomad movement, for instance — the strangers are bandwagon jumpers who exploit an angle and taint the entire community: hucksters who move to Prague for a month before launching their "how to become a digital nomad in Prague" ebook, attempting to capitalize on the media's current fascination with location-independent workers.
+Other times — in the digital nomad movement, for instance — the strangers are bandwagon jumpers who exploit an angle and taint the entire community: hucksters who stay in Prague for three weeks before launching their _How to Become a Digital Nomad in Prague_ ebook, attempting to capitalize on the media's current fascination with location-independent workers.
 
 In either case, **people who have nothing to do with you other than affixing the same label to themselves are now wielding influence over your reputation.**
 
-## \#4: Applying a Label Creates an "Us vs. Them"
+## Applying a Label Creates an "Us vs. Them"
 
 I'm not much of a gamer, but it was hard to miss the media shitstorm surrounding [Gamergate](https://en.wikipedia.org/wiki/Gamergate_controversy) a few years back.
 
-In the spirit of this article, I'm choosing not to research what _actually_ happened; I want to share the stereotypes that leaked out to me — the non-gamer — that are now attached to "gamers" in my brain.[^wifi]
+In the spirit of this article, I'm choosing not to research what _actually_ happened; I want to share the stereotypes that leaked out to me — a non-gamer — that are now attached to Gamers in my brain.[^wifi]
 
 [^wifi]:
     That, and I'm writing without a wifi connection right now and can't be bothered to look it up on my phone.
@@ -297,9 +303,12 @@ However, because they're "gamers", the group felt threatened by change, and — 
 
 **Labels create closed communities, and those communities become breeding grounds for extremism.**
 
-Even on an ostensibly open platform like social media, people are able to create curated lists of _only_ the people who match their labels, and as a result we've seen [misinformation and hate spread _faster_](http://www.cnn.com/2017/01/22/health/facebook-study-narrow-minded-trnd/), despite unprecedented access to facts and varied opinions.
+Even on an ostensibly open platform like social media, people are able to create curated lists of _only_ the people who match their labels, and as a result we've seen [misinformation and hate spread _faster_](http://www.cnn.com/2017/01/22/health/facebook-study-narrow-minded-trnd/), despite unprecedented access to facts and varied opinions.[^fake-news]
 
-**Finding our "tribe" (_read: fellow label adherents_) online gives us the illusion of control, but really it's an Orwellian form of mob justice. The label stands in for your conscience, substituting its own ends for your moral compass.**
+[^fake-news]:
+    When I first started working on this post, the "fake news" epidemic hadn't happened yet. I'm sincerely hoping that this is the terrifying conclusion to a dark moment in the early years of the Information Age, and not the harbinger of the death of critical thought.
+
+**Finding our "tribe" (_see also: fellow label adherents_) online gives us the illusion of control, but really it's an Orwellian form of mob justice. The tribe stands in for our conscience, substituting its own agenda for our moral compass.**
 
 When I was in my emo phase, I didn't respond to new situations by asking, "How do I want to respond to this?" Instead, I asked, "[What's the emo way to handle this?]({{< ref "no-one-is-coming-to-save-you.md" >}})"
 
@@ -307,9 +316,9 @@ In my case it was silly, but this line of reasoning becomes fucking terrifying w
 
 ## The Difference Between Doing a Thing and Being a Thing
 
-At this point it's probably safe to say I've offended CrossFitters, conservatives, Christians, digital nomads, the startup crowd, and several other groups.
+At this point it's probably safe to say I've offended — among others — CrossFitters, Christians, digital nomads, and the startup crowd.
 
-But if I've offended you (and you didn't close this tab in anger already), allow me to make an important distinction in this argument.
+But if I've offended you (and you didn't close this tab in anger already), allow me to draw an important distinction before you assume I'm saying CrossFit, Christianity, or location independence are bad things.
 
 **There is a _huge_ difference between "doing a thing" and "being a thing".**
 
@@ -327,34 +336,34 @@ We can _do_ a thing without all the trappings of _becoming_ a thing.
 
 I love to eat food; it's one of my key motivations for traveling. I choose destinations based on how appealing the cuisine sounds.
 
-But I would _never_ call myself a "foodie".
+But I wouldn't call myself a Foodie or a Gourmet.
 
-And that's okay. I can love food, seek out great dining experiences and new flavors and dishes — but I can also avoid all of the bullshit (I don't have to write food reviews, remember all the names of chefs, pretend I'm too good to eat fast food sometimes, or give a fuck about using the right terminology to describe what I'm tasting). I just eat, enjoy it, and go home.
+This means I can love food, seek out great dining experiences and new flavors and dishes — but avoid all of the bullshit (I don't have to write food reviews, remember the names of famous chefs, or pretend I'm too good to eat fast food sometimes). I eat, enjoy myself, and go home.
 
-I've also adopted parts of tech culture, tattoo culture, music culture, travel culture, and myriad other groups — all with their own labels — that make me the person I am now. But I do my best to skip the label, and for better or worse that lets me leave behind the pressure, the rules, the bullshit, the _externalization_ of what I stand for.
+I've also adopted my favorite parts of tech culture, music culture, travel culture, tattoo culture, and myriad other groups — all with their own labels — that make me the person I am now. But I do my best to skip the label, and for better or worse that lets me leave behind the pressure, the rules, the bullshit, the _externalization_ of what I stand for.
 
-I get to do my best to define myself as _myself_, and not as a patchwork of outsourced identities.
+**Because I don't apply labels to myself, I get to do my best to define myself as _myself_, and not as a patchwork of outsourced identities.**
 
-### Other people may label us, but we should never label ourselves.
+## Other People May Label Us, but We Should Never Label Ourselves
 
 My friend Richelle showed me this fantastically simple way of choosing things to worry about: draw a circle and label the inside, "Things I Can Control". The outside is "Things I Can't Control". Then write down all the things that are bothering you and place them either inside or outside that circle.
 
 TKTKimage of "things I can't control" chart
 
-Someone out there may call me a "digital nomad", or any number of other labels, both flattering and unflattering.
+Someone out there may call me a Digital Nomad or a Brogrammer or a Foodie or any number of other labels, both flattering and unflattering.
 
 I can't help that. Everyone gets their opinion.
 
 **I can't control what people believe about me; I _can_ control what I believe about myself.** Do I choose to believe that I'm restricted by the labels I've applied to myself? Or do I choose to make my decisions based on what will actually make me happy?
 
-I won't always get it right, but I'm sure as shit going to try and do the things that make me happy, and fuck worrying about a label that might contradict that choice.
+I won't always get it right, but I'm sure as shit going to choose the things that make me happy — and I'm certainly not going to worry about a label that might contradict that choice.
 
 Maybe I'm not "supposed to" do a certain thing because of what other people assume I should do and be, but when the chips are down, **I'll choose happiness over perceived appropriateness. Every. Fucking. Time.**
 
 ## Are You Interested in a Label-Free Life?
 
-This post isn't intended to be a definitive solution; it's a jumping-off point for a discussion about labels. This is what I've come up with after discussing my experience with a few of my closest friends, but my experience doesn't extend beyond me.
+I'm only going on my own experience here, so I want to hear what about this post felt right, and what felt wrong. _To you._
 
-So I want to hear what about this post felt right, and what felt wrong. _To you._
+**What impact have labels played in your life?** Have labels hurt you? Helped you? How?
 
-**What impact have labels played in your life?** Have labels hurt you? Helped you? And were those labels applied externally? Or did you apply them to yourself?
+**[Let's talk in the comments.](#comments)**
