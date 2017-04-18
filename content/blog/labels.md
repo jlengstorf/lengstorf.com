@@ -1,16 +1,15 @@
 ---
 date: 2017-03-27
 author: jason
-draft: true
 
 type: blog
 
 title: >
-    Reading the Label: How the ways we choose to describe ourselves can hurt us.
+    Read the Label: What we risk when we outsource our identities.
 seo_title: ""
 slug: labels
 description: >
-    TKTK
+    Labels define how other people perceive us. It’s time to rethink how much control we’re giving up when we assign labels to ourselves.
 
 category:
 - happiness
@@ -21,7 +20,7 @@ tag:
 - judgment
 
 images:
-- /images/jason-lengstorf.jpg
+- /images/jocks-and-nerds.jpg
 
 enable_disqus: true
 ---
@@ -49,7 +48,7 @@ Since writing that,[^long-time] the idea of labels has been rolling around in my
             alt="21 Jump Street"
             attr="21 Jump Street"
             attrlink="http://www.sonypictures.com/movies/21jumpstreet/" >}}
-    In high school, labels (a.k.a. cliques) are obvious — but do they really go away when we become adults? Or get worse?
+    In high school, labels (a.k.a. cliques) are obvious — but do they go away as we become adults? Or get worse?
 {{< /caption >}}
 
 ## Why I Get Squeamish About Labels
@@ -181,7 +180,7 @@ I learned this — much like I've learned most of my lessons — by refusing to 
 My band came on the tail end of a trendy sort of music called "emo". Emo emerged from the death throes of pop punk music, when kids got sick of songs about house parties. These were _emotional_ songs, with _feelings_ that _mattered_.[^blood] But we weren't just _emo_; we were part of a post-emo movement called screamo, which was an evolution of post-hardcore that wasn't veering toward butt rock, and then — hey, are you asleep? Sorry. Moving on.
 
 [^blood]:
-    Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!"
+    Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!" and [screeched like goats](https://www.youtube.com/watch?v=1paueaTWFRE) instead of singing from the top of our sinuses.
 
 {{< caption src="/images/bad-hair-decisions.jpg"
             paddingBottomPercent="66.7"
@@ -264,6 +263,16 @@ A lot of us probably just connected Catholic priests with pedophilia, because a 
 
 Thanks to a few perverts, a good portion of the world is giving _all_ Catholic priests the side-eye, like, "I don't know about those priest types... I heard they're all kidfuckers."
 
+{{< caption src="/images/brogrammers.gif"
+            srcset="/images/brogrammers.gif"
+            paddingBottomPercent="56"
+            align="right"
+            alt="it’s sexist but it’s about friendship"
+            attr="Silicon Valley"
+            attrlink="http://www.hbo.com/silicon-valley" >}}
+    ...except the sexism is far less endearing in real life.
+{{< /caption >}}
+
 Similarly, startup dudes everywhere are expected to be socially inept, micro-aggression-lobbing twenty- and thirty-something white males. The world sees _Silicon Valley_ and the [tragic bro-show nosedive happening at Uber](http://www.latimes.com/business/technology/la-fi-tn-uber-bad-month-20170224-story.html) and the idea sinks in that the people at startups are basically frat boys[^another-one] that passed math class.
 
 [^another-one]:
@@ -297,6 +306,16 @@ It's hard to imagine that many of the (who I assume to be) teenaged boys who sta
 [^clarification]:
     What I mean by that is that the average video-game-playing teenaged boy is very unlikely to receive new information about video games and, with very little preamble, respond with, "I WILL RAPE AND KILL YOU."
 
+{{< caption src="/images/echo-chamber.gif"
+            srcset="/images/echo-chamber.gif"
+            paddingBottomPercent="76.25"
+            align="right"
+            alt="vegans are just better than most people"
+            attr="The Simpsons"
+            attrlink="http://www.simpsonsworld.com/" >}}
+    If everyone around you agrees with you, that’s a bad sign.
+{{< /caption >}}
+
 However, because they're "gamers", the group felt threatened by change, and — galvanized by their label — they started kicking ideas around in an echo chamber. Since there wasn't much by way of dissenting opinion, the ideas were able to amplify and mutate, changing from a probably-innocuous-at-first idea ("I disagree with Felicia Day") to something horrifying ("We should kill Felicia Day").
 
 ### The most dangerous place to live is in an echo chamber.
@@ -324,6 +343,15 @@ But if I've offended you (and you didn't close this tab in anger already), allow
 
 There are people who go to a CrossFit gym. And then there are _CrossFitters_.
 
+{{< caption src="/images/vegan.gif"
+            srcset="/images/vegan.gif"
+            paddingBottomPercent="38.6"
+            align="right"
+            alt="vegans are just better than most people"
+            attr="Scott Pilgrim vs the World"
+            attrlink="http://amzn.to/2oeBOed" >}}
+{{< /caption >}}
+
 There are people who don't consume meat or animal products. And then there are _Vegans_.
 
 There are people who travel often and work remotely. And then there are _Digital Nomads_.
@@ -348,7 +376,14 @@ I've also adopted my favorite parts of tech culture, music culture, travel cultu
 
 My friend Richelle showed me this fantastically simple way of choosing things to worry about: draw a circle and label the inside, "Things I Can Control". The outside is "Things I Can't Control". Then write down all the things that are bothering you and place them either inside or outside that circle.
 
-TKTKimage of "things I can't control" chart
+{{< caption src="/images/things-i-can-control.jpg"
+            paddingBottomPercent="56.2"
+            align="center"
+            alt="Things I Can Control" >}}
+    If it’s not in the circle, it’s not worth stressing over.
+{{< /caption >}}
+
+Worrying about anything outside the circle will stress us out and frustrate us — for no gain. No amount of struggle, effort, or complaining on our part will affect things we can't control.
 
 Someone out there may call me a Digital Nomad or a Brogrammer or a Foodie or any number of other labels, both flattering and unflattering.
 
