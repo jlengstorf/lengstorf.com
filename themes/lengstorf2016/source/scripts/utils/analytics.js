@@ -4,13 +4,20 @@ const trackEvent = ({
   source = document.location.pathname,
   callback = (() => {}),
 }) => {
-  ga('send', {
-    hitType: 'event',
-    eventCategory: category,
-    eventAction: action,
-    eventLabel: source,
-    hitCallback: callback,
-  });
+  if (amplitude) {
+    amplitude.getInstance().logEvent(action, {
+      category,
+      source,
+    });
+  }
+
+  // ga('send', {
+  //   hitType: 'event',
+  //   eventCategory: category,
+  //   eventAction: action,
+  //   eventLabel: source,
+  //   hitCallback: callback,
+  // });
 };
 
 const analytics = {

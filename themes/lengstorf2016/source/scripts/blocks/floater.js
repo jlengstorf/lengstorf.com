@@ -40,7 +40,7 @@ const init = ({
       }
     }, 20);
 
-    document.addEventListener('scroll', () => { shouldAttachFixedClass(); });
+    document.addEventListener('scroll', shouldAttachFixedClass);
 
     shouldAttachFixedClass();
   }

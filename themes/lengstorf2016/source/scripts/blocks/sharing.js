@@ -15,8 +15,8 @@ const trackSharing = link => {
   };
 
   analytics.trackEvent({
-    category: 'share',
-    action: network,
+    action: 'share',
+    network,
     callback,
   });
 };

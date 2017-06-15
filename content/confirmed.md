@@ -1,23 +1,23 @@
-+++
-date = "2016-07-28"
-author = "jason"
+---
+date: 2016-07-28
+author: jason
 
-title = "Thank You"
-slug = "confirmed"
+title: Thank You
+slug: confirmed
 
-fbevent = "Lead"
+fbevent: Lead
+trackevent: confirm subscription
 
-aliases = [
-    "/productivity-habits/download/",
-    "/productivity-habits/confirmed/",
-    "/remote-work-course/confirmed/",
-    "/work-happier/confirmed/",
-]
+aliases:
+- /productivity-habits/download/
+- /productivity-habits/confirmed/
+- /remote-work-course/confirmed/
+- /work-happier/confirmed/
 
-images = [
-    "/images/jason-lengstorf.jpg",
-]
-+++
+images:
+- /images/jason-lengstorf.jpg
+---
+
 The free guide you requested is on its way.
 
 And as I continue to experiment with creating a happier, more balanced, more meaningful life for myself, I'll share the things I think might help make your life better, too.
