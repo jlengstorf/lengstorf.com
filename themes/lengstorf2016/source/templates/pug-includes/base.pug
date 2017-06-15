@@ -140,9 +140,11 @@ html(lang="en")
       footer.site__footer.footer
         block footer
           include ../pug-includes/footer
-          include ../pug-includes/footer_scripts
 
       block extras
 
     //- include ../pug-includes/footer_scripts
     include ../pug-includes/dev-only_footer-scripts
+    
+    block scripts
+      include ../pug-includes/footer_scripts

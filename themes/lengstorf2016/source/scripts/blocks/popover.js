@@ -82,6 +82,7 @@ const init = (config = {}) => {
 
     close.addEventListener('click', event => {
       event.preventDefault();
+      analytics.trackEvent({ action: 'close popover', category: 'popover' });
       closeHandler();
     });
 
@@ -93,12 +94,12 @@ const init = (config = {}) => {
           continue;
         }
 
-        let classes = [].map.call(element.classList, c => c);
+        const classes = [].map.call(element.classList, c => c);
 
         if (element && buttonModifier.test(classes)) {
           event.preventDefault();
           event.stopImmediatePropagation();
-          analytics.trackEvent({ category: 'popover' });
+          analytics.trackEvent({ action: 'open popover', category: 'popover' });
           showHandler();
           return;
         }

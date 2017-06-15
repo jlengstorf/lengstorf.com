@@ -5,6 +5,7 @@ import { fiveStagesInit } from './blocks/five-stages';
 import { scrollToLocalLinks } from './utils/scroll-to-anchor';
 import { lazyLoadImages } from 'responsive-lazyload';
 import { lazyLoadDisqus } from './utils/lazyload-disqus';
+import analytics from './utils/analytics';
 import popover from './blocks/popover';
 import floater from './blocks/floater';
 import sharing from './blocks/sharing';
@@ -26,6 +27,12 @@ document.addEventListener('click', event => {
   scrollToLocalLinks(event, {
     offsetAdjustment: 20,
   });
+});
+
+document.addEventListener('submit', (event) => {
+  if (analytics && event.target.classList.contains('opt-in__form')) {
+    analytics.trackEvent({ action: 'submit form' });
+  }
 });
 
 /*
