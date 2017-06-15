@@ -1,13 +1,25 @@
 {
-	"name": "@jlengstorf",
-	"icons": [
-		{
-			"src": "\/android-chrome-192x192.png",
-			"sizes": "192x192",
-			"type": "image\/png"
-		}
-	],
-	"theme_color": "#c700eb",
-	"background_color": "#c700eb",
-	"display": "standalone"
+  "name": "@jlengstorf",
+  "short_name": "PWA Workshop",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "\/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image\/png"
+    },
+    {
+      "src": "\/jl-icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image\/png"
+    },
+    {
+      "src": "\/jl-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+    }
+  ],
+  "theme_color": "#c700eb",
+  "background_color": "#c700eb",
+  "display": "standalone"
 }
