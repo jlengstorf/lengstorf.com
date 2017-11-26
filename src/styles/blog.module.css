@@ -1,0 +1,5 @@
+@import './footnotes.module.css';
+
+.blogHeading {
+  font-size: 1.375rem;
+}

@@ -1,0 +1,18 @@
+@import './_variables.css';
+
+.main {
+  margin: 5rem auto 1rem;
+  max-width: 90%;
+
+  @media (--medium) {
+    max-width: 650px;
+  }
+}
+
+.mainHome {
+  margin-top: 3rem;
+
+  @media (--medium) {
+    margin-top: 4rem;
+  }
+}

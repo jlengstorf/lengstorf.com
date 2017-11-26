@@ -1,0 +1,252 @@
+@import './_variables.css';
+
+html,
+body {
+  color: var(--color-text);
+  margin: 0;
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-sm);
+  line-height: 1.45;
+
+  @media (--medium) {
+    font-size: var(--font-size-md);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* + * {
+  margin-top: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-family: var(--font-family-heading);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-top: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  & + p {
+    margin-top: 0.5rem;
+  }
+}
+
+h2 { font-size: 1.5625rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.125rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+h4,
+h5,
+h6 {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+h3,
+h6 { font-weight: 600; }
+
+h4,
+h5 { font-weight: normal; }
+
+strong { color: var(--color-text-dark); }
+
+/* Footnotes are auto-generated, so a little bit of nonsense is required. */
+sup {
+  margin: 0 0.25em;
+}
+
+:global(.footnote-ref) {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  background-color: var(--color-gray);
+  border: 0;
+  border-radius: 50%;
+  color: var(--color-lightest);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: none;
+  transition: 200ms background-color linear;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: var(--color-purple);
+    color: var(--color-lightest);
+    border: 0;
+    outline: none;
+  }
+}
+
+:global(.heading) {
+  font-size: 1.5625rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0.5rem 0 0.25rem;
+  text-align: center;
+}
+
+/* IMAGES */
+
+:global(.gatsby-image-wrapper) img {
+  margin-top: 0;
+}
+
+:global(.image--full-width) {
+  width: calc(100% + 50px);
+  margin-left: -25px;
+}
+
+:global(.figure) {
+  width: 100%;
+}
+
+:global(.figure img) {
+  border: 1px solid var(--color-gray);
+  height: auto;
+  width: 100%;
+}
+
+:global(.figure--left),
+:global(.figure--right) {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (--medium) {
+  :global(.figure--center),
+  :global(.figure--left),
+  :global(.figure--right) {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  :global(.figure--center) {
+    max-width: calc(100% + 40px);
+    width: auto;
+  }
+
+  :global(.figure--left),
+  :global(.figure--right) {
+    margin-bottom: 20px;
+  }
+
+  :global(.figure--left) {
+    float: left;
+    margin-right: 30px;
+  }
+
+  :global(.figure--right) {
+    float: right;
+    margin-left: 30px;
+  }
+}
+
+:global(.figure__image-wrap) {
+  border: 1px solid var(--color-gray-alpha);
+  margin-bottom: 0;
+}
+
+:global(.figure__image-link) {
+  border: 0;
+}
+
+:global(.figure__caption) {
+  margin-top: 0.5rem;
+  padding: 0 0 0.5rem;
+  border-bottom: 1px solid var(--color-gray-alpha);
+  color: var(--color-gray);
+  font-size: 0.875rem;
+  line-height: 1rem;
+
+  @media (--medium) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+:global(.figure__caption:empty) {
+  display: none;
+}
+
+:global(.figure__attribution) {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--color-gray);
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media (--medium) {
+  :global(.figure--right .figure__caption) {
+    text-align: right;
+  }
+}
+
+:global(.figure__attribution-link) {
+  display: inline;
+  color: inherit;
+  font-size: 11px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+:global(.figure__attribution-link:active),
+:global(.figure__attribution-link:hover),
+:global(.figure__attribution-link:focus) {
+  color: var(--color-purple);
+  outline: 0;
+  text-decoration: underline;
+}
+
+/* UTILITY CLASSES */
+:global(.screen-reader-text) {
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+}
+
+:global(.text-sharp) {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:global(.btn) {
+  background: var(--color-purple);
+  border: 1px solid var(--color-lightest);
+  box-shadow: 2px 2px 0 var(--color-gray-alpha-extra);
+  border-radius: 4px;
+  color: var(--color-lightest);
+  display: block;
+  font-family: var(--font-family-heading);
+  font-size: 1.5625rem;
+  font-weight: 900;
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

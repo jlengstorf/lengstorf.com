@@ -1,0 +1,13 @@
+{
+  "extends": ["./node_modules/jl-toolbox/eslint.js"],
+  "globals": {
+    "graphql": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/anchor-is-valid": "off"
+  },
+  "env": {
+    "browser": true
+  }
+}

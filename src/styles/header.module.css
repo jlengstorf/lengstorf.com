@@ -1,0 +1,65 @@
+@import './global.css';
+
+.header {
+  background-color: var(--color-lightest);
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 1px;
+    width: calc(100% - 30px);
+    z-index: 1;
+  }
+
+  &::before {
+    top: calc(100% - 1px);
+    background-color: var(--color-purple);
+  }
+
+  &::after {
+    top: 100%;
+    background-color: var(--color-gray-alpha);
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.navLink {
+  color: var(--color-darkest);
+  font-family: var(--font-family-heading);
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0.5rem 0.625rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navLinkActive {
+  color: var(--color-purple);
+}
+
+.logo {
+  margin-right: 0.5rem;
+  padding: 0;
+  position: relative;
+  width: 42px;
+  z-index: 10;
+}
+
+.logoImage {
+  position: absolute;
+  width: 42px;
+}
