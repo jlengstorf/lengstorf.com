@@ -4,7 +4,10 @@ import PropTypes from 'prop-types';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Footnotes from '../components/Footnotes';
+import CTA from '../components/CTA';
 import styles from '../styles/blog.module.css';
+
+const getTitle = frontmatter => frontmatter.seo_title || frontmatter.title;
 
 export default class BlogPost extends React.Component {
   static propTypes = {
@@ -74,7 +77,7 @@ export default class BlogPost extends React.Component {
         postData={postData}
         isBlogPost
       />,
-      <Layout key={`layout-${postID}`} title={postData.frontmatter.seo_title}>
+      <Layout key={`layout-${postID}`} title={getTitle(postData.frontmatter)}>
         <article>
           <header>
             <h1 className={styles.blogHeading}>{postData.frontmatter.title}</h1>
@@ -83,6 +86,7 @@ export default class BlogPost extends React.Component {
             onClick={this.handleLinkClicks}
             dangerouslySetInnerHTML={{ __html: postData.html }}
           />
+          <CTA type={postData.frontmatter.cta} />
         </article>
         <Footnotes
           isActive={this.state.footnoteActive}
@@ -109,6 +113,7 @@ export const pageQuery = graphql`
         images
         seo_title
         slug
+        cta
       }
     }
     imageSharp(id: { regex: $imageRegex }) {

@@ -60,11 +60,17 @@ h6 { font-weight: 600; }
 h4,
 h5 { font-weight: normal; }
 
+ol,
+ul {
+  padding-left: 0.5rem;
+}
+
 strong { color: var(--color-text-dark); }
 
 /* Footnotes are auto-generated, so a little bit of nonsense is required. */
 sup {
-  margin: 0 0.25em;
+  margin: 0 0.125em;
+  line-height: 1;
 }
 
 :global(.footnote-ref) {
