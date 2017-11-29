@@ -30,7 +30,10 @@ lease on and thought to myself, "Clearly I've now arrived, and Jay-Z will be
 calling any minute to discuss how our lives are very different but equally
 awesome."
 
-[^yuppie]: The Pearl, as far as I can tell, is where people who've just moved to Portland go, because they're convinced that all the cool stuff in Portland is there. Then, after a year, they move to the east side because they've realized that the Pearl is where the more expensive version of the cool stuff is.<br><br>This story is from my days of paying way too much for things so I could be "where the action is".
+[^yuppie]:
+  The Pearl, as far as I can tell, is where people who've just moved to Portland go, because they're convinced that all the cool stuff in Portland is there. Then, after a year, they move to the east side because they've realized that the Pearl is where the more expensive version of the cool stuff is.
+  
+  This story is from my days of paying way too much for things so I could be "where the action is".
 
 <figure class="figure figure--center">
   <img
@@ -101,7 +104,8 @@ minutes of inconvenience?
 I could — and did — blame the building for its lack of forethought in designing
 the trash rooms.[^leed]
 
-[^leed]: "You're going to call yourself a LEED Platinum building and not even have a recycling chute? Get that weak-ass shit out of my face!"
+[^leed]:
+  "You're going to call yourself a LEED Platinum building and not even have a recycling chute? Get that weak-ass shit out of my face!"
 
 I could — and did — come up with numerous other excuses for why this was a
 failure of the management, or the system, or humanity in general.
@@ -130,8 +134,14 @@ most convenient thing.**
   particularly long day I'd go to a McDonald's in Japan instead of a local
   restaurant because I didn't have to think about the menu.[^mcdonalds]
 
-[^airbnb]: Despite [my love for Airbnb](/use-airbnb-like-a-pro), you can always count on two things when you check in:<br><br>1. Utterly terrible instant coffee<br>2. All IKEA everything
-[^mcdonalds]: Even though I was there, and I remember making the decision to do this, I'm still kind of outraged that I did this. Japan is easily top 3 places in the world for food, but somehow I decided Japanese menus were "too hard" and ordered a fucking Big Mac instead. _What the hell is wrong with me?_
+[^airbnb]:
+  Despite [my love for Airbnb](/use-airbnb-like-a-pro), you can always count on two things when you check in:
+  
+  1. Utterly terrible instant coffee
+  2. All IKEA everything
+
+[^mcdonalds]:
+  Even though I was there, and I remember making the decision to do this, I'm still kind of outraged that I did this. Japan is easily top 3 places in the world for food, but somehow I decided Japanese menus were "too hard" and ordered a fucking Big Mac instead. _What the hell is wrong with me?_
 
 This list could go on for days — I have dozens of examples of me making
 bad-but-convenient decisions, and I don't expect that this is a trend that will
@@ -175,7 +185,10 @@ that's not particularly productive. But if we look a little deeper and Find The
 Why[^ftw] another, more useful thread shows up: **these decisions are born out
 of convenience, not ignorance or malice.**
 
-[^ftw]: I should probably expand on this in its own post, but here's the short version: Find the Why is my shorthand for digging into the underlying cause of a feeling or situation. If we know what's happening underneath the feeling, we can find other things that help us seek out or avoid a given feeling without having to blindly try everything.<br><br>For example, I like web design. Why? Because I get a lot of satisfaction from solving complex problems and helping people distill knowledge in a way that makes it accessible to other people. Knowing this, I'm also interested in teaching and coaching because the fundamentals are the same.
+[^ftw]:
+  I should probably expand on this in its own post, but here's the short version: Find the Why is my shorthand for digging into the underlying cause of a feeling or situation. If we know what's happening underneath the feeling, we can find other things that help us seek out or avoid a given feeling without having to blindly try everything.
+  
+  For example, I like web design. Why? Because I get a lot of satisfaction from solving complex problems and helping people distill knowledge in a way that makes it accessible to other people. Knowing this, I'm also interested in teaching and coaching because the fundamentals are the same.
 
 So I'm not choosing to throw recyclables in the trash because I don't want to
 recycle; I'm doing it because I don't want to deal with the hassle of going to
@@ -194,7 +207,8 @@ sound discouraging at first, but it's actually great news.
 
 **It means that people aren't stupid or cruel; they're just lazy.**[^stupid]
 
-[^stupid]: Well, let me back that off a bit: many of the choices we would potentially chalk up to stupidity or cruelty can be chalked up to mere laziness. But that doesn't mean that some people aren't _also_ stupid and/or cruel.
+[^stupid]:
+  Well, let me back that off a bit: many of the choices we would potentially chalk up to stupidity or cruelty can be chalked up to mere laziness. But that doesn't mean that some people aren't _also_ stupid and/or cruel.
 
 So if we're aiming to change behavior — whether it's our own behavior or the
 behavior of other people — we don't need to convince them that something is The
@@ -234,7 +248,10 @@ In the past, everyone smoked and smoking was allowed everywhere — it was _easy
 to become a smoker. These days, it's far easier to just not bother at
 all.[^cigarettes]
 
-[^cigarettes]: When I played in a band, half or more of the people I met smoked. I slipped into the habit, and I became a pretty heavy smoker.<br><br>Then the band broke up. Continuing to smoke would mean regularly interrupting my workflow to go outside and smoke — where I'd get dirty looks from people on the street — then come back inside and get yelled at by my girlfriend for smelling bad. I quit for _entirely_ convenient reasons; health never even entered the conversation.
+[^cigarettes]:
+  When I played in a band, half or more of the people I met smoked. I slipped into the habit, and I became a pretty heavy smoker.
+  
+  Then the band broke up. Continuing to smoke would mean regularly interrupting my workflow to go outside and smoke — where I'd get dirty looks from people on the street — then come back inside and get yelled at by my girlfriend for smelling bad. I quit for _entirely_ convenient reasons; health never even entered the conversation.
 
 <figure class="figure figure--center">
   <img src="./images/monica-araya.jpg" alt="Monica Araya at TED." />
@@ -292,7 +309,8 @@ life:
    that I can't even _load_ Facebook, let alone use it to put off doing
    work.[^nuclear]
 
-[^nuclear]: Or, if you want to get _really_ serious, you can [schedule distraction-free time in advance](https://zapier.com/app/editor/template/5874?selected_apis=RescueTimeDevAPI,ScheduleAPI) — what Nate and I have started calling [Nuclear Mode](https://nategreen.org/self-discipline/).
+[^nuclear]:
+  Or, if you want to get _really_ serious, you can [schedule distraction-free time in advance](https://zapier.com/app/editor/template/5874?selected_apis=RescueTimeDevAPI,ScheduleAPI) — what Nate and I have started calling [Nuclear Mode](https://nategreen.org/self-discipline/).
 
 ## How Will You Make the Right Thing the Easy Thing?
 

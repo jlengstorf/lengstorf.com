@@ -35,7 +35,8 @@ included a section about my distaste for the label "digital nomad":
 Since writing that,[^long-time] the idea of labels has been rolling around in my
 head.
 
-[^long-time]: I've been working on this post for a _long_ time.<br/><br/>Well, actually that's not true; I did a lot of work on this post in early 2016, and then panicked because I was worried people might not like it, so I sat on it for almost a year.
+[^long-time]:
+  I've been working on this post for a _long_ time.<br/><br/>Well, actually that's not true; I did a lot of work on this post in early 2016, and then panicked because I was worried people might not like it, so I sat on it for almost a year.
 
 <figure class="figure figure--center">
   <img src="./images/jocks-and-nerds.jpg" alt="21 Jump Street" />
@@ -104,7 +105,8 @@ And despite your hurtful tone,[^mean] it's hard for me to argue with that,
 because the difference between what I'm advocating here and a rebellious
 teenager claiming "anti-label" as his label may just be a matter of opinion.
 
-[^mean]: Why are you so mean to me? Who hurt you?
+[^mean]:
+  Why are you so mean to me? Who hurt you?
 
 But my goal isn't to get people to describe me as "the anti-label guy". More
 importantly, I would never call myself that.
@@ -127,7 +129,16 @@ stereotypes become prejudices, and we stop seeing someone as an individual —
 instead, we see her as a member of whatever group we've lumped her
 into.**[^white-guys]
 
-[^white-guys]: I know I said I wouldn't touch this, but it pisses me off.<br/><br/>Here's an example: most of the time, if Jenny is on the news or being interviewed, Jenny can't just be Jenny — **she's Jenny of the Women and therefore is burdened with all the preconceived roles and assumptions that society has placed on All Women.**<br/><br/>As I've been thinking more and more about this — specifically about how **labels supercede our personalities when we allow them to take over** — it hit me in a real way (as opposed to the dim understanding that something is true) that labels sit at the foundation of sexism, racism, and all the other -isms. And more importantly, I realized that _these issues have never affected me_. The idea that I, Jason, could somehow be a representative of All White Men is absurd — and it sounds absurd to everyone.<br/><br/>Yet we see a woman or a black person or a Muslim in an interview, and they're asked to answer questions on behalf of All Women or All Black People or All Muslims, as if it's somehow _not_ absurd to expect them to speak for "their group", as if there's a cabal of All Women that meets every second Thursday to hash out what they stand for, and which major events count as "big wins for women everywhere".<br/><br/>My exemption from this kind of bullshit is what "privilege" means.
+[^white-guys]:
+  I know I said I wouldn't touch this, but it pisses me off.
+  
+  Here's an example: most of the time, if Jenny is on the news or being interviewed, Jenny can't just be Jenny — **she's Jenny of the Women and therefore is burdened with all the preconceived roles and assumptions that society has placed on All Women.**
+  
+  As I've been thinking more and more about this — specifically about how **labels supercede our personalities when we allow them to take over** — it hit me in a real way (as opposed to the dim understanding that something is true) that labels sit at the foundation of sexism, racism, and all the other -isms. And more importantly, I realized that _these issues have never affected me_. The idea that I, Jason, could somehow be a representative of All White Men is absurd — and it sounds absurd to everyone.
+  
+  Yet we see a woman or a black person or a Muslim in an interview, and they're asked to answer questions on behalf of All Women or All Black People or All Muslims, as if it's somehow _not_ absurd to expect them to speak for "their group", as if there's a cabal of All Women that meets every second Thursday to hash out what they stand for, and which major events count as "big wins for women everywhere".
+  
+  My exemption from this kind of bullshit is what "privilege" means.
 
 ### We should never sell ourselves short.
 
@@ -143,7 +154,10 @@ growth.** Not because I have an aversion to becoming better, but because I took
 a shortcut that prevented me from even seeing that those opportunities existed
 in the first place.[^traveler]
 
-[^traveler]: The concept of travel was one of these moments in my life. I had always assumed that long-term travel was for Rich Travelers — a label that didn't apply to me. I believed I wasn't part of the group who could travel, so I never gave any consideration to whether or not I could do it.<br/><br/>As soon as I challenged the assumption that labels dictate possibilities, I was able to see the opportunity, and it resulted in one of the [greatest adventures of my life so far](/two-years-in-airbnbs/).
+[^traveler]:
+  The concept of travel was one of these moments in my life. I had always assumed that long-term travel was for Rich Travelers — a label that didn't apply to me. I believed I wasn't part of the group who could travel, so I never gave any consideration to whether or not I could do it.
+  
+  As soon as I challenged the assumption that labels dictate possibilities, I was able to see the opportunity, and it resulted in one of the [greatest adventures of my life so far](/two-years-in-airbnbs/).
 
 <figure class="figure figure--center">
   <img src="./images/digital-nomads.jpg" alt="Digital nomads." />
@@ -168,12 +182,14 @@ You _must_ sell all your stuff and travel the world. You _must_ visit certain
 "DN hubs". You _must_ choose which faction you belong to: the Programmers, the
 Marketers and Drop-Shippers, or the Travel Bloggers.[^factions]
 
-[^factions]: This in itself is a "rule" that bothers me: there is no real limit to what you can do remotely for work. If your job is based on the computer and/or conversation, [you can work from anywhere](/remote-work-course/).
+[^factions]:
+  This in itself is a "rule" that bothers me: there is no real limit to what you can do remotely for work. If your job is based on the computer and/or conversation, [you can work from anywhere](/remote-work-course/).
 
 **And while none of these rules are real,[^canon] they all create mythos, which
 becomes a label, which creates artificial barriers and social pressure.**
 
-[^canon]: Mostly they're the opinions of early-adopting writers. These articles get cited by the next wave of writers (who are then cited by the mainstream writers who've started hearing about this "hot new trend"). Eventually things get repeated often enough that the ideas become canon.
+[^canon]:
+  Mostly they're the opinions of early-adopting writers. These articles get cited by the next wave of writers (who are then cited by the mainstream writers who've started hearing about this "hot new trend"). Eventually things get repeated often enough that the ideas become canon.
 
 In the [Digital Nomad subreddit](https://www.reddit.com/r/digitalnomad/) there
 are frequent questions about "becoming a Digital Nomad" asking if one itinerary
@@ -184,13 +200,19 @@ who works remotely and regularly travels? — is similar to asking if you're
 _truly_ a vegan: it depends who you ask, and what kind of mood they're
 in.[^veggies]
 
-[^veggies]: If you're not located in a city where vegans can be overheard infighting, picture a religious debate about whether yeast can feel pain.
+[^veggies]:
+  If you're not located in a city where vegans can be overheard infighting, picture a religious debate about whether yeast can feel pain.
 
 Trying to subscribe to a label brings with it all the stresses and anxieties of
 chasing "cool" — the rules of inclusion are constantly changing, sometimes
 contradictory, and always half-buried under a snowdrift of asterisks.[^cool]
 
-[^cool]: Men can't wear capri pants; that's just _unthinkably_ uncool.\*<br/><br/>\* Except Andre 3000. That dude can wear whatever he wants. Except some of his more questionable hats; big stupid hats are always uncool.\**<br/><br/>\** Unless you're Pharrell. He wore the shit out of that big stupid hat.
+[^cool]:
+  Men can't wear capri pants; that's just _unthinkably_ uncool.\*
+  
+  \* Except Andre 3000. That dude can wear whatever he wants. Except some of his more questionable hats; big stupid hats are always uncool.\**
+  
+  \** Unless you're Pharrell. He wore the shit out of that big stupid hat.
 
 ### Following rules is inherently uncool.
 
@@ -222,7 +244,8 @@ But we weren't just _emo_; we were part of a post-emo movement called screamo,
 which was an evolution of post-hardcore that wasn't veering toward butt rock,
 and then — hey, are you asleep? Sorry. Moving on.
 
-[^blood]: Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!" and [screeched like goats](https://www.youtube.com/watch?v=1paueaTWFRE) instead of singing from the top of our sinuses.
+[^blood]:
+  Just kidding. It was the same as pop punk, except we replaced lyrics like, "well I guess this is growing up," with, "jet black, the blood that's in your veins!" and [screeched like goats](https://www.youtube.com/watch?v=1paueaTWFRE) instead of singing from the top of our sinuses.
 
 <figure class="figure figure--right">
   <img src="./images/bad-hair-decisions.jpg" alt="Bad hair decisions." />
@@ -327,7 +350,8 @@ When a label is applied, we will most likely make a sweeping judgment about the
 content of Pat's character. For all we know, the Pat behind all three of these
 labels might be the same person.[^super-pat]
 
-[^super-pat]: Pat the Anti-Vaxxing Digital Nomad Developer: currently renting a Balinese hovel, selling ebooks on how to make money as a digital nomad to fund the creation of a "killer app" that helps parents find the nearest [measles party](http://thinkprogress.org/health/2015/02/09/3621020/measles-parties-california/). Some people — mostly Pat — are calling it "the Uber of intentionally infecting children with diseases". He's currently confused because he's catching shit from "haters" who think his company slogan — "giving your kid measles now so he can grow up and get mad bitches later, bro" — is sexist.
+[^super-pat]:
+  Pat the Anti-Vaxxing Digital Nomad Developer: currently renting a Balinese hovel, selling ebooks on how to make money as a digital nomad to fund the creation of a "killer app" that helps parents find the nearest [measles party](http://thinkprogress.org/health/2015/02/09/3621020/measles-parties-california/). Some people — mostly Pat — are calling it "the Uber of intentionally infecting children with diseases". He's currently confused because he's catching shit from "haters" who think his company slogan — "giving your kid measles now so he can grow up and get mad bitches later, bro" — is sexist.
 
 That's the insidious thing: **rather than enhancing who we tell the world we
 are, labels tend to overwrite us.** Instead of letting our own actions and words
@@ -376,7 +400,8 @@ sees _Silicon Valley_ and the
 and the idea sinks in that the people at startups are basically frat
 boys[^another-one] that passed math class.
 
-[^another-one]: And another one: "frat boys". I didn't have to add any real description, because we're all already picturing a certain type of behavior.
+[^another-one]:
+  And another one: "frat boys". I didn't have to add any real description, because we're all already picturing a certain type of behavior.
 
 Sometimes these strangers are the figureheads at the epicenter of the label,
 like in the case of Donald Trump giving renewed life to a caricature of
@@ -402,7 +427,8 @@ In the spirit of this article, I'm choosing not to research what _actually_
 happened; I want to share the stereotypes that leaked out to me — a non-gamer —
 that are now attached to Gamers in my brain.[^wifi]
 
-[^wifi]: That, and I'm writing without a wifi connection right now and can't be bothered to look it up on my phone.
+[^wifi]:
+  That, and I'm writing without a wifi connection right now and can't be bothered to look it up on my phone.
 
 Here's how I understood Gamergate:
 
@@ -420,7 +446,8 @@ It's hard to imagine that many of the (who I assume to be) teenaged boys who
 stalked and threatened people as part of Gamergate would ever do anything like
 that on their own.[^clarification]
 
-[^clarification]: What I mean by that is that the average video-game-playing teenaged boy is very unlikely to receive new information about video games and, with very little preamble, respond with, "I WILL RAPE AND KILL YOU."
+[^clarification]:
+  What I mean by that is that the average video-game-playing teenaged boy is very unlikely to receive new information about video games and, with very little preamble, respond with, "I WILL RAPE AND KILL YOU."
 
 <figure class="figure figure--right">
   <img src="./images/echo-chamber.gif" alt="Mr. Burns with a room full of yes men." />
@@ -454,7 +481,8 @@ seen
 [misinformation and hate spread _faster_](http://www.cnn.com/2017/01/22/health/facebook-study-narrow-minded-trnd/),
 despite unprecedented access to facts and varied opinions.[^fake-news]
 
-[^fake-news]: When I first started working on this post, the "fake news" epidemic hadn't happened yet. I'm sincerely hoping that this is the terrifying conclusion to a dark moment in the early years of the Information Age, and not the harbinger of the death of critical thought.
+[^fake-news]:
+  When I first started working on this post, the "fake news" epidemic hadn't happened yet. I'm sincerely hoping that this is the terrifying conclusion to a dark moment in the early years of the Information Age, and not the harbinger of the death of critical thought.
 
 **Finding our "tribe" (_see also: fellow label adherents_) online gives us the
 illusion of control, but really it's an Orwellian form of mob justice. The tribe
