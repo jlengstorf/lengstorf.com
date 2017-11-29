@@ -5,9 +5,14 @@
   },
   "rules": {
     "react/jsx-filename-extension": "off",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "prettier/prettier": [
+      "error",
+      { "bracketSpacing": true, "trailingComma": "all", "singleQuote": true }
+    ]
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "node": true
   }
 }
