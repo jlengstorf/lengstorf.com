@@ -62,7 +62,7 @@ h5 { font-weight: normal; }
 
 ol,
 ul {
-  padding-left: 0.5rem;
+  padding-left: 1.25rem;
 }
 
 strong { color: var(--color-text-dark); }
