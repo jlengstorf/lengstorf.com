@@ -60,7 +60,12 @@ export default class BlogPost extends React.Component {
   render() {
     const { data: { markdownRemark: postData, imageSharp } } = this.props;
     const postID = postData.internal.contentDigest;
-    const postImage = imageSharp.sizes.src;
+
+    // TODO get the rest of the images in place.
+    const postImage = imageSharp && imageSharp.sizes && imageSharp.sizes.src;
+    if (!postImage) {
+      console.log(`TODO: Add image for ${this.props.pathContext.slug}`);
+    }
 
     return [
       <SEO
@@ -70,11 +75,15 @@ export default class BlogPost extends React.Component {
         isBlogPost
       />,
       <Layout key={`layout-${postID}`} title={postData.frontmatter.seo_title}>
-        <h1 className={styles.blogHeading}>{postData.frontmatter.title}</h1>
-        <div
-          onClick={this.handleLinkClicks}
-          dangerouslySetInnerHTML={{ __html: postData.html }}
-        />
+        <article>
+          <header>
+            <h1 className={styles.blogHeading}>{postData.frontmatter.title}</h1>
+          </header>
+          <section
+            onClick={this.handleLinkClicks}
+            dangerouslySetInnerHTML={{ __html: postData.html }}
+          />
+        </article>
         <Footnotes
           isActive={this.state.footnoteActive}
           number={this.state.footnoteNumber}

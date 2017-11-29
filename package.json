@@ -31,6 +31,7 @@
     "gatsby-transformer-sharp": "^1.6.14",
     "lodash": "^4.17.4",
     "lodash-webpack-plugin": "^0.11.4",
+    "lodash.template": "^4.4.0",
     "prop-types": "^15.6.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",

@@ -1,5 +1,65 @@
-@import './footnotes.module.css';
+@import './_variables.css';
 
 .blogHeading {
   font-size: 1.375rem;
+}
+
+.blogPreviewMainHeading {
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.blogPreview {
+  border-bottom: 1px solid var(--color-gray-alpha);
+  padding-bottom: 1.25rem;
+}
+
+.blogPreviewHeading {
+  font-size: 1.25rem;
+}
+
+.blogPreviewLink {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blogPreviewMeta {
+  font-size: 0.625rem;
+  margin-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.blogPreviewMetaTagLink {
+  color: var(--color-gray);
+  font-size: 0.625rem;
+  margin-right: 0.25rem;
+
+  &::before {
+    content: '#';
+  }
+}
+
+.blogPreviewDescription {
+  margin-top: 0.5rem;
+}
+
+.blogPreviewReadMoreLink {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blogMetaLink {
+  background-color: var(--color-text);
+  border-radius: 1em;
+  color: var(--color-lightest);
+  line-height: 1;
+  margin: 0 0.125rem;
+  padding: 0.025rem 0.5rem 0.125rem;
+  text-decoration: none;
 }
