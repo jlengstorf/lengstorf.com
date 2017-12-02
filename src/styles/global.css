@@ -73,6 +73,58 @@ sup {
   line-height: 1;
 }
 
+blockquote {
+  padding: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 1px solid var(--color-purple);
+  border-bottom: 1px solid var(--color-purple);
+  color: color(var(--color-text) tint(10%));
+  font-size: 1.125rem;
+  font-style: italic;
+
+  @media (--medium) {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+blockquote > p:last-child {
+  margin-top: 0.25rem;
+}
+
+blockquote > p:last-child strong:only-child {
+  display: block;
+  color: var(--color-gray);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: right;
+
+  &::before {
+    content: '– ';
+  }
+}
+
+blockquote > p:last-child strong:only-child a {
+  border-color: var(--color-gray);
+  color: inherit;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: var(--color-purple);
+    color: color(var(--color-purple) shade(7.5%));
+  }
+}
+
+abbr {
+  border-bottom: 1px dotted var(--color-gray);
+  cursor: help;
+}
+
 :global(.footnote-ref) {
   display: inline-block;
   height: 14px;
@@ -221,6 +273,26 @@ sup {
   color: var(--color-purple);
   outline: 0;
   text-decoration: underline;
+}
+
+:global(.tweetable__link) {
+  display: block;
+  margin-top: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+:global(.twitter-tweet-rendered) {
+  margin: 1.25rem auto !important; /* Twitter applies element styles 😭 */
 }
 
 /* UTILITY CLASSES */

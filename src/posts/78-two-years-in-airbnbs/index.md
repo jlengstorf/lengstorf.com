@@ -41,10 +41,15 @@ of 2014, I had no idea whether or not I was right about _any_ of these
 hypotheses. Sure, I had my gut feelings and I'd done my research, but without
 putting it into practice, I was still making educated guesses at best.
 
-{{% tweetable url="https://lengstorf.com/two-years-in-airbnbs/" via="jlengstorf"
-intent_url="https://twitter.com/intent/retweet?tweet_id=829004323338190848"
-%}}Knowing a thing and doing a thing are two very different things.{{%
-/tweetable %}}
+<blockquote class="tweetable">
+  <p class="tweetable__text">
+    Knowing a thing and doing a thing are two very different things.
+  </p>
+  <a class="tweetable__link"
+      href="https://twitter.com/intent/retweet?tweet_id=829004323338190848">
+    Tweet That Shit!
+  </a>
+</blockquote>
 
 Now it's been two years, and I've been testing these hypotheses the whole time.
 So... was I right?
