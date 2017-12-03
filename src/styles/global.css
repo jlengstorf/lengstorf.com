@@ -267,9 +267,9 @@ abbr {
   text-decoration: none;
 }
 
-:global(.figure__attribution-link:active),
-:global(.figure__attribution-link:hover),
-:global(.figure__attribution-link:focus) {
+:global(a.figure__attribution-link:active),
+:global(a.figure__attribution-link:hover),
+:global(a.figure__attribution-link:focus) {
   color: var(--color-purple);
   outline: 0;
   text-decoration: underline;
