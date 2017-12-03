@@ -5,9 +5,17 @@
   display: none;
 }
 
-/* Unless JS is disabled */
-:global(.no-js .footnotes) {
+:global(.footnote-image) {
   display: block;
+  max-width: 100%;
+}
+
+:global(.footnote-image--right) {
+  @media (--medium) {
+    float: right;
+    max-width: 45%;
+    margin: 1rem 0 1rem 2rem;
+  }
 }
 
 .footnoteDisplay {
