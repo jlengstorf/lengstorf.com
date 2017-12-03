@@ -82,6 +82,7 @@ blockquote {
   color: color(var(--color-text) tint(10%));
   font-size: 1.125rem;
   font-style: italic;
+  overflow: hidden;
 
   @media (--medium) {
     margin-left: -20px;
@@ -89,10 +90,6 @@ blockquote {
     padding-left: 20px;
     padding-right: 20px;
   }
-}
-
-blockquote > p:last-child {
-  margin-top: 0.25rem;
 }
 
 blockquote > p:last-child strong:only-child {
@@ -237,6 +234,10 @@ abbr {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+:global(blockquote .figure__caption) {
+  border-bottom: none;
 }
 
 :global(.figure__caption:empty) {
