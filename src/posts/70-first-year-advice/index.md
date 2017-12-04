@@ -248,20 +248,6 @@ successful freelancers, agency owners, business consultants, and more — who we
 all happy to share their stories about where they'd been, what they'd learned,
 and what they wished they'd known when they were in my position.
 
-<figure class="figure figure--right">
-  <img src="./images/not-following-advice.gif" alt="Not following directions." />
-  <figcaption class="figure__caption">
-    “Yeah, I see what you’re saying, but I’m pretty sure I’ve got this.”
-    <small class="figure__attribution">
-      Credit: 
-      <a class="figure__attribution-link" 
-         href="https://imgur.com/vXnZDDR">
-        Imgur
-      </a>
-    </small>
-  </figcaption>
-</figure>
-
 These folks had _mountains of information_ that was applicable and helpful to me
 as I grew my business.
 
