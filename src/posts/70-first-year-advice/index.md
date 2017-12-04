@@ -17,7 +17,7 @@ tag:
 - productivity
 
 images:
-- /images/jason-lengstorf.jpg
+- /images/jason-the-emo-kid.jpg
 
 cta: default
 ---
