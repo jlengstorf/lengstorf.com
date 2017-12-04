@@ -66,6 +66,7 @@ ul {
 }
 
 strong { color: var(--color-text-dark); }
+a strong { color: inherit; }
 
 /* Footnotes are auto-generated, so a little bit of nonsense is required. */
 sup {
