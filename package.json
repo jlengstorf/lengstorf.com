@@ -16,7 +16,6 @@
     "gatsby-link": "^1.6.22",
     "gatsby-plugin-catch-links": "^1.0.9",
     "gatsby-plugin-manifest": "^1.0.8",
-    "gatsby-plugin-nprogress": "^1.0.7",
     "gatsby-plugin-offline": "^1.0.10",
     "gatsby-plugin-react-css-modules": "^1.0.9",
     "gatsby-plugin-react-helmet": "^2.0.1",

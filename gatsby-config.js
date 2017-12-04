@@ -36,7 +36,7 @@ module.exports = {
       options: {
         name: 'Jason Lengstorf',
         short_name: '@jlengstorf',
-        start_url: '/',
+        start_url: '.',
         theme_color: '#c800ec',
         background_color: '#c800ec',
         display: 'minimal-ui',
@@ -55,11 +55,5 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        color: `#c800ec`,
-      },
-    },
   ],
 };
