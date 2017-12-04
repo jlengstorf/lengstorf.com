@@ -29,6 +29,7 @@ h4,
 h5,
 h6 {
   color: var(--color-heading);
+  font-display: swap;
   font-family: var(--font-family-heading);
   font-weight: 900;
   line-height: 1.1;
