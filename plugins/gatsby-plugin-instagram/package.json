@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-plugin-instagram",
+  "version": "1.0.0",
+  "description": "Adds the Instagram embed script to the site.",
+  "main": "index.js",
+  "repository": "https://github.com/jlengstorf/gatsby-plugin-instagram.git",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "license": "MIT"
+}

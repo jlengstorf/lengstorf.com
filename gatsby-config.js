@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-twitter',
+    'gatsby-plugin-instagram',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     {
