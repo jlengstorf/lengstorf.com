@@ -18,9 +18,7 @@ body {
   margin: 0;
 }
 
-* + * {
-  margin-top: 1rem;
-}
+* + * { margin-top: 1rem; }
 
 h1,
 h2,
@@ -61,9 +59,8 @@ h4,
 h5 { font-weight: normal; }
 
 ol,
-ul {
-  padding-left: 1.25rem;
-}
+ul { padding-left: 1.25rem; }
+li { margin-top: 0.5rem; }
 
 strong { color: var(--color-text-dark); }
 a strong { color: inherit; }
@@ -75,15 +72,14 @@ sup {
 }
 
 blockquote {
-  padding: 1rem;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-top: 1px solid var(--color-purple);
   border-bottom: 1px solid var(--color-purple);
+  border-top: 1px solid var(--color-purple);
+  clear: both;
   color: color(var(--color-text) tint(10%));
   font-size: 1.125rem;
   font-style: italic;
   overflow: hidden;
+  padding: 1rem 10px;
 
   @media (--medium) {
     margin-left: -20px;
@@ -93,7 +89,7 @@ blockquote {
   }
 }
 
-blockquote > p:last-child strong:only-child {
+:global(blockquote > p:last-child strong:only-child:not(.no-attribution)) {
   display: block;
   color: var(--color-gray);
   font-size: 0.75rem;
@@ -293,8 +289,9 @@ abbr {
   }
 }
 
-:global(.twitter-tweet-rendered) {
-  margin: 1.25rem auto !important; /* Twitter applies element styles 😭 */
+:global(.twitter-tweet-rendered),
+:global(.instagram-media-rendered) {
+  margin: 1.25rem auto !important; /* Override element styles 😭 */
 }
 
 /* UTILITY CLASSES */

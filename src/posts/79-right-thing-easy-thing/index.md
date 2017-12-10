@@ -319,4 +319,4 @@ anyways because it's more convenient?
 
 How could you tweak things so the right choice becomes more convenient?
 
-[Let’s talk about it on Twitter.](https://twitter.com/intent/tweet?url=lengstorf.com/right-thing-easy-thing&text=%40jlengstorf)
+[Let’s talk about it on Twitter.](https://twitter.com/intent/tweet?url=https://lengstorf.com/right-thing-easy-thing&text=%40jlengstorf)
