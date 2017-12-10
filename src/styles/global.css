@@ -1,4 +1,5 @@
 @import './_variables.css';
+@import './five-stages.css';
 
 html,
 body {
@@ -117,6 +118,7 @@ blockquote > p:last-child strong:only-child a {
 abbr {
   border-bottom: 1px dotted var(--color-gray);
   cursor: help;
+  text-decoration: none;
 }
 
 :global(.footnote-ref) {
