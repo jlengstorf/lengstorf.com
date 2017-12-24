@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
+import FloatingHead from '../components/FloatingHead';
 import Footnotes from '../components/Footnotes';
 import CTA from '../components/CTA';
 import styles from '../styles/blog.module.css';
@@ -61,7 +62,9 @@ export default class BlogPost extends React.Component {
   };
 
   render() {
-    const { data: { markdownRemark: postData, imageSharp } } = this.props;
+    const {
+      data: { markdownRemark: postData, imageSharp, thumb },
+    } = this.props;
     const postID = postData.internal.contentDigest;
 
     // TODO get the rest of the images in place.
@@ -77,16 +80,22 @@ export default class BlogPost extends React.Component {
         postData={postData}
         isBlogPost
       />,
-      <Layout key={`layout-${postID}`} title={getTitle(postData.frontmatter)}>
-        <article>
-          <header>
+      <Layout
+        key={`layout-${postID}`}
+        title={getTitle(postData.frontmatter)}
+        blog
+      >
+        <article className={styles.blog}>
+          <header className={styles.blogHeader}>
             <h1 className={styles.blogHeading}>{postData.frontmatter.title}</h1>
           </header>
           <section
+            className={styles.blogArticle}
             onClick={this.handleLinkClicks}
             dangerouslySetInnerHTML={{ __html: postData.html }}
           />
           <CTA type={postData.frontmatter.cta} />
+          <FloatingHead className={styles.blogFloatingHead} thumb={thumb} />
         </article>
         <Footnotes
           isActive={this.state.footnoteActive}
@@ -119,6 +128,11 @@ export const pageQuery = graphql`
     imageSharp(id: { regex: $imageRegex }) {
       sizes(maxWidth: 1380) {
         src
+      }
+    }
+    thumb: imageSharp(id: { regex: "/jason-lengstorf-square/" }) {
+      sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+        ...GatsbyImageSharpSizes_tracedSVG
       }
     }
   }

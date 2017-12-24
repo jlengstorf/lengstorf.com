@@ -171,7 +171,7 @@ abbr {
 }
 
 :global(.figure img) {
-  border: 1px solid var(--color-gray);
+  border: 1px solid var(--color-gray-alpha);
   height: auto;
   width: 100%;
 }

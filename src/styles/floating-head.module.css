@@ -1,0 +1,10 @@
+@import './_variables.css';
+
+.floatingHead {
+}
+
+.floatingHeadImage {
+  display: block;
+  border: 1px solid var(--color-gray-alpha);
+  border-radius: 50%;
+}

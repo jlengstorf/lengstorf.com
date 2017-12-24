@@ -16,3 +16,11 @@
     margin-top: 4rem;
   }
 }
+
+.mainBlog {
+  @supports (display: grid) {
+    @media (--medium) {
+      max-width: calc(120px + 2rem + 65ch);
+    }
+  }
+}

@@ -1,7 +1,33 @@
 @import './_variables.css';
 
+@supports (display: grid) {
+  .blog {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template: repeat(2, auto) / 120px 1fr;
+  }
+
+  .blogHeader,
+  .blogArticle {
+    grid-column-start: 2;
+  }
+
+  .blogFloatingHead {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    height: 300px;
+  }
+}
+
+@supports (position: sticky) {
+  .blogFloatingHead {
+    position: sticky;
+    top: 7rem;
+  }
+}
+
 .blogHeading {
-  font-size: 1.375rem;
+  font-size: 1.6rem;
 }
 
 .blogPreviewMainHeading {
