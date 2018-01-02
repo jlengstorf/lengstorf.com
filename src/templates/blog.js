@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Layout from '../components/Layout';
+import CategoryLink from '../components/CategoryLink';
+import TagLink from '../components/TagLink';
 import Pagination from '../components/Pagination';
 import config from '../config';
 import styles from '../styles/blog.module.css';
@@ -36,40 +38,28 @@ const Blog = ({
   },
 }) => (
   <Layout title="Blog">
-    <h1 className={styles.blogPreviewMainHeading}>
+    <h1 className={styles.previewPageHeading}>
       {getHeading(isFirstPage, currentPage, totalPages, type, value)}
     </h1>
     {postGroup.map(({ node: post }) => (
-      <section key={post.id} className={styles.blogPreview}>
-        <h2 className={styles.blogPreviewHeading}>
-          <Link
-            className={styles.blogPreviewLink}
-            to={`/${post.frontmatter.slug}`}
-          >
+      <section key={post.id} className={styles.preview}>
+        <h2 className={styles.previewHeading}>
+          <Link className={styles.link} to={`/${post.frontmatter.slug}`}>
             {post.frontmatter.title}
           </Link>
         </h2>
-        <div className={styles.blogPreviewMeta}>
-          {post.frontmatter.category.map(cat => (
-            <Link to={`/blog/category/${cat}`} className={styles.blogMetaLink}>
-              {config.categories[cat].display || cat}
-            </Link>
+        <div className={styles.categoryList}>
+          {post.frontmatter.category.map(category => (
+            <CategoryLink category={category} />
           ))}
         </div>
-        <p className={styles.blogPreviewDescription}>
+        <p className={styles.excerpt}>
           {post.frontmatter.description
             ? post.frontmatter.description
             : post.excerpt}
         </p>
-        {post.frontmatter.tag.map(t => (
-          <Link to={`/blog/tag/${t}`} className={styles.blogPreviewMetaTagLink}>
-            {t}
-          </Link>
-        ))}
-        <Link
-          className={styles.blogPreviewReadMoreLink}
-          to={`/${post.frontmatter.slug}`}
-        >
+        {post.frontmatter.tag.map(tag => <TagLink tag={tag} />)}
+        <Link className={styles.readMore} to={`/${post.frontmatter.slug}`}>
           Read post ›
         </Link>
       </section>

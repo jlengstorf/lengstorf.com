@@ -1,51 +1,70 @@
+/* eslint react/no-danger: "off" */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
 import Layout from '../components/Layout';
+import OptIn from '../components/OptIn';
 import Beard from '../images/jason-lengstorf-beard.svg';
-import styles from '../styles/about.module.css';
+import styles from '../styles/page.module.css';
 
 const About = ({ data }) => (
-  <Layout title="About">
+  <Layout title={data.page.frontmatter.title}>
     <img
       src={Beard}
       alt="Silhouette of Jason Lengstorf’s glasses and beard."
       className={styles.beardImage}
     />
-    <h1 className="heading">
-      I’m Jason Lengstorf. Developer. Designer. Speaker. Friendly{' '}
+    <h1 className={styles['heading--centered']}>I’m Jason Lengstorf.</h1>
+    <h2 className={styles.subheading}>
+      Developer. Designer. Speaker. Friendly{' '}
       <span role="img" aria-label="Bear">
         🐻
       </span>.
-    </h1>
-    <p>
-      This should be about 25 words of intro description. This should be about
-      25 words of intro description. This should be about 25 words of intro
-      description.
-    </p>
-    <Img
-      className="image--full-width"
-      style={{ display: `inherit` }}
-      alt="Jason Lengstorf in Tokyo."
-      sizes={data.jasonImage.sizes}
+    </h2>
+    <div className={styles['official-bio']}>
+      <p>
+        <strong>
+          <small>Super Official Third Person Bio™:</small>
+        </strong>
+      </p>
+      <p className={styles.lede} style={{ marginTop: '0.25rem' }}>
+        {data.page.frontmatter.bio}
+      </p>
+    </div>
+    <section dangerouslySetInnerHTML={{ __html: data.page.html }} />
+    <OptIn
+      button={data.page.frontmatter.optin.button}
+      group={data.page.frontmatter.optin.group}
     />
+    <p className={styles['opt-in-notice']}>
+      Note: I will never share your email or spam you with nonsense. Because I’m
+      not a dick.
+    </p>
   </Layout>
 );
 
 About.propTypes = {
   data: PropTypes.shape({
-    jasonImage: PropTypes.any.isRequired,
+    page: PropTypes.shape({
+      frontmatter: PropTypes.any.isRequired,
+      html: PropTypes.string.isRequired,
+    }),
   }).isRequired,
 };
 
-export default About;
-
 export const query = graphql`
   query AboutQuery {
-    jasonImage: imageSharp(id: { regex: "/jason-lengstorf/" }) {
-      sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
+    page: markdownRemark(id: { regex: "/pages/about/" }) {
+      html
+      frontmatter {
+        title
+        bio
+        optin {
+          group
+          button
+        }
       }
     }
   }
 `;
+
+export default About;

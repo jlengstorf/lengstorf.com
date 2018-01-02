@@ -18,7 +18,7 @@ tag:
 images:
 - /images/quality-vs-convenience.jpg
 
-cta: productivity
+cta: focus
 ---
 
 For a year or so, I lived on the top floor of a fancy building in Portland's

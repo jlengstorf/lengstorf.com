@@ -47,9 +47,7 @@
   text-transform: uppercase;
 }
 
-.navLinkActive {
-  color: var(--color-purple);
-}
+.navLinkActive { color: var(--color-purple); }
 
 .logo {
   margin-right: 0.5rem;

@@ -1,12 +1,8 @@
 @import './_variables.css';
 
 .main {
-  margin: 5rem auto 1rem;
-  max-width: 90%;
-
-  @media (--medium) {
-    max-width: 650px;
-  }
+  margin: 5rem auto 6rem;
+  width: 57ch;
 }
 
 .mainHome {
@@ -19,8 +15,8 @@
 
 .mainBlog {
   @supports (display: grid) {
-    @media (--medium) {
-      max-width: calc(120px + 2rem + 65ch);
+    @media (--large) {
+      width: calc(160px + 2rem + 57ch);
     }
   }
 }

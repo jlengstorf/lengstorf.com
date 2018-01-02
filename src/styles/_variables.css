@@ -25,8 +25,12 @@
     'Segoe UI Emoji',
     'Segoe UI Symbol';
   --font-family-heading: mallory, var(--font-family-default);
+
+  /* ANIMATION */
+  --transition-time: 150ms;
 }
 
-@custom-media --vert-small (min-width: 480px), (min-height: 650px);
+@custom-media --vert-small (min-width: 370px) and (min-height: 650px);
 @custom-media --small (min-width: 480px);
 @custom-media --medium (min-width: 700px);
+@custom-media --large (min-width: 960px);

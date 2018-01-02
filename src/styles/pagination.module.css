@@ -15,11 +15,9 @@
   &:last-of-type { margin-right: 0; }
 }
 
-.paginationLinkMoveRight {
-  /*
-   * This is a filthy dirty hack that seems like it shouldn’t need to exist,
-   * but apparently :first-of-type in CSS modules has higher specificity than
-   * adding an additional class?
-   */
-  margin-left: auto !important;
-}
+/*
+ * This is a filthy dirty hack that seems like it shouldn’t need to exist,
+ * but apparently :first-of-type in CSS modules has higher specificity than
+ * adding an additional class?
+ */
+.paginationLinkMoveRight { margin-left: auto !important; }

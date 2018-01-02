@@ -328,6 +328,6 @@ P.S. If you want to follow along as I go on this adventure, make sure to
 [8]: http://www.irs.gov/Individuals/International-Taxpayers/Foreign-Earned-Income-Exclusion---Requirements
 [9]: http://www.taxwarriors.com/rosalind-w-sutch/
 [10]: http://en.wikipedia.org/wiki/State_income_tax#States_with_no_individual_income_tax
-[11]: /get-updates
+[11]: /newsletter
 [12]: http://portland.craigslist.org/search/sss?userid=247646546
 [13]: http://tvtropes.org/pmwiki/pmwiki.php/Main/Retirony

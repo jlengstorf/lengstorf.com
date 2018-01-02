@@ -1,4 +1,5 @@
 {
+  "parser": "babel-eslint",
   "extends": ["./node_modules/jl-toolbox/eslint.js"],
   "globals": {
     "graphql": true

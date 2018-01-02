@@ -1,9 +1,7 @@
 @import './_variables.css';
 
 /* Hide the auto-generated footnotes */
-:global(.footnotes) {
-  display: none;
-}
+:global(.footnotes) { display: none; }
 
 :global(.footnote-image) {
   display: block;
@@ -55,9 +53,7 @@
   }
 }
 
-.footnoteDisplayActive {
-  bottom: 0;
-}
+.footnoteDisplayActive { bottom: 0; }
 
 .footnoteTextWrap {
   display: block;
@@ -90,9 +86,7 @@
   overflow-y: scroll;
 }
 
-:global(.footnote-backref) {
-  display: none;
-}
+:global(.footnote-backref) { display: none; }
 
 .footnoteClose {
   color: var(--color-gray);
@@ -112,50 +106,3 @@
     font-size: 115%;
   }
 }
-
-
-/* .footnote-display {
-
-  &__text {
-    max-height: 240px;
-    font-size: 90%;
-    padding-bottom: 30px;
-    overflow-y: scroll;
-
-    .footnote-image {
-      display: block;
-      max-width: 100%;
-
-      &--right {
-        @media $viewport-xs {
-          float: right;
-          max-width: 45%;
-          margin: 2rem 0 1rem 2rem;
-        }
-      }
-    }
-
-    /* Hide the return links in this view. * /
-    .footnote-return {
-      display: none;
-    }
-  }
-
-  &__close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0;
-    font-size: 75%;
-    font-variant: small-caps;
-    letter-spacing: 0.05em;
-    line-height: 1;
-    text-decoration: none;
-
-    &::after {
-      content: '×';
-      margin-left: 0.25rem;
-      font-size: 115%;
-    }
-  }
-} */

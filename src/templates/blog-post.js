@@ -3,74 +3,64 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
+import PostMeta from '../components/PostMeta';
 import FloatingHead from '../components/FloatingHead';
-import Footnotes from '../components/Footnotes';
+import ContentWithFootnotes from '../components/ContentWithFootnotes';
 import CTA from '../components/CTA';
+import Popover from '../components/Popover';
 import styles from '../styles/blog.module.css';
 
 const getTitle = frontmatter => frontmatter.seo_title || frontmatter.title;
+
+const getPopoverData = (data, images) => ({
+  ...data,
+  image: images[`popoverImage${data.group}`],
+});
 
 export default class BlogPost extends React.Component {
   static propTypes = {
     data: PropTypes.shape({
       markdownRemark: PropTypes.any,
     }).isRequired,
+    pathContext: PropTypes.shape({
+      slug: PropTypes.string.isRequired,
+    }).isRequired,
   };
 
   state = {
-    footnoteNumber: 1,
-    footnoteContent: '',
-    footnoteActive: false,
+    showPopover: false,
   };
 
-  footnoteClose = () => {
-    this.setState({
-      footnoteActive: false,
-      footnoteNumber: 0,
-      footnoteContent: '',
-    });
-  };
-
-  handleFootnoteClose = event => {
-    event.preventDefault();
-
-    this.footnoteClose();
-  };
-
-  handleLinkClicks = event => {
-    if (event.target.classList.contains('footnote-ref')) {
-      event.preventDefault();
-
-      if (this.state.footnoteActive) {
-        this.footnoteClose();
-        return;
-      }
-
-      const footnoteLink = event.target;
-      const targetID = new URL(footnoteLink.href).hash;
-
-      // Remove any non-numeric characters and force to a number value with `+`.
-      const footnoteNumber = +targetID.replace(/\D*/, '');
-      const footnoteContent = document.querySelector(targetID).innerHTML;
-
-      this.setState({
-        footnoteActive: true,
-        footnoteNumber,
-        footnoteContent,
-      });
-    }
-  };
+  openPopover = () =>
+    this.setState(prevState => ({ ...prevState, showPopover: true }));
+  closePopover = () =>
+    this.setState(prevState => ({ ...prevState, showPopover: false }));
 
   render() {
     const {
-      data: { markdownRemark: postData, imageSharp, thumb },
+      data: {
+        postData,
+        imageSharp,
+        offer,
+        thumb,
+        author,
+        popoverImageTRAVEL,
+        popoverImageWORKHAPPY,
+        popoverImagePRODUCTIVE,
+        popoverImageDEFAULT,
+      },
     } = this.props;
     const postID = postData.internal.contentDigest;
+    const popoverProps = getPopoverData(offer.frontmatter.popover, {
+      popoverImageDEFAULT,
+      popoverImagePRODUCTIVE,
+      popoverImageTRAVEL,
+      popoverImageWORKHAPPY,
+    });
 
-    // TODO get the rest of the images in place.
     const postImage = imageSharp && imageSharp.sizes && imageSharp.sizes.src;
     if (!postImage) {
-      console.log(`TODO: Add image for ${this.props.pathContext.slug}`);
+      console.error(`Missing image for ${this.props.pathContext.slug}`);
     }
 
     return [
@@ -86,37 +76,55 @@ export default class BlogPost extends React.Component {
         blog
       >
         <article className={styles.blog}>
-          <header className={styles.blogHeader}>
-            <h1 className={styles.blogHeading}>{postData.frontmatter.title}</h1>
+          <header className={styles.header}>
+            <h1 className={styles.heading}>{postData.frontmatter.title}</h1>
           </header>
-          <section
-            className={styles.blogArticle}
-            onClick={this.handleLinkClicks}
-            dangerouslySetInnerHTML={{ __html: postData.html }}
+          <PostMeta
+            className={styles.meta}
+            thumb={thumb}
+            categories={postData.frontmatter.category}
+            tags={postData.frontmatter.tag}
           />
-          <CTA type={postData.frontmatter.cta} />
-          <FloatingHead className={styles.blogFloatingHead} thumb={thumb} />
+          <ContentWithFootnotes
+            render={() => (
+              <section
+                className={styles.article}
+                dangerouslySetInnerHTML={{ __html: postData.html }}
+              />
+            )}
+          />
+          <CTA
+            content={offer.html}
+            button={offer.frontmatter.button}
+            link={offer.frontmatter.link}
+            className={styles.cta}
+            clickHandler={this.openPopover}
+          />
+          <FloatingHead className={styles.floatingHead} thumb={author} />
         </article>
-        <Footnotes
-          isActive={this.state.footnoteActive}
-          number={this.state.footnoteNumber}
-          content={this.state.footnoteContent}
-          handleClose={this.handleFootnoteClose}
-        />
       </Layout>,
+      <Popover
+        key={`popover-${postID}`}
+        {...popoverProps}
+        visible={this.state.showPopover}
+        closeFn={this.closePopover}
+      />,
     ];
   }
 }
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!, $imageRegex: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query BlogPostBySlug($slug: String!, $imageRegex: String!, $offer: String!) {
+    postData: markdownRemark(fields: { slug: { eq: $slug } }) {
       internal {
         contentDigest
       }
       html
       frontmatter {
         title
+        description
+        category
+        tag
         # Used for schema.org
         datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
         images
@@ -125,13 +133,55 @@ export const pageQuery = graphql`
         cta
       }
     }
+    offer: markdownRemark(id: { regex: $offer }) {
+      html
+      frontmatter {
+        button
+        link
+        popover {
+          heading
+          benefits
+          button
+          group
+        }
+      }
+    }
     imageSharp(id: { regex: $imageRegex }) {
       sizes(maxWidth: 1380) {
         src
       }
     }
-    thumb: imageSharp(id: { regex: "/jason-lengstorf-square/" }) {
+    author: imageSharp(id: { regex: "/jason-lengstorf-square/" }) {
       sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    thumb: imageSharp(id: { regex: $imageRegex }) {
+      sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    popoverImageWORKHAPPY: imageSharp(
+      id: { regex: "/jason-marisa-barcelona/" }
+    ) {
+      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    popoverImageTRAVEL: imageSharp(id: { regex: "/jason-marisa-flags/" }) {
+      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    popoverImagePRODUCTIVE: imageSharp(
+      id: { regex: "/jason-marisa-barcelona/" }
+    ) {
+      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    popoverImageDEFAULT: imageSharp(id: { regex: "/jason-tokyo/" }) {
+      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
         ...GatsbyImageSharpSizes_tracedSVG
       }
     }

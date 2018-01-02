@@ -13,8 +13,8 @@ const topLevelNav = [
     label: 'About',
   },
   {
-    href: '/contact',
-    label: 'Contact',
+    href: '/newsletter',
+    label: 'Newsletter',
   },
 ];
 

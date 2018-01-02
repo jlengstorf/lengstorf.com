@@ -105,7 +105,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           {
             allMarkdownRemark(
               sort: { fields: [frontmatter___date], order: DESC }
-              filter: { frontmatter: { publish: { ne: false } } }
+              filter: {
+                fileAbsolutePath: { glob: "**/posts/**" }
+                frontmatter: { publish: { ne: false } }
+              }
             ) {
               edges {
                 node {
@@ -119,6 +122,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                     publish
                     category
                     tag
+                    cta
                   }
                   fields {
                     slug
@@ -200,12 +204,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           // If an image was supplied, let’s grab it.
           const image = node.frontmatter.images && node.frontmatter.images[0];
 
+          // Add the offer type
+          const offer = `/offers/${node.frontmatter.cta || 'work-happy'}/`;
+
           createPage({
             path: postPath,
             component: blogPost,
             context: {
               imageRegex: `/${image}/`,
               slug: node.fields.slug,
+              offer,
             },
           });
         });

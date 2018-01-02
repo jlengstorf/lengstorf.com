@@ -35,6 +35,7 @@
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "react-helmet": "^5.2.0",
+    "react-transition-group": "^2.2.1",
     "remark-numbered-footnotes": "^1.0.1",
     "retext": "^5.0.0"
   },

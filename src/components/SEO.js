@@ -4,14 +4,14 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import config from '../config';
 
-const getSchemaOrgJSONLD = (
+const getSchemaOrgJSONLD = ({
   isBlogPost,
   url,
   title,
   image,
   description,
-  datePublished
-) => {
+  datePublished,
+}) => {
   const schemaOrgJSONLD = [
     {
       '@context': 'http://schema.org',
@@ -73,7 +73,9 @@ const getSchemaOrgJSONLD = (
 };
 
 const SEO = ({ postData, postImage, isBlogPost }) => {
-  const postMeta = isBlogPost ? postData.frontmatter : {};
+  const postMeta = postData.frontmatter || {};
+
+  console.log(postMeta);
 
   const title = postMeta.title || config.title;
   const description =
@@ -84,14 +86,14 @@ const SEO = ({ postData, postImage, isBlogPost }) => {
     : config.url;
   const datePublished = isBlogPost ? postMeta.datePublished : false;
 
-  const schemaOrgJSONLD = getSchemaOrgJSONLD(
+  const schemaOrgJSONLD = getSchemaOrgJSONLD({
     isBlogPost,
     url,
     title,
     image,
     description,
-    datePublished
-  );
+    datePublished,
+  });
 
   return (
     <Helmet>

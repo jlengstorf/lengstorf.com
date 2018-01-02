@@ -4,13 +4,21 @@
 html,
 body {
   color: var(--color-text);
-  margin: 0;
   font-family: var(--font-family-default);
   font-size: var(--font-size-sm);
   line-height: 1.45;
+  margin: 0;
+  max-width: 90%;
 
   @media (--medium) {
     font-size: var(--font-size-md);
+  }
+
+  @supports (display: flex) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
   }
 }
 
@@ -135,7 +143,7 @@ abbr {
   line-height: 14px;
   text-align: center;
   text-decoration: none;
-  transition: 200ms background-color linear;
+  transition: background-color var(--transition-time) linear;
 
   &:hover,
   &:active,
@@ -157,18 +165,14 @@ abbr {
 
 /* IMAGES */
 
-:global(.gatsby-image-wrapper) img {
-  margin-top: 0;
-}
+:global(.gatsby-image-wrapper) img { margin-top: 0; }
 
 :global(.image--full-width) {
   width: calc(100% + 50px);
   margin-left: -25px;
 }
 
-:global(.figure) {
-  width: 100%;
-}
+:global(.figure) { width: 100%; }
 
 :global(.figure img) {
   border: 1px solid var(--color-gray-alpha);
@@ -176,9 +180,7 @@ abbr {
   width: 100%;
 }
 
-:global(.figure--no-border img) {
-  border: none;
-}
+:global(.figure--no-border img) { border: none; }
 
 :global(.figure--left),
 :global(.figure--right) {
@@ -201,9 +203,7 @@ abbr {
   }
 
   :global(.figure--left),
-  :global(.figure--right) {
-    margin-bottom: 20px;
-  }
+  :global(.figure--right) { margin-bottom: 20px; }
 
   :global(.figure--left) {
     float: left;
@@ -221,9 +221,7 @@ abbr {
   margin-bottom: 0;
 }
 
-:global(.figure__image-link) {
-  border: 0;
-}
+:global(.figure__image-link) { border: 0; }
 
 :global(.figure__caption) {
   margin-top: 0.5rem;
@@ -239,13 +237,8 @@ abbr {
   }
 }
 
-:global(blockquote .figure__caption) {
-  border-bottom: none;
-}
-
-:global(.figure__caption:empty) {
-  display: none;
-}
+:global(blockquote .figure__caption) { border-bottom: none; }
+:global(.figure__caption:empty) { display: none; }
 
 :global(.figure__attribution) {
   display: block;
@@ -258,9 +251,7 @@ abbr {
 }
 
 @media (--medium) {
-  :global(.figure--right .figure__caption) {
-    text-align: right;
-  }
+  :global(.figure--right .figure__caption) { text-align: right; }
 }
 
 :global(.figure__attribution-link) {
@@ -290,15 +281,12 @@ abbr {
 
   &:hover,
   &:active,
-  &:focus {
-    text-decoration: underline;
-  }
+  &:focus { text-decoration: underline; }
 }
 
+/* Override element inline styles 😭 */
 :global(.twitter-tweet-rendered),
-:global(.instagram-media-rendered) {
-  margin: 1.25rem auto !important; /* Override element styles 😭 */
-}
+:global(.instagram-media-rendered) { margin: 1.25rem auto !important; }
 
 /* UTILITY CLASSES */
 :global(.screen-reader-text) {
