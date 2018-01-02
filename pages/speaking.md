@@ -32,11 +32,14 @@ For a full list of the proposals I’m kicking around right now, see [my present
 ## Upcoming Speaking Engagements
 
 -   [**Global CFP Diversity Day**](https://www.globaldiversitycfpday.com/events/29), February 2018, Austin, TX, USA
+-   [**Assert(js)**](https://www.assertjs.com/), February 2018, San Antonio, TX, USA
 -   [**JazzCon.Tech**](http://jazzcon.tech/), March 2018, New Orleans, LA, USA
 -   [**#PerfMatters**](https://perfmattersconf.com/), March 2018, Redwood City, CA, USA
 -   [**The Lead Developer**](https://newyork2018.theleaddeveloper.com/), April 2018, New York, NY, USA
 -   [**Generate**](https://www.generateconf.com/new-york), April 2018, New York, NY, USA
 -   [**CRAFT**](https://craft-conf.com/), May 2018, Budapest, Hungary
+
+[Book me to speak at your event »](mailto:speaking@lengstorf.com?subject=Speaking+Inquiry)
 
 ## Previous Speaking Engagements
 
@@ -68,5 +71,3 @@ For a full list of the proposals I’m kicking around right now, see [my present
 *   **Big Sky Dev Con**, 2012, Bozeman, MT, USA
 *   **SXSW**, 2011, Austin, TX, USA
 *   **Montana Programmers**, Missoula, MT, USA
-
-[Book me to speak at your event »](mailto:speaking@lengstorf.com?subject=Speaking+Inquiry)
