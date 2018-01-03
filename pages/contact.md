@@ -1,5 +1,28 @@
 ---
-title: Contact Information
+title: How to Get In Touch
+template: page
 ---
 
-TKTK
+If you want to contact me, here’s how to do it:
+
+## Reach Out on Social Media
+
+For most quick questions, I prefer social media because:
+
+1. The discussion might benefit other people
+2. Other smart people might have better thoughts than I do
+3. Social media encourages brevity
+
+I’m most active on [Twitter](https://twitter.com/jlengstorf), but you can also find me on [Facebook](https://www.facebook.com/jlengstorf).
+
+<a href="https://twitter.com/intent/tweet?related=jlengstorf&text=Hey%20%40jlengstorf%2C%20I%20have%20things%20to%20say." class="btn btn--small">Tweet at Me</a>
+
+## Set Up a Call for In-Depth Questions
+
+If you question requires more than a couple sentences in response, it’s probably pushing into consulting territory. And that’s okay — I’m always happy to do coaching and consulting calls — but I do charge for my time.
+
+To make this easy and charge per-minute, I use [Clarity](https://clarity.fm/jlengstorf). If you want to get into details, talk specifics, or even put together a personalized action plan for you or your business, request a 15-minute call and we’ll do awesome things together.
+
+## Or Send Me an Email — But Be Patient
+
+If you _really_ love email for some reason, you can also send an email to <jason@lengstorf.com>. But be patient: I don’t check it all that often, and I prioritize email below pretty much everything else.

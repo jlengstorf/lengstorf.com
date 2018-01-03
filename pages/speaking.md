@@ -2,6 +2,7 @@
 title: Speaking and Workshops
 description: >
   Jason Lengstorf is an experienced speaker on topics ranging from web design and development to happiness, work-life balance, and productivity.
+template: page
 ---
 
 I'm available for speaking gigs; just [contact me](mailto:speaking@lengstorf.com?subject=Speaking+Inquiry). I'd be happy to speak about my experiences with remote working, business-building, or web design and development.
@@ -39,7 +40,7 @@ For a full list of the proposals I’m kicking around right now, see [my present
 -   [**Generate**](https://www.generateconf.com/new-york), April 2018, New York, NY, USA
 -   [**CRAFT**](https://craft-conf.com/), May 2018, Budapest, Hungary
 
-[Book me to speak at your event »](mailto:speaking@lengstorf.com?subject=Speaking+Inquiry)
+<a href="mailto:speaking@lengstorf.com?subject=Speaking+Inquiry" class="btn btn--small">Book me to speak at your event »</a>
 
 ## Previous Speaking Engagements
 

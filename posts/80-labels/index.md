@@ -250,7 +250,7 @@ and then — hey, are you asleep? Sorry. Moving on.
 <figure class="figure figure--right">
   <img src="./images/bad-hair-decisions.jpg" alt="Bad hair decisions." />
   <figcaption class="figure__caption">
-    WHY DIDN’T YOU DELL ME I LOOKED SO TERR— oh, you did? Repeatedly? Are you sure? I thought you said I looked great.
+    WHY DIDN’T YOU TELL ME I LOOKED SO TERR— oh, you did? Repeatedly? Are you sure? I thought you said I looked great.
   </figcaption>
 </figure>
 

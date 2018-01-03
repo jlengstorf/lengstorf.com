@@ -94,7 +94,16 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage, createRedirect } = boundActionCreators;
 
+  // The /hire-me page no longer exists, so send to contact instead.
+  createRedirect({
+    fromPath: '/hire-me',
+    toPath: '/contact',
+    isPermanent: true,
+    redirectInBrowser: true,
+  });
+
   return new Promise((resolve, reject) => {
+    const pageTemplate = path.resolve('src/templates/page.js');
     const blogPost = path.resolve('src/templates/blog-post.js');
     const blogPreviews = path.resolve('src/templates/blog.js');
 
@@ -103,7 +112,21 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       graphql(
         `
           {
-            allMarkdownRemark(
+            pages: allMarkdownRemark(
+              filter: {
+                fileAbsolutePath: { glob: "**/pages/**" }
+                frontmatter: { template: { eq: "page" } }
+              }
+            ) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                }
+              }
+            }
+            posts: allMarkdownRemark(
               sort: { fields: [frontmatter___date], order: DESC }
               filter: {
                 fileAbsolutePath: { glob: "**/posts/**" }
@@ -139,9 +162,20 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors);
         }
 
+        const pages = result.data.pages.edges;
+        pages.forEach(({ node: page }) => {
+          createPage({
+            path: page.fields.slug,
+            component: pageTemplate,
+            context: {
+              slug: page.fields.slug,
+            },
+          });
+        });
+
         const paginationDefaults = { createPage, component: blogPreviews };
 
-        const allPosts = result.data.allMarkdownRemark.edges.filter(
+        const allPosts = result.data.posts.edges.filter(
           ({ node }) => node.frontmatter.publish !== false,
         );
 

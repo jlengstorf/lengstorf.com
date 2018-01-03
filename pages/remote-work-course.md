@@ -1,7 +1,9 @@
 ---
 title: Escape the office and make your living while traveling the world.
-button: Get It Now
-group: Travel
+template: page
+optin:
+  button: Get It Now
+  group: Travel
 ---
 
 Here's the truth: whether you're working in a traditional office job, contracting for a big company, or doing your your own thing as a freelancer, it's possible to live the "digital nomad"[^dn] lifestyle: **living anywhere in the world, making your own schedule, and earning money with nothing but a laptop, an internet connection, and your sexy-ass brain.**

@@ -1,7 +1,9 @@
 ---
 title: You May Love Your Job. But Does Your Job Love You Back?
-button: Get It Now
-group: WORKHAPPY
+template: page
+optin:
+  button: Get It Now
+  group: WORKHAPPY
 ---
 
 Are you feeling overwhelmed with all the projects on your plate? Barely sleeping to keep up the demands of work and home? Working _way_ more than the 40 hours you're supposed to?

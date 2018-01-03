@@ -86,11 +86,9 @@ export default class BlogPost extends React.Component {
             tags={postData.frontmatter.tag}
           />
           <ContentWithFootnotes
+            className={styles.article}
             render={() => (
-              <section
-                className={styles.article}
-                dangerouslySetInnerHTML={{ __html: postData.html }}
-              />
+              <section dangerouslySetInnerHTML={{ __html: postData.html }} />
             )}
           />
           <CTA

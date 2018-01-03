@@ -1,8 +1,10 @@
 ---
 title: >
   Stop Wasting Time Feeling Overwhelmed and Tired. Start Doing What Matters.
-button: Get It Now
-group: PRODUCTIVE
+template: page
+optin:
+  button: Get It Now
+  group: PRODUCTIVE
 ---
 
 If you're feeling stuck right now — too many tasks, too little free time, too much bullshit, and not enough of the things that matter — I have good news.

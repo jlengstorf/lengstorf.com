@@ -6,6 +6,8 @@ bio: >
 optin:
   group: DEFAULT
   button: Join Now
+
+template: about
 ---
 <figure class="figure figure--right">
   <img src="./images/jason-web-summer-camp.jpg" alt="Jason Lengstorf at Web Summer Camp in Croatia, 2017." />

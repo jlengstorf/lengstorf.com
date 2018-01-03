@@ -4,7 +4,12 @@ import Footnotes from './Footnotes';
 
 class ContentWithFootnotes extends React.Component {
   static propTypes = {
+    className: PropTypes.string,
     render: PropTypes.func.isRequired,
+  };
+
+  static defaultProps = {
+    className: '',
   };
 
   state = {
@@ -55,7 +60,7 @@ class ContentWithFootnotes extends React.Component {
   render() {
     return (
       // eslint-disable-next-line jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events
-      <div onClick={this.handleLinkClicks}>
+      <div onClick={this.handleLinkClicks} className={this.props.className}>
         {this.props.render()}
         <Footnotes
           isActive={this.state.footnoteActive}
