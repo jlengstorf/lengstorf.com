@@ -64,10 +64,15 @@
   font-weight: 900;
   line-height: 1.25;
   margin: 0;
-  padding: calc(0.5rem - 2px) 0.625rem;
+  padding: calc(0.5rem - 2px) 0.25rem;
   text-decoration: none;
   text-transform: uppercase;
   transition-property: color;
+
+  @media (--small) {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
 
   &:focus,
   &:active,
@@ -85,6 +90,7 @@
 .logo {
   border: 0;
   margin-right: 0.5rem;
+  min-width: 42px;
   padding: 0;
   position: relative;
   width: 42px;
