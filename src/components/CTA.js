@@ -1,6 +1,6 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
 import styles from '../styles/cta.module.css';
 
 export default class CTA extends React.Component {
@@ -10,7 +10,6 @@ export default class CTA extends React.Component {
     heading: PropTypes.string,
     link: PropTypes.string.isRequired,
     button: PropTypes.string.isRequired,
-    clickHandler: PropTypes.func.isRequired,
   };
 
   static defaultProps = {
@@ -25,17 +24,10 @@ export default class CTA extends React.Component {
   };
 
   render() {
-    const {
-      className,
-      heading,
-      link,
-      content,
-      clickHandler,
-      button,
-    } = this.props;
+    const { className, heading, link, content, button } = this.props;
 
     return (
-      <div className={className} onClick={this.handleClick(clickHandler)}>
+      <div className={className}>
         <h2>{heading}</h2>
         <div dangerouslySetInnerHTML={{ __html: content }} />
         <a className={`${styles.button} js--open-popover`} href={link}>
