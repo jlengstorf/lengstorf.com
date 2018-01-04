@@ -4,6 +4,7 @@ module.exports = {
     'gatsby-plugin-twitter',
     'gatsby-plugin-instagram',
     'gatsby-plugin-five-stages',
+    'gatsby-plugin-amplitude',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     {
