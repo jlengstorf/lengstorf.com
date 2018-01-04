@@ -23,6 +23,7 @@ const Page = ({ data: { page } }) => (
           key={`optin-${page.internal.contentDigest}`}
           button={page.frontmatter.optin.button}
           group={page.frontmatter.optin.group}
+          source={page.fields.slug}
         />,
         <p
           key={`notice-${page.internal.contentDigest}`}
@@ -45,6 +46,9 @@ Page.propTypes = {
           group: PropTypes.string.isRequired,
         }),
       }).isRequired,
+      fields: PropTypes.shape({
+        slug: PropTypes.string.isRequired,
+      }),
       html: PropTypes.string.isRequired,
     }).isRequired,
   }).isRequired,
@@ -60,6 +64,9 @@ export const query = graphql`
           button
           group
         }
+      }
+      fields {
+        slug
       }
       internal {
         contentDigest

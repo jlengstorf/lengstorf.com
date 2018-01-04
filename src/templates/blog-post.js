@@ -47,7 +47,8 @@ export default class BlogPost extends React.Component {
         benefits={offer.frontmatter.popover.benefits}
         button={offer.frontmatter.popover.button}
         group={offer.frontmatter.popover.group}
-        render={openPopover => (
+        source={`/${postData.frontmatter.slug}/`}
+        render={() => (
           <Layout
             title={getTitle(postData.frontmatter)}
             className={styles.main}
@@ -75,7 +76,6 @@ export default class BlogPost extends React.Component {
                 button={offer.frontmatter.button}
                 link={offer.frontmatter.link}
                 className={styles.cta}
-                clickHandler={openPopover}
               />
               <FloatingHead className={styles.floatingHead} thumb={author} />
             </article>
@@ -104,6 +104,9 @@ export const pageQuery = graphql`
         seo_title
         slug
         cta
+      }
+      fields {
+        slug
       }
     }
     offer: markdownRemark(id: { regex: $offer }) {

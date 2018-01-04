@@ -34,6 +34,7 @@ const About = ({ data }) => (
     <OptIn
       button={data.page.frontmatter.optin.button}
       group={data.page.frontmatter.optin.group}
+      source="/about/"
     />
     <p className={styles['opt-in-notice']}>
       Note: I will never share your email or spam you with nonsense. Because I’m

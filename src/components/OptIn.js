@@ -12,7 +12,10 @@ class OptIn extends React.Component {
 
   static defaultProps = {
     button: 'Get It Now',
-    source: window.location.pathname.replace(/\//g, ''),
+    source:
+      typeof window !== 'undefined'
+        ? window.location.pathname.replace(/\//g, '')
+        : '',
     group: null,
   };
 
@@ -26,6 +29,16 @@ class OptIn extends React.Component {
     this.setState({ [id]: value });
   };
 
+  trackSubmit = () => {
+    if (window && typeof window.logEvent === 'function') {
+      window.logEvent('submit form', {
+        group: this.props.group,
+        source: this.props.source,
+      });
+      console.log('form submitted!');
+    }
+  };
+
   render() {
     return (
       <div className={styles.wrapper}>
@@ -33,6 +46,7 @@ class OptIn extends React.Component {
           className={styles.form}
           action={`${API_ENDPOINT}/user`}
           method="post"
+          onSubmit={this.trackSubmit}
         >
           <label htmlFor="fname" className={styles.group}>
             <input

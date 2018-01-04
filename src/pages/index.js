@@ -32,7 +32,7 @@ const easeInOutSine = (elapsed, start, change, length) =>
 const animateScroll = (
   element,
   elapsedTime,
-  { position, stepSize, increment, duration, callback = () => {} }
+  { position, stepSize, increment, duration, callback = () => {} },
 ) => {
   const nextTime = elapsedTime + increment;
 
@@ -89,6 +89,7 @@ const Index = ({ data: { page, popoverImages, heroImage } }) => (
     benefits={page.frontmatter.popover.benefits}
     button={page.frontmatter.popover.button}
     group={page.frontmatter.popover.group}
+    source={page.fields.slug}
     render={openPopover => (
       <Layout className={styles.main}>
         <div className={styles.hero}>
@@ -155,6 +156,9 @@ export const query = graphql`
           button
           group
         }
+      }
+      fields {
+        slug
       }
       html
     }

@@ -25,6 +25,13 @@ const handleOnDirectClick = handlerFn => event => {
   }
 };
 
+const handleEnter = (hideClass, inputSelector) => node => {
+  node.classList.remove(hideClass);
+  document.querySelector(inputSelector).focus();
+};
+
+const handleExited = hideClass => node => node.classList.add(hideClass);
+
 const Popover = ({
   visible,
   closeFn,
@@ -33,15 +40,13 @@ const Popover = ({
   benefits,
   button,
   group,
+  source,
 }) => (
   <Transition
     in={visible}
     timeout={config.transitionSpeed}
-    onEnter={node => {
-      node.classList.remove(styles['overlay--hidden']);
-      document.querySelector(`.${styles.formWrap} input`).focus();
-    }}
-    onExited={node => node.classList.add(styles['overlay--hidden'])}
+    onEnter={handleEnter(styles.overlayHidden, `.${styles.formWrap} input`)}
+    onExited={handleExited(styles.overlayHidden)}
   >
     {state => (
       // Adding a “click the background to close” functionality as a convenience
@@ -49,7 +54,7 @@ const Popover = ({
       // keyboard users, so I’m ignoring these a11y linter rules.
       // eslint-disable-next-line jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events
       <div
-        className={`${styles.overlay} ${styles['overlay--hidden']}`}
+        className={`${styles.overlay} ${styles.overlayHidden}`}
         style={transitionStyles[state]}
         onClick={handleOnDirectClick(closeFn)} // TODO make sure this only fires on direct clicks
       >
@@ -71,7 +76,7 @@ const Popover = ({
             </div>
           </div>
           <div className={styles.formWrap}>
-            <OptIn button={button} group={group} />
+            <OptIn button={button} group={group} source={source} />
             <p className={styles['opt-in-notice']}>
               Note: I will never share your email or spam you with nonsense.
               Because I’m not a dick.
@@ -93,12 +98,14 @@ Popover.propTypes = {
   button: PropTypes.string,
   group: PropTypes.string.isRequired,
   image: PropTypes.shape({ file: PropTypes.any }).isRequired,
+  source: PropTypes.string,
   visible: PropTypes.bool,
 };
 
 Popover.defaultProps = {
   heading: 'What’s next?',
   button: 'Get It Now',
+  source: null,
   visible: false,
 };
 

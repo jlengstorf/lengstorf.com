@@ -12,19 +12,39 @@ class WithPopover extends React.Component {
     imageArr: PropTypes.arrayOf(
       PropTypes.shape({
         file: PropTypes.any,
-      })
+      }),
     ).isRequired,
     benefits: PropTypes.arrayOf(PropTypes.string).isRequired,
     button: PropTypes.string.isRequired,
     group: PropTypes.string.isRequired,
+    source: PropTypes.string.isRequired,
   };
 
   state = {
     showPopover: false,
   };
 
-  openPopover = () => this.setState({ showPopover: true });
-  closePopover = () => this.setState({ showPopover: false });
+  openPopover = () => {
+    if (window && typeof window.logEvent === 'function') {
+      window.logEvent('open popover', {
+        group: this.props.group,
+        source: this.props.source,
+      });
+    }
+
+    this.setState({ showPopover: true });
+  };
+
+  closePopover = () => {
+    if (window && typeof window.logEvent === 'function') {
+      window.logEvent('close popover', {
+        group: this.props.group,
+        source: this.props.source,
+      });
+    }
+
+    this.setState({ showPopover: false });
+  };
 
   handleClick = event => {
     if (event.target.classList.contains('js--open-popover')) {
@@ -49,6 +69,7 @@ class WithPopover extends React.Component {
         benefits={this.props.benefits}
         button={this.props.button}
         group={this.props.group}
+        source={this.props.source}
       />,
     ];
   }
