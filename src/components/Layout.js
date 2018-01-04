@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import Helmet from 'react-helmet';
 import Header from './Header';
@@ -31,5 +32,5 @@ export default ({ children, title, className = '' }) => [
   <Main key="app-main" className={className}>
     {children}
   </Main>,
-  <Footer />,
+  <Footer key="app-footer" />,
 ];
