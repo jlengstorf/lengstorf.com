@@ -2,7 +2,10 @@
 
 .main {
   margin: 5rem auto 6rem;
-  width: 57ch;
+
+  @media (--medium) {
+    width: 57ch;
+  }
 }
 
 .blog {
