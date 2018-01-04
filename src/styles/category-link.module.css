@@ -10,13 +10,19 @@
   text-decoration: none;
   transition: background-color var(--transition-time) linear;
 
+  &:focus,
   &:hover,
-  &:active { background-color: var(--color-purple); }
-
-  &--block {
-    display: inline-block;
-    margin-top: 0.25rem;
+  &:active {
+    background-color: var(--color-purple);
+    border-radius: 1em;
   }
+}
 
-  &--block + &--block { margin-top: 0; }
+.linkBlock {
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+.linkBlock + .linkBlock {
+  margin-top: 0;
 }

@@ -75,17 +75,17 @@
   transition: opacity var(--transition-time) linear;
   width: 100vw;
   z-index: 1000;
+}
 
-  &--hidden {
-    display: none;
-    height: 0;
-    left: -1;
-    pointer-events: none;
-    position: absolute;
-    top: -1;
-    width: 0;
-    z-index: -1;
-  }
+.overlayHidden {
+  display: none;
+  height: 0;
+  left: -1;
+  pointer-events: none;
+  position: absolute;
+  top: -1;
+  width: 0;
+  z-index: -1;
 }
 
 @supports (display: grid) {

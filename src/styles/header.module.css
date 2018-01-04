@@ -73,10 +73,11 @@
   &:active,
   &:hover {
     background-color: transparent;
-    border-color: var(--color-darkest);
     border-radius: 0;
     color: color(var(--color-purple) blackness(+ 10%));
   }
+
+  &:focus { border-color: var(--color-darkest); }
 }
 
 .navLinkActive { color: var(--color-purple); }
@@ -108,7 +109,9 @@
   &:active,
   &:hover {
     outline: 0;
+  }
 
+  &:focus {
     &::after { opacity: 1; }
   }
 }
