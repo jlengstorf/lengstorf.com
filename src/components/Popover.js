@@ -2,13 +2,27 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Transition } from 'react-transition-group';
 import Img from 'gatsby-image';
+import crypto from 'crypto';
 import OptIn from './OptIn';
 import config from '../config';
 import styles from '../styles/popover.module.css';
 
+const getBenefitHash = benefit =>
+  crypto
+    .createHash('md5')
+    .update(benefit)
+    .digest('hex');
+
 const transitionStyles = {
   entering: { opacity: 0 },
   entered: { opacity: 1 },
+};
+
+const handleOnDirectClick = handlerFn => event => {
+  if (event.target.classList.contains(styles.overlay)) {
+    event.preventDefault();
+    handlerFn();
+  }
 };
 
 const Popover = ({
@@ -23,7 +37,10 @@ const Popover = ({
   <Transition
     in={visible}
     timeout={config.transitionSpeed}
-    onEnter={node => node.classList.remove(styles['overlay--hidden'])}
+    onEnter={node => {
+      node.classList.remove(styles['overlay--hidden']);
+      document.querySelector(`.${styles.formWrap} input`).focus();
+    }}
     onExited={node => node.classList.add(styles['overlay--hidden'])}
   >
     {state => (
@@ -34,7 +51,7 @@ const Popover = ({
       <div
         className={`${styles.overlay} ${styles['overlay--hidden']}`}
         style={transitionStyles[state]}
-        // onClick={closeFn} // TODO make sure this only fires on direct clicks
+        onClick={handleOnDirectClick(closeFn)} // TODO make sure this only fires on direct clicks
       >
         <div className={styles.popover}>
           <div className={styles.imageWrap}>
@@ -45,13 +62,20 @@ const Popover = ({
             <div className="popover__text">
               <ul>
                 {benefits.map(benefit => (
-                  <li dangerouslySetInnerHTML={{ __html: benefit }} />
+                  <li
+                    key={`benefit-${getBenefitHash(benefit)}`}
+                    dangerouslySetInnerHTML={{ __html: benefit }}
+                  />
                 ))}
               </ul>
             </div>
           </div>
           <div className={styles.formWrap}>
             <OptIn button={button} group={group} />
+            <p className={styles['opt-in-notice']}>
+              Note: I will never share your email or spam you with nonsense.
+              Because I’m not a dick.
+            </p>
           </div>
         </div>
         <button className={styles.closeBtn} onClick={closeFn}>

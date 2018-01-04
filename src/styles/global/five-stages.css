@@ -1,8 +1,9 @@
+@import '../_variables.css';
+
 :global(.five-stages) {
   display: flex;
   justify-content: space-between;
   height: auto;
-  background-color: $color-gray-light;
   overflow: hidden;
 }
 

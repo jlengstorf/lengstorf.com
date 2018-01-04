@@ -20,9 +20,13 @@ const topLevelNav = [
 
 export default () => (
   <header className={styles.header} role="banner">
-    <Link to="#content" id="skip-navigation" className="screen-reader-text">
-      Skip Navigation
-    </Link>
+    <a
+      href="#content"
+      id="skip-navigation"
+      className={`screen-reader-text ${styles.skipToContent}`}
+    >
+      Skip to Content
+    </a>
     <nav className={styles.nav}>
       <Link to="/" className={`${styles.navLink} ${styles.logo}`}>
         <img

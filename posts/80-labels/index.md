@@ -586,6 +586,4 @@ I won't always get it right, but I'm sure as shit going to choose the things
 that make me happy — and I'm certainly not going to worry about a label that
 might contradict that choice.
 
-Maybe I'm not "supposed to" do a certain thing because of what other people
-assume I should do and be, but when the chips are down, **I'll choose happiness
-over perceived appropriateness. Every. Fucking. Time.**
+Maybe I'm not "supposed to" do a certain thing because of what other people assume I should do and be, but when the chips are down, **I'll choose happiness over perceived appropriateness. Every. Fucking. Time.**

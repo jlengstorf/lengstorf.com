@@ -16,6 +16,7 @@ class ContentWithFootnotes extends React.Component {
     footnoteNumber: 1,
     footnoteContent: '',
     footnoteActive: false,
+    footnotesHidden: true,
   };
 
   footnoteClose = () => {
@@ -24,6 +25,12 @@ class ContentWithFootnotes extends React.Component {
       footnoteNumber: 0,
       footnoteContent: '',
     });
+
+    setTimeout(() => {
+      this.setState({
+        footnotesHidden: true,
+      });
+    }, 300);
   };
 
   handleFootnoteClose = event => {
@@ -50,11 +57,15 @@ class ContentWithFootnotes extends React.Component {
     const footnoteNumber = +targetID.replace(/\D*/, '');
     const footnoteContent = document.querySelector(targetID).innerHTML;
 
-    this.setState({
-      footnoteActive: true,
-      footnoteNumber,
-      footnoteContent,
-    });
+    // A little hacky, but this allows the transition to work.
+    this.setState({ footnotesHidden: false });
+    setTimeout(() => {
+      this.setState({
+        footnoteActive: true,
+        footnoteNumber,
+        footnoteContent,
+      });
+    }, 10);
   };
 
   render() {
@@ -67,6 +78,7 @@ class ContentWithFootnotes extends React.Component {
           number={this.state.footnoteNumber}
           content={this.state.footnoteContent}
           handleClose={this.handleFootnoteClose}
+          isHidden={this.state.footnotesHidden}
         />
       </div>
     );

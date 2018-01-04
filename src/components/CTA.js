@@ -5,7 +5,7 @@ import styles from '../styles/cta.module.css';
 
 export default class CTA extends React.Component {
   static propTypes = {
-    group: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired,
     className: PropTypes.string.isRequired,
     heading: PropTypes.string,
     link: PropTypes.string.isRequired,
@@ -19,7 +19,6 @@ export default class CTA extends React.Component {
 
   handleClick = handler => event => {
     if (event.target.classList.contains('js--open-popover')) {
-      console.log('it matches!');
       event.preventDefault();
       handler();
     }

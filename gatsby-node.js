@@ -239,7 +239,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           const image = node.frontmatter.images && node.frontmatter.images[0];
 
           // Add the offer type
-          const offer = `/offers/${node.frontmatter.cta || 'work-happy'}/`;
+          const offer = `/offers/${node.frontmatter.cta || 'default'}/`;
 
           createPage({
             path: postPath,

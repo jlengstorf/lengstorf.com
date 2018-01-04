@@ -3,8 +3,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../styles/footnotes.module.css';
 
-const Footnotes = ({ isActive, number, content, handleClose }) => (
+const Footnotes = ({ isActive, isHidden, number, content, handleClose }) => (
   <aside
+    hidden={isHidden}
     className={`${styles.footnoteDisplay} ${
       isActive ? styles.footnoteDisplayActive : ''
     }`}
@@ -23,6 +24,7 @@ const Footnotes = ({ isActive, number, content, handleClose }) => (
 
 Footnotes.propTypes = {
   isActive: PropTypes.bool,
+  isHidden: PropTypes.bool,
   number: PropTypes.number.isRequired,
   content: PropTypes.string.isRequired,
   handleClose: PropTypes.func.isRequired,
@@ -30,6 +32,7 @@ Footnotes.propTypes = {
 
 Footnotes.defaultProps = {
   isActive: false,
+  isHidden: true,
 };
 
 export default Footnotes;

@@ -7,15 +7,10 @@ import PostMeta from '../components/PostMeta';
 import FloatingHead from '../components/FloatingHead';
 import ContentWithFootnotes from '../components/ContentWithFootnotes';
 import CTA from '../components/CTA';
-import Popover from '../components/Popover';
+import WithPopover from '../components/WithPopover';
 import styles from '../styles/blog.module.css';
 
 const getTitle = frontmatter => frontmatter.seo_title || frontmatter.title;
-
-const getPopoverData = (data, images) => ({
-  ...data,
-  image: images[`popoverImage${data.group}`],
-});
 
 export default class BlogPost extends React.Component {
   static propTypes = {
@@ -27,36 +22,11 @@ export default class BlogPost extends React.Component {
     }).isRequired,
   };
 
-  state = {
-    showPopover: false,
-  };
-
-  openPopover = () =>
-    this.setState(prevState => ({ ...prevState, showPopover: true }));
-  closePopover = () =>
-    this.setState(prevState => ({ ...prevState, showPopover: false }));
-
   render() {
     const {
-      data: {
-        postData,
-        imageSharp,
-        offer,
-        thumb,
-        author,
-        popoverImageTRAVEL,
-        popoverImageWORKHAPPY,
-        popoverImagePRODUCTIVE,
-        popoverImageDEFAULT,
-      },
+      data: { postData, imageSharp, offer, thumb, author, popoverImages },
     } = this.props;
     const postID = postData.internal.contentDigest;
-    const popoverProps = getPopoverData(offer.frontmatter.popover, {
-      popoverImageDEFAULT,
-      popoverImagePRODUCTIVE,
-      popoverImageTRAVEL,
-      popoverImageWORKHAPPY,
-    });
 
     const postImage = imageSharp && imageSharp.sizes && imageSharp.sizes.src;
     if (!postImage) {
@@ -70,42 +40,47 @@ export default class BlogPost extends React.Component {
         postData={postData}
         isBlogPost
       />,
-      <Layout
+      <WithPopover
         key={`layout-${postID}`}
-        title={getTitle(postData.frontmatter)}
-        blog
-      >
-        <article className={styles.blog}>
-          <header className={styles.header}>
-            <h1 className={styles.heading}>{postData.frontmatter.title}</h1>
-          </header>
-          <PostMeta
-            className={styles.meta}
-            thumb={thumb}
-            categories={postData.frontmatter.category}
-            tags={postData.frontmatter.tag}
-          />
-          <ContentWithFootnotes
-            className={styles.article}
-            render={() => (
-              <section dangerouslySetInnerHTML={{ __html: postData.html }} />
-            )}
-          />
-          <CTA
-            content={offer.html}
-            button={offer.frontmatter.button}
-            link={offer.frontmatter.link}
-            className={styles.cta}
-            clickHandler={this.openPopover}
-          />
-          <FloatingHead className={styles.floatingHead} thumb={author} />
-        </article>
-      </Layout>,
-      <Popover
-        key={`popover-${postID}`}
-        {...popoverProps}
-        visible={this.state.showPopover}
-        closeFn={this.closePopover}
+        heading={offer.frontmatter.popover.heading}
+        imageArr={popoverImages.edges}
+        benefits={offer.frontmatter.popover.benefits}
+        button={offer.frontmatter.popover.button}
+        group={offer.frontmatter.popover.group}
+        render={openPopover => (
+          <Layout
+            title={getTitle(postData.frontmatter)}
+            className={styles.main}
+          >
+            <article className={styles.blog}>
+              <header className={styles.header}>
+                <h1 className={styles.heading}>{postData.frontmatter.title}</h1>
+              </header>
+              <PostMeta
+                className={styles.meta}
+                thumb={thumb}
+                categories={postData.frontmatter.category}
+                tags={postData.frontmatter.tag}
+              />
+              <ContentWithFootnotes
+                className={styles.article}
+                render={() => (
+                  <section
+                    dangerouslySetInnerHTML={{ __html: postData.html }}
+                  />
+                )}
+              />
+              <CTA
+                content={offer.html}
+                button={offer.frontmatter.button}
+                link={offer.frontmatter.link}
+                className={styles.cta}
+                clickHandler={openPopover}
+              />
+              <FloatingHead className={styles.floatingHead} thumb={author} />
+            </article>
+          </Layout>
+        )}
       />,
     ];
   }
@@ -159,28 +134,16 @@ export const pageQuery = graphql`
         ...GatsbyImageSharpSizes_tracedSVG
       }
     }
-    popoverImageWORKHAPPY: imageSharp(
-      id: { regex: "/jason-marisa-barcelona/" }
+    popoverImages: allImageSharp(
+      filter: { id: { regex: "/popover/.*.jpg/" } }
     ) {
-      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-    popoverImageTRAVEL: imageSharp(id: { regex: "/jason-marisa-flags/" }) {
-      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-    popoverImagePRODUCTIVE: imageSharp(
-      id: { regex: "/jason-marisa-barcelona/" }
-    ) {
-      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-    popoverImageDEFAULT: imageSharp(id: { regex: "/jason-tokyo/" }) {
-      sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
+      edges {
+        node {
+          id
+          sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+            ...GatsbyImageSharpSizes_tracedSVG
+          }
+        }
       }
     }
   }

@@ -50,7 +50,7 @@ const Blog = ({
         </h2>
         <div className={styles.categoryList}>
           {post.frontmatter.category.map(category => (
-            <CategoryLink category={category} />
+            <CategoryLink key={`category-${category}`} category={category} />
           ))}
         </div>
         <p className={styles.excerpt}>
@@ -58,7 +58,9 @@ const Blog = ({
             ? post.frontmatter.description
             : post.excerpt}
         </p>
-        {post.frontmatter.tag.map(tag => <TagLink tag={tag} />)}
+        {post.frontmatter.tag.map(tag => (
+          <TagLink key={`tag-${tag}`} tag={tag} />
+        ))}
         <Link className={styles.readMore} to={`/${post.frontmatter.slug}`}>
           Read post ›
         </Link>

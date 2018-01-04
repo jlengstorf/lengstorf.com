@@ -17,6 +17,7 @@
 }
 
 .footnoteDisplay {
+  /* display: none; */
   position: fixed;
   bottom: -320px;
   left: 0;
@@ -53,7 +54,10 @@
   }
 }
 
-.footnoteDisplayActive { bottom: 0; }
+.footnoteDisplayActive {
+  bottom: 0;
+  /* display: block; */
+}
 
 .footnoteTextWrap {
   display: block;

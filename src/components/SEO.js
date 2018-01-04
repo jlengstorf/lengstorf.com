@@ -75,8 +75,6 @@ const getSchemaOrgJSONLD = ({
 const SEO = ({ postData, postImage, isBlogPost }) => {
   const postMeta = postData.frontmatter || {};
 
-  console.log(postMeta);
-
   const title = postMeta.title || config.title;
   const description =
     postMeta.description || postData.excerpt || config.description;

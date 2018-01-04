@@ -1,11 +1,18 @@
 @import './_variables.css';
 
+.main {
+  margin: 5rem auto 6rem;
+  width: 57ch;
+}
+
 .blog {
   margin-bottom: 5rem;
 }
 
 @media (--large) {
   @supports (display: grid) {
+    .main { width: calc(160px + 2rem + 57ch); }
+
     .blog {
       display: grid;
       grid-auto-flow: column;

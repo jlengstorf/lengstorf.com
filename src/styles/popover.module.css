@@ -31,10 +31,19 @@
   }
 }
 
+.opt-in-notice {
+  color: color(var(--color-gray) lightness(+ 10%));
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
 .closeBtn {
   background: transparent;
   border: none;
   color: var(--color-gray);
+  cursor: pointer;
   font-size: 0.75rem;
   font-weight: lighter;
   letter-spacing: 0.1em;
@@ -53,7 +62,7 @@
 
 .overlay {
   align-items: center;
-  background: color(var(--color-lightest) alpha(95%));
+  background: color(var(--color-lightest) alpha(97%));
   display: flex;
   height: 100vh;
   justify-content: center;

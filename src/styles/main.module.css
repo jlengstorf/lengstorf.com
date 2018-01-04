@@ -1,22 +1,6 @@
-@import './_variables.css';
+@import './global/main.css';
 
 .main {
   margin: 5rem auto 6rem;
-  width: 57ch;
-}
-
-.mainHome {
-  margin-top: 3rem;
-
-  @media (--medium) {
-    margin-top: 4rem;
-  }
-}
-
-.mainBlog {
-  @supports (display: grid) {
-    @media (--large) {
-      width: calc(160px + 2rem + 57ch);
-    }
-  }
+  max-width: 57ch;
 }

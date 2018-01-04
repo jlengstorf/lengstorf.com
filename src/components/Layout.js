@@ -2,8 +2,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Header from './Header';
 import Main from './Main';
+import Footer from './Footer';
 
-export default ({ children, title, isHomePage = false, blog = false }) => [
+export default ({ children, title, className = '' }) => [
   <Helmet
     key="app-head"
     titleTemplate="%s · Jason Lengstorf"
@@ -27,7 +28,8 @@ export default ({ children, title, isHomePage = false, blog = false }) => [
     <link rel="stylesheet" href="https://use.typekit.net/fnr1orp.css" />
   </Helmet>,
   <Header key="app-header" />,
-  <Main key="app-main" isHomePage={isHomePage} blog={blog}>
+  <Main key="app-main" className={className}>
     {children}
   </Main>,
+  <Footer />,
 ];
