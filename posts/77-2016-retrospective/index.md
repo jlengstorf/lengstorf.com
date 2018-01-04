@@ -18,7 +18,7 @@ tag:
 images:
 - /images/sol-calla-marisa-jason-cropped.jpg
 
-cta: productive
+cta: focus
 ---
 
 I didn't make any New Year's resolutions for 2017.

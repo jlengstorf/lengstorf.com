@@ -23,7 +23,7 @@ images:
 - /images/play-it-safe.jpg
 - /images/skill-crossover.jpg
 
-cta: productive
+cta: focus
 ---
 
 In high school I wanted to be a rockstar.

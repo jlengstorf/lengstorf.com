@@ -19,7 +19,7 @@ tag:
 images:
 - /images/charles-willis-darwin-evolve-hard.jpg
 
-cta: productive
+cta: focus
 ---
 
 If I've had one Big Idea™ in my life so far, it's this: **careers and income are
