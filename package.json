@@ -37,7 +37,8 @@
     "react-helmet": "^5.2.0",
     "react-transition-group": "^2.2.1",
     "remark-numbered-footnotes": "^1.0.1",
-    "retext": "^5.0.0"
+    "retext": "^5.0.0",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "jl-toolbox": "^0.9.2",

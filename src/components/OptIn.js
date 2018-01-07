@@ -1,6 +1,7 @@
+import 'whatwg-fetch';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { API_ENDPOINT } from '../config';
+import { API_ENDPOINT, CONFIRM_PAGE } from '../config';
 import styles from '../styles/opt-in.module.css';
 
 class OptIn extends React.Component {
@@ -22,6 +23,7 @@ class OptIn extends React.Component {
   state = {
     fname: '',
     email: '',
+    isSubmitting: false,
   };
 
   updateValue = event => {
@@ -29,13 +31,42 @@ class OptIn extends React.Component {
     this.setState({ [id]: value });
   };
 
-  trackSubmit = () => {
-    if (window && typeof window.logEvent === 'function') {
-      window.logEvent('submit form', {
-        group: this.props.group,
-        source: this.props.source,
-      });
-      console.log('form submitted!');
+  handleSubmit = event => {
+    if (typeof window !== 'undefined') {
+      event.preventDefault();
+
+      // Log the submit event.
+      if (typeof window.logEvent === 'function') {
+        window.logEvent('submit form', {
+          group: this.props.group,
+          source: this.props.source,
+        });
+      }
+
+      const formData = {
+        FNAME: this.state.fname,
+        EMAIL: this.state.email,
+        SOURCE: this.props.source,
+        [this.props.group || 'DEFAULT']: '1',
+        redirect: CONFIRM_PAGE,
+      };
+
+      this.setState({ isSubmitting: true });
+
+      // Actually submit the data.
+      fetch(`${API_ENDPOINT}/user`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(formData),
+        mode: 'cors',
+      })
+        .then(res => res.json())
+        .then(({ redirect }) => {
+          window.location.href = redirect;
+        });
     }
   };
 
@@ -43,10 +74,11 @@ class OptIn extends React.Component {
     return (
       <div className={styles.wrapper}>
         <form
-          className={styles.form}
+          className={`${styles.form} ${this.state.isSubmitting &&
+            styles.formSubmitting}`}
           action={`${API_ENDPOINT}/user`}
           method="post"
-          onSubmit={this.trackSubmit}
+          onSubmit={this.handleSubmit}
         >
           <label htmlFor="fname" className={styles.group}>
             <input
@@ -57,6 +89,7 @@ class OptIn extends React.Component {
               onChange={this.updateValue}
               value={this.state.fname}
               required
+              disabled={this.state.isSubmitting}
             />
             <span className={styles.label}>First Name</span>
           </label>
@@ -69,19 +102,21 @@ class OptIn extends React.Component {
               onChange={this.updateValue}
               value={this.state.email}
               required
+              disabled={this.state.isSubmitting}
             />
             <span className={styles.label}>Email Address</span>
           </label>
-          <button className={styles.button} type="submit" name="subscribe">
+          <button
+            className={styles.button}
+            type="submit"
+            name="subscribe"
+            disabled={this.state.isSubmitting}
+          >
             {this.props.button}
           </button>
           <input type="hidden" name="SOURCE" value={this.props.source} />
           <input type="hidden" name="status" value="pending" />
-          <input
-            type="hidden"
-            name="redirect"
-            value="https://lengstorf.com/confirm/"
-          />
+          <input type="hidden" name="redirect" value={CONFIRM_PAGE} />
           {this.props.group && (
             <input type="hidden" name={this.props.group} value="1" />
           )}

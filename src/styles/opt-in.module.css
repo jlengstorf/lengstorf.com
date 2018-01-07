@@ -4,6 +4,43 @@
   /* border: 1px solid red; */
 }
 
+.form {
+  position: relative;
+}
+
+.formSubmitting {
+  &::before,
+  &::after {
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: calc(50% - 0.5rem);
+    left: calc(50% - 1rem);
+    background-color: var(--color-purple);
+    border-radius: 50%;
+    transform: scale(0.1);
+    animation-name: radar;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  }
+
+  &::after { animation-delay: 600ms; }
+}
+
+@keyframes radar {
+  from {
+    opacity: 1;
+    transform: scale(0.1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
 .group {
   position: relative;
   margin: 0.5rem 0 0;
@@ -46,6 +83,9 @@
     border-color: var(--color-purple);
     outline: none;
   }
+
+  &:disabled { opacity: 0.25; }
+  &:disabled + span { opacity: 0.5; }
 }
 
 .button {
@@ -76,6 +116,8 @@
     background-color: var(--color-darkest);
     outline: none;
   }
+
+  &:disabled { opacity: 0.25; }
 }
 
 @supports (display: grid) {

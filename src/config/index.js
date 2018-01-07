@@ -7,7 +7,10 @@ module.exports = {
   twitter: '@jlengstorf',
   fbAppID: '',
 
-  API_ENDPOINT: 'https://api.lengstorf.com',
+  API_ENDPOINT: 'https://api-lengstorf.now.sh',
+  CONFIRM_PAGE: 'http://localhost:8000/confirm',
+  // CONFIRM_PAGE: 'https://lengstorf.com/confirm',
+  // API_ENDPOINT: 'https://api.lengstorf.com',
 
   author: {
     minibio: `

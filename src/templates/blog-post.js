@@ -30,7 +30,7 @@ export default class BlogPost extends React.Component {
 
     const postImage = imageSharp && imageSharp.sizes && imageSharp.sizes.src;
     if (!postImage) {
-      console.error(`Missing image for ${this.props.pathContext.slug}`);
+      throw Error(`Missing image for ${this.props.pathContext.slug}`);
     }
 
     return [
