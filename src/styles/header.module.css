@@ -87,6 +87,14 @@
 
 .navLinkActive { color: var(--color-purple); }
 
+.navLinkHiddenSmall {
+  display: none;
+
+  @media (min-width: 414px) {
+    display: inline-block;
+  }
+}
+
 .logo {
   border: 0;
   margin-right: 0.5rem;

@@ -19,6 +19,9 @@ export default () => (
     <Link to="/contact" className={styles.link}>
       Contact
     </Link>
+    <Link to="/disclaimer" className={styles.link}>
+      Disclaimer
+    </Link>
     <span className={styles.copyright}>All content © Jason Lengstorf</span>
   </footer>
 );

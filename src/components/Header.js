@@ -13,6 +13,11 @@ const topLevelNav = [
     label: 'About',
   },
   {
+    href: '/speaking',
+    label: 'Speaking',
+    extraClass: styles.navLinkHiddenSmall,
+  },
+  {
     href: '/newsletter',
     label: 'Newsletter',
   },
@@ -37,11 +42,11 @@ export default () => (
           style={{ maxWidth: '42px' }}
         />
       </Link>
-      {topLevelNav.map(({ href, label }) => (
+      {topLevelNav.map(({ href, label, extraClass = '' }) => (
         <Link
           key={label}
           to={href}
-          className={`${styles.navLink} text-sharp`}
+          className={`${styles.navLink} ${extraClass} text-sharp`}
           activeClassName={styles.navLinkActive}
         >
           {label}
