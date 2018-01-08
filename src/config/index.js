@@ -8,9 +8,7 @@ module.exports = {
   fbAppID: '',
 
   API_ENDPOINT: 'https://api-lengstorf.now.sh',
-  CONFIRM_PAGE: 'http://localhost:8000/confirm',
-  // CONFIRM_PAGE: 'https://lengstorf.com/confirm',
-  // API_ENDPOINT: 'https://api.lengstorf.com',
+  CONFIRM_PAGE: 'https://lengstorf.com/confirm',
 
   author: {
     minibio: `
