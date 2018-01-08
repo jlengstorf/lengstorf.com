@@ -31,10 +31,6 @@ or creating a stringent budget to control expenses.
 **But it turns out there's a much easier way to cut your expenses by 10% or
 more: _start traveling the world_.**
 
-> **UPDATE:** Based on the information in this post, I've built a housing cost
-> comparison tool. You can now enter your own expenses and see how much you 
-> could save on housing by traveling full-time: [<strong class="no-attribution">Compare your cost of living to the cost of long-term travel.</strong>](/cost-of-living)
-
 <figure class="figure figure--center">
   <img src="./images/save-money-world-travel.jpg" alt="Save money by traveling the world." />
   <figcaption class="figure__caption">

@@ -270,7 +270,7 @@ So naturally, most of us — myself included until mid-2015 or so — immediatel
 assume that long-term travel will be _expensive_. Prohibitively so.
 
 But that's simply not the case. For most people living in the United States,
-[long-term travel is significantly cheaper than our current living costs](/cost-of-living).
+[long-term travel is significantly cheaper than our current living costs](/cost-of-living-remotely).
 
 #### My cost-of-living for 2016–2017: $54.80/day
 

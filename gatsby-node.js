@@ -102,6 +102,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     redirectInBrowser: true,
   });
 
+  // The /cost-of-living page no longer exists, so send to the blog instead.
+  createRedirect({
+    fromPath: '/cost-of-living',
+    toPath: '/cost-of-living-remotely',
+    isPermanent: true,
+    redirectInBrowser: true,
+  });
+
   return new Promise((resolve, reject) => {
     const pageTemplate = path.resolve('src/templates/page.js');
     const blogPost = path.resolve('src/templates/blog-post.js');

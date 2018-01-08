@@ -122,7 +122,7 @@ I was in The Learning Trap. Again.
 
 **Armed with unverified research and limitless zeal, I unleashed an awareness campaign on everyone unfortunate enough to fall within earshot.**
 
-"[Travel is cheaper than a lease](/cost-of-living)," I cried
+"[Travel is cheaper than a lease](/cost-of-living-remotely)," I cried
 from my high horse. "It's easier than ever to [become location independent](/how-to-become-location-independent)! Don't you understand?
 [_Remote work is the future!_](/remote-work-everyone-wins)
 You have to
