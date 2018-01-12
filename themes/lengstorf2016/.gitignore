@@ -1,8 +1,0 @@
-node_modules
-static/images
-static/scripts
-static/styles
-static/vendor
-static/assets.json
-static/service-worker.js
-layouts
