@@ -11,6 +11,3 @@ indent_size = 2
 
 [*.{md,pug}]
 trim_trailing_whitespace = false
-
-[*.md]
-indent_size = 4

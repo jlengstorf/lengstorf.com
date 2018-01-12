@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["./node_modules/jl-toolbox/eslint.js"],
+  "globals": {
+    "graphql": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "prettier/prettier": [
+      "error",
+      { "bracketSpacing": true, "trailingComma": "all", "singleQuote": true }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  }
+}

@@ -1,9 +1,0 @@
-include ../pug-mixins/opt-in
-
-//{{ if eq (.Get "group") "focus" }}
-+optin('{{ .Get "button" }}', 'PRODUCTIVE', '{{ $.Page.Slug }}')
-//{{ else if eq (.Get "group") "remote-work" }}
-+optin('{{ .Get "button" }}', 'TRAVEL', '{{ $.Page.Slug }}')
-//{{ else if eq (.Get "group") "work-happier" }}
-+optin('{{ .Get "button" }}', 'WORKHAPPY', '{{ $.Page.Slug }}')
-//{{ end }}
