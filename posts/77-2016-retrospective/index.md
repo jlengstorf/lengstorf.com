@@ -143,8 +143,7 @@ I had a lot of things to be happy about in 2016:
 [^small-adventures]:
   If you're _not_ on my newsletter list, I ran a series of emails where I talked about Small Adventures: quick, inexpensive things we can all do to switch things up and add a little adventure back into our lives. (Also, [consider getting on my newsletter list so you don't miss fun stuff like this](/about). You'll get a free guide with three tips for being happier, too.)
 
-If you _are_ on my newsletter list, I'm still working on something cool that
-combines my ideas with the dozens of incredible ideas you sent me — stay tuned.
+  If you _are_ on my newsletter list, I'm still working on something cool that combines my ideas with the dozens of incredible ideas you sent me — stay tuned.
 
 ### What could have gone better in 2016?
 
