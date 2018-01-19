@@ -4,7 +4,7 @@ import styles from '../styles/footer.module.css';
 
 export default () => (
   <footer className={styles.footer}>
-    <Link to="/home" className={styles.link}>
+    <Link to="/" className={styles.link}>
       Home
     </Link>
     <Link to="/blog" className={styles.link}>
