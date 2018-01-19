@@ -1,9 +1,7 @@
 exports.onClientEntry = () => {
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.getRegistration('/').then(registration => {
-      if (registration) {
-        registration.unregister();
-      }
+    navigator.serviceWorker.getRegistrations('/').then(registrations => {
+      registrations.map(reg => reg.unregister());
     });
   }
 };
