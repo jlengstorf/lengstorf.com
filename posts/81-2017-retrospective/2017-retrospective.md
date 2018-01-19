@@ -86,7 +86,7 @@ When I first joined IBM, I saw a problem, did some research, came up with a solu
 
 Something I thought would take a couple weeks to fix ended up taking a couple months _just to convince all the necessary people that we should try to fix it._
 
-This was a new and uncomfortable experience for me; in all of my previous roles I’ve either been working alone or the highest-ranked person in the room. I’d only ever had to sell ideas to client, who generally could care less _how_ I solved a given problem, so long as it ceased to be a problem at the end of the project.
+This was a new and uncomfortable experience for me; in all of my previous roles I’ve either been working alone or the highest-ranked person in the room. I’d only ever had to sell ideas to client, who generally couldn’t care less _how_ I solved a given problem, so long as it ceased to be a problem at the end of the project.
 
 I spent a lot of time this year learning how to present, how to package ideas, how to frame things to get the best response,[^framing] and how not to [set the building on fire](https://www.youtube.com/watch?v=tj0xtdN0_tA) when I didn’t immediately get my way.
 
