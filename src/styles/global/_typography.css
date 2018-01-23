@@ -6,6 +6,7 @@ body {
   font-family: var(--font-family-default);
   font-size: var(--font-size-sm);
   line-height: 1.45;
+  text-decoration-skip: ink;
 
   @media (--medium) {
     font-size: var(--font-size-md);
@@ -26,18 +27,30 @@ h6 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  &:first-child { margin-top: 0; }
+  &:first-child {
+    margin-top: 0;
+  }
 
   & + p {
     margin-top: 0.5rem;
   }
 }
 
-h2 { font-size: 1.5625rem; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.125rem; }
-h5 { font-size: 1rem; }
-h6 { font-size: 0.875rem; }
+h2 {
+  font-size: 1.5625rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1.125rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
 
 h4,
 h5,
@@ -47,24 +60,36 @@ h6 {
 }
 
 h3,
-h6 { font-weight: 600; }
+h6 {
+  font-weight: 600;
+}
 
 h4,
-h5 { font-weight: normal; }
+h5 {
+  font-weight: normal;
+}
 
 ol,
-ul { padding-left: 1.25rem; }
-li { margin-top: 0.5rem; }
+ul {
+  padding-left: 1.25rem;
+}
+li {
+  margin-top: 0.5rem;
+}
 
-strong { color: var(--color-text-dark); }
-a strong { color: inherit; }
+strong {
+  color: var(--color-text-dark);
+}
+a strong {
+  color: inherit;
+}
 
 a {
   background-color: transparent;
   color: color(var(--color-purple) blackness(+ 10%));
   padding: 0 0.125rem;
   transition: all var(--transition-time) linear;
-  
+
   &:focus,
   &:active,
   &:hover {
