@@ -12,10 +12,10 @@ module.exports = {
 
   author: {
     minibio: `
-      <strong>Jason Lengstorf</strong> is a lead developer & architect at IBM. He’s a
-      frequent <a href="/speaking">speaker</a>, occasional
-      <a href="https://dribbble.com/jlengstorf">designer</a>, and an advocate of building better
-      balance via efficiency. He lives in Austin, Texas.
+      <strong>Jason Lengstorf</strong> is a lead developer & architect at IBM.
+      He’s a frequent <a href="/speaking">speaker</a>, occasional
+      <a href="https://dribbble.com/jlengstorf">designer</a>, and an advocate of
+      building better balance via efficiency. He lives in Austin, Texas.
     `,
   },
 
