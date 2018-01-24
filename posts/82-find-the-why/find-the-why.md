@@ -25,7 +25,9 @@ In some of my [previous](/right-thing-easy-thing) [posts](/balance-for-first-yea
 [^prior-art]:
     This isn’t a new or novel concept: the [Five Whys](http://www.startuplessonslearned.com/2008/11/five-whys.html) was put into practice by Toyota decades ago; companies have been conducting [root cause analyses](https://smartbear.com/learn/performance-monitoring/what-is-root-cause-analysis/) for longer. This article is my interpretation of a widely used practice for ensuring that problems are solved for realsies.
 
-I want to dig into what I mean by that, and offer up **a framework for Finding the Why on your own.**
+I want to dig into what I mean by that, and offer up **a framework for Finding the Why on your own.** This is a framework we can use to build a deeper understanding of _why_ we are the way we are: how we react to events, the way we behave at work and with friends, our fears and habits and vices — all of them have an underlying Why.
+
+**When we Find the Why, we take back control of our behavior.**
 
 ## Why Is Finding the Why Important?
 
@@ -98,25 +100,116 @@ Sometimes that’s all it takes to eliminate problems.
 
 ## How Do You Find the Why?
 
-TK
+If we can all agree that it’s important to Find the Why, we should take some time to talk about _how_ to go about finding it.
+
+As with most things, there’s no foolproof formula or ironclad process; every situation will vary in subtle ways, so coming up with a universal solution is impractical. However, there are some general guidelines that will make it easier to Find the Why in most situations.
 
 ### 1. When you notice a problem, pause and assess the situation.
 
-TK
+At arm’s length, this may seem like an obvious statement, but it’s important to keep in mind that we exist in a culture of [self-destructive work ethic](/overkill-cult) and [unhealthy commitment to our own ideas](/labels): when we’re in the middle of a project, our instinct may be to just power through.
 
-### 2. Pay attention to the symptoms.
+<blockquote class="tweetable">
+  <p class="tweetable__text">
+    When you hit a wall, sometimes it makes sense to power through it. But most of the time there’s a solution that hurts less.
+  </p>
+  <a class="tweetable__link"
+      href="https://twitter.com/intent/tweet?text=“When+you+hit+a+wall,+sometimes+it+makes+sense+to+power+through+it.+But+most+of+the+time+there’s+a+solution+that+hurts+less.”+–+@jlengstorf&url=https://lengstorf.com/find-the-why&related=jlengstorf&in-reply-to=[TK tweetid]">
+    Tweet That Shit!
+  </a>
+</blockquote>
 
-TK
+### 2. Try to see the whole picture.
+
+While assessing the problem, try to spot all of the symptoms: is there just a puddle on the floor? Or is there a leak in the ceiling, too?
+
+A broad understanding of everthing that’s going wrong provides a more complete context for problem solving. Making decisions with incomplete information will likely lead to incomplete solutions.
 
 ### 3. Think about why it happened.
 
-TK
+It’s tempting to stop at the symptoms: “Why did I snap at my friend today? Because I was having a bad day.”
 
-### 4. Ask why again.
+Having a bad day is a symptom of something. _Why_ was it a bad day? Did something happen? Am I frustrated? Is there something common in all of my bad days?
 
-TK
+Digging beyond the symptom can help us recognize the _cause_, which is what we need to address if we hope to fix the symptom permanently.
+
+### 4. Ask “Why” again.
+
+If you asked [Taiichi Ohno](https://en.wikipedia.org/wiki/Taiichi_Ohno) how to Find the Why, he’d tell you to ask “Why?” five times to make sure you’ve reached the root of the problem:
+
+ 1. **Why was the project late?** The team couldn’t deliver on time.
+ 2. **Why couldn’t they deliver on time?** There were last-minute changes to 
+    the deliverables.
+ 3. **Why were there changes to the deliverables?** Management was undecided 
+    about what to prioritize.
+ 4. **Why was management undecided?** There was a lack of clarity about what 
+    should be built.
+ 5. **Why was there a lack of clarity?** The team wasn’t included in the 
+    planning process.
+
+In this example, what initially looks like a performance problem (missed deadlines) may actually be caused by poor communication and planning.[^caveat]
+
+[^caveat]:
+  The catch with this approach is that different people will get different answers. If this team has a particularly disfunctional management chain, it could have gone more like this:
+
+   1. **Why was it late?** The team screwed around and missed the deadline.
+   2. **Why did they screw around?** Because they’re nerds who secretly hate me 
+      and waste their whole day on YouTube or something.
+   3. **Why do they spend their days on YouTube?** Because they’re stupid 
+      _nerds!_
+   4. **Why are they nerds?** Why all the questions, nerd?
+
+  It’s a tool. Tools can be misused. Use your judgment.
 
 ### 5. Keep asking until you’ve reached the deepest reason you can control.
 
-TK
+Going back to the example where I’m having a bad day, maybe I find a chain of causes like this:
 
+- I’m having a bad day.
+- **Why?** Because I feel like I wasted the whole day.
+- **Why?** Because I didn’t accomplish any of my tasks.
+- **Why?** Because I spent the whole day in meetings.
+- **Why?** Because people keep inviting me to meetings.
+
+In this chain, the cause of my grumpiness is that I feel like I lost the whole day to meetings. The final cause — that people keep inviting me to meetings — appears to be the root cause, but it’s beyond my control: I don’t control other people, so how can I stop them from inviting me to meetings?
+
+If I take one step back, however, I _showed up to those meetings_. This is within my control, so I can ask a new set of questions:
+
+- I spent the whole day in meetings.
+- **Why?** Because I had a buttload of meetings on my schedule.
+- **Why?** Because I accepted every meeting invite, even if they were 
+  irrelevant to my work.
+- **Why?** Because I didn’t want to seem rude by declining.[^rabbithole]
+
+[^rabbithole]:
+  Beware the rabbit hole here. You can _always_ go deeper, but there’s a point of diminishing returns.
+  
+  Why don’t I want to seem rude? Because I’m worried it’ll get me fired. Why? Because I have self-worth issues. Why? Because I [feel like a phony](/not-a-phony) sometimes. Why? Because...
+
+  After a certain point, the “deeper cause” becomes so general — e.g. “I don’t value myself” — that it’s almost a symptom in itself. This is a problem with asking subjective questions: they allow you to talk yourself in a circle if you don’t choose a logical stopping point.
+
+  Because — get ready for this — **why do I don’t value myself?** Because I let people abuse my time, _which they often do by scheduling too many fucking meetings_.
+
+  If you chase any strand of logic far enough, you’ll eventually [end up staring at the back of your own head](https://science.howstuffworks.com/dictionary/astronomy-terms/space-shape2.htm).
+
+Now that I’ve explored this new line of questioning, there’s a new potential root cause: I’m accepting meetings even when I shouldn’t be.
+
+This means I’m no longer helpless; I can control the way I respond to irrelevant meeting requests.
+
+If we dig too deep, we end up with problems that are either so broad they’re not solvable in a reasonable time frame, or that extend beyond what we’re able to control, which removes our ability to solve them entirely.
+
+**We need to Find the Why at the deepest level we can control.** This way, we can come up with a solution _and actually implement it_. Because — remember — [no one is coming to save us](/no-one-is-coming-to-save-you).
+
+## Life Is Easier When We Know Why
+
+Even though it can be frustrating, stressful, or even frightening to Find the Why, there have been few things that improved my life more dramatically than adopting this as a core strategy for being alive.
+
+If something makes me angry or sad, digging deeper helps me find a healthy and/or productive way to process that emotion.[^destructive] If I’m stressed and irritable, I can dig deeper and figure out where that stress is coming from and how to address it. If something goes wrong at work, I look for deeper patterns that will prevent it from ever happening again, rather than just putting out the fire and pointing fingers at someone else.
+
+[^destructive]:
+  This is a big change; I used to respond to strong emotion by verbally abusing the people around me to vent and/or eating pizza and ice cream until I couldn’t feel feelings anymore.
+
+**After I learned to Find the Why, I became a happier, healthier, less volatile person.** (Or, as many of my friends would put it: “He’s less of a dick now.”)
+
+If you put this into practice, maybe your friends will think you’re less of a dick, too.
+
+And that’s something we should all aspire to.
