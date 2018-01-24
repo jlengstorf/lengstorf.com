@@ -1,5 +1,5 @@
 ---
-date: 2018-01-08
+date: 2018-01-18
 
 title: >
   2017 Retrospective: What went right? What could have gone better? How will I improve going forward?

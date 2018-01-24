@@ -155,7 +155,7 @@ This is an extremely corrosive view of the world. It implies that the only thing
 in my life worth effort or attention is work — and even my 23-year-old
 workaholic self would have called that view unhealthy.
 
-However, until I dug down to Find the Why[^refocus] behind my view that
+However, until I dug down to [Find the Why](/find-the-why)[^refocus] behind my view that
 non-working time was as good as wasted, I would have defended that belief — and
 all the appalling consequences — as a virtue that made me _good_ at being an
 entrepreneur.
