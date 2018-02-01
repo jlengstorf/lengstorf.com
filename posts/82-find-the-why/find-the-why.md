@@ -2,7 +2,7 @@
 date: 2018-01-19
 
 title: >
-  Find the Mollusc: Uncovering the (Sometimes Hidden) Reasons We Do the Things We Do
+  Find the Why: Uncovering the (Sometimes Hidden) Reasons We Do the Things We Do
 slug: find-the-why
 description: >
   TK
