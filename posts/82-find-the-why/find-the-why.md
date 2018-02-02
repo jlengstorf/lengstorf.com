@@ -5,7 +5,7 @@ title: >
   Find the Why: Uncovering the (Sometimes Hidden) Reasons We Do the Things We Do
 slug: find-the-why
 description: >
-  TK
+  Underneath the things we do, there are almost always deeper reasons. In order to make the best decisions and live the best life, we should figure out what they are.
 
 category:
 - happiness
@@ -15,19 +15,33 @@ tag:
 - motivation
 
 images:
-- /images/speaking.jpg
+- /images/find-the-why.jpg
 
 cta: default
 ---
 
-In some of my [previous](/right-thing-easy-thing) [posts](/balance-for-first-year-entrepreneurs), I use the phrase **“Find the Why”** as a kind of shorthand for the process of digging deeper into our behaviors, feelings, and ideas to figure out what’s _really_ going on.[^prior-art]
+In some of my [previous](/right-thing-easy-thing) [posts](/balance-for-first-year-entrepreneurs), I use the phrase **“Find the Why”**[^prior-art] as a kind of shorthand for the process of digging deeper into our behaviors, feelings, and ideas to figure out what’s _really_ going on: how we react to events, the way we behave at work and with friends, our fears and habits and vices — all of them have an underlying Why.
 
 [^prior-art]:
-    This isn’t a new or novel concept: the [Five Whys](http://www.startuplessonslearned.com/2008/11/five-whys.html) was put into practice by Toyota decades ago; companies have been conducting [root cause analyses](https://smartbear.com/learn/performance-monitoring/what-is-root-cause-analysis/) for longer. This article is my interpretation of a widely used practice for ensuring that problems are solved for realsies.
+    This isn’t a new or novel concept: the [Five Whys](http://www.startuplessonslearned.com/2008/11/five-whys.html) was put into practice by Toyota many years ago; companies were conducting [root cause analyses](https://smartbear.com/learn/performance-monitoring/what-is-root-cause-analysis/) for decades. This article is my interpretation of a widely used practice for ensuring that problems are solved for realsies.
 
-I want to dig into what I mean by that, and offer up **a framework for Finding the Why on your own.** This is a framework we can use to build a deeper understanding of _why_ we are the way we are: how we react to events, the way we behave at work and with friends, our fears and habits and vices — all of them have an underlying Why.
+In this post, I want to unpack what I mean by that, and offer up **a framework for Finding the Why on your own.** This is a framework we can use to build a deeper understanding of _why_ we are the way we are.
 
 **When we Find the Why, we take back control of our behavior.**
+
+<figure class="figure figure--center">
+  <img src="./images/find-the-why.jpg" alt="Find the Why." />
+  <figcaption class="figure__caption">
+    <small class="figure__attribution">
+      Credit: 
+      <a class="figure__attribution-link" 
+         href="https://pixabay.com/en/users/TeroVesalainen-809550/">
+        Tero Vesalainen
+      </a>
+    </small>
+  </figcaption>
+</figure>
+
 
 ## Why Is Finding the Why Important?
 
@@ -35,13 +49,13 @@ Not too long ago, I was in a [retrospective](/2017-personal-retrospective) for a
 
 Someone interrupted me and said, “It doesn’t matter _why_ it went wrong; we need to focus on how we’re going to fix it.”
 
-In certain circumstances, I can see the point: if your pants catch fire, you should focus on putting out the fire, not asking whether the blaze happened because you are, in fact, a liar liar.
+In certain circumstances, I can see the point: if your pants are on fire, you should focus on putting them out, not asking whether they started burning because you are, in fact, a liar liar.
 
-The problem with only solving the problem, though, is that **problems are often just a symptom of something deeper.**
+The problem with only solving the problem, though, is that **problems are often just a symptom of something deeper.** If I put out the fire, but don’t ask why it started afterward, what’s to stop me from hanging my pants over a scented candle to “freshen them up” again?
 
 **If we don’t understand _why_ the problem occurred, we have no way of knowing if our fix has actually solved the problem**, or just temporarily covered it up.
 
-## How Will Finding the Why Help?
+## How Will Finding the Why Make Life Easier?
 
 By taking the time to examine the underlying causes of problems, we gain subtle but **extremely powerful advantages.**
 
@@ -49,15 +63,27 @@ By taking the time to examine the underlying causes of problems, we gain subtle 
 
 There are a few people I work with on a daily basis who stress me out just to be around. Their entire existence, as far as I can tell, is spent careening from one fire to the next, desparately trying to stay on top of an endless stream of fire drills.
 
-[[TK gif of cartoon character getting whacked from all sides by someone who’s hiding]]
+<figure class="figure figure--right">
+  <img src="./images/lucy.gif" alt="Overwhelmed Lucille Ball at the conveyor belt." />
+  <figcaption class="figure__caption">
+    No matter how fast you grab ’em, those chocolates will keep coming.
+    <small class="figure__attribution">
+      Credit: 
+      <a class="figure__attribution-link" 
+         href="http://www.cbs.com/shows/i_love_lucy/">
+        CBS / I Love Lucy
+      </a>
+    </small>
+  </figcaption>
+</figure>
 
-This is a **reactive approach**, and it looks like a waking nightmare.
+This is a **reactive approach**, and it’s basically a waking nightmare: the world is constantly happening _to you_. Chaos reigns, and every problem is a surprise.
 
-If you’re living reactively, the world is constantly happening _to you_. Chaos reigns, and every problem is a surprise. It’s like a game of whack-a-mole, except you’re the one taking all the lumps.
+Living reactively is like an endless game of whack-a-mole where you’re the one taking all the lumps.
 
 If, however, you take a **proactive approach**, life starts to look a little different: because you’re making the effort to understand _why_ problems are occurring, you start to see patterns. Problems that previously felt novel start to resemble each other, and you can apply your previous experience to help solve new problems more effectively.
 
-The real advantage to a proactive approach, however, is that your deeper understanding allows you to [see problems before they happen](/see-tree-coming). Because you’ve worked out the underlying cause of previous problems, you can spot problematic things and correct them _before_ anything breaks.
+**The biggest advantage to a proactive approach is that your deeper understanding allows you to [see problems before they happen](/see-tree-coming)**: because you’ve worked out the underlying cause of previous issues, you can spot potential problems early — and correct them _before_ anything breaks.
 
 ### We can find patterns that make problems easier to solve.
 
@@ -65,7 +91,7 @@ By thinking through to the deeper causes of our problems, we can start to see th
 
 Part of my job is building processes and tools to make teams more effective. When I first started looking at the bottlenecks and time drains our teams were up against, they seemed like unrelated challenges — this made it feel like the effort was doomed.
 
-After researching to Find the Why, however, we found a few common culprits:
+After taking time to Find the Why, however, we found a few common culprits:
 
  -  There was a lack of clarity about goals, so teams were being forced to make 
     educated guesses about what was expected of them.
@@ -76,7 +102,7 @@ After researching to Find the Why, however, we found a few common culprits:
 
 **These three problems were causing the vast majority of the bottlenecks, performance problems, interpersonal conflicts, and other issues we were trying to solve.** By realizing this, we were able to focus our efforts in a way that actually made an impact.
 
-Had we instead looked at these as unique technical, tooling, personnel, and individual problems, we would have wasted a huge amount of effort treating the symptoms — and wouldn’t have made much progress.
+Had we instead looked at these as unique technical, tooling, and interpersonal problems, we would have wasted a huge amount of effort treating the symptoms — and wouldn’t have made much progress.
 
 ### Sometimes noticing is all it takes.
 
@@ -94,13 +120,11 @@ If we take the time to Find the Why behind our problems, we’re able to notice 
 If you’ve ever burned out an electric motor,[^juicer] you probably now know that there are certain sounds and smells that mean something’s about to go horribly wrong. By recognizing that, you’re able to turn off the machine _before_ an expensive failure happens.
 
 [^juicer]:
-    I mean, _I’ve_ never done that, of course, but I have this friend who may have tried to cram a few too many carrots into a juicer and learned _all about_ the intricacies of its manufacturer warranty.
+    I mean, _I’ve_ never done that, of course, but I have this friend who is _definitely not me_ that may have tried to cram a few too many carrots into a juicer and learned _all about_ the intricacies of its manufacturer warranty.
 
-Sometimes that’s all it takes to eliminate problems.
+Sometimes paying attention all it takes to eliminate problems.
 
 ## How Do You Find the Why?
-
-If we can all agree that it’s important to Find the Why, we should take some time to talk about _how_ to go about finding it.
 
 As with most things, there’s no foolproof formula or ironclad process; every situation will vary in subtle ways, so coming up with a universal solution is impractical. However, there are some general guidelines that will make it easier to Find the Why in most situations.
 
@@ -110,19 +134,21 @@ At arm’s length, this may seem like an obvious statement, but it’s important
 
 <blockquote class="tweetable">
   <p class="tweetable__text">
-    When you hit a wall, sometimes it makes sense to power through it. But most of the time there’s a solution that hurts less.
+    When you hit a wall, sometimes it makes sense to plow through it. But most of the time there’s a solution that hurts less.
   </p>
   <a class="tweetable__link"
-      href="https://twitter.com/intent/tweet?text=“When+you+hit+a+wall,+sometimes+it+makes+sense+to+power+through+it.+But+most+of+the+time+there’s+a+solution+that+hurts+less.”+–+@jlengstorf&url=https://lengstorf.com/find-the-why&related=jlengstorf&in-reply-to=[TK tweetid]">
+      href="https://twitter.com/intent/tweet?text=“When+you+hit+a+wall,+sometimes+it+makes+sense+to+plow+through+it.+But+most+of+the+time+there’s+a+solution+that+hurts+less.”+–+@jlengstorf&url=https://lengstorf.com/find-the-why&related=jlengstorf&in-reply-to=[TK tweetid]">
     Tweet That Shit!
   </a>
 </blockquote>
+
+Before you put your head down and try to smash it through whatever the problem is, take a beat and try to get a sense of what you’re up against.
 
 ### 2. Try to see the whole picture.
 
 While assessing the problem, try to spot all of the symptoms: is there just a puddle on the floor? Or is there a leak in the ceiling, too?
 
-A broad understanding of everthing that’s going wrong provides a more complete context for problem solving. Making decisions with incomplete information will likely lead to incomplete solutions.
+A broad understanding of everthing that’s going wrong provides a more complete context for problem solving. **Making decisions with incomplete information will likely lead to incomplete solutions.**
 
 ### 3. Think about why it happened.
 
@@ -165,12 +191,26 @@ In this example, what initially looks like a performance problem (missed deadlin
 Going back to the example where I’m having a bad day, maybe I find a chain of causes like this:
 
 - I’m having a bad day.
-- **Why?** Because I feel like I wasted the whole day.
-- **Why?** Because I didn’t accomplish any of my tasks.
-- **Why?** Because I spent the whole day in meetings.
-- **Why?** Because people keep inviting me to meetings.
+- **Why?** I feel like I wasted the whole day.
+- **Why?** I didn’t accomplish any of my tasks.
+- **Why?** I spent the whole day in meetings.
+- **Why?** People keep inviting me to meetings.
 
 In this chain, the cause of my grumpiness is that I feel like I lost the whole day to meetings. The final cause — that people keep inviting me to meetings — appears to be the root cause, but it’s beyond my control: I don’t control other people, so how can I stop them from inviting me to meetings?
+
+<figure class="figure figure--center">
+  <img src="./images/things-i-can-control.jpg" alt="Things I can control." />
+  <figcaption class="figure__caption">
+    Only the things inside the circle are worth your effort.
+    <small class="figure__attribution">
+      Credit: 
+      <span class="figure__attribution-link">
+        Jason Lengstorf
+      </span>
+    </small>
+  </figcaption>
+</figure>
+
 
 If I take one step back, however, I _showed up to those meetings_. This is within my control, so I can ask a new set of questions:
 
@@ -212,4 +252,4 @@ If something makes me angry or sad, digging deeper helps me find a healthy and/o
 
 If you put this into practice, maybe your friends will think you’re less of a dick, too.
 
-And that’s something we should all aspire to.
+And _that’s_ a worthy goal if ever I’ve heard one.
