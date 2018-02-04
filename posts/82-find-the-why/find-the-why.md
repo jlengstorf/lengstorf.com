@@ -227,7 +227,7 @@ If I take one step back, however, I _showed up to those meetings_. This is withi
 
   After a certain point, the “deeper cause” becomes so general — e.g. “I don’t value myself” — that it’s almost a symptom in itself. This is a problem with asking subjective questions: they allow you to talk yourself in a circle if you don’t choose a logical stopping point.
 
-  Because — get ready for this — **why do I don’t value myself?** Because I let people abuse my time, _which they often do by scheduling too many fucking meetings_.
+  Because — get ready for this — **why don’t I value myself?** Because I let people abuse my time, _which they often do by scheduling too many fucking meetings_.
 
   If you chase any strand of logic far enough, you’ll eventually [end up staring at the back of your own head](https://science.howstuffworks.com/dictionary/astronomy-terms/space-shape2.htm).
 
