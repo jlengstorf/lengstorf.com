@@ -181,12 +181,12 @@ And yet **I did the wrong thing anyways.**
 </figure>
 
 I could chalk this up to me being a weak person with shitty willpower, but
-that's not particularly productive. But if we look a little deeper and Find The
-Why[^ftw] another, more useful thread shows up: **these decisions are born out
+that's not particularly productive. But if we look a little deeper and [Find The
+Why](/find-the-why)[^ftw] another, more useful thread shows up: **these decisions are born out
 of convenience, not ignorance or malice.**
 
 [^ftw]:
-  I should probably expand on this in its own post, but here's the short version: Find the Why is my shorthand for digging into the underlying cause of a feeling or situation. If we know what's happening underneath the feeling, we can find other things that help us seek out or avoid a given feeling without having to blindly try everything.
+  I have a [whole post about this](/find-the-why), but here's the short version: Find the Why is my shorthand for digging into the underlying cause of a feeling or situation. If we know what's happening underneath the feeling, we can find other things that help us seek out or avoid a given feeling without having to blindly try everything.
   
   For example, I like web design. Why? Because I get a lot of satisfaction from solving complex problems and helping people distill knowledge in a way that makes it accessible to other people. Knowing this, I'm also interested in teaching and coaching because the fundamentals are the same.
 

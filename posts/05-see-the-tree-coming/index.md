@@ -135,7 +135,7 @@ to feel like I'm taking care of myself.
 Aside from the obvious benefit to my physical well-being, dealing with my
 failures taught me one of the most useful life skills I've come across yet:
 
-**When you fail, try to understand _why_ you failed instead of just learning how to avoid repeating this one mistake.**
+**When you fail, try to [understand _why_ you failed](/find-the-why) instead of just learning how to avoid repeating this one mistake.**
 
 If I run into a tree, I shouldn't just glare at the tree and then go about my
 day.
