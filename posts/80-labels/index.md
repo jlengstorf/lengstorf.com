@@ -54,7 +54,7 @@ head.
 
 ## Why I Get Squeamish About Labels
 
-Until recently, however, I'd never asked myself _why_ I was uncomfortable with
+Until recently, however, I'd never [asked myself _why_](/find-the-why) I was uncomfortable with
 labels.
 
 Why, when I started a company, wouldn't I call it a startup?
