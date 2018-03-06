@@ -38,15 +38,16 @@ For a full list of the proposals I’m kicking around right now, see [my present
 -   [**Generate**](https://www.generateconf.com/new-york), April 2018, New York, NY, USA
 -   [**CRAFT**](https://craft-conf.com/), May 2018, Budapest, Hungary
 -   [**Syntax Code & Craft Conference**](https://2018.syntaxcon.com/), June 2018, Charleston, SC, USA
+-   [**That Conference**](https://www.thatconference.com/), August 2018, Wisconsin Dells, WI
 
 <a href="mailto:speaking@lengstorf.com?subject=Speaking+Inquiry" class="btn btn--small">Book me to speak at your event »</a>
 
 ## Previous Speaking Engagements
 
--   **Assert(js)**, February 2018, San Antonio, TX, USA
+-   **Assert(js)**, February 2018, San Antonio, TX, USA ([video](https://youtu.be/zqdCM8zR6Mc))
 -   **Global CFP Diversity Day**, February 2018, Austin, TX, USA
 -   **APIStrat**, November 2017, Portland, OR, USA
--   **GraphQL Summit**, October 2017, Portland, OR, USA ([video](https://www.youtube.com/watch?v=T3FbZsYXi50))
+-   **GraphQL Summit**, October 2017, Portland, OR, USA ([video](https://youtu.be/T3FbZsYXi50))
 -   **Connect.Tech**, September 2017, Atlanta, GA, USA ([video](https://www.recallact.com/presentation/how-i-cut-my-working-hours-half-and-somehow-managed-get-more-done))
 -   **Web Summer Camp**, August 2017, Rovinj, Croatia
 -   **That Conference**, August 2017, Wisconsin Dells, WI, USA
