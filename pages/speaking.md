@@ -32,8 +32,6 @@ For a full list of the proposals I’m kicking around right now, see [my present
 
 ## Upcoming Speaking Engagements
 
--   [**JazzCon.Tech**](http://jazzcon.tech/), March 2018, New Orleans, LA, USA
--   [**#PerfMatters**](https://perfmattersconf.com/), March 2018, Redwood City, CA, USA
 -   [**The Lead Developer**](https://newyork2018.theleaddeveloper.com/), April 2018, New York, NY, USA
 -   [**Generate**](https://www.generateconf.com/new-york), April 2018, New York, NY, USA
 -   [**CRAFT**](https://craft-conf.com/), May 2018, Budapest, Hungary
@@ -44,6 +42,8 @@ For a full list of the proposals I’m kicking around right now, see [my present
 
 ## Previous Speaking Engagements
 
+-   **#PerfMatters**, March 2018, Redwood City, CA, USA
+-   **JazzCon.Tech**, March 2018, New Orleans, LA, USA
 -   **Assert(js)**, February 2018, San Antonio, TX, USA ([video](https://youtu.be/zqdCM8zR6Mc))
 -   **Global CFP Diversity Day**, February 2018, Austin, TX, USA
 -   **APIStrat**, November 2017, Portland, OR, USA
