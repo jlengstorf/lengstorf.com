@@ -160,8 +160,7 @@ fronts for obtaining student visas semi-legally. That sounds like some shady
 shit to me, so I never looked into it.
 
 If you're not actually a student, this visa probably isn't the best idea. If you
-are a student, look into the [guidelines][8] for getting one in the country you
-want to study in.
+are a student, look into the [programs][8] available to get set up with an exchange program (which includes a visa).
 
 ### Other Options for Long-Term Visas
 
@@ -206,7 +205,7 @@ be in the US. You'll be fine.
 [5]: http://www.tripadvisor.com/Travel-g293921-c148049/Vietnam:Faq.Visa.On.Arrival.Voa.html
 [6]: http://en.wikipedia.org/wiki/Schengen_Area
 [7]: http://www.reddit.com/r/TEFL/wiki/gettingstarted/dummiesguide
-[8]: http://travel.state.gov/content/visas/english/study-exchange/student.html 
+[8]: https://exchanges.state.gov/us/find-programs 
 [9]: http://bucking-the-trend.com/apply-non-lucrative-residence-visa-spain-us-citizen/
 [10]: http://www.exteriores.gob.es/Consulados/SANFRANCISCO/en/ConsularServices/Documents/visas/NonLucrative.pdf
 [11]: https://service.berlin.de/dienstleistung/305249/en/
