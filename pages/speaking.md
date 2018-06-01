@@ -32,6 +32,9 @@ For a full list of the proposals I’m kicking around right now, see [my present
 
 ## Upcoming Speaking Engagements
 
+-   [**The Lead Developer**](https://newyork2018.theleaddeveloper.com/), April 2018, New York, NY, USA
+-   [**Generate**](https://www.generateconf.com/new-york), April 2018, New York, NY, USA
+-   [**CRAFT**](https://craft-conf.com/), May 2018, Budapest, Hungary
 -   [**Syntax Code & Craft Conference**](https://2018.syntaxcon.com/), June 2018, Charleston, SC, USA
 -   [**That Conference**](https://www.thatconference.com/), August 2018, Wisconsin Dells, WI
 
@@ -39,23 +42,20 @@ For a full list of the proposals I’m kicking around right now, see [my present
 
 ## Previous Speaking Engagements
 
--   **CRAFT**, May 2018, Budapest, Hungary ([video: "How I Cut My Working Hours in Half"](http://www.ustream.tv/recorded/114944097))
--   **Generate**, April 2018, New York, NY, USA
--   **The Lead Developer**, April 2018, New York, NY, USA
 -   **#PerfMatters**, March 2018, Redwood City, CA, USA
 -   **JazzCon.Tech**, March 2018, New Orleans, LA, USA
--   **Assert(js)**, February 2018, San Antonio, TX, USA ([video: "Building a testing- and quality-driven culture"](https://youtu.be/zqdCM8zR6Mc))
+-   **Assert(js)**, February 2018, San Antonio, TX, USA ([video](https://youtu.be/zqdCM8zR6Mc))
 -   **Global CFP Diversity Day**, February 2018, Austin, TX, USA
 -   **APIStrat**, November 2017, Portland, OR, USA
--   **GraphQL Summit**, October 2017, Portland, OR, USA ([video: "GraphQL at Massive Scale"](https://youtu.be/T3FbZsYXi50))
--   **Connect.Tech**, September 2017, Atlanta, GA, USA ([video: "How I Cut My Working Hours in Half"](https://www.recallact.com/presentation/how-i-cut-my-working-hours-half-and-somehow-managed-get-more-done))
+-   **GraphQL Summit**, October 2017, Portland, OR, USA ([video](https://youtu.be/T3FbZsYXi50))
+-   **Connect.Tech**, September 2017, Atlanta, GA, USA ([video](https://www.recallact.com/presentation/how-i-cut-my-working-hours-half-and-somehow-managed-get-more-done))
 -   **Web Summer Camp**, August 2017, Rovinj, Croatia
 -   **That Conference**, August 2017, Wisconsin Dells, WI, USA
--   **Web Rebels**, June 2017, Oslo, Norway ([video: "Functional Programming for People Who Hate Math"](https://youtu.be/4WbpKSh0FWk?t=2h44m44s))
+-   **Web Rebels**, June 2017, Oslo, Norway ([video](https://youtu.be/4WbpKSh0FWk?t=2h44m44s))
 -   **DEVit**, May 2017, Thessaloniki, Greece
 -   **Oracle Code**, April 2017, Toronto, ON, Canada
 -   **Oracle Code**, March 2017, Austin, TX, USA
--   **WordCamp Atlanta**, March 2017, Atlanta, GA, USA ([video: "Better WordPress Deployment With Trellis"](http://wordpress.tv/2017/03/29/jason-lengstorf-wordpress-deployment-for-professionals-how-to-solve-the-problem-of-multiple-wordpress-installs-in-30-minutes-or-less/))
+-   **WordCamp Atlanta**, March 2017, Atlanta, GA, USA ([video](http://wordpress.tv/2017/03/29/jason-lengstorf-wordpress-deployment-for-professionals-how-to-solve-the-problem-of-multiple-wordpress-installs-in-30-minutes-or-less/))
 -   **PHP Sevilla**, June 2016, Sevilla, Spain
 -   **WebVisions**, July 2015, Barcelona, Spain
 -   **Future Insights Live**, June 2015, Las Vegas, NV, USA
