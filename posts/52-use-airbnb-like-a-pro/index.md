@@ -97,7 +97,7 @@ ranging from wireless internet and air conditioning to a gym or a doorman.
     <small class="figure__attribution">
       Credit: 
       <a class="figure__attribution-link" 
-         href="https://www.airbnb.com/">
+         href="https://www.airbnb.com/c/jlengstorf">
         Airbnb
       </a>
     </small>
@@ -131,7 +131,7 @@ to book immediately — don't do this.
     <small class="figure__attribution">
       Credit: 
       <a class="figure__attribution-link" 
-         href="https://www.airbnb.com/">
+         href="https://www.airbnb.com/c/jlengstorf">
         Airbnb
       </a>
     </small>
@@ -270,7 +270,7 @@ convinced **Airbnb is the perfect tool for [location-independent][8] workers.**
 [^bed]:
   I travel with my partner Marisa, and we found out the hard way that one of us — not naming names — is a sleep-puncher.
 
-[1]: https://www.airbnb.com/
+[1]: https://www.airbnb.com/c/jlengstorf
 [2]: http://en.wikipedia.org/wiki/Sharing_economy
 [3]: http://www.vrbo.com/
 [4]: https://www.airbnb.com/rooms/991697

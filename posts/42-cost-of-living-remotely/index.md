@@ -74,7 +74,7 @@ something magical happens: **all the extra bills go away.**
     <small class="figure__attribution">
       Credit: 
       <a class="figure__attribution-link" 
-         href="https://www.airbnb.com/">
+         href="https://www.airbnb.com/c/jlengstorf?s=8">
         Airbnb
       </a>
     </small>
@@ -179,5 +179,5 @@ traveling the world.
 
 [2]: https://nomadlist.com/chiang-mai-thailand
 [3]: http://www.skyscanner.com/
-[4]: https://www.airbnb.com/
+[4]: https://www.airbnb.com/c/jlengstorf
 [5]: http://i.imgur.com/iexMg46.jpg

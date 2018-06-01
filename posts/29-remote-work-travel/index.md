@@ -320,7 +320,7 @@ P.S. If you want to follow along as I go on this adventure, make sure to
 
 [1]: /fear
 [2]: https://medium.com/project-grownup/the-real-life-truman-show-1cd6b2aa9c34
-[3]: http://www.airbnb.com/
+[3]: http://www.airbnb.com/c/jlengstorf "Get a $50 Airbnb credit if you sign up with this link"
 [4]: /growing-up-vs-growing-older
 [5]: /speaking
 [6]: http://cptr.me/1oNJ4N0
