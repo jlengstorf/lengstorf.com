@@ -53,6 +53,8 @@ period of time is difficult.
 Airbnb offers the ability to find a place to stay that feels less like a filing
 cabinet for tourists and more like a _home_.
 
+**(If you've never stayed at an Airbnb before, you can [get $25 off your first rental using this link][1].)**
+
 Getting the most out of Airbnb can be tricky. But it's not hard.
 
 ## Define What Matters
@@ -266,6 +268,8 @@ home — and avoid the temporary feeling that can lead to homesickness.
 
 This, in combination with the potential to save _a lot of money_, is why I'm
 convinced **Airbnb is the perfect tool for [location-independent][8] workers.**
+
+(Don't forget: [sign up for Airbnb with this link get $25 toward your first rental][1].)
 
 [^bed]:
   I travel with my partner Marisa, and we found out the hard way that one of us — not naming names — is a sleep-puncher.
