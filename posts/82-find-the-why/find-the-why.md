@@ -122,7 +122,7 @@ If you’ve ever burned out an electric motor,[^juicer] you probably now know th
 [^juicer]:
     I mean, _I’ve_ never done that, of course, but I have this friend who is _definitely not me_ that may have tried to cram a few too many carrots into a juicer and learned _all about_ the intricacies of its manufacturer warranty.
 
-Sometimes paying attention all it takes to eliminate problems.
+Sometimes paying attention is all it takes to eliminate problems.
 
 ## How Do You Find the Why?
 
