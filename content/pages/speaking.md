@@ -2,7 +2,6 @@
 title: Speaking and Workshops
 description: >
   Jason Lengstorf is an experienced speaker on topics ranging from web design and development to happiness, work-life balance, and productivity.
-template: page
 ---
 
 I'm available for speaking gigs; just [contact me](mailto:speaking@lengstorf.com?subject=Speaking+Inquiry). I'd be happy to speak about my experiences with remote working, business-building, or web design and development.

@@ -7,7 +7,8 @@ optin:
   group: DEFAULT
   button: Join Now
 
-template: about
+# This prevents Gatsby from programatically creating this page.
+generate: false
 ---
 <figure class="figure figure--right">
   <img src="./images/jason-web-summer-camp.jpg" alt="Jason Lengstorf at Web Summer Camp in Croatia, 2017." />

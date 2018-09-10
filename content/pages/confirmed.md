@@ -1,6 +1,5 @@
 ---
 title: Thank You
-template: page
 ---
 
 Your email is confirmed and goodies are inbound.

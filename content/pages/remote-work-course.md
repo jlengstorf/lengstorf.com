@@ -1,6 +1,5 @@
 ---
 title: Escape the office and make your living while traveling the world.
-template: page
 optin:
   button: Get It Now
   group: TRAVEL

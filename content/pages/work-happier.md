@@ -1,6 +1,5 @@
 ---
 title: You May Love Your Job. But Does Your Job Love You Back?
-template: page
 optin:
   button: Get It Now
   group: WORKHAPPY

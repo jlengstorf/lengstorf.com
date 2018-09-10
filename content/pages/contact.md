@@ -1,6 +1,5 @@
 ---
 title: How to Get In Touch
-template: page
 ---
 
 If you want to contact me, here’s how to do it:

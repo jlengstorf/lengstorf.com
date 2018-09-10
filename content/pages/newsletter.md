@@ -2,7 +2,6 @@
 title: I send out a newsletter sometimes.
 description: >
   Get regular updates and subscriber-only content from Jason Lengstorf.
-template: page
 optin:
   group: DEFAULT
   button: Join Now

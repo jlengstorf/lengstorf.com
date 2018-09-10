@@ -1,6 +1,5 @@
 ---
 title: Disclaimer
-template: page
 ---
 
 This blog is personal, and not intended to solve any problems or diagnose any disease. So let’s just assume for everyone’s sake that I don’t know shit about shit, and you shouldn’t trust me at all.
