@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import CategoryLink from '../components/CategoryLink';
 import TagLink from '../components/TagLink';
@@ -26,7 +26,7 @@ const getHeading = (isFirstPage, currentPage, totalPages, type, value) => {
 };
 
 const Blog = ({
-  pathContext: {
+  pageContext: {
     postGroup,
     isFirstPage,
     isLastPage,
@@ -78,7 +78,7 @@ const Blog = ({
 );
 
 Blog.propTypes = {
-  pathContext: PropTypes.shape({
+  pageContext: PropTypes.shape({
     postGroup: PropTypes.any,
     isFirstPage: PropTypes.bool,
     isLastPage: PropTypes.bool,

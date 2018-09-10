@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import CategoryLink from './CategoryLink';
 import TagLink from './TagLink';
 import styles from '../styles/post-meta.module.css';
@@ -20,7 +20,9 @@ const PostMeta = ({ thumb, categories, tags, className }) => (
         <CategoryLink key={`category-${category}`} category={category} block />
       ))}
       <p className={styles.text}>Tags:</p>
-      {tags.map(tag => <TagLink key={`tag-${tag}`} tag={tag} />)}
+      {tags.map(tag => (
+        <TagLink key={`tag-${tag}`} tag={tag} />
+      ))}
       <p className={styles.text}>
         If you want to get more posts like this,{' '}
         <Link to="/newsletter">join my newsletter</Link>.

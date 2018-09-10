@@ -1,6 +1,7 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';
@@ -17,7 +18,7 @@ export default class BlogPost extends React.Component {
     data: PropTypes.shape({
       markdownRemark: PropTypes.any,
     }).isRequired,
-    pathContext: PropTypes.shape({
+    pageContext: PropTypes.shape({
       slug: PropTypes.string.isRequired,
     }).isRequired,
   };
@@ -30,7 +31,7 @@ export default class BlogPost extends React.Component {
 
     const postImage = imageSharp && imageSharp.sizes && imageSharp.sizes.src;
     if (!postImage) {
-      throw Error(`Missing image for ${this.props.pathContext.slug}`);
+      throw Error(`Missing image for ${this.props.pageContext.slug}`);
     }
 
     return [
@@ -86,68 +87,68 @@ export default class BlogPost extends React.Component {
   }
 }
 
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!, $imageRegex: String!, $offer: String!) {
-    postData: markdownRemark(fields: { slug: { eq: $slug } }) {
-      internal {
-        contentDigest
-      }
-      html
-      frontmatter {
-        title
-        description
-        category
-        tag
-        # Used for schema.org
-        datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
-        images
-        seo_title
-        slug
-        cta
-      }
-      fields {
-        slug
-      }
-    }
-    offer: markdownRemark(id: { regex: $offer }) {
-      html
-      frontmatter {
-        button
-        link
-        popover {
-          heading
-          benefits
-          button
-          group
-        }
-      }
-    }
-    imageSharp(id: { regex: $imageRegex }) {
-      sizes(maxWidth: 1380) {
-        src
-      }
-    }
-    author: imageSharp(id: { regex: "/jason-lengstorf-square/" }) {
-      sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-    thumb: imageSharp(id: { regex: $imageRegex }) {
-      sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-    popoverImages: allImageSharp(
-      filter: { id: { regex: "/popover/.*.jpg/" } }
-    ) {
-      edges {
-        node {
-          id
-          sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-            ...GatsbyImageSharpSizes_tracedSVG
-          }
-        }
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query BlogPostBySlug($slug: String!, $imageRegex: String!, $offer: String!) {
+//     postData: markdownRemark(fields: { slug: { eq: $slug } }) {
+//       internal {
+//         contentDigest
+//       }
+//       html
+//       frontmatter {
+//         title
+//         description
+//         category
+//         tag
+//         # Used for schema.org
+//         datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
+//         images
+//         seo_title
+//         slug
+//         cta
+//       }
+//       fields {
+//         slug
+//       }
+//     }
+//     offer: markdownRemark(id: { regex: $offer }) {
+//       html
+//       frontmatter {
+//         button
+//         link
+//         popover {
+//           heading
+//           benefits
+//           button
+//           group
+//         }
+//       }
+//     }
+//     imageSharp(id: { regex: $imageRegex }) {
+//       sizes(maxWidth: 1380) {
+//         src
+//       }
+//     }
+//     author: imageSharp(id: { regex: "/jason-lengstorf-square/" }) {
+//       sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+//         ...GatsbyImageSharpSizes_tracedSVG
+//       }
+//     }
+//     thumb: imageSharp(id: { regex: $imageRegex }) {
+//       sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+//         ...GatsbyImageSharpSizes_tracedSVG
+//       }
+//     }
+//     popoverImages: allImageSharp(
+//       filter: { id: { regex: "/popover/.*.jpg/" } }
+//     ) {
+//       edges {
+//         node {
+//           id
+//           sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+//             ...GatsbyImageSharpSizes_tracedSVG
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
