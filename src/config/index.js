@@ -30,6 +30,9 @@ module.exports = {
     happiness: {
       display: 'Building Happiness',
     },
+    impact: {
+      display: 'Creating an Impact',
+    },
     'remote-productivity': {
       display: 'Remote Productivity',
     },
