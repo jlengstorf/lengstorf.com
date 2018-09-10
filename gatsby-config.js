@@ -3,36 +3,15 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-twitter',
     'gatsby-plugin-instagram',
-    'gatsby-plugin-five-stages',
-    'gatsby-plugin-amplitude',
+    // 'gatsby-plugin-five-stages',
+    // 'gatsby-plugin-amplitude',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src`,
-        name: 'src',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/posts`,
-        name: 'posts',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/offers`,
-        name: 'offers',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/pages`,
-        name: 'pages',
+        path: `${__dirname}/content`,
+        name: 'content',
       },
     },
     {

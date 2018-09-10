@@ -61,7 +61,11 @@ const Popover = ({
       >
         <div className={styles.popover}>
           <div className={styles.imageWrap}>
-            <Img className={styles.image} sizes={image.sizes} alt="" />
+            <Img
+              className={styles.image}
+              fluid={image.childImageSharp.fluid}
+              alt=""
+            />
           </div>
           <div className={styles.textWrap}>
             <h2 className={styles.heading}>{heading}</h2>
@@ -98,7 +102,7 @@ Popover.propTypes = {
   benefits: PropTypes.arrayOf(PropTypes.string).isRequired,
   button: PropTypes.string,
   group: PropTypes.string.isRequired,
-  image: PropTypes.shape({ file: PropTypes.any }).isRequired,
+  image: PropTypes.shape({ childImageSharp: PropTypes.any }).isRequired,
   source: PropTypes.string,
   visible: PropTypes.bool,
 };

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 import WithPopover from '../components/WithPopover';
@@ -82,14 +83,14 @@ const handleClick = handlerFn => event => {
   handlerFn();
 };
 
-const Index = ({ data: { page, popoverImages, heroImage } }) => (
+const Index = ({ data: { heroImage, page, popoverImages } }) => (
   <WithPopover
-    heading={page.frontmatter.popover.heading}
+    heading={page.childMarkdownRemark.frontmatter.popover.heading}
     imageArr={popoverImages.edges}
-    benefits={page.frontmatter.popover.benefits}
-    button={page.frontmatter.popover.button}
-    group={page.frontmatter.popover.group}
-    source={page.fields.slug}
+    benefits={page.childMarkdownRemark.frontmatter.popover.benefits}
+    button={page.childMarkdownRemark.frontmatter.popover.button}
+    group={page.childMarkdownRemark.frontmatter.popover.group}
+    source="/"
     render={openPopover => (
       <Layout className={styles.main}>
         <div className={styles.hero}>
@@ -97,7 +98,7 @@ const Index = ({ data: { page, popoverImages, heroImage } }) => (
             style={{ display: `inherit` }}
             className={`${styles.image}`}
             alt="There’s more to life than hustle and grind."
-            sizes={heroImage.sizes}
+            sizes={heroImage.childImageSharp.fluid}
           />
         </div>
         <div className={styles.start}>
@@ -126,7 +127,7 @@ const Index = ({ data: { page, popoverImages, heroImage } }) => (
         <div
           id="home-content"
           className={styles.content}
-          dangerouslySetInnerHTML={{ __html: page.html }}
+          dangerouslySetInnerHTML={{ __html: page.childMarkdownRemark.html }}
         />
       </Layout>
     )}
@@ -142,34 +143,37 @@ Index.propTypes = {
 export default Index;
 
 export const query = graphql`
-  query HomeQuery {
-    heroImage: imageSharp(id: { regex: "/more-to-life-lengstorf/" }) {
-      sizes(maxWidth: 400, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-    page: markdownRemark(id: { regex: "/pages/home/" }) {
-      frontmatter {
-        popover {
-          heading
-          benefits
-          button
-          group
+  query {
+    heroImage: file(relativePath: { eq: "images/more-to-life-lengstorf.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, traceSVG: { color: "#e7e3e8" }) {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
-      fields {
-        slug
-      }
-      html
     }
-    popoverImages: allImageSharp(
-      filter: { id: { regex: "/popover/.*.jpg/" } }
+    page: file(relativePath: { eq: "pages/home.md" }) {
+      childMarkdownRemark {
+        frontmatter {
+          popover {
+            heading
+            benefits
+            button
+            group
+          }
+        }
+        html
+      }
+    }
+    popoverImages: allFile(
+      filter: { relativePath: { regex: "/images/popover/" } }
     ) {
       edges {
         node {
-          id
-          sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-            ...GatsbyImageSharpSizes_tracedSVG
+          name
+          childImageSharp {
+            fluid(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
           }
         }
       }
