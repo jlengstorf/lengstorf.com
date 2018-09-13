@@ -6,18 +6,20 @@ slug: dirt-floors
 title: >
   Dirt Floors
 description: >
-  TKTK
+  What do dirt floors have to do with going to school? And what does any of that have to do with working more effectively?
 
 category:
 - impact
 
 tag:
-- tktk
+- teams
+- business
+- productivity
 
 images:
 - /images/dirt.jpg
 
-cta: default
+cta: focus
 ---
 
 In every company I’ve ever worked with, there’s a paradox: everyone seems to want to do things that make the product (or service) better, yet the work to actually _do that_ never seems to get done.
@@ -33,6 +35,19 @@ In my experience, the problem is rarely incompetence. Instead, the problem stems
 
 [^me]:
   In at least one of these scenarios, leadership was me.
+
+<figure class="figure figure--center">
+  <img src="./images/dirt.jpg" alt="Leaves on dirt." />
+  <figcaption class="figure__caption">
+    <small class="figure__attribution">
+      Credit: 
+      <a class="figure__attribution-link" 
+         href="https://unsplash.com/photos/LPEWE3RmFp0">
+        Wes Hicks
+      </a>
+    </small>
+  </figcaption>
+</figure>
 
 ## What do dirt floors have to do with skipping school?
 
