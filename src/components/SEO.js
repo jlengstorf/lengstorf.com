@@ -73,7 +73,7 @@ const getSchemaOrgJSONLD = ({
 };
 
 const SEO = ({ postData, postImage, isBlogPost }) => {
-  const postMeta = postData.frontmatter || {};
+  const postMeta = postData.childMarkdownRemark.frontmatter || {};
 
   const title = postMeta.title || config.title;
   const description =
@@ -125,8 +125,10 @@ const SEO = ({ postData, postImage, isBlogPost }) => {
 SEO.propTypes = {
   isBlogPost: PropTypes.bool,
   postData: PropTypes.shape({
-    frontmatter: PropTypes.any,
-    excerpt: PropTypes.any,
+    childMarkdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.any,
+      excerpt: PropTypes.any,
+    }),
   }).isRequired,
   postImage: PropTypes.string,
 };

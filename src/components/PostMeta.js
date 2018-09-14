@@ -11,9 +11,9 @@ const PostMeta = ({ thumb, categories, tags, className }) => (
     <div className={styles.stickyContainer}>
       <Img
         className={styles.image}
-        style={{ display: `inherit` }}
+        style={{ display: 'inherit' }}
         alt="Jason Lengstorf."
-        sizes={thumb.sizes}
+        fluid={thumb.fluid}
       />
       <p className={styles.text}>Posted in:</p>
       {categories.map(category => (
@@ -36,7 +36,7 @@ PostMeta.propTypes = {
   categories: PropTypes.arrayOf(PropTypes.string).isRequired,
   tags: PropTypes.arrayOf(PropTypes.string).isRequired,
   thumb: PropTypes.shape({
-    sizes: PropTypes.any,
+    fluid: PropTypes.any,
   }).isRequired,
 };
 
