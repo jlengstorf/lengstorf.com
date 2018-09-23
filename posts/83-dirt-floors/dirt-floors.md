@@ -66,13 +66,13 @@ Do these kids want to be in school? (They do.)
 
 Why are they missing school? (They’re sick.)
 
-Oh. That’s a different problem than we thought we were solving. And it starts a deeper line of questioning.
+**If we slow down to ask questions before trying to fix the problem, we can see that the problem we _actually_ need to solve is different than what we assumed at the start.** This starts a deeper line of questioning.
 
 Why are these kids sick? (They have parasitic worms and other infections.)
 
 Why do they have worms? (They live in houses with dirt floors.)
 
-Through this line of questioning, we’ve discovered a deeper problem. And it leads to a solution that might seem nonsensical at first: “if we want more kids to attend school, we need to get rid of dirt floors.”
+Through this line of questioning, we’ve discovered a deeper problem. And it leads to a solution that might seem nonsensical at first: “if we want more kids to attend school, we need to address the dirt floors in their houses.”
 
 But the data supports this: [deworming children reduces absenteeism](http://emiguel.econ.berkeley.edu/research/worms-identifying-impacts-on-education-and-health-in-the-presence-of-treatment-externalities) at school by about 25%, and replacing dirt floors with cement [reduces parasitic infestations by 78%](https://openknowledge.worldbank.org/bitstream/handle/10986/7295/wps421401update1.pdf?sequence=1).
 
@@ -103,7 +103,7 @@ We couldn’t just say, “Hey, team, focus on performance!” They would agree 
 Once we fixed the dirt floors, we started making incredible progress on timelines that seemed bureaucratically impossible.[^physics]
 
 [^physics]:
-  It’s an incontrovertible law of business that timelines increase exponentially by the number of approvers on the project.
+  It’s an incontrovertible law of business that the timeline for a project increases exponentially by the number of people who have to approve it.
 
 By dedicating time to correcting the underlying problems, we went from every developer in the organization wasting multiple days setting up their development environment, to a couple developers spending a week building helper tools.
 
