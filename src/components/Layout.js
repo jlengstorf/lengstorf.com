@@ -4,6 +4,24 @@ import Helmet from 'react-helmet';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
+import {
+  buttons,
+  footnotes,
+  images,
+  reset,
+  social,
+  typography,
+  utilities,
+} from '../config/styles';
+
+// Inject global styles.
+reset();
+typography();
+buttons();
+footnotes();
+images();
+social();
+utilities();
 
 export default ({ children, title, className = '' }) => [
   <Helmet

@@ -1,11 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../styles/main.module.css';
+import styled from 'react-emotion';
+
+const Wrapper = styled('main')`
+  margin: 5rem auto 6rem;
+  max-width: 57ch;
+`;
 
 const Main = ({ children, className }) => (
-  <main role="main" id="content" className={className || styles.main}>
+  <Wrapper role="main" id="content" className={className}>
     {children}
-  </main>
+  </Wrapper>
 );
 
 Main.propTypes = {

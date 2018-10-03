@@ -1,6 +1,5 @@
 const path = require('path');
 const template = require('lodash.template');
-// const config = require('./src/config');
 
 const getUnique = (field, posts) =>
   posts.reduce((uniques, { node: post }) => {
@@ -90,7 +89,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const templates = {
     page: path.resolve('src/templates/page.js'),
     post: path.resolve('src/templates/blog-post.js'),
-    previews: path.resolve('src/templates/blog.js'),
+    previews: path.resolve('src/templates/previews.js'),
   };
 
   const result = await graphql(`
@@ -107,12 +106,18 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
-      posts: allFile(filter: { relativePath: { glob: "posts/**/*.md" } }) {
+      posts: allFile(
+        filter: { relativePath: { glob: "posts/**/*.md" } }
+        sort: { fields: relativePath, order: DESC }
+      ) {
         edges {
           node {
+            id
             relativePath
             childMarkdownRemark {
               frontmatter {
+                title
+                description
                 slug
                 images
                 cta
@@ -178,48 +183,37 @@ exports.createPages = async ({ graphql, actions }) => {
     ({ node }) => node.childMarkdownRemark.frontmatter.publish !== false,
   );
 
-  const postsByCategory = groupPostsByUnique('category', allPosts);
-  const postsByTag = groupPostsByUnique('tag', allPosts);
+  const createPages = (type, postArray) => {
+    const groupedPosts = groupPostsByUnique(type, postArray);
 
-  Object.entries(postsByCategory).forEach(catData => {
-    const category = catData[0];
-    const posts = catData[1];
+    Object.entries(groupedPosts).forEach(data => {
+      const typeValue = data[0];
+      const postGroup = data[1];
 
-    paginate(
-      {
-        ...paginationDefaults,
-        pathTemplate: `/blog/category/${category}/<%= pageNumber %>`,
-        type: 'category',
-        value: category,
-      },
-      posts,
-    );
-  });
+      paginate(
+        {
+          ...paginationDefaults,
+          pathTemplate: `/blog/${type}/${typeValue}/<%= pageNumber %>`,
+          type,
+          value: typeValue,
+        },
+        postGroup,
+      );
+    });
+  };
 
-  // Object.entries(postsByTag).forEach(tagData => {
-  //   const tag = tagData[0];
-  //   const posts = tagData[1];
+  createPages('tag', allPosts);
+  createPages('category', allPosts);
 
-  //   paginate(
-  //     {
-  //       ...paginationDefaults,
-  //       pathTemplate: `/blog/tag/${tag}/<%= pageNumber %>`,
-  //       type: 'tag',
-  //       value: tag,
-  //     },
-  //     posts,
-  //   );
-  // });
-
-  // paginate(
-  //   {
-  //     ...paginationDefaults,
-  //     pathTemplate: '/blog/<%= pageNumber %>',
-  //     type: 'all',
-  //     value: null,
-  //   },
-  //   allPosts,
-  // );
+  paginate(
+    {
+      ...paginationDefaults,
+      pathTemplate: '/blog/<%= pageNumber %>',
+      type: 'all',
+      value: null,
+    },
+    allPosts,
+  );
 
   // Create an alias for the first page of blog listings.
   createRedirect({

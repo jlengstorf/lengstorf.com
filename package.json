@@ -11,10 +11,13 @@
     "lint": "yarn lint:js && yarn lint:css"
   },
   "dependencies": {
+    "emotion": "^9.2.10",
+    "emotion-server": "^9.2.10",
     "gatsby": "next",
     "gatsby-image": "next",
     "gatsby-link": "next",
     "gatsby-plugin-catch-links": "next",
+    "gatsby-plugin-emotion": "^2.0.5",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-css-modules": "next",
@@ -34,6 +37,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
+    "react-emotion": "^9.2.10",
     "react-helmet": "^5.2.0",
     "react-transition-group": "^2.2.1",
     "remark-numbered-footnotes": "^1.0.1",

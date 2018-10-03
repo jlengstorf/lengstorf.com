@@ -25,7 +25,7 @@ const getHeading = (isFirstPage, currentPage, totalPages, type, value) => {
   return `Blog Posts, page ${currentPage} of ${totalPages}`;
 };
 
-const Blog = ({
+const Previews = ({
   pageContext: {
     postGroup,
     isFirstPage,
@@ -41,8 +41,8 @@ const Blog = ({
     <h1 className={styles.previewPageHeading}>
       {getHeading(isFirstPage, currentPage, totalPages, type, value)}
     </h1>
-    {postGroup.map(({ node: post }) => (
-      <section key={post.id} className={styles.preview}>
+    {postGroup.map(({ node: { id, childMarkdownRemark: post } }) => (
+      <section key={id} className={styles.preview}>
         <h2 className={styles.previewHeading}>
           <Link className={styles.link} to={`/${post.frontmatter.slug}`}>
             {post.frontmatter.title}
@@ -53,11 +53,7 @@ const Blog = ({
             <CategoryLink key={`category-${category}`} category={category} />
           ))}
         </div>
-        <p className={styles.excerpt}>
-          {post.frontmatter.description
-            ? post.frontmatter.description
-            : post.excerpt}
-        </p>
+        <p className={styles.excerpt}>{post.frontmatter.description}</p>
         {post.frontmatter.tag.map(tag => (
           <TagLink key={`tag-${tag}`} tag={tag} />
         ))}
@@ -77,7 +73,7 @@ const Blog = ({
   </Layout>
 );
 
-Blog.propTypes = {
+Previews.propTypes = {
   pageContext: PropTypes.shape({
     postGroup: PropTypes.any,
     isFirstPage: PropTypes.bool,
@@ -86,4 +82,4 @@ Blog.propTypes = {
   }).isRequired,
 };
 
-export default Blog;
+export default Previews;
