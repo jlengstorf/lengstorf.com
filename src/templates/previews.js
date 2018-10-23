@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
+import styled from 'react-emotion';
 import Layout from '../components/Layout';
 import CategoryLink from '../components/CategoryLink';
 import TagLink from '../components/TagLink';
 import Pagination from '../components/Pagination';
 import config from '../config';
-import styles from '../styles/blog.module.css';
+import { colors } from '../config/styles';
 
 const getHeading = (isFirstPage, currentPage, totalPages, type, value) => {
   if (type === 'category' && value) {
@@ -25,6 +26,46 @@ const getHeading = (isFirstPage, currentPage, totalPages, type, value) => {
   return `Blog Posts, page ${currentPage} of ${totalPages}`;
 };
 
+const Heading = styled('h1')`
+  color: ${colors.text};
+  font-size: 1rem;
+  font-weight: normal;
+`;
+
+const Preview = styled('section')`
+  border-bottom: 1px solid ${colors.grayAlpha};
+  padding-bottom: 1.25rem;
+`;
+
+const PreviewHeading = styled('h2')`
+  font-size: 1.25rem;
+`;
+
+const PreviewLink = styled(Link)`
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+`;
+
+const CategoryList = styled('div')`
+  font-size: 0.625rem;
+  margin-top: 0.25rem;
+  padding-bottom: 0.25rem;
+`;
+
+const Excerpt = styled('p')`
+  margin-top: 0.5rem;
+`;
+
+const ReadMoreLink = styled(Link)`
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+`;
+
 const Previews = ({
   pageContext: {
     postGroup,
@@ -38,29 +79,29 @@ const Previews = ({
   },
 }) => (
   <Layout title="Blog">
-    <h1 className={styles.previewPageHeading}>
+    <Heading>
       {getHeading(isFirstPage, currentPage, totalPages, type, value)}
-    </h1>
+    </Heading>
     {postGroup.map(({ node: { id, childMarkdownRemark: post } }) => (
-      <section key={id} className={styles.preview}>
-        <h2 className={styles.previewHeading}>
-          <Link className={styles.link} to={`/${post.frontmatter.slug}`}>
+      <Preview key={id}>
+        <PreviewHeading>
+          <PreviewLink to={`/${post.frontmatter.slug}`}>
             {post.frontmatter.title}
-          </Link>
-        </h2>
-        <div className={styles.categoryList}>
+          </PreviewLink>
+        </PreviewHeading>
+        <CategoryList>
           {post.frontmatter.category.map(category => (
             <CategoryLink key={`category-${category}`} category={category} />
           ))}
-        </div>
-        <p className={styles.excerpt}>{post.frontmatter.description}</p>
+        </CategoryList>
+        <Excerpt>{post.frontmatter.description}</Excerpt>
         {post.frontmatter.tag.map(tag => (
           <TagLink key={`tag-${tag}`} tag={tag} />
         ))}
-        <Link className={styles.readMore} to={`/${post.frontmatter.slug}`}>
+        <ReadMoreLink to={`/${post.frontmatter.slug}`}>
           Read post ›
-        </Link>
-      </section>
+        </ReadMoreLink>
+      </Preview>
     ))}
 
     <Pagination

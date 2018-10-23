@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import styled from 'react-emotion';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';
@@ -9,9 +10,87 @@ import FloatingHead from '../components/FloatingHead';
 import ContentWithFootnotes from '../components/ContentWithFootnotes';
 import CTA from '../components/CTA';
 import WithPopover from '../components/WithPopover';
-import styles from '../styles/blog.module.css';
+import { media } from '../config/styles';
 
 const getTitle = frontmatter => frontmatter.seo_title || frontmatter.title;
+
+const BlogLayout = styled(Layout)`
+  margin: 5rem auto 6rem;
+
+  @media ${media.medium} {
+    width: 57ch;
+  }
+
+  @media ${media.large} {
+    @supports (display: grid) {
+      width: calc(160px + 2rem + 57ch);
+    }
+  }
+`;
+
+const Blog = styled('article')`
+  margin-bottom: 5rem;
+
+  @media ${media.large} {
+    @supports (display: grid) {
+      display: grid;
+      grid-auto-flow: column;
+      grid-column-gap: 2rem;
+      grid-template: repeat(2, auto) / 170px 1fr;
+    }
+  }
+`;
+
+const Header = styled('header')`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 2;
+    }
+  }
+`;
+
+const Content = styled(ContentWithFootnotes)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 2;
+    }
+  }
+`;
+
+const CallToAction = styled(CTA)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 2;
+    }
+  }
+`;
+
+const Meta = styled(PostMeta)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 1;
+      grid-row-start: 2;
+    }
+  }
+`;
+
+const Author = styled(FloatingHead)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 1;
+      grid-row-start: 3;
+      margin-top: 2rem;
+    }
+  }
+`;
+
+const BlogHeading = styled('h1')`
+  font-size: 1.6rem;
+
+  @media ${media.medium} {
+    font-size: 1.875rem;
+  }
+`;
 
 export default class BlogPost extends React.Component {
   // static propTypes = {
@@ -51,24 +130,21 @@ export default class BlogPost extends React.Component {
         group={offer.childMarkdownRemark.frontmatter.popover.group}
         source={`/${postData.childMarkdownRemark.frontmatter.slug}/`}
         render={() => (
-          <Layout
+          <BlogLayout
             title={getTitle(postData.childMarkdownRemark.frontmatter)}
-            className={styles.main}
           >
-            <article className={styles.blog}>
-              <header className={styles.header}>
-                <h1 className={styles.heading}>
+            <Blog>
+              <Header>
+                <BlogHeading>
                   {postData.childMarkdownRemark.frontmatter.title}
-                </h1>
-              </header>
-              <PostMeta
-                className={styles.meta}
+                </BlogHeading>
+              </Header>
+              <Meta
                 thumb={image.thumb}
                 categories={postData.childMarkdownRemark.frontmatter.category}
                 tags={postData.childMarkdownRemark.frontmatter.tag}
               />
-              <ContentWithFootnotes
-                className={styles.article}
+              <Content
                 render={() => (
                   <section
                     dangerouslySetInnerHTML={{
@@ -77,15 +153,14 @@ export default class BlogPost extends React.Component {
                   />
                 )}
               />
-              <CTA
+              <CallToAction
                 content={offer.childMarkdownRemark.html}
                 button={offer.childMarkdownRemark.frontmatter.button}
                 link={offer.childMarkdownRemark.frontmatter.link}
-                className={styles.cta}
               />
-              <FloatingHead />
-            </article>
-          </Layout>
+              <Author />
+            </Blog>
+          </BlogLayout>
         )}
       />,
     ];

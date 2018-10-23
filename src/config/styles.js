@@ -4,15 +4,16 @@ import { injectGlobal } from 'emotion';
 export const colors = {
   darkest: '#1e0d2b',
   lightest: '#fff',
+  lightestTransparent: 'rgba(255, 255, 255, 0)',
   lightestAlpha: 'rgba(255, 255, 255, 0.97)',
   purple: '#c700eb',
   purpleDark: '#b200d1',
   heading: '#1e0d2b',
   text: '#685d71',
   textLight: '#776d7f',
-  textLigher: '#999',
   textDark: '#463652',
   gray: '#7f7e7e',
+  grayLightest: '#f5f5f5',
   grayAlpha: 'rgba(214, 209, 230, 0.5)',
   grayAlphaExtra: 'rgba(214, 209, 230, 0.25)',
 };
@@ -68,7 +69,7 @@ export const reset = () => {
     }
 
     * + * { margin-top: 1rem; }
-  `;
+`;
 };
 
 export const typography = () => {
@@ -76,6 +77,7 @@ export const typography = () => {
     html,
     body {
       color: ${colors.text};
+      font-display: swap;
       font-family: ${fonts.default};
       font-size: ${fonts.sizeSm};
       line-height: 1.45;
@@ -299,6 +301,27 @@ export const footnotes = () => {
         color: ${colors.lightest};
         border: 0;
         outline: none;
+      }
+    }
+
+    .footnotes {
+      display: none;
+    }
+
+    .footnote-image {
+      display: block;
+      max-width: 100%;
+    }
+
+    .footnote-backref {
+      display: none;
+    }
+
+    @media ${media.medium} {
+      .footnote-image--right {
+        float: right;
+        max-width: 45%;
+        margin: 1rem 0 1rem 2rem;
       }
     }
 `;

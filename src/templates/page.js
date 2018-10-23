@@ -1,19 +1,25 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'react-emotion';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import OptIn from '../components/OptIn';
+import OptInNotice from '../components/OptInNotice';
 import ContentWithFootnotes from '../components/ContentWithFootnotes';
-import styles from '../styles/page.module.css';
+
+const ContentArea = styled('section')`
+  > p:first-of-type {
+    font-size: 110%;
+  }
+`;
 
 const Page = ({ data: { page } }) => (
   <Layout title={page.childMarkdownRemark.frontmatter.title}>
     <h1>{page.childMarkdownRemark.frontmatter.title}</h1>
     <ContentWithFootnotes
       render={() => (
-        <section
-          className={styles['content-area']}
+        <ContentArea
           dangerouslySetInnerHTML={{ __html: page.childMarkdownRemark.html }}
         />
       )}
@@ -26,13 +32,12 @@ const Page = ({ data: { page } }) => (
           group={page.childMarkdownRemark.frontmatter.optin.group}
           source={page.name}
         />,
-        <p
+        <OptInNotice
           key={`notice-${page.childMarkdownRemark.internal.contentDigest}`}
-          className={styles['opt-in-notice']}
         >
           Note: I will never share your email or spam you with nonsense. Because
           I’m not a dick.
-        </p>,
+        </OptInNotice>,
       ]}
   </Layout>
 );

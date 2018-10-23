@@ -1,7 +1,6 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../styles/cta.module.css';
 
 export default class CTA extends React.Component {
   static propTypes = {
@@ -30,9 +29,11 @@ export default class CTA extends React.Component {
       <div className={className}>
         <h2>{heading}</h2>
         <div dangerouslySetInnerHTML={{ __html: content }} />
-        <a className={`${styles.button} js--open-popover`} href={link}>
-          {button}
-        </a>
+        <p>
+          <a className="js--open-popover" href={link}>
+            {button}
+          </a>
+        </p>
       </div>
     );
   }

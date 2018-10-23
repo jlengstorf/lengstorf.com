@@ -40,6 +40,7 @@ module.exports = {
     // 'gatsby-plugin-amplitude',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-emotion',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

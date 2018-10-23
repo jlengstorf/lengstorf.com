@@ -133,14 +133,6 @@ the 5 Stages of Creation.
 
 ## The 5 Stages of Creation
 
-<div class="five-stages figure figure--center">
-  <span class="five-stages__stage five-stages__stage--one"></span>
-  <span class="five-stages__stage five-stages__stage--two"></span>
-  <span class="five-stages__stage five-stages__stage--three"></span>
-  <span class="five-stages__stage five-stages__stage--four"></span>
-  <span class="five-stages__stage five-stages__stage--five"></span>
-</div>
-
 With every project, we enter a familiar arc. What makes this arc unique, though,
 is that we're able to abandon the arc at any point — and we often do.
 
@@ -153,14 +145,6 @@ But when things go well, we all follow this pattern in our projects:
 5. The Slog
 
 ### Stage 1: Total Infatuation
-
-<div class="five-stages figure figure--center">
-  <span class="five-stages__stage five-stages__stage--active five-stages__stage--one"></span>
-  <span class="five-stages__stage five-stages__stage--two"></span>
-  <span class="five-stages__stage five-stages__stage--three"></span>
-  <span class="five-stages__stage five-stages__stage--four"></span>
-  <span class="five-stages__stage five-stages__stage--five"></span>
-</div>
 
 At this stage, the idea still retains its abstract aura. We love it
 unconditionally, and we can't see — can't _conceive_ — any of its rough edges
@@ -177,14 +161,6 @@ doesn't already exist. We can't believe how _rich_ we're about to be.
 
 ### Stage 2: Furious Output
 
-<div class="five-stages figure figure--center">
-  <span class="five-stages__stage five-stages__stage--one"></span>
-  <span class="five-stages__stage five-stages__stage--active five-stages__stage--two"></span>
-  <span class="five-stages__stage five-stages__stage--three"></span>
-  <span class="five-stages__stage five-stages__stage--four"></span>
-  <span class="five-stages__stage five-stages__stage--five"></span>
-</div>
-
 Hot on the heels of Total Infatuation, we tear into the early todo list with
 near-religious fervor. Our energy seems boundless. Things start coming together
 quickly.
@@ -194,14 +170,6 @@ We start to get smug.
 _Who's better than me?_ we muse. _Fucking **nobody**, that's who._
 
 ### Stage 3: The Creeping Realization That This Will Be More Work Than You Thought
-
-<div class="five-stages figure figure--center">
-  <span class="five-stages__stage five-stages__stage--one"></span>
-  <span class="five-stages__stage five-stages__stage--two"></span>
-  <span class="five-stages__stage five-stages__stage--active five-stages__stage--three"></span>
-  <span class="five-stages__stage five-stages__stage--four"></span>
-  <span class="five-stages__stage five-stages__stage--five"></span>
-</div>
 
 <abbr title="The Creeping Realization That This Will Be More Work Than You Thought">TCRTTWBMWTYT</abbr>
 (_tuckert-twibbem-whitey-tee_ for the anagram lovers out there) shows up slowly,
@@ -218,14 +186,6 @@ isn't quite as easy to pull of as we'd initially thought.
 
 ### Stage 4: Despair
 
-<div class="five-stages figure figure--center">
-  <span class="five-stages__stage five-stages__stage--one"></span>
-  <span class="five-stages__stage five-stages__stage--two"></span>
-  <span class="five-stages__stage five-stages__stage--three"></span>
-  <span class="five-stages__stage five-stages__stage--active five-stages__stage--four"></span>
-  <span class="five-stages__stage five-stages__stage--five"></span>
-</div>
-
 _What went wrong?_
 
 What felt like a dream is now definitely a nightmare. How much time have we
@@ -238,14 +198,6 @@ the first place.
 _There is no way,_ we think, _that this will ever, **ever** work._
 
 ### Stage 5: The Slog
-
-<div class="five-stages figure figure--center">
-  <span class="five-stages__stage five-stages__stage--one"></span>
-  <span class="five-stages__stage five-stages__stage--two"></span>
-  <span class="five-stages__stage five-stages__stage--three"></span>
-  <span class="five-stages__stage five-stages__stage--four"></span>
-  <span class="five-stages__stage five-stages__stage--active five-stages__stage--five"></span>
-</div>
 
 The worst of the crying jags is behind us, and through red-rimmed eyes we take a
 long, level-headed look at the situation.

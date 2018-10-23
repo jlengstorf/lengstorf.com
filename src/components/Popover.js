@@ -2,14 +2,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
-import { css } from 'emotion';
+import { injectGlobal } from 'emotion';
 import { Transition } from 'react-transition-group';
 import Img from 'gatsby-image';
 import crypto from 'crypto';
 import OptIn from './OptIn';
 import config from '../config';
 import { animation, colors, media } from '../config/styles';
-import styles from '../styles/popover.module.css';
 
 const getBenefitHash = benefit =>
   crypto
@@ -37,15 +36,17 @@ const handleEnter = (hideClass, inputSelector) => node => {
 const handleExited = hideClass => node => node.classList.add(hideClass);
 
 // TODO fix hidden class thing
-const hidden = css`
-  display: none;
-  height: 0;
-  left: -1;
-  pointer-events: none;
-  position: absolute;
-  top: -1;
-  width: 0;
-  z-index: -1;
+injectGlobal`
+  .js--overlay-hidden {
+    display: none;
+    height: 0;
+    left: -1;
+    pointer-events: none;
+    position: absolute;
+    top: -1;
+    width: 0;
+    z-index: -1;
+  }
 `;
 
 const Overlay = styled('div')`
@@ -71,7 +72,7 @@ const PopoverContainer = styled('div')`
   width: 65ch;
 
   @supports (display: grid) {
-    @media (--medium) {
+    @media ${media.medium} {
       display: grid;
       grid-gap: 1rem 2rem;
       grid-template: repeat(2, auto) / auto 220px;
@@ -79,7 +80,17 @@ const PopoverContainer = styled('div')`
   }
 `;
 
-const ImageWrap = styled('div')``;
+const ImageWrap = styled('div')`
+  @supports (display: grid) {
+    @media ${media.medium} {
+      align-items: center;
+      display: flex;
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin: 0;
+    }
+  }
+`;
 
 const Image = styled(Img)`
   border: 4px solid ${colors.grayAlpha};
@@ -92,9 +103,24 @@ const Image = styled(Img)`
   @media ${media.vertSmall} {
     display: block;
   }
+
+  @supports (display: grid) {
+    @media ${media.medium} {
+      display: block;
+      max-width: 250px;
+    }
+  }
 `;
 
-const TextWrap = styled('div')``;
+const TextWrap = styled('div')`
+  @supports (display: grid) {
+    @media ${media.medium} {
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin: 0;
+    }
+  }
+`;
 
 const Heading = styled('h2')`
   font-size: 5.25vw;
@@ -104,9 +130,23 @@ const Heading = styled('h2')`
   @media ${media.medium} {
     font-size: 1.75rem;
   }
+
+  @supports (display: grid) {
+    @media ${media.medium} {
+      font-size: 1.25rem;
+    }
+  }
 `;
 
-const FormWrap = styled('div')``;
+const FormWrap = styled('div')`
+  @supports (display: grid) {
+    @media ${media.medium} {
+      grid-row-start: 2;
+      grid-column: span 2;
+      margin: 0;
+    }
+  }
+`;
 
 const OptInNotice = styled('p')`
   color: ${colors.textLighter};
@@ -150,8 +190,8 @@ const Popover = ({
   <Transition
     in={visible}
     timeout={config.transitionSpeed}
-    onEnter={handleEnter(hidden, `.js--form-wrap input`)}
-    onExited={handleExited(hidden)}
+    onEnter={handleEnter('js--overlay-hidden', '.js--form-wrap input')}
+    onExited={handleExited('js--overlay-hidden')}
   >
     {state => (
       // Adding a “click the background to close” functionality as a convenience
@@ -159,7 +199,7 @@ const Popover = ({
       // keyboard users, so I’m ignoring these a11y linter rules.
       // eslint-disable-next-line jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events
       <Overlay
-        className={`${hidden} js--overlay`}
+        className="js--overlay-hidden js--overlay"
         style={transitionStyles[state]}
         onClick={handleOnDirectClick(closeFn)} // TODO make sure this only fires on direct clicks
       >

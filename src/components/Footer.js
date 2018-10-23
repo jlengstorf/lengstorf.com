@@ -2,12 +2,19 @@ import React from 'react';
 import { css } from 'emotion';
 import styled from 'react-emotion';
 import { Link } from 'gatsby';
-import { colors } from '../config/styles';
+import { colors, media } from '../config/styles';
 
 const Footer = styled('footer')`
   font-size: 0.75rem;
   padding-bottom: 2rem;
   text-align: center;
+
+  @media ${media.medium} {
+    @supports (display: flex) {
+      display: flex;
+      text-align: left;
+    }
+  }
 `;
 
 const footerTextStyles = css`
@@ -21,6 +28,17 @@ const Copyright = styled('span')`
   ${footerTextStyles};
   display: block;
   margin-top: 0.5rem;
+
+  @media ${media.medium} {
+    display: inline-block;
+    margin-top: 0;
+
+    @supports (display: flex) {
+      margin-left: 0;
+      margin-right: auto;
+      order: 1;
+    }
+  }
 `;
 
 const FooterLink = styled(Link)`
@@ -34,6 +52,16 @@ const FooterLink = styled(Link)`
     border-radius: 0.25rem;
     color: ${colors.lightest};
     outline: 0;
+  }
+
+  @media ${media.medium} {
+    @supports (display: flex) {
+      order: 2;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
   }
 `;
 

@@ -25,24 +25,10 @@ class WithPopover extends React.Component {
   };
 
   openPopover = () => {
-    if (window && typeof window.logEvent === 'function') {
-      window.logEvent('open popover', {
-        group: this.props.group,
-        source: this.props.source,
-      });
-    }
-
     this.setState({ showPopover: true });
   };
 
   closePopover = () => {
-    if (window && typeof window.logEvent === 'function') {
-      window.logEvent('close popover', {
-        group: this.props.group,
-        source: this.props.source,
-      });
-    }
-
     this.setState({ showPopover: false });
   };
 
