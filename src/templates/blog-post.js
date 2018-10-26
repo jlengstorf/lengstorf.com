@@ -18,6 +18,7 @@ const BlogLayout = styled(Layout)`
   margin: 5rem auto 6rem;
 
   @media ${media.medium} {
+    max-width: 100%;
     width: 57ch;
   }
 

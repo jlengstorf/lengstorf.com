@@ -99,6 +99,7 @@ const Main = styled(Layout)`
       grid-auto-flow: column;
       grid-column-gap: 2rem;
       grid-template: repeat(2, auto) / 1fr repeat(2, calc(27.5ch - 1rem)) 1fr;
+      max-width: 100%;
       width: 960px;
     }
   }

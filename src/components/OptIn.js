@@ -116,6 +116,7 @@ const FormButton = styled(Button)`
     @media ${media.medium} {
       font-size: 1rem;
       grid-column: span 1;
+      width: 100%;
     }
   }
 `;
