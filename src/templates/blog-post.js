@@ -1,6 +1,8 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import styled from 'react-emotion';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';
@@ -8,29 +10,109 @@ import FloatingHead from '../components/FloatingHead';
 import ContentWithFootnotes from '../components/ContentWithFootnotes';
 import CTA from '../components/CTA';
 import WithPopover from '../components/WithPopover';
-import styles from '../styles/blog.module.css';
+import { media } from '../config/styles';
 
 const getTitle = frontmatter => frontmatter.seo_title || frontmatter.title;
 
+const BlogLayout = styled(Layout)`
+  margin: 5rem auto 6rem;
+
+  @media ${media.medium} {
+    max-width: 100%;
+    width: 57ch;
+  }
+
+  @media ${media.large} {
+    @supports (display: grid) {
+      width: calc(160px + 2rem + 57ch);
+    }
+  }
+`;
+
+const Blog = styled('article')`
+  margin-bottom: 5rem;
+
+  @media ${media.large} {
+    @supports (display: grid) {
+      display: grid;
+      grid-auto-flow: column;
+      grid-column-gap: 2rem;
+      grid-template: repeat(2, auto) / 170px 1fr;
+    }
+  }
+`;
+
+const Header = styled('header')`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 2;
+    }
+  }
+`;
+
+const Content = styled(ContentWithFootnotes)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 2;
+    }
+  }
+`;
+
+const CallToAction = styled(CTA)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 2;
+    }
+  }
+`;
+
+const Meta = styled(PostMeta)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 1;
+      grid-row-start: 2;
+    }
+  }
+`;
+
+const Author = styled(FloatingHead)`
+  @media ${media.large} {
+    @supports (display: grid) {
+      grid-column-start: 1;
+      grid-row-start: 3;
+      margin-top: 2rem;
+    }
+  }
+`;
+
+const BlogHeading = styled('h1')`
+  font-size: 1.6rem;
+
+  @media ${media.medium} {
+    font-size: 1.875rem;
+  }
+`;
+
 export default class BlogPost extends React.Component {
-  static propTypes = {
-    data: PropTypes.shape({
-      markdownRemark: PropTypes.any,
-    }).isRequired,
-    pathContext: PropTypes.shape({
-      slug: PropTypes.string.isRequired,
-    }).isRequired,
-  };
+  // static propTypes = {
+  //   data: PropTypes.shape({
+  //     markdownRemark: PropTypes.any,
+  //   }).isRequired,
+  //   pageContext: PropTypes.shape({
+  //     slug: PropTypes.string.isRequired,
+  //   }).isRequired,
+  // };
 
   render() {
     const {
-      data: { postData, imageSharp, offer, thumb, author, popoverImages },
+      data: { postData, image, offer, popoverImages },
     } = this.props;
     const postID = postData.internal.contentDigest;
 
-    const postImage = imageSharp && imageSharp.sizes && imageSharp.sizes.src;
+    const postImage =
+      image && image.seo && image.seo.fluid && image.seo.fluid.src;
     if (!postImage) {
-      throw Error(`Missing image for ${this.props.pathContext.slug}`);
+      throw Error(`Missing image for ${this.props.pageContext.slug}`);
     }
 
     return [
@@ -42,44 +124,44 @@ export default class BlogPost extends React.Component {
       />,
       <WithPopover
         key={`layout-${postID}`}
-        heading={offer.frontmatter.popover.heading}
+        heading={offer.childMarkdownRemark.frontmatter.popover.heading}
         imageArr={popoverImages.edges}
-        benefits={offer.frontmatter.popover.benefits}
-        button={offer.frontmatter.popover.button}
-        group={offer.frontmatter.popover.group}
-        source={`/${postData.frontmatter.slug}/`}
+        benefits={offer.childMarkdownRemark.frontmatter.popover.benefits}
+        button={offer.childMarkdownRemark.frontmatter.popover.button}
+        group={offer.childMarkdownRemark.frontmatter.popover.group}
+        source={`/${postData.childMarkdownRemark.frontmatter.slug}/`}
         render={() => (
-          <Layout
-            title={getTitle(postData.frontmatter)}
-            className={styles.main}
+          <BlogLayout
+            title={getTitle(postData.childMarkdownRemark.frontmatter)}
           >
-            <article className={styles.blog}>
-              <header className={styles.header}>
-                <h1 className={styles.heading}>{postData.frontmatter.title}</h1>
-              </header>
-              <PostMeta
-                className={styles.meta}
-                thumb={thumb}
-                categories={postData.frontmatter.category}
-                tags={postData.frontmatter.tag}
+            <Blog>
+              <Header>
+                <BlogHeading>
+                  {postData.childMarkdownRemark.frontmatter.title}
+                </BlogHeading>
+              </Header>
+              <Meta
+                thumb={image.thumb}
+                categories={postData.childMarkdownRemark.frontmatter.category}
+                tags={postData.childMarkdownRemark.frontmatter.tag}
               />
-              <ContentWithFootnotes
-                className={styles.article}
+              <Content
                 render={() => (
                   <section
-                    dangerouslySetInnerHTML={{ __html: postData.html }}
+                    dangerouslySetInnerHTML={{
+                      __html: postData.childMarkdownRemark.html,
+                    }}
                   />
                 )}
               />
-              <CTA
-                content={offer.html}
-                button={offer.frontmatter.button}
-                link={offer.frontmatter.link}
-                className={styles.cta}
+              <CallToAction
+                content={offer.childMarkdownRemark.html}
+                button={offer.childMarkdownRemark.frontmatter.button}
+                link={offer.childMarkdownRemark.frontmatter.link}
               />
-              <FloatingHead className={styles.floatingHead} thumb={author} />
-            </article>
-          </Layout>
+              <Author />
+            </Blog>
+          </BlogLayout>
         )}
       />,
     ];
@@ -87,64 +169,63 @@ export default class BlogPost extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!, $imageRegex: String!, $offer: String!) {
-    postData: markdownRemark(fields: { slug: { eq: $slug } }) {
+  query($imageRegex: String!, $offer: String!, $relativePath: String!) {
+    postData: file(relativePath: { eq: $relativePath }) {
       internal {
         contentDigest
       }
-      html
-      frontmatter {
-        title
-        description
-        category
-        tag
-        # Used for schema.org
-        datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
-        images
-        seo_title
-        slug
-        cta
-      }
-      fields {
-        slug
-      }
-    }
-    offer: markdownRemark(id: { regex: $offer }) {
-      html
-      frontmatter {
-        button
-        link
-        popover {
-          heading
-          benefits
-          button
-          group
+      childMarkdownRemark {
+        html
+        frontmatter {
+          title
+          description
+          category
+          tag
+          datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
+          images
+          seo_title
+          slug
+          cta
         }
       }
     }
-    imageSharp(id: { regex: $imageRegex }) {
-      sizes(maxWidth: 1380) {
-        src
+    offer: file(relativePath: { regex: $offer }) {
+      childMarkdownRemark {
+        html
+        frontmatter {
+          button
+          link
+          popover {
+            heading
+            benefits
+            button
+            group
+          }
+        }
       }
     }
-    author: imageSharp(id: { regex: "/jason-lengstorf-square/" }) {
-      sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
+    image: file(relativePath: { regex: $imageRegex }) {
+      seo: childImageSharp {
+        fluid(maxWidth: 1380) {
+          src
+        }
+      }
+      thumb: childImageSharp {
+        fluid(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
       }
     }
-    thumb: imageSharp(id: { regex: $imageRegex }) {
-      sizes(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
-        ...GatsbyImageSharpSizes_tracedSVG
-      }
-    }
-    popoverImages: allImageSharp(
-      filter: { id: { regex: "/popover/.*.jpg/" } }
+    popoverImages: allFile(
+      filter: { relativePath: { regex: "/images/popover/" } }
     ) {
       edges {
         node {
-          id
-          sizes(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-            ...GatsbyImageSharpSizes_tracedSVG
+          name
+          childImageSharp {
+            fluid(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
           }
         }
       }

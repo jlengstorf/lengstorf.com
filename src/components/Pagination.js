@@ -1,7 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
-import styles from '../styles/pagination.module.css';
+import { css } from 'emotion';
+import styled from 'react-emotion';
+import { Link } from 'gatsby';
+import { colors } from '../config/styles';
+
+const Wrapper = styled('div')`
+  display: flex;
+  justify-content: flex-start;
+`;
+
+const PaginationLink = styled(Link)`
+  color: ${colors.text};
+  font-size: 0.75rem;
+  margin: 0 0.5rem;
+  padding: 0.25rem;
+
+  :first-of-type {
+    margin-left: 0;
+  }
+
+  :last-of-type {
+    margin-right: 0;
+  }
+`;
+
+const moveRight = css`
+  && {
+    margin-left: auto;
+  }
+`;
 
 const Pagination = ({
   isFirstPage,
@@ -10,44 +38,38 @@ const Pagination = ({
   totalPages,
   linkBase,
 }) => (
-  <div className={styles.pagination}>
+  <Wrapper>
     {!isFirstPage &&
       currentPage !== 2 && (
-        <Link
-          className={styles.paginationLink}
-          to={linkBase}
-          title="jump to newest posts"
-        >
+        <PaginationLink to={linkBase} title="jump to newest posts">
           « <span className="screen-reader-text">newest posts</span>
-        </Link>
+        </PaginationLink>
       )}
     {!isFirstPage && (
-      <Link
-        className={styles.paginationLink}
+      <PaginationLink
         to={`${linkBase}${currentPage - 1 === 1 ? '' : currentPage - 1}`}
       >
         ‹ newer posts
-      </Link>
+      </PaginationLink>
     )}
     {!isLastPage && (
-      <Link
-        className={`${styles.paginationLink} ${styles.paginationLinkMoveRight}`}
+      <PaginationLink
+        className={moveRight}
         to={`${linkBase}${currentPage + 1}`}
       >
         older posts ›
-      </Link>
+      </PaginationLink>
     )}
     {!isLastPage &&
       currentPage !== totalPages - 1 && (
-        <Link
-          className={styles.paginationLink}
+        <PaginationLink
           to={`${linkBase}${totalPages}`}
           title="jump to oldest posts"
         >
           <span className="screen-reader-text">oldest posts</span> »
-        </Link>
+        </PaginationLink>
       )}
-  </div>
+  </Wrapper>
 );
 
 Pagination.propTypes = {

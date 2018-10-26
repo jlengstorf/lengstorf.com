@@ -7,6 +7,9 @@ popover:
     - <strong>Create more quality time.</strong> Spend more time with the people you love.
   button: Start Now
   group: WORKHAPPY
+
+# This prevents Gatsby from programatically creating this page.
+generate: false
 ---
 
 ## What are we giving up for the grind?

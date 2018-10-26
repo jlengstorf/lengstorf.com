@@ -1,38 +1,51 @@
 module.exports = {
+  siteMetadata: {
+    author: {
+      minibio: `
+        <strong>Jason Lengstorf</strong> is a lead developer & architect at Gatsby.
+        He’s a frequent <a href="/speaking">speaker</a>, occasional
+        <a href="https://dribbble.com/jlengstorf">designer</a>, and an advocate of
+        building better balance via efficiency. He lives in Portland, Oregon.
+      `,
+    },
+    categories: {
+      happiness: {
+        display: 'Building Happiness',
+      },
+      'remote-productivity': {
+        display: 'Remote Productivity',
+      },
+      'remote-work': {
+        display: 'Living & Working Remotely',
+      },
+      motivation: {
+        display: 'Staying Motivated',
+      },
+      storytelling: {
+        display: 'Storytelling',
+      },
+      'acting-like-a-grown-up': {
+        display: 'Acting Like a Grown-Up',
+      },
+      'finding-direction': {
+        display: 'Finding Direction',
+      },
+    },
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-twitter',
     'gatsby-plugin-instagram',
-    'gatsby-plugin-five-stages',
-    'gatsby-plugin-amplitude',
+    // 'gatsby-plugin-five-stages',
+    // 'gatsby-plugin-amplitude',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-emotion',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src`,
-        name: 'src',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/posts`,
-        name: 'posts',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/offers`,
-        name: 'offers',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/pages`,
-        name: 'pages',
+        path: `${__dirname}/content`,
+        name: 'content',
       },
     },
     {

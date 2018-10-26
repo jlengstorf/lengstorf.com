@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 import Popover from './Popover';
 
 const getPopoverImage = (group, images) =>
-  images.find(({ node }) => node.id.match(group.toLowerCase())).node;
+  images.find(({ node }) => node.name.match(group.toLowerCase())).node;
 
 class WithPopover extends React.Component {
   static propTypes = {
     render: PropTypes.func.isRequired,
     heading: PropTypes.string.isRequired,
-    imageArr: PropTypes.arrayOf(
-      PropTypes.shape({
-        file: PropTypes.any,
-      }),
-    ).isRequired,
+    // imageArr: PropTypes.arrayOf(
+    //   PropTypes.shape({
+    //     file: PropTypes.any,
+    //   }),
+    // ).isRequired,
     benefits: PropTypes.arrayOf(PropTypes.string).isRequired,
     button: PropTypes.string.isRequired,
     group: PropTypes.string.isRequired,
@@ -25,24 +25,10 @@ class WithPopover extends React.Component {
   };
 
   openPopover = () => {
-    if (window && typeof window.logEvent === 'function') {
-      window.logEvent('open popover', {
-        group: this.props.group,
-        source: this.props.source,
-      });
-    }
-
     this.setState({ showPopover: true });
   };
 
   closePopover = () => {
-    if (window && typeof window.logEvent === 'function') {
-      window.logEvent('close popover', {
-        group: this.props.group,
-        source: this.props.source,
-      });
-    }
-
     this.setState({ showPopover: false });
   };
 

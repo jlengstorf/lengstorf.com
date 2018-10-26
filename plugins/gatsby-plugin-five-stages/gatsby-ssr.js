@@ -1,7 +1,7 @@
-/* eslint-disable import/no-extraneous-dependencies, react/no-danger */
+/* eslint-disable import/no-extraneous-dependencies, react/no-danger, import/prefer-default-export */
 import React from 'react';
 
-exports.onRenderBody = ({ pathname = '', setPostBodyComponents }) => {
+export const onRenderBody = ({ pathname = '', setPostBodyComponents }) => {
   if (pathname.match('why-ideas-fail')) {
     return;
   }

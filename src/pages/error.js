@@ -1,7 +1,6 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
 import Layout from '../components/Layout';
-import styles from '../styles/page.module.css';
 
 const getError = () => {
   const defaultError = {
@@ -28,7 +27,7 @@ const Error = () => {
 
   return (
     <Layout title="There was an error.">
-      <h1 className={styles.heading}>Well, shit. Something went wrong.</h1>
+      <h1>Well, shit. Something went wrong.</h1>
       <section>
         <p>
           It looks like there was a problem with your form submission. Here’s

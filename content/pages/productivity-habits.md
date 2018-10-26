@@ -1,7 +1,6 @@
 ---
 title: >
   Stop Wasting Time Feeling Overwhelmed and Tired. Start Doing What Matters.
-template: page
 optin:
   button: Get It Now
   group: PRODUCTIVE

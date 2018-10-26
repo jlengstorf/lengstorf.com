@@ -1,10 +1,9 @@
 const path = require('path');
 const template = require('lodash.template');
-const config = require('./src/config');
 
 const getUnique = (field, posts) =>
   posts.reduce((uniques, { node: post }) => {
-    const values = post.frontmatter[field];
+    const values = post.childMarkdownRemark.frontmatter[field];
 
     return uniques.concat(values.filter(val => !uniques.includes(val)));
   }, []);
@@ -16,7 +15,7 @@ const groupPostsByUnique = (field, posts) => {
     (grouped, unique) => ({
       ...grouped,
       [unique]: posts.filter(({ node: post }) =>
-        post.frontmatter[field].includes(unique),
+        post.childMarkdownRemark.frontmatter[field].includes(unique),
       ),
     }),
     {},
@@ -41,9 +40,7 @@ const paginate = (
     // 1
     .map(
       (post, index, allPosts) =>
-        index % config.postsPerPage === 0
-          ? allPosts.slice(index, index + config.postsPerPage)
-          : null,
+        index % 10 === 0 ? allPosts.slice(index, index + 10) : null,
     )
     // 2
     .filter(item => item)
@@ -70,29 +67,8 @@ const paginate = (
       });
     });
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
-  let slug;
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const fileNode = getNode(node.parent);
-    const parsedFilePath = path.parse(fileNode.relativePath);
-
-    if (parsedFilePath.name !== `index` && parsedFilePath.dir !== ``) {
-      slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
-    } else if (parsedFilePath.dir === ``) {
-      slug = `/${parsedFilePath.name}/`;
-    } else {
-      slug = `/${parsedFilePath.dir}/`;
-    }
-
-    // Add slug as a field on the node.
-    createNodeField({ node, name: `slug`, value: slug });
-  }
-};
-
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage, createRedirect } = boundActionCreators;
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage, createRedirect } = actions;
 
   // The /hire-me page no longer exists, so send to contact instead.
   createRedirect({
@@ -110,156 +86,140 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     redirectInBrowser: true,
   });
 
-  return new Promise((resolve, reject) => {
-    const pageTemplate = path.resolve('src/templates/page.js');
-    const blogPost = path.resolve('src/templates/blog-post.js');
-    const blogPreviews = path.resolve('src/templates/blog.js');
+  const templates = {
+    page: path.resolve('src/templates/page.js'),
+    post: path.resolve('src/templates/blog-post.js'),
+    previews: path.resolve('src/templates/previews.js'),
+  };
 
-    // Query for all markdown "nodes" and for the slug we previously created.
-    resolve(
-      graphql(
-        `
-          {
-            pages: allMarkdownRemark(
-              filter: {
-                fileAbsolutePath: { glob: "**/pages/**" }
-                frontmatter: { template: { eq: "page" } }
-              }
-            ) {
-              edges {
-                node {
-                  fields {
-                    slug
-                  }
-                }
-              }
-            }
-            posts: allMarkdownRemark(
-              sort: { fields: [frontmatter___date], order: DESC }
-              filter: {
-                fileAbsolutePath: { glob: "**/posts/**" }
-                frontmatter: { publish: { ne: false } }
-              }
-            ) {
-              edges {
-                node {
-                  id
-                  frontmatter {
-                    title
-                    slug
-                    description
-                    date(formatString: "MMMM DD, YYYY")
-                    images
-                    publish
-                    category
-                    tag
-                    cta
-                  }
-                  fields {
-                    slug
-                  }
-                  excerpt
-                }
+  const result = await graphql(`
+    {
+      pages: allFile(filter: { relativeDirectory: { eq: "pages" } }) {
+        edges {
+          node {
+            name
+            childMarkdownRemark {
+              frontmatter {
+                generate
               }
             }
           }
-        `,
-      ).then(result => {
-        if (result.errors) {
-          console.log(result.errors);
-          reject(result.errors);
         }
+      }
+      posts: allFile(
+        filter: { relativePath: { glob: "posts/**/*.md" } }
+        sort: { fields: relativePath, order: DESC }
+      ) {
+        edges {
+          node {
+            id
+            relativePath
+            childMarkdownRemark {
+              frontmatter {
+                title
+                description
+                slug
+                images
+                cta
+                category
+                tag
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
-        const pages = result.data.pages.edges;
-        pages.forEach(({ node: page }) => {
-          createPage({
-            path: page.fields.slug,
-            component: pageTemplate,
-            context: {
-              slug: page.fields.slug,
-            },
-          });
-        });
+  const pages = result.data.pages.edges;
+  const posts = result.data.posts.edges;
 
-        const paginationDefaults = { createPage, component: blogPreviews };
+  pages
+    .filter(
+      ({ node: page }) =>
+        page.childMarkdownRemark.frontmatter.generate !== false,
+    )
+    .forEach(({ node: page }) => {
+      createPage({
+        path: page.name,
+        component: templates.page,
+        context: {
+          slug: page.name,
+        },
+      });
+    });
 
-        const allPosts = result.data.posts.edges.filter(
-          ({ node }) => node.frontmatter.publish !== false,
-        );
+  posts.forEach(({ node: post }) => {
+    if (!post.childMarkdownRemark.frontmatter.slug) {
+      throw Error('All posts require a `slug` field in the frontmatter.');
+    }
 
-        const postsByCategory = groupPostsByUnique('category', allPosts);
-        const postsByTag = groupPostsByUnique('tag', allPosts);
+    const { slug } = post.childMarkdownRemark.frontmatter;
 
-        Object.entries(postsByCategory).forEach(catData => {
-          const category = catData[0];
-          const posts = catData[1];
+    // If an image was supplied, let’s grab it.
+    const image =
+      post.childMarkdownRemark.frontmatter.images &&
+      post.childMarkdownRemark.frontmatter.images[0];
 
-          paginate(
-            {
-              ...paginationDefaults,
-              pathTemplate: `/blog/category/${category}/<%= pageNumber %>`,
-              type: 'category',
-              value: category,
-            },
-            posts,
-          );
-        });
+    // Add the offer type
+    const offer = `/offers/${post.childMarkdownRemark.frontmatter.cta ||
+      'default'}/`;
 
-        Object.entries(postsByTag).forEach(tagData => {
-          const tag = tagData[0];
-          const posts = tagData[1];
+    createPage({
+      path: slug,
+      component: templates.post,
+      context: {
+        imageRegex: `/${image}/`,
+        slug,
+        offer,
+        relativePath: post.relativePath,
+      },
+    });
+  });
 
-          paginate(
-            {
-              ...paginationDefaults,
-              pathTemplate: `/blog/tag/${tag}/<%= pageNumber %>`,
-              type: 'tag',
-              value: tag,
-            },
-            posts,
-          );
-        });
+  const paginationDefaults = { createPage, component: templates.previews };
 
-        paginate(
-          {
-            ...paginationDefaults,
-            pathTemplate: '/blog/<%= pageNumber %>',
-            type: 'all',
-            value: null,
-          },
-          allPosts,
-        );
+  const allPosts = result.data.posts.edges.filter(
+    ({ node }) => node.childMarkdownRemark.frontmatter.publish !== false,
+  );
 
-        // Create an alias for the first page of blog listings.
-        createRedirect({
-          fromPath: '/blog/1',
-          toPath: '/blog/',
-          isPermanent: true,
-          redirectInBrowser: true,
-        });
+  const createPages = (type, postArray) => {
+    const groupedPosts = groupPostsByUnique(type, postArray);
 
-        // Create blog posts pages.
-        allPosts.forEach(({ node }) => {
-          // If the post defined its own slug, use that.
-          const postPath = node.frontmatter.slug || node.fields.slug;
+    Object.entries(groupedPosts).forEach(data => {
+      const typeValue = data[0];
+      const postGroup = data[1];
 
-          // If an image was supplied, let’s grab it.
-          const image = node.frontmatter.images && node.frontmatter.images[0];
+      paginate(
+        {
+          ...paginationDefaults,
+          pathTemplate: `/blog/${type}/${typeValue}/<%= pageNumber %>`,
+          type,
+          value: typeValue,
+        },
+        postGroup,
+      );
+    });
+  };
 
-          // Add the offer type
-          const offer = `/offers/${node.frontmatter.cta || 'default'}/`;
+  createPages('tag', allPosts);
+  createPages('category', allPosts);
 
-          createPage({
-            path: postPath,
-            component: blogPost,
-            context: {
-              imageRegex: `/${image}/`,
-              slug: node.fields.slug,
-              offer,
-            },
-          });
-        });
-      }),
-    );
+  paginate(
+    {
+      ...paginationDefaults,
+      pathTemplate: '/blog/<%= pageNumber %>',
+      type: 'all',
+      value: null,
+    },
+    allPosts,
+  );
+
+  // Create an alias for the first page of blog listings.
+  createRedirect({
+    fromPath: '/blog/1',
+    toPath: '/blog/',
+    isPermanent: true,
+    redirectInBrowser: true,
   });
 };

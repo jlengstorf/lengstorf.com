@@ -1,7 +1,7 @@
-/* eslint-disable import/no-extraneous-dependencies, react/no-danger */
+/* eslint-disable import/no-extraneous-dependencies, react/no-danger, import/prefer-default-export */
 import React from 'react';
 
-exports.onRenderBody = ({ setPostBodyComponents }) => {
+export const onRenderBody = ({ setPostBodyComponents }) =>
   setPostBodyComponents([
     <script
       key="gatsby-plugin-amplitude"
