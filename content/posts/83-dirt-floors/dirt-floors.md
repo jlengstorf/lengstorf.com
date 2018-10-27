@@ -1,10 +1,9 @@
 ---
-draft: true
 date: 2018-09-09
 
 slug: dirt-floors
 title: >
-  Dirt Floors
+  Dirt Floors: How to Stop Putting Out Fires and Solve the Real Problem
 description: >
   What do dirt floors have to do with going to school? And what does any of that have to do with working more effectively?
 
