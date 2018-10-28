@@ -18,7 +18,7 @@ const Footer = styled('footer')`
 `;
 
 const footerTextStyles = css`
-  color: ${colors.gray};
+  color: ${colors.textLight};
   display: inline-block;
   margin: 0 0.25rem;
   padding: 0.25rem;

@@ -212,7 +212,7 @@ export const pageQuery = graphql`
       }
       thumb: childImageSharp {
         fluid(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
@@ -224,7 +224,7 @@ export const pageQuery = graphql`
           name
           childImageSharp {
             fluid(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-              ...GatsbyImageSharpFluid_tracedSVG
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }

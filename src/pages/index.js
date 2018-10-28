@@ -213,7 +213,7 @@ const Button = styled('button')`
 const ScrollLink = styled('a')`
   border: 2px solid transparent;
   border-radius: 0.25rem;
-  color: ${colors.gray};
+  color: ${colors.textLight};
   display: inline-block;
   font-size: 0.75rem;
   letter-spacing: 0.125em;
@@ -318,7 +318,7 @@ export const query = graphql`
     heroImage: file(relativePath: { eq: "images/more-to-life-lengstorf.png" }) {
       childImageSharp {
         fluid(maxWidth: 400, traceSVG: { color: "#e7e3e8" }) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
@@ -343,7 +343,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-              ...GatsbyImageSharpFluid_tracedSVG
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }

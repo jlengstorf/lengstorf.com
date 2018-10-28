@@ -49,7 +49,7 @@ const FloatingHead = ({ className }) => (
         author: file(relativePath: { regex: "/jason-lengstorf-square/" }) {
           childImageSharp {
             fluid(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
-              ...GatsbyImageSharpFluid_tracedSVG
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
