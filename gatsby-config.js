@@ -37,7 +37,7 @@ module.exports = {
     'gatsby-plugin-twitter',
     'gatsby-plugin-instagram',
     // 'gatsby-plugin-five-stages',
-    // 'gatsby-plugin-amplitude',
+    'gatsby-plugin-amplitude',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',
@@ -68,31 +68,29 @@ module.exports = {
         ],
       },
     },
-    // I don’t have time to figure out how to fix
-    // the sw.js <--> service-worker.js issue. 😢
-    // {
-    //   resolve: 'gatsby-plugin-manifest',
-    //   options: {
-    //     name: 'Jason Lengstorf',
-    //     short_name: '@jlengstorf',
-    //     start_url: '.',
-    //     theme_color: '#c800ec',
-    //     background_color: '#c800ec',
-    //     display: 'minimal-ui',
-    //     icons: [
-    //       {
-    //         src: '/android-chrome-192x192.png?v=6946GROn29',
-    //         sizes: '192x192',
-    //         type: 'image/png',
-    //       },
-    //       {
-    //         src: '/android-chrome-512x512.png?v=6946GROn29',
-    //         sizes: '512x512',
-    //         type: 'image/png',
-    //       },
-    //     ],
-    //   },
-    // },
-    // 'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Jason Lengstorf',
+        short_name: '@jlengstorf',
+        start_url: '.',
+        theme_color: '#c800ec',
+        background_color: '#c800ec',
+        display: 'minimal-ui',
+        icons: [
+          {
+            src: '/android-chrome-192x192.png?v=6946GROn29',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/android-chrome-512x512.png?v=6946GROn29',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-offline',
   ],
 };

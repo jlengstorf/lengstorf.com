@@ -29,6 +29,10 @@ export default ({ children, title, className = '' }) => [
     titleTemplate="%s · Jason Lengstorf"
     defaultTitle="Jason Lengstorf"
   >
+    <html lang="en" />
+    <link rel="preconnect" href="https://use.typekit.net" />
+    <link rel="preconnect" href="https://p.typekit.net" />
+
     <meta charSet="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <title>{title}</title>

@@ -77,7 +77,6 @@ export const typography = () => {
     html,
     body {
       color: ${colors.text};
-      font-display: swap;
       font-family: ${fonts.default};
       font-size: ${fonts.sizeSm};
       line-height: 1.45;

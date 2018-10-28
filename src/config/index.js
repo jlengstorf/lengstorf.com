@@ -7,6 +7,7 @@ module.exports = {
   twitter: '@jlengstorf',
   fbAppID: '',
 
+  // API_ENDPOINT: 'http://localhost:8080',
   API_ENDPOINT: 'https://api-lengstorf.now.sh',
   CONFIRM_PAGE: 'https://lengstorf.com/confirm',
 

@@ -1,7 +1,25 @@
 /* eslint-disable import/no-extraneous-dependencies, react/no-danger, import/prefer-default-export */
 import React from 'react';
 
-export const onRenderBody = ({ setPostBodyComponents }) =>
+export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
+  setHeadComponents([
+    <link
+      key="gatsby-plugin-instagram-preconnect-0"
+      rel="preconnect"
+      href="https://d24n15hnbwhuhn.cloudfront.net"
+    />,
+    <link
+      key="gatsby-plugin-instagram-preconnect-1"
+      rel="preconnect"
+      href="https://api.amplitude.com"
+    />,
+    <link
+      key="gatsby-plugin-instagram-preload"
+      rel="preload"
+      href="https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-3.4.0-min.gz.js"
+    />,
+  ]);
+
   setPostBodyComponents([
     <script
       key="gatsby-plugin-amplitude"
