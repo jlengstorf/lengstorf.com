@@ -24,7 +24,7 @@ const footerTextStyles = css`
   padding: 0.25rem;
 `;
 
-const Copyright = styled('span')`
+const Copyright = styled('div')`
   ${footerTextStyles};
   display: block;
   margin-top: 0.5rem;
