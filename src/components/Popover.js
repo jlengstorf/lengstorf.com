@@ -189,7 +189,7 @@ const Popover = ({
 }) => (
   <Transition
     in={visible}
-    timeout={config.transitionSpeed}
+    timeout={150}
     onEnter={handleEnter('js--overlay-hidden', '.js--form-wrap input')}
     onExited={handleExited('js--overlay-hidden')}
   >
