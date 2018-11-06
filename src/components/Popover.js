@@ -7,7 +7,6 @@ import { Transition } from 'react-transition-group';
 import Img from 'gatsby-image';
 import crypto from 'crypto';
 import OptIn from './OptIn';
-import config from '../config';
 import { animation, colors, media } from '../config/styles';
 
 const getBenefitHash = benefit =>
