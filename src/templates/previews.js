@@ -1,18 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import styled from 'react-emotion';
 import Layout from '../components/Layout';
 import CategoryLink from '../components/CategoryLink';
 import TagLink from '../components/TagLink';
 import Pagination from '../components/Pagination';
-import config from '../config';
 import { colors } from '../config/styles';
 
-const getHeading = (isFirstPage, currentPage, totalPages, type, value) => {
+const getHeading = ({
+  isFirstPage,
+  currentPage,
+  totalPages,
+  type,
+  value,
+  categories,
+}) => {
   if (type === 'category' && value) {
-    return `Posts in the category “${config.categories[value].display ||
-      value}”`;
+    const category = categories.find(c => c.slug === value).display || value;
+    return `Posts in the category “${category}”`;
   }
 
   if (type === 'tag' && value) {
@@ -79,9 +85,36 @@ const Previews = ({
   },
 }) => (
   <Layout title="Blog">
-    <Heading>
-      {getHeading(isFirstPage, currentPage, totalPages, type, value)}
-    </Heading>
+    <StaticQuery
+      query={graphql`
+        {
+          site {
+            siteMetadata {
+              categories {
+                name
+                slug
+              }
+            }
+          }
+        }
+      `}
+      render={({
+        site: {
+          siteMetadata: { categories },
+        },
+      }) => (
+        <Heading>
+          {getHeading({
+            isFirstPage,
+            currentPage,
+            totalPages,
+            type,
+            value,
+            categories,
+          })}
+        </Heading>
+      )}
+    />
     {postGroup.map(({ node: { id, childMarkdownRemark: post } }) => (
       <Preview key={id}>
         <PreviewHeading>

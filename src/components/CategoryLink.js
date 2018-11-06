@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import { css } from 'emotion';
 import styled from 'react-emotion';
-import config from '../config';
 import { animation, colors } from '../config/styles';
 
 const CatLink = styled(Link)`
@@ -33,24 +32,42 @@ const linkBlock = css`
   }
 `;
 
-const CategoryLink = ({ category, block }) => (
-  <CatLink
-    to={`/blog/category/${category}`}
-    className={`${block && linkBlock}`}
-  >
-    {config.categories[category]
-      ? config.categories[category].display
-      : category}
-  </CatLink>
-);
+const CategoryLink = React.memo(({ category, block = false }) => (
+  <StaticQuery
+    query={graphql`
+      {
+        site {
+          siteMetadata {
+            categories {
+              slug
+              name
+            }
+          }
+        }
+      }
+    `}
+    render={({
+      site: {
+        siteMetadata: { categories },
+      },
+    }) => {
+      const cat = categories.find(c => c.slug === category) || {};
+
+      return (
+        <CatLink
+          to={`/blog/category/${category}`}
+          className={`${block && linkBlock}`}
+        >
+          {cat.name ? cat.name : category}
+        </CatLink>
+      );
+    }}
+  />
+));
 
 CategoryLink.propTypes = {
   category: PropTypes.string.isRequired,
   block: PropTypes.bool,
-};
-
-CategoryLink.defaultProps = {
-  block: false,
 };
 
 export default CategoryLink;
