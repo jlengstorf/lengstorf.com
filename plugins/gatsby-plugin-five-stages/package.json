@@ -1,9 +1,0 @@
-{
-  "name": "gatsby-plugin-five-stages",
-  "version": "1.0.0",
-  "description": "Sets up scripts for the /why-ideas-fail post.",
-  "main": "index.js",
-  "repository": "https://github.com/jlengstorf/gatsby-plugin-five-stages.git",
-  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
-  "license": "MIT"
-}
