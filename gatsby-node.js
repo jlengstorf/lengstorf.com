@@ -39,7 +39,7 @@ const paginate = (
   posts
     // 1
     .map(
-      (post, index, allPosts) =>
+      (_, index, allPosts) =>
         index % 10 === 0 ? allPosts.slice(index, index + 10) : null,
     )
     // 2
@@ -101,6 +101,7 @@ exports.createPages = async ({ graphql, actions }) => {
             childMarkdownRemark {
               frontmatter {
                 generate
+                image
               }
             }
           }
@@ -140,11 +141,15 @@ exports.createPages = async ({ graphql, actions }) => {
         page.childMarkdownRemark.frontmatter.generate !== false,
     )
     .forEach(({ node: page }) => {
+      const imagePath = page.childMarkdownRemark.frontmatter.image || false;
+      const image = imagePath ? path.resolve('content/pages/', imagePath) : '';
+
       createPage({
         path: page.name,
         component: templates.page,
         context: {
           slug: page.name,
+          image,
         },
       });
     });
