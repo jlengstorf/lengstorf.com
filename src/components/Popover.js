@@ -7,7 +7,6 @@ import { Transition } from 'react-transition-group';
 import Img from 'gatsby-image';
 import crypto from 'crypto';
 import OptIn from './OptIn';
-import config from '../config';
 import { animation, colors, media } from '../config/styles';
 
 const getBenefitHash = benefit =>
@@ -189,7 +188,7 @@ const Popover = ({
 }) => (
   <Transition
     in={visible}
-    timeout={config.transitionSpeed}
+    timeout={150}
     onEnter={handleEnter('js--overlay-hidden', '.js--form-wrap input')}
     onExited={handleExited('js--overlay-hidden')}
   >

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { css } from 'emotion';
 import styled from 'react-emotion';
 import Button from './Button';
-import { API_ENDPOINT, CONFIRM_PAGE } from '../config';
 import { animation, colors, media } from '../config/styles';
 
 const Form = styled('form')`
@@ -165,13 +164,13 @@ class OptIn extends React.Component {
         EMAIL: this.state.email,
         SOURCE: this.props.source,
         [this.props.group || 'DEFAULT']: '1',
-        redirect: CONFIRM_PAGE,
+        redirect: 'https://lengstorf.com/confirm',
       };
 
       this.setState({ isSubmitting: true });
 
       // Actually submit the data.
-      fetch(`${API_ENDPOINT}/user`, {
+      fetch('https://api-lengstorf.now.sh/user', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -191,7 +190,7 @@ class OptIn extends React.Component {
     return (
       <Form
         className={`${this.state.isSubmitting && formSubmitting}`}
-        action={`${API_ENDPOINT}/user`}
+        action="https://api-lengstorf.now.sh/user"
         method="post"
         onSubmit={this.handleSubmit}
       >
@@ -228,7 +227,11 @@ class OptIn extends React.Component {
         </FormButton>
         <input type="hidden" name="SOURCE" value={this.props.source} />
         <input type="hidden" name="status" value="pending" />
-        <input type="hidden" name="redirect" value={CONFIRM_PAGE} />
+        <input
+          type="hidden"
+          name="redirect"
+          value="https://lengstorf.com/confirm"
+        />
         {this.props.group && (
           <input type="hidden" name={this.props.group} value="1" />
         )}

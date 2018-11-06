@@ -1,8 +1,0 @@
-{
-  "name": "gatsby-plugin-amplitude",
-  "version": "1.0.0",
-  "description": "Adds Amplitude scripts to the site.",
-  "main": "index.js",
-  "author": "Jason Lengstorf <jason@lengstorf.com>",
-  "license": "MIT"
-}

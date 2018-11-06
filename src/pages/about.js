@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql } from 'gatsby';
+import SEO from '../components/SEO/SEO';
 import Layout from '../components/Layout';
 import OptIn from '../components/OptIn';
 import OptInNotice from '../components/OptInNotice';
@@ -50,6 +51,7 @@ const Lede = styled('p')`
 
 const About = ({ data }) => (
   <Layout title={data.page.childMarkdownRemark.frontmatter.title}>
+    <SEO pageData={data.page} />
     <BeardImage
       src={Beard}
       alt="Silhouette of Jason Lengstorf’s glasses and beard."

@@ -13,11 +13,6 @@ export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
       rel="preconnect"
       href="https://www.instagram.com"
     />,
-    <link
-      key="gatsby-plugin-instagram-preload"
-      rel="preload"
-      href="https://platform.instagram.com/en_US/embeds.js"
-    />,
   ]);
 
   setPostBodyComponents([

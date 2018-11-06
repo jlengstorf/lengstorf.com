@@ -2,6 +2,7 @@
 title: About
 bio: >
   Jason Lengstorf is a developer, architect, occasional designer, and frequent speaker. He creates high-performing teams by building tools, systems, and the training materials to make them accessible. He then encourages those teams to use their newfound free time to go outside and be people and stuff. He lives in Austin, Texas.
+image: ./jason-lengstorf-in-tokyo.jpg
 
 optin:
   group: DEFAULT
