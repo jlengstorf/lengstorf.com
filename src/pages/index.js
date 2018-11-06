@@ -8,6 +8,7 @@ import Layout from '../components/Layout';
 import WithPopover from '../components/WithPopover';
 import { animation, colors, fonts, media } from '../config/styles';
 import downArrow from '../images/down-arrow.svg';
+import SEO from '../components/SEO/SEO';
 
 /**
  * Browser workaround to avoid a bug where scrollTop doesn’t work.
@@ -264,8 +265,9 @@ const Content = styled('div')`
   }
 `;
 
-const Index = ({ data: { heroImage, page, popoverImages } }) => (
+const Index = ({ data: { heroImage, page, popoverImages } }) => [
   <WithPopover
+    key="home-content"
     heading={page.childMarkdownRemark.frontmatter.popover.heading}
     imageArr={popoverImages.edges}
     benefits={page.childMarkdownRemark.frontmatter.popover.benefits}
@@ -274,6 +276,7 @@ const Index = ({ data: { heroImage, page, popoverImages } }) => (
     source="/"
     render={openPopover => (
       <Main>
+        <SEO key="home-seo" />
         <Hero>
           <Image
             // style={{ display: `inherit` }}
@@ -302,8 +305,8 @@ const Index = ({ data: { heroImage, page, popoverImages } }) => (
         />
       </Main>
     )}
-  />
-);
+  />,
+];
 
 Index.propTypes = {
   data: PropTypes.shape({

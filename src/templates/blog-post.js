@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import styled from 'react-emotion';
-import SEO from '../components/SEO';
+import SEO from '../components/SEO/SEO';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';
 import FloatingHead from '../components/FloatingHead';
@@ -94,14 +94,17 @@ const BlogHeading = styled('h1')`
 `;
 
 export default class BlogPost extends React.Component {
-  // static propTypes = {
-  //   data: PropTypes.shape({
-  //     markdownRemark: PropTypes.any,
-  //   }).isRequired,
-  //   pageContext: PropTypes.shape({
-  //     slug: PropTypes.string.isRequired,
-  //   }).isRequired,
-  // };
+  static propTypes = {
+    data: PropTypes.shape({
+      postData: PropTypes.any,
+      image: PropTypes.any,
+      offer: PropTypes.any,
+      popoverImages: PropTypes.any,
+    }).isRequired,
+    pageContext: PropTypes.shape({
+      slug: PropTypes.string.isRequired,
+    }).isRequired,
+  };
 
   render() {
     const {

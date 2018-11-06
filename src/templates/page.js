@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql } from 'gatsby';
+import SEO from '../components/SEO/SEO';
 import Layout from '../components/Layout';
 import OptIn from '../components/OptIn';
 import OptInNotice from '../components/OptInNotice';
@@ -14,33 +15,41 @@ const ContentArea = styled('section')`
   }
 `;
 
-const Page = ({ data: { page } }) => (
-  <Layout title={page.childMarkdownRemark.frontmatter.title}>
-    <h1>{page.childMarkdownRemark.frontmatter.title}</h1>
-    <ContentWithFootnotes
-      render={() => (
-        <ContentArea
-          dangerouslySetInnerHTML={{ __html: page.childMarkdownRemark.html }}
-        />
-      )}
-    />
-    {page.childMarkdownRemark.frontmatter.optin &&
-      page.childMarkdownRemark.frontmatter.optin.button && [
-        <OptIn
-          key={`optin-${page.childMarkdownRemark.internal.contentDigest}`}
-          button={page.childMarkdownRemark.frontmatter.optin.button}
-          group={page.childMarkdownRemark.frontmatter.optin.group}
-          source={page.name}
-        />,
-        <OptInNotice
-          key={`notice-${page.childMarkdownRemark.internal.contentDigest}`}
-        >
-          Note: I will never share your email or spam you with nonsense. Because
-          I’m not a dick.
-        </OptInNotice>,
-      ]}
-  </Layout>
-);
+const Page = ({ data: { page, image } }) => {
+  const postImage =
+    image && image.seo && image.seo.fluid && image.seo.fluid.src
+      ? image.seo.fluid.src
+      : null;
+
+  return (
+    <Layout title={page.childMarkdownRemark.frontmatter.title}>
+      <SEO postData={page} postImage={postImage} />
+      <h1>{page.childMarkdownRemark.frontmatter.title}</h1>
+      <ContentWithFootnotes
+        render={() => (
+          <ContentArea
+            dangerouslySetInnerHTML={{ __html: page.childMarkdownRemark.html }}
+          />
+        )}
+      />
+      {page.childMarkdownRemark.frontmatter.optin &&
+        page.childMarkdownRemark.frontmatter.optin.button && [
+          <OptIn
+            key={`optin-${page.childMarkdownRemark.internal.contentDigest}`}
+            button={page.childMarkdownRemark.frontmatter.optin.button}
+            group={page.childMarkdownRemark.frontmatter.optin.group}
+            source={page.name}
+          />,
+          <OptInNotice
+            key={`notice-${page.childMarkdownRemark.internal.contentDigest}`}
+          >
+            Note: I will never share your email or spam you with nonsense.
+            Because I’m not a dick.
+          </OptInNotice>,
+        ]}
+    </Layout>
+  );
+};
 
 Page.propTypes = {
   data: PropTypes.shape({
@@ -61,13 +70,14 @@ Page.propTypes = {
 };
 
 export const query = graphql`
-  query($slug: String!) {
+  query($slug: String!, $image: String!) {
     page: file(name: { eq: $slug }) {
       name
       childMarkdownRemark {
         html
         frontmatter {
           title
+          description
           optin {
             button
             group
@@ -75,6 +85,13 @@ export const query = graphql`
         }
         internal {
           contentDigest
+        }
+      }
+    }
+    image: file(absolutePath: { eq: $image }) {
+      seo: childImageSharp {
+        fluid {
+          src
         }
       }
     }
