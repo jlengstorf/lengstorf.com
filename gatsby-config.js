@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
+    title: 'Jason Lengstorf · There’s more to life than hustle & grind.',
+    description: `
+      Jason Lengstorf is a developer advocate, senior engineer, and occasional
+      designer. He builds highly productive teams and communities through better
+      communication, systems, processes,  and balance. He lives in
+      Portland, Oregon.
+    `,
+    canonicalUrl: 'https://lengstorf.com',
+    image: 'https://lengstorf.com/images/jason-lengstorf.jpg',
     author: {
+      name: 'Jason Lengstorf',
       minibio: `
         <strong>Jason Lengstorf</strong> is a lead developer & architect at Gatsby.
         He’s a frequent <a href="/speaking">speaker</a>, occasional
@@ -8,36 +18,66 @@ module.exports = {
         building better balance via efficiency. He lives in Portland, Oregon.
       `,
     },
-    categories: {
-      happiness: {
-        display: 'Building Happiness',
-      },
-      'remote-productivity': {
-        display: 'Remote Productivity',
-      },
-      'remote-work': {
-        display: 'Living & Working Remotely',
-      },
-      motivation: {
-        display: 'Staying Motivated',
-      },
-      storytelling: {
-        display: 'Storytelling',
-      },
-      'acting-like-a-grown-up': {
-        display: 'Acting Like a Grown-Up',
-      },
-      'finding-direction': {
-        display: 'Finding Direction',
-      },
+    organization: {
+      name: 'Jason Lengstorf',
+      url: 'https://lengstorf.com',
+      logo: 'https://lengstorf.com/android-chrome-512x512.png',
     },
+    social: {
+      twitter: '@jlengstorf',
+      fbAppID: '',
+    },
+    categories: [
+      {
+        slug: 'acting-like-a-grown-up',
+        name: 'Acting Like a Grown-Up',
+      },
+      {
+        slug: 'finding-direction',
+        name: 'Finding Direction',
+      },
+      {
+        slug: 'happiness',
+        name: 'Building Happiness',
+      },
+      {
+        slug: 'motivation',
+        name: 'Staying Motivated',
+      },
+      {
+        slug: 'remote-productivity',
+        name: 'Remote Productivity',
+      },
+      {
+        slug: 'remote-work',
+        name: 'Living & Working Remotely',
+      },
+      {
+        slug: 'storytelling',
+        name: 'Storytelling',
+      },
+      {
+        slug: 'impact',
+        name: 'Creating an Impact',
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-twitter',
     'gatsby-plugin-instagram',
-    // 'gatsby-plugin-five-stages',
-    'gatsby-plugin-amplitude',
+    {
+      resolve: 'gatsby-plugin-amplitude-analytics',
+      options: {
+        apiKey: "f8d938da6faf54d25ee934390af70e01",
+        head: false,
+        respectDNT: true,
+        amplitudeConfig: {
+          includeUtm: true,
+          includeReferrer: true
+        }
+      }
+    },
     'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',
