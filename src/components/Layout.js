@@ -32,6 +32,12 @@ export default ({ children, title, className = '' }) => [
     <html lang="en" />
     <link rel="preconnect" href="https://use.typekit.net" />
     <link rel="preconnect" href="https://p.typekit.net" />
+    <link
+      rel="preload"
+      href="https://use.typekit.net/fnr1orp.css"
+      as="stylesheet"
+      crossOrigin
+    />
 
     <meta charSet="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
