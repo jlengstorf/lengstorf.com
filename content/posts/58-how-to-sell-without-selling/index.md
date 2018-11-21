@@ -205,7 +205,6 @@ about jobs.
 
 <figure class="figure figure--center">
   <img src="./images/use-your-network.jpg" alt="Freelancers who hate selling need to use their network." />
-  </figcaption>
 </figure>
 
 ## How to Sell Without Selling

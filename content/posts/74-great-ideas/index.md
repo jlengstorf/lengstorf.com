@@ -59,11 +59,11 @@ of evolution a little differently:
     <small class="figure__attribution">
       Design: 
       <span class="figure__attribution-link">
-        Jason Lengstorf</span><br>
+        Jason Lengstorf</span><br />
       Photo: 
       <a class="figure__attribution-link"
          href="https://commons.wikimedia.org/wiki/File:Charles_Darwin_photograph_by_Herbert_Rose_Barraud,_1881_2.jpg#/media/File:Charles_Darwin_photograph_by_Herbert_Rose_Barraud,_1881_2.jpg">
-        Herbert Rose Barraud</a><br>
+        Herbert Rose Barraud</a><br />
       Poster:
       <a class="figure__attribution-link"
          href="https://www.foxmovies.com/movies/die-hard">

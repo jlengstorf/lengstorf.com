@@ -4,7 +4,6 @@ date: 2018-01-18
 title: >
   2017 Retrospective: What went right? What could have gone better? How will I improve going forward?
 slug: 2017-personal-retrospective
-seo_title: 
 description: >
   For many of us, 2017 was a pretty rough year. In this post, I’ll take a look at my 2017 experience, and how I’ll use that information to improve my 2018.
 
@@ -41,6 +40,7 @@ I don’t know that the world _actually_ went to hell — in fact, there are a l
 </figure>
 
 But what was 2017 _actually_ like? If I step back from the chaos in the media, **what did 2017 mean for me and the people I care most about?**
+
 
 As we roll into a new year, I want to continue a tradition I’ve [stolen from Nate](https://nategreen.org/2017-personal-retrospective/) and write up a retrospective[^retrospective] on 2017.
 
@@ -172,7 +172,7 @@ I mean, I like cooking. But I don’t like grocery shopping. Or cleaning kitchen
 
 But in Texas, it’s not easy to eat healthy. Everything is fried, soaking in butter, covered in cheese, or — in many cases — all three.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Things you don&#39;t notice until you leave and come back: the Portland food scene is really good at vegetables.<br><br>Corollary: Austin is... not so good at vegetables.</p>&mdash; Jason Lengstorf (@jlengstorf) <a href="https://twitter.com/jlengstorf/status/943383326592602112?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Things you don’t notice until you leave and come back: the Portland food scene is really good at vegetables.<br /><br />Corollary: Austin is... not so good at vegetables.</p>&mdash; Jason Lengstorf (@jlengstorf) <a href="https://twitter.com/jlengstorf/status/943383326592602112?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
 
 This meant that we could either see how long it takes for me to regain all the weight I lost back in 2014, or we could start cooking healthy meals at home.
 

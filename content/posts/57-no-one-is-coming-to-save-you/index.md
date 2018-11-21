@@ -494,7 +494,7 @@ to show me what I _don't_ need to carry, after all.
   I was probably doing something _totally unique_, like writing emo lyrics or reading Chuck Palahniuk.
 
 [^jthm]:
-  When I got a JtHM tattoo at seventeen, I never imagined the sort of people who would — in their thirties — recognize and start a conversation with me because of said tattoo. I imagine it feels the same for people who got Disturbed tattoos.<br><br>Or maybe not. Maybe they're _stoked_ about the folks still down with the sickness twenty years later.
+  When I got a JtHM tattoo at seventeen, I never imagined the sort of people who would — in their thirties — recognize and start a conversation with me because of said tattoo. I imagine it feels the same for people who got Disturbed tattoos.<br /><br />Or maybe not. Maybe they're _stoked_ about the folks still down with the sickness twenty years later.
 
 [^infantdecisions]:
   My go-to responses were "crying" and "not crying".
