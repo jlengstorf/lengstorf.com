@@ -22,27 +22,21 @@ const Page = ({ data: { page, image } }) => {
       : null;
 
   return (
-    <Layout title={page.childMarkdownRemark.frontmatter.title}>
+    <Layout title={page.childMdx.frontmatter.title}>
       <SEO postData={page} postImage={postImage} />
-      <h1>{page.childMarkdownRemark.frontmatter.title}</h1>
+      <h1>{page.childMdx.frontmatter.title}</h1>
       <ContentWithFootnotes
-        render={() => (
-          <ContentArea
-            dangerouslySetInnerHTML={{ __html: page.childMarkdownRemark.html }}
-          />
-        )}
+        render={() => <ContentArea>{page.childMdx.code.body}</ContentArea>}
       />
-      {page.childMarkdownRemark.frontmatter.optin &&
-        page.childMarkdownRemark.frontmatter.optin.button && [
+      {page.childMdx.frontmatter.optin &&
+        page.childMdx.frontmatter.optin.button && [
           <OptIn
-            key={`optin-${page.childMarkdownRemark.internal.contentDigest}`}
-            button={page.childMarkdownRemark.frontmatter.optin.button}
-            group={page.childMarkdownRemark.frontmatter.optin.group}
+            key={`optin-${page.childMdx.internal.contentDigest}`}
+            button={page.childMdx.frontmatter.optin.button}
+            group={page.childMdx.frontmatter.optin.group}
             source={page.name}
           />,
-          <OptInNotice
-            key={`notice-${page.childMarkdownRemark.internal.contentDigest}`}
-          >
+          <OptInNotice key={`notice-${page.childMdx.internal.contentDigest}`}>
             Note: I will never share your email or spam you with nonsense.
             Because I’m not a dick.
           </OptInNotice>,
@@ -54,7 +48,7 @@ const Page = ({ data: { page, image } }) => {
 Page.propTypes = {
   data: PropTypes.shape({
     page: PropTypes.shape({
-      childMarkdownRemark: PropTypes.shape({
+      childMdx: PropTypes.shape({
         frontmatter: PropTypes.shape({
           title: PropTypes.string.isRequired,
           optin: PropTypes.shape({
@@ -73,8 +67,10 @@ export const query = graphql`
   query($slug: String!, $image: String!) {
     page: file(name: { eq: $slug }) {
       name
-      childMarkdownRemark {
-        html
+      childMdx {
+        code {
+          body
+        }
         frontmatter {
           title
           description

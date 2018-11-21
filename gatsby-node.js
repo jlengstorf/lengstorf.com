@@ -3,7 +3,7 @@ const template = require('lodash.template');
 
 const getUnique = (field, posts) =>
   posts.reduce((uniques, { node: post }) => {
-    const values = post.childMarkdownRemark.frontmatter[field];
+    const values = post.childMdx.frontmatter[field];
 
     return uniques.concat(values.filter(val => !uniques.includes(val)));
   }, []);
@@ -15,7 +15,7 @@ const groupPostsByUnique = (field, posts) => {
     (grouped, unique) => ({
       ...grouped,
       [unique]: posts.filter(({ node: post }) =>
-        post.childMarkdownRemark.frontmatter[field].includes(unique),
+        post.childMdx.frontmatter[field].includes(unique),
       ),
     }),
     {},
@@ -98,7 +98,7 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             name
-            childMarkdownRemark {
+            childMdx {
               frontmatter {
                 generate
                 image
@@ -115,7 +115,7 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             id
             relativePath
-            childMarkdownRemark {
+            childMdx {
               frontmatter {
                 title
                 description
@@ -138,10 +138,10 @@ exports.createPages = async ({ graphql, actions }) => {
   pages
     .filter(
       ({ node: page }) =>
-        page.childMarkdownRemark.frontmatter.generate !== false,
+        page.childMdx.frontmatter.generate !== false,
     )
     .forEach(({ node: page }) => {
-      const imagePath = page.childMarkdownRemark.frontmatter.image || false;
+      const imagePath = page.childMdx.frontmatter.image || false;
       const image = imagePath ? path.resolve('content/pages/', imagePath) : '';
 
       createPage({
@@ -155,19 +155,19 @@ exports.createPages = async ({ graphql, actions }) => {
     });
 
   posts.forEach(({ node: post }) => {
-    if (!post.childMarkdownRemark.frontmatter.slug) {
+    if (!post.childMdx.frontmatter.slug) {
       throw Error('All posts require a `slug` field in the frontmatter.');
     }
 
-    const { slug } = post.childMarkdownRemark.frontmatter;
+    const { slug } = post.childMdx.frontmatter;
 
     // If an image was supplied, let’s grab it.
     const image =
-      post.childMarkdownRemark.frontmatter.images &&
-      post.childMarkdownRemark.frontmatter.images[0];
+      post.childMdx.frontmatter.images &&
+      post.childMdx.frontmatter.images[0];
 
     // Add the offer type
-    const offer = `/offers/${post.childMarkdownRemark.frontmatter.cta ||
+    const offer = `/offers/${post.childMdx.frontmatter.cta ||
       'default'}/`;
 
     createPage({
@@ -185,7 +185,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const paginationDefaults = { createPage, component: templates.previews };
 
   const allPosts = result.data.posts.edges.filter(
-    ({ node }) => node.childMarkdownRemark.frontmatter.publish !== false,
+    ({ node }) => node.childMdx.frontmatter.publish !== false,
   );
 
   const createPages = (type, postArray) => {

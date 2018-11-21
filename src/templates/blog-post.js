@@ -149,13 +149,7 @@ export default class BlogPost extends React.Component {
                 tags={postData.childMarkdownRemark.frontmatter.tag}
               />
               <Content
-                render={() => (
-                  <section
-                    dangerouslySetInnerHTML={{
-                      __html: postData.childMarkdownRemark.html,
-                    }}
-                  />
-                )}
+                render={() => <section>{postData.childMdx.code.body}</section>}
               />
               <CallToAction
                 content={offer.childMarkdownRemark.html}
@@ -177,8 +171,10 @@ export const pageQuery = graphql`
       internal {
         contentDigest
       }
-      childMarkdownRemark {
-        html
+      childMdx {
+        code {
+          body
+        }
         frontmatter {
           title
           description
@@ -193,8 +189,10 @@ export const pageQuery = graphql`
       }
     }
     offer: file(relativePath: { regex: $offer }) {
-      childMarkdownRemark {
-        html
+      childMdx {
+        code {
+          body
+        }
         frontmatter {
           button
           link

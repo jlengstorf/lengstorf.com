@@ -268,11 +268,11 @@ const Content = styled('div')`
 const Index = ({ data: { heroImage, page, popoverImages } }) => [
   <WithPopover
     key="home-content"
-    heading={page.childMarkdownRemark.frontmatter.popover.heading}
+    heading={page.childMdx.frontmatter.popover.heading}
     imageArr={popoverImages.edges}
-    benefits={page.childMarkdownRemark.frontmatter.popover.benefits}
-    button={page.childMarkdownRemark.frontmatter.popover.button}
-    group={page.childMarkdownRemark.frontmatter.popover.group}
+    benefits={page.childMdx.frontmatter.popover.benefits}
+    button={page.childMdx.frontmatter.popover.button}
+    group={page.childMdx.frontmatter.popover.group}
     source="/"
     render={openPopover => (
       <Main>
@@ -299,10 +299,7 @@ const Index = ({ data: { heroImage, page, popoverImages } }) => [
             scroll for more
           </ScrollLink>
         </Start>
-        <Content
-          id="home-content"
-          dangerouslySetInnerHTML={{ __html: page.childMarkdownRemark.html }}
-        />
+        <Content id="home-content">{page.childMdx.code.body}</Content>
       </Main>
     )}
   />,
@@ -326,7 +323,7 @@ export const query = graphql`
       }
     }
     page: file(relativePath: { eq: "pages/home.md" }) {
-      childMarkdownRemark {
+      childMdx {
         frontmatter {
           popover {
             heading
@@ -335,7 +332,9 @@ export const query = graphql`
             group
           }
         }
-        html
+        code {
+          body
+        }
       }
     }
     popoverImages: allFile(

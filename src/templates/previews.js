@@ -115,7 +115,7 @@ const Previews = ({
         </Heading>
       )}
     />
-    {postGroup.map(({ node: { id, childMarkdownRemark: post } }) => (
+    {postGroup.map(({ node: { id, childMdx: post } }) => (
       <Preview key={id}>
         <PreviewHeading>
           <PreviewLink to={`/${post.frontmatter.slug}`}>

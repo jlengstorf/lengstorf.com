@@ -1,8 +1,7 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'react-emotion';
-import { graphql } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import SEO from '../components/SEO/SEO';
 import Layout from '../components/Layout';
 import OptIn from '../components/OptIn';
@@ -49,71 +48,66 @@ const Lede = styled('p')`
   margin-top: 0.25rem;
 `;
 
-const About = ({ data }) => (
-  <Layout title={data.page.childMarkdownRemark.frontmatter.title}>
-    <SEO pageData={data.page} />
-    <BeardImage
-      src={Beard}
-      alt="Silhouette of Jason Lengstorf’s glasses and beard."
-    />
-    <Heading>I’m Jason Lengstorf.</Heading>
-    <Subheading>
-      Developer. Designer. Speaker. Friendly{' '}
-      <span role="img" aria-label="Bear">
-        🐻
-      </span>
-      .
-    </Subheading>
-    <OfficialBio>
-      <p>
-        <strong>
-          <small>Super Official Third Person Bio™:</small>
-        </strong>
-      </p>
-      <Lede>{data.page.childMarkdownRemark.frontmatter.bio}</Lede>
-    </OfficialBio>
-    <section
-      dangerouslySetInnerHTML={{ __html: data.page.childMarkdownRemark.html }}
-    />
-    <OptIn
-      button={data.page.childMarkdownRemark.frontmatter.optin.button}
-      group={data.page.childMarkdownRemark.frontmatter.optin.group}
-      source="/about/"
-    />
-    <OptInNotice>
-      Note: I will never share your email or spam you with nonsense. Because I’m
-      not a dick.
-    </OptInNotice>
-  </Layout>
-);
-
-About.propTypes = {
-  data: PropTypes.shape({
-    page: PropTypes.shape({
-      childMarkdownRemark: PropTypes.shape({
-        frontmatter: PropTypes.any.isRequired,
-        html: PropTypes.string.isRequired,
-      }),
-    }).isRequired,
-  }).isRequired,
-};
-
-export const query = graphql`
-  query {
-    page: file(relativePath: { eq: "pages/about.md" }) {
-      childMarkdownRemark {
-        html
-        frontmatter {
-          title
-          bio
-          optin {
-            group
-            button
+const About = props => {
+  console.log(props);
+  return (
+    <StaticQuery
+      query={graphql`
+        query {
+          page: file(relativePath: { eq: "pages/about.md" }) {
+            childMdx {
+              code {
+                body
+              }
+              frontmatter {
+                title
+                bio
+                optin {
+                  group
+                  button
+                }
+              }
+            }
           }
         }
-      }
-    }
-  }
-`;
+      `}
+      render={data => (
+        <Layout title={data.page.childMdx.frontmatter.title}>
+          <SEO pageData={data.page} />
+          <BeardImage
+            src={Beard}
+            alt="Silhouette of Jason Lengstorf’s glasses and beard."
+          />
+          <Heading>I’m Jason Lengstorf.</Heading>
+          <Subheading>
+            Developer. Designer. Speaker. Friendly{' '}
+            <span role="img" aria-label="Bear">
+              🐻
+            </span>
+            .
+          </Subheading>
+          <OfficialBio>
+            <p>
+              <strong>
+                <small>Super Official Third Person Bio™:</small>
+              </strong>
+            </p>
+            <Lede>{data.page.childMdx.frontmatter.bio}</Lede>
+          </OfficialBio>
+          <section>{data.page.childMdx.code.body}</section>
+          <OptIn
+            button={data.page.childMdx.frontmatter.optin.button}
+            group={data.page.childMdx.frontmatter.optin.group}
+            source="/about/"
+          />
+          <OptInNotice>
+            Note: I will never share your email or spam you with nonsense.
+            Because I’m not a dick.
+          </OptInNotice>
+        </Layout>
+      )}
+    />
+  );
+};
 
 export default About;
