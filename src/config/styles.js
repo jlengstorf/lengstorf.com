@@ -442,6 +442,12 @@ export const social = () => {
       margin: 1.25rem auto !important;
     }
 
+    @media (max-width: 550px) {
+      .twitter-tweet-rendered {
+        width: 100% !important;
+      }
+    }
+
     .tweetable__link {
       display: block;
       margin-top: 0;
