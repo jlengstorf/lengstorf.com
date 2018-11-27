@@ -1,6 +1,6 @@
-import 'whatwg-fetch';
 import React from 'react';
 import PropTypes from 'prop-types';
+import axios from 'axios';
 import { css } from 'emotion';
 import styled from 'react-emotion';
 import Button from './Button';
@@ -170,16 +170,14 @@ class OptIn extends React.Component {
       this.setState({ isSubmitting: true });
 
       // Actually submit the data.
-      fetch('https://api-lengstorf.now.sh/user', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
-        body: JSON.stringify(formData),
-        mode: 'cors',
-      })
-        .then(res => res.json())
+      axios
+        .post('https://api-lengstorf.now.sh/user', formData, {
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          crossDomain: true,
+        })
         .then(({ redirect }) => {
           window.location.href = redirect;
         });
