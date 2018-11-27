@@ -70,19 +70,19 @@ module.exports = {
         defaultLayouts: {
           default: require.resolve('./src/templates/page.js')
         },
-        // gatsbyRemarkPlugins: [
-        //   {
-        //     resolve: 'gatsby-remark-images',
-        //     options: {
-        //       maxWidth: 1380,
-        //       linkImagesToOriginal: false,
-        //     },
-        //   },
-        //   { resolve: 'gatsby-remark-responsive-iframe' },
-        //   { resolve: 'gatsby-remark-copy-linked-files' },
-        //   { resolve: 'gatsby-remark-numbered-footnotes' },
-        //   { resolve: 'gatsby-remark-smartypants' },
-        // ]
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1380,
+              linkImagesToOriginal: false,
+            },
+          },
+          { resolve: 'gatsby-remark-responsive-iframe' },
+          { resolve: 'gatsby-remark-copy-linked-files' },
+          { resolve: 'gatsby-remark-numbered-footnotes' },
+          { resolve: 'gatsby-remark-smartypants' },
+        ]
       }
     },
     'gatsby-plugin-react-helmet',
