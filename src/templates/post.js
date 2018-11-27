@@ -94,46 +94,57 @@ const BlogHeading = styled('h1')`
   }
 `;
 
-export default ({ data: { post, offer, image } }) => (
-  <React.Fragment>
-    {console.log(offer)}
-    <WithPopover
-      heading={offer.childMdx.frontmatter.popover.heading}
-      benefits={offer.childMdx.frontmatter.popover.benefits}
-      button={offer.childMdx.frontmatter.popover.button}
-      group={offer.childMdx.frontmatter.popover.group}
-      source={`/${post.frontmatter.slug}/`}
-      render={() => (
-        <BlogLayout title={getTitle(post.frontmatter)}>
-          <Blog>
-            <Header>
-              <BlogHeading>{post.frontmatter.title}</BlogHeading>
-            </Header>
-            <Meta
-              thumb={image.thumb}
-              categories={post.frontmatter.category}
-              tags={post.frontmatter.tag}
-            />
-            <Content
-              render={() => (
-                <section>
-                  <MDXRenderer>{post.code.body}</MDXRenderer>
-                </section>
-              )}
-            />
-          </Blog>
-          <ErrorBoundary>
-            <CallToAction
-              content={offer.childMdx.code}
-              button={offer.childMdx.frontmatter.button}
-              link={offer.childMdx.frontmatter.link}
-            />
-          </ErrorBoundary>
-        </BlogLayout>
-      )}
-    />
-  </React.Fragment>
-);
+export default ({ data: { post, offer, image } }) => {
+  if (
+    !offer ||
+    !offer.childMarkdownRemark ||
+    !offer.childMarkdownRemark.frontmatter
+  ) {
+    throw Error(`Missing offer details for ${post.frontmatter.slug}`);
+  }
+
+  const {
+    childMarkdownRemark: {
+      html,
+      frontmatter: { popover, button, link },
+    },
+  } = offer;
+
+  return (
+    <React.Fragment>
+      <WithPopover
+        heading={popover.heading}
+        benefits={popover.benefits}
+        button={popover.button}
+        group={popover.group}
+        source={`/${post.frontmatter.slug}/`}
+        render={() => (
+          <BlogLayout title={getTitle(post.frontmatter)}>
+            <Blog>
+              <Header>
+                <BlogHeading>{post.frontmatter.title}</BlogHeading>
+              </Header>
+              <Meta
+                thumb={image.thumb}
+                categories={post.frontmatter.category}
+                tags={post.frontmatter.tag}
+              />
+              <Content
+                render={() => (
+                  <section>
+                    <MDXRenderer>{post.code.body}</MDXRenderer>
+                  </section>
+                )}
+              />
+              <CallToAction content={html} button={button} link={link} />
+              <Author />
+            </Blog>
+          </BlogLayout>
+        )}
+      />
+    </React.Fragment>
+  );
+};
 
 export const pageQuery = graphql`
   query($slug: String!, $imageRegex: String!, $offer: String!) {
@@ -155,11 +166,8 @@ export const pageQuery = graphql`
       }
     }
     offer: file(relativePath: { regex: $offer }) {
-      childMdx {
-        code {
-          scope
-          body
-        }
+      childMarkdownRemark {
+        html
         frontmatter {
           button
           link
