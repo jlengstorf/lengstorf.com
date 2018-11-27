@@ -3,8 +3,8 @@ const template = require('lodash.template');
 const componentWithMDXScope = require('gatsby-mdx/component-with-mdx-scope');
 
 const getUnique = (field, posts) =>
-  posts.reduce((uniques, { node: post }) => {
-    const values = post.childMarkdownRemark.frontmatter[field];
+  posts.reduce((uniques, post) => {
+    const values = post.childMdx.frontmatter[field];
 
     return uniques.concat(values.filter(val => !uniques.includes(val)));
   }, []);
@@ -15,8 +15,8 @@ const groupPostsByUnique = (field, posts) => {
   return uniqueValues.reduce(
     (grouped, unique) => ({
       ...grouped,
-      [unique]: posts.filter(({ node: post }) =>
-        post.childMarkdownRemark.frontmatter[field].includes(unique),
+      [unique]: posts.filter(post =>
+        post.childMdx.frontmatter[field].includes(unique),
       ),
     }),
     {},
@@ -85,11 +85,12 @@ exports.onCreateBabelConfig = ({ actions }) => {
   });
 };
 
-const createPostsMDX = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage, createRedirect } = actions;
 
   const templates = {
-    post: path.resolve('src/templates/mdx-post.js')
+    post: path.resolve('src/templates/post.js'),
+    previews: path.resolve('src/templates/previews.js'),
   };
 
   const result = await graphql(`
@@ -135,7 +136,7 @@ const createPostsMDX = async ({ graphql, actions }) => {
     const image = images && images[0];
 
     createPage({
-      path: `mdx/${slug}`,
+      path: slug,
       component: componentWithMDXScope(
         templates.post,
         post.childMdx.code.scope,
@@ -148,12 +149,41 @@ const createPostsMDX = async ({ graphql, actions }) => {
       }
     })
   });
-}
 
-exports.createPages = async ({ graphql, actions }) => {
-  createPostsMDX({ graphql, actions });
+  const paginationDefaults = { createPage, component: templates.previews };
 
-  const { createRedirect } = actions;
+  const allPosts = posts.filter(
+    post => post.childMdx.frontmatter.publish !== false,
+  );
+
+  const createPages = (type, postArray) => {
+    const groupedPosts = groupPostsByUnique(type, postArray);
+
+    Object.entries(groupedPosts).forEach(([typeValue, postGroup]) => {
+      paginate(
+        {
+          ...paginationDefaults,
+          pathTemplate: `/blog/${type}/${typeValue}/<%= pageNumber %>`,
+          type,
+          value: typeValue,
+        },
+        postGroup,
+      );
+    });
+  };
+
+  createPages('tag', allPosts);
+  createPages('category', allPosts);
+
+  paginate(
+    {
+      ...paginationDefaults,
+      pathTemplate: '/blog/<%= pageNumber %>',
+      type: 'all',
+      value: null,
+    },
+    allPosts,
+  );
 
   // The /hire-me page no longer exists, so send to contact instead.
   createRedirect({
@@ -170,98 +200,6 @@ exports.createPages = async ({ graphql, actions }) => {
     isPermanent: true,
     redirectInBrowser: true,
   });
-
-  // const templates = {
-  //   page: path.resolve('src/templates/page.js'),
-  //   post: path.resolve('src/templates/blog-post.js'),
-  //   previews: path.resolve('src/templates/previews.js'),
-  // };
-
-  // const result = await graphql(`
-  //   {
-  //     posts: allFile(
-  //       filter: { relativePath: { glob: "posts/**/*.md" } }
-  //       sort: { fields: relativePath, order: DESC }
-  //     ) {
-  //       edges {
-  //         node {
-  //           id
-  //           relativePath
-  //           childMarkdownRemark {
-  //             frontmatter {
-  //               title
-  //               description
-  //               slug
-  //               images
-  //               cta
-  //               category
-  //               tag
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
-
-  // const posts = result.data.posts.edges;
-
-  // posts.forEach(({ node: post }) => {
-  //   if (!post.childMarkdownRemark.frontmatter.slug) {
-  //     throw Error('All posts require a `slug` field in the frontmatter.');
-  //   }
-
-  //   const { slug, images, cta = 'default' } = post.childMarkdownRemark.frontmatter;
-
-  //   // If an image was supplied, let’s grab it.
-  //   const image = images && images[0];
-
-  //   createPage({
-  //     path: slug,
-  //     component: templates.post,
-  //     context: {
-  //       imageRegex: `/${image}/`,
-  //       offer: `/offers/${cta}/`,
-  //       relativePath: post.relativePath,
-  //       slug,
-  //     },
-  //   });
-  // });
-
-  // const paginationDefaults = { createPage, component: templates.previews };
-
-  // const allPosts = posts.filter(
-  //   ({ node }) => node.childMarkdownRemark.frontmatter.publish !== false,
-  // );
-
-  // const createPages = (type, postArray) => {
-  //   const groupedPosts = groupPostsByUnique(type, postArray);
-
-  //   Object.entries(groupedPosts).forEach(([typeValue, postGroup]) => {
-  //     paginate(
-  //       {
-  //         ...paginationDefaults,
-  //         pathTemplate: `/blog/${type}/${typeValue}/<%= pageNumber %>`,
-  //         type,
-  //         value: typeValue,
-  //       },
-  //       postGroup,
-  //     );
-  //   });
-  // };
-
-  // createPages('tag', allPosts);
-  // createPages('category', allPosts);
-
-  // paginate(
-  //   {
-  //     ...paginationDefaults,
-  //     pathTemplate: '/blog/<%= pageNumber %>',
-  //     type: 'all',
-  //     value: null,
-  //   },
-  //   allPosts,
-  // );
 
   // Create an alias for the first page of blog listings.
   createRedirect({
