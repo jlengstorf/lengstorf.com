@@ -2,7 +2,7 @@
 link: /work-happier
 button: Click here to get the guide.
 popover:
-  heading: "Get your life back without sacrificing your career."
+  heading: Get your life back without sacrificing your career.
   benefits:
     - <strong>Get motivated.</strong> Stop feeling buried. Start feeling unstoppable.
     - <strong>Supercharge your productivity.</strong> Show up, kick ass, get out, and live your life.

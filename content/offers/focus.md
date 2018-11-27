@@ -2,7 +2,7 @@
 link: /productivity-habits
 button: Click here to get the free guide.
 popover:
-  heading: "Proven Strategies for Getting More Done in Less Time"
+  heading: Proven Strategies for Getting More Done in Less Time
   benefits:
     - <strong>Stay consistent & get things done.</strong>
     - <strong>Make productivity automatic.</strong>
