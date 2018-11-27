@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import SchemaOrg from './SchemaOrg';
 
-const SEO = ({ postData, postImage, isBlogPost }) => (
+const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
   <StaticQuery
     query={graphql`
       {
@@ -32,11 +32,11 @@ const SEO = ({ postData, postImage, isBlogPost }) => (
       }
     `}
     render={({ site: { siteMetadata: seo } }) => {
-      const postMeta = postData.childMarkdownRemark.frontmatter || {};
+      const postMeta =
+        frontmatter || postData.childMarkdownRemark.frontmatter || {};
 
       const title = postMeta.title || seo.title;
-      const description =
-        postMeta.description || postData.excerpt || seo.description;
+      const description = postMeta.description || seo.description;
       const image = postImage ? `${seo.canonicalUrl}${postImage}` : seo.image;
       const url = postMeta.slug
         ? `${seo.canonicalUrl}${path.sep}${postMeta.slug}`

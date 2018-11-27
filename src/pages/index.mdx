@@ -1,16 +1,58 @@
----
-popover:
-  heading: Get your life back without sacrificing your career.
-  benefits:
-    - <strong>Get motivated.</strong> Stop feeling buried. Start feeling unstoppable.
-    - <strong>Supercharge your productivity.</strong> Show up, kick ass, get out, and live your life.
-    - <strong>Create more quality time.</strong> Spend more time with the people you love.
-  button: Start Now
-  group: WORKHAPPY
+import { graphql } from 'gatsby';
+import {
+  Button,
+  HeroBenefits,
+  HeroButton,
+  HeroContent,
+  HeroHeading,
+  HeroImage,
+  HeroText,
+  HeroWrapper,
+  SEO,
+  WithPopover
+} from '$components';
 
-# This prevents Gatsby from programatically creating this page.
-generate: false
----
+export default ({ children }) => (
+  <WithPopover
+    heading="Get your life back without sacrificing your career."
+    benefits={[
+      `<strong>Get motivated.</strong> Stop feeling buried. Start feeling unstoppable.`,
+      `<strong>Supercharge your productivity.</strong> Show up, kick ass, get out, and live your life.`,
+      `<strong>Create more quality time.</strong> Spend more time with the people you love.`
+    ]}
+    button="Start Now"
+    group="WORKHAPPY"
+    source="/"
+    render={openPopover => (
+      <HeroWrapper>
+        <SEO />
+        <HeroImage />
+        <HeroText>
+          <HeroHeading>You can be a success without the sacrifice.</HeroHeading>
+          <HeroBenefits>
+            <li>
+              Stop burnout <em>before</em> it starts.
+            </li>
+            <li>Reclaim hours of every day.</li>
+            <li>Get more done in less time.</li>
+            <li>Spend more time on the things that matter most.</li>
+          </HeroBenefits>
+          <HeroButton
+            onClick={event => {
+              event.preventDefault();
+              openPopover();
+            }}
+          >
+            Learn How
+          </HeroButton>
+        </HeroText>
+        <HeroContent id="home-content">
+          {children}
+        </HeroContent>
+      </HeroWrapper>
+    )}
+  />
+);
 
 ## What are we giving up for the grind?
 
@@ -44,8 +86,8 @@ My business grew. I doubled my income. I was doing better work than ever before.
 
 The steps I followed can work for anyone, and **I want to show you how I did it. For free.** No gimmicks, no sneaky upsells, and no bullshit — I just want you to be happy, healthy, and successful.
 
-I've boiled down my success to **5 immediately actionable strategies**, and I want to give them to you.
+I've boiled down my success to **5 immediately actionable strategies**, and I want to share them with you.
 
 Just click the button below, enter your email, and **I'll send them over right now.**
 
-<a href="/work-happier" class="btn js--open-popover">Get the PDF</a>
+<Button href="/work-happier" className="js--open-popover">Get the PDF</Button>

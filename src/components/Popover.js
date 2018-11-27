@@ -200,7 +200,7 @@ const Popover = ({
       <Overlay
         className="js--overlay-hidden js--overlay"
         style={transitionStyles[state]}
-        onClick={handleOnDirectClick(closeFn)} // TODO make sure this only fires on direct clicks
+        onClick={handleOnDirectClick(closeFn)}
       >
         <PopoverContainer>
           <ImageWrap>

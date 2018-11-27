@@ -187,6 +187,8 @@ class OptIn extends React.Component {
   };
 
   render() {
+    const Btn = FormButton.withComponent('button');
+
     return (
       <Form
         className={`${this.state.isSubmitting && formSubmitting}`}
@@ -218,13 +220,9 @@ class OptIn extends React.Component {
           />
           <LabelText>Email Address</LabelText>
         </Label>
-        <FormButton
-          type="submit"
-          name="subscribe"
-          disabled={this.state.isSubmitting}
-        >
+        <Btn type="submit" name="subscribe" disabled={this.state.isSubmitting}>
           {this.props.button}
-        </FormButton>
+        </Btn>
         <input type="hidden" name="SOURCE" value={this.props.source} />
         <input type="hidden" name="status" value="pending" />
         <input

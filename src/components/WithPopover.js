@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Popover from './Popover';
+import { graphql, StaticQuery } from 'gatsby';
 
 const getPopoverImage = (group, images) =>
   images.find(({ node }) => node.name.match(group.toLowerCase())).node;
@@ -9,11 +10,6 @@ class WithPopover extends React.Component {
   static propTypes = {
     render: PropTypes.func.isRequired,
     heading: PropTypes.string.isRequired,
-    // imageArr: PropTypes.arrayOf(
-    //   PropTypes.shape({
-    //     file: PropTypes.any,
-    //   }),
-    // ).isRequired,
     benefits: PropTypes.arrayOf(PropTypes.string).isRequired,
     button: PropTypes.string.isRequired,
     group: PropTypes.string.isRequired,
@@ -46,16 +42,36 @@ class WithPopover extends React.Component {
       <div key="withpopover-body" onClick={this.handleClick}>
         {this.props.render(this.openPopover, this.closePopover)}
       </div>,
-      <Popover
+      <StaticQuery
         key="withpopover-popover"
-        visible={this.state.showPopover}
-        closeFn={this.closePopover}
-        heading={this.props.heading}
-        image={getPopoverImage(this.props.group, this.props.imageArr)}
-        benefits={this.props.benefits}
-        button={this.props.button}
-        group={this.props.group}
-        source={this.props.source}
+        query={graphql`
+          {
+            allFile(filter: { relativePath: { regex: "/images/popover/" } }) {
+              edges {
+                node {
+                  name
+                  childImageSharp {
+                    fluid(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
+                      ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                    }
+                  }
+                }
+              }
+            }
+          }
+        `}
+        render={data => (
+          <Popover
+            visible={this.state.showPopover}
+            closeFn={this.closePopover}
+            heading={this.props.heading}
+            image={getPopoverImage(this.props.group, data.allFile.edges)}
+            benefits={this.props.benefits}
+            button={this.props.button}
+            group={this.props.group}
+            source={this.props.source}
+          />
+        )}
       />,
     ];
   }

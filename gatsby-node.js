@@ -1,5 +1,6 @@
 const path = require('path');
 const template = require('lodash.template');
+const componentWithMDXScope = require('gatsby-mdx/component-with-mdx-scope');
 
 const getUnique = (field, posts) =>
   posts.reduce((uniques, { node: post }) => {
@@ -67,8 +68,92 @@ const paginate = (
       });
     });
 
+// This is a shortcut so MDX can import components without gross relative paths.
+// Example: import { Figure } from '$components';
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [path.resolve(__dirname, "src"), "node_modules"],
+      alias: { $components: path.resolve(__dirname, "src/components") }
+    }
+  });
+};
+
+exports.onCreateBabelConfig = ({ actions }) => {
+  actions.setBabelPlugin({
+    name: "@babel/plugin-proposal-export-default-from"
+  });
+};
+
+const createPostsMDX = async ({ graphql, actions }) => {
+  const { createPage } = actions;
+
+  const templates = {
+    post: path.resolve('src/templates/mdx-post.js')
+  };
+
+  const result = await graphql(`
+    {
+      posts: allFile(
+        filter: { relativePath: { glob: "posts/**/*.md" } }
+        sort: { fields: relativePath, order: DESC }
+      ) {
+        edges {
+          node {
+            id
+            relativePath
+            childMdx {
+              code {
+                scope
+              }
+              frontmatter {
+                title
+                description
+                slug
+                images
+                cta
+                category
+                tag
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  const posts = result.data.posts.edges.map(({ node }) => node);
+
+  posts.forEach(post => {
+    if (!post.childMdx || !post.childMdx.frontmatter || !post.childMdx.frontmatter.slug) {
+      console.log(post);
+      throw Error('All posts require a `slug` field in the frontmatter.');
+    }
+
+    const { slug, images, cta = 'default' } = post.childMdx.frontmatter;
+
+    const image = images && images[0];
+
+    createPage({
+      path: `mdx/${slug}`,
+      component: componentWithMDXScope(
+        templates.post,
+        post.childMdx.code.scope,
+      ),
+      context: {
+        imageRegex: `/${image}/`,
+        offer: `/offers/${cta}/`,
+        relativePath: post.relativePath,
+        slug,
+      }
+    })
+  });
+}
+
 exports.createPages = async ({ graphql, actions }) => {
-  const { createPage, createRedirect } = actions;
+  createPostsMDX({ graphql, actions });
+
+  const { createRedirect } = actions;
 
   // The /hire-me page no longer exists, so send to contact instead.
   createRedirect({
@@ -86,139 +171,97 @@ exports.createPages = async ({ graphql, actions }) => {
     redirectInBrowser: true,
   });
 
-  const templates = {
-    page: path.resolve('src/templates/page.js'),
-    post: path.resolve('src/templates/blog-post.js'),
-    previews: path.resolve('src/templates/previews.js'),
-  };
+  // const templates = {
+  //   page: path.resolve('src/templates/page.js'),
+  //   post: path.resolve('src/templates/blog-post.js'),
+  //   previews: path.resolve('src/templates/previews.js'),
+  // };
 
-  const result = await graphql(`
-    {
-      pages: allFile(filter: { relativeDirectory: { eq: "pages" } }) {
-        edges {
-          node {
-            name
-            childMarkdownRemark {
-              frontmatter {
-                generate
-                image
-              }
-            }
-          }
-        }
-      }
-      posts: allFile(
-        filter: { relativePath: { glob: "posts/**/*.md" } }
-        sort: { fields: relativePath, order: DESC }
-      ) {
-        edges {
-          node {
-            id
-            relativePath
-            childMarkdownRemark {
-              frontmatter {
-                title
-                description
-                slug
-                images
-                cta
-                category
-                tag
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
+  // const result = await graphql(`
+  //   {
+  //     posts: allFile(
+  //       filter: { relativePath: { glob: "posts/**/*.md" } }
+  //       sort: { fields: relativePath, order: DESC }
+  //     ) {
+  //       edges {
+  //         node {
+  //           id
+  //           relativePath
+  //           childMarkdownRemark {
+  //             frontmatter {
+  //               title
+  //               description
+  //               slug
+  //               images
+  //               cta
+  //               category
+  //               tag
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
 
-  const pages = result.data.pages.edges;
-  const posts = result.data.posts.edges;
+  // const posts = result.data.posts.edges;
 
-  pages
-    .filter(
-      ({ node: page }) =>
-        page.childMarkdownRemark.frontmatter.generate !== false,
-    )
-    .forEach(({ node: page }) => {
-      const imagePath = page.childMarkdownRemark.frontmatter.image || false;
-      const image = imagePath ? path.resolve('content/pages/', imagePath) : '';
+  // posts.forEach(({ node: post }) => {
+  //   if (!post.childMarkdownRemark.frontmatter.slug) {
+  //     throw Error('All posts require a `slug` field in the frontmatter.');
+  //   }
 
-      createPage({
-        path: page.name,
-        component: templates.page,
-        context: {
-          slug: page.name,
-          image,
-        },
-      });
-    });
+  //   const { slug, images, cta = 'default' } = post.childMarkdownRemark.frontmatter;
 
-  posts.forEach(({ node: post }) => {
-    if (!post.childMarkdownRemark.frontmatter.slug) {
-      throw Error('All posts require a `slug` field in the frontmatter.');
-    }
+  //   // If an image was supplied, let’s grab it.
+  //   const image = images && images[0];
 
-    const { slug } = post.childMarkdownRemark.frontmatter;
+  //   createPage({
+  //     path: slug,
+  //     component: templates.post,
+  //     context: {
+  //       imageRegex: `/${image}/`,
+  //       offer: `/offers/${cta}/`,
+  //       relativePath: post.relativePath,
+  //       slug,
+  //     },
+  //   });
+  // });
 
-    // If an image was supplied, let’s grab it.
-    const image =
-      post.childMarkdownRemark.frontmatter.images &&
-      post.childMarkdownRemark.frontmatter.images[0];
+  // const paginationDefaults = { createPage, component: templates.previews };
 
-    // Add the offer type
-    const offer = `/offers/${post.childMarkdownRemark.frontmatter.cta ||
-      'default'}/`;
+  // const allPosts = posts.filter(
+  //   ({ node }) => node.childMarkdownRemark.frontmatter.publish !== false,
+  // );
 
-    createPage({
-      path: slug,
-      component: templates.post,
-      context: {
-        imageRegex: `/${image}/`,
-        slug,
-        offer,
-        relativePath: post.relativePath,
-      },
-    });
-  });
+  // const createPages = (type, postArray) => {
+  //   const groupedPosts = groupPostsByUnique(type, postArray);
 
-  const paginationDefaults = { createPage, component: templates.previews };
+  //   Object.entries(groupedPosts).forEach(([typeValue, postGroup]) => {
+  //     paginate(
+  //       {
+  //         ...paginationDefaults,
+  //         pathTemplate: `/blog/${type}/${typeValue}/<%= pageNumber %>`,
+  //         type,
+  //         value: typeValue,
+  //       },
+  //       postGroup,
+  //     );
+  //   });
+  // };
 
-  const allPosts = result.data.posts.edges.filter(
-    ({ node }) => node.childMarkdownRemark.frontmatter.publish !== false,
-  );
+  // createPages('tag', allPosts);
+  // createPages('category', allPosts);
 
-  const createPages = (type, postArray) => {
-    const groupedPosts = groupPostsByUnique(type, postArray);
-
-    Object.entries(groupedPosts).forEach(data => {
-      const typeValue = data[0];
-      const postGroup = data[1];
-
-      paginate(
-        {
-          ...paginationDefaults,
-          pathTemplate: `/blog/${type}/${typeValue}/<%= pageNumber %>`,
-          type,
-          value: typeValue,
-        },
-        postGroup,
-      );
-    });
-  };
-
-  createPages('tag', allPosts);
-  createPages('category', allPosts);
-
-  paginate(
-    {
-      ...paginationDefaults,
-      pathTemplate: '/blog/<%= pageNumber %>',
-      type: 'all',
-      value: null,
-    },
-    allPosts,
-  );
+  // paginate(
+  //   {
+  //     ...paginationDefaults,
+  //     pathTemplate: '/blog/<%= pageNumber %>',
+  //     type: 'all',
+  //     value: null,
+  //   },
+  //   allPosts,
+  // );
 
   // Create an alias for the first page of blog listings.
   createRedirect({

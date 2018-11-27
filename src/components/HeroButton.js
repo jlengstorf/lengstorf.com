@@ -1,30 +1,31 @@
 import styled from 'react-emotion';
 import { animation, colors, fonts } from '../config/styles';
 
-export default styled('a')`
-  background: ${colors.purple};
+export default styled('button')`
+  background-color: ${colors.purple};
   border: 1px solid ${colors.lightest};
+  border-radius: 0.25rem;
   box-shadow: 2px 2px 0 ${colors.grayAlphaExtra};
-  border-radius: 4px;
   color: ${colors.lightest};
   cursor: pointer;
-  display: ${({ small }) => (small ? `inline-block` : `block`)};
+  display: block;
   font-family: ${fonts.heading};
-  font-size: ${({ small }) => (small ? `1rem` : `1.5625rem`)};
+  font-size: 1.5rem;
   font-weight: 900;
-  margin: 1rem auto 0 ${({ small }) => (small ? 0 : `auto`)};
-  max-width: ${({ small }) => (small ? `100%` : `320px`)};
-  padding: ${({ small }) => (small ? `0.5rem 1.5rem 0.325rem` : `0.25rem`)};
-  text-align: center;
-  text-decoration: none;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  padding: 0.25rem 0.5rem 0.125rem;
   text-transform: uppercase;
   transition: background-color ${animation.transitionTime} linear;
+  width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   :hover,
-  :active,
-  :focus {
+  :focus,
+  :active {
     background-color: ${colors.darkest};
     outline: none;
   }

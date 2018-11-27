@@ -1,4 +1,4 @@
-/* eslint react/no-danger: "off" */
+/*
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
@@ -235,3 +235,4 @@ export const pageQuery = graphql`
     }
   }
 `;
+ */
