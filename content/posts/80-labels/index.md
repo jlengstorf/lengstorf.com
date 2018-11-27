@@ -17,6 +17,8 @@ tag:
 
 images:
 - /images/jocks-and-nerds.jpg
+
+cta: default
 ---
 
 My entire adult life, I've tried to avoid being labeled.
