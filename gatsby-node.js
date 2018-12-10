@@ -88,11 +88,6 @@ exports.onCreateBabelConfig = ({ actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions;
 
-  const templates = {
-    post: path.resolve('src/templates/post.js'),
-    previews: path.resolve('src/templates/previews.js'),
-  };
-
   const result = await graphql(`
     {
       posts: allFile(
@@ -101,8 +96,6 @@ exports.createPages = async ({ graphql, actions }) => {
       ) {
         edges {
           node {
-            id
-            relativePath
             childMdx {
               code {
                 scope
@@ -127,7 +120,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   posts.forEach(post => {
     if (!post.childMdx || !post.childMdx.frontmatter || !post.childMdx.frontmatter.slug) {
-      console.log(post);
+      console.log(post); // eslint-disable-line no-console
       throw Error('All posts require a `slug` field in the frontmatter.');
     }
 
@@ -138,19 +131,18 @@ exports.createPages = async ({ graphql, actions }) => {
     createPage({
       path: slug,
       component: componentWithMDXScope(
-        templates.post,
+        path.resolve('src/templates/post.js'),
         post.childMdx.code.scope,
       ),
       context: {
         imageRegex: `/${image}/`,
         offer: `/offers/${cta}/`,
-        relativePath: post.relativePath,
         slug,
       }
     })
   });
 
-  const paginationDefaults = { createPage, component: templates.previews };
+  const paginationDefaults = { createPage, component: path.resolve('src/templates/previews.js') };
 
   const allPosts = posts.filter(
     post => post.childMdx.frontmatter.publish !== false,
