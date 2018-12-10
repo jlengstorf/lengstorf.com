@@ -112,6 +112,11 @@ export default ({ data: { post, offer, image } }) => {
 
   return (
     <React.Fragment>
+      <SEO
+        frontmatter={post.frontmatter}
+        postImage={image.seo.fluid.src}
+        isBlogPost
+      />
       <WithPopover
         heading={popover.heading}
         benefits={popover.benefits}
