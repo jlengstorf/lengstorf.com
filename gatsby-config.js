@@ -137,7 +137,7 @@ module.exports = {
         short_name: '@jlengstorf',
         start_url: '.',
         theme_color: '#c800ec',
-        background_color: '#c800ec',
+        background_color: '#ffffff',
         display: 'minimal-ui',
         icons: [
           {

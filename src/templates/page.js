@@ -5,7 +5,6 @@ import ContentArea from '../components/ContentArea';
 import SEO from '../components/SEO/SEO';
 
 export default ({ children, pageContext, data }) => {
-  console.log(pageContext.frontmatter);
   const postImage =
     data &&
     data.file &&
@@ -22,7 +21,6 @@ export default ({ children, pageContext, data }) => {
 
   return (
     <Layout title={pageContext.frontmatter.title}>
-      {console.log(data)}
       <SEO {...seo} />
       <h1>{pageContext.frontmatter.title}</h1>
       <ContentWithFootnotes

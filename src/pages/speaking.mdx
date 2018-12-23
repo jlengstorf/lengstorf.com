@@ -1,11 +1,23 @@
 ---
 title: Speaking and Workshops
 description: >
-  Jason Lengstorf is an experienced speaker on topics ranging from web design and development to happiness, work-life balance, and productivity.
-image: ./images/jason-lengstorf-speaking.jpg
+  Jason Lengstorf is an experienced speaker on topics ranging from web design
+  and development to happiness, work-life balance, and productivity.
 ---
 
 import { Button, Figure } from '$components';
+
+export const pageQuery = graphql`
+  {
+    file(relativePath: { eq: "images/jason-lengstorf-speaking.jpg"}) {
+      childImageSharp {
+        resize(width: 1300) {
+          src
+        }
+      }
+    }
+  }
+`;
 
 I’m available for speaking gigs; just [contact me](mailto:speaking@lengstorf.com?subject=Speaking+Inquiry). I’d be happy to speak about my experiences with remote working, business-building, or web design and development.
 
