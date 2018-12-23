@@ -1,9 +1,10 @@
 const path = require('path');
 const template = require('lodash.template');
+const componentWithMDXScope = require('gatsby-mdx/component-with-mdx-scope');
 
 const getUnique = (field, posts) =>
-  posts.reduce((uniques, { node: post }) => {
-    const values = post.childMarkdownRemark.frontmatter[field];
+  posts.reduce((uniques, post) => {
+    const values = post.childMdx.frontmatter[field];
 
     return uniques.concat(values.filter(val => !uniques.includes(val)));
   }, []);
@@ -14,8 +15,8 @@ const groupPostsByUnique = (field, posts) => {
   return uniqueValues.reduce(
     (grouped, unique) => ({
       ...grouped,
-      [unique]: posts.filter(({ node: post }) =>
-        post.childMarkdownRemark.frontmatter[field].includes(unique),
+      [unique]: posts.filter(post =>
+        post.childMdx.frontmatter[field].includes(unique),
       ),
     }),
     {},
@@ -67,55 +68,38 @@ const paginate = (
       });
     });
 
+// This is a shortcut so MDX can import components without gross relative paths.
+// Example: import { Figure } from '$components';
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [path.resolve(__dirname, "src"), "node_modules"],
+      alias: { $components: path.resolve(__dirname, "src/components") }
+    }
+  });
+};
+
+exports.onCreateBabelConfig = ({ actions }) => {
+  actions.setBabelPlugin({
+    name: "@babel/plugin-proposal-export-default-from"
+  });
+};
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions;
 
-  // The /hire-me page no longer exists, so send to contact instead.
-  createRedirect({
-    fromPath: '/hire-me',
-    toPath: '/contact',
-    isPermanent: true,
-    redirectInBrowser: true,
-  });
-
-  // The /cost-of-living page no longer exists, so send to the blog instead.
-  createRedirect({
-    fromPath: '/cost-of-living',
-    toPath: '/cost-of-living-remotely',
-    isPermanent: true,
-    redirectInBrowser: true,
-  });
-
-  const templates = {
-    page: path.resolve('src/templates/page.js'),
-    post: path.resolve('src/templates/blog-post.js'),
-    previews: path.resolve('src/templates/previews.js'),
-  };
-
   const result = await graphql(`
     {
-      pages: allFile(filter: { relativeDirectory: { eq: "pages" } }) {
-        edges {
-          node {
-            name
-            childMarkdownRemark {
-              frontmatter {
-                generate
-                image
-              }
-            }
-          }
-        }
-      }
       posts: allFile(
         filter: { relativePath: { glob: "posts/**/*.md" } }
         sort: { fields: relativePath, order: DESC }
       ) {
         edges {
           node {
-            id
-            relativePath
-            childMarkdownRemark {
+            childMdx {
+              code {
+                scope
+              }
               frontmatter {
                 title
                 description
@@ -132,69 +116,42 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  const pages = result.data.pages.edges;
-  const posts = result.data.posts.edges;
+  const posts = result.data.posts.edges.map(({ node }) => node);
 
-  pages
-    .filter(
-      ({ node: page }) =>
-        page.childMarkdownRemark.frontmatter.generate !== false,
-    )
-    .forEach(({ node: page }) => {
-      const imagePath = page.childMarkdownRemark.frontmatter.image || false;
-      const image = imagePath ? path.resolve('content/pages/', imagePath) : '';
-
-      createPage({
-        path: page.name,
-        component: templates.page,
-        context: {
-          slug: page.name,
-          image,
-        },
-      });
-    });
-
-  posts.forEach(({ node: post }) => {
-    if (!post.childMarkdownRemark.frontmatter.slug) {
+  posts.forEach(post => {
+    if (!post.childMdx || !post.childMdx.frontmatter || !post.childMdx.frontmatter.slug) {
+      console.log(post); // eslint-disable-line no-console
       throw Error('All posts require a `slug` field in the frontmatter.');
     }
 
-    const { slug } = post.childMarkdownRemark.frontmatter;
+    const { slug, images, cta = 'default' } = post.childMdx.frontmatter;
 
-    // If an image was supplied, let’s grab it.
-    const image =
-      post.childMarkdownRemark.frontmatter.images &&
-      post.childMarkdownRemark.frontmatter.images[0];
-
-    // Add the offer type
-    const offer = `/offers/${post.childMarkdownRemark.frontmatter.cta ||
-      'default'}/`;
+    const image = images && images[0];
 
     createPage({
       path: slug,
-      component: templates.post,
+      component: componentWithMDXScope(
+        path.resolve('src/templates/post.js'),
+        post.childMdx.code.scope,
+      ),
       context: {
         imageRegex: `/${image}/`,
+        offer: `/offers/${cta}/`,
         slug,
-        offer,
-        relativePath: post.relativePath,
-      },
-    });
+      }
+    })
   });
 
-  const paginationDefaults = { createPage, component: templates.previews };
+  const paginationDefaults = { createPage, component: path.resolve('src/templates/previews.js') };
 
-  const allPosts = result.data.posts.edges.filter(
-    ({ node }) => node.childMarkdownRemark.frontmatter.publish !== false,
+  const allPosts = posts.filter(
+    post => post.childMdx.frontmatter.publish !== false,
   );
 
   const createPages = (type, postArray) => {
     const groupedPosts = groupPostsByUnique(type, postArray);
 
-    Object.entries(groupedPosts).forEach(data => {
-      const typeValue = data[0];
-      const postGroup = data[1];
-
+    Object.entries(groupedPosts).forEach(([typeValue, postGroup]) => {
       paginate(
         {
           ...paginationDefaults,
@@ -219,6 +176,22 @@ exports.createPages = async ({ graphql, actions }) => {
     },
     allPosts,
   );
+
+  // The /hire-me page no longer exists, so send to contact instead.
+  createRedirect({
+    fromPath: '/hire-me',
+    toPath: '/contact',
+    isPermanent: true,
+    redirectInBrowser: true,
+  });
+
+  // The /cost-of-living page no longer exists, so send to the blog instead.
+  createRedirect({
+    fromPath: '/cost-of-living',
+    toPath: '/cost-of-living-remotely',
+    isPermanent: true,
+    redirectInBrowser: true,
+  });
 
   // Create an alias for the first page of blog listings.
   createRedirect({

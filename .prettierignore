@@ -1,3 +1,4 @@
 gatsby-*.js
 package.json
 *.md
+*.mdx

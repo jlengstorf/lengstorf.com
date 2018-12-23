@@ -63,6 +63,28 @@ module.exports = {
     ],
   },
   plugins: [
+    {
+      resolve: 'gatsby-mdx',
+      options: {
+        extensions: [".mdx", ".md"],
+        defaultLayouts: {
+          default: require.resolve('./src/templates/page.js')
+        },
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1380,
+              linkImagesToOriginal: false,
+            },
+          },
+          { resolve: 'gatsby-remark-responsive-iframe' },
+          { resolve: 'gatsby-remark-copy-linked-files' },
+          { resolve: 'gatsby-remark-numbered-footnotes' },
+          { resolve: 'gatsby-remark-smartypants' },
+        ]
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-twitter',
     'gatsby-plugin-instagram',
@@ -115,7 +137,7 @@ module.exports = {
         short_name: '@jlengstorf',
         start_url: '.',
         theme_color: '#c800ec',
-        background_color: '#c800ec',
+        background_color: '#ffffff',
         display: 'minimal-ui',
         icons: [
           {

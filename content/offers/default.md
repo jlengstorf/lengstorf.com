@@ -2,7 +2,7 @@
 link: /newsletter
 button: Let’s be email buddies.
 popover:
-  heading: "Did we just become best friends?"
+  heading: Did we just become best friends?
   benefits:
     - <strong>First dibs.</strong> Get new content delivered straight to your inbox.
     - <strong>Exclusive content.</strong> Sometimes I send content <em>only</em> to subscribers.

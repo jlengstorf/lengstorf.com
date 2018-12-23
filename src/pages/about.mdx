@@ -1,0 +1,149 @@
+---
+title: About
+---
+
+import { graphql } from 'gatsby';
+import {
+  Beard,
+  BeardImage,
+  Figure,
+  Heading,
+  Lede,
+  OfficialBio,
+  OptIn,
+  OptInNotice,
+  Subheading,
+} from '$components';
+
+export const pageQuery = graphql`
+  {
+    file(relativePath: { eq: "images/jason-lengstorf-in-tokyo.jpg"}) {
+      childImageSharp {
+        resize(width: 1300) {
+          src
+        }
+      }
+    }
+  }
+`;
+
+<BeardImage
+  src={Beard}
+  alt="Silhouette of Jason Lengstorf’s glasses and beard."
+/>
+
+<Heading>I’m Jason Lengstorf.</Heading>
+<Subheading>
+  software architect · keynote speaker · occasional designer · mediocre bartender
+</Subheading>
+
+<OfficialBio>
+  <p>
+    <strong>
+      <small>Super Official Third Person Bio™:</small>
+    </strong>
+  </p>
+  <Lede>
+    Jason Lengstorf is a developer advocate, senior engineer, and occasional
+    designer at <a href="https://gatsbyjs.org">Gatsby</a>. He’s an advocate for
+    building highly productive teams through better communication, well designed
+    systems and processes, and healthy work-life balance, and{' '}
+    <a href="https://lengstorf.com">he blogs about that sometimes</a>. He lives
+    in Portland, Oregon.
+  </Lede>
+</OfficialBio>
+
+<Figure
+  align="right"
+  src="images/jason-web-summer-camp.jpg"
+  alt="Jason Lengstorf at Web Summer Camp in Croatia, 2017."
+  caption="Teaching a workshop in Croatia."
+  creditLink="http://2017.websummercamp.com/"
+  credit="Web Summer Camp"
+/>
+
+## What I Do for a Living
+
+- I collect and share knowledge as a [keynote speaker](/speaking), developer advocate at [Gatsby](https://gatsbyjs.org), and through [my blog](/blog).
+- I help teams [**Make the Right Thing the Easy Thing**](https://youtu.be/xqT8e6_yzLg) through better tools, system, and processes.
+- I create better teams by focusing on effective working habits, including such world-shattering techniques as [“actually taking time off”](/overtime-hurts-productivity).
+- I make the people around me more effective by [identifying the dirt floors](/dirt-floors), then helping design ways to remove them.
+
+<br style="clear: both" />
+
+<Figure
+  align="right"
+  src="images/jason-marisa-tokyo.jpg"
+  alt="Jason Lengstorf and Marisa Morby in Tokyo, 2016."
+  caption={`Me and <a href="https://marisamorby.com">Marisa</a> in Tokyo.`}
+  creditLink="http://www.paintwithstars.com/"
+  credit="paint with stars"
+/>
+
+## What I Do for Fun
+
+- Travel. Often. [Like, for real.](/two-years-in-airbnbs)
+- Write. Usually I tell stories about how I used to be a shitbag, and try to share the lessons I learned to make me less of a shitbag.
+- Cook. I love figuring out new ways to create meals, and I love having friends over for a family-style meal.
+- Code. Before it was the way I made a living, I built things for the web for fun. Sometimes I still [build dumb things on the internet](https://whichbeardisthis.com).
+
+<br style="clear: both" />
+
+## Why This Site Exists
+
+<Figure
+  align="right"
+  src="images/teenage-attitude.jpg"
+  alt="Jason Lengstorf ca. 2000."
+  caption="Looking tough with my fisherman’s vest, spandex shirt, and studded Hot Topic bracelet."
+  creditType="Source"
+  credit="My Mom’s box of shame"
+/>
+
+I was not a particularly well-adjusted teenager.
+
+I spent a lot of time feeling angry. I was always suffering from some form of (completely imaginary) censorship, oppression, brutality, or unfair treatment.
+
+As you can probably imagiITSne, I wasn’t exactly a _happy_ kid.
+
+I was lucky, though: I had [good friends](/best-friends) and supportive parents. They didn’t put up with my shit, gave me books to read, and helped push me toward a better outlook on life.
+
+And — despite my recalcitrant asshattery — eventually they got through to me.
+
+I’ve been able to get pretty far in life, and a younger, more arrogant me used to chalk that up to “being a genius” or “working harder than everyone else”. But neither of those statements is true.
+
+Here‘s what <em>is</em> true:
+
+**I am where I am because I had smart, empathetic people around me.** People I could bounce ideas off of; people who recommended books for me to read; people who called me on my shit; people who evolved along with me as I grew up.
+
+<Figure
+  src="images/jason-marisa-nate-potluck-of-meaning.jpg"
+  alt="Marisa Morby, Nate Green, and Jason Lengstorf at the Potluck of Meaning, 2015."
+  caption={`Marisa and Nate have always pushed me to be better today than I was
+    yesterday. This is us at the Potluck of Meaning, a benefit dinner for
+    <a href="https://cfccanada.ca/">Community Food Centres Canada</a>.`}
+  creditLink="https://www.precisionnutrition.com/"
+  credit="Precision Nutrition"
+/>
+
+### I was lucky, and I want to share a little luck with the world.
+
+Not everyone had access to a great network like that. Not everyone has someone to help push them forward when they might otherwise settle in and think, “Well, this is probably the best I can do.”
+
+I realize that I can’t create that network for everyone. However, I _can_ try to create a space where I’ll do my best to push you to be the best possible version of yourself, and create a channel where you can push me to do the same. And — hopefully — there will be enough of us that we can start to _create_ that network.
+
+I’m not exactly sure how to actually make that happen, but I’m starting with a blog and a newsletter.
+
+If this sounds like the sort of thing you wish you had — or if it’s something you _do_ have, and you’d like to help other people experience it — join my newsletter. Reply to a message. **Let’s talk.**
+
+Let’s figure out how to connect with people who strive to be better; who push themselves and the people around them; who don’t feel threatened when someone is succeeding — instead they feel energized to go do more awesome shit.
+
+Those people are my people. _Our_ people.
+
+**I started this site to find more of my people. Hopefully you’re one of them.**
+
+<OptIn button="Join Now" group="DEFAULT" source="/about/" />
+<OptInNotice>
+  Note: I will never share your email or spam you with nonsense.
+  Because I’m not a dick.
+</OptInNotice>

@@ -96,6 +96,7 @@ const LogoLink = styled(NavLink)`
   border: 0;
   margin-right: 0.5rem;
   min-width: 42px;
+  padding: 0;
   position: relative;
   width: 42px;
   z-index: 10;

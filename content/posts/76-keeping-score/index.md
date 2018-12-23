@@ -31,7 +31,7 @@ our parents' success — only the results of it. We can't buy or steal success,
 either.
 
 [^housewives]:
-  <img src="/images/real-housewives.gif" alt="SO MAD" class="footnote-image footnote-image--right">
+  <img src="/images/real-housewives.gif" alt="SO MAD" class="footnote-image footnote-image--right" />
 
   If you've ever subjected yourself to the horrors of reality television, a few minutes of the petty nonsense on _The Real Housewives of Wherever_ is all the proof we need that having a bunch of fancy crap doesn't correlate with success _at all_.
 

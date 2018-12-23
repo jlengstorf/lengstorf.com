@@ -172,7 +172,7 @@ I mean, I like cooking. But I don’t like grocery shopping. Or cleaning kitchen
 
 But in Texas, it’s not easy to eat healthy. Everything is fried, soaking in butter, covered in cheese, or — in many cases — all three.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Things you don&#39;t notice until you leave and come back: the Portland food scene is really good at vegetables.<br><br>Corollary: Austin is... not so good at vegetables.</p>&mdash; Jason Lengstorf (@jlengstorf) <a href="https://twitter.com/jlengstorf/status/943383326592602112?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Things you don&#39;t notice until you leave and come back: the Portland food scene is really good at vegetables.<br /><br />Corollary: Austin is... not so good at vegetables.</p>&mdash; Jason Lengstorf (@jlengstorf) <a href="https://twitter.com/jlengstorf/status/943383326592602112?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
 
 This meant that we could either see how long it takes for me to regain all the weight I lost back in 2014, or we could start cooking healthy meals at home.
 

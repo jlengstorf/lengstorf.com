@@ -1,9 +1,10 @@
-/* eslint react/no-danger: "off" */
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import MDXRenderer from 'gatsby-mdx/mdx-renderer';
 import styled from 'react-emotion';
 import SEO from '../components/SEO/SEO';
+import ErrorBoundary from '../components/ErrorBoundary';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';
 import FloatingHead from '../components/FloatingHead';
@@ -93,103 +94,80 @@ const BlogHeading = styled('h1')`
   }
 `;
 
-export default class BlogPost extends React.Component {
-  static propTypes = {
-    data: PropTypes.shape({
-      postData: PropTypes.any,
-      image: PropTypes.any,
-      offer: PropTypes.any,
-      popoverImages: PropTypes.any,
-    }).isRequired,
-    pageContext: PropTypes.shape({
-      slug: PropTypes.string.isRequired,
-    }).isRequired,
-  };
+export default ({ data: { post, offer, image } }) => {
+  if (
+    !offer ||
+    !offer.childMarkdownRemark ||
+    !offer.childMarkdownRemark.frontmatter
+  ) {
+    throw Error(`Missing offer details for ${post.frontmatter.slug}`);
+  }
 
-  render() {
-    const {
-      data: { postData, image, offer, popoverImages },
-    } = this.props;
-    const postID = postData.internal.contentDigest;
+  const {
+    childMarkdownRemark: {
+      html,
+      frontmatter: { popover, button, link },
+    },
+  } = offer;
 
-    const postImage =
-      image && image.seo && image.seo.fluid && image.seo.fluid.src;
-    if (!postImage) {
-      throw Error(`Missing image for ${this.props.pageContext.slug}`);
-    }
-
-    return [
+  return (
+    <React.Fragment>
       <SEO
-        key={`seo-${postID}`}
-        postImage={postImage}
-        postData={postData}
+        frontmatter={post.frontmatter}
+        postImage={image.seo.fluid.src}
         isBlogPost
-      />,
+      />
       <WithPopover
-        key={`layout-${postID}`}
-        heading={offer.childMarkdownRemark.frontmatter.popover.heading}
-        imageArr={popoverImages.edges}
-        benefits={offer.childMarkdownRemark.frontmatter.popover.benefits}
-        button={offer.childMarkdownRemark.frontmatter.popover.button}
-        group={offer.childMarkdownRemark.frontmatter.popover.group}
-        source={`/${postData.childMarkdownRemark.frontmatter.slug}/`}
+        heading={popover.heading}
+        benefits={popover.benefits}
+        button={popover.button}
+        group={popover.group}
+        source={`/${post.frontmatter.slug}/`}
         render={() => (
-          <BlogLayout
-            title={getTitle(postData.childMarkdownRemark.frontmatter)}
-          >
+          <BlogLayout title={getTitle(post.frontmatter)}>
             <Blog>
               <Header>
-                <BlogHeading>
-                  {postData.childMarkdownRemark.frontmatter.title}
-                </BlogHeading>
+                <BlogHeading>{post.frontmatter.title}</BlogHeading>
               </Header>
               <Meta
                 thumb={image.thumb}
-                categories={postData.childMarkdownRemark.frontmatter.category}
-                tags={postData.childMarkdownRemark.frontmatter.tag}
+                categories={post.frontmatter.category}
+                tags={post.frontmatter.tag}
               />
               <Content
                 render={() => (
-                  <section
-                    dangerouslySetInnerHTML={{
-                      __html: postData.childMarkdownRemark.html,
-                    }}
-                  />
+                  <section>
+                    <MDXRenderer>{post.code.body}</MDXRenderer>
+                  </section>
                 )}
               />
-              <CallToAction
-                content={offer.childMarkdownRemark.html}
-                button={offer.childMarkdownRemark.frontmatter.button}
-                link={offer.childMarkdownRemark.frontmatter.link}
-              />
+              <CallToAction content={html} button={button} link={link} />
               <Author />
             </Blog>
           </BlogLayout>
         )}
-      />,
-    ];
-  }
-}
+      />
+    </React.Fragment>
+  );
+};
 
 export const pageQuery = graphql`
-  query($imageRegex: String!, $offer: String!, $relativePath: String!) {
-    postData: file(relativePath: { eq: $relativePath }) {
-      internal {
-        contentDigest
+  query($slug: String!, $imageRegex: String!, $offer: String!) {
+    post: mdx(frontmatter: { slug: { eq: $slug } }) {
+      code {
+        scope
+        body
       }
-      childMarkdownRemark {
-        html
-        frontmatter {
-          title
-          description
-          category
-          tag
-          datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
-          images
-          seo_title
-          slug
-          cta
-        }
+      frontmatter {
+        title
+        description
+        category
+        tag
+        datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
+        images
+        seo_title
+        slug
+        cta
       }
     }
     offer: file(relativePath: { regex: $offer }) {
@@ -216,20 +194,6 @@ export const pageQuery = graphql`
       thumb: childImageSharp {
         fluid(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
           ...GatsbyImageSharpFluid_withWebp_tracedSVG
-        }
-      }
-    }
-    popoverImages: allFile(
-      filter: { relativePath: { regex: "/images/popover/" } }
-    ) {
-      edges {
-        node {
-          name
-          childImageSharp {
-            fluid(maxWidth: 660, traceSVG: { color: "#e7e3e8" }) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
         }
       }
     }
