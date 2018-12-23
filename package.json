@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.0.0",
-    "@mdx-js/mdx": "0.15",
-    "@mdx-js/tag": "0.15",
+    "@mdx-js/mdx": "^0.16.6",
+    "@mdx-js/tag": "^0.16.6",
     "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "emotion": "^9.2.10",
