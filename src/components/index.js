@@ -2,6 +2,7 @@ export Beard from '../images/jason-lengstorf-beard.svg';
 export BeardImage from './BeardImage';
 export Button from './Button';
 export ErrorMessage from './ErrorMessage';
+export SpeakingEvents from './Speaking/Events';
 export Figure from './Figure';
 export HeroBenefits from './HeroBenefits';
 export HeroButton from './HeroButton';

@@ -1,3 +1,7 @@
+const dotenv = require('dotenv');
+
+dotenv.config();
+
 module.exports = {
   siteMetadata: {
     title: 'Jason Lengstorf · There’s more to life than hustle & grind.',
@@ -154,5 +158,24 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-source-airtable',
+      options: {
+        apiKey: process.env.AIRTABLE_API_KEY,
+        tables: [
+          {
+            baseId: 'appWQnWirwnRTSkHa',
+            tableName: 'Events',
+            tableView: 'Accepted',
+            tableLinks: ['Accepted Talk(s)'],
+          },
+          {
+            baseId: 'appWQnWirwnRTSkHa',
+            tableName: 'Talks',
+            tableView: 'Grid view',
+          }
+        ]
+      }
+    }
   ],
 };
