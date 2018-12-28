@@ -8,6 +8,7 @@ export default ({
   alt,
   border = true,
   caption,
+  className = false,
   creditType = 'Credit',
   creditLink = null,
   credit,
@@ -49,9 +50,10 @@ export default ({
 
       return (
         <figure
-          className={`figure figure--${align} ${
-            border ? '' : 'figure--no-border'
-          }`}
+          className={
+            className ||
+            `figure figure--${align} ${border ? '' : 'figure--no-border'}`
+          }
         >
           {imgData && imgData.fluid ? (
             <Image fluid={imgData.fluid} alt={alt} />
