@@ -1,10 +1,8 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-mdx/mdx-renderer';
 import styled from 'react-emotion';
 import SEO from '../components/SEO/SEO';
-import ErrorBoundary from '../components/ErrorBoundary';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';
 import FloatingHead from '../components/FloatingHead';
