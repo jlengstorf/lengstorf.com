@@ -178,8 +178,15 @@ class OptIn extends React.Component {
           },
           crossDomain: true,
         })
-        .then(({ redirect }) => {
-          window.location.href = redirect;
+        .then(response => {
+          const { redirect } = response;
+
+          if (redirect) {
+            window.location.href = redirect;
+          } else {
+            console.log(response);
+            window.location.href = 'https://lengstorf.com/confirm';
+          }
         });
     }
   };
