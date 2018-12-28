@@ -1259,6 +1259,15 @@ after@0.8.2:
   resolved "https://registry.yarnpkg.com/after/-/after-0.8.2.tgz#fedb394f9f0e02aa9768e702bda23b505fae7e1f"
   integrity sha1-/ts5T58OAqqXaOcCvaI7UF+ufh8=
 
+airtable@^0.5.6:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/airtable/-/airtable-0.5.8.tgz#85fafddf8492b6d6071bc0097c57898e2e6466b8"
+  integrity sha512-ftIqOYH8Abg5+d/NleTBnIqSdc8tAS2czRF7Z1sre1rpGsQKTKC50MsiEPqKig/H7m7nKqxbEtrPzSsneAuZRQ==
+  dependencies:
+    lodash "4.17.10"
+    request "2.88.0"
+    xhr "2.3.3"
+
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
@@ -4865,6 +4874,11 @@ dotenv@^4.0.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
   integrity sha1-hk7xN5rO1Vzm+V3r7NzhefegzR0=
 
+dotenv@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
+  integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
+
 download@^6.2.2:
   version "6.2.5"
   resolved "https://registry.yarnpkg.com/download/-/download-6.2.5.tgz#acd6a542e4cd0bb42ca70cfc98c9e43b07039714"
@@ -6616,6 +6630,13 @@ gatsby-remark-smartypants@^2.0.5:
     retext "^5.0.0"
     retext-smartypants "^3.0.0"
     unist-util-visit "^1.3.0"
+
+gatsby-source-airtable@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-source-airtable/-/gatsby-source-airtable-2.0.2.tgz#8d7456c23176ec53fcbd07c9f1e7a76e0e248c2d"
+  integrity sha512-xgrIjpON8pKAwUOeDxlJGpcx23mEZWl9WMMdvcPejRxB6spvi92KATt6qZBKB1yHrLQwlsnGyOi3xogkcgRgCw==
+  dependencies:
+    airtable "^0.5.6"
 
 gatsby-source-filesystem@^2.0.5:
   version "2.0.12"
@@ -9692,6 +9713,11 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
+lodash@4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+  integrity sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
+
 lodash@^4.11.1, lodash@^4.11.2, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.5.1:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
@@ -12367,6 +12393,11 @@ react-hot-loader@^4.6.2:
     shallowequal "^1.0.2"
     source-map "^0.7.3"
 
+react-icons@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.2.2.tgz#7b1dc795004a119a35175e62ecef91e5c9c90962"
+  integrity sha512-0DiXTcECUNoMvze2zcFwYYrHAFgQ2rBM0+HIHfaECKRfE1NZYwfuUSbwyg9s1uVPuy7o/KqQKSwBGMWQFvdrhQ==
+
 react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
@@ -13089,7 +13120,7 @@ replace-ext@1.0.0, replace-ext@^1.0.0:
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
-"request@>= 2.44.0 < 3.0.0", request@^2.65.0, request@^2.72.0, request@^2.79.0, request@^2.83.0, request@^2.85.0:
+request@2.88.0, "request@>= 2.44.0 < 3.0.0", request@^2.65.0, request@^2.72.0, request@^2.79.0, request@^2.83.0, request@^2.85.0:
   version "2.88.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
@@ -16143,6 +16174,16 @@ xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
+
+xhr@2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/xhr/-/xhr-2.3.3.tgz#ad6b810e0917ce72b5ec704f5d41f1503b8e7524"
+  integrity sha1-rWuBDgkXznK17HBPXUHxUDuOdSQ=
+  dependencies:
+    global "~4.3.0"
+    is-function "^1.0.1"
+    parse-headers "^2.0.0"
+    xtend "^4.0.0"
 
 xhr@^2.0.1:
   version "2.5.0"
