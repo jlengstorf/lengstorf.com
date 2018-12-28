@@ -91,7 +91,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(`
     {
       posts: allFile(
-        filter: { relativePath: { glob: "posts/**/*.md" } }
+        filter: { relativePath: { glob: "posts/**/*.{md,mdx}" } }
         sort: { fields: relativePath, order: DESC }
       ) {
         edges {
@@ -101,6 +101,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 scope
               }
               frontmatter {
+                publish
                 title
                 description
                 slug
@@ -116,7 +117,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  const posts = result.data.posts.edges.map(({ node }) => node);
+  const posts = result.data.posts.edges
+    .map(({ node }) => node)
+    .filter(post => post.childMdx.frontmatter.publish !== false);
 
   posts.forEach(post => {
     if (!post.childMdx || !post.childMdx.frontmatter || !post.childMdx.frontmatter.slug) {
