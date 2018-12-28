@@ -6,6 +6,7 @@ export default ({
   align = 'center',
   src,
   alt,
+  border = true,
   caption,
   creditType = 'Credit',
   creditLink = null,
@@ -17,11 +18,12 @@ export default ({
     // think of that allows fluid images in MDX. 😱
     query={graphql`
       {
-        allFile(filter: { relativePath: { regex: "/.*.(jpg|png)$/" } }) {
+        allFile(filter: { relativePath: { regex: "/.*.(jpg|png|gif)$/" } }) {
           totalCount
           edges {
             node {
               relativePath
+              publicURL
               childImageSharp {
                 fluid(maxWidth: 400, traceSVG: { color: "#e7e3e8" }) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -34,10 +36,10 @@ export default ({
     `}
     render={data => {
       const images = data.allFile.edges.map(({ node }) => node);
-      const { childImageSharp: imgData } =
+      const { publicURL, childImageSharp: imgData } =
         images.find(img => img.relativePath.includes(src)) || {};
 
-      if (!imgData || !imgData.fluid) {
+      if ((!imgData || !imgData.fluid) && !publicURL) {
         if (process.env.NODE_ENV === 'development') {
           console.warn(`The image ${src} was not found.`);
         }
@@ -46,8 +48,16 @@ export default ({
       }
 
       return (
-        <figure className={`figure figure--${align}`}>
-          <Image fluid={imgData.fluid} alt={alt} />
+        <figure
+          className={`figure figure--${align} ${
+            border ? '' : 'figure--no-border'
+          }`}
+        >
+          {imgData && imgData.fluid ? (
+            <Image fluid={imgData.fluid} alt={alt} />
+          ) : (
+            <img src={publicURL} alt={alt} />
+          )}
           {caption && (
             <figcaption className="figure__caption">
               <span dangerouslySetInnerHTML={{ __html: caption }} />
