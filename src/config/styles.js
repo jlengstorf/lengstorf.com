@@ -310,6 +310,10 @@ export const footnotes = () => {
     .footnote-image {
       display: block;
       max-width: 100%;
+
+      img {
+        max-width: 100%;
+      }
     }
 
     .footnote-backref {
