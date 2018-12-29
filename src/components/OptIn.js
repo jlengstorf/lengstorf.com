@@ -6,6 +6,9 @@ import styled from 'react-emotion';
 import Button from './Button';
 import { animation, colors, media } from '../config/styles';
 
+const API_URL = 'https://api-lengstorf.now.sh/user';
+const API_REDIRECT = 'https://lengstorf.com/confirm';
+
 const Form = styled('form')`
   position: relative;
 
@@ -164,29 +167,24 @@ class OptIn extends React.Component {
         EMAIL: this.state.email,
         SOURCE: this.props.source,
         [this.props.group || 'DEFAULT']: '1',
-        redirect: 'https://lengstorf.com/confirm',
+        redirect: API_REDIRECT,
       };
 
       this.setState({ isSubmitting: true });
 
       // Actually submit the data.
       axios
-        .post('https://api-lengstorf.now.sh/user', formData, {
+        .post(API_URL, formData, {
           headers: {
             'Content-Type': 'application/json',
             Accept: 'application/json',
           },
           crossDomain: true,
         })
-        .then(({ data }) => {
+        .then(({ data = {} }) => {
           const { redirect } = data;
 
-          if (redirect) {
-            window.location.href = redirect;
-          } else {
-            console.log(data);
-            window.location.href = 'https://lengstorf.com/confirm';
-          }
+          window.location.href = redirect || API_REDIRECT;
         });
     }
   };
@@ -197,7 +195,7 @@ class OptIn extends React.Component {
     return (
       <Form
         className={`${this.state.isSubmitting && formSubmitting}`}
-        action="https://api-lengstorf.now.sh/user"
+        action={API_URL}
         method="post"
         onSubmit={this.handleSubmit}
       >
@@ -230,11 +228,7 @@ class OptIn extends React.Component {
         </Btn>
         <input type="hidden" name="SOURCE" value={this.props.source} />
         <input type="hidden" name="status" value="pending" />
-        <input
-          type="hidden"
-          name="redirect"
-          value="https://lengstorf.com/confirm"
-        />
+        <input type="hidden" name="redirect" value={API_REDIRECT} />
         {this.props.group && (
           <input type="hidden" name={this.props.group} value="1" />
         )}
