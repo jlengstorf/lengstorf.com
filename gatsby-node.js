@@ -1,6 +1,5 @@
 const path = require('path');
 const template = require('lodash.template');
-const componentWithMDXScope = require('gatsby-mdx/component-with-mdx-scope');
 
 const getUnique = (field, posts) =>
   posts.reduce((uniques, post) => {
@@ -133,10 +132,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: slug,
-      component: componentWithMDXScope(
-        path.resolve('src/templates/post.js'),
-        post.childMdx.code.scope,
-      ),
+      component: path.resolve('src/templates/post.js'),
       context: {
         imageRegex: `/${image}/`,
         offer: `/offers/${cta}/`,
