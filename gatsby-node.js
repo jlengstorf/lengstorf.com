@@ -1,6 +1,5 @@
 const path = require('path');
 const template = require('lodash.template');
-const componentWithMDXScope = require('gatsby-mdx/component-with-mdx-scope');
 
 const getUnique = (field, posts) =>
   posts.reduce((uniques, post) => {
