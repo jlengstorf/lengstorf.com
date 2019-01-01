@@ -6,6 +6,7 @@ import SEO from '../components/SEO/SEO';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';
 import FloatingHead from '../components/FloatingHead';
+import ContentArea from '../components/ContentArea';
 import ContentWithFootnotes from '../components/ContentWithFootnotes';
 import CTA from '../components/CTA';
 import WithPopover from '../components/WithPopover';
@@ -134,9 +135,9 @@ export default ({ data: { post, offer, image } }) => {
               />
               <Content
                 render={() => (
-                  <section>
+                  <ContentArea>
                     <MDXRenderer>{post.code.body}</MDXRenderer>
-                  </section>
+                  </ContentArea>
                 )}
               />
               <CallToAction content={html} button={button} link={link} />
