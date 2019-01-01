@@ -133,10 +133,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: slug,
-      component: componentWithMDXScope(
-        path.resolve('src/templates/post.js'),
-        post.childMdx.code.scope,
-      ),
+      component: path.resolve('src/templates/post.js'),
       context: {
         imageRegex: `/${image}/`,
         offer: `/offers/${cta}/`,
