@@ -84,7 +84,7 @@ the things I'm working on.
 
 ## I Am NOT a Phony
 
-I am not the smartest guy in the world. I don't know the most things about
+I am not the smartest person in the world. I don't know the most things about
 anything. There are much smarter people, much more experienced people, much
 better-looking people, much funnier people.
 
