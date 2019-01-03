@@ -74,6 +74,9 @@ module.exports = {
         defaultLayouts: {
           default: require.resolve('./src/templates/page.js')
         },
+        globalScope: `
+          import { Figure } from '$components';
+        `,
         gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-images',
