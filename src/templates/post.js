@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-mdx/mdx-renderer';
 import styled from 'react-emotion';
@@ -109,6 +109,9 @@ export default ({ data: { post, offer, image } }) => {
     },
   } = offer;
 
+  // Prevent rerenders when footnotes/popovers change.
+  const content = useMemo(() => <MDXRenderer>{post.code.body}</MDXRenderer>);
+
   return (
     <React.Fragment>
       <SEO
@@ -133,13 +136,7 @@ export default ({ data: { post, offer, image } }) => {
                 categories={post.frontmatter.category}
                 tags={post.frontmatter.tag}
               />
-              <Content
-                render={() => (
-                  <ContentArea>
-                    <MDXRenderer>{post.code.body}</MDXRenderer>
-                  </ContentArea>
-                )}
-              />
+              <Content render={() => <ContentArea>{content}</ContentArea>} />
               <CallToAction content={html} button={button} link={link} />
               <Author />
             </Blog>
