@@ -160,7 +160,12 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        globIgnores: ['**/*.pdf'],
+      }
+    },
     {
       resolve: 'gatsby-source-airtable',
       options: {
