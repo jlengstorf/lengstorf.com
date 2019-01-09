@@ -163,7 +163,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-        exclude: [/downloads\//],
+        globIgnores: ['**/*.pdf'],
       }
     },
     {
