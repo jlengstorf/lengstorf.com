@@ -2,18 +2,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
-import { injectGlobal } from 'emotion';
 import { Transition } from 'react-transition-group';
 import Img from 'gatsby-image';
-import crypto from 'crypto';
 import OptIn from './OptIn';
 import { animation, colors, media } from '../config/styles';
-
-const getBenefitHash = benefit =>
-  crypto
-    .createHash('md5')
-    .update(benefit)
-    .digest('hex');
 
 const transitionStyles = {
   entering: { opacity: 0 },
@@ -34,20 +26,6 @@ const handleEnter = (hideClass, inputSelector) => node => {
 
 const handleExited = hideClass => node => node.classList.add(hideClass);
 
-// TODO fix hidden class thing
-injectGlobal`
-  .js--overlay-hidden {
-    display: none;
-    height: 0;
-    left: -1;
-    pointer-events: none;
-    position: absolute;
-    top: -1;
-    width: 0;
-    z-index: -1;
-  }
-`;
-
 const Overlay = styled('div')`
   align-items: center;
   background: ${colors.lightestAlpha};
@@ -63,11 +41,23 @@ const Overlay = styled('div')`
   transition: opacity ${animation.transitionTime} linear;
   width: 100vw;
   z-index: 1000;
+
+  &.js--overlay-hidden {
+    display: none;
+    height: 0;
+    left: -1;
+    pointer-events: none;
+    position: absolute;
+    top: -1;
+    width: 0;
+    z-index: -1;
+  }
 `;
 
 const PopoverContainer = styled('div')`
   margin: 2rem 0;
   max-width: 90%;
+  pointer-events: all;
   width: 65ch;
 
   @supports (display: grid) {
@@ -212,7 +202,7 @@ const Popover = ({
               <ul>
                 {benefits.map(benefit => (
                   <li
-                    key={`benefit-${getBenefitHash(benefit)}`}
+                    key={`benefit-${benefit}`}
                     dangerouslySetInnerHTML={{ __html: benefit }}
                   />
                 ))}
