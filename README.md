@@ -1,4 +1,4 @@
-# This Is My Personal Site — lengstorf.com
+# This Is My Personal Site — [lengstorf.com](https://lengstorf.com)
 
 This is a [Gatsby](https://www.gatsbyjs.org)-powered site where I talk about the things that I'm doing to try and live the best life I can, both professionally and personally.
 
