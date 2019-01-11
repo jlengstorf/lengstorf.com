@@ -1,7 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 import axios from 'axios';
-import { css } from 'emotion';
 import styled from 'react-emotion';
 import Button from './Button';
 import { animation, colors, media } from '../config/styles';
@@ -12,6 +10,29 @@ const API_REDIRECT = 'https://lengstorf.com/confirm';
 const Form = styled('form')`
   position: relative;
 
+  &.submitting {
+    ::before,
+    ::after {
+      content: '';
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      top: calc(50% - 0.5rem);
+      left: calc(50% - 1rem);
+      background-color: var(${colors.purple});
+      border-radius: 50%;
+      transform: scale(0.1);
+      animation-name: radar;
+      animation-duration: 1200ms;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+    }
+
+    ::after {
+      animation-delay: 600ms;
+    }
+  }
+
   @supports (display: grid) {
     display: grid;
     grid-column-gap: 1rem;
@@ -20,29 +41,6 @@ const Form = styled('form')`
     @media ${media.medium} {
       grid-template-columns: repeat(2, auto) 140px;
     }
-  }
-`;
-
-const formSubmitting = css`
-  ::before,
-  ::after {
-    content: '';
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    top: calc(50% - 0.5rem);
-    left: calc(50% - 1rem);
-    background-color: var(--color-purple);
-    border-radius: 50%;
-    transform: scale(0.1);
-    animation-name: radar;
-    animation-duration: 1200ms;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-  }
-
-  ::after {
-    animation-delay: 600ms;
   }
 `;
 
@@ -107,10 +105,14 @@ const Input = styled('input')`
 `;
 
 const FormButton = styled(Button)`
-  /* border-radius: 0.25rem; */
   margin-top: 1rem;
   max-width: 300px;
   padding: 0.25rem 0.5rem 0.125rem;
+
+  :disabled {
+    background-color: ${colors.gray};
+    opacity: 0.5;
+  }
 
   @supports (display: grid) {
     grid-column: span 2;
@@ -123,118 +125,96 @@ const FormButton = styled(Button)`
   }
 `;
 
-class OptIn extends React.Component {
-  static propTypes = {
-    button: PropTypes.string,
-    source: PropTypes.string,
-    group: PropTypes.string,
-  };
+const useForm = ({ source, group = 'DEFAULT' }) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [values, setFormValues] = useState({ FNAME: '', EMAIL: '' });
 
-  static defaultProps = {
-    button: 'Get It Now',
-    source:
-      typeof window !== 'undefined'
-        ? window.location.pathname.replace(/\//g, '')
-        : '',
-    group: null,
-  };
-
-  state = {
-    fname: '',
-    email: '',
-    isSubmitting: false,
-  };
-
-  updateValue = event => {
+  const updateValue = event => {
     const { id, value } = event.target;
-    this.setState({ [id]: value });
+
+    setFormValues(state => ({ ...state, [id]: value }));
   };
 
-  handleSubmit = event => {
-    if (typeof window !== 'undefined') {
-      event.preventDefault();
-
-      // Log the submit event.
-      if (typeof window.logEvent === 'function') {
-        window.logEvent('submit form', {
-          group: this.props.group,
-          source: this.props.source,
-        });
-      }
-
-      const formData = {
-        FNAME: this.state.fname,
-        EMAIL: this.state.email,
-        SOURCE: this.props.source,
-        [this.props.group || 'DEFAULT']: '1',
-        redirect: API_REDIRECT,
-      };
-
-      this.setState({ isSubmitting: true });
-
-      // Actually submit the data.
-      axios
-        .post(API_URL, formData, {
-          headers: {
-            'Content-Type': 'application/json',
-            Accept: 'application/json',
-          },
-          crossDomain: true,
-        })
-        .then(({ data = {} }) => {
-          const { redirect } = data;
-
-          window.location.href = redirect || API_REDIRECT;
-        });
+  const handleSubmit = event => {
+    if (typeof window === 'undefined') {
+      return;
     }
+
+    event.preventDefault();
+    setIsSubmitting(true);
+
+    const formData = {
+      ...values,
+      [group]: '1',
+      SOURCE: source,
+      redirect: API_REDIRECT,
+    };
+
+    axios
+      .post(API_URL, formData, {
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        crossDomain: true,
+      })
+      .then(() => {
+        // Redirect to the confirmation page.
+        window.location.href = API_REDIRECT;
+      });
   };
 
-  render() {
-    const Btn = FormButton.withComponent('button');
+  return [{ values, isSubmitting }, { updateValue, handleSubmit }];
+};
 
-    return (
-      <Form
-        className={`${this.state.isSubmitting && formSubmitting}`}
-        action={API_URL}
-        method="post"
-        onSubmit={this.handleSubmit}
-      >
-        <Label htmlFor="fname">
-          <Input
-            type="text"
-            id="fname"
-            name="FNAME"
-            onChange={this.updateValue}
-            value={this.state.fname}
-            required
-            disabled={this.state.isSubmitting}
-          />
-          <LabelText>First Name</LabelText>
-        </Label>
-        <Label htmlFor="email">
-          <Input
-            type="email"
-            id="email"
-            name="EMAIL"
-            onChange={this.updateValue}
-            value={this.state.email}
-            required
-            disabled={this.state.isSubmitting}
-          />
-          <LabelText>Email Address</LabelText>
-        </Label>
-        <Btn type="submit" name="subscribe" disabled={this.state.isSubmitting}>
-          {this.props.button}
-        </Btn>
-        <input type="hidden" name="SOURCE" value={this.props.source} />
-        <input type="hidden" name="status" value="pending" />
-        <input type="hidden" name="redirect" value={API_REDIRECT} />
-        {this.props.group && (
-          <input type="hidden" name={this.props.group} value="1" />
-        )}
-      </Form>
-    );
-  }
-}
+const OptIn = ({ source, button = 'Get It Now', group = 'DEFAULT' }) => {
+  const [{ values, isSubmitting }, { updateValue, handleSubmit }] = useForm({
+    source,
+    group,
+  });
+
+  const Btn = FormButton.withComponent('button');
+
+  return (
+    <Form
+      className={isSubmitting ? 'submitting' : ''}
+      action={API_URL}
+      method="post"
+      onSubmit={handleSubmit}
+    >
+      <Label htmlFor="FNAME">
+        <Input
+          id="FNAME"
+          name="FNAME"
+          type="text"
+          value={values.FNAME}
+          onChange={updateValue}
+          disabled={isSubmitting}
+          required
+        />
+        <LabelText>First Name</LabelText>
+      </Label>
+      <Label htmlFor="EMAIL">
+        <Input
+          id="EMAIL"
+          name="EMAIL"
+          type="email"
+          value={values.EMAIL}
+          onChange={updateValue}
+          disabled={isSubmitting}
+          required
+        />
+        <LabelText>Email</LabelText>
+      </Label>
+      <Btn type="submit" name="subscribe" disabled={isSubmitting}>
+        {isSubmitting ? 'Sending...' : button}
+      </Btn>
+      <input type="hidden" name="SOURCE" value={source} />
+      <input type="hidden" name="status" value="pending" />
+      <input type="hidden" name="redirect" value={API_REDIRECT} />
+      <input type="hidden" name={group} value="1" />
+    </Form>
+  );
+};
 
 export default OptIn;
