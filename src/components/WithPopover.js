@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Popover from './Popover';
 import { graphql, StaticQuery } from 'gatsby';
+import Popover from './Popover';
 
 const getPopoverImage = (group, images) =>
   images.find(({ node }) => node.name.match(group.toLowerCase())).node;
