@@ -60,9 +60,11 @@ export default ({
           ) : (
             <img src={publicURL} alt={alt} />
           )}
-          {caption && (
+          {(caption || credit) && (
             <figcaption className="figure__caption">
-              <span dangerouslySetInnerHTML={{ __html: caption }} />
+              {caption && (
+                <span dangerouslySetInnerHTML={{ __html: caption }} />
+              )}
               {credit && (
                 <small className="figure__attribution">
                   {creditType}:
