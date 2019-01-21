@@ -134,13 +134,10 @@ export const typography = () => {
     }
 
     h3,
-    h6 {
-      font-weight: 600;
-    }
-
     h4,
-    h5 {
-      font-weight: normal;
+    h5,
+    h6 {
+      font-weight: 700;
     }
 
     ol,
@@ -179,8 +176,9 @@ export const typography = () => {
 
     /* Footnotes are auto-generated, so a little bit of nonsense is required. */
     sup {
-      margin: 0 0.125em;
+      margin: 0 0.25em;
       line-height: 1;
+      vertical-align: baseline;
     }
 
     blockquote {
@@ -278,19 +276,27 @@ export const footnotes = () => {
   injectGlobal`
     .footnote-ref {
       display: inline-block;
-      height: 14px;
-      width: 14px;
+      height: 1em;
+      width: 1em;
       background-color: ${colors.gray};
       border: 0;
       border-radius: 50%;
+      box-sizing: content-box;
       color: ${colors.lightest};
-      font-size: 9px;
+      font-size: 12px;
       font-style: normal;
       font-weight: 500;
-      line-height: 14px;
+      line-height: 1;
+      padding: 0.25em;
+      position: relative;
       text-align: center;
       text-decoration: none;
+      top: -0.125em;
       transition: background-color ${animation.transitionTime} linear;
+
+      @media ${media.medium} {
+        top: -0.2em;
+      }
 
       &:hover,
       &:active,
@@ -449,22 +455,6 @@ export const social = () => {
     @media (max-width: 550px) {
       .twitter-tweet-rendered {
         width: 100% !important;
-      }
-    }
-
-    .tweetable__link {
-      display: block;
-      margin-top: 0;
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-align: right;
-      text-decoration: none;
-      text-transform: uppercase;
-
-      :hover,
-      :active,
-      :focus {
-        text-decoration: underline;
       }
     }
 `;

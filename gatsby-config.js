@@ -75,7 +75,9 @@ module.exports = {
           default: require.resolve('./src/templates/page.js')
         },
         globalScope: `
-          import { Figure } from '$components';
+          import { Figure, Tweetable } from '$components';
+
+          export default { Figure, Tweetable };
         `,
         gatsbyRemarkPlugins: [
           {
