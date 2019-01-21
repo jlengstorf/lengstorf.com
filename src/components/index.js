@@ -18,4 +18,5 @@ export OptIn from './OptIn';
 export OptInNotice from './OptInNotice';
 export SEO from './SEO/SEO';
 export Subheading from './Subheading';
+export Tweetable from './Tweetable';
 export WithPopover from './WithPopover';
