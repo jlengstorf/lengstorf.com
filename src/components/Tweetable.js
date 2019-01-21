@@ -1,3 +1,4 @@
+import 'url-search-params-polyfill';
 import React from 'react';
 import { Location } from '@reach/router';
 import styled from 'react-emotion';

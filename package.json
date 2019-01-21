@@ -51,6 +51,7 @@
     "react-transition-group": "^2.2.1",
     "remark-numbered-footnotes": "^1.0.1",
     "retext": "^6.0.1",
+    "url-search-params-polyfill": "^5.0.0",
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
