@@ -4,6 +4,7 @@ import styled from 'react-emotion';
 import { Link } from 'gatsby';
 import logo from '../images/jl-logo.svg';
 import { animation, colors, fonts, media } from '../config/styles';
+import Search from './Search';
 
 const Header = styled('header')`
   background-color: ${colors.lightest};
@@ -201,6 +202,7 @@ export default () => (
           {label}
         </NavLink>
       ))}
+      <Search />
     </Nav>
   </Header>
 );

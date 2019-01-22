@@ -2,6 +2,62 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+const buildAlgoliaSearchIndex = process.env.BUILD_ALGOLIA_INDEX
+  ? [
+    {
+      resolve: 'gatsby-plugin-algolia',
+      options: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        queries: [
+          {
+            query: `
+              {
+                allMdx(filter: {frontmatter: {slug: {ne: null}}}) {
+                  edges {
+                    node {
+                      frontmatter {
+                        slug
+                        title
+                        seo_title
+                        description
+                        images
+                      }
+                      rawBody
+                    }
+                  }
+                }
+              }
+            `,
+            transformer: ({ data }) =>
+              data.allMdx.edges.reduce((records, { node }) => {
+                const {
+                  slug,
+                  title,
+                  seo_title: alt,
+                  description,
+                } = node.frontmatter;
+
+                const base = { slug, title, alt, description };
+                const chunks = node.rawBody.split('\n\n');
+
+                return [
+                  ...records,
+                  ...chunks.map((text, index) => ({
+                    ...base,
+                    objectID: `${slug}-${index}`,
+                    text,
+                  })),
+                ];
+              }, []),
+          }
+        ]
+      }
+    }
+  ]
+  : [];
+
 module.exports = {
   siteMetadata: {
     title: 'Jason Lengstorf · There’s more to life than hustle & grind.',
@@ -188,6 +244,7 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    ...buildAlgoliaSearchIndex,
   ],
 };
