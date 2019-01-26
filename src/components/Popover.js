@@ -1,58 +1,11 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'react-emotion';
-import { Transition } from 'react-transition-group';
+import styled from '@emotion/styled';
 import Img from 'gatsby-image';
+import Overlay from './Overlay/Overlay';
 import OptIn from './OptIn';
-import { animation, colors, media } from '../config/styles';
-
-const transitionStyles = {
-  entering: { opacity: 0 },
-  entered: { opacity: 1 },
-};
-
-const handleOnDirectClick = handlerFn => event => {
-  if (event.target.classList.contains('js--overlay')) {
-    event.preventDefault();
-    handlerFn();
-  }
-};
-
-const handleEnter = (hideClass, inputSelector) => node => {
-  node.classList.remove(hideClass);
-  document.querySelector(inputSelector).focus();
-};
-
-const handleExited = hideClass => node => node.classList.add(hideClass);
-
-const Overlay = styled('div')`
-  align-items: center;
-  background: ${colors.lightestAlpha};
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  left: 0;
-  margin: 0;
-  opacity: 0;
-  overflow-y: auto;
-  position: fixed;
-  top: 0;
-  transition: opacity ${animation.transitionTime} linear;
-  width: 100vw;
-  z-index: 1000;
-
-  &.js--overlay-hidden {
-    display: none;
-    height: 0;
-    left: -1;
-    pointer-events: none;
-    position: absolute;
-    top: -1;
-    width: 0;
-    z-index: -1;
-  }
-`;
+import { colors, media } from '../config/styles';
 
 const PopoverContainer = styled('div')`
   margin: 2rem 0;
@@ -145,27 +98,6 @@ const OptInNotice = styled('p')`
   text-align: center;
 `;
 
-const CloseButton = styled('button')`
-  background: transparent;
-  border: none;
-  color: ${colors.gray};
-  cursor: pointer;
-  font-size: 0.75rem;
-  font-weight: lighter;
-  letter-spacing: 0.1em;
-  margin: 0;
-  position: absolute;
-  text-transform: uppercase;
-  top: 0.5rem;
-  right: 0.5rem;
-
-  ::after {
-    content: '×';
-    font-size: 115%;
-    margin-left: 4px;
-  }
-`;
-
 const Popover = ({
   visible,
   closeFn,
@@ -176,51 +108,35 @@ const Popover = ({
   group,
   source,
 }) => (
-  <Transition
-    in={visible}
-    timeout={150}
-    onEnter={handleEnter('js--overlay-hidden', '.js--form-wrap input')}
-    onExited={handleExited('js--overlay-hidden')}
+  <Overlay
+    onEntered={() => document.querySelector(`${FormWrap} input`).focus()}
+    hidePopover={closeFn}
+    visible={visible}
   >
-    {state => (
-      // Adding a “click the background to close” functionality as a convenience
-      // to mouse users. The close button is available for screen reader and
-      // keyboard users, so I’m ignoring these a11y linter rules.
-      // eslint-disable-next-line jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events
-      <Overlay
-        className="js--overlay-hidden js--overlay"
-        style={transitionStyles[state]}
-        onClick={handleOnDirectClick(closeFn)}
-      >
-        <PopoverContainer>
-          <ImageWrap>
-            <Image fluid={image.childImageSharp.fluid} alt="" />
-          </ImageWrap>
-          <TextWrap>
-            <Heading>{heading}</Heading>
-            <div className="popover__text">
-              <ul>
-                {benefits.map(benefit => (
-                  <li
-                    key={`benefit-${benefit}`}
-                    dangerouslySetInnerHTML={{ __html: benefit }}
-                  />
-                ))}
-              </ul>
-            </div>
-          </TextWrap>
-          <FormWrap className="js--form-wrap">
-            <OptIn button={button} group={group} source={source} />
-            <OptInNotice>
-              Note: I will never share your email or spam you with nonsense.
-              Because I’m not a dick.
-            </OptInNotice>
-          </FormWrap>
-        </PopoverContainer>
-        <CloseButton onClick={closeFn}>close</CloseButton>
-      </Overlay>
-    )}
-  </Transition>
+    <PopoverContainer>
+      <ImageWrap>
+        <Image fluid={image.childImageSharp.fluid} alt="" />
+      </ImageWrap>
+      <TextWrap>
+        <Heading>{heading}</Heading>
+        <ul>
+          {benefits.map(benefit => (
+            <li
+              key={`benefit-${benefit}`}
+              dangerouslySetInnerHTML={{ __html: benefit }}
+            />
+          ))}
+        </ul>
+      </TextWrap>
+      <FormWrap>
+        <OptIn button={button} group={group} source={source} />
+        <OptInNotice>
+          Note: I will never share your email or spam you with nonsense. Because
+          I’m not a dick.
+        </OptInNotice>
+      </FormWrap>
+    </PopoverContainer>
+  </Overlay>
 );
 
 Popover.propTypes = {
