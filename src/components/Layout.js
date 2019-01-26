@@ -5,23 +5,14 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import {
-  buttons,
-  footnotes,
-  images,
-  reset,
-  social,
-  typography,
-  utilities,
+  Buttons,
+  Footnotes,
+  Images,
+  Reset,
+  Social,
+  Typography,
+  Utilities,
 } from '../config/styles';
-
-// Inject global styles.
-reset();
-typography();
-buttons();
-footnotes();
-images();
-social();
-utilities();
 
 export default ({ children, title, className = '' }) => [
   <Helmet
@@ -49,6 +40,13 @@ export default ({ children, title, className = '' }) => [
     {/* Hosted webfonts because I can’t self-host Mallory 😭 */}
     <link rel="stylesheet" href="https://use.typekit.net/fnr1orp.css" />
   </Helmet>,
+  <Reset key="global-styles-reset" />,
+  <Typography key="global-styles-typography" />,
+  <Buttons key="global-styles-buttons" />,
+  <Footnotes key="global-styles-footnotes" />,
+  <Images key="global-styles-images" />,
+  <Social key="global-styles-social" />,
+  <Utilities key="global-styles-utilities" />,
   <Header key="app-header" />,
   <Main key="app-main" className={className}>
     {children}

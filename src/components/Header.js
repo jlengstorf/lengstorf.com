@@ -1,6 +1,5 @@
 import React from 'react';
-import { css } from 'emotion';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 import logo from '../images/jl-logo.svg';
 import { animation, colors, fonts, media } from '../config/styles';
@@ -56,10 +55,15 @@ const SkipToContent = styled('a')`
 
 const Nav = styled('nav')`
   display: flex;
+  font-size: 0.875rem;
   justify-content: flex-start;
   margin: 0;
   position: relative;
   z-index: 5;
+
+  @media ${media.small} {
+    font-size: 1rem;
+  }
 `;
 
 const NavLink = styled(Link)`
@@ -74,6 +78,18 @@ const NavLink = styled(Link)`
   text-decoration: none;
   text-transform: uppercase;
   transition-property: color;
+
+  &.active {
+    color: ${colors.purple};
+  }
+
+  &.hiddenSmall {
+    display: none;
+
+    @media (min-width: 414px) {
+      display: inline-block;
+    }
+  }
 
   @media ${media.small} {
     padding-left: 0.625rem;
@@ -141,19 +157,6 @@ const Logo = styled('img')`
   z-index: 2;
 `;
 
-// Helper classes.
-const activeClass = css`
-  color: ${colors.purple};
-`;
-
-const hiddenSmall = css`
-  display: none;
-
-  @media (min-width: 414px) {
-    display: inline-block;
-  }
-`;
-
 const topLevelNav = [
   {
     href: '/blog',
@@ -166,7 +169,7 @@ const topLevelNav = [
   {
     href: '/speaking',
     label: 'Speaking',
-    extraClass: hiddenSmall,
+    extraClass: 'hiddenSmall',
   },
   {
     href: '/newsletter',
@@ -197,7 +200,7 @@ export default () => (
           key={label}
           to={href}
           className={`${extraClass} text-sharp`}
-          activeClassName={activeClass}
+          activeClassName="active"
         >
           {label}
         </NavLink>

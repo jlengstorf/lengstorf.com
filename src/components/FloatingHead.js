@@ -1,7 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import Img from 'gatsby-image';
 import { colors, media } from '../config/styles';
 import { graphql, StaticQuery } from 'gatsby';

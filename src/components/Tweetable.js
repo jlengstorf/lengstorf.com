@@ -1,7 +1,7 @@
 import 'url-search-params-polyfill';
 import React from 'react';
 import { Location } from '@reach/router';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { FaTwitter } from 'react-icons/fa';
 import { colors, fonts } from '../config/styles';
 

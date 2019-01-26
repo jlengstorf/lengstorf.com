@@ -1,6 +1,5 @@
 import React from 'react';
-import { css } from 'emotion';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 import { colors, media } from '../config/styles';
 
@@ -17,15 +16,11 @@ const Footer = styled('footer')`
   }
 `;
 
-const footerTextStyles = css`
+const Copyright = styled('span')`
   color: ${colors.textLight};
   display: inline-block;
   margin: 0 0.25rem;
   padding: 0.25rem;
-`;
-
-const Copyright = styled('span')`
-  ${footerTextStyles};
   display: block;
   margin-top: 0.5rem;
 
@@ -42,7 +37,10 @@ const Copyright = styled('span')`
 `;
 
 const FooterLink = styled(Link)`
-  ${footerTextStyles};
+  color: ${colors.textLight};
+  display: inline-block;
+  margin: 0 0.25rem;
+  padding: 0.25rem;
   text-decoration: none;
 
   :active,

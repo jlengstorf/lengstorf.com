@@ -1,4 +1,4 @@
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { fonts } from '../config/styles';
 
 export default styled('h2')`
