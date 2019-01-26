@@ -14,7 +14,12 @@ const buildAlgoliaSearchIndex = process.env.BUILD_ALGOLIA_INDEX
           {
             query: `
               {
-                allMdx(filter: {frontmatter: {slug: {ne: null}}}) {
+                allMdx(filter: {
+                  frontmatter: {
+                    slug: {ne: null},
+                    publish: {ne: false}
+                  }
+                }) {
                   edges {
                     node {
                       frontmatter {
