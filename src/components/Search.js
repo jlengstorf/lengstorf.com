@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import algoliasearch from 'algoliasearch/lite';
 import {
   Configure,
@@ -8,28 +8,24 @@ import {
   InstantSearch,
   Highlight,
 } from 'react-instantsearch-dom';
-import { MdSearch } from 'react-icons/md';
-import { colors } from '../config/styles';
+import { FaSearch } from 'react-icons/fa';
+import Overlay from './Overlay/Overlay';
+import { colors, media } from '../config/styles';
 
 const client = algoliasearch('DXGPUQEB2T', 'f8919355b533de3d1337ad802ca61f4c');
 
 const SearchArea = styled('div')`
-  background: ${colors.lightestAlpha};
   height: 100vh;
-  left: 0;
   margin-top: 0;
   overflow-y: scroll;
   padding: 3rem 5%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 100;
+  width: 100%;
 `;
 
 const List = styled('ul')`
   list-style: none;
   margin: 0 auto;
-  max-width: 550px;
+  max-width: 650px;
   padding: 0;
 `;
 
@@ -80,22 +76,59 @@ const Hits = connectHits(({ hits }) => (
   </List>
 ));
 
-const Icon = styled(MdSearch)`
+const OpenSearch = styled('a')`
+  align-self: center;
+  border: 2px solid transparent;
   color: ${colors.heading};
+  height: 100%;
+  margin: 0;
+  padding: 0 0.625rem;
+  width: 2.375rem;
+
+  :active,
+  :focus,
+  :hover {
+    background-color: transparent;
+    color: ${colors.purpleDark};
+  }
+
+  :focus {
+    border: 2px solid ${colors.darkest};
+    border-radius: 0;
+  }
+
+  @media ${media.small} {
+    width: 2.5rem;
+  }
 `;
+
+const Icon = styled(FaSearch)`
+  height: 100%;
+  margin: 0;
+  position: relative;
+  top: -0.125em;
+`;
+
+const Label = styled('label')`
+  display: block;
+  margin: 0 auto;
+  max-width: 650px;
+`;
+
 const Input = styled('input')`
   border: 2px solid ${colors.textLight};
   border-radius: 4px;
   display: block;
-  margin: 0 auto;
-  max-width: 550px;
+  font-size: 1.25rem;
+  margin-top: 0;
+  padding: 0.5rem 0.75rem;
   width: 100%;
 `;
 
 const Search = connectSearchBox(({ currentRefinement, refine, setActive }) => (
   <form noValidate action="" role="search">
-    <label htmlFor="search">
-      <span className="screen-reader-text">Search the Blog</span>
+    <Label htmlFor="search">
+      <span>Search the Blog</span>
       <Input
         type="search"
         id="search"
@@ -110,13 +143,14 @@ const Search = connectSearchBox(({ currentRefinement, refine, setActive }) => (
           refine(event.currentTarget.value);
         }}
       />
-    </label>
+    </Label>
   </form>
 ));
 
 const SearchContainer = styled('div')`
   display: flex;
   align-items: flex-start;
+  margin-left: auto;
   margin-top: 0;
 `;
 
@@ -130,13 +164,26 @@ export default () => {
       root={{ Root: SearchContainer }}
     >
       <Configure distinct={1} />
-      <Icon onClick={() => setActive(true)} />
-      {active && (
+      <OpenSearch
+        href="/search"
+        onClick={event => {
+          event.preventDefault();
+          setActive(true);
+        }}
+      >
+        <Icon title="Search the blog" />
+      </OpenSearch>
+      <Overlay
+        hidePopover={() => {
+          setActive(false);
+        }}
+        visible={active}
+      >
         <SearchArea>
           <Search setActive={setActive} />
           <Hits />
         </SearchArea>
-      )}
+      </Overlay>
     </InstantSearch>
   );
 };
