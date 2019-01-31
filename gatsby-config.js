@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const buildAlgoliaSearchIndex = process.env.BUILD_ALGOLIA_INDEX
+const buildAlgoliaSearchIndex = process.env.BUILD_ALGOLIA_INDEX && process.env.BRANCH === 'master'
   ? [
     {
       resolve: 'gatsby-plugin-algolia',
