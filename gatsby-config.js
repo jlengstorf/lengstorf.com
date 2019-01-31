@@ -223,12 +223,15 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        globIgnores: ['**/*.pdf'],
-      }
-    },
+    // I give up.
+    'gatsby-plugin-remove-serviceworker',
+    // {
+    //   resolve: 'gatsby-plugin-offline',
+    //   options: {
+    //     globIgnores: ['**/*.pdf'],
+    //   }
+    // },
+
     {
       resolve: 'gatsby-source-airtable',
       options: {
