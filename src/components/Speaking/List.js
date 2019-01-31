@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'react-emotion';
+import styled from '@emotion/styled';
 import {
   MdDateRange,
   MdLocationOn,
@@ -70,15 +70,19 @@ const Detail = styled('span')`
   }
 `;
 
-const icon = css`
+const Icon = styled('svg')`
   display: inline-block;
   border-radius: 50%;
   font-size: 1.125rem;
   margin-right: 0.25rem;
-  /* padding: 0.25rem; */
   position: relative;
   top: 0.2rem;
 `;
+
+const RangeIcon = Icon.withComponent(MdDateRange);
+const LocationIcon = Icon.withComponent(MdLocationOn);
+const SlideshowIcon = Icon.withComponent(MdSlideshow);
+const VideoIcon = Icon.withComponent(MdVideocam);
 
 const getFormattedDate = (
   date,
@@ -145,17 +149,17 @@ export default ({ heading, events }) => (
                 {talk.type}: <a href={talk.details}>{talk.name}</a>
               </Talk>
               <Detail>
-                <MdDateRange css={icon} />
+                <RangeIcon />
                 {date}
               </Detail>
               <Detail>
-                <MdLocationOn css={icon} />
+                <LocationIcon />
                 {location}
               </Detail>
               {talk.slides && (
                 <Detail>
                   <a href={talk.slides}>
-                    <MdSlideshow css={icon} />
+                    <SlideshowIcon />
                     slides
                   </a>
                 </Detail>
@@ -163,7 +167,7 @@ export default ({ heading, events }) => (
               {talk.video && (
                 <Detail>
                   <a href={talk.video}>
-                    <MdVideocam css={icon} />
+                    <VideoIcon />
                     watch
                   </a>
                 </Detail>

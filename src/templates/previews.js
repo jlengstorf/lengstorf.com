@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, StaticQuery, graphql } from 'gatsby';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import Layout from '../components/Layout';
 import CategoryLink from '../components/CategoryLink';
 import TagLink from '../components/TagLink';

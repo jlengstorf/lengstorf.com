@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-mdx/mdx-renderer';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import SEO from '../components/SEO/SEO';
 import Layout from '../components/Layout';
 import PostMeta from '../components/PostMeta';

@@ -1,13 +1,12 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { css } from 'emotion';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { colors } from '../config/styles';
 
 const FootnoteDisplay = styled('aside')`
   position: fixed;
-  bottom: -320px;
+  bottom: ${({ isActive }) => (isActive ? 0 : '-320px')};
   left: 0;
   right: 0;
   padding: 1.5rem 1.5rem 30px;
@@ -39,10 +38,6 @@ const FootnoteDisplay = styled('aside')`
       transparent 100%
     );
   }
-`;
-
-const active = css`
-  bottom: 0;
 `;
 
 const TextWrap = styled('div')`
@@ -104,7 +99,7 @@ const Close = styled('a')`
 `;
 
 const Footnotes = ({ isActive, isHidden, number, content, handleClose }) => (
-  <FootnoteDisplay hidden={isHidden} className={` ${isActive ? active : ''}`}>
+  <FootnoteDisplay hidden={isHidden} isActive={isActive}>
     <TextWrap data-footnote-number={number}>
       <Text dangerouslySetInnerHTML={{ __html: content }} />
       <Close href="#" onClick={handleClose}>
