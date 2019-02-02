@@ -95,6 +95,7 @@ exports.createPages = async ({ graphql, actions }) => {
       ) {
         edges {
           node {
+            id
             childMdx {
               code {
                 scope
@@ -132,7 +133,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: slug,
-      component: path.resolve('src/templates/post.js'),
+      component: require.resolve('./src/templates/post.js'),
       context: {
         imageRegex: `/${image}/`,
         offer: `/offers/${cta}/`,
@@ -141,7 +142,10 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   });
 
-  const paginationDefaults = { createPage, component: path.resolve('src/templates/previews.js') };
+  const paginationDefaults = {
+    createPage,
+    component: require.resolve('./src/templates/previews.js')
+  };
 
   const allPosts = posts.filter(
     post => post.childMdx.frontmatter.publish !== false,

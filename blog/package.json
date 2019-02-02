@@ -1,0 +1,22 @@
+{
+  "name": "lengstorf.com",
+  "version": "0.0.1",
+  "description": "Jason Lengstorf’s personal blog.",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "lint:js": "eslint src",
+    "lint:css": "stylelint \"src/**/*.css\"",
+    "lint": "yarn lint:js && yarn lint:css"
+  },
+  "dependencies": {
+    "gatsby": "latest",
+    "gatsby-source-airtable": "^2.0.3",
+    "gatsby-theme-jason-blog": "*",
+    "react-icons": "^3.3.0"
+  },
+  "repository": "https://github.com/jlengstorf/lengstorf.com",
+  "author": "Jason Lengstorf <jason@lengstorf.com>",
+  "license": "MIT"
+}

@@ -1,6 +1,6 @@
-const dotenv = require('dotenv');
+require('dotenv').config();
 
-dotenv.config();
+const path = require('path');
 
 const buildAlgoliaSearchIndex = process.env.BUILD_ALGOLIA_INDEX && process.env.BRANCH === 'master'
   ? [
@@ -129,6 +129,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-page-creator',
+      options: {
+        path: path.join(__dirname, 'src', 'pages'),
+      }
+    },
+    {
       resolve: 'gatsby-mdx',
       options: {
         extensions: [".mdx", ".md"],
@@ -157,7 +163,6 @@ module.exports = {
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-twitter',
-    'gatsby-plugin-instagram',
     {
       resolve: 'gatsby-plugin-amplitude-analytics',
       options: {
@@ -176,7 +181,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content`,
+        path: `content`,
         name: 'content',
       },
     },
@@ -232,27 +237,6 @@ module.exports = {
     //   }
     // },
 
-    {
-      resolve: 'gatsby-source-airtable',
-      options: {
-        apiKey: process.env.AIRTABLE_API_KEY,
-        tables: [
-          {
-            // Base: https://airtable.com/shragvnFckZYeUhvm
-            baseId: 'appWQnWirwnRTSkHa',
-            tableName: 'Events',
-            tableView: 'Accepted',
-            tableLinks: ['Accepted Talk(s)'],
-          },
-          {
-            // Base: https://airtable.com/shr5IvPfIuL0PpKZo
-            baseId: 'appWQnWirwnRTSkHa',
-            tableName: 'Talks',
-            tableView: 'Grid view',
-          }
-        ]
-      }
-    },
     ...buildAlgoliaSearchIndex,
   ],
 };

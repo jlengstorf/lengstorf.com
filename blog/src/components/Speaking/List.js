@@ -6,7 +6,11 @@ import {
   MdVideocam,
   MdSlideshow,
 } from 'react-icons/md';
-import { media, colors } from '../../config/styles';
+import theme from 'gatsby-theme-jason-blog/theme';
+
+console.log({ theme });
+
+const { media, colors } = theme;
 
 const Heading = styled('h2')`
   margin-top: 3rem;
