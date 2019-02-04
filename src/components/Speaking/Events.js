@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import List from './List';
-import Button from '../Button';
+import { Button } from 'gatsby-theme-jason-blog/components';
 
 export default () => (
   <StaticQuery
