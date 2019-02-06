@@ -13,7 +13,7 @@
     "gatsby": "^2.0.91",
     "gatsby-plugin-compile-es6-packages": "^1.0.6",
     "gatsby-source-airtable": "^2.0.2",
-    "gatsby-theme-jason-blog": "^0.1.0",
+    "gatsby-theme-jason-blog": "^0.2.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
