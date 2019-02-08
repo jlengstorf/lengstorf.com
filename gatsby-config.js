@@ -1,66 +1,65 @@
-const dotenv = require('dotenv');
+require('dotenv').config();
 
-dotenv.config();
-
-const buildAlgoliaSearchIndex = process.env.BUILD_ALGOLIA_INDEX && process.env.BRANCH === 'master'
+const buildAlgoliaSearchIndex =
+  process.env.BUILD_ALGOLIA_INDEX && process.env.BRANCH === 'master'
   ? [
-    {
-      resolve: 'gatsby-plugin-algolia',
-      options: {
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: process.env.ALGOLIA_INDEX_NAME,
-        queries: [
-          {
-            query: `
-              {
-                allMdx(filter: {
-                  frontmatter: {
-                    slug: {ne: null},
-                    publish: {ne: false}
-                  }
-                }) {
-                  edges {
-                    node {
-                      frontmatter {
-                        slug
-                        title
-                        seo_title
-                        description
-                        images
-                      }
-                      rawBody
+      {
+        resolve: 'gatsby-plugin-algolia',
+        options: {
+          appId: process.env.ALGOLIA_APP_ID,
+          apiKey: process.env.ALGOLIA_API_KEY,
+          indexName: process.env.ALGOLIA_INDEX_NAME,
+          queries: [
+            {
+              query: `
+            {
+              allMdx(filter: {
+                frontmatter: {
+                  slug: {ne: null},
+                  publish: {ne: false}
+                }
+              }) {
+                edges {
+                  node {
+                    frontmatter {
+                      slug
+                      title
+                      seo_title
+                      description
+                      images
                     }
+                    rawBody
                   }
                 }
               }
-            `,
-            transformer: ({ data }) =>
-              data.allMdx.edges.reduce((records, { node }) => {
-                const {
-                  slug,
-                  title,
-                  seo_title: alt,
-                  description,
-                } = node.frontmatter;
+            }
+          `,
+              transformer: ({ data }) =>
+                data.allMdx.edges.reduce((records, { node }) => {
+                  const {
+                    slug,
+                    title,
+                    seo_title: alt,
+                    description,
+                  } = node.frontmatter;
 
-                const base = { slug, title, alt, description };
-                const chunks = node.rawBody.split('\n\n');
+                  const base = { slug, title, alt, description };
+                  const chunks = node.rawBody.split('\n\n');
 
-                return [
-                  ...records,
-                  ...chunks.map((text, index) => ({
-                    ...base,
-                    objectID: `${slug}-${index}`,
-                    text,
-                  })),
-                ];
-              }, []),
-          }
-        ]
-      }
-    }
-  ]
+                  return [
+                    ...records,
+                    ...chunks.map((text, index) => ({
+                      ...base,
+                      objectID: `${slug}-${index}`,
+                      text,
+                    })),
+                  ];
+                }, []),
+            },
+          ],
+        },
+      },
+    ]
   : [];
 
 module.exports = {
@@ -77,11 +76,11 @@ module.exports = {
     author: {
       name: 'Jason Lengstorf',
       minibio: `
-        <strong>Jason Lengstorf</strong> is a lead developer & architect at Gatsby.
-        He’s a frequent <a href="/speaking">speaker</a>, occasional
-        <a href="https://dribbble.com/jlengstorf">designer</a>, and an advocate of
-        building better balance via efficiency. He lives in Portland, Oregon.
-      `,
+      <strong>Jason Lengstorf</strong> is a lead developer & architect at Gatsby.
+      He’s a frequent <a href="/speaking">speaker</a>, occasional
+      <a href="https://dribbble.com/jlengstorf">designer</a>, and an advocate of
+      building better balance via efficiency. He lives in Portland, Oregon.
+    `,
     },
     organization: {
       name: 'Jason Lengstorf',
@@ -127,77 +126,48 @@ module.exports = {
       },
     ],
   },
+  __experimentalThemes: [
+    'gatsby-theme-jason-blog'
+  ],
   plugins: [
+    'gatsby-plugin-instagram',
     {
-      resolve: 'gatsby-mdx',
+      resolve: 'gatsby-source-airtable',
       options: {
-        extensions: [".mdx", ".md"],
-        defaultLayouts: {
-          default: require.resolve('./src/templates/page.js')
-        },
-        globalScope: `
-          import { Figure, Tweetable } from '$components';
-
-          export default { Figure, Tweetable };
-        `,
-        gatsbyRemarkPlugins: [
+        apiKey: process.env.AIRTABLE_API_KEY,
+        tables: [
           {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1380,
-              linkImagesToOriginal: false,
-            },
+            // Base: https://airtable.com/shragvnFckZYeUhvm
+            baseId: 'appWQnWirwnRTSkHa',
+            tableName: 'Events',
+            tableView: 'Accepted',
+            tableLinks: ['Accepted Talk(s)'],
           },
-          { resolve: 'gatsby-remark-responsive-iframe' },
-          { resolve: 'gatsby-remark-copy-linked-files' },
-          { resolve: 'gatsby-remark-numbered-footnotes' },
-          { resolve: 'gatsby-remark-smartypants' },
+          {
+            // Base: https://airtable.com/shr5IvPfIuL0PpKZo
+            baseId: 'appWQnWirwnRTSkHa',
+            tableName: 'Talks',
+            tableView: 'Grid view',
+          }
         ]
       }
     },
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-twitter',
-    'gatsby-plugin-instagram',
+    {
+      resolve: 'gatsby-plugin-compile-es6-packages',
+      options: {
+        modules: ['gatsby-theme-jason-blog']
+      }
+    },
     {
       resolve: 'gatsby-plugin-amplitude-analytics',
       options: {
-        apiKey: "f8d938da6faf54d25ee934390af70e01",
+        apiKey: process.env.AMPLITUDE_API_KEY,
         head: false,
         respectDNT: true,
         amplitudeConfig: {
           includeUtm: true,
-          includeReferrer: true
-        }
-      }
-    },
-    'gatsby-plugin-catch-links',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-emotion',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content`,
-        name: 'content',
-      },
-    },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1380,
-              linkImagesToOriginal: false,
-            },
-          },
-          {
-            resolve: 'gatsby-remark-responsive-iframe',
-          },
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-numbered-footnotes',
-          'gatsby-remark-smartypants',
-        ],
+          includeReferrer: true,
+        },
       },
     },
     {
@@ -223,7 +193,7 @@ module.exports = {
         ],
       },
     },
-    // I give up.
+    // I give up. 😭
     'gatsby-plugin-remove-serviceworker',
     // {
     //   resolve: 'gatsby-plugin-offline',
@@ -232,27 +202,6 @@ module.exports = {
     //   }
     // },
 
-    {
-      resolve: 'gatsby-source-airtable',
-      options: {
-        apiKey: process.env.AIRTABLE_API_KEY,
-        tables: [
-          {
-            // Base: https://airtable.com/shragvnFckZYeUhvm
-            baseId: 'appWQnWirwnRTSkHa',
-            tableName: 'Events',
-            tableView: 'Accepted',
-            tableLinks: ['Accepted Talk(s)'],
-          },
-          {
-            // Base: https://airtable.com/shr5IvPfIuL0PpKZo
-            baseId: 'appWQnWirwnRTSkHa',
-            tableName: 'Talks',
-            tableView: 'Grid view',
-          }
-        ]
-      }
-    },
     ...buildAlgoliaSearchIndex,
-  ],
-};
+  ]
+}

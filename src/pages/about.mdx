@@ -4,8 +4,6 @@ title: About
 
 import { graphql } from 'gatsby';
 import {
-  Beard,
-  BeardImage,
   Figure,
   Heading,
   Lede,
@@ -14,6 +12,7 @@ import {
   OptInNotice,
   Subheading,
 } from '$components';
+import Beard from '../components/Beard';
 
 export const pageQuery = graphql`
   {
@@ -27,10 +26,7 @@ export const pageQuery = graphql`
   }
 `;
 
-<BeardImage
-  src={Beard}
-  alt="Silhouette of Jason Lengstorf’s glasses and beard."
-/>
+<Beard />
 
 <Heading>I’m Jason Lengstorf.</Heading>
 <Subheading>
