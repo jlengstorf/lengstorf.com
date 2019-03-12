@@ -6,7 +6,8 @@ description: >
 ---
 
 import { graphql } from 'gatsby';
-import { Button, Figure } from '$components';
+import Img from 'gatsby-image';
+import { Button, Image } from '$components';
 import SpeakingEvents from '../components/Speaking/Events';
 
 export const pageQuery = graphql`
@@ -15,6 +16,9 @@ export const pageQuery = graphql`
       childImageSharp {
         resize(width: 1300) {
           src
+        }
+        fluid(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
@@ -28,9 +32,10 @@ I’m available for speaking gigs; just [contact me](mailto:speaking@lengstorf.c
   creditLink="https://orangephotography.com/"
   credit="Orange Photography"
 >
-
-  ![Jason Lengstorf at the 2017 GraphQL Summit in San Francisco.](images/jason-lengstorf-speaking.jpg)
-
+  <Img
+    fluid={props.data.file.childImageSharp.fluid}
+    alt="Jason Lengstorf at the 2017 GraphQL Summit in San Francisco."
+  />
 </Image>
 
 Currently I’m focusing on giving presentations in the following areas:
