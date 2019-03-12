@@ -124,6 +124,16 @@ module.exports = {
         slug: 'impact',
         name: 'Creating an Impact',
       },
+
+      // Code post categories
+      {
+        slug: 'devops',
+        name: 'DevOps',
+      },
+      {
+        slug: 'front-end',
+        name: 'Front-End Development',
+      },
     ],
   },
   __experimentalThemes: [
@@ -141,7 +151,7 @@ module.exports = {
             baseId: 'appWQnWirwnRTSkHa',
             tableName: 'Events',
             tableView: 'Accepted',
-            tableLinks: ['Accepted Talk(s)'],
+            tableLinks: ['Accepted_Talk(s)'],
           },
           {
             // Base: https://airtable.com/shr5IvPfIuL0PpKZo
@@ -150,12 +160,6 @@ module.exports = {
             tableView: 'Grid view',
           }
         ]
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-compile-es6-packages',
-      options: {
-        modules: ['gatsby-theme-jason-blog']
       }
     },
     {

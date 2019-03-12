@@ -2,7 +2,21 @@
 title: Escape the office and make your living while traveling the world.
 ---
 
-import { Figure, OptIn, OptInNotice } from '$components';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { Image, OptIn, OptInNotice } from '$components';
+
+export const pageQuery = graphql`
+  query {
+    file(relativePath: { eq: "images/jason-lengstorf-in-tokyo.jpg" }) {
+      image: childImageSharp {
+        fluid(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+  }
+`;
 
 Here’s the truth: whether you’re working in a traditional office job, contracting for a big company, or doing your your own thing as a freelancer, it’s possible to live the “digital nomad”[^dn] lifestyle: **living anywhere in the world, making your own schedule, and earning money with nothing but a laptop, an internet connection, and your sexy-ass brain.**
 
@@ -31,13 +45,16 @@ Just to list the obvious benefits:
 [^wtp]:
   Shirt, no pants.
 
-<Figure
-  src="/images/jason-lengstorf-in-tokyo.jpg"
-  alt="Jason Lengstorf in Tokyo"
+<Image
   caption="Speaking of adventures: the train system in Tokyo."
   creditLink="paint with stars"
   credit="http://www.paintwithstars.com/"
-/>
+>
+  <Img
+    alt="On the train platform in Tokyo."
+    fluid={props.data.file.image.fluid}
+  />
+</Image>
 
 ## I’m Jason, and I’ve been working remotely for over a decade.
 

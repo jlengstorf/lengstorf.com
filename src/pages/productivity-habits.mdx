@@ -3,16 +3,32 @@ title: >
   Stop Wasting Time Feeling Overwhelmed and Tired. Start Doing What Matters.
 ---
 
-import { Figure, OptIn, OptInNotice } from '$components';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { Image, OptIn, OptInNotice } from '$components';
+
+export const pageQuery = graphql`
+  query {
+    file(relativePath: { eq: "images/productivity-strategy.jpg" }) {
+      image: childImageSharp {
+        fluid(maxWidth: 690, traceSVG: { color: "#e7e3e8" }) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+  }
+`;
 
 If you’re feeling stuck right now — too many tasks, too little free time, too much bullshit, and not enough of the things that matter — I have good news.
 
 With a few adjustments to the way you work, **you can free up hours of extra time _every day_ to spend on the things that really matter to you.**
 
-<Figure
-  src="images/productivity-strategy.jpg"
-  alt="Proven strategies to increase productivity."
-/>
+<Image>
+  <Img
+    alt="Proven strategies to increase productivity."
+    fluid={props.data.file.image.fluid}
+  />
+</Image>
 
 ### Proven Strategies for Getting More Done in Less Time
 
