@@ -5772,9 +5772,9 @@ gatsby-source-filesystem@^2.0.5:
     xstate "^3.1.0"
 
 gatsby-theme-jason-blog@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-jason-blog/-/gatsby-theme-jason-blog-1.0.1.tgz#1a4540d3e2228a97ec685fa92e223683062d9c1c"
-  integrity sha512-iI3tI98U4ianTlWikpDC4b5GSJuEYxMKYFkD/opj2LELoYRNpiZ0o8gTJxr7mgnamEox139cZq5iT19T/lltHg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-jason-blog/-/gatsby-theme-jason-blog-1.0.2.tgz#380de20e32159b1057775353a58631a9822b86de"
+  integrity sha512-Qv8VMbiAoZ7Pxqpco/6dRslP28e0yXbUtGpSykhrDvDgspc0mXWe6XbVQorxkJgZqhz2f3B6jdrBmETozi26ow==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "^7.0.0"
     "@emotion/core" "^10.0.6"

@@ -71,7 +71,7 @@ module.exports = {
       communication, systems, processes,  and balance. He lives in
       Portland, Oregon.
     `,
-    canonicalUrl: 'https://lengstorf.com',
+    siteUrl: 'https://lengstorf.com',
     image: 'https://lengstorf.com/images/jason-lengstorf.jpg',
     author: {
       name: 'Jason Lengstorf',
