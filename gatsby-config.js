@@ -197,15 +197,15 @@ module.exports = {
         ],
       },
     },
-    // I give up. 😭
-    'gatsby-plugin-remove-serviceworker',
-    // {
-    //   resolve: 'gatsby-plugin-offline',
-    //   options: {
-    //     globIgnores: ['**/*.pdf'],
-    //   }
-    // },
+    'gatsby-plugin-sitemap',
+
+    // I _refuse to_ give up. ✊
+    // 'gatsby-plugin-remove-serviceworker',
+    'gatsby-plugin-offline',
 
     ...buildAlgoliaSearchIndex,
+
+    // Enable HTTP/2 push for critical assets.
+    'gatsby-plugin-netlify',
   ]
 }
