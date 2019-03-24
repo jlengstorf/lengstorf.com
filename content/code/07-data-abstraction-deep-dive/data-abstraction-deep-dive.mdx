@@ -1,0 +1,356 @@
+---
+date: 2019-03-19
+
+title: >
+  Going Deeper: What Goes Into Gatsby Theme Abstractions?
+seo_title: >
+  Going Deeper: What Goes Into Gatsby Theme Abstractions?
+description: >
+  On the surface, Gatsby themes are doing a lot of things that feel magical. In this post, we’ll dive into the abstractions and learn how they work.
+
+slug: data-abstraction-deep-dive
+
+images:
+- /images/ingredients.jpg
+
+category:
+- architecture
+
+tag:
+- gatsby
+- gatsby-themes
+- react
+- data
+---
+
+import { Aside, Image } from '$components'
+
+In an earlier post about [creating good abstractions in apps](/code/data-abstraction-in-apps/), we took at look at how Gatsby themes enable use to design our sites with [progressive disclosure of complexity](/progressive-disclosure-of-complexity/) in mind.
+
+But how does it _actually_ work to create a data theme and a presentation theme that extends it? On the surface, it may seem a bit like [magic](/magic/), but — like all magic — it’s actually just a careful abstraction that hides the complexity underneath.
+
+Let’s take a look at the ingredients of a presentational theme and the data theme that powers it.
+
+<Image creditLink="https://unsplash.com/photos/seDjj4dmC9s" credit="Icons8 team">
+
+  ![Ingredients for spaghetti.](./images/ingredients.jpg)
+
+</Image>
+
+## Inside the presentation layer theme
+
+The presentation layer is powered by the theme we installed, [`@jlengstorf/gatsby-theme-style`](https://github.com/jlengstorf/gatsby-theme-style).
+
+Inside, the theme defines presentational components that only recieve data via props. For example, here’s what the `PostPreview` component looks like in the theme:
+
+```jsx:title=src/components/post-preview.js
+import React from 'react';
+import { Link } from 'gatsby';
+
+const PostPreview = ({ title, date, slug, author }) => (
+  <section className="post-preview">
+    <h2 className="post-heading">{title}</h2>
+    <p className="post-byline">
+      Posted on{' '}
+      <time dateTime={new Date(date).toISOString()}>
+        {new Date(date).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })}
+      </time>{' '}
+      by {author.name}
+    </p>
+    <p className="read-more">
+      <Link to={`/posts${slug}`}>Read this post &rarr;</Link>
+    </p>
+  </section>
+);
+
+export default PostPreview;
+```
+
+This component doesn’t care _where_ the data comes from; it simply expects that a title, slug, date, and author will be provided in specific formats. Trusting that the data will be provided to these components, the component provides markup that results in a styled, accessible post preview.
+
+To actually _use_ these components, we take advantage of a feature of Gatsby themes called [_component shadowing_](https://www.gatsbyjs.org/docs/themes/api-reference#component-shadowing). This is a pattern that allows us to selectively eject a single component from the parent theme and override it in our child theme or site.
+
+We shadow the parent theme’s `PostPreview` component by creating a new component inside a directory named after the parent theme and matching its original path (e.g. `src/@jlengstorf/gatsby-theme-data/components/post-preview.js`):
+
+```jsx:title=src/@jlengstorf/gatsby-theme-data/components/post-preview.js
+import PostPreview from '../../../components/post-preview';
+
+export default PostPreview;
+```
+
+We could have also just defined the component here instead of importing and exporting it, but in the
+
+<Aside>
+
+  **NOTE:** Component shadowing is one of the most critical concepts in Gatsby themes, because it’s at the core of what allows us to support progressive disclosure of complexity.
+
+</Aside>
+
+## Inside the data layer theme
+
+If we go deeper into the abstractions, we find that `@jlengstorf/gatsby-theme-style` uses a theme itself: [`@jlengstorf/gatsby-theme-data`](https://github.com/jlengstorf/gatsby-theme-data).
+
+This theme has a lot going on:
+
+- It defines a generic schema for both posts and authors
+- It defines an adapter to map Markdown data to the generic types
+- It builds pages from the generic type data
+- It passes the generic type data to components as props
+
+### Defining generic schema types
+
+Defining the schema takes advantage of the new [`createTypes` action](https://www.gatsbyjs.org/docs/actions/#createTypes) in Gatsby.
+
+```js:title=gatsby-node.js
+exports.sourceNodes = ({ actions: { createTypes }, schema }) => {
+  createTypes([
+    `
+      type Post implements Node {
+        title: String!
+        slug: String!
+        date: Date!
+        content: String!
+        author: Author!
+      }
+    `,
+    schema.buildObjectType({
+      name: 'Author',
+      fields: {
+        name: {
+          type: 'String!',
+          resolve: source => source.name
+        },
+        posts: {
+          type: '[Post!]!',
+          resolve: (source, _args, context) => {
+            const posts = context.nodeModel.runQuery({
+              query: {
+                filter: { frontmatter: { author: { eq: source.name } } }
+              },
+              type: 'MarkdownRemark'
+            });
+
+            return posts.map(mdToPost);
+          }
+        }
+      }
+    })
+  ]);
+};
+```
+
+For the `Post` type, we can use GraphQL’s [schema definition language (SDL)](https://www.apollographql.com/docs/apollo-server/essentials/schema.html#sdl). This is because there’s no special logic required to resolve the schema fields — we can provide a simple object with everything required for a post.
+
+The `Author` type has more complexity — the `posts` field needs to a make a filtered query for `Post` data — we need to use `schema.buildObjectType` so we can define a custom resolver.
+
+<Aside>
+
+  **NOTE:** I’m not going to get too deep into how the schema customization APIs work in this post. For more information, check out the [announcement post](https://www.gatsbyjs.org/blog/2019-03-18-releasing-new-schema-customization/#reach-skip-nav) and [the docs](https://www.gatsbyjs.org/docs/actions/#createTypes).
+
+</Aside>
+
+### Defining data adapters to convert data to generic types
+
+Once we have generic types available, we need to tell Gatsby what data should be returned when people query for it.
+
+This has two pieces: writing an adapter that converts data from one shape to our generic schema; and creating resolvers for the generic queries that loads the correct information for a given query.
+
+#### Data adapters
+
+When we get right down to it, adapters are really just map fields from one object to another object.
+
+To map Markdown data to our `Post` type, we end up with this:
+
+```js:title=gatsby-node.js
+const mdToPost = post => ({
+  // Used for generating a unique ID.
+  absolutePath: post.fileAbsolutePath,
+  slug: post.fields.slug,
+  title: post.frontmatter.title,
+  date: getUnixTimestamp(post.frontmatter.date),
+  // TODO find a way to get the MarkdownRemark `html` field value.
+  content: md.processSync(post.rawMarkdownBody).contents,
+  author: {
+    name: post.frontmatter.author
+  }
+});
+```
+
+<Aside warning>
+
+  **NOTE:** There are currently limitations to how adapters work — for example, it’s currently not possible to get the `html` fields of a `MarkdownRemark` node — that make adapters a little trickier than they should be. These issues will be fixed in the future, but for now we have to add workarounds.
+
+</Aside>
+
+#### Custom resolvers
+
+Custom resolvers are added using the [`createResolvers` API hook](https://www.gatsbyjs.org/docs/node-apis/#createResolvers). This tells Gatsby which nodes to grab and does any pre-processing before returning them.
+
+```js:title=gatsby-node.js
+exports.createResolvers = ({ createResolvers }) => {
+  createResolvers({
+    Query: {
+      // ...
+      allPost: {
+        async resolve(_, _args, context, _info) {
+          // Get only the Markdown files that are blog posts.
+          const files = await context.nodeModel.runQuery({
+            query: { filter: { sourceInstanceName: { eq: 'posts' } } },
+            type: 'File',
+            firstOnly: false
+          });
+
+          // Get the IDs of all child nodes.
+          const postIDs = files.map(file => file.children).flat();
+
+          // Grab all the MarkdownRemark nodes that are children of post files.
+          const mdPosts = await context.nodeModel.runQuery({
+            query: { filter: { id: { in: postIDs } } },
+            type: 'MarkdownRemark'
+          });
+
+          const posts = mdPosts.map(mdToPost);
+
+          return {
+            nodes: posts,
+            edges: posts.map(node => ({ node })),
+            totalCount: posts.length
+          };
+        }
+      }
+    },
+    // ...
+  });
+};
+```
+
+<Aside>
+
+  **NOTE:** For brevity, only one of the custom resolvers is shown above. For the full setup, see [the source code](https://github.com/jlengstorf/gatsby-theme-data/blob/06fd1afbc970de572634bf174f2840fc358b1b44/gatsby-node.js#L73-L137).
+
+</Aside>
+
+### Creating pages from the generic types
+
+Creating pages is done similarly to how any Gatsby site programmatically creates pages:
+
+```js:title=gatsby-node.js
+exports.createPages = async ({
+  actions: { createPage },
+  graphql,
+  reporter
+}) => {
+  const result = await graphql(`
+    {
+      allPost {
+        nodes {
+          slug
+        }
+      }
+    }
+  `);
+
+  if (result.error) {
+    reporter.panic(result.error);
+    return;
+  }
+
+  result.data.allPost.nodes.forEach(post => {
+    createPage({
+      path: `/posts${post.slug}`,
+      component: require.resolve('./src/templates/post-template.js'),
+      context: {
+        slug: post.slug
+      }
+    });
+  });
+
+  createPage({
+    path: `/posts/`,
+    component: require.resolve('./src/templates/post-previews-template.js')
+  });
+};
+```
+
+The main difference here is that the pages are built using the `allPost` query — this means that, while we’re _currently_ using a Markdown adapter to supply post data, if we were to swap out for a headless CMS in the future, we wouldn’t need to touch this code _at all_ to make the switch.
+
+### Passing data to components as props
+
+The final step in the data theme’s chain is to pass the generically typed data to components as props.
+
+Here, we see another place where progressive disclosure of complexity adds power to our architecture: we can have one component make the queries, and another add markup and styles.
+
+The power of this model is that child themes are now able to shadow the presentation components _without_ needing to care about or manage the query components.
+
+To put this into practice, our query component for a post looks like this:
+
+```jsx:title=src/templates/post-template.js
+import React from 'react';
+import { graphql } from 'gatsby';
+import Post from '../components/post';
+import Layout from '../components/layout';
+
+export const query = graphql`
+  query($slug: String!) {
+    post(slug: { eq: $slug }) {
+      title
+      content
+      author {
+        name
+      }
+      date
+    }
+  }
+`;
+
+const PostTemplate = ({ data }) => (
+  <Layout>
+    <Post {...data.post} />
+  </Layout>
+);
+
+export default PostTemplate;
+```
+
+The query component loads up the title, content, author, and date, then passes those to a `<Post>` component as `title`, `content`, `author`, and `date` props.
+
+This means that theme authors can shadow `src/components/post.js` and know that those props will be available _without needing to write or manage queries_.
+
+For example, here’s the shadowed `<Post>` component from the presentational theme, `@jlengstorf/gatsby-theme-style`:
+
+```jsx:title=src/components/post.js
+import React from 'react';
+
+const Post = ({ title, content, author, date }) => (
+  <React.Fragment>
+    <h1 className="post-heading">{title}</h1>
+    <p className="post-byline">
+      Posted on{' '}
+      <time dateTime={new Date(date).toISOString()}>
+        {new Date(date).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })}
+      </time>{' '}
+      by {author.name}
+    </p>
+    <div
+      className="post-content"
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
+  </React.Fragment>
+);
+
+export default Post;
+```
+
+The developer here is able to completely focus on _presentation_ because the data has been abstracted away into the props.
+
+One outcome of this approach is that GraphQL, which is often a stumbling block for developers new to it, is no longer something that needs to be dealt with in an app _at all_. A developer can create a fully customized blog theme without writing a single GraphQL query because we’ve created the appropriate abstractions.
+
+Of course, if the developer _does_ want to change the queries, they can shadow `src/templates/post-template.js` and do whatever they want. **The power here is that developers aren’t forced to choose between ease and control.** Through progressive disclosure of complexity and well-designed abstractions, developers can start quickly without writing any code, then selectively opt into additional control.
