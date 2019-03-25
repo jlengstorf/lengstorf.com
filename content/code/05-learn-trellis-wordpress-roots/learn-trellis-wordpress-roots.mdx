@@ -46,28 +46,28 @@ Set up a new WordPress site using the Roots stack.
 - A private server (we'll walk through how to set this up for $5/month) — Trellis _cannot_ run on a shared host, so this isn't optional.
 - [Homebrew](http://brew.sh/) (v1.0.7 used in this tutorial)
 
-```sh
+```bash
 # Install Homebrew.
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 - [Git](https://git-scm.com/) (v2.10.1 used in this tutorial)
 
-```sh
+```bash
 # Install Git with Homebrew
 brew install git
 ```
 
 - [Ansible](https://www.ansible.com/) (v2.1.2.0 used in this tutorial)
 
-```sh
+```bash
 # Install Ansible with Homebrew
 brew install ansible
 ```
 
 - [Composer](https://getcomposer.org/) (v1.2.1 used in this tutorial)
 
-```sh
+```bash
 # Install Composer with Homebrew
 brew install composer
 ```
@@ -81,7 +81,7 @@ To get things rolling, we need to grab a copy of Trellis from GitHub.
 
 ### Create a new directory for the site.
 
-```sh
+```bash
 # Move into the directory where where you keep dev projects.
 cd ~/dev/code.lengstorf.com/projects/
 
@@ -96,7 +96,7 @@ cd learn-trellis/
 
 Since we want to track our copy of Trellis as its own project, we don't actually want the Trellis repo information. By adding `--depth=1` to the `clone` command, we're able to get only the most recently committed version (avoiding a lot of wasted bandwidth downloading the commit history). Then, we delete the `.git` directory so we can have our own Git project.
 
-```sh
+```bash
 # Clone Trellis, but without all the Git history.
 git clone --depth=1 git@github.com:roots/trellis.git
 
@@ -110,7 +110,7 @@ One of the most powerful parts of Ansible is the ability to use community-suppli
 
 This collection of community roles is called [Galaxy](https://galaxy.ansible.com/), and it's home to thousands of roles. Trellis uses several of these to configure a WordPress server, so we need to get those installed.
 
-```sh
+```bash
 # Move into the Trellis directory
 cd trellis/
 
@@ -130,7 +130,7 @@ We're not going to do talk much about Bedrock, but the short version is this: Be
 
 Just like we did with Trellis, we want to get a copy of Bedrock _without_ the Git repository. So we do a shallow clone and then remove the `.git` folder.
 
-```sh
+```bash
 # Move back into the project root.
 cd ..
 
@@ -285,7 +285,7 @@ When you compare that to the "normal" WordPress setup — clone WordPress, creat
 
 To start the development site, it's one simple command:
 
-```sh
+```bash
 vagrant up
 ```
 
@@ -347,7 +347,7 @@ Choose Ubuntu 16.04.1 x64 for the distribution, $5/mo for the size, and choose a
 
 To tell Trellis where the production server lives, we need to add its IP address to `trellis/hosts/production`.
 
-```text
+```
 # Add each host to the [production] group and to a "type" group such as [web] or [db].
 # List each machine only once per [group], even if it will host multiple sites.
 
@@ -511,7 +511,7 @@ To do this, we create a password that will only be stored on our computer, which
 
 First, create a new file at `trellis/.vault_pass`:
 
-```sh
+```bash
 # Make sure we’re in the `trellis/` directory
 pwd
 # Output => /Users/jlengstorf/dev/code.lengstorf.com/projects/learn-trellis/trellis
@@ -522,7 +522,7 @@ touch .vault_pass
 
 Open `trellis/.vault_pass` for editing, then add a strong password:
 
-```text
+```
 Z+6Cm>TaofG=[379sED6
 ```
 
@@ -561,13 +561,13 @@ This tells Ansible where to look for the vault password, rather than prompting f
 
 To actually encrypt the files, run the following command:
 
-```sh
+```bash
 ansible-vault encrypt group_vars/production/vault.yml
 ```
 
 The output is a garbled mass of shit. This is a good thing — it means it's encrypted. Here's a snippet of what the encrypted file looks like:
 
-```text
+```
 $ANSIBLE_VAULT;1.1;AES256
 62343434643862366430393366333661306366363937623561323637363033353366636134336230
 3765633530336234393636306130346434333239636532650a336235356564303133303562626462
@@ -675,7 +675,7 @@ For this tutorial, I created a repo called [roots.code.lengstorf.com](https://gi
 
 To get our site's code up to that repo, run the following commands:
 
-```sh
+```bash
 # Move to the project root
 cd ..
 pwd
@@ -706,7 +706,7 @@ Provisioning means getting the server ready: Ansible will run through a series o
 
 To make it happen, all we need to do is run the following:
 
-```sh
+```bash
 # Move into the Trellis directory.
 cd trellis/
 
@@ -720,7 +720,7 @@ Or, we can walk away and let the robots do our bidding.
 
 When it's all done, we'll see a "play recap" from Ansible that looks something like this:
 
-```text
+```
 PLAY RECAP *********************************************************************
 162.243.171.188            : ok=130  changed=93   unreachable=0    failed=0
 localhost                  : ok=0    changed=0    unreachable=0    failed=0
@@ -736,7 +736,7 @@ Now we just need Ansible to copy the site files and fire it up.
 
 Enter the following to make it happen:
 
-```sh
+```bash
 # Make sure we're in the `trellis/` directory.
 pwd
 # Output => /Users/jlengstorf/dev/code.lengstorf.com/projects/learn-trellis/trellis
@@ -748,7 +748,7 @@ pwd
 
 This takes a minute or two, and ends with a "play recap", just like provisioning. It should look something like this:
 
-```text
+```
 PLAY RECAP *********************************************************************
 162.243.171.188            : ok=27   changed=12   unreachable=0    failed=0
 localhost                  : ok=0    changed=0    unreachable=0    failed=0
@@ -780,7 +780,7 @@ Fortunately, the free plugin [WP Sync DB](https://github.com/wp-sync-db/wp-sync-
 
 Since we're using Bedrock, installing the plugin is as simple as telling Composer we want to use it.
 
-```sh
+```bash
 # Make sure we’re in the site/ directory.
 cd ../site
 pwd
@@ -803,7 +803,7 @@ composer require wp-sync-db/wp-sync-db-media-files:dev-master
 
 After WP Sync DB is installed, we need to get it installed on the production server. This is a good example of how easy it is to deploy changes using Trellis: if you run `git status`, you'll see that `composer.json` and `composer.lock` have been updated; simply commit and push those files, then redeploy to production.
 
-```sh
+```bash
 # Commit the changes and push them.
 git commit -Am 'feat(wp-sync-db): installed WP Sync DB'
 git push
