@@ -84,7 +84,7 @@ This is a little funky if you’ve never used a build tool before, but stick wit
 
 Right at the top of `src/scripts/main.js`, load the stylesheet:
 
-``` diff
+```diff
 + // Import styles (automatically injected into <head>).
 + import '../styles/main.css';
 
@@ -121,7 +121,7 @@ Right at the top of `src/scripts/main.js`, load the stylesheet:
 
 The first thing we need is Rollup’s PostCSS plugin, so install that with the following:
 
-``` sh
+```bash
 npm install --save-dev rollup-plugin-postcss
 ```
 
@@ -129,7 +129,7 @@ npm install --save-dev rollup-plugin-postcss
 
 Next, let’s add the plugin to our `rollup.config.js`:
 
-``` diff
+```diff
   // Rollup plugins
   import babel from 'rollup-plugin-babel';
   import eslint from 'rollup-plugin-eslint';
@@ -176,7 +176,7 @@ Now that we’re able to process the stylesheet, we can regenerate the bundle an
 
 Run `./node_modules/.bin/rollup -c`, then look at the generated bundle at `build/js/main.min.js`, right near the top. You’ll see a new function called `__$styleInject()`:
 
-``` js
+```js
 function __$styleInject(css) {
   css = css || '';
   var head = document.head || document.getElementsByTagName('head')[0];
@@ -218,7 +218,7 @@ So in our project, we’ll only be using four plugins — two for syntactic suga
 
 To install these plugins, use this command:
 
-``` sh
+```bash
 npm install --save-dev postcss-simple-vars postcss-nested postcss-cssnext cssnano
 ```
 
@@ -226,7 +226,7 @@ npm install --save-dev postcss-simple-vars postcss-nested postcss-cssnext cssnan
 
 Next, let’s include our PostCSS plugins in `rollup.config.js` by adding a `plugins` property to the `postcss` configuration object:
 
-``` diff
+```diff
   // Rollup plugins
   import babel from 'rollup-plugin-babel';
   import eslint from 'rollup-plugin-eslint';
@@ -319,7 +319,7 @@ In our project, we want to watch the `src/` directory for any file changes, and 
 
 To do that, we’ll use the [`rollup-watch`](https://github.com/rollup/rollup-watch) plugin, which is a little different from the other Rollup plugins we’ve used so far — but more on that in a bit. Let’s start by installing the plugin:
 
-``` sh
+```bash
 npm install --save-dev rollup-watch
 ```
 
@@ -329,14 +329,14 @@ The difference between `rollup-watch` and other Rollup plugins is that we don’
 
 Instead, we add a flag to our terminal command:
 
-``` sh
+```bash
 # Run Rollup with the watch plugin enabled
 ./node_modules/.bin/rollup -c --watch
 ```
 
 After running the command, we see a different output in the console:
 
-``` text
+```
 $ ./node_modules/.bin/rollup -c --watch
 checking rollup-watch version...
 bundling...
@@ -367,7 +367,7 @@ A common tool for speeding up development is [LiveReload](https://www.npmjs.com/
 
 To start, we need to install the plugin:
 
-``` sh
+```bash
 npm install --save-dev livereload
 ```
 
@@ -379,7 +379,7 @@ Since this is only required in development, we’re going to take advantage of o
 
 In `src/main.js`, add the following:
 
-``` diff
+```diff
   // Import styles (automatically injected into <head>).
   import '../styles/main.css';
 
@@ -430,7 +430,7 @@ Save the file once you’ve made the changes, and now we’re ready to try it ou
 
 With LiveReload installed and the script injected into our document, we can fire it up to watch our `build/` directory:
 
-``` sh
+```bash
 ./node_modules/.bin/livereload 'build/'
 ```
 
@@ -442,7 +442,7 @@ With LiveReload installed and the script injected into our document, we can fire
 
 This results in output similar to the following:
 
-``` text
+```
 $ ./node_modules/.bin/livereload 'build/'
 Starting LiveReload v0.5.0 for /Users/jlengstorf/dev/code.lengstorf.com/projects/learn-rollup/build on port 35729.
 ```
@@ -465,7 +465,7 @@ Because of this, and because the tool we’ll be using to run watch and LiveRelo
 
 Open `package.json` — it’s in the root of the `learn-rollup/` project directory. Inside, you should see the following:
 
-``` json
+```json
 {
   "name": "learn-rollup",
   "version": "0.0.0",
@@ -515,7 +515,7 @@ See that `scripts` property? We’re going to add two new ones:
 
 Add the following to `package.json`:
 
-``` diff
+```diff
   {
     "name": "learn-rollup",
     "version": "0.0.0",
@@ -576,13 +576,13 @@ This is a powerful tool, so we won’t talk about everything it can do. What we�
 
 Start by installing `npm-run-all`:
 
-``` sh
+```bash
 npm install --save-dev npm-run-all
 ```
 
 Next, we need to add one more script to `package.json` that calls `npm-run-all`. In the `scripts` block, add the following (note that I’ve left out most of the file for brevity):
 
-``` diff
+```diff
     "scripts": {
       "dev": "rollup -c --watch",
       "reload": "livereload 'build/' -d",
@@ -599,7 +599,7 @@ That’s it. We did it.
 
 In your terminal, run the following:
 
-``` sh
+```bash
 npm run watch
 ```
 

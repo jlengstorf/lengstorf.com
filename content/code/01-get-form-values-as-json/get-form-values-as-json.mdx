@@ -423,7 +423,7 @@ In the above example, we do exactly the same thing as in `formToJSON()`, but weâ
 
 We can see the output if we update `handleSubmit()` and change the call to `formToJSON(form.elements)` to `formToJSON_deconstructed(form.elements)`. Check the console to see this output:
 
-```text
+```
 Initial `data` value: {}
 {"salutation":"Mr."}
 {"salutation":"Mrs."}
@@ -713,7 +713,7 @@ Since our current form doesn't have a select with the `multiple` attribute, so l
 
 Look for the `select` in the HTML pane and add the `multiple` attribute like so:
 
-```jade
+```pug
       select#subject.contact-form__input.contact-form__input--select(
         name="subject"
         multiple
