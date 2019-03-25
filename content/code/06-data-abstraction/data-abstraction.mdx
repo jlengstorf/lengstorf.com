@@ -186,16 +186,25 @@ To do this, we take advantage of [_component shadowing_](https://www.gatsbyjs.or
 
 Gatsby handles component shadowing by looking in a site’s `src` directory for a folder named after the theme being used, then looking for paths that match the theme’s structure.
 
-For example, if the theme is called `gatsby-theme-foo` and it has a file located here:
+For example, if the theme is called `gatsby-theme-foo` and it has a file located at `src/components/bar.js`:
 
-```bash
-src/components/bar.js
+```
+.
+└── gatsby-theme-foo
+    └── src
+        └── components
+            └── bar.js
 ```
 
 Then we can shadow this component by creating a new file in our site here:
 
-```bash
-src/gatsby-theme-foo/components/bar.js
+```
+.
+└── gatsby-theme-foo
+    └── src
+        └── gatsby-theme-foo
+            └── components
+                └── bar.js
 ```
 
 To shadow our `<Post>` component, we need to create a new file in our site at `src/@jlengstorf/gatsby-theme-data/components/post.js` and add the following:
@@ -233,25 +242,11 @@ const Post = ({ title, content, author, date }) => (
 export default Post;
 ```
 
-<Aside warning>
-
-  **NOTE:** One confusing part about component shadowing is that we have to shadow the _parent_ theme. This means that, while we’ve installed `@jlengstorf/gatsby-theme-style`, the component we’re shadowing actually comes from `@jlengstorf/gatsby-theme-data`. [We’re working on improving that.](https://github.com/gatsbyjs/gatsby/issues/12813)
-
-</Aside>
-
-After saving the new component, stop the site (`control` + `C`), then clear the cache[^shadowing-bug] and start it again:
+After saving the new component, stop the site (`control` + `C`), then start it again:
 
 ```bash
-# Clear the cache so the shadowed component is picked up
-# see https://github.com/gatsbyjs/gatsby/issues/11456
-gatsby clean
-
-# Start the site
 gatsby develop
 ```
-
-[^shadowing-bug]:
-  In the future it won’t be necessary to clear the cache to get shadowing to work. There’s an [open issue](https://github.com/gatsbyjs/gatsby/issues/11456) tracking the fix for this. Our custom Webpack resolver currently doesn’t invalidate the path to the component when a new component is added, so we have to clear the cache to force it to look fresh.
 
 <Image border={false}>
 
