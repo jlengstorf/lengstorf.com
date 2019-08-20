@@ -11,6 +11,6 @@ popover:
   group: DEFAULT
 ---
 
-If you enjoyed this post, you may want to consider <a class="js--open-popover" href="/newsletter">joining my newsletter</a>. I'll send you messages about new content and occasionally send quicker thoughts and ideas _only_ to my subscribers. This is usually one or two emails a month.
+If you enjoyed this post, you may want to consider <a class="js--open-popover" href="/newsletter">joining my newsletter</a>. I'll send you messages about new content and occasionally send quicker thoughts and ideas _only_ to my subscribers.
 
-I don't have comments on my blog, but I love hearing your feedback via email. I read everything I get and respond when I can.
+I don't have comments on my blog, but I love hearing your feedback on [Twitter](https://twitter.com/jlengstorf) or email. I read everything I get and respond when I can.
