@@ -4,7 +4,7 @@
   "version": "0.0.0-semantic-release",
   "license": "MIT",
   "scripts": {
-    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
