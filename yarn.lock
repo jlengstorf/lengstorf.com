@@ -5975,9 +5975,9 @@ gatsby-telemetry@^1.1.19:
     uuid "3.3.3"
 
 gatsby-theme-jason-blog@^1.2.2-beta.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-jason-blog/-/gatsby-theme-jason-blog-1.2.2.tgz#5a41d449665640e20ca2959bfb44743e3545c6f9"
-  integrity sha512-Lab0L9lPB0K+DXhE+5X4Ij3MfeGHtmpUIiJSebHC7aeBEOy6SW+Ih+XwqQ/HWsI0CeY4vly1h1i+DlHssdkHrA==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-jason-blog/-/gatsby-theme-jason-blog-1.2.3.tgz#c618ebc1af57b134934e02e3ffc72308c7e48075"
+  integrity sha512-2M+w+Fpi30iW5vMBg3O4BscWpdNA/Cw8NgIa4IJmX4WubOmdu0ksUeBrE9oyE+tF2GmwWWm2SeJwYJWn1jBJcA==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "^7.0.0"
     "@emotion/core" "^10.0.6"
