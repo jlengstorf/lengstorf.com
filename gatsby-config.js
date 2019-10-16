@@ -76,7 +76,7 @@ module.exports = {
     author: {
       name: 'Jason Lengstorf',
       minibio: `
-      <strong>Jason Lengstorf</strong> is a lead developer & architect at Gatsby.
+      <strong>Jason Lengstorf</strong> is a top banana and does all sorts of excellent things at Netlify.
       He’s a frequent <a href="/speaking">speaker</a>, occasional
       <a href="https://dribbble.com/jlengstorf">designer</a>, and an advocate of
       building better balance via efficiency. He lives in Portland, Oregon.
