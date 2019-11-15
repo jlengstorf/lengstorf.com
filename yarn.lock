@@ -9173,10 +9173,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-netlify-plugin-gatsby-cache@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-gatsby-cache/-/netlify-plugin-gatsby-cache-0.0.3.tgz#78a8b209fe581612dcae34164e4c53283b0fe481"
-  integrity sha512-dQF+ZSX4dAL68kIXTiEEX5+Nze9SgkH2otI53BYGS1nk/bU3WIBWOpQq3oI/ZlolY9aoG6ZFc76OEHrQzGF4Qg==
+netlify-plugin-gatsby-cache@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-gatsby-cache/-/netlify-plugin-gatsby-cache-0.0.4.tgz#46ac8177643de37014197ba7ab7dea69534f42a1"
+  integrity sha512-hkfpkcC15+fNVeN5UnIhbWFjo5Nc80NBOlyqTGJc5Jb9Rx0YxjbynyuZF81Md7GI3MhDrx0jnH3cc/cNLl3Yag==
   dependencies:
     fs-extra "^8.1.0"
 

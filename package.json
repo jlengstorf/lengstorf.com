@@ -21,7 +21,7 @@
     "gatsby-plugin-sitemap": "^2.0.9",
     "gatsby-source-airtable": "^2.0.2",
     "gatsby-theme-jason-blog": "^1.2.2-beta.0",
-    "netlify-plugin-gatsby-cache": "^0.0.3",
+    "netlify-plugin-gatsby-cache": "^0.0.4",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
