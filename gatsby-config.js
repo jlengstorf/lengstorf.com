@@ -136,10 +136,8 @@ module.exports = {
       },
     ],
   },
-  __experimentalThemes: [
-    'gatsby-theme-jason-blog'
-  ],
   plugins: [
+    'gatsby-theme-jason-blog',
     'gatsby-plugin-instagram',
     {
       resolve: 'gatsby-source-airtable',
