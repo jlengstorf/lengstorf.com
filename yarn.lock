@@ -5917,10 +5917,10 @@ gatsby-plugin-emotion@^4.0.1:
     "@babel/runtime" "^7.6.0"
     "@emotion/babel-preset-css-prop" "^10.0.17"
 
-gatsby-plugin-instagram-embed@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-instagram-embed/-/gatsby-plugin-instagram-embed-1.0.0.tgz#3caca65d6d0f5a7e9967cd5118f0fdf7a6f74698"
-  integrity sha512-dQFrCmw6oMhdrjaWqCqySznYs4Nsjz938NibQZD1qgZtBX5EvxoWA003k1CeFNkaQQoXfcuAPec4mJ/nXhg/Qw==
+gatsby-plugin-instagram-embed@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-instagram-embed/-/gatsby-plugin-instagram-embed-1.0.1.tgz#6fd8739d21c7ba846ea0b41e4e6153888a5bfc50"
+  integrity sha512-9jSlcmdH4mWIQ1b2O3QneQE08Lg1eIeQRHlyTkeHWV9fvLdREQzi8+d/OKJ146k1P5XwqRNe6Oh1aBHOlOy/Rg==
 
 gatsby-plugin-manifest@^2.2.31:
   version "2.2.31"
