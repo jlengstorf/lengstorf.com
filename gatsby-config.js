@@ -140,7 +140,7 @@ module.exports = {
     'gatsby-theme-jason-blog'
   ],
   plugins: [
-    'gatsby-plugin-instagram',
+    'gatsby-plugin-instagram-embed',
     {
       resolve: 'gatsby-source-airtable',
       options: {
