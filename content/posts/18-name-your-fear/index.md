@@ -135,5 +135,5 @@ What monsters are lurking in your imagination right now? How many of them can
 you drag into reality?
 
 [1]: http://www.imdb.com/title/tt0094761/
-[2]: https://www.youtube.com/watch?v=OPdDdC4go6c
+[2]: https://youtu.be/OPdDdC4go6c
 [3]: http://en.wikipedia.org/wiki/Computer-generated_imagery

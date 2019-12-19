@@ -55,7 +55,7 @@ together before I abandon her for the day.
 _obviously_ everyone is waiting with bated breath to hear the details of my work
 day.
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Autoresponder on, email closed &amp; after this tweet the phone is going on airplane mode. No distractions! <a href="http://t.co/At03t5gqrJ">http://t.co/At03t5gqrJ</a> <a href="https://twitter.com/hashtag/productivity?src=hash">#productivity</a></p>&mdash; Jason Lengstorf (@jlengstorf) <a href="https://twitter.com/jlengstorf/status/420629077381246976">January 7, 2014</a></blockquote>
+https://twitter.com/jlengstorf/status/420629077381246976
 
 **11:00AM:** The first no-distractions block begins, scheduled for 3 hours. I am
 able to accomplish:
