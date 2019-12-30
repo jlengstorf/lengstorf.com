@@ -149,7 +149,7 @@ dedicated to email, meetings, phone calls, and other lower-concentration tasks.
 If every no-distractions day goes as well as today for me, I might even —
 _GASP!_ — get [my weekends back][12].
 
-[1]: http://lengstorf.com/no-distractions-experiment/
+[1]: /no-distractions-experiment/
 [2]: https://the-pastry-box-project.net/
 [3]: http://elementalfitnesslab.com/
 [4]: http://louschuler.com/
@@ -160,4 +160,4 @@ _GASP!_ — get [my weekends back][12].
 [9]: http://www.romanfitnesssystems.com/
 [10]: http://negharfonooni.com/
 [11]: http://timingapp.com/
-[12]: http://lengstorf.com/losing-the-weekend/
+[12]: /losing-the-weekend/
