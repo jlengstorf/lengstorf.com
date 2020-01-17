@@ -1,8 +1,14 @@
 # the code blog has moved to https://www.learnwithjason.dev/blog/
-/code/                            https://www.learnwithjason.dev/blog/
-/get-form-values-as-json/         https://www.learnwithjason.dev/blog/get-form-values-as-json/        301
-/data-abstraction-in-apps/        https://www.learnwithjason.dev/blog/data-abstraction-in-apps/       301
-/learn-trellis-wordpress-roots/   https://www.learnwithjason.dev/blog/learn-trellis-wordpress-roots/  301
-/learn-rollup-css/                https://www.learnwithjason.dev/blog/learn-rollup-css/               301
-/learn-rollup-js/                 https://www.learnwithjason.dev/blog/learn-rollup-js/                301
-/deploy-nodejs-ssl-digitalocean/  https://www.learnwithjason.dev/blog/deploy-nodejs-ssl-digitalocean/ 301
+/code/                                https://www.learnwithjason.dev/blog/
+/get-form-values-as-json/             https://www.learnwithjason.dev/blog/get-form-values-as-json/        301
+/code/get-form-values-as-json/        https://www.learnwithjason.dev/blog/get-form-values-as-json/        301
+/data-abstraction-in-apps/            https://www.learnwithjason.dev/blog/data-abstraction-in-apps/       301
+/code/data-abstraction-in-apps/       https://www.learnwithjason.dev/blog/data-abstraction-in-apps/       301
+/learn-trellis-wordpress-roots/       https://www.learnwithjason.dev/blog/learn-trellis-wordpress-roots/  301
+/code/learn-trellis-wordpress-roots/  https://www.learnwithjason.dev/blog/learn-trellis-wordpress-roots/  301
+/learn-rollup-css/                    https://www.learnwithjason.dev/blog/learn-rollup-css/               301
+/code/learn-rollup-css/               https://www.learnwithjason.dev/blog/learn-rollup-css/               301
+/learn-rollup-js/                     https://www.learnwithjason.dev/blog/learn-rollup-js/                301
+/code/learn-rollup-js/                https://www.learnwithjason.dev/blog/learn-rollup-js/                301
+/deploy-nodejs-ssl-digitalocean/      https://www.learnwithjason.dev/blog/deploy-nodejs-ssl-digitalocean/ 301
+/code/deploy-nodejs-ssl-digitalocean/ https://www.learnwithjason.dev/blog/deploy-nodejs-ssl-digitalocean/ 301
