@@ -2,6 +2,3 @@ build:
   command: yarn build
   publish: public
   functions: functions
-
-plugins:
-  - type: netlify-plugin-gatsby-cache

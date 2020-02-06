@@ -5,13 +5,14 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby-parallel-runner",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "dotenv": "^8.0.0",
     "gatsby": "^2.13.82",
+    "gatsby-parallel-runner": "^1.0.8",
     "gatsby-plugin-algolia": "^0.5.0",
     "gatsby-plugin-amplitude-analytics": "^2.0.0",
     "gatsby-plugin-instagram-embed": "^1.0.1",
