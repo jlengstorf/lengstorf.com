@@ -1,4 +1,4 @@
 build:
-  command: yarn build
+  command: gatsby-parallel-runner
   publish: public
   functions: functions
