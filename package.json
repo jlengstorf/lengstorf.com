@@ -20,6 +20,7 @@
     "gatsby-plugin-netlify": "^2.0.12",
     "gatsby-plugin-offline": "^3.0.27",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
+    "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-plugin-sitemap": "^2.0.9",
     "gatsby-source-airtable": "^2.0.2",
     "gatsby-theme-jason-blog": "^1.2.2-beta.0",

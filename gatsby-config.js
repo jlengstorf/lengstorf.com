@@ -137,6 +137,7 @@ module.exports = {
     ],
   },
   plugins: [
+    'gatsby-plugin-sharp',
     'gatsby-theme-jason-blog',
     'gatsby-plugin-instagram-embed',
     {
