@@ -6234,7 +6234,7 @@ gatsby-page-utils@^0.0.39:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-parallel-runner@^1.0.8:
+gatsby-parallel-runner@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-parallel-runner/-/gatsby-parallel-runner-1.1.0.tgz#4aebbf03ccfd6950fa4efbb4f1fb290ab37f6aad"
   integrity sha512-Ik8mGUxeExzL5KUUQ7XMPoHgk0fzcGxAukUVq0GfEKtGJwhmZBFrc3lqQbve6rVsWr94G8fkI2GVVSVu3lP7Nw==
