@@ -23,6 +23,7 @@
     "gatsby-source-airtable": "^2.0.2",
     "gatsby-theme-jason-blog": "^1.2.2-beta.0",
     "netlify-plugin-gatsby-cache": "^0.2.0",
+    "netlify-plugin-pastel": "^0.0.1",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },

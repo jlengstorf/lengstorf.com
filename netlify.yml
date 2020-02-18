@@ -4,4 +4,4 @@ build:
   functions: functions
 
 plugins:
-  - type: netlify-plugin-gatsby-cache
+  - package: netlify-plugin-pastel
