@@ -10151,10 +10151,10 @@ netlify-plugin-gatsby-cache@^0.2.0:
   resolved "https://registry.yarnpkg.com/netlify-plugin-gatsby-cache/-/netlify-plugin-gatsby-cache-0.2.1.tgz#22d8ef9a9b022909ac3e330734a3362d11bef1c6"
   integrity sha512-y5gSjDXPWyj/Hdjp3WEGWjpeBH5nCnqztgF45JIK3/xVQBH4vwurOUsoK6C9500d7z2/CNH6I9k01crIA81pMw==
 
-netlify-plugin-pastel@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-pastel/-/netlify-plugin-pastel-0.0.1.tgz#3beb83ef4afabdce5a9643fc230b91a99a192386"
-  integrity sha512-RsZKd5yM1EmiUCJqWwR/sj9jingi/bKnYdDhBMue4JpUa764Om1h3zFP18yT2DZojpWxQtNNtcmkvtlqzVMrNQ==
+netlify-plugin-pastel@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-pastel/-/netlify-plugin-pastel-0.0.2.tgz#8f4aee1d3f7bdcf398b542793abd0bb4fece9cb6"
+  integrity sha512-S9oD6BT/4lrMGQWdIpWowmX3U+rBaq11f0UQg3SM0DgYwnCWJlGZN7ae9p3r2xrcEW4+DZ5dUZrFhtbKNNlg0g==
   dependencies:
     glob "^7.1.6"
     hastscript "^5.1.1"
@@ -10263,7 +10263,7 @@ node-object-hash@^2.0.0:
   resolved "https://registry.yarnpkg.com/node-object-hash/-/node-object-hash-2.0.0.tgz#9971fcdb7d254f05016bd9ccf508352bee11116b"
   integrity sha512-VZR0zroAusy1ETZMZiGeLkdu50LGjG5U1KHZqTruqtTyQ2wfWhHG2Ow4nsUbfTFGlaREgNHcCWoM/OzEm6p+NQ==
 
-node-pre-gyp@*, node-pre-gyp@^0.14.0:
+node-pre-gyp@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
   integrity sha512-+CvDC7ZttU/sSt9rFjix/P05iS43qHCOOGzcr3Ry99bXG7VX953+vFyEuph/tfqoYu8dttBkE86JSKBO2OzcxA==
