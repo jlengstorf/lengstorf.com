@@ -1,7 +1,7 @@
 build:
-  command: yarn build
+  command: gatsby-parallel-runner
   publish: public
   functions: functions
 
 plugins:
-  - type: netlify-plugin-gatsby-cache
+  - package: netlify-plugin-pastel

@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "gatsby": "^2.13.82",
+    "gatsby-parallel-runner": "^1.1.1",
     "gatsby-plugin-algolia": "^0.5.0",
     "gatsby-plugin-amplitude-analytics": "^2.0.0",
     "gatsby-plugin-instagram-embed": "^1.0.1",
@@ -23,11 +24,12 @@
     "gatsby-source-airtable": "^2.0.2",
     "gatsby-theme-jason-blog": "^1.2.2-beta.0",
     "netlify-plugin-gatsby-cache": "^0.2.0",
+    "netlify-plugin-pastel": "^0.0.2",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
   "devDependencies": {
-    "husky": "^3.1.0",
+    "husky": "^4.2.3",
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1",
     "webpack-bundle-analyzer": "^3.0.3"
