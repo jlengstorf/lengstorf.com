@@ -1,4 +1,6 @@
-gatsby-*.js
-package.json
+.cache
+node_modules
+public
+
 *.md
 *.mdx
