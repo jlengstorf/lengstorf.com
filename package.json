@@ -10,28 +10,33 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "dotenv": "^8.0.0",
-    "gatsby": "^2.13.82",
-    "gatsby-parallel-runner": "^1.2.0-beta.0",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.20.9",
+    "gatsby-parallel-runner": "^1.2.3",
     "gatsby-plugin-algolia": "^0.5.0",
     "gatsby-plugin-amplitude-analytics": "^2.0.0",
-    "gatsby-plugin-instagram-embed": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.0.6",
-    "gatsby-plugin-netlify": "^2.0.12",
-    "gatsby-plugin-offline": "^3.0.27",
+    "gatsby-plugin-instagram-embed": "^2.0.1",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-netlify": "^2.2.1",
+    "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sitemap": "^2.0.9",
-    "gatsby-source-airtable": "^2.0.2",
-    "gatsby-theme-jason-blog": "^1.2.2-beta.0",
-    "netlify-plugin-gatsby-cache": "^0.2.0",
-    "netlify-plugin-pastel": "^0.1.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "gatsby-plugin-sitemap": "^2.3.1",
+    "gatsby-source-airtable": "^2.1.0",
+    "gatsby-theme-jason-blog": "^2.0.0",
+    "netlify-plugin-gatsby-cache": "^0.2.1",
+    "netlify-plugin-pastel": "^0.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "husky": "^4.2.3",
-    "prettier": "1.19.1",
+    "prettier": "2.0.2",
     "pretty-quick": "^2.0.1",
-    "webpack-bundle-analyzer": "^3.0.3"
+    "webpack-bundle-analyzer": "^3.6.1"
+  },
+  "engines": {
+    "node": ">=10.13.0",
+    "npm": ">=6",
+    "yarn": ">=1"
   }
 }
