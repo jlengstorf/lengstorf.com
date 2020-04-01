@@ -5,17 +5,18 @@ title: Enough with the Sad Stories
 seo_title: Happy Endings Over Realism — Enough with the Sad Stories!
 slug: enough-sad-stories
 description: >
-    When I was a kid, I loved the heavy, dark, sad movies. Now I just want a story to make me smile, even if the plot is completely ridiculous.
+  When I was a kid, I loved the heavy, dark, sad movies. Now I just want a story
+  to make me smile, even if the plot is completely ridiculous.
 
 category:
-- storytelling
+  - storytelling
 
 tag:
-- entertainment
-- stories
+  - entertainment
+  - stories
 
 images:
-- /images/All-Is-Lost-2013.jpg
+  - /images/All-Is-Lost-2013.jpg
 
 cta: default
 ---

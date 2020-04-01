@@ -5,20 +5,21 @@ title: The No-Distractions Productivity Experiment Results and Stats
 seo_title: The No-Distractions Productivity Experiment Results and Stats
 slug: no-distractions-results
 description: >
-    A few days ago I planned an experiment in which I turned off email, the phone, and chat programs to focus on high-concentration work. These are the results.
+  A few days ago I planned an experiment in which I turned off email, the phone,
+  and chat programs to focus on high-concentration work. These are the results.
 
 aliases:
-- /distractions-results/
+  - /distractions-results/
 
 category:
-- remote-productivity
+  - remote-productivity
 
 tag:
-- productivity
-- stats
+  - productivity
+  - stats
 
 images:
-- /images/no-distractions-results.jpg
+  - /images/no-distractions-results.jpg
 
 cta: focus
 ---
@@ -60,13 +61,13 @@ day.
 **11:00AM:** The first no-distractions block begins, scheduled for 3 hours. I am
 able to accomplish:
 
-* A preliminary reorganization of my todos by difficulty, since the hard stuff
+- A preliminary reorganization of my todos by difficulty, since the hard stuff
   should probably happen while I have time to focus
-* Clearing of the Bitbucket issue tracker on two works in progress for Copter
+- Clearing of the Bitbucket issue tracker on two works in progress for Copter
   clients
-* Site adjustments for the paperback release of [Lou Schuler's][4] latest book,
+- Site adjustments for the paperback release of [Lou Schuler's][4] latest book,
   _The New Rules of Lifting: Supercharged_
-* Design updates for a site we're working on with [Jon Goodman][5]
+- Design updates for a site we're working on with [Jon Goodman][5]
 
 **3:00PM:** Break for lunch. It's been nice not having my phone buzzing at me,
 so I leave it off.
@@ -75,11 +76,11 @@ so I leave it off.
 this to go from 3:30–6:30, but I worked a little longer on the first block than
 I expected, so I decide to play this one by ear. I accomplish:
 
-* Art revisions for [Keri Glassman][6]'s forthcoming new site
-* New functionality over on the [Train Heroic][7] site
-* Style and navigation improvements for [Protein Pow][8]
-* Site tweaks and a couple new features for [Roman][9]'s site
-* A quick fix for [Neghar Fonooni][10]
+- Art revisions for [Keri Glassman][6]'s forthcoming new site
+- New functionality over on the [Train Heroic][7] site
+- Style and navigation improvements for [Protein Pow][8]
+- Site tweaks and a couple new features for [Roman][9]'s site
+- A quick fix for [Neghar Fonooni][10]
 
 **7:45PM:** I realize that I'm still working. Ali has food for us, so I eat with
 her and decide that the no-distractions part of my day is over. I still feel
@@ -101,25 +102,25 @@ To measure the validity of my first concern, I figured the easiest way would be
 to see A) how much email I received during the day, and B) whether I had
 actually caused any bottlenecks.
 
-* Current number of emails in my inbox: 173
-* Number of emails that are unread (from today): 67
-* Number of emails (estimated) that will require action on my part: ~40
-* Number of bottlenecks I created: 0
+- Current number of emails in my inbox: 173
+- Number of emails that are unread (from today): 67
+- Number of emails (estimated) that will require action on my part: ~40
+- Number of bottlenecks I created: 0
 
 My second concern definitely proved false, but just for fun, here are some
 stats:
 
-* Number of todos I started the day with: 52
-* Number of todos I completed: 27
+- Number of todos I started the day with: 52
+- Number of todos I completed: 27
 
 Finally, just because I'm using a [cool app][11] that lets me track this crap,
 here's where my time _actually_ went today:
 
-* Total time on the computer today: 12:05
-* Google Chrome: 4:22 (with only 16 minutes total between Facebook and Twitter)
-* Photoshop: 3:08
-* Illustrator: 2:43
-* Sublime Text: 0:46
+- Total time on the computer today: 12:05
+- Google Chrome: 4:22 (with only 16 minutes total between Facebook and Twitter)
+- Photoshop: 3:08
+- Illustrator: 2:43
+- Sublime Text: 0:46
 
 The remainder of my time was split up between apps like Finder, Transmit, Font
 Book, and other utility apps.

@@ -5,17 +5,19 @@ title: Take Away Its Power
 seo_title: Why You Should Name Your Fears to Take Away Their Power
 slug: name-your-fear
 description: >
-  As a kid I was so scared of horror films I'd get scared just thinking about them. As I got older I learned to see how the movie ends to take away its power.
+  As a kid I was so scared of horror films I'd get scared just thinking about
+  them. As I got older I learned to see how the movie ends to take away its
+  power.
 
 category:
-- acting-like-a-grown-up
+  - acting-like-a-grown-up
 
 tag:
-- confidence
-- monsters
+  - confidence
+  - monsters
 
 images:
-- /images/dont-be-scared.jpg
+  - /images/dont-be-scared.jpg
 
 cta: default
 ---
@@ -56,13 +58,17 @@ the [CGI][3] is.
 I have to see the end. I need to know what happens. What _really_ goes on in
 this movie?
 
-**There is no way the actual outcome will be scarier than what I can dream up in my ignorance.**
+**There is no way the actual outcome will be scarier than what I can dream up in
+my ignorance.**
 
 By seeing the full movie, I learn the reality of the story, and that takes away
 the paralyzing power of my ignorance and fear.[^the-ring]
 
 [^the-ring]:
-  Sure, _The Ring_ still scared the shit out of me, but I didn't lose any sleep afterward. I can guarantee the things my brain will dream up out of a storyline involving a dead girl who haunts your TV are _far worse_ than what happens in the movie.
+  Sure, _The Ring_ still scared the shit out of me, but I didn't lose any sleep
+  afterward. I can guarantee the things my brain will dream up out of a
+  storyline involving a dead girl who haunts your TV are _far worse_ than what
+  happens in the movie.
 
 ## Take Away Its Power
 
@@ -73,21 +79,39 @@ our imaginations, the potential for catastrophe is alarmingly
 high.[^out-of-my-league]
 
 [^out-of-my-league]:
-  For an easy example, imagine asking someone out on a date that you think is "out of your league."
-  
-  I get anxious imagining it: I see her across the room, obviously more successful, socially adept, and better-looking than me. She's smiling, sharply dressed, surrounded by people who are laughing at the devilishly clever observation she just made about current events of which I'm appallingly ignorant.
-  
-  And here I come — trying to look confident but probably smiling like a crazy person, food caught in my beard, smudges on my glasses — to interrupt her conversation. I tell a joke that doesn't land, laugh loudly at my own joke out of discomfort, turn tomato-red in self-conscious embarrassment, and stammer my way through awkward compliments that are just making her more uncomfortable.
-  
+  For an easy example, imagine asking someone out on a date that you think is
+  "out of your league."
+
+  I get anxious imagining it: I see her across the room, obviously more
+  successful, socially adept, and better-looking than me. She's smiling, sharply
+  dressed, surrounded by people who are laughing at the devilishly clever
+  observation she just made about current events of which I'm appallingly
+  ignorant.
+
+  And here I come — trying to look confident but probably smiling like a crazy
+  person, food caught in my beard, smudges on my glasses — to interrupt her
+  conversation. I tell a joke that doesn't land, laugh loudly at my own joke out
+  of discomfort, turn tomato-red in self-conscious embarrassment, and stammer my
+  way through awkward compliments that are just making her more uncomfortable.
+
   I never even get to the part about asking her out.
-  
-  She laughs in my face. The people around her laugh in my face. Everyone in the room perks up, and she grabs the microphone from the party's emcee.
-  
-  "Ladies and gentlemen, a special announcement: Jason Lengstorf is a useless idiot who lacks the charm of a papercut and smells like he's been eating nothing but cheese for the last eight weeks."
-  
-  The story makes the news later that night, and I'm forced to flee the country in shame. I live out the rest of my days in Bulgaria harvesting sugar beets in exile.
-  
-  The reality, however, is that — while I'd probably still blow it — the actual situation would be far less ridiculous. I'd say hello, she'd say hello, I'd try to make conversation, and when we didn't hit it off I'd make an exit. This isn't exactly a storybook ending, but it's nowhere near the worst-case scenario my imagination cooks up.
+
+  She laughs in my face. The people around her laugh in my face. Everyone in the
+  room perks up, and she grabs the microphone from the party's emcee.
+
+  "Ladies and gentlemen, a special announcement: Jason Lengstorf is a useless
+  idiot who lacks the charm of a papercut and smells like he's been eating
+  nothing but cheese for the last eight weeks."
+
+  The story makes the news later that night, and I'm forced to flee the country
+  in shame. I live out the rest of my days in Bulgaria harvesting sugar beets in
+  exile.
+
+  The reality, however, is that — while I'd probably still blow it — the actual
+  situation would be far less ridiculous. I'd say hello, she'd say hello, I'd
+  try to make conversation, and when we didn't hit it off I'd make an exit. This
+  isn't exactly a storybook ending, but it's nowhere near the worst-case
+  scenario my imagination cooks up.
 
 But we're not actually scared of the experience. We're scared of the unknown:
 the vague, monster-shaped outline in our imagination.

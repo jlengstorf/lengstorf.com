@@ -5,17 +5,18 @@ title: Do What You Love
 seo_title: Do What You Love, and Find the Joy in Your Work
 slug: do-what-you-love
 description: >
-  Slate.com ran an essay by Miya Tokumitsu that claims the advice, “Do what you love. Love what you do,” is devaluing “actual work.” It’s total horseshit.
+  Slate.com ran an essay by Miya Tokumitsu that claims the advice, “Do what you
+  love. Love what you do,” is devaluing “actual work.” It’s total horseshit.
 
 category:
-- remote-productivity
+  - remote-productivity
 
 tag:
-- DWYL
-- happiness
+  - DWYL
+  - happiness
 
 images:
-- /images/do-what-you-love.jpg
+  - /images/do-what-you-love.jpg
 
 cta: focus
 ---
@@ -68,7 +69,9 @@ crap that enforces the very class distinctions that this article is claiming to
 rail against.[^external-valuation]
 
 [^external-valuation]:
-  If everyone tells the girl stocking shelves that her job isn't glamorous, she'll have a hard time shaking that external valuation of what she does for a living.
+  If everyone tells the girl stocking shelves that her job isn't glamorous,
+  she'll have a hard time shaking that external valuation of what she does for a
+  living.
 
 I pay to have my house cleaned every two weeks by a local company, [The Green
 Clean Queen][2]. Joanna, the owner, loves her work. She has a huge amount of
@@ -158,7 +161,8 @@ is just bonkers-level poisonous.
 Of _course_ having employees who love what they do is beneficial to a company,
 and of _course_ bosses want their employees to love their work.
 
-But, here's the thing: **if a boss is exploiting her employees, they're not going to love their work.** The idea that using _love_ as a way to drive class
+But, here's the thing: **if a boss is exploiting her employees, they're not
+going to love their work.** The idea that using _love_ as a way to drive class
 separation and abuse is fatally flawed. No one loves a job that bullies. I've
 worked in toxic environments where the expectations are for long hours and
 little reward; the morale is abysmal, and resentment is high. I doubt many
@@ -166,7 +170,9 @@ people who are _actually_ being exploited would describe any love for their
 jobs.[^overkill-cult]
 
 [^overkill-cult]:
-  Keep in mind, though, that even if our bosses aren't _consciously_ exploiting us, there is definitely evidence that [our working culture is dangerously out of control](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a).
+  Keep in mind, though, that even if our bosses aren't _consciously_ exploiting
+  us, there is definitely evidence that
+  [our working culture is dangerously out of control](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a).
 
 My employees love their jobs. But if I cross the line and ask more of them than
 they're comfortable giving, my team's happiness will suffer and they'll start
@@ -175,7 +181,9 @@ looking elsewhere for love and passion.
 ## Elitists Are Out to Ruin Your Life
 
 I think – or at least I hope – that Tokumitsu's aim was to raise a cautionary
-flag: **"Bosses, don't take advantage of your employees' passion, because it'll fade quickly if you do. Employees, don't let yourself believe you love a job you don't actually love."**
+flag: **"Bosses, don't take advantage of your employees' passion, because it'll
+fade quickly if you do. Employees, don't let yourself believe you love a job you
+don't actually love."**
 
 Those sentiments are good ones, and worth bearing in mind.
 
@@ -196,6 +204,7 @@ awesome][3].
 So let's all find the love in our work, because it certainly beats the shit out
 of the alternative.
 
-[1]: http://www.slate.com/articles/technology/technology/2014/01/do_what_you_love_love_what_you_do_an_omnipresent_mantra_that_s_bad_for_work.single.html
+[1]:
+  http://www.slate.com/articles/technology/technology/2014/01/do_what_you_love_love_what_you_do_an_omnipresent_mantra_that_s_bad_for_work.single.html
 [2]: http://thegreencleanqueen.com
 [3]: /not-a-phony

@@ -6,19 +6,20 @@ title: Miss Montana
 seo_title: How to Hit It Off with a Beauty Queen...and Then Totally Blow It
 slug: miss-montana
 description: >
-  How I met Miss Montana, found out we had unbelievable chemistry, and then completely blew my chances with her. Twice.
+  How I met Miss Montana, found out we had unbelievable chemistry, and then
+  completely blew my chances with her. Twice.
 
 category:
-- motivation
-- storytelling
+  - motivation
+  - storytelling
 
 tag:
-- confidence
-- stories
-- regret
+  - confidence
+  - stories
+  - regret
 
 images:
-- /images/miss-montana-regret.jpg
+  - /images/miss-montana-regret.jpg
 
 cta: default
 ---
@@ -30,8 +31,7 @@ This was one of those dives where it was too loud to hear yourself think and the
 floor was _always_ sticky, but they sold a bucket of PBR for four dollars, and a
 Montana Happy Meal[^happymeal] for five.
 
-[^happymeal]:
-  A shot of Jameson with a PBR back.
+[^happymeal]: A shot of Jameson with a PBR back.
 
 On a night where I'd been called in as wingman for Scott, we met with his date
 and — for the span of a beer — I did my best not to make him sound like a
@@ -209,8 +209,7 @@ asked if I could call and she said yes.
 I would have made a thousand mistakes and alienated myself from the Montana
 Beautiful Women's Club[^mtbwc] forever.
 
-[^mtbwc]:
-  Totally a thing.
+[^mtbwc]: Totally a thing.
 
 Any of those outcomes would have been fine. Even bad experiences are still
 _experiences_, you know?

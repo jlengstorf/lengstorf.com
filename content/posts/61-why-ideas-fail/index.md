@@ -4,21 +4,23 @@ date: 2015-10-14
 title: Why Your Great Idea Is Doomed (and How to Save It)
 slug: why-ideas-fail
 description: >
-  Ideas change the world — or so we think. But even the best ideas are utterly worthless if they can’t live through The Slog. Unfortunately, most ideas don’t.
+  Ideas change the world — or so we think. But even the best ideas are utterly
+  worthless if they can’t live through The Slog. Unfortunately, most ideas
+  don’t.
 
 category:
-- motivation
-- remote-productivity
+  - motivation
+  - remote-productivity
 
 tag:
-- confidence
-- creating
-- motivation
-- planning
-- success
+  - confidence
+  - creating
+  - motivation
+  - planning
+  - success
 
 images:
-- /images/five-stages_despair.jpg
+  - /images/five-stages_despair.jpg
 
 cta: focus
 ---
@@ -36,7 +38,11 @@ a child's future instead of a publicly traded company.
 We jokingly called it "Kidstarter".[^kidstarter]
 
 [^kidstarter]:
-  I just Googled it, and [Kidstarter is already a thing](http://www.kidstarter.org/). So to be clear, the "Kidstarter" I'm talking about in this article is a defunct startup concept, not the adults-helping-kids-do-social-good organization that actually exists.
+  I just Googled it, and
+  [Kidstarter is already a thing](http://www.kidstarter.org/). So to be clear,
+  the "Kidstarter" I'm talking about in this article is a defunct startup
+  concept, not the adults-helping-kids-do-social-good organization that actually
+  exists.
 
 "It'll remove the crippling college debts! It'll give parents and friends an
 incentive to encourage kids to excel! It'll create an economy based on wanting
@@ -67,7 +73,9 @@ Was it a little fucked up to encourage people to make bets (investments) on
 children's futures?[^loan]
 
 [^loan]:
-  Technically, this is no different than what Sallie Mae is doing, but still — just because one subset of corporations has reduced children to risk analyses and probability charts, does that make it a good idea?
+  Technically, this is no different than what Sallie Mae is doing, but still —
+  just because one subset of corporations has reduced children to risk analyses
+  and probability charts, does that make it a good idea?
 
 Would investing in a kid through Kidstarter qualify as _actual_ trading? Would
 the SEC need to be involved?
@@ -76,7 +84,9 @@ Was this even legal? And if it is, could we afford the inevitable lawsuits from
 the companies making a killing off student loans right now?[^uber]
 
 [^uber]:
-  We saw what was happening to Uber, and if cab drivers were able to give a startup that much legal trouble, well... We went a little pale at the thought of what a team of lawyers for a financial behemoth could do.
+  We saw what was happening to Uber, and if cab drivers were able to give a
+  startup that much legal trouble, well... We went a little pale at the thought
+  of what a team of lawyers for a financial behemoth could do.
 
 Did we need to get investors? How the hell do you get investors? Did we need to
 move to San Francisco and start saying things like "disrupt" and "pivot"?
@@ -89,9 +99,14 @@ toss the mangled, half-built corpse of the idea into the dark corner where all
 my abandoned projects lie forgotten.[^idea-purgatory]
 
 [^idea-purgatory]:
-  On my lonelier nights, I'll crack the door and peer inside, like a bored teenager checking the fridge. My parbaked ideas breathe in hopefully and don't breathe out so's not to jinx it and crane their semi-functional necks toward me.
-  
-  The moment extends heavily. My expression is almost hopeful. But then I turn, and the door swings closed. In the darkness the ideas hear me shuffling away, muttering, "I'll get back to it. Soon."
+  On my lonelier nights, I'll crack the door and peer inside, like a bored
+  teenager checking the fridge. My parbaked ideas breathe in hopefully and don't
+  breathe out so's not to jinx it and crane their semi-functional necks toward
+  me.
+
+  The moment extends heavily. My expression is almost hopeful. But then I turn,
+  and the door swings closed. In the darkness the ideas hear me shuffling away,
+  muttering, "I'll get back to it. Soon."
 
 His concerns matched my own, so Kidstarter was over before it ever began.
 
@@ -107,7 +122,8 @@ The idea was easy to love. The work was a little more challenging.
 
 ## The Difference Between Ideas and Work
 
-**We don't become successful by having lots of great ideas; we become successful by following through on a few good ones.**
+**We don't become successful by having lots of great ideas; we become successful
+by following through on a few good ones.**
 
 People who count ideas as currency are doomed to end up broke.
 
@@ -126,7 +142,10 @@ abstract idea and start hacking it to concrete pieces — pieces you _hope_ to
 assemble into a finished project.[^frankenproject]
 
 [^frankenproject]:
-  To an outside observer, this process usually looks something like a butterfly emerging from its coccoon. But to the person who knows what the original idea looked like, the result is closer to Frankenstein's monster: not quite right, and uglier than it used to be.
+  To an outside observer, this process usually looks something like a butterfly
+  emerging from its coccoon. But to the person who knows what the original idea
+  looked like, the result is closer to Frankenstein's monster: not quite right,
+  and uglier than it used to be.
 
 We each handle the idea-to-project transition differently, but we all go through
 the 5 Stages of Creation.
@@ -153,8 +172,7 @@ yet.
 During Total Infatuation, we're convinced that this is The Best Goddamn Idea
 Ever™, and we'll deny any evidence to the contrary.[^haters]
 
-[^haters]:
-  Because fuck the haters!
+[^haters]: Because fuck the haters!
 
 We're blinded by the benefits and potential gains. We can't understand how this
 doesn't already exist. We can't believe how _rich_ we're about to be.
@@ -232,7 +250,10 @@ the quicksand of The Slog — at which point I wander off in search of a newer,
 shinier idea and start the cycle all over again.[^artbiopic]
 
 [^artbiopic]:
-  If an art film is ever made about my creative process, it'll be a six minute loop of Sisyphus rolling a boulder up a hill while bragging loudly on his cell phone about how awesome his boulder is, then chasing it down the hill while angrily explaining to the cell phone that all boulders are stupid.
+  If an art film is ever made about my creative process, it'll be a six minute
+  loop of Sisyphus rolling a boulder up a hill while bragging loudly on his cell
+  phone about how awesome his boulder is, then chasing it down the hill while
+  angrily explaining to the cell phone that all boulders are stupid.
 
 ### Some ideas should die.
 
@@ -248,7 +269,9 @@ Had we pushed into The Slog, we might still be there now, years later, buried in
 a lot of work[^debt] that we aren't equipped to handle.
 
 [^debt]:
-  Or, more likely, we'd be saddled with an _unbelievable_ amount of debt and stress from hiring people to handle all the challenges we'd be unable to handle alone.
+  Or, more likely, we'd be saddled with an _unbelievable_ amount of debt and
+  stress from hiring people to handle all the challenges we'd be unable to
+  handle alone.
 
 The
 <abbr title="The Creeping Realization That This Will Be More Work Than You Thought">TCRTTWBMWTYT</abbr>
@@ -260,7 +283,9 @@ are out of our reach[^reasonable] and coming to grips with the fact our project
 will require actual work.
 
 [^reasonable]:
-  When I say "out of our reach", I don't mean "impossible" — I mean that the amount of effort required to make it happen exceeds the benefits we can expect in return.
+  When I say "out of our reach", I don't mean "impossible" — I mean that the
+  amount of effort required to make it happen exceeds the benefits we can expect
+  in return.
 
 ### Most ideas don't make it past the Despair stage.
 
@@ -268,7 +293,11 @@ The truth is, most ideas can succeed.[^ideas] The reason they don't is that
 they're never finished.
 
 [^ideas]:
-  Take that sweeping generalization with a _huge_ grain of salt, but also keep in mind these ostensibly _terrible_ ideas that succeeded: the app Yo is [worth $5–10 million](http://bit.ly/1LLwliz); someone put filtered water in a bottle and charged a 4,000% markup; oh, and remember the [pet rock](https://en.wikipedia.org/wiki/Pet_Rock)?
+  Take that sweeping generalization with a _huge_ grain of salt, but also keep
+  in mind these ostensibly _terrible_ ideas that succeeded: the app Yo is
+  [worth \$5–10 million](http://bit.ly/1LLwliz); someone put filtered water in a
+  bottle and charged a 4,000% markup; oh, and remember the
+  [pet rock](https://en.wikipedia.org/wiki/Pet_Rock)?
 
 When the full weight of an idea's workload comes crashing down, most ideas can't
 avoid being flattened. And once we've seen our ideas crushed, it's hard not to
@@ -308,7 +337,12 @@ more frustrating to share it than to keep it to yourself until you've made more
 progress.
 
 [^explaining]:
-  "Okay, so imagine that it's sort of like what you're looking at now, except this area is a totally awesome animation, and this piece here uses your Facebook profile to create a Venn diagram showing the overlap of people whose pets you've commented on and who like Nickelback, and then _that_ button causes Slash to come out and play a killer solo. Are you smelling what I'm stepping in? _Sick,_ right?"
+  "Okay, so imagine that it's sort of like what you're looking at now, except
+  this area is a totally awesome animation, and this piece here uses your
+  Facebook profile to create a Venn diagram showing the overlap of people whose
+  pets you've commented on and who like Nickelback, and then _that_ button
+  causes Slash to come out and play a killer solo. Are you smelling what I'm
+  stepping in? _Sick,_ right?"
 
 This is a special kind of hell, because you're doing the least enjoyable chunk
 of the project's tasks, and you've already exhausted all the friendly ears in
@@ -343,9 +377,9 @@ stop: "I made this."
 
 After a success _or_ a failure, you're able to learn something:
 
-* "I made this! People like it, and now I'm working on a second version to
+- "I made this! People like it, and now I'm working on a second version to
   incorporate their feedback."
-* "I made this. It didn't work out, but I think I know what went wrong, so now
+- "I made this. It didn't work out, but I think I know what went wrong, so now
   I'm working on something better."
 
 But if we quit before The Slog is finished, our project is a sentence fragment:
@@ -356,7 +390,8 @@ You made this _what_? What happened next?
 When we don't finish a project, we're left with no lessons, no enhanced
 understanding — we've essentially wasted our time.
 
-**Finishing — win or lose — lets us gather information to help us succeed in the future; quitting is the only true failure.**
+**Finishing — win or lose — lets us gather information to help us succeed in the
+future; quitting is the only true failure.**
 
 ## How to Make The Slog Easier
 
@@ -392,10 +427,12 @@ down and start tearing the idea into small, well-planned pieces.
 
 But we have to.
 
-**A project without a plan still requires planning. But it takes a lot longer to plan things _after_ they've already been done wrong.**
+**A project without a plan still requires planning. But it takes a lot longer to
+plan things _after_ they've already been done wrong.**
 
-So we can either take the time to [plan our projects effectively](/effective-project-planning), or we can spend far longer making up
-for poor planning during The Slog.
+So we can either take the time to
+[plan our projects effectively](/effective-project-planning), or we can spend
+far longer making up for poor planning during The Slog.
 
 ### 3. Have a clear idea of what "done" looks like.
 
@@ -412,9 +449,16 @@ achieving[^goal-setting] — it gives us a target to shoot for and a clearly
 defined finish line.
 
 [^goal-setting]:
-  Setting a goal that's too ambitious — for example, a brand new freelancer with no network to speak of setting a goal to make $10,000 per month within six months — is probably setting you up to fail. With a goal like that, getting to $8,000 per month (a huge accomplishment) would be a "failure". That makes what should have been a cause for celebration into something demotivating.
-  
-  A better way to approach an ambitious goal like that is to aim to grow revenue by 5% month over month, or to have a six-month operating fund set aside in cash. Both create a similar outcome — financial stability — without the extreme specificity that makes even a good outcome seem like a failure.
+  Setting a goal that's too ambitious — for example, a brand new freelancer with
+  no network to speak of setting a goal to make
+  $10,000 per month within six months — is probably setting you up to fail. With a goal like that, getting to $8,000
+  per month (a huge accomplishment) would be a "failure". That makes what should
+  have been a cause for celebration into something demotivating.
+
+  A better way to approach an ambitious goal like that is to aim to grow revenue
+  by 5% month over month, or to have a six-month operating fund set aside in
+  cash. Both create a similar outcome — financial stability — without the
+  extreme specificity that makes even a good outcome seem like a failure.
 
 Without a target, we might wander off course, lose our excitement in the absence
 of measurable progress, or simply run out of things to do and end up stuck.
@@ -451,9 +495,9 @@ So ship it. As soon as possible.
 The Slog is what kills most ideas. People who push through The Slog become
 Finishers, and Finishers are the people who get furthest in life.
 
-In the [story we tell ourselves about who we are](/stories), reaching the end of a plot line builds character. It
-boosts our confidence: "I'm a Finisher!" It builds momentum: our next project
-starts with a full head of steam.
+In the [story we tell ourselves about who we are](/stories), reaching the end of
+a plot line builds character. It boosts our confidence: "I'm a Finisher!" It
+builds momentum: our next project starts with a full head of steam.
 
 Abandoned projects do exactly the opposite: they undermine our confidence and
 sap our motivation.

@@ -5,17 +5,18 @@ title: Time Alone with My Thoughts
 seo_title: Meditation, Gratitude, Self-Reflection, and Being Too Cool
 slug: time-alone-with-my-thoughts
 description: >
-    How I'm going to implement new-agey techniques like meditation and gratitude journaling into my routine without actually drinking the Kool-Aid.
+  How I'm going to implement new-agey techniques like meditation and gratitude
+  journaling into my routine without actually drinking the Kool-Aid.
 
 category:
-- acting-like-a-grown-up
+  - acting-like-a-grown-up
 
 tag:
-- learning
-- meditation
+  - learning
+  - meditation
 
 images:
-- /images/solitary-reflection.jpg
+  - /images/solitary-reflection.jpg
 
 cta: default
 ---

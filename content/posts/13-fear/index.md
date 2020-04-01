@@ -5,17 +5,19 @@ title: The Fear
 seo_title: Fear of Failure, Truth or Dare, and Schrödinger's Kiss
 slug: fear
 description: >
-  When I was twelve, all I wanted to do was kiss Cindy. And I was pretty sure Cindy wanted to kiss me, too. But The Fear was certain a kiss spelled disaster.
+  When I was twelve, all I wanted to do was kiss Cindy. And I was pretty sure
+  Cindy wanted to kiss me, too. But The Fear was certain a kiss spelled
+  disaster.
 
 category:
-- motivation
+  - motivation
 
 tag:
-- confidence
-- stories
+  - confidence
+  - stories
 
 images:
-- /images/the-fear.jpg
+  - /images/the-fear.jpg
 
 cta: default
 ---
@@ -60,7 +62,8 @@ Hedgehog_, and she'd be on a roll[^dadpun], and I'd watch intently as she
 squared off with Dr. Robotnik.
 
 [^dadpun]:
-  Get it? Because... because it's Sonic. And he rolls. _Amirite?_ Ah, never mind.
+  Get it? Because... because it's Sonic. And he rolls. _Amirite?_ Ah, never
+  mind.
 
 In the split second after defeating the boss, while her heart was soaring with
 the joy of having saved the world from the clutches of evil, I'd wrap my arms
@@ -89,7 +92,8 @@ garage and sat on the bumper of her mom's minivan.[^sneaking] Even as she held
 my hand, I heard The Fear telling me it was all about to go wrong.
 
 [^sneaking]:
-  Because — of course — sneaking clumsily through the house was _far_ less conspicuous than staying in her room like we always did.
+  Because — of course — sneaking clumsily through the house was _far_ less
+  conspicuous than staying in her room like we always did.
 
 But it didn't go wrong.
 

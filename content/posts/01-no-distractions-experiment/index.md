@@ -5,17 +5,18 @@ title: The No-Distractions Productivity Experiment
 seo_title: The No-Distractions Productivity Experiment
 slug: no-distractions-experiment
 description: >
-    Yesterday I sat down and designed, developed, and wrote content for a new site. Now I need to find a way to stay this productive consistently.
+  Yesterday I sat down and designed, developed, and wrote content for a new
+  site. Now I need to find a way to stay this productive consistently.
 
 category:
-- remote-productivity
+  - remote-productivity
 
 tag:
-- GTD
-- productivity
+  - GTD
+  - productivity
 
 images:
-- /images/2013-04-23-16.07.15.jpg
+  - /images/2013-04-23-16.07.15.jpg
 
 cta: focus
 ---
