@@ -32,18 +32,18 @@ export default () => (
         }
       }
     `}
-    render={result => {
+    render={(result) => {
       const events = result.allAirtable.edges.map(({ node: { data } }) => data);
       const today = new Date();
 
       // Get a list of future and in-progress events.
       const upcoming = events.filter(
-        event => new Date(event.End_Date) >= today,
+        (event) => new Date(event.End_Date) >= today,
       );
 
       // Filter for past events and put them in reverse chronological order.
       const past = events
-        .filter(event => new Date(event.End_Date) < today)
+        .filter((event) => new Date(event.End_Date) < today)
         .reverse();
 
       return (
