@@ -1,7 +1,0 @@
-build:
-  command: gatsby-parallel-runner
-  publish: public
-  functions: functions
-
-plugins:
-  - package: netlify-plugin-pastel
