@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+  functions = "functions"
+
+[[plugins]]
+  package = "netlify-plugin-pastel"
