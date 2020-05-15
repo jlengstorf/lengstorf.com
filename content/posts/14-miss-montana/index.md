@@ -31,7 +31,7 @@ floor was _always_ sticky, but they sold a bucket of PBR for four dollars, and a
 Montana Happy Meal[^happymeal] for five.
 
 [^happymeal]:
-  A shot of Jameson with a PBR back.
+    A shot of Jameson with a PBR back.
 
 On a night where I'd been called in as wingman for Scott, we met with his date
 and — for the span of a beer — I did my best not to make him sound like a
@@ -210,7 +210,7 @@ I would have made a thousand mistakes and alienated myself from the Montana
 Beautiful Women's Club[^mtbwc] forever.
 
 [^mtbwc]:
-  Totally a thing.
+    Totally a thing.
 
 Any of those outcomes would have been fine. Even bad experiences are still
 _experiences_, you know?

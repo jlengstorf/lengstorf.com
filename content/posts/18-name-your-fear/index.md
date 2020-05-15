@@ -62,7 +62,7 @@ By seeing the full movie, I learn the reality of the story, and that takes away
 the paralyzing power of my ignorance and fear.[^the-ring]
 
 [^the-ring]:
-  Sure, _The Ring_ still scared the shit out of me, but I didn't lose any sleep afterward. I can guarantee the things my brain will dream up out of a storyline involving a dead girl who haunts your TV are _far worse_ than what happens in the movie.
+    Sure, _The Ring_ still scared the shit out of me, but I didn't lose any sleep afterward. I can guarantee the things my brain will dream up out of a storyline involving a dead girl who haunts your TV are _far worse_ than what happens in the movie.
 
 ## Take Away Its Power
 
@@ -73,7 +73,7 @@ our imaginations, the potential for catastrophe is alarmingly
 high.[^out-of-my-league]
 
 [^out-of-my-league]:
-  For an easy example, imagine asking someone out on a date that you think is "out of your league."
+    For an easy example, imagine asking someone out on a date that you think is "out of your league."
   
   I get anxious imagining it: I see her across the room, obviously more successful, socially adept, and better-looking than me. She's smiling, sharply dressed, surrounded by people who are laughing at the devilishly clever observation she just made about current events of which I'm appallingly ignorant.
   

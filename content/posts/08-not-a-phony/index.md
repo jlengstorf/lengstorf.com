@@ -51,10 +51,10 @@ pretty sure had black mold — but I don't really _feel_ different than that
 younger, less experienced version of myself.[^black-mold]
 
 [^creeping-normalcy]:
-  This is called [creeping normalcy][4], which is the idea that we don't notice changes if they happen in small increments over a long period of time. Usually this is used to describe negative changes, but the same effects seem to be present with the positive as well.
+    This is called [creeping normalcy][4], which is the idea that we don't notice changes if they happen in small increments over a long period of time. Usually this is used to describe negative changes, but the same effects seem to be present with the positive as well.
 
 [^black-mold]:
-  Except for the whole "not dying of black mold-related illness" thing.
+    Except for the whole "not dying of black mold-related illness" thing.
 
 There's the realization that knowing almost everything about Thing A only leads
 to the further realization that — in order to _truly_ understand the "big
@@ -128,7 +128,7 @@ This post sounds like bragging. Like I'm trying to tell everyone how great I am.
 I'm not.[^bragging]
 
 [^bragging]:
-  I am. I'm awesome.
+    I am. I'm awesome.
 
 What I'm trying to say here is that _it's okay to be proud of your
 accomplishments._
@@ -158,7 +158,7 @@ in conversation.
    learn from everyone else at the table.
 
 [^modesty]:
-  For example, if you launched a successful company, don't talk about the press or awards you're getting. Instead, talk about what you're _doing_, and let someone else talk about how much everyone else likes you.
+    For example, if you launched a successful company, don't talk about the press or awards you're getting. Instead, talk about what you're _doing_, and let someone else talk about how much everyone else likes you.
 
 It's not a complete list, but it (usually) keeps me from coming off like a
 douchebag.

@@ -60,7 +60,7 @@ Hedgehog_, and she'd be on a roll[^dadpun], and I'd watch intently as she
 squared off with Dr. Robotnik.
 
 [^dadpun]:
-  Get it? Because... because it's Sonic. And he rolls. _Amirite?_ Ah, never mind.
+    Get it? Because... because it's Sonic. And he rolls. _Amirite?_ Ah, never mind.
 
 In the split second after defeating the boss, while her heart was soaring with
 the joy of having saved the world from the clutches of evil, I'd wrap my arms
@@ -89,7 +89,7 @@ garage and sat on the bumper of her mom's minivan.[^sneaking] Even as she held
 my hand, I heard The Fear telling me it was all about to go wrong.
 
 [^sneaking]:
-  Because — of course — sneaking clumsily through the house was _far_ less conspicuous than staying in her room like we always did.
+    Because — of course — sneaking clumsily through the house was _far_ less conspicuous than staying in her room like we always did.
 
 But it didn't go wrong.
 
@@ -110,7 +110,7 @@ The Fear was certain I'd never win in the student elections, but I ran anyways.
 I was elected Junior Class Vice President.[^impeached]
 
 [^impeached]:
-  I was impeached about a month later. Long story. Ask me over drinks.
+    I was impeached about a month later. Long story. Ask me over drinks.
 
 The Fear screamed that my band would make me the butt of a lot of jokes. But I
 got on stage, and discovered my first real passion in music.

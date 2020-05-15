@@ -36,7 +36,7 @@ a child's future instead of a publicly traded company.
 We jokingly called it "Kidstarter".[^kidstarter]
 
 [^kidstarter]:
-  I just Googled it, and [Kidstarter is already a thing](http://www.kidstarter.org/). So to be clear, the "Kidstarter" I'm talking about in this article is a defunct startup concept, not the adults-helping-kids-do-social-good organization that actually exists.
+    I just Googled it, and [Kidstarter is already a thing](http://www.kidstarter.org/). So to be clear, the "Kidstarter" I'm talking about in this article is a defunct startup concept, not the adults-helping-kids-do-social-good organization that actually exists.
 
 "It'll remove the crippling college debts! It'll give parents and friends an
 incentive to encourage kids to excel! It'll create an economy based on wanting
@@ -67,7 +67,7 @@ Was it a little fucked up to encourage people to make bets (investments) on
 children's futures?[^loan]
 
 [^loan]:
-  Technically, this is no different than what Sallie Mae is doing, but still — just because one subset of corporations has reduced children to risk analyses and probability charts, does that make it a good idea?
+    Technically, this is no different than what Sallie Mae is doing, but still — just because one subset of corporations has reduced children to risk analyses and probability charts, does that make it a good idea?
 
 Would investing in a kid through Kidstarter qualify as _actual_ trading? Would
 the SEC need to be involved?
@@ -76,7 +76,7 @@ Was this even legal? And if it is, could we afford the inevitable lawsuits from
 the companies making a killing off student loans right now?[^uber]
 
 [^uber]:
-  We saw what was happening to Uber, and if cab drivers were able to give a startup that much legal trouble, well... We went a little pale at the thought of what a team of lawyers for a financial behemoth could do.
+    We saw what was happening to Uber, and if cab drivers were able to give a startup that much legal trouble, well... We went a little pale at the thought of what a team of lawyers for a financial behemoth could do.
 
 Did we need to get investors? How the hell do you get investors? Did we need to
 move to San Francisco and start saying things like "disrupt" and "pivot"?
@@ -89,7 +89,7 @@ toss the mangled, half-built corpse of the idea into the dark corner where all
 my abandoned projects lie forgotten.[^idea-purgatory]
 
 [^idea-purgatory]:
-  On my lonelier nights, I'll crack the door and peer inside, like a bored teenager checking the fridge. My parbaked ideas breathe in hopefully and don't breathe out so's not to jinx it and crane their semi-functional necks toward me.
+    On my lonelier nights, I'll crack the door and peer inside, like a bored teenager checking the fridge. My parbaked ideas breathe in hopefully and don't breathe out so's not to jinx it and crane their semi-functional necks toward me.
   
   The moment extends heavily. My expression is almost hopeful. But then I turn, and the door swings closed. In the darkness the ideas hear me shuffling away, muttering, "I'll get back to it. Soon."
 
@@ -126,7 +126,7 @@ abstract idea and start hacking it to concrete pieces — pieces you _hope_ to
 assemble into a finished project.[^frankenproject]
 
 [^frankenproject]:
-  To an outside observer, this process usually looks something like a butterfly emerging from its coccoon. But to the person who knows what the original idea looked like, the result is closer to Frankenstein's monster: not quite right, and uglier than it used to be.
+    To an outside observer, this process usually looks something like a butterfly emerging from its coccoon. But to the person who knows what the original idea looked like, the result is closer to Frankenstein's monster: not quite right, and uglier than it used to be.
 
 We each handle the idea-to-project transition differently, but we all go through
 the 5 Stages of Creation.
@@ -154,7 +154,7 @@ During Total Infatuation, we're convinced that this is The Best Goddamn Idea
 Ever™, and we'll deny any evidence to the contrary.[^haters]
 
 [^haters]:
-  Because fuck the haters!
+    Because fuck the haters!
 
 We're blinded by the benefits and potential gains. We can't understand how this
 doesn't already exist. We can't believe how _rich_ we're about to be.
@@ -232,7 +232,7 @@ the quicksand of The Slog — at which point I wander off in search of a newer,
 shinier idea and start the cycle all over again.[^artbiopic]
 
 [^artbiopic]:
-  If an art film is ever made about my creative process, it'll be a six minute loop of Sisyphus rolling a boulder up a hill while bragging loudly on his cell phone about how awesome his boulder is, then chasing it down the hill while angrily explaining to the cell phone that all boulders are stupid.
+    If an art film is ever made about my creative process, it'll be a six minute loop of Sisyphus rolling a boulder up a hill while bragging loudly on his cell phone about how awesome his boulder is, then chasing it down the hill while angrily explaining to the cell phone that all boulders are stupid.
 
 ### Some ideas should die.
 
@@ -248,7 +248,7 @@ Had we pushed into The Slog, we might still be there now, years later, buried in
 a lot of work[^debt] that we aren't equipped to handle.
 
 [^debt]:
-  Or, more likely, we'd be saddled with an _unbelievable_ amount of debt and stress from hiring people to handle all the challenges we'd be unable to handle alone.
+    Or, more likely, we'd be saddled with an _unbelievable_ amount of debt and stress from hiring people to handle all the challenges we'd be unable to handle alone.
 
 The
 <abbr title="The Creeping Realization That This Will Be More Work Than You Thought">TCRTTWBMWTYT</abbr>
@@ -260,7 +260,7 @@ are out of our reach[^reasonable] and coming to grips with the fact our project
 will require actual work.
 
 [^reasonable]:
-  When I say "out of our reach", I don't mean "impossible" — I mean that the amount of effort required to make it happen exceeds the benefits we can expect in return.
+    When I say "out of our reach", I don't mean "impossible" — I mean that the amount of effort required to make it happen exceeds the benefits we can expect in return.
 
 ### Most ideas don't make it past the Despair stage.
 
@@ -268,7 +268,7 @@ The truth is, most ideas can succeed.[^ideas] The reason they don't is that
 they're never finished.
 
 [^ideas]:
-  Take that sweeping generalization with a _huge_ grain of salt, but also keep in mind these ostensibly _terrible_ ideas that succeeded: the app Yo is [worth $5–10 million](http://bit.ly/1LLwliz); someone put filtered water in a bottle and charged a 4,000% markup; oh, and remember the [pet rock](https://en.wikipedia.org/wiki/Pet_Rock)?
+    Take that sweeping generalization with a _huge_ grain of salt, but also keep in mind these ostensibly _terrible_ ideas that succeeded: the app Yo is [worth $5–10 million](http://bit.ly/1LLwliz); someone put filtered water in a bottle and charged a 4,000% markup; oh, and remember the [pet rock](https://en.wikipedia.org/wiki/Pet_Rock)?
 
 When the full weight of an idea's workload comes crashing down, most ideas can't
 avoid being flattened. And once we've seen our ideas crushed, it's hard not to
@@ -412,7 +412,7 @@ achieving[^goal-setting] — it gives us a target to shoot for and a clearly
 defined finish line.
 
 [^goal-setting]:
-  Setting a goal that's too ambitious — for example, a brand new freelancer with no network to speak of setting a goal to make $10,000 per month within six months — is probably setting you up to fail. With a goal like that, getting to $8,000 per month (a huge accomplishment) would be a "failure". That makes what should have been a cause for celebration into something demotivating.
+    Setting a goal that's too ambitious — for example, a brand new freelancer with no network to speak of setting a goal to make $10,000 per month within six months — is probably setting you up to fail. With a goal like that, getting to $8,000 per month (a huge accomplishment) would be a "failure". That makes what should have been a cause for celebration into something demotivating.
   
   A better way to approach an ambitious goal like that is to aim to grow revenue by 5% month over month, or to have a six-month operating fund set aside in cash. Both create a similar outcome — financial stability — without the extreme specificity that makes even a good outcome seem like a failure.
 
