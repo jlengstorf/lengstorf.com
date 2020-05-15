@@ -68,7 +68,7 @@ crap that enforces the very class distinctions that this article is claiming to
 rail against.[^external-valuation]
 
 [^external-valuation]:
-  If everyone tells the girl stocking shelves that her job isn't glamorous, she'll have a hard time shaking that external valuation of what she does for a living.
+    If everyone tells the girl stocking shelves that her job isn't glamorous, she'll have a hard time shaking that external valuation of what she does for a living.
 
 I pay to have my house cleaned every two weeks by a local company, [The Green
 Clean Queen][2]. Joanna, the owner, loves her work. She has a huge amount of
@@ -166,7 +166,7 @@ people who are _actually_ being exploited would describe any love for their
 jobs.[^overkill-cult]
 
 [^overkill-cult]:
-  Keep in mind, though, that even if our bosses aren't _consciously_ exploiting us, there is definitely evidence that [our working culture is dangerously out of control](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a).
+    Keep in mind, though, that even if our bosses aren't _consciously_ exploiting us, there is definitely evidence that [our working culture is dangerously out of control](https://medium.com/digital-nomad-stories/the-cult-of-work-you-never-meant-to-join-cd965fb9ea1a).
 
 My employees love their jobs. But if I cross the line and ask more of them than
 they're comfortable giving, my team's happiness will suffer and they'll start
