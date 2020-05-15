@@ -91,7 +91,7 @@ my abandoned projects lie forgotten.[^idea-purgatory]
 [^idea-purgatory]:
     On my lonelier nights, I'll crack the door and peer inside, like a bored teenager checking the fridge. My parbaked ideas breathe in hopefully and don't breathe out so's not to jinx it and crane their semi-functional necks toward me.
   
-  The moment extends heavily. My expression is almost hopeful. But then I turn, and the door swings closed. In the darkness the ideas hear me shuffling away, muttering, "I'll get back to it. Soon."
+    The moment extends heavily. My expression is almost hopeful. But then I turn, and the door swings closed. In the darkness the ideas hear me shuffling away, muttering, "I'll get back to it. Soon."
 
 His concerns matched my own, so Kidstarter was over before it ever began.
 
@@ -308,7 +308,7 @@ more frustrating to share it than to keep it to yourself until you've made more
 progress.
 
 [^explaining]:
-  "Okay, so imagine that it's sort of like what you're looking at now, except this area is a totally awesome animation, and this piece here uses your Facebook profile to create a Venn diagram showing the overlap of people whose pets you've commented on and who like Nickelback, and then _that_ button causes Slash to come out and play a killer solo. Are you smelling what I'm stepping in? _Sick,_ right?"
+    "Okay, so imagine that it's sort of like what you're looking at now, except this area is a totally awesome animation, and this piece here uses your Facebook profile to create a Venn diagram showing the overlap of people whose pets you've commented on and who like Nickelback, and then _that_ button causes Slash to come out and play a killer solo. Are you smelling what I'm stepping in? _Sick,_ right?"
 
 This is a special kind of hell, because you're doing the least enjoyable chunk
 of the project's tasks, and you've already exhausted all the friendly ears in
@@ -414,7 +414,7 @@ defined finish line.
 [^goal-setting]:
     Setting a goal that's too ambitious — for example, a brand new freelancer with no network to speak of setting a goal to make $10,000 per month within six months — is probably setting you up to fail. With a goal like that, getting to $8,000 per month (a huge accomplishment) would be a "failure". That makes what should have been a cause for celebration into something demotivating.
   
-  A better way to approach an ambitious goal like that is to aim to grow revenue by 5% month over month, or to have a six-month operating fund set aside in cash. Both create a similar outcome — financial stability — without the extreme specificity that makes even a good outcome seem like a failure.
+    A better way to approach an ambitious goal like that is to aim to grow revenue by 5% month over month, or to have a six-month operating fund set aside in cash. Both create a similar outcome — financial stability — without the extreme specificity that makes even a good outcome seem like a failure.
 
 Without a target, we might wander off course, lose our excitement in the absence
 of measurable progress, or simply run out of things to do and end up stuck.
