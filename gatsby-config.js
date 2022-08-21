@@ -199,8 +199,8 @@ module.exports = {
     'gatsby-plugin-sitemap',
 
     // I _refuse to_ give up. ✊
-    // 'gatsby-plugin-remove-serviceworker',
-    'gatsby-plugin-offline',
+    'gatsby-plugin-remove-serviceworker',
+    // 'gatsby-plugin-offline',
 
     ...buildAlgoliaSearchIndex,
 
