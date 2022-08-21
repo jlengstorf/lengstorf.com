@@ -17,7 +17,7 @@ tag:
 images:
 - /images/take-a-break.jpg
 
-cta: focus
+cta: default
 ---
 
 On Thursday I took a break. A _real_ break.

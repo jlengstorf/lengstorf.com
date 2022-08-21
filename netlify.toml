@@ -2,3 +2,10 @@
   command = "npm run build"
   publish = "public"
   functions = "functions"
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.jason.af/posts/"
+  status = 301
+  force = false
+  headers = {X-From = "lengstorf.com"}
