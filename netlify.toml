@@ -7,5 +7,8 @@
   from = "/*"
   to = "https://www.jason.af/posts/"
   status = 301
-  force = false
-  headers = {X-From = "lengstorf.com"}
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-From = "lengstorf.com"
