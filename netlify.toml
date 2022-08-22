@@ -5,10 +5,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://www.jason.af/posts/"
+  to = "https://www.jason.af/posts?from=lengstorf.com"
   status = 301
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-From = "lengstorf.com"
