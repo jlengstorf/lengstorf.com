@@ -1,3 +1,10 @@
+# moved pages
+/ https://www.jason.af/ 301!
+/uses https://www.jason.af/uses/ 301!
+/newsletter https://www.jason.af/newsletter/ 301!
+/speaking https://www.polywork.com/jlengstorf 301!
+/about https://www.jason.af/ 301!
+
 # the code blog has moved to https://www.learnwithjason.dev/blog/
 /code/                                    https://www.learnwithjason.dev/blog
 /get-form-values-as-json/                 https://www.learnwithjason.dev/blog/get-form-values-as-json/        301

@@ -5,5 +5,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://www.jason.af/posts?from=lengstorf.com"
+  to = "https://www.jason.af/posts/redirected"
   status = 301
