@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build"
-  publish = "public"
-  functions = "functions"
+command = "npm run build"
+publish = "public"
+functions = "functions"
 
 [[redirects]]
-  from = "/*"
-  to = "https://www.jason.af/posts/redirected"
-  status = 301
+from = "/*"
+to = "https://www.jason.energy/posts/redirected"
+status = 301
